@@ -1,14 +1,14 @@
 ---
-title: "設定信封 （Edifact-interchange 設定） |Microsoft 文件"
-ms.custom: 
+title: 設定信封 （Edifact-interchange 設定） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 501ccc5f-e21c-4c36-9509-217d5b3ba21f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233518"
 ---
 # <a name="configuring-envelopes-edifact-interchange-settings"></a>設定信封 (EDIFACT-Interchange 設定)
 本節提供如何設定外寄 EDIFACT 訊息之信封的指示。  
@@ -39,14 +40,14 @@ ms.lasthandoff: 09/20/2017
   
 4.  如**通訊協議 (UNB10)**，輸入最少一個字元，最多 35 個字元的英數字元值。 這是選擇性欄位。  
   
-5.  選取**測試指示符號 (UNB11)**表示所產生的交換[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]是測試資料。  
+5.  選取**測試指示符號 (UNB11)** 表示所產生的交換[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]是測試資料。  
   
-6.  選取**套用 UNA 區段 （字串服務建議）**產生要傳送交換的 UNA 區段。 如果已核取此選項，然後**UNA6**不可為空白和**UNA 6 尾碼**不可**無**。  
+6.  選取**套用 UNA 區段 （字串服務建議）** 產生要傳送交換的 UNA 區段。 如果已核取此選項，然後**UNA6**不可為空白和**UNA 6 尾碼**不可**無**。  
   
     > [!NOTE]
     >  您指定**UNA6**和**UNA6 尾碼**中**字元集和分隔符號**頁面中所述[設定字元集和分隔符號 (EDIFACT)](../core/configuring-charset-and-separators-edifact.md).  
   
-7.  選取**套用 UNG 區段 （功能群組標頭）**功能群組標頭外寄訊息中建立群組區段。  
+7.  選取**套用 UNG 區段 （功能群組標頭）** 功能群組標頭外寄訊息中建立群組區段。  
   
 8.  按一下**套用**繼續進行組態之前接受變更，或按一下**確定**來驗證變更，然後關閉對話方塊。  
   

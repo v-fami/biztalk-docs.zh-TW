@@ -1,14 +1,14 @@
 ---
-title: "欄位位置計算 |Microsoft 文件"
-ms.custom: 
+title: 欄位位置計算 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7e315f09-f2c9-49cc-8d2f-0f4f2d48fd45
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246070"
 ---
 # <a name="field-position-calculation"></a>欄位位置計算
 
@@ -32,4 +33,4 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="see-also"></a>另請參閱  
 -  [位置記錄的考量](../core/positional-record-considerations.md)   
--  **Positional Length （一般檔案結構描述中的節點屬性）**和**Positional Offset （一般檔案結構描述中的節點屬性）**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+-  **Positional Length （一般檔案結構描述中的節點屬性）** 和**Positional Offset （一般檔案結構描述中的節點屬性）**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

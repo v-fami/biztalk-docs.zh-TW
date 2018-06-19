@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233926"
 ---
 # <a name="configuring-encoding-agreement-properties"></a>設定編碼協議屬性
 交易夥伴協議 (TPA) 是兩個交易夥伴之間透過特定 B2B 通訊協定交易訊息時所採用的決定性與繫結性協議。 簡單地說，TPA 指的是當兩個商務設定檔互相交換 B2B 訊息時，對於使用特定訊息編碼通訊協定 (X12 或 EDIFACT) 或特定傳輸通訊協定 (AS2) 的一種共識。 除了用來對於使用一致的編碼與傳輸通訊協議達成共識之外，協議還可以用來自訂訊息的格式與傳遞方式。  
@@ -32,7 +33,7 @@ ms.lasthandoff: 09/20/2017
   
  建立協議時，您必須考量下列事項：  
   
--   兩個合作對象之間的交易夥伴協議為雙向協議。 兩個合作對象 (Party A 與 Party B) 之間的單一協議可讓 Party A 傳送訊息給 Party B，且 Party A 亦可接收來自 Party B 的訊息。為了在使用者介面中呈現雙向協議，每個單向協議各以一個索引標籤來代表。因此，您也可以在協議使用者介面中，您會看到兩個索引標籤， **party a-> [partyb]** （代表單向協議的訊息會從合作對象 A 傳送至合作對象 B） 和**[partyb]-> party a** (代表單向協議從 Party b 傳送至 party a 的訊息。）  
+-   兩個合作對象之間的交易夥伴協議為雙向協議。 兩個合作對象 (Party A 與 Party B) 之間的單一協議可讓 Party A 傳送訊息給 Party B，且 Party A 亦可接收來自 Party B 的訊息。為了在使用者介面中呈現雙向協議，每個單向協議各以一個索引標籤來代表。因此，您也可以在協議使用者介面中，您會看到兩個索引標籤， **party a-> [partyb]** （代表單向協議的訊息會從合作對象 A 傳送至合作對象 B） 和 **[partyb]-> party a** (代表單向協議從 Party b 傳送至 party a 的訊息。）  
   
 -   每個單向協議皆代表一個端對端訊息交易。 另外，傳送或接收通知亦為同一個訊息交易的一部份，因此應該在同一個單向協議索引標籤上設定。例如，假設 Party A 傳送 EDI 交換給 Party B 以及回應，合作對象 B 通知傳回給合作對象 a。因此，與傳送交換並預期收到通知相關的所有屬性必須都設定**party a-> partyb**  索引標籤。  
   

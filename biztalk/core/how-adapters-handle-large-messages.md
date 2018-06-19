@@ -1,14 +1,14 @@
 ---
-title: "配接器如何處理大型訊息 |Microsoft 文件"
-ms.custom: 
+title: 配接器如何處理大型訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c48671fd-b6cf-4507-92b4-35a4cd135714
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247014"
 ---
 # <a name="how-adapters-handle-large-messages"></a>配接器如何處理大型訊息
 「BizTalk 傳訊引擎」可處理非常大型的訊息，且不會限制訊息的最大大小。 但是，您應考慮限制訊息的大小，以維護最佳效能及資源管理。 隨著訊息大小的增加，每秒鐘可處理的訊息數量會跟著減少。 在設計您的案例及規劃容量時，請考慮 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 所處理的平均訊息大小、訊息類型以及訊息數量。  
@@ -34,7 +35,7 @@ ms.lasthandoff: 09/20/2017
   
  配接器在提交訊息到引擎時，應會將其資料流附加到 BizTalk 訊息。 對某些配接器而言，這可能表示實作網路資料流。 訊息提交之後，引擎就會執行接收管線。 在管線執行時，想要變更資料的管線元件會複製該資料，將資料流從新訊息連線到上一個訊息上的資料流。 管線執行之後，「傳訊引擎」會從管線取出訊息，並執行迴圈，讀取該訊息上的資料流。 這個讀取資料流的動作會在上一個資料流上叫用讀取，接著又在上一個資料流叫用讀取，依此類推，一直回到網路資料流。 引擎會定期排清資料到 MessageBox，以維護一般記憶體模型。  
   
- **疑難排解秘訣：**在傳送端，配接器會負責讀取資料流。 如果傳送配接器想要讀取任何在傳送管線中升級或寫入的訊息內容屬性，在讀取整個資料流之前，這些屬性可能不會被寫入。 只有當資料流已完全讀取時，配接器才可確定所有管線元件都已完成執行。  
+ **疑難排解秘訣：** 在傳送端，配接器會負責讀取資料流。 如果傳送配接器想要讀取任何在傳送管線中升級或寫入的訊息內容屬性，在讀取整個資料流之前，這些屬性可能不會被寫入。 只有當資料流已完全讀取時，配接器才可確定所有管線元件都已完成執行。  
   
 ## <a name="locating-a-specific-byte-in-the-stream"></a>找出資料流中的特定位元組  
  在某些案例中，配接器可能需要從頭找回資料流，處理需要擱置的失敗訊息。 舉例來說，HTTP 配接器會使用區塊編碼接收資料，提交請求-回應組中的回應訊息。  

@@ -1,18 +1,18 @@
 ---
-title: "實作管線元件中的字元編碼方式 |Microsoft 文件"
-ms.custom: 
+title: 實作管線元件中的字元編碼方式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components [custom], examples
 - pipeline components [custom], code samples
 - pipeline components [custom], encoding
 ms.assetid: 862b56da-ec14-41f9-b63c-42d81124e167
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257046"
 ---
 # <a name="implementing-character-encoding-in-a-pipeline-component"></a>實作管線元件中的字元編碼方式
 若要支援自訂字元編碼方式，您必須實作自訂編碼類別，藉由衍生自 Microsoft.NET Framework**編碼**類別，然後從標準一般繼承來建立自訂的一般檔案管線元件檔案解譯器 」 或 「 一般檔案組合器元件。 您可以藉由覆寫的受保護的虛擬方法提供新的編碼執行個體剖析引擎**FFDasmComp.GetDataReader**如下列範例所示。  

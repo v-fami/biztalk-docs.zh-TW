@@ -1,11 +1,11 @@
 ---
-title: "如何使用 Web 服務陣列 |Microsoft 文件"
-ms.custom: 
+title: 如何使用 Web 服務陣列 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP adapters, Web services
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - orchestrations, Web services
 - orchestrations, Web ports
 ms.assetid: 29ecaaed-aa8a-4cf9-a7c8-4b0d6dd412ac
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249894"
 ---
 # <a name="how-to-consume-web-service-arrays"></a>如何使用 Web 服務陣列
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 讓您能夠從 [BizTalk 協調流程] 使用 Web 服務中公開的陣列。  

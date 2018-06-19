@@ -1,14 +1,14 @@
 ---
-title: "產生外寄 MDN |Microsoft 文件"
-ms.custom: 
+title: 產生外寄 MDN |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 12d7da1c-0d3c-42d4-9388-29f499353d13
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247950"
 ---
 # <a name="generating-an-outgoing-mdn"></a>產生外寄 MDN
 AS2 接收管線會針對內送訊息產生 MDN (訊息處理通知) 回應。 這項工作是由 AS2EDIReceive 接收管線中的 EDI 解譯器 (回應 EDI 編碼的訊息) 或 AS2Receive 接收管線中的 AS2 解譯器 (回應非 EDI 編碼的訊息) 負責執行。  
@@ -38,7 +39,7 @@ AS2 接收管線會針對內送訊息產生 MDN (訊息處理通知) 回應。 �
   
 -   如果會傳送 MDN**要求 MDN**選取屬性。  
   
--   如果**要求 MDN**選取屬性，而**要求非同步 MDN**屬性，將會以非同步方式傳送 MDN。 MDN 會傳送到的 URL，**回條傳遞選項 (URL)**屬性設定為，透過與原始訊息不同的連線。  
+-   如果**要求 MDN**選取屬性，而**要求非同步 MDN**屬性，將會以非同步方式傳送 MDN。 MDN 會傳送到的 URL，**回條傳遞選項 (URL)** 屬性設定為，透過與原始訊息不同的連線。  
   
 -   如果**要求 MDN**選取屬性，但**要求非同步 MDN**未選取屬性，將以同步方式傳送 MDN，透過與原始訊息相同的連線。  
   

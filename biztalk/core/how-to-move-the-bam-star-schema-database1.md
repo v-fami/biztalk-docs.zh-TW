@@ -1,17 +1,17 @@
 ---
-title: "如何移動 BAM 星狀結構描述 Database1 |Microsoft 文件"
-ms.custom: 
+title: 如何移動 BAM 星狀結構描述 Database1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Star Schema database [BAM], migrating
 - migrating, Star Schema database [BAM]
 ms.assetid: b4a5f8fc-0dc4-4987-b96f-ecd49bd4dba3
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254238"
 ---
 # <a name="how-to-move-the-bam-star-schema-database"></a>如何移動 BAM 星狀結構描述資料庫
 您可以使用這個程序將「BAM 星狀結構描述」資料庫移動到其他伺服器。  

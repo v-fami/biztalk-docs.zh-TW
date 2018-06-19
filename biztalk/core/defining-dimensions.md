@@ -1,11 +1,11 @@
 ---
-title: "定義維度 |Microsoft 文件"
-ms.custom: 
+title: 定義維度 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - aggregations [BAM], dimensions
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Excel add-in [BAM], creating dimensions
 - dimensions [BAM]
 ms.assetid: c00e0c45-eef2-42d9-832c-4be08d79203f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238486"
 ---
 # <a name="defining-dimensions"></a>定義維度
 Microsoft Excel 將維度定義成類別，可用來將表格資料組織到用於分析的層級中。 例如，位置資料維度可能包含城市、州/省和國家/地區等層級。 在「BAM 檢視精靈」中建立 BAM 檢視時，您可以新增一或多個下列維度類型：  

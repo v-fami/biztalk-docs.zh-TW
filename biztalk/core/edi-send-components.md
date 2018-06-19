@@ -1,14 +1,14 @@
 ---
-title: "EDI 傳送元件 |Microsoft 文件"
-ms.custom: 
+title: EDI 傳送元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fce270db-a573-48b3-be15-0178a5b7785b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239926"
 ---
 # <a name="edi-send-components"></a>EDI 傳送元件
 本主題所介紹的管線和管線元件，會處理不屬於 EDI/AS2 訊息的 EDI 訊息。 如需傳送 EDI/AS2 或非 EDI/AS2 訊息的資訊，請參閱[AS2 傳送元件](../core/as2-send-components.md)。 請注意，除了執行 AS2 處理之外，AS2 傳送元件也會執行 EDI 處理。  

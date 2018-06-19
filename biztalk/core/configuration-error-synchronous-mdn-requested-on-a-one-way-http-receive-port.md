@@ -1,14 +1,14 @@
 ---
-title: "組態錯誤。 對單向 HTTP 要求同步 MDN 的接收埠 |Microsoft 文件"
-ms.custom: 
+title: 組態錯誤。 對單向 HTTP 要求同步 MDN 的接收埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f140c7a4-46bf-4557-9679-cdaf2fbe66f4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232198"
 ---
 # <a name="configuration-error-synchronous-mdn-requested-on-a-one-way-http-receive-port"></a>組態錯誤。 對單向 HTTP 接收埠要求同步 MDN
 ## <a name="details"></a>詳細資料  

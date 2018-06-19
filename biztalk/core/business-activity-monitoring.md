@@ -1,14 +1,14 @@
 ---
-title: "商務活動監控 |Microsoft 文件"
-ms.custom: 
+title: 商務活動監控 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 83b3c92f-3062-413e-8d89-797f1c7ea7ab
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232726"
 ---
 # <a name="business-activity-monitoring"></a>商務活動監控
 資訊工作者需要在查看及評估商務程序上具有彈性。 例如，採購經理可能需要知道每日有多少採購單已核准或已拒絕，而業務經理可能需要產品訂購的每小時更新資訊。 要符合這些不同的需求，需要整體性的架構來追蹤商務程序中發生的狀況。 這正是 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中的「商務活動監控」(BAM) 元件所要提供的。  

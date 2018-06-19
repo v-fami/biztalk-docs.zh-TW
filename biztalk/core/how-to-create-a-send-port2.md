@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250238"
 ---
 # <a name="how-to-create-a-send-port"></a>如何建立傳送埠
 本主題描述如何使用 BizTalk Server 管理主控台來建立傳送埠。 建立傳送埠時，您必須選取要建立的傳送埠類型，如下所示：  

@@ -1,14 +1,14 @@
 ---
-title: "擴充 (BTS-XSD) 驗證 |Microsoft 文件"
-ms.custom: 
+title: 擴充 (BTS-XSD) 驗證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f225115d-8890-4149-8e46-d1bc8af17e62
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245950"
 ---
 # <a name="extended-bts-xsd-validation"></a>擴充 (BTS-XSD) 驗證
 唯有當結構描述已經自訂了資料型別不同於 EDI 資料型別的元素時，EDI 接收管線和 EDI 傳送管線才會執行擴充驗證。 這些加入的元素不會由 EDI 驗證方法予以驗證，所以會納入擴充驗證範圍。 擴充驗證會使用 `System.Xml.XmlValidatingReader`，並會包括可在標準 XSD 中定義的所有檢查。  

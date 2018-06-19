@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22257510"
 ---
 # <a name="instance-message-processing-using-distinguished-fields"></a>使用辨別欄位處理執行個體訊息
 使用 升級屬性 **辨別欄位** 機制不需要建立屬性結構描述。 當您使用所有的屬性升級 **升級屬性** 對話方塊中，以存取使用 **升級屬性** 屬性 **結構描述** 節點在訊息結構描述，或使用 **升階 & #124;顯示升級** 命令 **BizTalk** 或快顯功能表。  

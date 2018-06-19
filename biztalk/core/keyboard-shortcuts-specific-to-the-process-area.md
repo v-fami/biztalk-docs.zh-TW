@@ -1,17 +1,17 @@
 ---
-title: "鍵盤快速鍵特有的 「 處理區域 |Microsoft 文件"
-ms.custom: 
+title: 鍵盤快速鍵特有的 「 處理區域 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - keyboard shortcuts, Orchestration Designer
 - Orchestration Designer, keyboard shortcuts
 ms.assetid: d993d341-99f2-4788-b1f3-6a8b911e5278
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262062"
 ---
 # <a name="keyboard-shortcuts-specific-to-the-process-area"></a>「 處理區域的專用鍵盤快速鍵
 下表描述 [處理區域] 中可用的鍵盤巡覽方式，[處理區域] 是設計介面的中央區域，用來定義協調流程的處理流程。  

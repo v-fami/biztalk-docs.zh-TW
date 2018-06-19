@@ -1,14 +1,14 @@
 ---
-title: "相互關聯的內送交易集與外寄批次 |Microsoft 文件"
-ms.custom: 
+title: 相互關聯的內送交易集與外寄批次 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2fbe40f8-7379-42be-b8a7-070ce8a7ce26
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239406"
 ---
 # <a name="correlating-an-incoming-transaction-set-with-an-outgoing-batch"></a>使內送交易集與外寄批次相互關聯
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 可讓您將提交至「批次處理協調流程」的 EDI 交易集與外寄批次相互關聯。 您可以透過讓提交至「批次處理協調流程」(BTSInterchangeID) 的狀態報告項目與協調流程 (ActivityID) 的狀態報告項目相互關聯，藉此完成這項操作。 此相互關聯是使用 BusinessMessageJournal BAM 活動中的項目執行。 這些項目是由「批次處理協調流程」在接收批次元素時建立。  

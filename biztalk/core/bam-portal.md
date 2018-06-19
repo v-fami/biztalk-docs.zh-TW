@@ -1,11 +1,11 @@
 ---
-title: "BAM 入口網站 |Microsoft 文件"
-ms.custom: 
+title: BAM 入口網站 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM portal, alerts
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - BAM, portals
 - BAM portal, aggregations
 ms.assetid: 593c9637-6b97-4ad8-8af7-2b49325acf10
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232078"
 ---
 # <a name="bam-portal"></a>BAM 入口網站
 商務使用者使用 BAM 入口網站來監控「關鍵效能指標」(KPI)，此 KPI 會測量達到商務目標的進度，以及有關商務程序的其他資訊。 商務分析師使用 BAM 入口網站來監督觀察模型的建立，觀察模型是商務程序中可見性需求的高階定義。 系統管理員會在各種不同的監控活動中使用觀察模型，其中包括監控商務程序管理系統的狀況。  

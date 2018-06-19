@@ -1,17 +1,17 @@
 ---
-title: "BAM 的考量，程式碼維護 |Microsoft 文件"
-ms.custom: 
+title: BAM 的考量，程式碼維護 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM, code maintenance
 - BAMInterceptor class
 ms.assetid: e1f1d8e0-207c-47e1-b9bd-a473c86922ce
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238094"
 ---
 # <a name="considerations-for-bam-code-maintenance"></a>BAM 程式碼維護的考量
 在決定如何檢測應用程式以便使用 BAM 時，您應該考量未來需求變更的可能性。 如果您在其中一個 [Microsoft.BizTalk.Bam.EventObservation.EventStream](http://msdn.microsoft.com/library/microsoft.biztalk.bam.eventobservation.eventstream.aspx) 類別上呼叫方法來寫入受監視的資料，您基本上就是以「硬式編碼」的方式在應用程式中寫入觀察模型。 如果您需要變更受監視的資料，就必須先讓應用程式離線，變更程式碼並重新編譯該應用程式，然後重新部署更新的應用程式。  

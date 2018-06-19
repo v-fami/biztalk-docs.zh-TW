@@ -1,14 +1,14 @@
 ---
-title: "設定驗證 （Edifact-interchange 設定） |Microsoft 文件"
-ms.custom: 
+title: 設定驗證 （Edifact-interchange 設定） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 55820ebc-fe21-48a3-8985-1bf4184176ac
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233078"
 ---
 # <a name="configuring-validation-edifact-interchange-settings"></a>設定驗證 (EDIFACT-Interchange 設定)
 本節提供如何避免重複處理控制編號的指示。  
@@ -33,9 +34,9 @@ ms.lasthandoff: 09/20/2017
   
 2.  在單向協議索引標籤底下**交換設定**區段中，按一下**驗證**。  
   
-3.  選取**交換控制編號 (UNB5)**核取方塊以啟用接收管線封鎖重複的交換。 如果選取，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會檢查所接收交換的交換控制編號，是否與其他所接收交換的交換控制編號相符。 如果偵測到相符項目時，接收管線不會處理交換。  
+3.  選取**交換控制編號 (UNB5)** 核取方塊以啟用接收管線封鎖重複的交換。 如果選取，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會檢查所接收交換的交換控制編號，是否與其他所接收交換的交換控制編號相符。 如果偵測到相符項目時，接收管線不會處理交換。  
   
-4.  如果**交換控制編號 (UNB5)**選取時，在**檢查重複的 unb5 內**欄位中，輸入檢查重複交換的天數。  
+4.  如果**交換控制編號 (UNB5)** 選取時，在**檢查重複的 unb5 內**欄位中，輸入檢查重複交換的天數。  
   
 5.  選取**交換中的群組控制編號 (UNG5)** ，避免接收管線處理重複的群組。  
   

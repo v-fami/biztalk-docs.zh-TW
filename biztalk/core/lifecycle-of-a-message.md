@@ -1,11 +1,11 @@
 ---
-title: "訊息的生命週期 |Microsoft 文件"
-ms.custom: 
+title: 訊息的生命週期 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, MessageBox database
@@ -28,7 +28,7 @@ helpviewer_keywords:
 - orchestrations, about orchestrations
 - messages, send ports
 ms.assetid: d2374f86-9b5f-404f-ba7b-9cab69873fa8
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -37,6 +37,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262822"
 ---
 # <a name="lifecycle-of-a-message"></a>訊息的生命週期
 下圖提供從傳訊觀點來看的 BizTalk Server 架構之概要簡介。  
@@ -84,9 +85,9 @@ ms.lasthandoff: 09/20/2017
   
 -   使用**GetInstance**擷取服務執行個體物件。  
   
--   使用**Instance.Messages []**列舉服務執行個體目前參考的所有訊息。  
+-   使用**Instance.Messages []** 列舉服務執行個體目前參考的所有訊息。  
   
--   訊息物件上使用方法，例如**Message.BodyPart []**和**Message.Context []**存取並儲存它。  
+-   訊息物件上使用方法，例如**Message.BodyPart []** 和**Message.Context []** 存取並儲存它。  
   
 ### <a name="from-the-dta"></a>從 DTA  
   

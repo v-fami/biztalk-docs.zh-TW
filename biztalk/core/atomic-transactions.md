@@ -1,11 +1,11 @@
 ---
-title: "不可部分完成交易 |Microsoft 文件"
-ms.custom: 
+title: 不可部分完成交易 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - atomic transactions
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - scopes, transactions
 - scopes
 ms.assetid: 5030e1fd-943f-42bc-9296-4f315bd5f733
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233542"
 ---
 # <a name="atomic-transactions"></a>不可部分完成交易
 BizTalk 協調流程的設計按照傳統的 'ACID' 交易概念，可執行離散的工作片段。 當執行這些離散或不可部分完成的工作單位時，便會將商務程序從一個一致的狀態移到新的一致、耐用狀態，而且該狀態會是與其他工作單位隔離的。 這通常是使用**範圍**建構封裝使用交易式語意的單位。 整個協調流程也可以定義為不可部分完成的交易，而不需要使用範圍。 不過，除非協調流程本身被標記為長時間執行或不可部分完成的交易類型，否則不能將範圍標記為交易式的。 不可部分完成的交易可保證任何部分更新在交易更新期間作業失敗時都會自動復原，且會清除交易的結果 (在交易中進行的任何 .NET 呼叫結果除外)。 在 BizTalk 協調流程中的不可部分完成交易與分散式交易協調器 (DTC) 交易的相似處在於，它們通常都是短時間的，而且都具有四個「ACID」屬性 (不可部分完成性、一致性、隔離性與耐用性)：  

@@ -1,14 +1,14 @@
 ---
-title: "如何使用 MessageBox 直接繫結連接埠 |Microsoft 文件"
-ms.custom: 
+title: 如何使用 MessageBox 直接繫結連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1839184b-408e-4ac6-94a4-a0eb708183f6
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255910"
 ---
 # <a name="how-to-use-messagebox-direct-bound-ports"></a>如何使用 MessageBox 直接繫結連接埠
 MessageBox 直接繫結連接埠可讓您直接將訊息放入 MessageBox 資料庫，而不指定明確的收件者；以及訂閱符合特定準則的訊息，而非來自特定傳送者的訊息。  

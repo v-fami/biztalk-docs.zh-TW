@@ -1,14 +1,14 @@
 ---
-title: "建立單一登入應用程式 |Microsoft 文件"
-ms.custom: 
+title: 建立單一登入應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c1a43677-36ab-4543-b7d5-18e5bedbaf3c
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22237910"
 ---
 # <a name="creating-a-single-sign-on-application"></a>建立單一登入應用程式
 本節提供「企業單一登入」(SSO) 技術的相關資訊。  

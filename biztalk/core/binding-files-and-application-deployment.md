@@ -1,11 +1,11 @@
 ---
-title: "繫結檔案和應用程式部署 |Microsoft 文件"
-ms.custom: 
+title: 繫結檔案和應用程式部署 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - bindings
@@ -29,7 +29,7 @@ helpviewer_keywords:
 - binding files, deploying
 - bindings, binding files
 ms.assetid: 396ad021-8001-4ed8-8b28-85b72f981fae
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -38,6 +38,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234062"
 ---
 # <a name="binding-files-and-application-deployment"></a>繫結檔案和應用程式部署
 本主題提供使用繫結檔案讓 BizTalk 組件和應用程式部署更為容易的概觀資訊。 您可能會在下列案例中發現，使用繫結檔案即可避免手動設定繫結，因此可以使部署加速：  

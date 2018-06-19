@@ -1,14 +1,14 @@
 ---
-title: "EDI 標頭和結尾 |Microsoft 文件"
-ms.custom: 
+title: EDI 標頭和結尾 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5cf1dae3-9570-413d-a85d-94dcbb561906
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241926"
 ---
 # <a name="edi-headers-and-trailers"></a>EDI 標頭與結尾
 EDI 交換的部分會以標頭和結尾分隔，這些標頭和結尾必須符合 X12 或 EDIFACT 標準。 交換控制標頭和結尾只會出現一次，而如果交易集和群組在交換內進行批次處理，則功能群組和交易集標頭和結尾會重複出現。 標頭和結尾是由一系列的資料項目組成，其中包括標頭和結尾所包含內容的相關資訊。  

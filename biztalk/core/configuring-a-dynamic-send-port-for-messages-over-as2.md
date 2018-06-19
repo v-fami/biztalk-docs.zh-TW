@@ -1,14 +1,14 @@
 ---
-title: "透過 AS2 的訊息設定動態傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 透過 AS2 的訊息設定動態傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 246d64e8-70ca-48f4-8b72-d43b0964dbb4
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233886"
 ---
 # <a name="configuring-a-dynamic-send-port-for-messages-over-as2"></a>為透過 AS2 的訊息設定動態傳送埠
 本主題將說明如何設定讓 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 透過動態傳送埠傳送 AS2 訊息。 這項設定包括建立動態傳送埠，以及設定後端應用程式以設定適當的內容屬性。 在建立動態傳送埠以傳送 AS2 訊息時，您必須升級部分屬性，傳送埠才能運作。 如需詳細資訊，請參閱[設定 BizTalk Server 傳送 AS2 訊息透過動態傳送埠](../core/configuring-a-dynamic-send-port-for-messages-over-as2.md#BKMK_Proc)下方。  
@@ -27,9 +28,9 @@ ms.lasthandoff: 09/20/2017
   
 |位置|屬性|設定|  
 |--------------|--------------|-------------|  
-|**傳送埠屬性： 一般**|連接埠類型|-動態請求回應 (如果在 要求 MDN**通知 (Mdn)**選取頁面的單向協議索引標籤)<br /><br /> -動態單向傳送埠 (如果在 要求 MDN**通知 (Mdn)**清除頁面的單向協議索引標籤)|  
+|**傳送埠屬性： 一般**|連接埠類型|-動態請求回應 (如果在 要求 MDN**通知 (Mdn)** 選取頁面的單向協議索引標籤)<br /><br /> -動態單向傳送埠 (如果在 要求 MDN**通知 (Mdn)** 清除頁面的單向協議索引標籤)|  
 |**傳送埠屬性： 一般**|傳送管線|-AS2EdiSend （用於 EDI 編碼訊息）<br /><br /> -AS2Send （用於非 EDI 訊息）|  
-|**傳送埠屬性： 一般**|接收管線<br /><br /> (如果在 要求 MDN**通知 (Mdn)**選取頁面的單向協議索引標籤)|AS2Receive (用於動態請求回應傳送埠)|  
+|**傳送埠屬性： 一般**|接收管線<br /><br /> (如果在 要求 MDN**通知 (Mdn)** 選取頁面的單向協議索引標籤)|AS2Receive (用於動態請求回應傳送埠)|  
 |**傳送埠屬性： 篩選**|屬性|BTS.MessageType|  
 |**傳送埠屬性： 篩選**|運算子|==|  
 |**傳送埠屬性： 篩選**|值|- `http://schemas.microsoft.com/BizTalk/EDI/X12/2006#<schema name>`（適用於 EDI 訊息）<br /><br /> - `http://schemas.microsoft.com/Edi/X12#X12_<997 or TA1>_Root`(對於 X12 通知)<br /><br /> - `http://schemas.microsoft.com/Edi/Efact#Efact_Contrl_Root`（適用於 EDIFACT 通知）|  

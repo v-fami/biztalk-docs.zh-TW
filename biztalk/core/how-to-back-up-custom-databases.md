@@ -1,18 +1,18 @@
 ---
-title: "如何備份自訂資料庫 |Microsoft 文件"
-ms.custom: 
+title: 如何備份自訂資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - custom databases
 - customizing, custom databases
 - backing up, custom databases
 ms.assetid: 86bebf3c-968e-4fad-9dab-ced1b04aaac7
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247334"
 ---
 # <a name="how-to-back-up-custom-databases"></a>如何備份自訂資料庫
 由於自訂資料庫不會隨 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 一起安裝，因此沒有包括在可供「備份 BizTalk Server」作業標示及備份的預設資料庫清單中。 如果要讓「備份 BizTalk Server」工作備份自訂資料庫，您必須手動將該資料庫加入「備份 BizTalk Server」工作。  

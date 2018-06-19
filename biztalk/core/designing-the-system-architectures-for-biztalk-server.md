@@ -1,17 +1,17 @@
 ---
-title: "設計系統架構，以便讓 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 設計系統架構，以便讓 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, security
 - security, deploying
 ms.assetid: b7ded72a-2487-4bb7-9894-cd13235a52c7
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239270"
 ---
 # <a name="designing-the-system-architectures-for-biztalk-server"></a>設計 BizTalk Server 的系統架構
 對 Microsoft® BizTalk® Server 部署的安全性、效能、可用性及運作上面的需求，是完全根據您的商務需要、需求、商務夥伴以及公司規模等等而定。 要將 BizTalk Server 元件的任何單一組態當作典型組態，並提供規定的指南，是相當困難的，因此本節提供在大型企業的分散式安全生產環境組態中，設定不同 BizTalk Server 功能的指南及建議。  

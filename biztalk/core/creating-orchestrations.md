@@ -1,17 +1,17 @@
 ---
-title: "建立協調流程 |Microsoft 文件"
-ms.custom: 
+title: 建立協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, creating
 - creating, orchestrations
 ms.assetid: 992418df-0acb-448f-9e12-ad857bf93f62
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238206"
 ---
 # <a name="creating-orchestrations"></a>建立協調流程
 本章節描述當您建立協調流程及設計商務流程時，需要執行的各種工作。  

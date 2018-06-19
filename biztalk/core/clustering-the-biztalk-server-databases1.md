@@ -1,11 +1,11 @@
 ---
-title: "叢集 BizTalk Server Databases1 |Microsoft 文件"
-ms.custom: 
+title: 叢集 BizTalk Server Databases1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - clustering, how to
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - clustering, databases
 - clustering, prerequisites
 ms.assetid: 9a1ed843-483b-4a56-961b-bc6801a07b64
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232430"
 ---
 # <a name="clustering-the-biztalk-server-databases"></a>叢集 BizTalk Server 資料庫
 本節提供部署具有高可用性之 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 解決方案的指導方針。 如果[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫會變成無法使用，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境將無法正確運作。 若要提供高可用性，您可以建立的 Microsoft SQL Server 叢集中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫，如下圖所示。  

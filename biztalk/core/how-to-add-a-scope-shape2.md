@@ -1,17 +1,17 @@
 ---
-title: "如何新增範圍 Shape2 |Microsoft 文件"
-ms.custom: 
+title: 如何新增範圍 Shape2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Scope shapes, adding
 - adding, Scope shapes
 ms.assetid: 9449210f-1f29-4b86-a14b-148caa06ac6b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,13 +20,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22246798"
 ---
 # <a name="how-to-add-a-scope-shape"></a>如何新增範圍圖形
 使用下列程序新增**範圍**圖形。  
   
 ### <a name="to-add-a-scope-shape"></a>若要新增範圍圖形  
   
-1.  以滑鼠右鍵按一下下方的箭號**[receivefromin]**通訊埠，請指向**插入圖形**，然後選取**範圍**。  
+1.  以滑鼠右鍵按一下下方的箭號 **[receivefromin]** 通訊埠，請指向**插入圖形**，然後選取**範圍**。  
   
      在**範圍**」 圖形，設定可能有錯誤的作業。  
   

@@ -1,17 +1,17 @@
 ---
-title: "一般檔案組合器管線元件 |Microsoft 文件"
-ms.custom: 
+title: 一般檔案組合器管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, Flat File Assembler
 - Flat File Assembler [pipeline component]
 ms.assetid: 3c851771-55b2-4d21-9291-d707dd66837c
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245862"
 ---
 # <a name="flat-file-assembler-pipeline-component"></a>一般檔案組合器管線元件
 一般檔案組合器將個別文件組合成一批檔案，並可以選擇是否在上面加入標頭或結尾 (或兩者)。 如需一般檔案的詳細資訊，請參閱[具有分隔記錄的一般檔案訊息](../core/flat-file-messages-with-delimited-records.md)。 另請參閱[具有位置記錄的一般檔案訊息](../core/flat-file-messages-with-positional-records.md)。  

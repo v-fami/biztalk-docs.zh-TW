@@ -1,14 +1,14 @@
 ---
-title: "ExportSettings 命令 |Microsoft 文件"
-ms.custom: 
+title: ExportSettings 命令 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fa34dab1-c854-473e-a693-43ba45624e16
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22245942"
 ---
 # <a name="exportsettings-command"></a>ExportSettings 命令
 ExportSettings 指令碼可讓您將 BizTalk Server 組態資料庫中的 BizTalk Server 設定匯出至 XML 檔案。 您可以再匯入另一個環境中的這些設定中所述[如何匯入 BizTalk 設定使用設定儀表板](../core/how-to-import-biztalk-settings-using-settings-dashboard.md)或[如何使用 BTSTask 匯入 BizTalk 設定](../core/how-to-import-biztalk-settings-using-btstask.md)。  

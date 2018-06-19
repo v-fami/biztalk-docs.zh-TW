@@ -1,14 +1,14 @@
 ---
-title: "如何使用 Web 服務僅供傳訊實例中 |Microsoft 文件"
-ms.custom: 
+title: 如何使用 Web 服務僅供傳訊實例中 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 66873959-5b1b-4d9b-ad19-f083670420b8
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22249422"
 ---
 # <a name="how-to-consume-web-services-in-a-messaging-only-scenario"></a>如何在僅供傳訊實例中使用 Web 服務
 SOAP 配接器的其中一項新增強功能，就是可以在僅供傳訊實例中使用根據訊息內容決定路由傳送埠來呼叫 Web 服務。 這項功能可以讓配接器直接使用 Web 服務，而不用另外建立協調流程。 這項功能也會使得 Web 服務使用效能更好，因為這時訊息並不用通過協調流程。  

@@ -1,11 +1,11 @@
 ---
-title: "管理成品 |Microsoft 文件"
-ms.custom: 
+title: 管理成品 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [applications], artifacts
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - artifacts, managing
 - managing [artifacts], about managing artificats
 ms.assetid: aa7c5e60-7c16-4bcf-b913-b1bdfc5c7543
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262254"
 ---
 # <a name="managing-artifacts"></a>管理成品
 本節說明如何管理成品，包括如何在 BizTalk 應用程式中新增和移除成品，以及如何設定其屬性。  

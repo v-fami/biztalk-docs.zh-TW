@@ -17,7 +17,7 @@ helpviewer_keywords:
 - examples, filters
 - messages, examples
 ms.assetid: 8fba494c-9257-4eed-8b6a-867056147c2c
-caps.latest.revision: ''
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22234726"
 ---
 # <a name="cbrsample-biztalk-server-sample"></a>CBRSample （BizTalk Server 範例）
 CBRSample 範例會示範如何套用篩選條件和輸出對應，以轉換並根據內容來路由執行個體訊息。  
@@ -143,7 +144,7 @@ CBRSample 範例會示範如何套用篩選條件和輸出對應，以轉換並�
   
 2.  觀察每個檔案如何轉換和路由傳送至下列其中兩個輸出的值為基礎的資料夾其 **CountryCode** 項目 (100 和 200):  
   
-    -   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 轉換和路由的輸入的檔**[cbrdatacan.xml]**至資料夾：  
+    -   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 轉換和路由的輸入的檔 **[cbrdatacan.xml]** 至資料夾：  
   
          `<Samples Path>` **\Messaging\CBRSample\CAN**  
   

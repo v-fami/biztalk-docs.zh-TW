@@ -1,18 +1,18 @@
 ---
-title: "使用管線設計師建立管線 |Microsoft 文件"
-ms.custom: 
+title: 使用管線設計師建立管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Pipeline Designer, how to
 - creating, pipelines
 - pipelines, creating
 ms.assetid: cd72e77d-642b-491c-aaa7-20683616b8c9
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238318"
 ---
 # <a name="creating-pipelines-with-pipeline-designer"></a>使用管線設計師建立管線
 本節說明如何：  

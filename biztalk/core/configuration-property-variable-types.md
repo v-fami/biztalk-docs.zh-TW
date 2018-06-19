@@ -1,11 +1,11 @@
 ---
-title: "組態屬性變數型別 |Microsoft 文件"
-ms.custom: 
+title: 組態屬性變數型別 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, properties
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - binding files, data types
 - adapters, data types
 ms.assetid: 703219ce-e275-4a07-a2ad-28010d8363e6
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232806"
 ---
 # <a name="configuration-property-variable-types"></a>組態屬性變數型別
 繫結檔案之 TransportTypeData\CustomProps 節點中的配接器組態屬性符合 .NET Framework VarEnum 列舉中的可用資料型別。 下表列出相關資料型別。  

@@ -1,14 +1,14 @@
 ---
-title: "如何管理其他 Visual Studio 視窗 |Microsoft 文件"
-ms.custom: 
+title: 如何管理其他 Visual Studio 視窗 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b86f50e2-ca25-4521-b31a-06ac16f129b1
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254438"
 ---
 # <a name="how-to-manage-other-visual-studio-windows"></a>如何管理其他 Visual Studio 視窗
 「BizTalk 編輯器」中的某些作業使用其他 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 視窗，即 [輸出] 視窗和 [工作清單] 視窗。 這些視窗是用來顯示作業的輸出，例如產生範例執行個體訊息或驗證結構描述及執行個體。 本主題提供管理這些視窗的逐步說明。  

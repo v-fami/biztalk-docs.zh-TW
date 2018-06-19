@@ -1,14 +1,14 @@
 ---
-title: "設定通知 (Mdn) (AS2) |Microsoft 文件"
-ms.custom: 
+title: 設定通知 (Mdn) (AS2) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb2bf98a-deb4-460f-a1fc-3d2397c39470
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234102"
 ---
 # <a name="configuring-acknowledgements-mdns-as2"></a>設定通知 (MDN) (AS2)
 在夥伴協議中，您可以指定收到 AS2 訊息的合作對象如何產生並傳回 MDN 回應。  
@@ -49,7 +50,7 @@ ms.lasthandoff: 09/20/2017
         > [!NOTE] 
         > **從開始[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]和較新版本**，SHA2 支援會自動包含。 如先前[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]版本中，請參閱[KB 3123748](https://support.microsoft.com/kb/3123748)。
   
-    2.  選取**要求非同步 MDN**核取方塊，然後在**回條傳遞選項 (URL)**文字方塊中，輸入接收合作對象應該傳送 MDN 的 URL。  
+    2.  選取**要求非同步 MDN**核取方塊，然後在**回條傳遞選項 (URL)** 文字方塊中，輸入接收合作對象應該傳送 MDN 的 URL。  
   
          如果**要求非同步 MDN**核取方塊已選取，您也可以設定下列屬性：  
   
@@ -60,7 +61,7 @@ ms.lasthandoff: 09/20/2017
   
         2.  如果**重新傳送 AS2 訊息，若未收到 MDN**選取核取方塊時，請檢查**覆寫傳送埠設定**指定**最小值的 HTTP 重試間隔**和**HTTP 重試嘗試次數**。 輸入一個值**停止嘗試 HTTP 重試後**欄位來指定要使用 HTTP 配接器嘗試重試時間的最大數量。  
   
-    3.  如果您選取**要求非同步 MDN**核取方塊，而且指定的 URL**回條傳遞選項 (URL)**屬性，**配置通知至**文字方塊中，依預設設定為相同的 URL。 如果您未選取**要求非同步 MDN**核取方塊，您必須輸入的值**配置通知至**。 在處理 AS2 的過程中並不會使用這個欄位的值。  
+    3.  如果您選取**要求非同步 MDN**核取方塊，而且指定的 URL**回條傳遞選項 (URL)** 屬性，**配置通知至**文字方塊中，依預設設定為相同的 URL。 如果您未選取**要求非同步 MDN**核取方塊，您必須輸入的值**配置通知至**。 在處理 AS2 的過程中並不會使用這個欄位的值。  
   
 5.  按一下**套用**繼續進行組態之前接受變更，或按一下**確定**來驗證變更，然後關閉對話方塊。  
   

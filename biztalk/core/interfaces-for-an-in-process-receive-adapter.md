@@ -1,14 +1,14 @@
 ---
-title: "介面的內含式接收配接器 |Microsoft 文件"
-ms.custom: 
+title: 介面的內含式接收配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4ed668d9-7512-4026-a8f3-df05aeed4df6
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257646"
 ---
 # <a name="interfaces-for-an-in-process-receive-adapter"></a>內含式接收配接器的介面
 「傳訊引擎」會具現化和設定內含式配接器，並傳入傳輸 Proxy 以允許配接器存取其功能。 若要啟用組態並與傳輸 Proxy 繫結，配接器必須實作下列的組態介面：  

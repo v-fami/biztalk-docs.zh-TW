@@ -1,17 +1,17 @@
 ---
-title: "設定 Wcf-wshttp 配接器 |Microsoft 文件"
-ms.custom: 
+title: 設定 Wcf-wshttp 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [WCF-WSHttp adapters]
 - WCF-WSHttp adapters, configuring
 ms.assetid: 19e7e4cf-d78d-4f99-944d-f898046abde6
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232622"
 ---
 # <a name="configuring-the-wcf-wshttp-adapter"></a>設定 WCF-WSHttp 配接器
 本節說明如何設定 WCF-WSHttp 配接器。  

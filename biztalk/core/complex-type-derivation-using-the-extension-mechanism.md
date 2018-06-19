@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22232470"
 ---
 # <a name="complex-type-derivation-using-the-extension-mechanism"></a>使用延伸模組機制的複雜型別衍生
 由延伸模組衍生的複雜類型是其基底資料型別的功能超集。 正如其名所示，它的基底資料型別是所定義型別的基礎，與基底型別的差異為附加的。 本主題提供範例，其中兩個項目 **ShippingAddress** 和 **BillingAddress** 複雜全域型別會根據 **GlobalAddrType**。 **ShippingAddress** 只是定義為型別的 **GlobalAddrType**, ，而 **BillingAddress** 則定義為延伸類型 **GlobalAddrType**。 在此範例結束時，其他項目加入至 **BillingAddress**, 具名 **部門**, 、 字串型別與預設值為 Accounts Payable。  

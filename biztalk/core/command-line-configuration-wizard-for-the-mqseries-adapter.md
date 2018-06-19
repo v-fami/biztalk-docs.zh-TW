@@ -1,11 +1,11 @@
 ---
-title: "MQSeries 配接器的命令列組態精靈 |Microsoft 文件"
-ms.custom: 
+title: MQSeries 配接器的命令列組態精靈 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [MQSeries adapters], silent configuration
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Command-Line Configuration Wizard
 - MQSeries adapters, Command-Line Configuration Wizard
 ms.assetid: cab905d1-fe19-4d6a-be1b-f561e133e1d2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232054"
 ---
 # <a name="command-line-configuration-wizard-for-the-mqseries-adapter"></a>MQSeries 配接器的命令列組態精靈
 此精靈在安裝、解除安裝和記錄動作方面有四個選項。  

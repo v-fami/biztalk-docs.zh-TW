@@ -1,14 +1,14 @@
 ---
-title: "AS2 BizTalk Server 中的處理 |Microsoft 文件"
-ms.custom: 
+title: AS2 BizTalk Server 中的處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0027d3db-24a5-459d-9f4e-a75f49d31d82
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233734"
 ---
 # <a name="as2-processing-in-biztalk-server"></a>BizTalk Server 中的 AS2 處理
 本主題將提供概觀，介紹在接收端與傳送端進行的 AS2 訊息處理，以及交易夥伴協議如何協助完成 AS2 訊息處理。  

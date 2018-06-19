@@ -1,11 +1,11 @@
 ---
-title: "部署程序 |Microsoft 文件"
-ms.custom: 
+title: 部署程序 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, deploying
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - SSO, LogonExternalUser test
 - SSO, security
 ms.assetid: 7dd4c022-c70b-467a-bf94-dc4ac6029f81
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240662"
 ---
 # <a name="deployment-process"></a>部署程序
 下列步驟提供安全部署「企業單一登入」的高層級概觀。 如需在 SQL Server 中執行之動作的詳細程序，請參閱您的 SQL Server 手冊。  
@@ -32,33 +33,33 @@ ms.lasthandoff: 09/20/2017
   
     -   **名稱：** ORCH.com  
   
-    -   **方向：**雙向  
+    -   **方向：** 雙向  
   
-    -   **側邊：**僅此網域  
+    -   **側邊：** 僅此網域  
   
-    -   **連出信任驗證等級-本機網域：**選擇性驗證  
+    -   **連出信任驗證等級-本機網域：** 選擇性驗證  
   
-    -   **密碼：**選擇的密碼  
+    -   **密碼：** 選擇的密碼  
   
     -   **確認連出信任：** [是]  
   
-    -   **確認連入信任：**否  
+    -   **確認連入信任：** 否  
   
 2.  在 ORCH.com 網域控制站，使用「新增信任精靈」建立包含以下屬性的信任：  
   
     -   **名稱：** SQL.com  
   
-    -   **方向：**雙向  
+    -   **方向：** 雙向  
   
-    -   **側邊：**僅此網域  
+    -   **側邊：** 僅此網域  
   
-    -   **連出信任驗證等級-本機網域：**選擇性驗證  
+    -   **連出信任驗證等級-本機網域：** 選擇性驗證  
   
-    -   **密碼：**必須是 ORCH.com 的密碼相同  
+    -   **密碼：** 必須是 ORCH.com 的密碼相同  
   
     -   **確認連出信任：** [是]  
   
-    -   **確認連入信任：**否  
+    -   **確認連入信任：** 否  
   
 3.  在 ORCH.com 網域控制站，設定從 SQL.COM 連入的網域整體信任。  
   

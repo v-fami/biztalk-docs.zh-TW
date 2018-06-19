@@ -1,14 +1,14 @@
 ---
-title: "設定字元集和分隔符號 (X12) |Microsoft 文件"
-ms.custom: 
+title: 設定字元集和分隔符號 (X12) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6249f2e1-70b0-4960-bbc4-0c3fefd26faa
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234494"
 ---
 # <a name="configuring-charset-and-separators-x12"></a>設定字元集與分隔符號 (X12)
 在夥伴協議中，您可以指定建立 X12 外寄訊息的信封時，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 用來驗證合作對象屬性的字元集。 您也可以指定要在交換的區段中使用的分隔字元與結束字元。  
@@ -83,11 +84,11 @@ ms.lasthandoff: 09/20/2017
   
     -   **任何**區段結束字元 + **CR LF**尾碼  
   
-    -   **D （十六進位）**區段結束字元 +**無**尾碼： 這個組合就如同區段結束字元空白且尾碼設定為 CR。  
+    -   **D （十六進位）** 區段結束字元 +**無**尾碼： 這個組合就如同區段結束字元空白且尾碼設定為 CR。  
   
     -   （十六進位） 區段結束字元 +**無**尾碼： 這個組合就如同區段結束字元空白且尾碼設定為 LF。  
   
-    -   **D （十六進位）**區段結束字元 + **LF**尾碼： 這個組合就如同區段結束字元為 CR 且尾碼設定為 LF。  
+    -   **D （十六進位）** 區段結束字元 + **LF**尾碼： 這個組合就如同區段結束字元為 CR 且尾碼設定為 LF。  
   
 8.  如果裝載資料含有也用來當做資料、 區段或元件分隔字元，請檢查**取代內容中的分隔符號**並指定取代字元。 產生 X12 外寄訊息時，內容資料中的所有分隔符號字元都將被取代為指定的字元。 選取**Char**字元資料元素或**Hex**十六進位資料元素。 當您變更格式時，您所輸入的字元將自動變更**Char**至**Hex** ，反之亦然。  
   

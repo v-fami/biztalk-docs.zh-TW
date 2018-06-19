@@ -1,11 +1,11 @@
 ---
-title: "設定遠端偵錯的協調流程 |Microsoft 文件"
-ms.custom: 
+title: 設定遠端偵錯的協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Microsoft.XLANGs.BizTalk.Client.dll.config, code sample
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - building, debugging
 - building, code sample
 ms.assetid: 722efaec-d160-48dc-b94b-0733c9904d98
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233406"
 ---
 # <a name="configuring-remote-debugging-for-orchestrations"></a>設定協調流程的遠端偵錯
 您可以完整設定用戶端和伺服器之間的遠端偵錯。 Microsoft.XLANGs.BizTalk.Client.dll.config 中指定的用戶端組態。BTSNTSvc.exe.config 中指定的伺服器組態。以下是每個預設組態的清單。  

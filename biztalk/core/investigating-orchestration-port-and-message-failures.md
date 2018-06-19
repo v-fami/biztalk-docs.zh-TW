@@ -1,11 +1,11 @@
 ---
-title: "調查協調流程、 連接埠和訊息失敗 |Microsoft 文件"
-ms.custom: 
+title: 調查協調流程、 連接埠和訊息失敗 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Administration Console [BizTalk Server], Group Hub page
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - messages, errors
 - data, MessageBox database
 ms.assetid: 50b0d272-2d48-4e0f-82ce-6ecc7a65b064
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262302"
 ---
 # <a name="investigating-orchestration-port-and-message-failures"></a>調查協調流程、連接埠和訊息失敗
 您可使用 [BizTalk Server 管理] 主控台中的「群組中樞」頁面，來調查協調流程、連接埠和訊息失敗。 「群組中樞」頁面提供系統目前即時狀態的存取，可供您存取 MessageBox 資料庫中的資料。 您可檢視所有服務執行個體 (如協調流程、連接埠和傳訊)，及其關聯的訊息。 使用「群組中樞」頁面可以：  

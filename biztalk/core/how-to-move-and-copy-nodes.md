@@ -1,14 +1,14 @@
 ---
-title: "如何移動和複製節點 |Microsoft 文件"
-ms.custom: 
+title: 如何移動和複製節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e4f1ec14-c607-4da3-9139-73a61963b819
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254766"
 ---
 # <a name="how-to-move-and-copy-nodes"></a>如何移動和複製節點
 您可能會遇到需要移動現有節點至結構描述樹狀結構中不同位置的情況。 您也可以在結構描述樹狀結構中複製現有的節點，然後將它貼到不同的位置來節省時間。 本主題提供執行這些工作的逐步解說。  

@@ -1,14 +1,14 @@
 ---
-title: "EDI 區段結構項目 |Microsoft 文件"
-ms.custom: 
+title: EDI 區段結構項目 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1f474a3d-004a-4981-b155-b0a5775918ba
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22242214"
 ---
 # <a name="edi-segment-structural-element"></a>EDI 區段結構項目
 此區段包含一個或多個資料項目，而且是訊息中的中繼資訊單位。 每個區段三個字元的資料區段的識別項，以開始和結尾區段結束字元 （依預設單引號 （'））。 區段中的資料項目是以資料項目分隔符號分隔。 預設的資料項目分隔符號是加號 (+)。 區段可分類為強制或選用兩種。 外寄交換的分隔符號可以設定兩個交易夥伴之間，或做為後援交易夥伴協議一部分的協議中。  

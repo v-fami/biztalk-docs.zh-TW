@@ -1,11 +1,11 @@
 ---
-title: "商務規則架構安全性 |Microsoft 文件"
-ms.custom: 
+title: 商務規則架構安全性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, code samples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - security, artifacts
 - business rules, security
 ms.assetid: 86582d3a-259e-47f2-9f72-8dbbe0051503
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232686"
 ---
 # <a name="business-rules-framework-security"></a>商務規則架構安全性
 「商務規則引擎」在主控件應用程式的安全性內容中作業。 規則引擎執行個體執行期間的識別則是確認的執行緒內容會叫用**Policy.Execute**方法。  

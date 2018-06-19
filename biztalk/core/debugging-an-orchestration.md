@@ -1,11 +1,11 @@
 ---
-title: "協調流程偵錯 |Microsoft 文件"
-ms.custom: 
+title: 協調流程偵錯 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - debugging, Orchestration Debugger
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - debugging, HAT
 - HAT, debugging
 ms.assetid: aae99cfd-d3dd-41c8-ae7a-b2733352cd69
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238582"
 ---
 # <a name="debugging-an-orchestration"></a>偵錯協調流程
 「協調流程偵錯工具」能讓您依圖形逐步追蹤單一協調流程執行個體的活動。 它會顯示「協調流程偵錯工具」中建立之轉換的協調流程檢視。  

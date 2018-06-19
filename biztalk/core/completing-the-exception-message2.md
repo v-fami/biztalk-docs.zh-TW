@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233302"
 ---
 # <a name="completing-the-exception-message"></a>完成例外狀況訊息
 若要完成例外狀況流程，建立**傳送**訊息，並將錯誤 Message_3 重新導向至監控的資料夾。  

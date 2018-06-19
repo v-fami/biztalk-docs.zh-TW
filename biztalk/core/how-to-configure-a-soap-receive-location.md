@@ -1,11 +1,11 @@
 ---
-title: "如何設定 SOAP 接收位置 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 SOAP 接收位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [SOAP adapters], virtual directories
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - SOAP adapters, virtual directories
 - receive locations, SOAP adapters
 ms.assetid: 7e348409-9181-47e4-b3c0-c73eb2acffa3
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250158"
 ---
 # <a name="how-to-configure-a-soap-receive-location"></a>如何設定 SOAP 接收位置
 您可以用程式設計方式或使用 [[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台] 來設定 SOAP 接收位置。  

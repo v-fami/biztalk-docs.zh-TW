@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240918"
 ---
 # <a name="error---external-assembly-for-scripting-functoid-cannot-be-invoked"></a>錯誤-指令碼處理運算質的外部組件無法叫用
 **錯誤碼**  

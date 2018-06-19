@@ -1,11 +1,11 @@
 ---
-title: "執行叢集 Host1 內的配接器處理常式的考量 |Microsoft 文件"
-ms.custom: 
+title: 執行叢集 Host1 內的配接器處理常式的考量 |Microsoft 文件
+ms.custom: ''
 ms.date: 2016-03-17
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - high availability
@@ -27,7 +27,7 @@ helpviewer_keywords:
 - MSMQ adapters, clustering
 - clustering
 ms.assetid: ee66663c-4f4d-4515-9df1-aacf4fc72be4
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -36,6 +36,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238478"
 ---
 # <a name="considerations-for-running-adapter-handlers-within-a-clustered-host"></a>在叢集主控件中執行配接器處理常式的考量
 BizTalk 主控件叢集支援可為下列整合 BizTalk 配接器提供高可用性： FTP 配接器、 SFTP 配接器、 MSMQ 配接器和 POP3 配接器。 在執行配接器的單一執行個體時也提供主控件叢集支援，以提供高可用性，進行排序的傳遞。  

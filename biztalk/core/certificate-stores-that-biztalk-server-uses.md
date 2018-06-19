@@ -1,11 +1,11 @@
 ---
-title: "BizTalk Server 使用的憑證存放區 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 使用的憑證存放區 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - public key certificates
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - certificates, certificate stores
 - certificate stores
 ms.assetid: 29b65913-be3b-45d9-9865-02e52e4370f4
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233798"
 ---
 # <a name="certificate-stores-that-biztalk-server-uses"></a>BizTalk Server 使用的憑證存放區
 BizTalk Server 使用兩種憑證存放區：公開金鑰的「其他人」憑證存放區，以及私密金鑰的每個主控件執行個體服務帳戶的「個人」憑證存放區。  

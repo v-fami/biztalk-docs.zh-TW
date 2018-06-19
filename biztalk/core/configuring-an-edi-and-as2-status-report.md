@@ -1,15 +1,15 @@
 ---
-title: "設定 EDI 和 AS2 狀態報告 |Microsoft 文件"
-description: "建立 EDI 或 AS2 狀態報告查詢運算式中，並選取您要在 BizTalk Server 中的報表中顯示的資料"
-ms.custom: 
+title: 設定 EDI 和 AS2 狀態報告 |Microsoft 文件
+description: 建立 EDI 或 AS2 狀態報告查詢運算式中，並選取您要在 BizTalk Server 中的報表中顯示的資料
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6490864d-f1e6-4932-aefb-c332a595aad7
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233678"
 ---
 # <a name="configure-an-edi-and-as2-status-report"></a>設定 EDI 和 AS2 狀態報告
 您已啟用 EDI 或 AS2 狀態報告，顯示狀態報告之後，您想從**EDI 狀態報告**或**EDIINT 狀態報告**區段**群組中樞**索引標籤**群組概觀**頁面[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台。 當您顯示狀態報告時，您會看到預設的資料集。 您可以設定狀態報告的下列各方面：  

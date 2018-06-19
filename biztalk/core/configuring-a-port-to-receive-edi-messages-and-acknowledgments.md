@@ -1,14 +1,14 @@
 ---
-title: "設定連接埠來接收 EDI 訊息，通知 |Microsoft 文件"
-ms.custom: 
+title: 設定連接埠來接收 EDI 訊息，通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c043e648-b7f5-40aa-b7b5-0172fbea7b31
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234206"
 ---
 # <a name="configuring-a-port-to-receive-edi-messages-and-acknowledgments"></a>設定連接埠來接收 EDI 訊息和通知
 若要接收 EDI 交換，您可以建立單向接收埠或要求-回應 (雙向) 接收埠來接收交換。  
@@ -45,8 +46,8 @@ ms.lasthandoff: 09/20/2017
 |位置|屬性|設定|  
 |--------------|--------------|-------------|  
 |**接收埠屬性： 一般**|連接埠類型|要求回應|  
-|**接收埠屬性： 一般**|驗證|設定為**驗證失敗時捨棄訊息**或**驗證失敗時保留訊息**來驗證傳送所接收的訊息的合作對象。<br /><br /> 設定為**不驗證**停用驗證傳送所接收的訊息的合作對象。<br /><br /> **注意：**如果設定為**驗證失敗時捨棄訊息**或**驗證失敗時保留訊息**，訊息必須解析為協議。|  
-|**接收位置屬性： 一般**|傳輸類型|可以是任何數目的傳輸類型，但不是下拉式清單中的檔案除外。<br /><br /> **注意：**當您建立使用 EDIReceive 管線，並具有 HTTP 的傳輸類型的接收位置，可能會發生安全性問題。 EDIReceive 管線不會產生 HTTP "200 OK" 通知。 若未傳回 EDI 通知，則連線會維持開啟直到逾時為止。|  
+|**接收埠屬性： 一般**|驗證|設定為**驗證失敗時捨棄訊息**或**驗證失敗時保留訊息**來驗證傳送所接收的訊息的合作對象。<br /><br /> 設定為**不驗證**停用驗證傳送所接收的訊息的合作對象。<br /><br /> **注意：** 如果設定為**驗證失敗時捨棄訊息**或**驗證失敗時保留訊息**，訊息必須解析為協議。|  
+|**接收位置屬性： 一般**|傳輸類型|可以是任何數目的傳輸類型，但不是下拉式清單中的檔案除外。<br /><br /> **注意：** 當您建立使用 EDIReceive 管線，並具有 HTTP 的傳輸類型的接收位置，可能會發生安全性問題。 EDIReceive 管線不會產生 HTTP "200 OK" 通知。 若未傳回 EDI 通知，則連線會維持開啟直到逾時為止。|  
 |**接收位置屬性： 一般**|接收處理常式|BizTalkServerApplication|  
 |**接收位置屬性： 一般**|接收管線|EdiReceive|  
 |**接收位置屬性： 一般**|傳送管線|EdiSend|  

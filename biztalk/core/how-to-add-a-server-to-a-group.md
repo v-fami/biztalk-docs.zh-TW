@@ -1,11 +1,11 @@
 ---
-title: "如何將伺服器新增至群組 |Microsoft 文件"
-ms.custom: 
+title: 如何將伺服器新增至群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - groups, servers
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - servers, groups
 - managing [servers], adding to groups
 ms.assetid: 6eca1eeb-1a56-4470-b3bc-c64865cf6270
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247678"
 ---
 # <a name="how-to-add-a-server-to-a-group"></a>如何將伺服器新增至群組
 您可以使用「BizTalk 伺服器組態」，將伺服器新增至 BizTalk 群組。 將額外的伺服器新增至 BizTalk 群組，可擴充您的 BizTalk Server 環境。  

@@ -1,14 +1,14 @@
 ---
-title: "SMTP 配接器的已知問題 |Microsoft 文件"
-ms.custom: 
+title: SMTP 配接器的已知問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b530e39e-c4e7-4b98-be0b-4d02eb2e8dc7
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261846"
 ---
 # <a name="known-issues-with-the-smtp-adapter"></a>SMTP 配接器的已知問題
 本節包含可幫助您避免錯誤的資訊。  

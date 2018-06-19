@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247358"
 ---
 # <a name="how-to-add-parameters-to-orchestrations"></a>如何新增參數至協調流程
 您可以在 [協調流程檢視] 視窗中指定協調流程應該採用何種參數。 協調流程可以採用下列項目做為參數：  

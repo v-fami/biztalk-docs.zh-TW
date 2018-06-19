@@ -1,14 +1,14 @@
 ---
-title: "動態傳送埠處理常式是可設定 |Microsoft 文件"
-ms.custom: 
+title: 動態傳送埠處理常式是可設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5eb8f5ef-af95-4b2e-9a43-6f1240b25855
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "22240590"
 ---
 # <a name="dynamic-send-port-handler-is-configurable"></a>可設定動態傳送埠處理常式
 建立動態傳送埠時，配接器傳送處理常式是可以針對 *每* 安裝配接器。 請考慮下列案例：  

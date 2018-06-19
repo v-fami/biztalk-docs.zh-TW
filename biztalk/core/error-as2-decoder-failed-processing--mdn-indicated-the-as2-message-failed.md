@@ -1,14 +1,14 @@
 ---
-title: "AS2 解碼器處理失敗，因為 MDN 表示 AS2 訊息處理失敗 |Microsoft 文件"
-ms.custom: 
+title: AS2 解碼器處理失敗，因為 MDN 表示 AS2 訊息處理失敗 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2bce620a-f336-435e-b7c3-3db060f2819d
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240118"
 ---
 # <a name="the-as2-decoder-failed-processing-because-the-mdn-indicated-the-as2-message-failed-processing"></a>AS2 解碼器處理失敗，因為 MDN 表示 AS2 訊息處理失敗
 ## <a name="details"></a>詳細資料  

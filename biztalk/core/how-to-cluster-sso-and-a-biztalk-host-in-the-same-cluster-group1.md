@@ -1,14 +1,14 @@
 ---
-title: "如何叢集化 SSO 與 BizTalk 主控件在相同的叢集 Group1 |Microsoft 文件"
-ms.custom: 
+title: 如何叢集化 SSO 與 BizTalk 主控件在相同的叢集 Group1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 413cc8f4-f343-4c1c-8b79-3b15cb4c101d
-caps.latest.revision: "44"
+caps.latest.revision: 44
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250622"
 ---
 # <a name="how-to-cluster-sso-and-a-biztalk-host-in-the-same-cluster-group"></a>如何叢集化 SSO 與 BizTalk 主控件使其位於相同的叢集群組
 與[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]您可以在相同的 Windows 伺服器叢集上叢集一或多個 BizTalk 主控件和 「 企業單一登入 (SSO) 服務。  
@@ -143,10 +144,10 @@ ms.lasthandoff: 09/20/2017
   
     9. 按一下**相依性** 索引標籤的內容 對話方塊中，然後按一下**插入**。  
   
-    10. 按一下下拉式方塊底下**資源**，選取**名稱：**資源，然後按一下**確定**。  
+    10. 按一下下拉式方塊底下**資源**，選取**名稱：** 資源，然後按一下**確定**。  
   
         > [!IMPORTANT]
-        >  如果您不會加入至相依性**名稱：**資源，當使用者嘗試連絡 SSO 服務的這個叢集執行個體 SSO 用戶端電腦會產生類似下面的錯誤：  
+        >  如果您不會加入至相依性**名稱：** 資源，當使用者嘗試連絡 SSO 服務的這個叢集執行個體 SSO 用戶端電腦會產生類似下面的錯誤：  
         >   
         >  無法擷取主要密碼。  
         >   

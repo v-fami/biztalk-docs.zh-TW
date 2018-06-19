@@ -15,7 +15,7 @@ helpviewer_keywords:
 - HAT, terminiating orchestrations
 - orchestrations, terminating [HAT]
 ms.assetid: b5d44cce-b05c-47f9-9015-5b10c2312bf1
-caps.latest.revision: ''
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22255238"
 ---
 # <a name="how-to-terminate-suspended-orchestration-instances"></a>如何終止擱置的協調流程執行個體
 您可以從 BizTalk Server 管理主控台中的 [查詢結果] 或 [預覽] 窗格，終止任何擱置的協調流程執行個體或連接埠。  

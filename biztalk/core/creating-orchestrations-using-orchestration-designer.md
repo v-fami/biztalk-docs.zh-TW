@@ -1,11 +1,11 @@
 ---
-title: "建立協調流程使用協調流程設計師 |Microsoft 文件"
-ms.custom: 
+title: 建立協調流程使用協調流程設計師 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, Orchestration Designer
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - orchestrations, creating
 - creating, orchestrations
 ms.assetid: 622423f0-372d-4f56-bcf1-e5775189ad45
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238062"
 ---
 # <a name="creating-orchestrations-using-orchestration-designer"></a>建立協調流程使用協調流程設計師
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 工作流程中的協調流程  

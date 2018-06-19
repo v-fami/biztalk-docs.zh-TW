@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240342"
 ---
 # <a name="error---no-method-for-scripting-functoid"></a>錯誤-指令碼處理運算質沒有方法
 **錯誤碼**  

@@ -1,14 +1,14 @@
 ---
-title: "設定簽章憑證 (AS2) |Microsoft 文件"
-ms.custom: 
+title: 設定簽章憑證 (AS2) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8539e210-1656-4fff-b026-36b81689061f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233262"
 ---
 # <a name="configuring-signature-certificates-as2"></a>設定簽章憑證 (AS2)
 在此頁面的設定中，您可以指定當外送訊息和 MDN 解析為此協議時，要用於簽署這些外送訊息和 MDN 的憑證。 此頁面上的設定會覆寫 BizTalk 群組屬性中提供的憑證設定。 如需有關如何使用憑證的詳細資訊，請參閱[Configuring certificates for AS2 憑證](../core/configuring-certificates-for-as2.md)。  

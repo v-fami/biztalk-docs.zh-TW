@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241950"
 ---
 # <a name="error---schema-file-format-not-valid"></a>錯誤-無效的結構描述檔案格式
 **說明**  

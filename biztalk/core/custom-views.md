@@ -1,14 +1,14 @@
 ---
-title: "自訂檢視 |Microsoft 文件"
-ms.custom: 
+title: 自訂檢視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9084cc07-be98-4c57-afea-4fa369a38bad
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238166"
 ---
 # <a name="custom-views"></a>自訂檢視
 自訂檢視，通常是唯讀視窗控制項物件 (衍生自**System.Windows.Forms.Control**)，提供用來代表自訂的檔案或支援的檔案類型的顯示格式中的結構描述擴充功能BizTalk 編輯器延伸模組。 延伸模組可實作多個自訂檢視，不過，它並不需要任何自訂檢視。  

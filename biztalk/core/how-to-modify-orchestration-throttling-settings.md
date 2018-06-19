@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254622"
 ---
 # <a name="how-to-modify-orchestration-throttling-settings"></a>如何修改協調流程節流設定
 您可以使用「BizTalk 設定儀表板」來修改 BizTalk 群組中指定主控件的協調流程節流組態設定。 這些設定會套用至指派給指定主控件的所有主控件執行個體。 本主題提供修改這些設定的逐步程序。  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233046"
 ---
 # <a name="configuring-as2-agreement-properties"></a>設定 AS2 協議屬性
 本 節將說明 AS2 傳輸協議屬性 。 在傳輸通訊協定設定當中，您還可以定義訊息是否應該經過簽章、加密等等。  

@@ -1,18 +1,18 @@
 ---
-title: "協調流程 （BizTalk Server 範例資料夾） |Microsoft 文件"
-ms.custom: 
+title: 協調流程 （BizTalk Server 範例資料夾） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
 - examples, orchestrations
 - SDK examples
 ms.assetid: f70f8d67-763f-4e3c-b233-c7156026b514
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263550"
 ---
 # <a name="orchestrations-biztalk-server-samples-folder"></a>協調流程 （BizTalk Server 範例資料夾）
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的軟體開發套件 (SDK) 中包含數個協調流程範例。 本節提供下列項目的詳細資訊：這些協調流程範例展示的功能、建立和執行範例的指示，以及您可以預期的結果。 下列範例是一複雜性排序，也就是說，HelloWorld 是清單中最基本的範例。 之後的清單範例可能根據之前的清單範例中所顯示的功能所建立。  

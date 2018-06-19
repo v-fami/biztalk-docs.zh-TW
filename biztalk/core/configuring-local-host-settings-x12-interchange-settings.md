@@ -1,14 +1,14 @@
 ---
-title: "設定本機主機設定 （X12 交換設定） |Microsoft 文件"
-ms.custom: 
+title: 設定本機主機設定 （X12 交換設定） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c66c1e63-c654-4ccb-b424-34c06f1ce94e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234750"
 ---
 # <a name="configuring-local-host-settings-x12-interchange-settings"></a>設定本機主機設定 (X12 交換設定)
 本機主機設定控制了處理 EDI 交換的方式。 此頁面上的設定可分成兩個類別 - 接收者的設定 (用於內送交換) 與傳送者的設定 (用於外寄交換)。 在接收者的設定中，您可以指定輸入批次要分割為交易集或是保留。 若是保留，您就可以指定發生錯誤時，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 是否暫停交換或交易集。 在傳送者的設定中，您可以指定為外寄訊息產生控制編號的方式。  
@@ -44,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  清除**通知的路由設定為傳送管線在要求-回應接收埠**由不同通知傳送埠傳回。 將此屬性保持為選取狀態，即可在與雙向要求-回應接收埠關聯的傳送埠傳回通知。  
   
-4.  若要指定通知中使用的交易集控制編號範圍，請輸入中的值**ACK 控制編號 (ST02)**欄位。 在中間兩個欄位中輸入數值，並在必要時於前置詞和尾碼欄位中輸入英數字元值。 中間幾個欄位是必要欄位，其中包含控制編號的最小值與最大值；前置詞和尾碼則是選用欄位。 這三個欄位的最大長度都是 9 個字元。  
+4.  若要指定通知中使用的交易集控制編號範圍，請輸入中的值**ACK 控制編號 (ST02)** 欄位。 在中間兩個欄位中輸入數值，並在必要時於前置詞和尾碼欄位中輸入英數字元值。 中間幾個欄位是必要欄位，其中包含控制編號的最小值與最大值；前置詞和尾碼則是選用欄位。 這三個欄位的最大長度都是 9 個字元。  
   
      若要重設目前的交易集控制編號的最小值，請按一下**重設**。 請檢查**重設為下限超出範圍時**控制編號重設下限，一旦已超過最大值。  
   

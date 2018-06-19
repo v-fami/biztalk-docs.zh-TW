@@ -1,17 +1,17 @@
 ---
-title: "組態資訊 |Microsoft 文件"
-ms.custom: 
+title: 組態資訊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Call Rules shape [Orchestration Designer], planning
 - Call Rules shape [Orchestration Designer], configuring
 ms.assetid: aa4924c6-4270-473b-aa0a-6d8b18375a39
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233462"
 ---
 # <a name="configuration-information"></a>組態資訊
 本主題描述如何設定**呼叫規則**圖形。  
@@ -38,7 +39,7 @@ ms.lasthandoff: 09/20/2017
     ```  
   
 > [!NOTE]
->  如果沒有相符的事實類型的變數，這些類型不會出現在參數**指定原則參數**清單方塊中的**[CallRules 原則組態**] 對話方塊。  
+>  如果沒有相符的事實類型的變數，這些類型不會出現在參數**指定原則參數**清單方塊中的 **[CallRules 原則組態**] 對話方塊。  
   
 > [!NOTE]
 >  協調流程引擎會自動轉換做為參數，BRE 原則到您指定的訊息變數**TypedXmlDocument**物件，並將它們判斷提示至規則引擎執行原則之前的工作記憶體。 因此，您不需要像處理 .NET 和資料庫事實一樣，宣告 TypedXmlDocument 型別的變數。  
@@ -48,4 +49,4 @@ ms.lasthandoff: 09/20/2017
   
  例如，如果您在 BizTalk 專案中，定義訂單 (PO) XML 結構描述**MessageType**針對此結構描述定義**BTSProject.PO** (如果**BTSProject**是命名空間或使用預設命名空間的專案名稱）。  
   
- 如果是**PO\Amount**項目，才能卸除到規則定義，您必須變更其**DocumentType**屬性**BTSProject.PO**中 [屬性] 視窗. 選取結構描述中的任何節點上時，您可以存取 屬性 視窗**XML 結構描述** 索引標籤 事實總管 中的。 此變更會套用至結構描述中的所有項目，但並不會隨著結構描述而儲存。 在啟動「商務規則編輯器」或重新載入結構描述後，必須將它重設。 根據 XML 結構描述或直接從 XML 結構描述建置的規則，此動作對於詞彙定義而言是必要的。 如果不這麼做，您仍然可以執行原則，但**呼叫規則**圖形將無法正常運作，並不會出現在訊息類型**指定原則參數**清單方塊中的**[CallRules 原則組態**] 對話方塊。
+ 如果是**PO\Amount**項目，才能卸除到規則定義，您必須變更其**DocumentType**屬性**BTSProject.PO**中 [屬性] 視窗. 選取結構描述中的任何節點上時，您可以存取 屬性 視窗**XML 結構描述** 索引標籤 事實總管 中的。 此變更會套用至結構描述中的所有項目，但並不會隨著結構描述而儲存。 在啟動「商務規則編輯器」或重新載入結構描述後，必須將它重設。 根據 XML 結構描述或直接從 XML 結構描述建置的規則，此動作對於詞彙定義而言是必要的。 如果不這麼做，您仍然可以執行原則，但**呼叫規則**圖形將無法正常運作，並不會出現在訊息類型**指定原則參數**清單方塊中的 **[CallRules 原則組態**] 對話方塊。

@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22248670"
 ---
 # <a name="how-to-configure-node-hierarchy-matching"></a>如何設定節點階層比對
 在對應中建立連結時，BizTalk 對應工具會自動建立編譯器連結以實作已建立的連結。 **目標連結** 連結的屬性會控制 BizTalk 對應工具建立編譯器連結的方式。 本主題提供如何設定目標連結的相關資訊。  

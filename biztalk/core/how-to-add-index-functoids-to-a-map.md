@@ -1,14 +1,14 @@
 ---
-title: "如何新增索引運算質至對應 |Microsoft 文件"
-ms.custom: 
+title: 如何新增索引運算質至對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bbfccfcc-c333-422f-b40b-13ca4152e588
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22247670"
 ---
 # <a name="how-to-add-index-functoids-to-a-map"></a>如何新增索引運算質至對應
 **索引**運算質可讓您從中選取一系列迴圈記錄中的特定記錄資訊。 每個**索引**運算質會從單一欄位中選取資訊。  

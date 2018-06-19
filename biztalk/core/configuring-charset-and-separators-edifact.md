@@ -1,14 +1,14 @@
 ---
-title: "設定字元集和分隔符號 (EDIFACT) |Microsoft 文件"
-ms.custom: 
+title: 設定字元集和分隔符號 (EDIFACT) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d4764938-0968-4536-9eb6-d600c03a0428
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234246"
 ---
 # <a name="configuring-charset-and-separators-edifact"></a>設定字元集和分隔符號 (EDIFACT)
 在夥伴協議中，您可以指定之字元集 (UNA)[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]將用於建立外寄 EDIFACT 訊息的信封時，驗證合作對象屬性。 您也可以指定要對交換中的區段使用的分隔符號和結束字元 (UNB)。  
@@ -39,7 +40,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  在單向協議索引標籤底下**交換設定**區段中，按一下**字元集和分隔符號**。  
   
-3.  在**語法 (UNB1)**區段中，執行下列動作：  
+3.  在**語法 (UNB1)** 區段中，執行下列動作：  
   
     1.  如**識別項 (UNB1.1)**，輸入要套用到外寄交換的 EDIFACT 字元集。 這是必要的欄位。  
   

@@ -1,18 +1,18 @@
 ---
-title: "開發人員電腦設定為服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: 開發人員電腦設定為服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - developer servers
 - service solution tutorial, deployment prerequisites
 - service solution tutorial, developer servers
 ms.assetid: a088696f-c1ee-4578-ac02-af29b6de086b
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239454"
 ---
 # <a name="developer-machine-setup-for-the-service-oriented-solution"></a>服務導向解決方案的開發人員電腦設定
 「服務導向架構」(Service Oriented Architecture，SOA) 是一種建置分散式系統的方法。 服務導向解決方案展示如何將數個使用不同通訊協定的後端系統彙總成用戶端可以取用的單一服務。 此方案整合服務的方法也將確保您能滿足服務等級協議上的交貨及效能等特徵。  

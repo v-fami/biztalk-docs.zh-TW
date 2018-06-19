@@ -1,14 +1,14 @@
 ---
-title: "如何建立另一個節點或類型參考 |Microsoft 文件"
-ms.custom: 
+title: 如何建立另一個節點或類型參考 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c60be9ad-01a9-40e7-b43b-8c3d09bbb32f
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22250350"
 ---
 # <a name="create-references-to-another-node-or-type"></a>建立另一個節點或類型的參考
 您可以使用全域節點建立可重複使用的資料型別 (結構片段)，以在適合該結構的結構描述中使用。 您只能使用節點的直接子系**結構描述**節點建立全域型別。  

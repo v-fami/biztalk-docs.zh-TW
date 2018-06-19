@@ -1,11 +1,11 @@
 ---
-title: "設定動態傳送埠使用 WCF 配接器內容屬性 |Microsoft 文件"
-ms.custom: 
+title: 設定動態傳送埠使用 WCF 配接器內容屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF services, send ports
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - dynamic send ports, WCF services
 - send ports, dynamic
 ms.assetid: 2a7e2cd2-fa2d-45da-bb8e-eb8bab21bfa3
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233350"
 ---
 # <a name="configuring-dynamic-send-ports-using-wcf-adapters-context-properties"></a>使用 WCF 配接器內容屬性設定動態傳送埠
 您可以為 WCF 配接器設定動態傳送埠。 URI、 動作和繫結可能會決定從傳入訊息上的屬性，然後以指定**運算式**圖形，如下列 Wcf-nettcp 配接器中所示：  

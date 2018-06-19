@@ -1,14 +1,14 @@
 ---
-title: "啟用多個接收單一訊息交換 |Microsoft 文件"
-ms.custom: 
+title: 啟用多個接收單一訊息交換 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c98bcd2e-495a-49d8-a471-6e23b1e161f9
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22240830"
 ---
 # <a name="enabling-the-receiving-of-multiple-interchanges-in-a-single-message"></a>啟用接收單一訊息中的多重交換
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可以處理包含多個交換的訊息。 對於 X12 訊息，這類訊息會包含多重 ISA 標頭和 IEA 結尾。 對於 EDIFACT 訊息，這類訊息會包含多重 UNA/UNB 標頭和 UNZ 結尾。  

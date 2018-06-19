@@ -1,11 +1,11 @@
 ---
-title: "定義時間間隔和時間配量屬性 |Microsoft 文件"
-ms.custom: 
+title: 定義時間間隔和時間配量屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [BAM], aggregations
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - BAMConfiguration.xml file
 - aggregations [BAM], real-time data
 ms.assetid: 7f07b179-da10-4702-baf7-69516c8f16a6
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239054"
 ---
 # <a name="defining-the-time-window-and-time-slice-properties"></a>定義時間間隔和時間配量屬性
 系統管理員可以使用 BAMConfiguration.xml 檔案中的 TimeWindow 和 TimeSlice 屬性，定義 BAM 主要匯入資料庫之即時彙總資料表中資料的存留時間。  

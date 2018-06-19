@@ -1,14 +1,14 @@
 ---
-title: "設定信封 （X12-交易集設定） |Microsoft 文件"
-ms.custom: 
+title: 設定信封 （X12-交易集設定） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9313a7b9-72fa-4071-8c65-007371643179
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22234334"
 ---
 # <a name="configuring-envelopes-x12-transaction-set-settings"></a>設定信封 (X12 交易集設定)
 在**可以**頁面**交易集設定** 區段中，您可以定義 BizTalk Server 如何產生傳送至合作對象的 X12 編碼交換的 GS 和 ST 區段。 GS 區段可識別並指定 X12 編碼交換的功能群組。 ST 區段則是 X12 編碼交換的訊息標頭。  
@@ -62,7 +63,7 @@ ms.lasthandoff: 09/20/2017
   
     -   如**GS4**，選取**CCYYMMDD**或**YYMMDD**。 這是選擇性欄位。  
   
-    -   如**GS5**，選取**HHMM**， **HHMMSS**，或**[hhmmssdd]**。 這是選擇性欄位。  
+    -   如**GS5**，選取**HHMM**， **HHMMSS**，或 **[hhmmssdd]**。 這是選擇性欄位。  
   
     -   如**GS7**，從下拉式清單中選取負責單位的值。 這是選擇性欄位。  
   

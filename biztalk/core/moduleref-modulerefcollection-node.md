@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22262902"
 ---
 # <a name="moduleref-modulerefcollection-node"></a>ModuleRef (ModuleRefCollection 節點)
 繫結檔案的 [ModuleRef] 節點包含與該繫結檔案一起匯出之 .NET 組件有關的特定資訊。 ModuleRef 節點包含 (但不限於) 有自訂程式碼、結構描述和協調流程之組件的說明。  

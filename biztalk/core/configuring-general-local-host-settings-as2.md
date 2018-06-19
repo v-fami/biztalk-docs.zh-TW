@@ -1,14 +1,14 @@
 ---
-title: "設定一般本機主機設定 (AS2) |Microsoft 文件"
-ms.custom: 
+title: 設定一般本機主機設定 (AS2) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 980daac2-8387-44cc-ae55-38639f759668
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233814"
 ---
 # <a name="configuring-general-local-host-settings-as2"></a>設定一般本機主機設定 (AS2)
 在本機主機一般設定中，您可以指定 AS2 訊息的內容類型，以及是否保留檔案名稱做為 AS2 訊息標頭的一部分。  
@@ -47,7 +48,7 @@ ms.lasthandoff: 09/20/2017
     > [!NOTE]
     >  選取**具有系統產生的檔案名稱**會產生新的 GUID 值做為 AS2 訊息中傳送的每個附件的檔案名稱。  
   
-6.  如果您選取**指定檔案名稱**，將字串值或內容屬性中的輸入**指定檔案名稱**欄位。 您也可以啟用**暫止訊息，如果找不到內容屬性 （如 %property%)**來擱置訊息，如果選取的內容屬性不存在的傳出訊息。  
+6.  如果您選取**指定檔案名稱**，將字串值或內容屬性中的輸入**指定檔案名稱**欄位。 您也可以啟用**暫止訊息，如果找不到內容屬性 （如 %property%)** 來擱置訊息，如果選取的內容屬性不存在的傳出訊息。  
   
     > [!NOTE]
     >  若要指定內容屬性，請用 %字元括住屬性名稱。 例如， `%FILE.ReceivedFileName%`。  

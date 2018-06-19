@@ -1,15 +1,15 @@
 ---
-title: "Edifact 交易集包含在交換錯誤 |Microsoft 文件"
-description: "在序列化期間發生錯誤。 Edifact 交易集 （不含群組） 的交換中所含處於暫停狀態，錯誤如下"
-ms.custom: 
+title: Edifact 交易集包含在交換錯誤 |Microsoft 文件
+description: 在序列化期間發生錯誤。 Edifact 交易集 （不含群組） 的交換中所含處於暫停狀態，錯誤如下
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5a0a33ac-d83e-495c-ba75-88c15ad7cfcd
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22241470"
 ---
 # <a name="edifact-transaction-set-is-suspended-error-and-details"></a>Edifact 交易集是已暫停的錯誤和詳細資料
 

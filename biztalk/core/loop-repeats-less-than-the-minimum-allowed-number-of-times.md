@@ -1,14 +1,14 @@
 ---
-title: "小於允許的最小的次數執行迴圈重複 |Microsoft 文件"
-ms.custom: 
+title: 小於允許的最小的次數執行迴圈重複 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0be21d1d-86da-456b-83e6-c91f1dc9fb48
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22261982"
 ---
 # <a name="loop-repeats-less-than-the-minimum-allowed-number-of-times"></a>迴圈重複次數少於允許次數下限
 ## <a name="details"></a>詳細資料  

@@ -1,17 +1,17 @@
 ---
-title: "設定 BizTalk 專案屬性 |Microsoft 文件"
-ms.custom: 
+title: 設定 BizTalk 專案屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - projects, property pages
 - projects, configuring
 ms.assetid: 2cd8bbf0-1cba-462a-8e26-a761dc067765
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22232254"
 ---
 # <a name="configuring-biztalk-project-properties"></a>設定 BizTalk 專案屬性
 專案屬性可為您在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中所建立的專案設定全域設定。 BizTalk 專案共用許多其他 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 專案的專案屬性。 您可以在專案設計工具中，設定大部分這些屬性。  

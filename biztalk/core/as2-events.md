@@ -1,14 +1,14 @@
 ---
-title: "AS2 事件 |Microsoft 文件"
-ms.custom: 
+title: AS2 事件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c9de140d-8961-4c19-a2e5-14631016541f
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233590"
 ---
 # <a name="as2-events"></a>AS2 事件
 下表列出在 AS2 處理期間可能會在事件記錄檔中寫入的事件訊息。  

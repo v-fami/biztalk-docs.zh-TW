@@ -1,14 +1,14 @@
 ---
-title: "解壓縮處理過程中發現無效的 ASN.1 壓縮結構 |Microsoft 文件"
-ms.custom: 
+title: 解壓縮處理過程中發現無效的 ASN.1 壓縮結構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4e5ebbd6-249a-4746-8ee6-cfb1f52ecc94
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22257094"
 ---
 # <a name="invalid-asn1-compressed-structure-encountered-during-decompression-processing"></a>解壓縮處理過程中發現無效的 ASN.1 壓縮結構
 ## <a name="details"></a>詳細資料  

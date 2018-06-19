@@ -1,11 +1,11 @@
 ---
-title: "如何從應用程式移除成品 |Microsoft 文件"
-ms.custom: 
+title: 如何從應用程式移除成品 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - artifacts, deleting
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - modifying, applications
 - deleting, artifacts
 ms.assetid: c528be0b-0b1a-4c5f-acd2-7355da91a253
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254918"
 ---
 # <a name="how-to-remove-an-artifact-from-an-application"></a>如何從應用程式移除成品
 移除或刪除成品後，該成品便會從 BizTalk Server 資料庫刪除，因此不會再出現在管理主控台或 BTSTask ListApp 命令所產生的應用程式成品清單中。 這項作業並不會將 Windows 登錄、全域組件快取 (GAC)、虛擬目錄或檔案系統等位置中的成品移除 (如果有的話)。 如果是只存在 BizTalk 管理資料庫的傳送埠、傳送埠群組、接收埠和接收位置，這項作業會將成品完全刪除。 如需背景資訊，請參閱[什麼發生當成品新增和移除](../core/what-happens-when-artifacts-are-added-and-removed.md)  

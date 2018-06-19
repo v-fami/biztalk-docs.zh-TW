@@ -1,14 +1,14 @@
 ---
-title: "配接器組態的自訂類型轉換器 |Microsoft 文件"
-ms.custom: 
+title: 配接器組態的自訂類型轉換器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 60e94dde-d29d-43ff-84b0-b2ba86851151
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238710"
 ---
 # <a name="custom-type-converter-for-adapter-configuration"></a>配接器組態的自訂類型轉換器
 如同自訂編輯器，自訂類型轉換器會覆寫**System.ComponentModel.TypeConverter**類別的其中一個子系。 在這裡，轉換器會將格式新增至要保存的值，但不會出現在屬性頁上。 **ConvertFrom**方法會將方括號括住的字串值和**ConvertTo**方法會將它們移除。  

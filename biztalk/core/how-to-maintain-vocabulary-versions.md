@@ -1,11 +1,11 @@
 ---
-title: "如何維護詞彙版本 |Microsoft 文件"
-ms.custom: 
+title: 如何維護詞彙版本 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, vocabularies
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - updating, vocabularies
 - vocabularies, updating
 ms.assetid: 43593c6f-4590-4940-ac17-4015928e5838
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254366"
 ---
 # <a name="how-to-maintain-vocabulary-versions"></a>如何維護詞彙版本
 當您已新增詞彙定義到詞彙版本時，可以將版本儲存至規則存放區以供進一步開發之用，或是您可以發佈版本以建立定義正確且不變的一組資料繫結詞彙，讓使用者在開發原則時可用以新增至規則。 請注意，現有規則將仍然指向舊版本。  

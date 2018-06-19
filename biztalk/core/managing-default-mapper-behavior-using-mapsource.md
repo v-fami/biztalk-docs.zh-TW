@@ -1,14 +1,14 @@
 ---
-title: "管理預設對應工具的行為使用&lt;mapsource&gt; |Microsoft 文件"
-ms.custom: 
+title: 管理預設對應工具的行為使用&lt;mapsource&gt; |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: deea839c-e52e-44c6-ac0d-4396dc5b10d8
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22263374"
 ---
 # <a name="managing-default-mapper-behavior-using-ltmapsourcegt"></a>管理預設對應工具的行為使用&lt;mapsource&gt;
 您可以藉由修改屬性來修改 BizTalk 對應工具的特定預設行為**mapsource**直接在對應來源 (.btm) 檔案中的項目。  

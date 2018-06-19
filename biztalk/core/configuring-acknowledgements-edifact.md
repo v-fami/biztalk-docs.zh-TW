@@ -1,14 +1,14 @@
 ---
-title: "設定通知 (EDIFACT) |Microsoft 文件"
-ms.custom: 
+title: 設定通知 (EDIFACT) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9436feb7-4c29-4b7c-b5c2-991660e6c1a9
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233494"
 ---
 # <a name="configuring-acknowledgements-edifact"></a>設定通知 (EDIFACT)
 在夥伴協議中，您可以指定要將何種類型的通知傳回給合作對象，以及要在傳送通知時使用何種傳送埠。 您也可以指定是否要批次處理通知、通知的開始交易集參考編號為何，以及是否要針對接受的交易集產生 SG1/SG4 迴圈。  
@@ -39,9 +40,9 @@ ms.lasthandoff: 09/20/2017
   
 3.  在**EDIFACT ACK （控制） 區段**，執行下列動作：  
   
-    1.  選取**訊息回條 (CONTRL 必須是)**技術 (CONTRL) 通知傳回給交換傳送者。 如果**訊息回條 (CONTRL 必須是)**選取，請選取**不要批次處理訊息 (CONTRL) 訊息回條**可分別傳送每個通知，或是不選取該項即可批次處理通知。  
+    1.  選取**訊息回條 (CONTRL 必須是)** 技術 (CONTRL) 通知傳回給交換傳送者。 如果**訊息回條 (CONTRL 必須是)** 選取，請選取**不要批次處理訊息 (CONTRL) 訊息回條**可分別傳送每個通知，或是不選取該項即可批次處理通知。  
   
-    2.  選取**通知 (CONTRL) 必須是**功能 (CONTRL) 通知傳回給交換傳送者。 如果**通知 (CONTRL) 必須是**選取，請選取**不要批次處理通知 (CONTRL)**分別傳送每個功能通知，或不選取可批次處理功能通知。  
+    2.  選取**通知 (CONTRL) 必須是**功能 (CONTRL) 通知傳回給交換傳送者。 如果**通知 (CONTRL) 必須是**選取，請選取**不要批次處理通知 (CONTRL)** 分別傳送每個功能通知，或不選取可批次處理功能通知。  
   
 4.  在**交易集狀態認可報告**區段中，若要接受的交易集功能 CONTRL 通知中強制產生 SG1/SG4 迴圈選取**產生 SG1/SG4 迴圈的接受交易集 （如果未選取，會產生迴圈在 UCM.5 不等於 7 時，才）**。 如需 SG1/SG4 迴圈的詳細資訊，請參閱[EDIFACT CONTRL 訊息做為功能通知](../core/edifact-contrl-message-as-functional-acknowledgment.md)。  
   

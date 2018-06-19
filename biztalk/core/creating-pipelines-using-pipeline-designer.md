@@ -1,18 +1,18 @@
 ---
-title: "建立管線使用管線設計師 |Microsoft 文件"
-ms.custom: 
+title: 建立管線使用管線設計師 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipelines, processing messages
 - pipelines, Pipeline Designer
 - Pipeline Designer, about Pipeline Designer
 ms.assetid: 858302d8-a912-4199-95e5-4322db789b4e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238046"
 ---
 # <a name="creating-pipelines-using-pipeline-designer"></a>建立管線使用管線設計師
 Microsoft BizTalk Server 主要處理 XML 文件格式。 為能充分利用 BizTalk Server 處理優點，必須經常將訊息由其原生格式轉換為 XML 表示法。 BizTalk Server 管線會針對內送與外寄訊息執行此轉換，以及其他資料特定動作 (例如，資料加密或解密、屬性升級等)。 本節提供關於管線和「管線設計師」的概念性和工作特定資訊。  

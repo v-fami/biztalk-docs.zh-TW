@@ -1,11 +1,11 @@
 ---
-title: "如何檢視結構描述的結構描述定義 (XSD) |Microsoft 文件"
-ms.custom: 
+title: 如何檢視結構描述的結構描述定義 (XSD) |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, viewing
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - schemas, schema definition (XSD)
 - managing [schemas], schema definition (XSD)
 ms.assetid: 21b6d9e6-5737-4334-9fe6-15ae01f90c0d
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22256438"
 ---
 # <a name="how-to-view-the-schema-definition-xsd-of-a-schema"></a>如何檢視結構描述的結構描述定義 (XSD)
 本主題描述如何使用 BizTalk Server 管理主控台，檢視結構描述的結構描述定義 (XSD)。 為了疑難排解結構描述的驗證錯誤，或驗證是否已部署正確的結構描述，您可能會想要這樣做。  

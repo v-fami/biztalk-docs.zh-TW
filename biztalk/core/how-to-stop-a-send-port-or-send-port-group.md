@@ -1,11 +1,11 @@
 ---
-title: "如何停止傳送埠或傳送埠群組 |Microsoft 文件"
-ms.custom: 
+title: 如何停止傳送埠或傳送埠群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [send ports], stopping
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - stopping, send port groups
 - send ports, stopping
 ms.assetid: a7a5eab3-34fe-4417-900a-c37ec16ec009
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255318"
 ---
 # <a name="how-to-stop-a-send-port-or-send-port-group"></a>如何停止傳送埠或傳送埠群組
 本主題描述如何使用 BizTalk Server 管理主控台來停止傳送埠或傳送埠群組。 傳送埠或傳送埠群組被停止時，就無法再處理訊息。 BizTalk Server 會擱置所有停止之傳送埠或傳送埠群組的啟動訊息。 停止傳送埠群組不會影響其中所含任何傳送埠的狀態。  

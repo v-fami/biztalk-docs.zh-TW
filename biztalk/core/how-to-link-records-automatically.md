@@ -1,14 +1,14 @@
 ---
-title: "如何自動連結記錄 |Microsoft 文件"
-ms.custom: 
+title: 如何自動連結記錄 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dc2926c7-07c2-45d1-afde-d3f894f6b88d
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22254846"
 ---
 # <a name="how-to-link-records-automatically"></a>如何自動連結記錄
 當您在來源與目的結構描述的兩個記錄項目間建立連結時，BizTalk 對應工具可透過捷徑功能表為您提供即時的協助。 本主題提供如何使用捷徑功能表來執行連結作業的相關資訊。  

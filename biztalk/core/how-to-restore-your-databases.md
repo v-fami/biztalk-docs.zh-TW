@@ -1,11 +1,11 @@
 ---
-title: "如何還原您的資料庫 |Microsoft 文件"
-ms.custom: 
+title: 如何還原您的資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 2016-05-10
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up, log shipping
@@ -25,7 +25,7 @@ helpviewer_keywords:
 - 64-bit environments, restoring databases
 - restoring, databases
 ms.assetid: 0176932a-6b3d-4502-975b-a76296189092
-caps.latest.revision: "52"
+caps.latest.revision: 52
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -34,6 +34,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22255766"
 ---
 # <a name="how-to-restore-your-databases"></a>如何還原資料庫
 您必須將所有資料庫還原為相同的標記，以確保資料庫間的交易狀態一致。 請參閱[標示的交易，完整備份，並記錄備份](../core/marked-transactions-full-backups-and-log-backups.md)。  
