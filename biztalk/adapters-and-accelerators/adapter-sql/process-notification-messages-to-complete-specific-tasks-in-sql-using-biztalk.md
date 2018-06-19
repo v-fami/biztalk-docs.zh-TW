@@ -1,14 +1,14 @@
 ---
-title: "處理通知訊息，以便完成特定工作在 SQL 中使用 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 處理通知訊息，以便完成特定工作在 SQL 中使用 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8538cb89-1cca-45ad-b6f4-041e117963ff
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967340"
 ---
 # <a name="process-notification-messages-to-complete-specific-tasks-in-sql-using-biztalk-server"></a>處理通知訊息，以便完成特定工作中使用 BizTalk Server 的 SQL
 您可以使用[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]接收通知的 SQL Server 資料庫資料表的變更。 不過，配接器只會傳送一些記錄已插入、 更新或刪除特定資料庫資料表中的通知。 用戶端應用程式本身必須處理這些記錄的任何後續處理。 本主題顯示如何處理從 SQL Server 資料庫接收通知的種類為基礎的資料表中的記錄以案例為基礎的描述。  
@@ -147,7 +148,7 @@ ms.lasthandoff: 11/28/2017
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveNotification|Receive|-設定**名稱**至*ReceiveNotification*<br /><br /> -設定**啟動**至*，則為 True*|  
+|ReceiveNotification|Receive|-設定**名稱**至*ReceiveNotification*<br /><br /> -設定**啟動**至 *，則為 True*|  
   
 ### <a name="adding-an-expression-shape"></a>新增 「 運算式 」 圖形  
  協調流程中包括 「 運算式 」 圖形的用途是將 xpath 查詢來擷取收到的通知訊息的類型。 在之前建立 xpath 查詢，讓我們看看通知訊息的格式。 典型的通知訊息如下所示：  
@@ -232,7 +233,7 @@ NotificationType.Equals("Insert") | NotificationType.Equals("Update")
         |繫結屬性|值|  
         |----------------------|-----------|  
         |**InboundOperationType**|將此設**通知**。|  
-        |**NotificationStatement**|將此值設定為：<br /><br /> `SELECT Employee_ID, Name FROM dbo.Employee WHERE Status=0`<br /><br /> **注意：**您必須明確指定資料行名稱的陳述式中這個 SELECT 陳述式中所示。 此外，您永遠必須指定資料表名稱，以及結構描述名稱。 例如， `dbo.Employee`。|  
+        |**NotificationStatement**|將此值設定為：<br /><br /> `SELECT Employee_ID, Name FROM dbo.Employee WHERE Status=0`<br /><br /> **注意：** 您必須明確指定資料行名稱的陳述式中這個 SELECT 陳述式中所示。 此外，您永遠必須指定資料表名稱，以及結構描述名稱。 例如， `dbo.Employee`。|  
         |**NotifyOnListenerStart**|將此設**True**。|  
   
          如需不同的繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for SQL Server 配接器繫結屬性](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md)。  

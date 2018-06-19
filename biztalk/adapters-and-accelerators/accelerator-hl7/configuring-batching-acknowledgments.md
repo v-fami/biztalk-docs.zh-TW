@@ -1,17 +1,17 @@
 ---
-title: "設定批次處理通知 |Microsoft 文件"
-ms.custom: 
+title: 設定批次處理通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - batching, acknowledgements
 - acknowledgements, batching
 ms.assetid: f3529638-e036-4270-ae6d-1bdc3ef98727
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962852"
 ---
 # <a name="configuring-batching-acknowledgments"></a>設定批次處理通知
 您使用[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]組態總管，以指定輸入和產生通知的通知屬性。  
@@ -39,8 +40,8 @@ ms.lasthandoff: 11/28/2017
     |**MSH 15 應用程式的通知類型**|選取下列其中一項：<br /><br /> -   **AL**。 選取此選項，將一律傳送應用程式通知。<br />-   **NE**。 選取此選項，即可永遠不會傳送應用程式通知。<br />-   **SU**。 選取此選項，將訊息傳輸成功之後傳送應用程式通知。<br />-   **ER**。 選取即可只會發生錯誤時傳送應用程式通知。|  
     |**MSH1 – 欄位的分隔符號**|請輸入唯一的字元做為欄位分隔符號。 預設值是縱線字元 (**&#124;**)，以及允許的字元數目上限是一個字元。 請注意，是否您需要修改 MSH1，那麼您必須使用適當的 MSH1 值寫入至您 HL7 訊息內容的協調流程。 BTAHL7 序列化程式讀取從內容的值，並序列化訊息中使用它。|  
     |**MSH2 – 編碼的字元**|輸入唯一的字元做為根據 HL7 標準編碼的字元。 預設編碼的字元是 ^，~， \\，和 （& s)。 所需的最小字元是兩個字元，而允許的上限是四個字元。 請注意，如果 MSH2_3 或 MSH2_4 （逸出和子元件動態分隔符號） 中未指定您的原始訊息，通知 (ACK) 訊息會自動填入這些欄位。 例如，如果您的原始訊息 MSH 區段`MSH&#124;^~&#124;`，其中指定只元件和重複分隔符號，則通知訊息會自動填入該欄位加入包含做為第三個和第四個元件`MSH&#124;^~\&`，提供該欄位值有尚未設定 BTAHL7 組態總管 中的 通知 區段中。|  
-    |**MSH3**|輸入產生通知，傳送應用程式的欄位值。 最大容許的長度共同是 180 個字元。<br /><br /> 產生的通知時未設定，包含傳入**MSH5**訊息值。 **注意：**這個選項只適用於 2.X 訊息。 **注意：**若要覆寫現有的值為 null，請輸入 **\\** 。|  
-    |**MSH5**|輸入產生通知的目的端應用程式的欄位值。 最大容許的長度共同是 180 個字元。<br /><br /> 產生的通知時未設定，包含傳入**MSH3**訊息值。 **注意：**這個選項只適用於 2.X 訊息。 **注意：**若要覆寫現有的值為 null，請輸入 **\\** 。|  
+    |**MSH3**|輸入產生通知，傳送應用程式的欄位值。 最大容許的長度共同是 180 個字元。<br /><br /> 產生的通知時未設定，包含傳入**MSH5**訊息值。 **注意：** 這個選項只適用於 2.X 訊息。 **注意：** 若要覆寫現有的值為 null，請輸入 **\\** 。|  
+    |**MSH5**|輸入產生通知的目的端應用程式的欄位值。 最大容許的長度共同是 180 個字元。<br /><br /> 產生的通知時未設定，包含傳入**MSH3**訊息值。 **注意：** 這個選項只適用於 2.X 訊息。 **注意：** 若要覆寫現有的值為 null，請輸入 **\\** 。|  
     |**MSH8-安全性**|輸入選擇性的安全性字元。|  
     |**MSH15 – 接受通知類型**|選取從接受通知類型的下列選項：<br /><br /> -   **AL**。 如果您想要一律傳送，接受通知，選取。<br />-   **NE**。 如果您不想要傳送，接受通知，選取。<br />-   **SU**。 選取此選項，如果您想要傳送訊息成功傳輸之後接受通知。<br />-   **ER**。 如果您想要傳送，請選取此選項只會發生錯誤時接受通知。|  
     |**如果成功**|靜態成功的訊息傳遞通知的文字輸入。|  

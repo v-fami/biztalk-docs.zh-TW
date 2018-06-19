@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965572"
 ---
 # <a name="step-4-submitting-a-3a4-request"></a>步驟 4： 提交 3A4 要求
 在此步驟中，您將使用「3A4 - 訂單要求」的夥伴介面程序 (PIP) 來準備並提交要求。 這個 PIP 可以讓購買者組織提交訂單要求至供應商。 一般而言，當您使用「3A2 - 要求價格與可用性」PIP 執行產品可用性查詢之後，就會發出「3A4 - 訂單要求」。 3A4 PIP 是傳送回條確認的非同步 PIP。  
@@ -37,7 +38,7 @@ ms.lasthandoff: 11/28/2017
     |**夥伴組織**|型別**Contoso**。|  
     |**Pip 代碼**|型別**3A4**。|  
     |**Pip 版本**|型別**V02.02.00**。|  
-    |**Pip 執行個體識別碼**|型別**3A4_Test**。 **重要事項：**為了避免發生重複訊息識別碼錯誤，您必須確定**Pip 執行個體識別碼**都是唯一的每個您所提交的訊息。 如果將來要執行 3A4 測試，您必須變更此欄位。|  
+    |**Pip 執行個體識別碼**|型別**3A4_Test**。 **重要事項：** 為了避免發生重複訊息識別碼錯誤，您必須確定**Pip 執行個體識別碼**都是唯一的每個您所提交的訊息。 如果將來要執行 3A4 測試，您必須變更此欄位。|  
     |**訊息類別**|型別**動作**。|  
   
 3.  使用 [記事本] 或其他文字編輯器，開啟中的 3A4_Request.xml 檔案\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances 資料夾，然後複製並貼上內容**服務內容**lobwebapplication 的欄位。  

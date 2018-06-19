@@ -12,7 +12,7 @@ helpviewer_keywords:
 - DDEX plug-in, Data Provider for SAP
 - Data Provider for SAP, using with DDEX plug-in
 ms.assetid: b16c8634-172a-4630-87ed-2073a75afdec
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25963460"
 ---
 # <a name="use-the-data-provider-for-sap-with-the-ddex-plug-in"></a>使用資料提供者的 DDEX 外掛程式的 sap
 如果您選擇要安裝[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]連同[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]安裝，安裝程式安裝[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]DDEX 外掛程式。 您可以使用此外掛程式來瀏覽使用 SAP 物件[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]。 本節提供使用 DDEX 外掛程式的相關資訊。  
@@ -40,7 +41,7 @@ ms.lasthandoff: 03/28/2018
   
 4.  在**變更資料來源**對話方塊中，從**資料來源**方塊中，選取**\<其他\>**。  
   
-5.  從**資料提供者**下拉式清單中，選取**.NET Framework Data Provider for mySAP Business Suite**按一下**確定**。 **加入連接**對話方塊隨即開啟。  
+5.  從**資料提供者**下拉式清單中，選取 **.NET Framework Data Provider for mySAP Business Suite**按一下**確定**。 **加入連接**對話方塊隨即開啟。  
   
 6.  **加入連接**對話方塊會列出不同的連線參數，以連接至 SAP 系統。 一般連接字串來連接 SAP 系統使用[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]需要：  
   

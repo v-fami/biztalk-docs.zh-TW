@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25964292"
 ---
 # <a name="sapconnection-class-in-the-sap-adapter"></a>SAP 配接器在 SAPConnection 類別
 下節列出方法和屬性的**SAPConnection**類別。 這代表 ADO.NET 連接到 SAP 應用程式伺服器。  

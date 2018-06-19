@@ -1,14 +1,14 @@
 ---
-title: "追蹤 WCF LOB Adapter SDK 的配接器 |Microsoft 文件"
-ms.custom: 
+title: 追蹤 WCF LOB Adapter SDK 的配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7a4f4758-3e3e-48c4-b4cf-414c2b05d539
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965356"
 ---
 # <a name="trace-an-adapter-with-the-wcf-lob-adapter-sdk"></a>追蹤 WCF LOB Adapter SDK 的配接器
 [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]追蹤是建立在 Systems.Diagnostics 之上。 使用追蹤來源 Microsoft.ServiceModel.Channels[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]執行階段。  使用追蹤來源 Microsoft.ServiceModel.Channels.Tools.MetadataSearchBrowse[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]和[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。 WCF 追蹤會寫入名為 System.ServiceModel 的來源。  

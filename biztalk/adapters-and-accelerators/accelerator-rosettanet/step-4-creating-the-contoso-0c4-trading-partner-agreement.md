@@ -1,18 +1,18 @@
 ---
-title: "步驟 4： 建立 Contoso 0 C 4 交易夥伴協議 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 建立 Contoso 0 C 4 交易夥伴協議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - agreements, creating
 - creating, agreements
 - double action tutorial, creating agreements
 ms.assetid: de2a943f-945a-4bfc-87f3-dd327d5214ef
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965428"
 ---
 # <a name="step-4-creating-the-contoso-0c4-trading-partner-agreement"></a>步驟 4： 建立 Contoso 0 C 4 交易夥伴協議
 在此步驟中，您將使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 管理主控台，在 Contoso 與 Fabrikam 之間建立交易夥伴協議。 您將為 0C4 交易夥伴介面程序 (PIP) 建立新的交易夥伴協議。  
@@ -42,7 +43,7 @@ ms.lasthandoff: 11/28/2017
     |**我的組織**|選取**Contoso**從下拉式清單。|  
     |**夥伴組織**|選取**Fabrikam**從下拉式清單。|  
     |**RNIF 版本**|選取**V02.00.01**從下拉式清單。|  
-    |**主要角色**|選取**回應 （回應者）**從下拉式清單。|  
+    |**主要角色**|選取**回應 （回應者）** 從下拉式清單。|  
     |**使用方式**|選取**測試**從下拉式清單。|  
   
 3.  按一下**連接埠**索引標籤，然後再執行下列動作：  

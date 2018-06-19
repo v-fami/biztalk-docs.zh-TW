@@ -1,17 +1,17 @@
 ---
-title: "從 PIP 建立格式正確的訊息執行個體 |Microsoft 文件"
-ms.custom: 
+title: 從 PIP 建立格式正確的訊息執行個體 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message templates
 - PIPs, message templates
 ms.assetid: fed3698c-25d9-40ca-878a-60171f425bec
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960684"
 ---
 # <a name="creating-a-well-formed-message-instance-from-a-pip"></a>從 PIP 建立格式正確的訊息執行個體
 本主題描述如何產生格式正確的訊息執行個體。 您可從交易夥伴介面程序 (PIP) 產生訊息執行個體的範本。 執行這個動作後，您必須修改該範本，使其格式正確，才可新增您的資料。  

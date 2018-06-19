@@ -1,11 +1,11 @@
 ---
-title: "如何設定密碼同步化 |Microsoft 文件"
-ms.custom: 
+title: 如何設定密碼同步化 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Password Synchronization [SSO], replay files
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Password Synchronization [SSO], configuring
 - configuring, Password Synchronization [SSO]
 ms.assetid: 04000dfc-02b9-4d50-babe-8bc8a07a33b7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968908"
 ---
 # <a name="how-to-configure-password-synchronization"></a>如何設定密碼同步化
 使用 SSOCONFIG 命令列公用程式可設定您的密碼同步設定。  
@@ -49,7 +50,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  在命令列，移至「企業單一登入」安裝目錄。 預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別**ssoconfig-syncage\<小時內的密碼最長有效期\>**按下 Enter。  
+4.  型別**ssoconfig-syncage\<小時內的密碼最長有效期\>** 按下 Enter。  
   
 > [!NOTE]
 >  SSOCONFIG 公用程式會使用 SQL Server 電腦上的時間做為系統時間。 使用任何與時間有關的命令時請謹記這點。  

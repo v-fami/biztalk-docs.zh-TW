@@ -1,14 +1,14 @@
 ---
-title: "組件安裝在 GAC 中的 |Microsoft 文件"
-ms.custom: 
+title: 組件安裝在 GAC 中的 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3b12d00c-8750-4c6d-8244-e613f955a478
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966404"
 ---
 # <a name="assembly-installation-in-the-gac"></a>GAC 中的組件安裝
 每部電腦都含有全域組件快取 (GAC)，其中包含該部電腦上一個或多個應用程式所使用的組件。 為了讓 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在執行階段期間處理訊息，BizTalk 應用程式所包含的組件必須存在於執行應用程式之電腦的 GAC 中。  

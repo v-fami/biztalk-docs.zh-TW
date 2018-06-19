@@ -1,14 +1,14 @@
 ---
-title: "步驟 3B： 新增 FILEACT 接收位置 FileAct 存放與轉寄案例 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3B： 新增 FILEACT 接收位置 FileAct 存放與轉寄案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0f30bb7d-1efb-4350-8809-be35f5634ea0
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25965228"
 ---
 # <a name="step-3b-add-a-fileact-receive-location-for-the-fileact-store-and-forward-scenario"></a>步驟 3B： 新增 FILEACT 接收位置 FileAct 存放與轉寄的案例
 在開始此步驟之前，必須先完成[步驟 3A： 新增檔案接收位置為 FileAct 存放與轉寄實例](../../adapters-and-accelerators/fileact-interact/step-3a-add-a-file-receive-location-for-the-fileact-store-and-forward-scenario.md)。  

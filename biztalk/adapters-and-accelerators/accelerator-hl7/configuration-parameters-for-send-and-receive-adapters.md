@@ -1,11 +1,11 @@
 ---
-title: "組態參數傳送和接收配接器 |Microsoft 文件"
-ms.custom: 
+title: 組態參數傳送和接收配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - configuration parameters [adapters]
 - receive adapters
 ms.assetid: f24ca8ae-feaf-4e5f-b434-76bc3c1c8ccf
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25962988"
 ---
 # <a name="configuration-parameters-for-send-and-receive-adapters"></a>組態參數傳送和接收配接器
 本章節提供的組態參數傳送和接收最少的較低層通訊協定 (MLLP) 介面卡。 這些參數可分為兩種類型： 封鎖字元和網路連接參數。  

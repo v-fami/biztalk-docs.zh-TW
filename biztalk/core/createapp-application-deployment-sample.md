@@ -1,11 +1,11 @@
 ---
-title: "CreateApp （應用程式部署範例） |Microsoft 文件"
-ms.custom: 
+title: CreateApp （應用程式部署範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, examples
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - .msi files, deploying
 - examples, deploying
 ms.assetid: 825627ee-21d0-4505-9df4-1dadc51335b6
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969708"
 ---
 # <a name="createapp-application-deployment-sample"></a>CreateApp (應用程式部署範例)
 本主題說明如何使用 CreateApp 範例，此範例會示範如何使用 BTSTask 命令列工具來部署和解除部署 BizTalk 應用程式。 您可以使用此範例中的指令碼，將部署和解除部署 BizTalk 應用程式的夜間建置程序自動化。  
@@ -76,7 +77,7 @@ ms.lasthandoff: 11/28/2017
          C:\ScriptLog.txt  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- 您可以在下列資料夾中找到範例檔案*\<範例路徑\>*\Application 部署\\:  
+ 您可以在下列資料夾中找到範例檔案*\<範例路徑\>* \Application 部署\\:  
   
 -   CreateApp (資料夾)  
   

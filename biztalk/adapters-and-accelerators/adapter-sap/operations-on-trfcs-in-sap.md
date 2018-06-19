@@ -1,11 +1,11 @@
 ---
-title: "TRFCs SAP 中的作業 |Microsoft 文件"
-ms.custom: 
+title: TRFCs SAP 中的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - RFCs, invoking transactional RFCs in an SAP System
@@ -22,7 +22,7 @@ helpviewer_keywords:
 - adapters, operations on tRFCs
 - RFC, invoking an RFC
 ms.assetid: d6a5c515-d6aa-4b70-9c23-32d1dd94d473
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -31,6 +31,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968068"
 ---
 # <a name="operations-on-trfcs-in-sap"></a>TRFCs SAP 中的作業
 交易式 Rfc (tRFCs) 是工作的一個邏輯單位 (LUW) 的一部分會叫用的 Rfc。 在 SAP 系統，luw 會包含所有完成的商業或程式設計工作所需的步驟。 TRFC 代表 RFC; 叫用的方法它不是唯一的 SAP 成品。  

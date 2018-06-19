@@ -1,17 +1,17 @@
 ---
-title: "RNIF 管線 |Microsoft 文件"
-ms.custom: 
+title: RNIF 管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - RNIF, pipelines
 - pipelines, RNIF
 ms.assetid: 6cf480fe-6b54-4b13-8318-617f3bba71d0
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25963436"
 ---
 # <a name="rnif-pipelines"></a>RNIF 管線
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]接收和傳送管線會執行接收所需的處理或傳送 RosettaNet 實作架構 (RNIF) 訊息。 這個處理作業包括預先處理、解碼/編碼、解密/加密、解譯/組譯以及一方驗證。  

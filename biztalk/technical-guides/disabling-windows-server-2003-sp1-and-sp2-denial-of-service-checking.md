@@ -1,14 +1,14 @@
 ---
-title: "停用 Windows Server 2003 SP1 與 SP2 阻斷服務檢查 |Microsoft 文件"
-ms.custom: 
+title: 停用 Windows Server 2003 SP1 與 SP2 阻斷服務檢查 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8822c1e4-d146-4361-b25a-7b81cd5cdd3b
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297710"
 ---
 # <a name="disabling-windows-server-2003-sp1-and-sp2-denial-of-service-checking"></a>停用 Windows Server 2003 SP1 與 SP2 阻斷服務檢查
 > [!NOTE]  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960396"
 ---
 # <a name="step-1-create-and-deploy-common-header-and-acknowledgment-schemas"></a>步驟 1： 建立及部署通用標頭和通知結構描述
 您可以使用標頭結構描述來驗證訊息執行個體的標頭 （MSH 區段）。 您可以使用通知結構描述來產生訊息執行個體的通知。 此程序適用於所有 HL7 結構描述版本。  

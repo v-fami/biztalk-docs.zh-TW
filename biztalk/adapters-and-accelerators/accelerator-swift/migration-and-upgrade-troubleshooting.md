@@ -1,11 +1,11 @@
 ---
-title: "移轉和升級的疑難排解 |Microsoft 文件"
-ms.custom: 
+title: 移轉和升級的疑難排解 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - upgrading, troubleshooting
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - troubleshooting, migrating
 - migrating, troubleshooting
 ms.assetid: 6e6c0ff9-7897-4de6-9e9b-b502b3a1785b
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25961468"
 ---
 # <a name="migration-and-upgrade-troubleshooting"></a>移轉和升級的疑難排解
 ## <a name="assemblies-need-to-be-undeployed-before-an-upgrade"></a>需要升級之前解除部署組件  
@@ -64,7 +65,7 @@ ms.lasthandoff: 01/17/2018
   
  若要設定這些權限，請繼續進行，如下所示：  
   
- 在[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管 中，移至*%programfiles%*\Microsoft BizTalk Accelerator for SWIFT\Service。  
+ 在[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管 中，移至 *%programfiles%* \Microsoft BizTalk Accelerator for SWIFT\Service。  
   
 1.  以滑鼠右鍵按一下 [服務] 資料夾中，按一下**屬性**，然後按一下 [**安全性**] 索引標籤。  
   

@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 測試批次中的批次出案例 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 測試批次中的批次出案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c487d39d-b2be-41d4-963e-d0ee9ba169fb
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25960796"
 ---
 # <a name="step-3-test-the-batch-inbatch-out-scenario"></a>步驟 3： 測試中的批次/批次出案例
 在此步驟中，您將測試批次中 / 批次出教學課程藉由卸除批次中的測試執行個體 / 批次訊息的資料夾。 您設定的傳送埠會將訊息傳送、 接收埠會接收該和接收管線會處理它並拖放到目的資料夾。  

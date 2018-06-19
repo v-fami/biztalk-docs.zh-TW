@@ -1,14 +1,14 @@
 ---
-title: "插入、 更新、 刪除或 interface table 和 Oracle E-business Suite 與介面檢視上選取 |Microsoft 文件"
-ms.custom: 
+title: 插入、 更新、 刪除或 interface table 和 Oracle E-business Suite 與介面檢視上選取 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 85f42431-80fb-49be-86d1-bb21eee5e4f5
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968012"
 ---
 # <a name="insert-update-delete-or-select-on-interface-tables-and-interface-views-with-oracle-e-business-suite"></a>插入、 更新、 刪除或 interface table 和 Oracle E-business Suite 與介面檢視上選取
 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]介面一組標準的作業，例如 Insert、 Update、 Delete 介面上的選取資料表和檢視。 本主題提供有關如何執行這些作業使用配接器的指示。 如需配接器如何支援這些作業的詳細資訊，請參閱[介面資料表和檢視介面上的作業](../../adapters-and-accelerators/adapter-oracle-ebs/operations-on-interface-tables-and-interface-views.md)。 這些作業的 SOAP 訊息結構的相關資訊，請參閱[Insert、 Update、 Delete 和選取作業的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-ebs/message-schemas-for-insert-update-delete-and-select-operations.md)。  
@@ -93,7 +94,7 @@ ms.lasthandoff: 11/28/2017
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br />-設定**啟動**至*，則為 True*|  
+|ReceiveMessage|Receive|-設定**名稱**至*ReceiveMessage*<br />-設定**啟動**至 *，則為 True*|  
 |SendMessage|Send|-設定**名稱**至*SendMessage*|  
 |ReceiveResponse|Receive|-設定**名稱**至*ReceiveResponse*<br />-設定**啟動**至*False*|  
 |SendResponse|Send|-設定**名稱**至*SendResponse*|  

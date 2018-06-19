@@ -1,11 +1,11 @@
 ---
-title: "部署 A4SWIFT 信封結構描述 |Microsoft 文件"
-ms.custom: 
+title: 部署 A4SWIFT 信封結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, envelope schemas
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - envelope schemas
 - schemas, envelope schemas
 ms.assetid: 6440608c-d30d-4d82-827a-8a4b2738db85
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 01/17/2018
+ms.locfileid: "25967044"
 ---
 # <a name="deploying-a4swift-envelope-schemas"></a>部署 A4SWIFT 信封結構描述
 每當您設定 Message Repair 和 New Submission 時，您必須在結構描述專案中包含信封結構描述。 信封結構描述，例如 EnvelopeMT103.xsd，才能寫入 MRSR 網站。  

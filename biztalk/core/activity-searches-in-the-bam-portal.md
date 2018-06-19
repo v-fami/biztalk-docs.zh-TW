@@ -1,11 +1,11 @@
 ---
-title: "BAM 入口網站中的活動搜尋 |Microsoft 文件"
-ms.custom: 
+title: BAM 入口網站中的活動搜尋 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities [BAM], searching
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - BAM portal, Query Builder
 - BAM portal, activity searches
 ms.assetid: 60ab8deb-ebe2-4959-97fd-261ff64d500c
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966596"
 ---
 # <a name="activity-searches-in-the-bam-portal"></a>BAM 入口網站中的活動搜尋
 活動搜尋可讓您對 BAM 資料執行搜尋，根據 BAM 檢視中的追蹤值和項目尋找符合您指定之準則的活動，並顯示這些活動讓您進行編輯或根據這些活動建立警示。  
@@ -62,7 +63,7 @@ ms.lasthandoff: 11/28/2017
   
 |運算子|Description|  
 |--------------|-----------------|  
-|**在**|指定完全相符的項目。 相當於布林值的等於 (=) 運算。 **注意：**如果您選取**在**運算子，然後在入口網站會使用午夜做為預設值沒有時間部分指定日期。 如果這不是您的目的，使用**當時或之前**或**在或之後**運算子取得所需的結果。|  
+|**在**|指定完全相符的項目。 相當於布林值的等於 (=) 運算。 **注意：** 如果您選取**在**運算子，然後在入口網站會使用午夜做為預設值沒有時間部分指定日期。 如果這不是您的目的，使用**當時或之前**或**在或之後**運算子取得所需的結果。|  
 |**在或之前**|指定只有在指定日期當天或之前的交易才符合。 相當於布林值的小於或等於 (≤ 運算。|  
 |**在或之後**|指定只有在指定日期當天或之後的交易才符合。 相當於布林值的大於或等於 (≥ 運算。|  
 |**之前**|指定只有在指定日期之前的交易才符合。 相當於布林值的小於 (<) 運算。|  

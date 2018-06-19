@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/18/2018
+ms.locfileid: "25965348"
 ---
 # <a name="generating-and-publishing-mtmx-forms-on-the-sharepoint-site"></a>產生和發行 SharePoint 網站上的 MT/MX 表單
 **若要產生並發佈在 SharePoint 網站上的 MT/MX 表單：**  
@@ -25,7 +26,7 @@ ms.lasthandoff: 04/18/2018
   
 2.  開啟**FormGenerator.sln**從資料夾下載的上方及編譯方案。  
   
-3.  在命令提示字元中，存取已編譯的可執行檔 (FormGenerator.exe) 的資料夾。 例如，如果您已建立偵錯模式中的公用程式，存取**...\bin\debug**資料夾。  
+3.  在命令提示字元中，存取已編譯的可執行檔 (FormGenerator.exe) 的資料夾。 例如，如果您已建立偵錯模式中的公用程式，存取 **...\bin\debug**資料夾。  
   
 4.  輸入 FormGenerator.exe [-b] [-\<[否]。 範本資料夾路徑的\>]  
   
@@ -50,7 +51,7 @@ ms.lasthandoff: 04/18/2018
   
 12. 在 [發行精靈] 視窗中，選取**至某個網路位置**按一下**下一步**。  
   
-13. 在 表單範本路徑和檔案名稱 文字方塊中輸入 **http://localhost/sites/BASSite/Templates/ \<MessageType\>.xsn**和型別**\<MessageType\>**格式範本名稱 文字方塊中，按一下**下一步**。  
+13. 在 表單範本路徑和檔案名稱 文字方塊中輸入 **http://localhost/sites/BASSite/Templates/ \<MessageType\>.xsn**和型別**\<MessageType\>** 格式範本名稱 文字方塊中，按一下**下一步**。  
   
 14. 按一下 **[下一步]**。  
   

@@ -1,18 +1,18 @@
 ---
-title: "如何將帳戶新增至 檢視 |Microsoft 文件"
-ms.custom: 
+title: 如何將帳戶新增至 檢視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Excel add-in [BAM], security
 - Add-Account command [BAM]
 - managing [BAM], adding accounts to views
 ms.assetid: 0875796c-82a4-4165-9bed-88e8ba466548
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968668"
 ---
 # <a name="how-to-add-accounts-to-a-view"></a>如何新增帳戶至檢視
 系統管理員使用**新增帳戶**命令以將使用者與 BAM 檢視產生關聯，並保護 BAM Excel 試算表檢視不會未經授權的存取。 當使用者儲存 BAM 檢視時，檢視會參照隱藏在活頁簿內的 SQL 連接字串。 活頁簿已受到保護，但是您必須確保文件也受到保護。  

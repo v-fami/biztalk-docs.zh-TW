@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966036"
 ---
 # <a name="stream-flat-file-idocs-in-sap-using-the-wcf-channel-model"></a>使用 WCF 通道模型的 SAP 中的資料流一般檔案 Idoc
 [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]支援節點值的 SendIdoc 和 ReceiveIdoc 作業的串流。 這些作業用來傳送和接收一般檔案 （字串） 的 Idoc 與配接器。 在這兩種作業中，整個 IDOC 的資料包含在單一節點下的字串 (\<idocData\>)。 對於大型的 Idoc，串流 IDOC 資料配接器與您的程式碼之間可能節省大量記憶體資源。  

@@ -1,14 +1,14 @@
 ---
-title: "瀏覽 Oracle E-business Suite 作業的成品型檢視下 |Microsoft 文件"
-ms.custom: 
+title: 瀏覽 Oracle E-business Suite 作業的成品型檢視下 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 962ac1cc-826c-46d6-848a-4cd371804596
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25966804"
 ---
 # <a name="browse-for-oracle-e-business-suite-operations-under-the-artifact-based-view"></a>瀏覽 Oracle E-business Suite 作業下成品為基礎的檢視
 您可以使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]或[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]瀏覽一概無法對 Oracle E-business Suite 的傳出和傳入作業使用[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。 本主題提供有關如何瀏覽成品為基礎的檢視之下的傳出和傳入作業的資訊。  
@@ -72,7 +73,7 @@ ms.lasthandoff: 11/28/2017
     > [!IMPORTANT]
     >  [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)] (或[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]) 會顯示要求集合的易記名稱。 不過，要求集的中繼資料已實際要求集的名稱。 例如，應用程式 DBA 應用程式包含"DownloadPatches"要求集。 不過，中繼資料都有要求集名稱為 FNDRSSUB1623，並要求集合的實際名稱。  
   
-9. 展開**PL-SQL Api**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 展開**目前結構描述 (\<結構描述名稱\>)**節點，查看針對該結構描述定義的所有封裝。 按一下以查看函式和程序在封裝內的套件名稱**可用的類別和作業**方塊。  
+9. 展開**PL-SQL Api**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 展開**目前結構描述 (\<結構描述名稱\>)** 節點，查看針對該結構描述定義的所有封裝。 按一下以查看函式和程序在封裝內的套件名稱**可用的類別和作業**方塊。  
   
      ![瀏覽 Oracle 資料庫中的套件](../../adapters-and-accelerators/adapter-oracle-ebs/media/7a9dc061-db0b-4a8e-bfc6-3a003ad687d8.gif "7a9dc061-db0b-4a8e-bfc6-3a003ad687d8")  
   
@@ -80,7 +81,7 @@ ms.lasthandoff: 11/28/2017
   
      ![瀏覽所有結構描述的 Oracle 資料庫中的套件](../../adapters-and-accelerators/adapter-oracle-ebs/media/09a4841b-b88f-490d-a49a-94e392b5493c.gif "09a4841b-b88f-490d-a49a-94e392b5493c")  
   
-10. 展開**程序**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 按一下**目前結構描述 (\<結構描述名稱\>)**節點以查看針對該結構描述中定義的程序**可用的類別和作業**方塊。  
+10. 展開**程序**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 按一下**目前結構描述 (\<結構描述名稱\>)** 節點以查看針對該結構描述中定義的程序**可用的類別和作業**方塊。  
   
      ![瀏覽 Oracle 資料庫結構描述中的程序](../../adapters-and-accelerators/adapter-oracle-ebs/media/6d78563a-53f7-45cc-8652-f40d4703bdf4.gif "6d78563a-53f7-45cc-8652-f40d4703bdf4")  
   
@@ -88,7 +89,7 @@ ms.lasthandoff: 11/28/2017
   
      ![瀏覽 Oracle 資料庫結構描述中的程序](../../adapters-and-accelerators/adapter-oracle-ebs/media/a514d199-d6c1-44a0-bf6b-28ddf702081a.gif "a514d199-d6c1-44a0-bf6b-28ddf702081a")  
   
-11. 展開**函式**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 按一下**目前結構描述 (\<結構描述名稱\>)**節點以查看該結構描述中定義的所有函式**可用的類別和作業**方塊。  
+11. 展開**函式**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 按一下**目前結構描述 (\<結構描述名稱\>)** 節點以查看該結構描述中定義的所有函式**可用的類別和作業**方塊。  
   
      ![瀏覽 Oracle 資料庫結構描述中的函式](../../adapters-and-accelerators/adapter-oracle-ebs/media/22c1cabf-9754-4ecd-be37-dbeeb7a6a8fd.gif "22c1cabf-9754-4ecd-be37-dbeeb7a6a8fd")  
   
@@ -96,7 +97,7 @@ ms.lasthandoff: 11/28/2017
   
      ![瀏覽 Oracle 資料庫中所有結構描述中的函式](../../adapters-and-accelerators/adapter-oracle-ebs/media/b4d29036-3d37-4a50-82c2-3532adbe2875.gif "b4d29036-3d37-4a50-82c2-3532adbe2875")  
   
-12. 展開**資料表**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 展開**目前結構描述 (\<結構描述名稱\>)**節點以查看針對該結構描述定義的所有資料表。 按一下資料表名稱，請參閱支援該資料表中的作業才能**可用的類別和作業**方塊。  
+12. 展開**資料表**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 展開**目前結構描述 (\<結構描述名稱\>)** 節點以查看針對該結構描述定義的所有資料表。 按一下資料表名稱，請參閱支援該資料表中的作業才能**可用的類別和作業**方塊。  
   
      ![瀏覽 Oracle 資料庫結構描述中的資料表](../../adapters-and-accelerators/adapter-oracle-ebs/media/6ba7420f-9893-4b3e-91cb-10f29d725ad3.gif "6ba7420f-9893-4b3e-91cb-10f29d725ad3")  
   
@@ -109,7 +110,7 @@ ms.lasthandoff: 11/28/2017
     >   
     >  同樣地，如果資料表包含 BLOB 類型的資料行時，CLOB 或 NCLOB 配接器也會公開成這類資料行中更新資料的特定作業。 這類作業的名稱是 Update_\<LOBColName\>。 例如，如果資料表有資料行，而相片，BLOB 類型的配接器會公開**Update_PHOTO**作業。 如果資料表有一個以上的資料行的 BLOB 類型，CLOB，並且 NCLOB 配接器會公開最多數目 Update_\<LOBColName\>作業。 請注意，更新作業不支援的型別 BFILE 資料行上。  
   
-13. 展開**檢視**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 展開**目前結構描述 (\<結構描述名稱\>)**節點以查看該定義的所有檢視。 按一下 檢視名稱，以查看在該檢視表上支援的作業**可用的類別和作業**方塊。  
+13. 展開**檢視**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 展開**目前結構描述 (\<結構描述名稱\>)** 節點以查看該定義的所有檢視。 按一下 檢視名稱，以查看在該檢視表上支援的作業**可用的類別和作業**方塊。  
   
      ![瀏覽 Oracle 資料庫中目前的結構描述中檢視](../../adapters-and-accelerators/adapter-oracle-ebs/media/2a38cfed-007d-431a-af60-c9c8be5369ab.gif "2a38cfed-007d-431a-af60-c9c8be5369ab")  
   
@@ -151,7 +152,7 @@ ms.lasthandoff: 11/28/2017
   
      ![介面檢視上的輸入操作](../../adapters-and-accelerators/adapter-oracle-ebs/media/937f46f2-d142-413f-8744-2180c7116fd4.gif "937f46f2-d142-413f-8744-2180c7116fd4")  
   
-6.  展開**PL-SQL Api**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 展開**目前結構描述 (\<結構描述名稱\>)**節點，查看針對該結構描述定義的所有封裝。 按一下以查看函式和程序在封裝內的套件名稱**可用的類別和作業**方塊。 每個所列出函式和程序可用於輪詢 Oracle 資料庫。  
+6.  展開**PL-SQL Api**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 展開**目前結構描述 (\<結構描述名稱\>)** 節點，查看針對該結構描述定義的所有封裝。 按一下以查看函式和程序在封裝內的套件名稱**可用的類別和作業**方塊。 每個所列出函式和程序可用於輪詢 Oracle 資料庫。  
   
      ![瀏覽 PL &#45;SQL Api 在 Oracle 資料庫進行輪詢](../../adapters-and-accelerators/adapter-oracle-ebs/media/4b31ea85-9c5a-42b4-82b2-2cb6d3ead35a.gif "4b31ea85-9c5a-42b4-82b2-2cb6d3ead35a")  
   
@@ -159,7 +160,7 @@ ms.lasthandoff: 11/28/2017
   
      ![瀏覽 PL &#45;所有的結構描述進行輪詢 SQL Api](../../adapters-and-accelerators/adapter-oracle-ebs/media/e28a803e-fcfb-4021-9225-924d54a484c0.gif "e28a803e-fcfb-4021-9225-924d54a484c0")  
   
-7.  展開**程序**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 按一下**目前結構描述 (\<結構描述名稱\>)**節點以查看針對該結構描述中定義的程序**可用的類別和作業**方塊。 每個列出的程序可用於輪詢 Oracle 資料庫。  
+7.  展開**程序**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 按一下**目前結構描述 (\<結構描述名稱\>)** 節點以查看針對該結構描述中定義的程序**可用的類別和作業**方塊。 每個列出的程序可用於輪詢 Oracle 資料庫。  
   
      ![瀏覽所有結構描述進行輪詢的程序](../../adapters-and-accelerators/adapter-oracle-ebs/media/5e78da80-d99a-44d3-8eac-f636828f8ceb.gif "5e78da80-d99a-44d3-8eac-f636828f8ceb")  
   
@@ -167,7 +168,7 @@ ms.lasthandoff: 11/28/2017
   
      ![瀏覽輪詢 Oracle 資料庫中的程序](../../adapters-and-accelerators/adapter-oracle-ebs/media/22d8e866-ed19-49f4-a6eb-683343b16cf5.gif "22d8e866-ed19-49f4-a6eb-683343b16cf5")  
   
-8.  展開**函式**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 按一下**目前結構描述 (\<結構描述名稱\>)**節點以查看該結構描述中定義的所有函式**可用的類別和作業**方塊。 每個所列出函式可用於輪詢 Oracle 資料庫。  
+8.  展開**函式**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 按一下**目前結構描述 (\<結構描述名稱\>)** 節點以查看該結構描述中定義的所有函式**可用的類別和作業**方塊。 每個所列出函式可用於輪詢 Oracle 資料庫。  
   
      ![瀏覽輪詢 Oracle 資料庫中的函式](../../adapters-and-accelerators/adapter-oracle-ebs/media/64c0a30d-a2d6-4dee-90cb-a7e7e2bf62cf.gif "64c0a30d-a2d6-4dee-90cb-a7e7e2bf62cf")  
   
@@ -175,7 +176,7 @@ ms.lasthandoff: 11/28/2017
   
      ![瀏覽輪詢 Oracle 資料庫中的函式](../../adapters-and-accelerators/adapter-oracle-ebs/media/1d22c3c8-8c24-4905-8144-bdb4840244f1.gif "1d22c3c8-8c24-4905-8144-bdb4840244f1")  
   
-9. 展開**資料表**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 展開**目前結構描述 (\<結構描述名稱\>)**節點以查看針對該結構描述定義的所有資料表。 按一下資料表名稱，才能看到**輪詢**輸入該資料表中支援此作業**可用的類別和作業**方塊。  
+9. 展開**資料表**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 展開**目前結構描述 (\<結構描述名稱\>)** 節點以查看針對該結構描述定義的所有資料表。 按一下資料表名稱，才能看到**輪詢**輸入該資料表中支援此作業**可用的類別和作業**方塊。  
   
      ![瀏覽輪詢 Oracle 資料庫中的資料表](../../adapters-and-accelerators/adapter-oracle-ebs/media/7c60dfbf-3836-4e72-abe8-5f32a0936807.gif "7c60dfbf-3836-4e72-abe8-5f32a0936807")  
   
@@ -183,7 +184,7 @@ ms.lasthandoff: 11/28/2017
   
      ![瀏覽輪詢 Oracle 資料庫中的資料表](../../adapters-and-accelerators/adapter-oracle-ebs/media/c5fbaf59-2e79-4141-8a85-1e1b8eedcea7.gif "c5fbaf59-2e79-4141-8a85-1e1b8eedcea7")  
   
-10. 展開**檢視**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 展開**目前結構描述 (\<結構描述名稱\>)**節點以查看該定義的所有檢視。 按一下 檢視名稱，以查看**輪詢**輸入該檢視中支援此作業**可用的類別和作業**方塊。  
+10. 展開**檢視**節點以查看目前的使用者結構描述 （與您登入） 和基礎的 Oracle 資料庫中定義的所有其他結構描述的類別目錄節點。 展開**目前結構描述 (\<結構描述名稱\>)** 節點以查看該定義的所有檢視。 按一下 檢視名稱，以查看**輪詢**輸入該檢視中支援此作業**可用的類別和作業**方塊。  
   
      ![瀏覽 Oracle 資料庫進行輪詢中的檢視](../../adapters-and-accelerators/adapter-oracle-ebs/media/2299de79-9f50-433d-9e71-164f6d02bd78.gif "2299de79-9f50-433d-9e71-164f6d02bd78")  
   

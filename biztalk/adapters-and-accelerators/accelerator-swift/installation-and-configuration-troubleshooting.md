@@ -13,7 +13,7 @@ helpviewer_keywords:
 - troubleshooting, configuring
 - troubleshooting, installing
 ms.assetid: 25a2f6c5-c049-4042-8e38-4f7a2556e066
-caps.latest.revision: ''
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25968100"
 ---
 # <a name="installation-and-configuration-troubleshooting"></a>安裝和設定疑難排解
 ## <a name="setup-is-unable-to-deploy-the-runtimeschemas-assembly"></a>安裝程式無法部署 RuntimeSchemas 組件  
@@ -41,11 +42,11 @@ ms.lasthandoff: 03/28/2018
 ### <a name="solution"></a>方案  
  請繼續進行，如下所示，取決於問題的本質而定：  
   
--   如果執行階段結構描述組件已經部署，當您嘗試執行 A4SWIFT 的初始安裝時，開啟 [BizTalk 總管] 中[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)]，以滑鼠右鍵按一下組件[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]。Solutions.FinancialServices.SWIFT.RuntimeSchemas，然後按一下解除部署。 使用 BizTalk 部署精靈部署最新版的 RuntimeSchemas.dll 從*%programfiles%*\Microsoft BizTalk Accelerator for SWIFT\Assemblies。  
+-   如果執行階段結構描述組件已經部署，當您嘗試執行 A4SWIFT 的初始安裝時，開啟 [BizTalk 總管] 中[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] [!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)]，以滑鼠右鍵按一下組件[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]。Solutions.FinancialServices.SWIFT.RuntimeSchemas，然後按一下解除部署。 使用 BizTalk 部署精靈部署最新版的 RuntimeSchemas.dll 從 *%programfiles%* \Microsoft BizTalk Accelerator for SWIFT\Assemblies。  
   
--   如果[!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]已不會啟動，啟動[!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]中[!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]Service Manager。 使用 BizTalk 部署精靈部署最新版的 RuntimeSchemas.dll 從*%programfiles%*\Microsoft BizTalk Accelerator for SWIFT\Assemblies。  
+-   如果[!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]已不會啟動，啟動[!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]中[!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]Service Manager。 使用 BizTalk 部署精靈部署最新版的 RuntimeSchemas.dll 從 *%programfiles%* \Microsoft BizTalk Accelerator for SWIFT\Assemblies。  
   
--   如果已部署的執行階段結構描述組件，當您嘗試升級 A4SWIFT，且所參考另一個組件，解除部署 BizTalk 總管 中的參考組件，並解除部署 RuntimeSchemas.dll BizTalk 總管 中。 使用 BizTalk 部署精靈部署最新版的 RuntimeSchemas.dll 從*%programfiles%*\Microsoft BizTalk Accelerator for SWIFT\Assemblies。  
+-   如果已部署的執行階段結構描述組件，當您嘗試升級 A4SWIFT，且所參考另一個組件，解除部署 BizTalk 總管 中的參考組件，並解除部署 RuntimeSchemas.dll BizTalk 總管 中。 使用 BizTalk 部署精靈部署最新版的 RuntimeSchemas.dll 從 *%programfiles%* \Microsoft BizTalk Accelerator for SWIFT\Assemblies。  
   
 ## <a name="after-the-web-components-feature-is-removed-message-repair-and-reconciliation-is-incorrectly-shown-as-uninstalled"></a>移除網路元件功能之後，訊息修復和重新調整不正確地顯示為解除安裝  
   
@@ -72,7 +73,7 @@ ms.lasthandoff: 03/28/2018
 ## <a name="repairing-a4swift-to-add-the-service-folder-can-result-in-improper-access-permissions-for-that-folder"></a>修復 A4SWIFT 加入服務資料夾可能會導致該資料夾不適當的存取權限  
   
 ### <a name="symptom"></a>徵兆  
- 如果您刪除該資料夾*%programfiles%*\Microsoft BizTalk Accelerator for SWIFT\Service 與已正確設定的 A4SWIFT 安裝，然後執行 A4SWIFT 回 A4SWIFT 安裝程式來新增伺服器資料夾的修復功能安裝時，[服務] 資料夾的存取權限不是正確的狀態。 正確的權限是具有完整控制權 A4SWIFT 系統管理員 」 和 「 讀取 」 和 「 執行 A4SWIFT 使用者。  
+ 如果您刪除該資料夾 *%programfiles%* \Microsoft BizTalk Accelerator for SWIFT\Service 與已正確設定的 A4SWIFT 安裝，然後執行 A4SWIFT 回 A4SWIFT 安裝程式來新增伺服器資料夾的修復功能安裝時，[服務] 資料夾的存取權限不是正確的狀態。 正確的權限是具有完整控制權 A4SWIFT 系統管理員 」 和 「 讀取 」 和 「 執行 A4SWIFT 使用者。  
   
  如果您的服務資料夾時執行 A4SWIFT 安裝的修復功能，這也會發生。 存取權限所設定的 A4SWIFT 組態精靈，將會覆寫不正確的值。  
   
@@ -91,7 +92,7 @@ ms.lasthandoff: 03/28/2018
   
  若要設定這些權限，請繼續進行，如下所示：  
   
- 在[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管 中，移至*%programfiles%*\Microsoft BizTalk Accelerator for SWIFT\Service。  
+ 在[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管 中，移至 *%programfiles%* \Microsoft BizTalk Accelerator for SWIFT\Service。  
   
 1.  以滑鼠右鍵按一下 [服務] 資料夾中，按一下**屬性**，然後按一下 [**安全性**] 索引標籤。  
   
@@ -165,7 +166,7 @@ ms.lasthandoff: 03/28/2018
   
 2.  重新啟動 IIS 管理服務。  
   
-3.  執行*%programfiles%*\Microsoft BizTalk Accelerator for SWIFT\Configuration.exe。  
+3.  執行 *%programfiles%* \Microsoft BizTalk Accelerator for SWIFT\Configuration.exe。  
   
 4.  在[!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]組態主控台中，選取**取消設定功能**，然後選取  **WebService**。  
   
@@ -191,7 +192,7 @@ ms.lasthandoff: 03/28/2018
   
 -   在 BizTalk Server 管理 中建立的主機。 沒有需要現在擁有執行個體。  
   
--   執行 RepairBAS 工具*%programfiles%*\Microsoft BizTalk Accelerator for SWIFT\SDK\Tools 資料夾的 A4SWIFT 安裝。  
+-   執行 RepairBAS 工具 *%programfiles%* \Microsoft BizTalk Accelerator for SWIFT\SDK\Tools 資料夾的 A4SWIFT 安裝。  
   
  若要這樣做，請繼續進行，如下所示：  
   

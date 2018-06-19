@@ -1,18 +1,18 @@
 ---
-title: "如何設定 SSO 票證 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 SSO 票證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [SSO], configuring tickets
 - SSO, tickets
 - tickets [SSO], configuring
 ms.assetid: 32f0384b-ac79-4cce-b3f5-f4f8a73a673a
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968644"
 ---
 # <a name="how-to-configure-the-sso-tickets"></a>如何設定 SSO 票證
 您可以使用 [MMC 嵌入式管理單元] 或命令列來控制整個「單一登入」系統的票證行為，包括是否允許票證以及系統是否必須驗證票證。  
@@ -43,7 +44,7 @@ ms.lasthandoff: 11/28/2017
   
 ### <a name="to-configure-the-enterprise-single-sign-on-tickets-using-the-mmc-snap-in-for-the-affiliate-application"></a>使用 MMC 嵌入式管理單元為分支機構應用程式設定企業單一登入票證  
   
-1.  在 **[開始]** 功能表上，依序按一下 **[所有程式]**及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。  
+1.  在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。  
   
 2.  在 範圍 窗格的 ENTSSO MMC 嵌入式管理單元，依序展開**分支機構應用程式**節點。  
   
@@ -59,7 +60,7 @@ ms.lasthandoff: 11/28/2017
   
 2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是*\<磁碟機\>*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssomanage – 票證\<允許是/否\> *\<驗證是/否\>***，其中*\<允許是/否\>* 表示，系統是否允許票證和*\<驗證是/否\>*指出是否需要重新驗證後贖回票證.  
+3.  型別**ssomanage – 票證\<允許是/否\> *\<驗證是/否\>***，其中*\<允許是/否\>* 表示，系統是否允許票證和*\<驗證是/否\>* 指出是否需要重新驗證後贖回票證.  
   
     > [!NOTE]
     >  您可以使用 [yes]、[no]、[on] 或 [off] 來表示是否允許和/或驗證票證。 這些字與大小寫無關，不論您的語言設定為何都必須使用。  

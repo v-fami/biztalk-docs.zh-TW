@@ -1,14 +1,14 @@
 ---
-title: "ESB JMS 編碼器和解碼器元件 |Microsoft 文件"
-ms.custom: 
+title: ESB JMS 編碼器和解碼器元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4e5591c2-d2ca-4168-8026-059fe51dd588
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295678"
 ---
 # <a name="the-esb-jms-encoder-and-decoder-components"></a>ESB JMS 編碼器和解碼器元件
 Java 訊息服務 (JMS)，或從 IBM WebSphere MQ; 傳送 SOAP 訊息，牽涉到某些整合解決方案[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]包含兩個以 managed 程式碼，在這些情況下使用 JMS 管線元件。 元件會讀取或寫入 MQ 訊息標頭使用的值與訊息相關聯的內容屬性的 JMS 部分。 目前，有超過 60 的不同類型的 JMS 與 WebSphere MQ Series 系統; 使用中的標頭ESB JMS 元件僅適用於 MQRFH2 標頭。  

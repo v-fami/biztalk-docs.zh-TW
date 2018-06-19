@@ -1,14 +1,14 @@
 ---
-title: "在步驟 8A： 設定合作對象資訊 ADT System_hl7_main |Microsoft 文件"
-ms.custom: 
+title: 在步驟 8A： 設定合作對象資訊 ADT System_hl7_main |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 693fda8b-9a99-4a6e-89b7-294f84676350
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25960636"
 ---
 # <a name="step-8a-configure-party-information-for-the-adt-systemhl7main"></a>在步驟 8A： 設定 ADT System_hl7_main 合作對象資訊
 在此步驟中，您可以設定 ADT 系統的合作對象資訊。  
