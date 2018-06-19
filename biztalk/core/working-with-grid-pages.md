@@ -1,14 +1,14 @@
 ---
-title: "使用格線頁 |Microsoft 文件"
-ms.custom: 
+title: 使用格線頁 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 14a27bbf-3761-49dd-be6f-f311857e38c2
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289814"
 ---
 # <a name="working-with-grid-pages"></a><span data-ttu-id="bd63a-102">使用格線頁</span><span class="sxs-lookup"><span data-stu-id="bd63a-102">Working with Grid Pages</span></span>
 <span data-ttu-id="bd63a-103">建立許多商業文件的對應會包含大量的連結和運算質，經常足以使格線變得複雜且難以理解。</span><span class="sxs-lookup"><span data-stu-id="bd63a-103">Creating maps for many business documents can involve numerous links and functoids, often enough to make the grid complex and difficult to understand.</span></span> <span data-ttu-id="bd63a-104">針對此潛在複雜情況的解決方式為格線頁簡介。</span><span class="sxs-lookup"><span data-stu-id="bd63a-104">The solution to this potential complexity is the introduction of pages to the grid.</span></span> <span data-ttu-id="bd63a-105">您可以將不同層面的對應隔離為不同的頁面，然後個別檢視和使用這些頁面。</span><span class="sxs-lookup"><span data-stu-id="bd63a-105">You can isolate different aspects of your mapping into different pages, and then view and work with those pages separately.</span></span>  

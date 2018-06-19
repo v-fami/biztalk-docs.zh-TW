@@ -1,11 +1,11 @@
 ---
-title: "商務程序管理解決方案中有效使用 SSO |Microsoft 文件"
-ms.custom: 
+title: 商務程序管理解決方案中有效使用 SSO |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, process management solutions
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - SSO, caching
 - process management solution tutorial, SSO
 ms.assetid: 39fbc42d-caa4-4003-a13b-5cde578eb5e1
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288518"
 ---
 # <a name="using-sso-efficiently-in-the-business-process-management-solution"></a><span data-ttu-id="4e2ca-102">商務程序管理解決方案中有效使用 SSO</span><span class="sxs-lookup"><span data-stu-id="4e2ca-102">Using SSO Efficiently in the Business Process Management Solution</span></span>
 <span data-ttu-id="4e2ca-103">如同服務導向解決方案，商務程序管理解決方案也使用「企業單一登入」(SSO) 來儲存組態值，例如，訂單處理階段數目。</span><span class="sxs-lookup"><span data-stu-id="4e2ca-103">Like the Service Oriented solution, the Business Process Management solution uses Enterprise Single Sign-On (SSO) to store configuration values such as the number of order processing stages.</span></span> <span data-ttu-id="4e2ca-104">此解決方案使用密碼存放區，因為只要安裝 BizTalk，密碼存放區就會存在，SSO 會快取組態資訊，讓組態值隨時可供使用，而且它也可以保護如資料庫連接字串和密碼等資訊。</span><span class="sxs-lookup"><span data-stu-id="4e2ca-104">It uses the secret store because it is present whenever BizTalk is installed, SSO caches the configuration information so that the values are readily available, and it can protect information such as database connection strings and passwords.</span></span> <span data-ttu-id="4e2ca-105">基於這些理由，即使未使用「單一登入」來管理與後端應用程式的連線，密碼存放區仍是保存組態資訊的理想位置。</span><span class="sxs-lookup"><span data-stu-id="4e2ca-105">For all of these reasons, the secret store is a good place for the configuration information even if Single Sign-On weren't being used for managing connections to the backend applications.</span></span>  

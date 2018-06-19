@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 18ca8535-3386-4018-8b5b-d32bdb9ebf70
-caps.latest.revision: ''
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22291214"
 ---
 # <a name="what-are-the-wcf-adapters"></a><span data-ttu-id="d94c7-103">何謂 WCF 配接器？</span><span class="sxs-lookup"><span data-stu-id="d94c7-103">What Are the WCF Adapters?</span></span>
 <span data-ttu-id="d94c7-104">Windows Communication Foundation (WCF) 配接器有兩種，一種是接收配接器，另一種是傳送配接器。</span><span class="sxs-lookup"><span data-stu-id="d94c7-104">There are two Windows Communication Foundation (WCF) adapters—a receive adapter and a send adapter.</span></span> <span data-ttu-id="d94c7-105">您可以使用 WCF 接收配接器接收 WCF 服務要求。</span><span class="sxs-lookup"><span data-stu-id="d94c7-105">You use the WCF receive adapter to receive WCF service requests.</span></span> <span data-ttu-id="d94c7-106">WCF 接收配接器會接收要求、建立 BizTalk 訊息物件，並將關聯的屬性升級為訊息內容。</span><span class="sxs-lookup"><span data-stu-id="d94c7-106">The WCF receive adapter receives a request, creates a BizTalk Message object, and promotes the associated properties to the message context.</span></span> <span data-ttu-id="d94c7-107">您可以使用 WCF 傳送配接器來呼叫 WCF 服務。</span><span class="sxs-lookup"><span data-stu-id="d94c7-107">You use the WCF send adapter to call a WCF service.</span></span> <span data-ttu-id="d94c7-108">WCF 傳送配接器會經由無類型合約來呼叫 WCF 服務。</span><span class="sxs-lookup"><span data-stu-id="d94c7-108">The WCF send adapter calls the WCF services through the typeless contracts.</span></span>  

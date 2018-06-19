@@ -1,14 +1,14 @@
 ---
-title: "使用者管理命令 |Microsoft 文件"
-ms.custom: 
+title: 使用者管理命令 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: feb12226-a4da-4fc5-93a1-aced239f60a9
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974076"
 ---
 # <a name="user-management-commands"></a><span data-ttu-id="1e8e3-102">使用者管理命令</span><span class="sxs-lookup"><span data-stu-id="1e8e3-102">User Management Commands</span></span>
 <span data-ttu-id="1e8e3-103">BAM 管理公用程式的警示使用者管理命令可讓您取得、新增及移除使用者。</span><span class="sxs-lookup"><span data-stu-id="1e8e3-103">The BAM Management utility alert user management commands allow you to get, add, and remove users.</span></span>  
@@ -28,7 +29,7 @@ ms.lasthandoff: 11/28/2017
 -   <span data-ttu-id="1e8e3-106">移除帳戶： 移除存取權限的使用者或群組，從指定的檢視。</span><span class="sxs-lookup"><span data-stu-id="1e8e3-106">remove-account: Removes access rights for a user or group from a specified view.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="1e8e3-107">您可以藉由啟用任何 BM 公用程式命令的追蹤**-追蹤： 在 &#124; 關閉**切換參數。</span><span class="sxs-lookup"><span data-stu-id="1e8e3-107">You can enable tracing on any BM utility command by including the **-Trace:on&#124;off** parameter switch.</span></span> <span data-ttu-id="1e8e3-108">使用追蹤參數會覆寫組態檔中的追蹤設定。</span><span class="sxs-lookup"><span data-stu-id="1e8e3-108">Using the Trace switch overrides the tracing settings in the configuration file.</span></span> <span data-ttu-id="1e8e3-109">此參數可以搭配任何一般 BM 命令使用。</span><span class="sxs-lookup"><span data-stu-id="1e8e3-109">The switch can be used in conjunction with any normal BM command.</span></span>  
+>  <span data-ttu-id="1e8e3-107">您可以藉由啟用任何 BM 公用程式命令的追蹤 **-追蹤： 在 &#124; 關閉**切換參數。</span><span class="sxs-lookup"><span data-stu-id="1e8e3-107">You can enable tracing on any BM utility command by including the **-Trace:on&#124;off** parameter switch.</span></span> <span data-ttu-id="1e8e3-108">使用追蹤參數會覆寫組態檔中的追蹤設定。</span><span class="sxs-lookup"><span data-stu-id="1e8e3-108">Using the Trace switch overrides the tracing settings in the configuration file.</span></span> <span data-ttu-id="1e8e3-109">此參數可以搭配任何一般 BM 命令使用。</span><span class="sxs-lookup"><span data-stu-id="1e8e3-109">The switch can be used in conjunction with any normal BM command.</span></span>  
   
 > [!NOTE]
 >  <span data-ttu-id="1e8e3-110">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="1e8e3-110">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  

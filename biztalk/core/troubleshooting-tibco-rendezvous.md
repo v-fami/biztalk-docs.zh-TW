@@ -9,7 +9,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5b7bc3ab-16fa-4e91-8730-9431473b2fb4
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25973268"
 ---
 # <a name="troubleshoot-tibco-rendezvous"></a><span data-ttu-id="80964-103">對 TIBCO Rendezvous 進行疑難排解</span><span class="sxs-lookup"><span data-stu-id="80964-103">Troubleshoot TIBCO Rendezvous</span></span>
   
@@ -46,15 +47,15 @@ ms.lasthandoff: 03/28/2018
   
  <span data-ttu-id="80964-127">BizTalk Adapter for TIBCO Rendezvous 有三個提供者。</span><span class="sxs-lookup"><span data-stu-id="80964-127">BizTalk Adapter for TIBCO Rendezvous has three providers.</span></span> <span data-ttu-id="80964-128">這可讓您記錄不同種類的訊息：</span><span class="sxs-lookup"><span data-stu-id="80964-128">This lets you log different kinds of messages:</span></span>  
   
--   <span data-ttu-id="80964-129">**接收器記錄提供者**:\<追蹤項目\>交換器**-接收者**。</span><span class="sxs-lookup"><span data-stu-id="80964-129">**Receiver Logging Provider**: The \<Trace element\> switch is **-receiver**.</span></span>  
+-   <span data-ttu-id="80964-129">**接收器記錄提供者**:\<追蹤項目\>交換器 **-接收者**。</span><span class="sxs-lookup"><span data-stu-id="80964-129">**Receiver Logging Provider**: The \<Trace element\> switch is **-receiver**.</span></span>  
   
 -   <span data-ttu-id="80964-130">使用 **-接收者** 從已在執行階段的配接器收到的記錄檔中取得任何訊息。</span><span class="sxs-lookup"><span data-stu-id="80964-130">Use **-receiver** to get any messages from the log that were received by the adapter at runtime.</span></span>  
   
--   <span data-ttu-id="80964-131">**傳輸器記錄提供者**:\<追蹤項目\>交換器**-傳輸器**。</span><span class="sxs-lookup"><span data-stu-id="80964-131">**Transmitter Logging Provider**: the \<Trace element\> switch is **-transmitter**.</span></span>  
+-   <span data-ttu-id="80964-131">**傳輸器記錄提供者**:\<追蹤項目\>交換器 **-傳輸器**。</span><span class="sxs-lookup"><span data-stu-id="80964-131">**Transmitter Logging Provider**: the \<Trace element\> switch is **-transmitter**.</span></span>  
   
      <span data-ttu-id="80964-132">使用 **-transmitter** 從傳輸配接器在執行階段的記錄檔中取得任何訊息。</span><span class="sxs-lookup"><span data-stu-id="80964-132">Use **-transmitter** to get any messages from the log that were transmitted by the adapter at run time.</span></span>  
   
--   <span data-ttu-id="80964-133">**管理記錄提供者 —**\<追蹤項目\>交換器**-管理**。</span><span class="sxs-lookup"><span data-stu-id="80964-133">**Management Logging Provider—**the \<Trace element\> switch is **-management**.</span></span>  
+-   <span data-ttu-id="80964-133">**管理記錄提供者 —**\<追蹤項目\>交換器 **-管理**。</span><span class="sxs-lookup"><span data-stu-id="80964-133">**Management Logging Provider—** the \<Trace element\> switch is **-management**.</span></span>  
   
      <span data-ttu-id="80964-134">使用 **-管理**可瀏覽伺服器系統期間所產生的記錄檔中取得任何訊息。</span><span class="sxs-lookup"><span data-stu-id="80964-134">Use **-management**to get any messages from the log that were generated during browsing of the server system.</span></span>  
   

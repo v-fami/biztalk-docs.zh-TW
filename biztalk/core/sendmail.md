@@ -1,18 +1,18 @@
 ---
-title: "SendMail |Microsoft 文件"
-ms.custom: 
+title: SendMail |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SMTP adapters, examples
 - examples, SMTP adapters
 - SMTP adapters
 ms.assetid: a0258619-b195-4c8a-8326-77add6e6f04d
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974836"
 ---
 # <a name="sendmail"></a><span data-ttu-id="f0611-102">SendMail</span><span class="sxs-lookup"><span data-stu-id="f0611-102">SendMail</span></span>
 <span data-ttu-id="f0611-103">SendMail 範例示範如何使用 Simple Mail Transfer Protocol (SMTP) 配接器，從 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程內傳送電子郵件訊息。</span><span class="sxs-lookup"><span data-stu-id="f0611-103">The SendMail sample demonstrates how you can use the Simple Mail Transfer Protocol (SMTP) adapter to send e-mail messages from within a Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration.</span></span> <span data-ttu-id="f0611-104">用來傳送電子郵件訊息的動態資訊，會使用以屬性升級功能從 XML 訊息擷取。</span><span class="sxs-lookup"><span data-stu-id="f0611-104">Dynamic information used to send the e-mail messages is retrieved from an XML message using property promotion functionality.</span></span>  
@@ -48,7 +49,7 @@ ms.lasthandoff: 11/28/2017
 |<span data-ttu-id="f0611-120">PropertySchema.xsd, PurchaseOrder.xsd</span><span class="sxs-lookup"><span data-stu-id="f0611-120">PropertySchema.xsd, PurchaseOrder.xsd</span></span>|<span data-ttu-id="f0611-121">分別針對您要升級的屬性和 XML PO 訊息提供結構描述。</span><span class="sxs-lookup"><span data-stu-id="f0611-121">Provides schemas for the properties that you want to promote, and for the XML PO message, respectively.</span></span>|  
 |<span data-ttu-id="f0611-122">ReceiveSend.odx</span><span class="sxs-lookup"><span data-stu-id="f0611-122">ReceiveSend.odx</span></span>|<span data-ttu-id="f0611-123">提供 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程，以處理內送 XML PO 訊息，並根據訊息內的資訊傳送電子郵件訊息。</span><span class="sxs-lookup"><span data-stu-id="f0611-123">Provides a [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] orchestration that processes the incoming XML PO message and sends an e-mail message based on information in the message.</span></span>|  
 |<span data-ttu-id="f0611-124">SendMailInput.xml</span><span class="sxs-lookup"><span data-stu-id="f0611-124">SendMailInput.xml</span></span>|<span data-ttu-id="f0611-125">包含範本輸入檔，其中包含使用 XML 指定的訂單。</span><span class="sxs-lookup"><span data-stu-id="f0611-125">Contains a sample input file with a PO specified using XML.</span></span>|  
-|<span data-ttu-id="f0611-126">Setup.bat</span><span class="sxs-lookup"><span data-stu-id="f0611-126">Setup.bat</span></span>|<span data-ttu-id="f0611-127">建置並初始化此範例。</span><span class="sxs-lookup"><span data-stu-id="f0611-127">Builds and initializes this sample.</span></span> <span data-ttu-id="f0611-128">**注意：**和此安裝程式檔案建立並繫結連接埠，依此類推，使用不同的機制，比大多數的安裝程式檔案的 SDK 範例。</span><span class="sxs-lookup"><span data-stu-id="f0611-128">**Note:**  This setup file creates and binds ports, and so on, using a different mechanism than most of the setup files for the SDK samples.</span></span> <span data-ttu-id="f0611-129">並不需要附贈 .xml 檔案。</span><span class="sxs-lookup"><span data-stu-id="f0611-129">It does not require a companion .xml file.</span></span>|  
+|<span data-ttu-id="f0611-126">Setup.bat</span><span class="sxs-lookup"><span data-stu-id="f0611-126">Setup.bat</span></span>|<span data-ttu-id="f0611-127">建置並初始化此範例。</span><span class="sxs-lookup"><span data-stu-id="f0611-127">Builds and initializes this sample.</span></span> <span data-ttu-id="f0611-128">**注意：** 和此安裝程式檔案建立並繫結連接埠，依此類推，使用不同的機制，比大多數的安裝程式檔案的 SDK 範例。</span><span class="sxs-lookup"><span data-stu-id="f0611-128">**Note:**  This setup file creates and binds ports, and so on, using a different mechanism than most of the setup files for the SDK samples.</span></span> <span data-ttu-id="f0611-129">並不需要附贈 .xml 檔案。</span><span class="sxs-lookup"><span data-stu-id="f0611-129">It does not require a companion .xml file.</span></span>|  
   
 ### <a name="to-build-and-initialize-this-sample"></a><span data-ttu-id="f0611-130">若要建置並初始化這個範例</span><span class="sxs-lookup"><span data-stu-id="f0611-130">To build and initialize this sample</span></span>  
   
@@ -89,7 +90,7 @@ ms.lasthandoff: 11/28/2017
   
 9. <span data-ttu-id="f0611-150">在**SMTP-配接器處理常式屬性**對話方塊中，按一下 **屬性**。</span><span class="sxs-lookup"><span data-stu-id="f0611-150">In the **SMTP - Adapter Handler Properties** dialog box, click **Properties**.</span></span>  
   
-10. <span data-ttu-id="f0611-151">在**SMTP 傳輸屬性**對話方塊**屬性**索引標籤上，提供適當的值，如**SMTP 伺服器名稱**和**（電子郵件地址）**屬性，然後再按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="f0611-151">In the **SMTP Transport Properties** dialog box, on the **Properties** tab, provide appropriate values for the **SMTP server name** and **From (e-mail address)** properties, and then click **OK**.</span></span>  
+10. <span data-ttu-id="f0611-151">在**SMTP 傳輸屬性**對話方塊**屬性**索引標籤上，提供適當的值，如**SMTP 伺服器名稱**和 **（電子郵件地址）** 屬性，然後再按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="f0611-151">In the **SMTP Transport Properties** dialog box, on the **Properties** tab, provide appropriate values for the **SMTP server name** and **From (e-mail address)** properties, and then click **OK**.</span></span>  
   
      <span data-ttu-id="f0611-152">透過此 SMTP 配接器傳送的任何電子郵件訊息，都是使用這些值來建構寄件者電子郵件地址。</span><span class="sxs-lookup"><span data-stu-id="f0611-152">These values will be used to construct the From e-mail address for any e-mail messages sent through this SMTP adapter.</span></span>  
   

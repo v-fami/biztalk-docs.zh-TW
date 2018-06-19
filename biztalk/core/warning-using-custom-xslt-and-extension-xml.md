@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288582"
 ---
 # <a name="warning---using-custom-xslt-and-extension-xml"></a><span data-ttu-id="e1111-102">警告-使用自訂 XSLT 與延伸模組 XML</span><span class="sxs-lookup"><span data-stu-id="e1111-102">Warning - Using Custom XSLT and Extension XML</span></span>
 <span data-ttu-id="e1111-103">**錯誤碼**</span><span class="sxs-lookup"><span data-stu-id="e1111-103">**Error Code**</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "SubmitDirect （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: SubmitDirect （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, receive adapters
 - receive adapters, examples
 - examples, receive adapters
 ms.assetid: 3540368b-cf46-4c83-a87b-94aec9cd1b36
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975815"
 ---
 # <a name="submitdirect-biztalk-server-sample"></a><span data-ttu-id="3be9c-102">SubmitDirect （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="3be9c-102">SubmitDirect (BizTalk Server Sample)</span></span>
 <span data-ttu-id="3be9c-103">SubmitDirect 範例將示範如何從 .NET 架構的應用程式，以程式設計的方式將單向及要求/回應訊息提交至 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="3be9c-103">The SubmitDirect sample demonstrates how to programmatically submit one-way and request/response messages to Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] from .NET-based applications.</span></span> <span data-ttu-id="3be9c-104">此範例將示範搭配配接器使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] API。</span><span class="sxs-lookup"><span data-stu-id="3be9c-104">The sample demonstrates the use of [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] APIs for adapters.</span></span> <span data-ttu-id="3be9c-105">此外還提供名為 Submit 的接收配接器，可用來提交訊息至 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="3be9c-105">It also provides a receive adapter, named Submit, that can be used to submit messages to [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span>  

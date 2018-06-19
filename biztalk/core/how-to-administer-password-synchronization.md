@@ -1,11 +1,11 @@
 ---
-title: "如何管理密碼同步化 |Microsoft 文件"
-ms.custom: 
+title: 如何管理密碼同步化 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Password Synchronization [SSO], applications
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - notifications [SSO]
 - Password Synchronization [SSO], SSOPS command line utility
 ms.assetid: e5568cc2-7530-452c-9902-d7ffcad66088
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25971948"
 ---
 # <a name="how-to-administer-password-synchronization"></a><span data-ttu-id="e908d-102">如何管理密碼同步處理</span><span class="sxs-lookup"><span data-stu-id="e908d-102">How to Administer Password Synchronization</span></span>
 <span data-ttu-id="e908d-103">您可以透過 MMC 嵌入式管理單元或命令列來管理「密碼同步」。</span><span class="sxs-lookup"><span data-stu-id="e908d-103">You can administer Password Synchronization through either the MMC Snap-In or the command line.</span></span>  
@@ -97,7 +98,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="e908d-162">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="e908d-162">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="e908d-163">預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e908d-163">The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  <span data-ttu-id="e908d-164">型別**ssops-顯示\<配接器名稱\>**按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-164">Type **ssops -display \<adapter name\>** and press Enter.</span></span>  
+4.  <span data-ttu-id="e908d-164">型別**ssops-顯示\<配接器名稱\>** 按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-164">Type **ssops -display \<adapter name\>** and press Enter.</span></span>  
   
      <span data-ttu-id="e908d-165">畫面輸出會顯示特定配接器的資訊。</span><span class="sxs-lookup"><span data-stu-id="e908d-165">The screen output will display information for the specified adapter.</span></span>  
   
@@ -132,7 +133,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="e908d-240">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="e908d-240">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="e908d-241">預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e908d-241">The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  <span data-ttu-id="e908d-242">型別**ssops-建立\<配接器檔案\>**按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-242">Type **ssops -create \<adapter file\>** and press Enter.</span></span>  
+4.  <span data-ttu-id="e908d-242">型別**ssops-建立\<配接器檔案\>** 按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-242">Type **ssops -create \<adapter file\>** and press Enter.</span></span>  
   
      <span data-ttu-id="e908d-243">畫面輸出會顯示最新建立配接器的資訊。</span><span class="sxs-lookup"><span data-stu-id="e908d-243">The screen output will display information for the newly created adapter.</span></span>  
   
@@ -144,7 +145,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="e908d-247">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="e908d-247">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="e908d-248">預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e908d-248">The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  <span data-ttu-id="e908d-249">型別**ssops-setprops\<配接器名稱\>**按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-249">Type **ssops -setprops \<adapter name\>** and press Enter.</span></span>  
+4.  <span data-ttu-id="e908d-249">型別**ssops-setprops\<配接器名稱\>** 按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-249">Type **ssops -setprops \<adapter name\>** and press Enter.</span></span>  
   
      <span data-ttu-id="e908d-250">畫面輸出會顯示特定配接器的屬性。</span><span class="sxs-lookup"><span data-stu-id="e908d-250">The screen output will display the properties for the specified adapter.</span></span> <span data-ttu-id="e908d-251">如有需要，您可以編輯它們，但是不會驗證新值。</span><span class="sxs-lookup"><span data-stu-id="e908d-251">You can edit them if necessary, but new values are not validated.</span></span>  
   
@@ -156,7 +157,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="e908d-255">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="e908d-255">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="e908d-256">預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e908d-256">The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  <span data-ttu-id="e908d-257">型別**ssops-更新\<配接器檔案\>**按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-257">Type **ssops -update \<adapter file\>** and press Enter.</span></span>  
+4.  <span data-ttu-id="e908d-257">型別**ssops-更新\<配接器檔案\>** 按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-257">Type **ssops -update \<adapter file\>** and press Enter.</span></span>  
   
      <span data-ttu-id="e908d-258">使用此命令可更新特定配接器的設定和旗標。</span><span class="sxs-lookup"><span data-stu-id="e908d-258">Use this command to update the settings and flags for a specified adapter.</span></span> <span data-ttu-id="e908d-259">請勿使用此命令來設定屬性；請使用 -setprops 命令替代。</span><span class="sxs-lookup"><span data-stu-id="e908d-259">Do not use this command to set properties; use instead the -setprops command.</span></span>  
   
@@ -168,7 +169,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="e908d-263">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="e908d-263">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="e908d-264">預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e908d-264">The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  <span data-ttu-id="e908d-265">型別**ssops-刪除\<配接器名稱\>**按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-265">Type **ssops -delete \<adapter name\>** and press Enter.</span></span>  
+4.  <span data-ttu-id="e908d-265">型別**ssops-刪除\<配接器名稱\>** 按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-265">Type **ssops -delete \<adapter name\>** and press Enter.</span></span>  
   
      <span data-ttu-id="e908d-266">將刪除指定的配接器。</span><span class="sxs-lookup"><span data-stu-id="e908d-266">The specified adapter will be deleted.</span></span>  
   
@@ -180,7 +181,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="e908d-270">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="e908d-270">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="e908d-271">預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e908d-271">The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  <span data-ttu-id="e908d-272">型別**ssops-啟用\<配接器名稱\>**按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-272">Type **ssops -enable \<adapter name\>** and press Enter.</span></span>  
+4.  <span data-ttu-id="e908d-272">型別**ssops-啟用\<配接器名稱\>** 按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-272">Type **ssops -enable \<adapter name\>** and press Enter.</span></span>  
   
      <span data-ttu-id="e908d-273">將啟用指定的配接器。</span><span class="sxs-lookup"><span data-stu-id="e908d-273">The specified adapter will be enabled.</span></span>  
   
@@ -192,7 +193,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="e908d-277">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="e908d-277">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="e908d-278">預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e908d-278">The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  <span data-ttu-id="e908d-279">型別**ssops-停用\<配接器名稱\>**按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-279">Type **ssops -disable \<adapter name\>** and press Enter.</span></span>  
+4.  <span data-ttu-id="e908d-279">型別**ssops-停用\<配接器名稱\>** 按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-279">Type **ssops -disable \<adapter name\>** and press Enter.</span></span>  
   
      <span data-ttu-id="e908d-280">將停用指定的配接器。</span><span class="sxs-lookup"><span data-stu-id="e908d-280">The specified adapter will be disabled.</span></span>  
   
@@ -204,7 +205,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="e908d-284">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="e908d-284">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="e908d-285">預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e908d-285">The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  <span data-ttu-id="e908d-286">型別**ssops-addapp\<配接器名稱\>\<應用程式名稱\>**按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-286">Type **ssops -addapp \<adapter name\> \<application name\>** and press Enter.</span></span>  
+4.  <span data-ttu-id="e908d-286">型別**ssops-addapp\<配接器名稱\>\<應用程式名稱\>** 按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-286">Type **ssops -addapp \<adapter name\> \<application name\>** and press Enter.</span></span>  
   
      <span data-ttu-id="e908d-287">會將特定 SSO 應用程式指派給特定配接器。</span><span class="sxs-lookup"><span data-stu-id="e908d-287">The specified SSO application will be assigned to the specified adapter.</span></span> <span data-ttu-id="e908d-288">這表示，該應用程式中對應的密碼現在將使用此配接器來同步。</span><span class="sxs-lookup"><span data-stu-id="e908d-288">This means that the passwords for the mappings in that application will now be synchronized using this adapter.</span></span>  
   
@@ -218,7 +219,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="e908d-293">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="e908d-293">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="e908d-294">預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e908d-294">The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  <span data-ttu-id="e908d-295">型別**ssops-deleteapp\<應用程式名稱\>**按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-295">Type **ssops -deleteapp \<application name\>** and press Enter.</span></span>  
+4.  <span data-ttu-id="e908d-295">型別**ssops-deleteapp\<應用程式名稱\>** 按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-295">Type **ssops -deleteapp \<application name\>** and press Enter.</span></span>  
   
      <span data-ttu-id="e908d-296">會將特定 SSO 應用程式從配接器移除。</span><span class="sxs-lookup"><span data-stu-id="e908d-296">The specified SSO application will be removed from an adapter.</span></span> <span data-ttu-id="e908d-297">(因為應用程式僅可指定給一個配接器，所以不需要指定配接器名稱。)</span><span class="sxs-lookup"><span data-stu-id="e908d-297">(Since an application can only be assigned to one adapter, it is not necessary to specify the adapter name.)</span></span>  
   
@@ -230,7 +231,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="e908d-301">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="e908d-301">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="e908d-302">預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e908d-302">The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  <span data-ttu-id="e908d-303">型別**ssops-重設\<配接器名稱 &#124; 所有 &#124; 禁止\>**按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-303">Type **ssops -reset \<adapter name &#124; all &#124; damping\>** and press Enter.</span></span>  
+4.  <span data-ttu-id="e908d-303">型別**ssops-重設\<配接器名稱 &#124; 所有 &#124; 禁止\>** 按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-303">Type **ssops -reset \<adapter name &#124; all &#124; damping\>** and press Enter.</span></span>  
   
      <span data-ttu-id="e908d-304">此命令會依指定清除單一配接器或所有配接器禁止的資料表和 (或) 通知佇列。</span><span class="sxs-lookup"><span data-stu-id="e908d-304">This command clears the damping table and/or notification queues for a single adapter or all adapters, as specified.</span></span> <span data-ttu-id="e908d-305">禁止的資料表會儲存 10 分鐘的密碼變更歷程記錄。</span><span class="sxs-lookup"><span data-stu-id="e908d-305">The damping table stores a 10-minute history of password changes.</span></span> <span data-ttu-id="e908d-306">在「企業單一登入」系統接受或傳送密碼變更之前，會檢查禁止的資料表，以查看最近是否執行過相同變更。</span><span class="sxs-lookup"><span data-stu-id="e908d-306">Before the Enterprise SSO system accepts or sends a password change, it checks the damping table to see if it has performed the same change recently.</span></span> <span data-ttu-id="e908d-307">若有，則會捨棄變更。</span><span class="sxs-lookup"><span data-stu-id="e908d-307">If it has, the new change is discarded.</span></span>  
   
@@ -242,7 +243,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="e908d-311">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="e908d-311">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="e908d-312">預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e908d-312">The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  <span data-ttu-id="e908d-313">型別**ssops-addtogroup\<配接器名稱\>\<配接器群組\>**按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-313">Type **ssops -addtogroup \<adapter name\> \<adapter group\>** and press Enter.</span></span>  
+4.  <span data-ttu-id="e908d-313">型別**ssops-addtogroup\<配接器名稱\>\<配接器群組\>** 按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-313">Type **ssops -addtogroup \<adapter name\> \<adapter group\>** and press Enter.</span></span>  
   
      <span data-ttu-id="e908d-314">此命令會將特定配接器新增至特定配接器群組。</span><span class="sxs-lookup"><span data-stu-id="e908d-314">This command adds the specified adapter to the specified adapter group.</span></span> <span data-ttu-id="e908d-315">配接器僅可屬於一個配接器群組，但配接器群組可包含多個配接器。</span><span class="sxs-lookup"><span data-stu-id="e908d-315">While an adapter can belong to only one adapter group, an adapter group can contain multiple adapters.</span></span>  
   
@@ -254,7 +255,7 @@ ms.lasthandoff: 11/28/2017
   
 3.  <span data-ttu-id="e908d-319">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="e908d-319">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="e908d-320">預設值是\<磁碟機\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="e908d-320">The default is \<drive\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-4.  <span data-ttu-id="e908d-321">型別**ssops-deletefromgroup\<配接器名稱\>\<配接器群組\>**按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-321">Type **ssops -deletefromgroup \<adapter name\> \<adapter group\>** and press Enter.</span></span>  
+4.  <span data-ttu-id="e908d-321">型別**ssops-deletefromgroup\<配接器名稱\>\<配接器群組\>** 按下 Enter。</span><span class="sxs-lookup"><span data-stu-id="e908d-321">Type **ssops -deletefromgroup \<adapter name\> \<adapter group\>** and press Enter.</span></span>  
   
      <span data-ttu-id="e908d-322">此命令會刪除特定配接器群組的特定配接器。</span><span class="sxs-lookup"><span data-stu-id="e908d-322">This command deletes the specified adapter from the specified adapter group.</span></span>  
   

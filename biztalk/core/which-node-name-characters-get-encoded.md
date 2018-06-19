@@ -1,14 +1,14 @@
 ---
-title: "節點名稱字元會進行編碼的 |Microsoft 文件"
-ms.custom: 
+title: 節點名稱字元會進行編碼的 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 48a581d2-48fa-4c36-b5c2-fe87c328a7f4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289182"
 ---
 # <a name="which-node-name-characters-get-encoded"></a><span data-ttu-id="e8156-102">哪些節點名稱字元會進行編碼</span><span class="sxs-lookup"><span data-stu-id="e8156-102">Which Node Name Characters Get Encoded</span></span>
 <span data-ttu-id="e8156-103">XML 對於可用於 XML 名稱 (如項目名稱) 的字元有所限制，包括對 XML 名稱中第一個字元的部分特殊限制。</span><span class="sxs-lookup"><span data-stu-id="e8156-103">XML places some restrictions on the characters that can be used in XML names, such as element names, including some special restrictions on the first character of an XML name.</span></span> <span data-ttu-id="e8156-104">在決定合法的 XML 名稱允許使用哪些字元，以及排除使用哪些字元方面的概念性目標如下：</span><span class="sxs-lookup"><span data-stu-id="e8156-104">The conceptual goals in determining which characters to allow and which characters to exclude from legal XML names are:</span></span>  

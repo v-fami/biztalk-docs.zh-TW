@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 975ec82b-ed27-4545-8e4a-0e567507c9ba
-caps.latest.revision: ''
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25976372"
 ---
 # <a name="upgrade-to-biztalk-server-2016"></a><span data-ttu-id="1e615-102">升級到 BizTalk Server 2016</span><span class="sxs-lookup"><span data-stu-id="1e615-102">Upgrade to BizTalk Server 2016</span></span>
 <span data-ttu-id="1e615-103">從 [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] 或 BizTalk Server 2013 升級至 [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="1e615-103">Upgrading to [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] from [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)], or BizTalk Server 2013.</span></span>

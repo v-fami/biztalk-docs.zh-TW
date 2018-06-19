@@ -1,14 +1,14 @@
 ---
-title: "逐步解說 (X12)： 接收批次的 EDI 交換 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說 (X12)： 接收批次的 EDI 交換 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1f6e6e96-39ec-469d-a845-1bfdce6cc0bf
-caps.latest.revision: "34"
+caps.latest.revision: 34
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975718"
 ---
 # <a name="walkthrough-x12-receiving-batched-edi-interchanges"></a><span data-ttu-id="3155e-102">逐步解說 (X12)：接收批次 EDI 交換</span><span class="sxs-lookup"><span data-stu-id="3155e-102">Walkthrough (X12): Receiving Batched EDI Interchanges</span></span>
 <span data-ttu-id="3155e-103">本逐步解說提供一組逐步執行的程序，來使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 建立可接收 EDI 批次的解決方案。</span><span class="sxs-lookup"><span data-stu-id="3155e-103">This walkthrough provides a set of step-by-step procedures that creates a solution for receiving EDI batches using [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)].</span></span> <span data-ttu-id="3155e-104">這個解決方案示範了兩種接收批次 EDI 交換的方法。</span><span class="sxs-lookup"><span data-stu-id="3155e-104">This solution demonstrates two ways to receive a batched EDI interchange:</span></span>  
@@ -255,14 +256,14 @@ ms.lasthandoff: 11/28/2017
   
         |<span data-ttu-id="3155e-247">使用</span><span class="sxs-lookup"><span data-stu-id="3155e-247">Use this</span></span>|<span data-ttu-id="3155e-248">動作</span><span class="sxs-lookup"><span data-stu-id="3155e-248">To do this</span></span>|  
         |--------------|----------------|  
-        |<span data-ttu-id="3155e-249">**預設值**</span><span class="sxs-lookup"><span data-stu-id="3155e-249">**Default**</span></span>|<span data-ttu-id="3155e-250">選取**預設**。</span><span class="sxs-lookup"><span data-stu-id="3155e-250">Select **Default**.</span></span> <span data-ttu-id="3155e-251">**注意：**當您選取這個資料列的預設值為**GS1**， **GS2**， **GS3**， **GS7**，和**GS8**可用即使值**交易類型**，**版本/版次**，和**目標命名空間**都不符合訊息。</span><span class="sxs-lookup"><span data-stu-id="3155e-251">**Note:**  When you select this row as the default, the values for **GS1**, **GS2**, **GS3**, **GS7**, and **GS8** are used even if the values for **Transaction Type**, **Version/Release**, and **Target namespace** are not a match for the message.</span></span>|  
+        |<span data-ttu-id="3155e-249">**預設值**</span><span class="sxs-lookup"><span data-stu-id="3155e-249">**Default**</span></span>|<span data-ttu-id="3155e-250">選取**預設**。</span><span class="sxs-lookup"><span data-stu-id="3155e-250">Select **Default**.</span></span> <span data-ttu-id="3155e-251">**注意：** 當您選取這個資料列的預設值為**GS1**， **GS2**， **GS3**， **GS7**，和**GS8**可用即使值**交易類型**，**版本/版次**，和**目標命名空間**都不符合訊息。</span><span class="sxs-lookup"><span data-stu-id="3155e-251">**Note:**  When you select this row as the default, the values for **GS1**, **GS2**, **GS3**, **GS7**, and **GS8** are used even if the values for **Transaction Type**, **Version/Release**, and **Target namespace** are not a match for the message.</span></span>|  
         |<span data-ttu-id="3155e-252">**交易類型**</span><span class="sxs-lookup"><span data-stu-id="3155e-252">**Transaction Type**</span></span>|<span data-ttu-id="3155e-253">選取的測試訊息，訊息類型**850-Purchase Order**。</span><span class="sxs-lookup"><span data-stu-id="3155e-253">Select the message type of your test message, **850 - Purchase Order**.</span></span>|  
         |<span data-ttu-id="3155e-254">**版本/版次**</span><span class="sxs-lookup"><span data-stu-id="3155e-254">**Version/Release**</span></span>|<span data-ttu-id="3155e-255">輸入 EDI 版本， **00401**。</span><span class="sxs-lookup"><span data-stu-id="3155e-255">Enter the EDI version, **00401**.</span></span>|  
         |<span data-ttu-id="3155e-256">**目標命名空間**</span><span class="sxs-lookup"><span data-stu-id="3155e-256">**Target namespace**</span></span>|<span data-ttu-id="3155e-257">選取**http://schemas.microsoft.com/Edi/X12**。</span><span class="sxs-lookup"><span data-stu-id="3155e-257">Select **http://schemas.microsoft.com/Edi/X12**.</span></span>|  
         |<span data-ttu-id="3155e-258">**GS1**</span><span class="sxs-lookup"><span data-stu-id="3155e-258">**GS1**</span></span>|<span data-ttu-id="3155e-259">確認已選取測試訊息的訊息類型， **PO-Purchase Order (850)**。</span><span class="sxs-lookup"><span data-stu-id="3155e-259">Verify that the message type of the test message is selected, **PO - Purchase Order (850)**.</span></span>|  
         |<span data-ttu-id="3155e-260">**GS2**</span><span class="sxs-lookup"><span data-stu-id="3155e-260">**GS2**</span></span>|<span data-ttu-id="3155e-261">例如，輸入應用程式傳送者的值**Purchasing**。</span><span class="sxs-lookup"><span data-stu-id="3155e-261">Enter a value for the Application sender, for example, **Purchasing**.</span></span>|  
-        |<span data-ttu-id="3155e-262">**GS3**</span><span class="sxs-lookup"><span data-stu-id="3155e-262">**GS3**</span></span>|<span data-ttu-id="3155e-263">例如，應用程式接收者中，輸入的值**[ordercontrol]**。</span><span class="sxs-lookup"><span data-stu-id="3155e-263">Enter a value for the Application receiver, for example, **OrderControl**.</span></span>|  
-        |<span data-ttu-id="3155e-264">**GS4**</span><span class="sxs-lookup"><span data-stu-id="3155e-264">**GS4**</span></span>|<span data-ttu-id="3155e-265">選取您想要的日期格式。</span><span class="sxs-lookup"><span data-stu-id="3155e-265">Select the date format that you want.</span></span> <span data-ttu-id="3155e-266">**注意：**您必須在下拉式清單中選取值，不只是按一下欄位以顯示預設值。</span><span class="sxs-lookup"><span data-stu-id="3155e-266">**Note:**  You have to select the value in the drop-down list, not just click in the field to display the default.</span></span> <span data-ttu-id="3155e-267">如果您按一下欄位而未從下拉式清單中選取值，實際上不會選取值。</span><span class="sxs-lookup"><span data-stu-id="3155e-267">If you click in the field without selecting the value from the drop-down list, the value will not actually be selected.</span></span>|  
+        |<span data-ttu-id="3155e-262">**GS3**</span><span class="sxs-lookup"><span data-stu-id="3155e-262">**GS3**</span></span>|<span data-ttu-id="3155e-263">例如，應用程式接收者中，輸入的值 **[ordercontrol]**。</span><span class="sxs-lookup"><span data-stu-id="3155e-263">Enter a value for the Application receiver, for example, **OrderControl**.</span></span>|  
+        |<span data-ttu-id="3155e-264">**GS4**</span><span class="sxs-lookup"><span data-stu-id="3155e-264">**GS4**</span></span>|<span data-ttu-id="3155e-265">選取您想要的日期格式。</span><span class="sxs-lookup"><span data-stu-id="3155e-265">Select the date format that you want.</span></span> <span data-ttu-id="3155e-266">**注意：** 您必須在下拉式清單中選取值，不只是按一下欄位以顯示預設值。</span><span class="sxs-lookup"><span data-stu-id="3155e-266">**Note:**  You have to select the value in the drop-down list, not just click in the field to display the default.</span></span> <span data-ttu-id="3155e-267">如果您按一下欄位而未從下拉式清單中選取值，實際上不會選取值。</span><span class="sxs-lookup"><span data-stu-id="3155e-267">If you click in the field without selecting the value from the drop-down list, the value will not actually be selected.</span></span>|  
         |<span data-ttu-id="3155e-268">**GS5**</span><span class="sxs-lookup"><span data-stu-id="3155e-268">**GS5**</span></span>|<span data-ttu-id="3155e-269">選擇您要的時間格式。</span><span class="sxs-lookup"><span data-stu-id="3155e-269">Select the time format that you want.</span></span>|  
         |<span data-ttu-id="3155e-270">**GS7**</span><span class="sxs-lookup"><span data-stu-id="3155e-270">**GS7**</span></span>|<span data-ttu-id="3155e-271">選取**X-Accredited 的 Standards Committee X12**。</span><span class="sxs-lookup"><span data-stu-id="3155e-271">Select **X - Accredited Standards Committee X12**.</span></span>|  
         |<span data-ttu-id="3155e-272">**GS8**</span><span class="sxs-lookup"><span data-stu-id="3155e-272">**GS8**</span></span>|<span data-ttu-id="3155e-273">確認已輸入 EDI 版本， **00401**。</span><span class="sxs-lookup"><span data-stu-id="3155e-273">Verify that the EDI version has been entered, **00401**.</span></span>|  

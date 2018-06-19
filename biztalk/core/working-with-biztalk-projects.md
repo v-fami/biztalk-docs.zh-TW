@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288998"
 ---
 # <a name="working-with-biztalk-projects"></a><span data-ttu-id="5104a-102">使用 BizTalk 專案</span><span class="sxs-lookup"><span data-stu-id="5104a-102">Working with BizTalk Projects</span></span>
 <span data-ttu-id="5104a-103">雖然有許多使用 BizTalk 專案系統建立應用程式的原則與使用 Microsoft Visual Studio 中可用的其他專案系統建立應用程式的原則相同，不過仍然有一些差異，例如專案建置組態的類型。</span><span class="sxs-lookup"><span data-stu-id="5104a-103">While many of the principles of creating an application with the BizTalk project system are the same as those of creating applications with other project systems available in Microsoft Visual Studio, there are a few differences, such as the types of project build configurations.</span></span> <span data-ttu-id="5104a-104">本節描述在建立可於 Microsoft BizTalk Server 上執行的應用程式時，您可能執行的一些工作。</span><span class="sxs-lookup"><span data-stu-id="5104a-104">This section describes some of the tasks that you might perform when creating an application that runs on Microsoft BizTalk Server.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "作業系統最佳化 |Microsoft 文件"
-ms.custom: 
+title: 作業系統最佳化 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: af2e77d0-d69b-4ae4-b689-96831fc4deed
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976692"
 ---
 # <a name="operating-system-optimizations"></a><span data-ttu-id="5cccc-102">作業系統最佳化</span><span class="sxs-lookup"><span data-stu-id="5cccc-102">Operating System Optimizations</span></span>
 <span data-ttu-id="5cccc-103">本主題提供最佳化的效能的建議事項[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]用於實際執行電腦[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境。</span><span class="sxs-lookup"><span data-stu-id="5cccc-103">This topic provides recommendations for optimizing performance of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] computers used in a production [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment.</span></span> <span data-ttu-id="5cccc-104">這些最佳化會在之後套用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]已經安裝及設定。</span><span class="sxs-lookup"><span data-stu-id="5cccc-104">These optimizations are applied after [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] has been installed and configured.</span></span>  

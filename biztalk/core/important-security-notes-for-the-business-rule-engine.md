@@ -1,11 +1,11 @@
 ---
-title: "重要安全性注意事項商務規則引擎 |Microsoft 文件"
-ms.custom: 
+title: 重要安全性注意事項商務規則引擎 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business rules, store administrator
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - business rules, security
 - Denial of Service attacks
 ms.assetid: 8972127a-5569-4b32-bc09-e9265efe9514
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007063"
 ---
 # <a name="important-security-notes-for-the-business-rule-engine"></a><span data-ttu-id="f16b2-102">商務規則引擎的重要安全性注意事項</span><span class="sxs-lookup"><span data-stu-id="f16b2-102">Important Security Notes for the Business Rule Engine</span></span>
 <span data-ttu-id="f16b2-103">本主題摘要說明 Microsoft BizTalk Server，以及降低安全性風險時，必須採取的步驟中的已知的安全性問題。</span><span class="sxs-lookup"><span data-stu-id="f16b2-103">This topic summarizes known security issues in Microsoft BizTalk Server and the steps you must take to mitigate the security risks.</span></span>  
@@ -35,7 +36,7 @@ ms.lasthandoff: 12/01/2017
  <span data-ttu-id="f16b2-110">任何結構描述執行個體當做事實**RuleSet**不會針對結構描述驗證判斷提示規則使用選取器之前。</span><span class="sxs-lookup"><span data-stu-id="f16b2-110">Any schema instance passed as a fact to the **RuleSet** is not validated against the schema before asserting any rules using selectors.</span></span> <span data-ttu-id="f16b2-111">您應該要驗證執行原則時傳遞的所有輸入。</span><span class="sxs-lookup"><span data-stu-id="f16b2-111">You should validate all input that is passed while executing a policy.</span></span>  
   
 ## <a name="expected-behaviors-of-the-business-rule-composer-when-rulestore-security-is-on"></a><span data-ttu-id="f16b2-112">當 RuleStore 安全性開啟時商務規則編輯器的預期行為</span><span class="sxs-lookup"><span data-stu-id="f16b2-112">Expected behaviors of the Business Rule Composer when RuleStore security is on</span></span>  
- <span data-ttu-id="f16b2-113">您可以啟用規則存放區的角色為基礎的安全性功能，藉由呼叫**[rulestore]**方法**RuleStore**類別。</span><span class="sxs-lookup"><span data-stu-id="f16b2-113">You can enable the role-based security feature for the rule store by calling the **EnableAuthorization** method of the **RuleStore** class.</span></span> <span data-ttu-id="f16b2-114">當啟用此安全性功能時，「商務規則編輯器」的預期行為如下：</span><span class="sxs-lookup"><span data-stu-id="f16b2-114">When this security feature is enabled, the expected behaviors in the Business Rule Composer are as follows:</span></span>  
+ <span data-ttu-id="f16b2-113">您可以啟用規則存放區的角色為基礎的安全性功能，藉由呼叫 **[rulestore]** 方法**RuleStore**類別。</span><span class="sxs-lookup"><span data-stu-id="f16b2-113">You can enable the role-based security feature for the rule store by calling the **EnableAuthorization** method of the **RuleStore** class.</span></span> <span data-ttu-id="f16b2-114">當啟用此安全性功能時，「商務規則編輯器」的預期行為如下：</span><span class="sxs-lookup"><span data-stu-id="f16b2-114">When this security feature is enabled, the expected behaviors in the Business Rule Composer are as follows:</span></span>  
   
 -   <span data-ttu-id="f16b2-115">物件模型會篩除使用者沒有讀取權限的規則集和詞彙。</span><span class="sxs-lookup"><span data-stu-id="f16b2-115">The object model filters out rule sets and vocabularies to which the user does not have read access.</span></span> <span data-ttu-id="f16b2-116">因此，它們不會出現在「商務規則編輯器」中。</span><span class="sxs-lookup"><span data-stu-id="f16b2-116">Therefore, they do not appear in the Business Rule Composer.</span></span>  
   

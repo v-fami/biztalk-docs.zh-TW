@@ -1,14 +1,14 @@
 ---
-title: "選擇傳訊和協調流程路線服務 |Microsoft 文件"
-ms.custom: 
+title: 選擇傳訊和協調流程路線服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 694f929a-c830-4906-8e97-4fbd50e70133
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009807"
 ---
 # <a name="choosing-between-messaging-and-orchestration-itinerary-services"></a><span data-ttu-id="b9a4f-102">選擇傳訊和協調流程路線服務</span><span class="sxs-lookup"><span data-stu-id="b9a4f-102">Choosing Between Messaging and Orchestration Itinerary Services</span></span>
 <span data-ttu-id="b9a4f-103">路線服務可以設定為在傳訊子系統或 BizTalk Server 協調流程子系統中發生。</span><span class="sxs-lookup"><span data-stu-id="b9a4f-103">Itinerary services can be configured to occur in either the messaging subsystem or the orchestration subsystem of BizTalk Server.</span></span> <span data-ttu-id="b9a4f-104">這些 ESB 路線傳訊服務設定來處理訊息，而且可能會在 BizTalk Server 管線 （上手或匝道） 中執行。</span><span class="sxs-lookup"><span data-stu-id="b9a4f-104">These ESB itinerary messaging services are configured to process the message and may be executed in a BizTalk Server pipeline (on-ramp or off-ramp).</span></span> <span data-ttu-id="b9a4f-105">此選項可讓開發人員定義完全在管線中將執行服務。</span><span class="sxs-lookup"><span data-stu-id="b9a4f-105">This option enables the developer to define exactly where in the pipeline the service will execute.</span></span> <span data-ttu-id="b9a4f-106">當然，設定為協調流程子系統中的程序服務將會執行 BizTalk 協調流程中。</span><span class="sxs-lookup"><span data-stu-id="b9a4f-106">Naturally, services configured to process in the orchestration subsystem will be executed in a BizTalk orchestration.</span></span>  

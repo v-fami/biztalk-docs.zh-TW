@@ -1,14 +1,14 @@
 ---
-title: "透過協調流程路由時保留 JMS 標頭 |Microsoft 文件"
-ms.custom: 
+title: 透過協調流程路由時保留 JMS 標頭 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d9a59ff3-0cbf-499f-92b2-cf5b808d8b3f
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294670"
 ---
 # <a name="preserving-jms-headers-when-routing-through-an-orchestration"></a><span data-ttu-id="328ff-102">保留 JMS 標頭時透過協調流程路由</span><span class="sxs-lookup"><span data-stu-id="328ff-102">Preserving JMS Headers When Routing Through an Orchestration</span></span>
 <span data-ttu-id="328ff-103">在此使用情況下，元件隨附[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]從內送訊息中擷取 Java 訊息服務 (JMS) 標頭，並再重新加以建構外寄訊息中。</span><span class="sxs-lookup"><span data-stu-id="328ff-103">In this use case, components provided with [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] extract Java Message Service (JMS) headers from an incoming message and then reconstructs them in the outgoing message.</span></span> <span data-ttu-id="328ff-104">這示範了 JMS 訊息標頭的保留和存取中的標頭內容，在協調流程，如圖 1 所示。</span><span class="sxs-lookup"><span data-stu-id="328ff-104">This demonstrates JMS message header preservation and access to header context from inside an orchestration, as illustrated in Figure 1.</span></span>  

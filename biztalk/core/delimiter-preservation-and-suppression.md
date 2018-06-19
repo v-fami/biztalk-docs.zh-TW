@@ -1,14 +1,14 @@
 ---
-title: "保留和隱藏分隔符號 |Microsoft 文件"
-ms.custom: 
+title: 保留和隱藏分隔符號 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 30985b94-625e-411a-8137-1c129bc197bf
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: d572ae5c887898adedcb3dfc5f83841beedd3434
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/06/2017
+ms.locfileid: "26335498"
 ---
 # <a name="delimiter-preservation-and-suppression"></a><span data-ttu-id="86d3b-102">保留和隱藏分隔符號</span><span class="sxs-lookup"><span data-stu-id="86d3b-102">Delimiter Preservation and Suppression</span></span>
 
@@ -75,7 +76,7 @@ ms.lasthandoff: 12/06/2017
 |---|---|---|---|  
 |<span data-ttu-id="86d3b-134">是</span><span class="sxs-lookup"><span data-stu-id="86d3b-134">Yes</span></span>|<span data-ttu-id="86d3b-135">否</span><span class="sxs-lookup"><span data-stu-id="86d3b-135">No</span></span>|<span data-ttu-id="86d3b-136">Rec,,,Val,,</span><span class="sxs-lookup"><span data-stu-id="86d3b-136">Rec,,,Val,,</span></span>|<span data-ttu-id="86d3b-137">無。</span><span class="sxs-lookup"><span data-stu-id="86d3b-137">None.</span></span>|  
 |<span data-ttu-id="86d3b-138">否</span><span class="sxs-lookup"><span data-stu-id="86d3b-138">No</span></span>|<span data-ttu-id="86d3b-139">是</span><span class="sxs-lookup"><span data-stu-id="86d3b-139">Yes</span></span>|<span data-ttu-id="86d3b-140">Rec,Val</span><span class="sxs-lookup"><span data-stu-id="86d3b-140">Rec,Val</span></span>|<span data-ttu-id="86d3b-141">所有**欄位項目**必須設定為選擇性節點。</span><span class="sxs-lookup"><span data-stu-id="86d3b-141">All **Field Element** nodes must be configured as optional.</span></span>|  
-|<span data-ttu-id="86d3b-142">是</span><span class="sxs-lookup"><span data-stu-id="86d3b-142">Yes</span></span>|<span data-ttu-id="86d3b-143">是</span><span class="sxs-lookup"><span data-stu-id="86d3b-143">Yes</span></span>|<span data-ttu-id="86d3b-144">Rec,,,Val</span><span class="sxs-lookup"><span data-stu-id="86d3b-144">Rec,,,Val</span></span>|<span data-ttu-id="86d3b-145">節點名稱為**FieldElem4**和**[fieldelem5]**必須設定為選擇性。</span><span class="sxs-lookup"><span data-stu-id="86d3b-145">Nodes named **FieldElem4** and **FieldElem5** must be configured as optional.</span></span>|  
+|<span data-ttu-id="86d3b-142">是</span><span class="sxs-lookup"><span data-stu-id="86d3b-142">Yes</span></span>|<span data-ttu-id="86d3b-143">是</span><span class="sxs-lookup"><span data-stu-id="86d3b-143">Yes</span></span>|<span data-ttu-id="86d3b-144">Rec,,,Val</span><span class="sxs-lookup"><span data-stu-id="86d3b-144">Rec,,,Val</span></span>|<span data-ttu-id="86d3b-145">節點名稱為**FieldElem4**和 **[fieldelem5]** 必須設定為選擇性。</span><span class="sxs-lookup"><span data-stu-id="86d3b-145">Nodes named **FieldElem4** and **FieldElem5** must be configured as optional.</span></span>|  
 |<span data-ttu-id="86d3b-146">否</span><span class="sxs-lookup"><span data-stu-id="86d3b-146">No</span></span>|<span data-ttu-id="86d3b-147">否</span><span class="sxs-lookup"><span data-stu-id="86d3b-147">No</span></span>|<span data-ttu-id="86d3b-148">Rec,Val,,</span><span class="sxs-lookup"><span data-stu-id="86d3b-148">Rec,Val,,</span></span>|<span data-ttu-id="86d3b-149">所有**欄位項目**必須設定為選擇性節點。</span><span class="sxs-lookup"><span data-stu-id="86d3b-149">All **Field Element** nodes must be configured as optional.</span></span>|  
   
  <span data-ttu-id="86d3b-150">當這些屬性設定指定分隔符號不能保留或應該隱藏時，會在下列兩種情況下發出訊息，警告可能無法使用相同的結構描述剖析序列化的一般檔案資料：</span><span class="sxs-lookup"><span data-stu-id="86d3b-150">When these property settings specify that delimiters should either not be preserved or should be suppressed, a message warning that it might not be possible to parse the serialized flat file data using the same schema will be issued in the following two cases:</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006223"
 ---
 # <a name="before-installing-the-service-oriented-solution"></a><span data-ttu-id="be98a-102">安裝服務導向解決方案之前</span><span class="sxs-lookup"><span data-stu-id="be98a-102">Before Installing the Service Oriented Solution</span></span>
 <span data-ttu-id="be98a-103">必須具備下列必要條件才能在單一電腦上安裝服務導向解決方案的虛設常式版本：</span><span class="sxs-lookup"><span data-stu-id="be98a-103">The following prerequisites must be available to install the stub version of the service-oriented solution on a single computer:</span></span>  
