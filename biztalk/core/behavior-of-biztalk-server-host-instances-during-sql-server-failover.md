@@ -1,14 +1,14 @@
 ---
-title: "SQL Server 容錯移轉期間的 BizTalk Server 主控件執行個體的行為 |Microsoft 文件"
-ms.custom: 
+title: SQL Server 容錯移轉期間的 BizTalk Server 主控件執行個體的行為 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a5642417-d27f-4539-a369-5fa11bec4a4f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231246"
 ---
 # <a name="behavior-of-biztalk-server-host-instances-during-sql-server-failover"></a><span data-ttu-id="fda49-102">SQL Server 容錯移轉期間的 BizTalk Server 主控件執行個體行為</span><span class="sxs-lookup"><span data-stu-id="fda49-102">Behavior of BizTalk Server Host Instances during SQL Server Failover</span></span>
 <span data-ttu-id="fda49-103">如果 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的叢集執行個體發生容錯移轉，儲存在 Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 叢集執行個體上的 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 資料庫將暫時無法使用。</span><span class="sxs-lookup"><span data-stu-id="fda49-103">[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases housed on a clustered instance of Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] are temporarily unavailable if the clustered instance of [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] experiences a failover.</span></span> <span data-ttu-id="fda49-104">本節記錄當 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 資料庫無法使用時，與 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 關聯的主控件執行個體行為。</span><span class="sxs-lookup"><span data-stu-id="fda49-104">This section documents the behavior of the host instances associated with [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] when the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases are unavailable.</span></span>  

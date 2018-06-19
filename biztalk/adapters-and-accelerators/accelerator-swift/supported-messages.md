@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215374"
 ---
 # <a name="supported-messages"></a><span data-ttu-id="10cea-102">支援的訊息</span><span class="sxs-lookup"><span data-stu-id="10cea-102">Supported Messages</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="10cea-103">[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]提供一份[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]和 SWIFT 的訊息。</span><span class="sxs-lookup"><span data-stu-id="10cea-103"> [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] provides a list of [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] and SWIFT messages.</span></span> <span data-ttu-id="10cea-104">訊息都會歸類為下列幾種財務類型。</span><span class="sxs-lookup"><span data-stu-id="10cea-104">The messages fall into several financial categories which are listed below.</span></span>  

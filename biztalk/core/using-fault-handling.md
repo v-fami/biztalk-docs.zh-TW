@@ -1,14 +1,14 @@
 ---
-title: "使用錯誤處理 |Microsoft 文件"
-ms.custom: 
+title: 使用錯誤處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dc793386-d2ec-4e02-9283-3237f65c9e01
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287462"
 ---
 # <a name="using-fault-handling"></a><span data-ttu-id="8f879-102">使用錯誤處理</span><span class="sxs-lookup"><span data-stu-id="8f879-102">Using Fault Handling</span></span>
 <span data-ttu-id="8f879-103">期間[!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)]除非不處理例外狀況訊息的錯誤傳回給用戶端**FaultException** （或子類型） 就會擲回或**FaultContract**實作。</span><span class="sxs-lookup"><span data-stu-id="8f879-103">During [!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)] fault handling an exception message is not returned to the client unless a **FaultException** (or a subtype) is thrown or a **FaultContract** is implemented.</span></span> <span data-ttu-id="8f879-104">因此，您只能在這些情況下的錯誤訊息本身追蹤資料。</span><span class="sxs-lookup"><span data-stu-id="8f879-104">So you can only track data from the fault message itself in these scenarios.</span></span> <span data-ttu-id="8f879-105">回呼實作中的例外狀況自動傳回做為錯誤訊息同時**ServerFault**和**ClientFault**追蹤點。</span><span class="sxs-lookup"><span data-stu-id="8f879-105">An exception in callback implementations automatically comes back as a fault message for both **ServerFault** and **ClientFault** track points.</span></span> <span data-ttu-id="8f879-106">不過，它一定會傳回具有泛型訊息的泛型錯誤。</span><span class="sxs-lookup"><span data-stu-id="8f879-106">However, it will always return a generic fault with a generic message.</span></span> <span data-ttu-id="8f879-107">如需有關 WCF 錯誤合約的詳細資訊，請參閱[http://go.microsoft.com/fwlink/?LinkId=83132](http://go.microsoft.com/fwlink/?LinkId=83132)。</span><span class="sxs-lookup"><span data-stu-id="8f879-107">For more information about WCF fault contracts, see [http://go.microsoft.com/fwlink/?LinkId=83132](http://go.microsoft.com/fwlink/?LinkId=83132).</span></span>  

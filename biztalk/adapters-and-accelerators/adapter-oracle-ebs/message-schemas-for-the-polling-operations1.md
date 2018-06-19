@@ -1,14 +1,14 @@
 ---
-title: "訊息結構描述的輪詢 Operations1 |Microsoft 文件"
-ms.custom: 
+title: 訊息結構描述的輪詢 Operations1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c572c4ec-0a3f-42b8-bebd-40eb584438ad
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216142"
 ---
 # <a name="message-schemas-for-the-polling-operations"></a><span data-ttu-id="035da-102">輪詢作業的訊息結構描述</span><span class="sxs-lookup"><span data-stu-id="035da-102">Message Schemas for the Polling Operations</span></span>
 <span data-ttu-id="035da-103">[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]呈現輪詢根據 Oracle E-business Suite 中的目標物件與相關的各種輸入的作業。</span><span class="sxs-lookup"><span data-stu-id="035da-103">The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]surfaces various inbound operations related to polling depending on the target object in Oracle E-Business Suite.</span></span> <span data-ttu-id="035da-104">介面資料表、 介面檢視、 資料表和檢視表，而您可以有多個自訂輪詢作業 PL/SQL 應用程式開發介面、 函數和預存程序，會顯示單一的輪詢作業。</span><span class="sxs-lookup"><span data-stu-id="035da-104">For interface tables, interface views, tables, and views, a single Poll operation is surfaced whereas you can have multiple custom polling operations for PL/SQL APIs, functions, and stored procedures.</span></span>  

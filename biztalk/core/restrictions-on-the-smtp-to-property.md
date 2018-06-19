@@ -1,17 +1,17 @@
 ---
-title: "限制屬性 SMTP |Microsoft 文件"
-ms.custom: 
+title: 限制屬性 SMTP |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [SMTP adapters], restrictions
 - SMTP adapters, restrictions
 ms.assetid: c876d30e-44ab-462d-8c98-64416ed6dd1f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268334"
 ---
 # <a name="restrictions-on-the-smtp-to-property"></a><span data-ttu-id="de58a-102">屬性至 SMTP 的限制</span><span class="sxs-lookup"><span data-stu-id="de58a-102">Restrictions on the SMTP To Property</span></span>
 <span data-ttu-id="de58a-103">**至**屬性會指定訊息的收件者的 SMTP 位址的字串。</span><span class="sxs-lookup"><span data-stu-id="de58a-103">The **To** property is a string that specifies the SMTP address of the recipient of the message.</span></span> <span data-ttu-id="de58a-104">您可以列出多個 SMTP 伺服器支援的位址，以分隔符號區隔。</span><span class="sxs-lookup"><span data-stu-id="de58a-104">You can list several addresses with a separator that SMTP server supports.</span></span>  

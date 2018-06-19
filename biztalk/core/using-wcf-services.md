@@ -1,17 +1,17 @@
 ---
-title: "使用 WCF 服務 |Microsoft 文件"
-ms.custom: 
+title: 使用 WCF 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF services
 - Windows Communication Foundation (WCF)
 ms.assetid: 34fe5e4c-6a92-4627-b2aa-e8b58a708320
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287790"
 ---
 # <a name="using-wcf-services"></a><span data-ttu-id="1f90c-102">使用 WCF 服務</span><span class="sxs-lookup"><span data-stu-id="1f90c-102">Using WCF Services</span></span>
 <span data-ttu-id="1f90c-103">Microsoft[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]提供內建支援的 Windows Communication Foundation (WCF)。</span><span class="sxs-lookup"><span data-stu-id="1f90c-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] provides built-in support for Windows Communication Foundation (WCF).</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="1f90c-104">可讓您重複使用和彙總所有現有的 WCF 服務協調流程中。</span><span class="sxs-lookup"><span data-stu-id="1f90c-104"> enables you to reuse and aggregate all your existing WCF services within your orchestrations.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="1f90c-105">也實作 WCF 服務中原生配接器的支援。</span><span class="sxs-lookup"><span data-stu-id="1f90c-105"> also implements support for native adapters in WCF services.</span></span> <span data-ttu-id="1f90c-106">原生配接器支援為 WCF 服務提供擴充性、容錯和追蹤功能，您無須撰寫任何程式碼。</span><span class="sxs-lookup"><span data-stu-id="1f90c-106">Native adapter support provides scalability, fault tolerance, and tracking capabilities for WCF services without requiring you to write code.</span></span> <span data-ttu-id="1f90c-107">WCF 配接器的相關資訊，請參閱[WCF 配接器](../core/wcf-adapters.md)。</span><span class="sxs-lookup"><span data-stu-id="1f90c-107">For information about the WCF adapters, see [WCF Adapters](../core/wcf-adapters.md).</span></span>  

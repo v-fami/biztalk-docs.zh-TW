@@ -1,14 +1,14 @@
 ---
-title: "設定登入認證 SQL 配接器 |Microsoft 文件"
-ms.custom: 
+title: 設定登入認證 SQL 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9c20e177-0e64-4df3-a3dd-dca3fcf314db
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226238"
 ---
 # <a name="configure-the-sign-in-credentials-for-the-sql-adapter"></a><span data-ttu-id="2dcc5-102">設定登入認證 SQL 配接器</span><span class="sxs-lookup"><span data-stu-id="2dcc5-102">Configure the sign in credentials for the SQL adapter</span></span>
 <span data-ttu-id="2dcc5-103">[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]需要配接器用戶端提供用戶端認證。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-103">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] requires the adapter clients to provide client credentials.</span></span> <span data-ttu-id="2dcc5-104">配接器使用這些認證來驗證與 SQL Server 使用者並建立連接。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-104">The adapter uses these credentials to authenticate the user with SQL Server and to establish a connection.</span></span>  
@@ -52,7 +53,7 @@ ms.lasthandoff: 09/20/2017
     |----------------|----------------|  
     |<span data-ttu-id="2dcc5-126">**無**</span><span class="sxs-lookup"><span data-stu-id="2dcc5-126">**None**</span></span>|<span data-ttu-id="2dcc5-127">使用 Windows 驗證連接到 SQL Server。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-127">Connect to SQL Server by using Windows authentication.</span></span>|  
     |<span data-ttu-id="2dcc5-128">**視窗**</span><span class="sxs-lookup"><span data-stu-id="2dcc5-128">**Windows**</span></span>|<span data-ttu-id="2dcc5-129">使用 Windows 驗證連接到 SQL Server。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-129">Connect to SQL Server by using Windows authentication.</span></span>|  
-    |<span data-ttu-id="2dcc5-130">**使用者名稱**</span><span class="sxs-lookup"><span data-stu-id="2dcc5-130">**Username**</span></span>|<span data-ttu-id="2dcc5-131">指定的使用者名稱和密碼來連接到 SQL Server 藉由指定使用者在 SQL Server 資料庫中定義的認證。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-131">Specify the user name and password to connect to SQL Server by specifying credentials for a user defined in SQL Server database.</span></span> <span data-ttu-id="2dcc5-132">請注意使用者名稱和密碼會區分大小寫。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-132">Note that the user name and password are case-sensitive.</span></span> <span data-ttu-id="2dcc5-133">**注意：**如果您離開**使用者名**和**密碼**空白欄位，配接器連接至 SQL Server 使用 Windows 驗證。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-133">**Note:**  If you leave the **User name** and **Password** fields as blank, the adapter connects to SQL Server using Windows authentication.</span></span>|  
+    |<span data-ttu-id="2dcc5-130">**使用者名稱**</span><span class="sxs-lookup"><span data-stu-id="2dcc5-130">**Username**</span></span>|<span data-ttu-id="2dcc5-131">指定的使用者名稱和密碼來連接到 SQL Server 藉由指定使用者在 SQL Server 資料庫中定義的認證。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-131">Specify the user name and password to connect to SQL Server by specifying credentials for a user defined in SQL Server database.</span></span> <span data-ttu-id="2dcc5-132">請注意使用者名稱和密碼會區分大小寫。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-132">Note that the user name and password are case-sensitive.</span></span> <span data-ttu-id="2dcc5-133">**注意：** 如果您離開**使用者名**和**密碼**空白欄位，配接器連接至 SQL Server 使用 Windows 驗證。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-133">**Note:**  If you leave the **User name** and **Password** fields as blank, the adapter connects to SQL Server using Windows authentication.</span></span>|  
   
 6.  <span data-ttu-id="2dcc5-134">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-134">Click **OK**.</span></span>  
   
@@ -87,7 +88,7 @@ ms.lasthandoff: 09/20/2017
     |----------------|----------------|  
     |<span data-ttu-id="2dcc5-155">**無**</span><span class="sxs-lookup"><span data-stu-id="2dcc5-155">**None**</span></span>|<span data-ttu-id="2dcc5-156">使用 Windows 驗證連接到 SQL Server。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-156">Connect to SQL Server by using Windows authentication.</span></span>|  
     |<span data-ttu-id="2dcc5-157">**視窗**</span><span class="sxs-lookup"><span data-stu-id="2dcc5-157">**Windows**</span></span>|<span data-ttu-id="2dcc5-158">使用 Windows 驗證連接到 SQL Server。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-158">Connect to SQL Server by using Windows authentication.</span></span>|  
-    |<span data-ttu-id="2dcc5-159">**使用者名稱**</span><span class="sxs-lookup"><span data-stu-id="2dcc5-159">**Username**</span></span>|<span data-ttu-id="2dcc5-160">指定的使用者名稱和密碼來連接到 SQL Server 藉由指定使用者在 SQL Server 資料庫中定義的認證。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-160">Specify the user name and password to connect to SQL Server by specifying credentials for a user defined in SQL Server database.</span></span> <span data-ttu-id="2dcc5-161">請注意使用者名稱和密碼會區分大小寫。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-161">Note that the user name and password are case-sensitive.</span></span> <span data-ttu-id="2dcc5-162">**注意：**如果您離開**使用者名**和**密碼**空白欄位，配接器連接至 SQL Server 使用 Windows 驗證。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-162">**Note:**  If you leave the **User name** and **Password** fields as blank, the adapter connects to SQL Server using Windows authentication.</span></span>|  
+    |<span data-ttu-id="2dcc5-159">**使用者名稱**</span><span class="sxs-lookup"><span data-stu-id="2dcc5-159">**Username**</span></span>|<span data-ttu-id="2dcc5-160">指定的使用者名稱和密碼來連接到 SQL Server 藉由指定使用者在 SQL Server 資料庫中定義的認證。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-160">Specify the user name and password to connect to SQL Server by specifying credentials for a user defined in SQL Server database.</span></span> <span data-ttu-id="2dcc5-161">請注意使用者名稱和密碼會區分大小寫。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-161">Note that the user name and password are case-sensitive.</span></span> <span data-ttu-id="2dcc5-162">**注意：** 如果您離開**使用者名**和**密碼**空白欄位，配接器連接至 SQL Server 使用 Windows 驗證。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-162">**Note:**  If you leave the **User name** and **Password** fields as blank, the adapter connects to SQL Server using Windows authentication.</span></span>|  
   
 8.  <span data-ttu-id="2dcc5-163">按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="2dcc5-163">Click **OK**.</span></span>  
   

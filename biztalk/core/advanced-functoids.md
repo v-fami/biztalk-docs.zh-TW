@@ -1,14 +1,14 @@
 ---
-title: "進階運算質 |Microsoft 文件"
-ms.custom: 
+title: 進階運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 82bf2547-5e44-45f8-b577-97e5760a0339
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230390"
 ---
 # <a name="advanced-functoids"></a><span data-ttu-id="78250-102">進階運算質</span><span class="sxs-lookup"><span data-stu-id="78250-102">Advanced Functoids</span></span>
 
@@ -25,7 +26,7 @@ ms.lasthandoff: 09/20/2017
   
 -   <span data-ttu-id="78250-105">**管理迴圈記錄。**</span><span class="sxs-lookup"><span data-stu-id="78250-105">**Managing looping records.**</span></span> <span data-ttu-id="78250-106">**索引**，**反覆項目**，**迴圈**， **「 Nil 值**，**記錄計數**，**資料表擷取程式**，和**表格迴圈**各種組合使用運算質時輸入執行個體訊息包含區段具有無法預測數目所表示的迴圈，重複項目，來源結構描述中的記錄。</span><span class="sxs-lookup"><span data-stu-id="78250-106">The **Index**, **Iteration**, **Looping**, **Nil Value**, **Record Count**, **Table Extractor**, and **Table Looping** functoids are used in various combinations when the input instance message contains sections with an unpredictable number of repeating elements, as represented by looping records in the source schema.</span></span>  
   
--   <span data-ttu-id="78250-107">**條件式對應。**</span><span class="sxs-lookup"><span data-stu-id="78250-107">**Conditional mapping.**</span></span> <span data-ttu-id="78250-108">**值對應**和**值對應 （簡維）**運算質可用以提供從輸入執行個體訊息到輸出執行個體訊息的條件式對應。</span><span class="sxs-lookup"><span data-stu-id="78250-108">The **Value Mapping** and **Value Mapping (Flattening)** functoids are used to provide conditional mapping from an input instance message to an output instance message.</span></span> <span data-ttu-id="78250-109">當第一個輸入參數為 True 時，第二個輸入參數會被放入輸出執行個體訊息中的特定項目或屬性；否則，該項目或屬性不會在輸出執行個體訊息中建立。</span><span class="sxs-lookup"><span data-stu-id="78250-109">When their first input parameter is true, the second input parameter is put into the specified element or attribute in the output instance message; otherwise, that element or attribute is not created in the output instance message.</span></span>  
+-   <span data-ttu-id="78250-107">**條件式對應。**</span><span class="sxs-lookup"><span data-stu-id="78250-107">**Conditional mapping.**</span></span> <span data-ttu-id="78250-108">**值對應**和**值對應 （簡維）** 運算質可用以提供從輸入執行個體訊息到輸出執行個體訊息的條件式對應。</span><span class="sxs-lookup"><span data-stu-id="78250-108">The **Value Mapping** and **Value Mapping (Flattening)** functoids are used to provide conditional mapping from an input instance message to an output instance message.</span></span> <span data-ttu-id="78250-109">當第一個輸入參數為 True 時，第二個輸入參數會被放入輸出執行個體訊息中的特定項目或屬性；否則，該項目或屬性不會在輸出執行個體訊息中建立。</span><span class="sxs-lookup"><span data-stu-id="78250-109">When their first input parameter is true, the second input parameter is put into the specified element or attribute in the output instance message; otherwise, that element or attribute is not created in the output instance message.</span></span>  
   
 -   <span data-ttu-id="78250-110">**任意指令碼。**</span><span class="sxs-lookup"><span data-stu-id="78250-110">**Arbitrary scripting.**</span></span> <span data-ttu-id="78250-111">**指令碼處理**運算質可用來執行任意指令碼，或輸入執行個體訊息對應到輸出執行個體訊息時，已編譯程式碼。</span><span class="sxs-lookup"><span data-stu-id="78250-111">The **Scripting** functoid is used to run arbitrary script or compiled code when an input instance message is being mapped to an output instance message.</span></span> <span data-ttu-id="78250-112">此種指令碼或已編譯的程式碼可以建立，以便接受來自來源執行個體訊息、來自設定的常數值、來自其他運算質的輸出或這些組合的輸入參數。</span><span class="sxs-lookup"><span data-stu-id="78250-112">Such script or compiled code can be created so that it accepts input parameters from the source instance message, from configured constant values, from the output of another functoid, or some combination thereof.</span></span>  
   

@@ -1,14 +1,14 @@
 ---
-title: "串連 |Microsoft 文件"
-ms.custom: 
+title: 串連 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e21a773d-a9cc-4a6f-b548-46badcd92aab
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231694"
 ---
 # <a name="concatenate"></a><span data-ttu-id="54999-102">串連</span><span class="sxs-lookup"><span data-stu-id="54999-102">Concatenate</span></span>
 <span data-ttu-id="54999-103">從堆疊移除前兩個項目，串連這兩個項目，然後將結果推入至堆疊。</span><span class="sxs-lookup"><span data-stu-id="54999-103">Removes the top two items from the stack, concatenates them, and then pushes the result onto the stack.</span></span>  

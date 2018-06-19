@@ -1,14 +1,14 @@
 ---
-title: "檢視報表，適用於 SAP |Microsoft 文件"
-ms.custom: 
+title: 檢視報表，適用於 SAP |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0932ffc5-cde0-4d14-822f-713b760c3f12
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218214"
 ---
 # <a name="view-the-reports-for-sap"></a><span data-ttu-id="d19ac-102">適用於 SAP 檢視報表</span><span class="sxs-lookup"><span data-stu-id="d19ac-102">View the Reports for SAP</span></span>
 <span data-ttu-id="d19ac-103">建立報表之後，您可以檢視使用 Visual Studio，或透過網路將它裝載網際網路資訊服務 (IIS) 和存取報表伺服器上。</span><span class="sxs-lookup"><span data-stu-id="d19ac-103">After you have created the report, you can view it either using Visual Studio or host it on the Report Server on Internet Information Services (IIS) and access over the network.</span></span> <span data-ttu-id="d19ac-104">本主題提供有關如何檢視報表，在 Visual Studio 和使用 IIS 的指示。</span><span class="sxs-lookup"><span data-stu-id="d19ac-104">This topic provides instructions on how to view reports both in Visual Studio and using IIS.</span></span>  
@@ -30,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  <span data-ttu-id="d19ac-109">在 報表屬性頁 對話方塊中，按一下  **Configuration Manager**，清除核取方塊，在**部署**資料行。</span><span class="sxs-lookup"><span data-stu-id="d19ac-109">In the report property pages dialog box, click **Configuration Manager**, and clear the check box under the **Deploy** column.</span></span> <span data-ttu-id="d19ac-110">按一下 [ **關閉**]。</span><span class="sxs-lookup"><span data-stu-id="d19ac-110">Click **Close**.</span></span>  
   
-3.  <span data-ttu-id="d19ac-111">在 [報表屬性頁] 對話方塊中，針對**StartItem**屬性中，選取報表的名稱，然後按一下**[確定]**。</span><span class="sxs-lookup"><span data-stu-id="d19ac-111">In the report property pages dialog box, for the **StartItem** property, select the name of the report, and then click **OK**.</span></span>  
+3.  <span data-ttu-id="d19ac-111">在 [報表屬性頁] 對話方塊中，針對**StartItem**屬性中，選取報表的名稱，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="d19ac-111">In the report property pages dialog box, for the **StartItem** property, select the name of the report, and then click **OK**.</span></span>  
   
      <span data-ttu-id="d19ac-112">![指定報表伺服器專案的屬性](../../adapters-and-accelerators/adapter-sap/media/b3c500f7-840d-461f-945c-66db239d81b9.gif "b3c500f7-840d-461f-945c-66db239d81b9")</span><span class="sxs-lookup"><span data-stu-id="d19ac-112">![Specify properties for the Report Server project](../../adapters-and-accelerators/adapter-sap/media/b3c500f7-840d-461f-945c-66db239d81b9.gif "b3c500f7-840d-461f-945c-66db239d81b9")</span></span>  
   

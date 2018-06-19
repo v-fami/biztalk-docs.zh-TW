@@ -1,14 +1,14 @@
 ---
-title: "步驟 3F： 新增檔案傳送埠 FileAct 即時案例以擷取 Sw HandleFileEventRequest 訊息 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3F： 新增檔案傳送埠 FileAct 即時案例以擷取 Sw HandleFileEventRequest 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0b7594b0-0443-41b7-ae04-55b2cc8bf90e
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225526"
 ---
 # <a name="step-3f-add-a-file-send-port-for-the-fileact-real-time-scenario-to-capture-sw-handlefileeventrequest-messages"></a><span data-ttu-id="a5e7c-102">步驟 3F： 新增 FileAct 即時案例以擷取 Sw HandleFileEventRequest 訊息的 FILE 傳送埠</span><span class="sxs-lookup"><span data-stu-id="a5e7c-102">Step 3F: Add a FILE Send Port for the FileAct Real-Time Scenario to Capture Sw-HandleFileEventRequest Messages</span></span>
 <span data-ttu-id="a5e7c-103">在開始此步驟之前，必須先完成[步驟 3E: FileAct 即時案例中，將檔案傳送埠新增至擷取 Sw:ExchangeFileResponse 訊息](../../adapters-and-accelerators/fileact-interact/step-3e-add-file-send-port-to-get-sw-exchangefileresponse-message-for-fileact.md)</span><span class="sxs-lookup"><span data-stu-id="a5e7c-103">Before you begin this step, you must complete [Step 3E: Add a FILE Send Port to Capture Sw:ExchangeFileResponse Message for the FileAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/step-3e-add-file-send-port-to-get-sw-exchangefileresponse-message-for-fileact.md)</span></span>  

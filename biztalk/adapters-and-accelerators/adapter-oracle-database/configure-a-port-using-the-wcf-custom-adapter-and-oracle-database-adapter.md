@@ -1,15 +1,15 @@
 ---
-title: "設定連接埠使用 wcf-custom 配接器和 Oracle 資料庫配接器 |Microsoft 文件"
-description: "建立 WCF 自訂傳送和接收 BizTalk Server 中使用 Oracle 資料庫配接器的連接埠"
-ms.custom: 
+title: 設定連接埠使用 wcf-custom 配接器和 Oracle 資料庫配接器 |Microsoft 文件
+description: 建立 WCF 自訂傳送和接收 BizTalk Server 中使用 Oracle 資料庫配接器的連接埠
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c99ff526-ad97-4095-812f-0ce88b071e7f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215854"
 ---
 # <a name="configure-a-port-using-the-wcf-custom-adapter-and-oracle-database-adapter"></a><span data-ttu-id="01cb5-103">設定使用 wcf-custom 配接器和 Oracle 資料庫配接器的連接埠</span><span class="sxs-lookup"><span data-stu-id="01cb5-103">Configure a port using the WCF-custom adapter and Oracle Database adapter</span></span>
 <span data-ttu-id="01cb5-104">如何設定 Wcf-custom 傳送埠和接收埠來執行 Oracle 資料庫使用的傳出和傳入作業[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="01cb5-104">How to configure WCF-Custom send and receive ports to perform outbound and inbound operations on the Oracle database using the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)].</span></span>  
@@ -41,7 +42,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  <span data-ttu-id="01cb5-115">在**Wcf-custom 傳輸屬性**對話方塊方塊中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="01cb5-115">In the **WCF-Custom Transport Properties** dialog box, do the following:</span></span>  
   
-    1.  <span data-ttu-id="01cb5-116">按一下**一般** 索引標籤，然後在**位址 (URI)**欄位中，指定 Oracle 資料庫的連線 URI。</span><span class="sxs-lookup"><span data-stu-id="01cb5-116">Click the **General** tab, and in the **Address (URI)** field, specify the connection URI for the Oracle database.</span></span> <span data-ttu-id="01cb5-117">如需連線 URI 的詳細資訊，請參閱[建立 Oracle 資料庫連線 URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md)。</span><span class="sxs-lookup"><span data-stu-id="01cb5-117">For more information about the connection URI, see [Create the Oracle Database connection URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md).</span></span>  
+    1.  <span data-ttu-id="01cb5-116">按一下**一般** 索引標籤，然後在**位址 (URI)** 欄位中，指定 Oracle 資料庫的連線 URI。</span><span class="sxs-lookup"><span data-stu-id="01cb5-116">Click the **General** tab, and in the **Address (URI)** field, specify the connection URI for the Oracle database.</span></span> <span data-ttu-id="01cb5-117">如需連線 URI 的詳細資訊，請參閱[建立 Oracle 資料庫連線 URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md)。</span><span class="sxs-lookup"><span data-stu-id="01cb5-117">For more information about the connection URI, see [Create the Oracle Database connection URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md).</span></span>  
   
     2.  <span data-ttu-id="01cb5-118">在**一般**索引標籤的**動作**文字方塊中，輸入作業的動作。</span><span class="sxs-lookup"><span data-stu-id="01cb5-118">On the **General** tab, in the **Action** text box, type the action for the operation.</span></span> <span data-ttu-id="01cb5-119">請參閱[訊息與訊息結構描述](messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)的每個作業的動作清單。</span><span class="sxs-lookup"><span data-stu-id="01cb5-119">See [Messages and Message Schemas](messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md) for a list of actions for each operation.</span></span> <span data-ttu-id="01cb5-120">例如，叫用 Oracle 資料庫中的處理常式結構描述下的員工資料表插入作業的動作是：</span><span class="sxs-lookup"><span data-stu-id="01cb5-120">For example, the action to invoke the Insert operation an EMPLOYEE table under the HR schema in an Oracle database is:</span></span>  
   
@@ -99,7 +100,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  <span data-ttu-id="01cb5-149">在**Wcf-custom 傳輸屬性**對話方塊方塊中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="01cb5-149">In the **WCF-Custom Transport Properties** dialog box, do the following:</span></span>  
   
-    1.  <span data-ttu-id="01cb5-150">按一下**一般** 索引標籤，然後在**位址 (URI)**欄位中，指定 Oracle 資料庫的連線 URI。</span><span class="sxs-lookup"><span data-stu-id="01cb5-150">Click the **General** tab, and in the **Address (URI)** field, specify the connection URI for the Oracle database.</span></span> <span data-ttu-id="01cb5-151">如需連線 URI 的詳細資訊，請參閱[建立 Oracle 資料庫連線 URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md)。</span><span class="sxs-lookup"><span data-stu-id="01cb5-151">For more information about the connection URI, see [Create the Oracle Database connection URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md).</span></span>  
+    1.  <span data-ttu-id="01cb5-150">按一下**一般** 索引標籤，然後在**位址 (URI)** 欄位中，指定 Oracle 資料庫的連線 URI。</span><span class="sxs-lookup"><span data-stu-id="01cb5-150">Click the **General** tab, and in the **Address (URI)** field, specify the connection URI for the Oracle database.</span></span> <span data-ttu-id="01cb5-151">如需連線 URI 的詳細資訊，請參閱[建立 Oracle 資料庫連線 URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md)。</span><span class="sxs-lookup"><span data-stu-id="01cb5-151">For more information about the connection URI, see [Create the Oracle Database connection URI](../../adapters-and-accelerators/adapter-oracle-database/create-the-oracle-database-connection-uri.md).</span></span>  
   
     2.  <span data-ttu-id="01cb5-152">按一下**繫結** 索引標籤，並從**繫結的型別**下拉式清單中，選取**oracleDBBinding**。</span><span class="sxs-lookup"><span data-stu-id="01cb5-152">Click the **Binding** tab, and from the **Binding Type** drop-down list, select **oracleDBBinding**.</span></span> <span data-ttu-id="01cb5-153">您可以指定不同的繫結屬性所公開[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="01cb5-153">You can specify the different binding properties exposed by the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].</span></span> <span data-ttu-id="01cb5-154">如需繫結屬性的詳細資訊，請參閱[閱讀有關 Oracle 資料庫配接器繫結屬性](../../adapters-and-accelerators/adapter-oracle-database/read-about-the-oracle-database-adapter-binding-properties.md)。</span><span class="sxs-lookup"><span data-stu-id="01cb5-154">For more information about binding properties, see [Read about the Oracle Database adapter binding properties](../../adapters-and-accelerators/adapter-oracle-database/read-about-the-oracle-database-adapter-binding-properties.md).</span></span>  
   

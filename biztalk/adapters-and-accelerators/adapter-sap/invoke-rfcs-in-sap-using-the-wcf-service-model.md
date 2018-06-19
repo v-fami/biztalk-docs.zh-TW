@@ -1,17 +1,17 @@
 ---
-title: "叫用中使用 WCF 服務模型的 SAP Rfc |Microsoft 文件"
-ms.custom: 
+title: 叫用中使用 WCF 服務模型的 SAP Rfc |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - invoking RFCs, using the WCF service model
 - WCF service model, invoking RFCs
 ms.assetid: 06a373e2-5d16-4480-81ec-611bd0b9749c
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217518"
 ---
 # <a name="invoke-rfcs-in-sap-using-the-wcf-service-model"></a><span data-ttu-id="066c8-102">叫用中使用 WCF 服務模型的 SAP Rfc</span><span class="sxs-lookup"><span data-stu-id="066c8-102">Invoke RFCs in SAP using the WCF Service Model</span></span>
 <span data-ttu-id="066c8-103">[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] SAP 系統 Rfc 會呈現為可以叫用用戶端程式的作業。</span><span class="sxs-lookup"><span data-stu-id="066c8-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] surfaces RFCs on the SAP system as operations that can be invoked by a client program.</span></span> <span data-ttu-id="066c8-104">在 WCF 服務模型中，這些作業會為產生的 WCF 用戶端類別的方法叫用。</span><span class="sxs-lookup"><span data-stu-id="066c8-104">In the WCF service model, these operations are invoked as methods of a generated WCF client class.</span></span> <span data-ttu-id="066c8-105">您可以使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]產生 WCF 用戶端類別，其中包含您想要叫用程式碼中每個 RFC 的方法。</span><span class="sxs-lookup"><span data-stu-id="066c8-105">You can use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] to generate a WCF client class that contains methods for each RFC that you want to invoke in your code.</span></span> <span data-ttu-id="066c8-106">[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]也會產生封裝所使用的每個 RFC 的參數和資料類型的.NET 型別。</span><span class="sxs-lookup"><span data-stu-id="066c8-106">The [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)] also generates .NET types to encapsulate the parameters and data types that are used by each RFC.</span></span> <span data-ttu-id="066c8-107">然後，您可以建立此 WCF 用戶端類別的執行個體，並呼叫其方法來叫用目標 Rfc。</span><span class="sxs-lookup"><span data-stu-id="066c8-107">You can then create an instance of this WCF client class and call its methods to invoke the target RFCs.</span></span>  

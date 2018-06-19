@@ -1,11 +1,11 @@
 ---
-title: "保護傳送者 ASPX 頁面 |Microsoft 文件"
-ms.custom: 
+title: 保護傳送者 ASPX 頁面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ASPX pages, protocol rules
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - ASPX pages, security
 - protocol rules [ASPX pages]
 ms.assetid: 8214e3f5-a8e9-4d71-957d-ed0852035030
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207758"
 ---
 # <a name="securing-the-sender-aspx-page"></a><span data-ttu-id="e0f9e-102">保護傳送者 ASPX 頁面</span><span class="sxs-lookup"><span data-stu-id="e0f9e-102">Securing the Sender ASPX Page</span></span>
 <span data-ttu-id="e0f9e-103">本主題說明如何保護 RNIFSend.aspx 頁面，避免未經授權的使用。</span><span class="sxs-lookup"><span data-stu-id="e0f9e-103">This topic describes how to protect the RNIFSend.aspx page from unauthorized use.</span></span> <span data-ttu-id="e0f9e-104">您可以使用下列兩個程序：</span><span class="sxs-lookup"><span data-stu-id="e0f9e-104">There are two procedures that you can use:</span></span>  

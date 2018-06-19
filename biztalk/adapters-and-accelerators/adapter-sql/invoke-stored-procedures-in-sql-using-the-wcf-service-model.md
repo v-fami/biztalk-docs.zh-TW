@@ -1,14 +1,14 @@
 ---
-title: "叫用預存程序，在 SQL 中使用 WCF 服務模型 |Microsoft 文件"
-ms.custom: 
+title: 叫用預存程序，在 SQL 中使用 WCF 服務模型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4edd2fac-0b54-4406-932e-e3044a66b2e6
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222286"
 ---
 # <a name="invoke-stored-procedures-in-sql-using-the-wcf-service-model"></a><span data-ttu-id="2137f-102">叫用預存程序，在 SQL 中使用 WCF 服務模型</span><span class="sxs-lookup"><span data-stu-id="2137f-102">Invoke Stored Procedures in SQL using the WCF Service Model</span></span>
 <span data-ttu-id="2137f-103">[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]探索預存程序做為配接器用戶端可以叫用預存程序將 WCF 用戶端上叫用的作業。</span><span class="sxs-lookup"><span data-stu-id="2137f-103">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] discovers the stored procedures as operations that the adapter clients can invoke on the WCF client to invoke the stored procedure.</span></span> <span data-ttu-id="2137f-104">根據預存程序傳回結果集的方式，配接器來分類做為所有預存程序：</span><span class="sxs-lookup"><span data-stu-id="2137f-104">Based on how the stored procedure returns the result set, the adapter categorizes all the stored procedures as:</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "應用程式部署和管理案例 |Microsoft 文件"
-ms.custom: 
+title: 應用程式部署和管理案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, applications
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - applications, examples
 - examples, deploying
 ms.assetid: 0b45dcc7-df19-4d82-92c7-ab41c76ff56b
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230118"
 ---
 # <a name="application-deployment-and-management-scenarios"></a><span data-ttu-id="eee8f-102">應用程式部署和管理實例</span><span class="sxs-lookup"><span data-stu-id="eee8f-102">Application Deployment and Management Scenarios</span></span>
 <span data-ttu-id="eee8f-103">本節說明某些可能會部署或更新 BizTalk 應用程式的實例。</span><span class="sxs-lookup"><span data-stu-id="eee8f-103">This section describes some of the scenarios in which a BizTalk application might be deployed or updated.</span></span>  

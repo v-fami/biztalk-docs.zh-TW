@@ -1,11 +1,11 @@
 ---
-title: "BizTalk Adapter for TIBCO Enterprise Message Service 的架構 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Adapter for TIBCO Enterprise Message Service 的架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - transmit adapter
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - one-way send operations
 - receive adapter
 ms.assetid: 304c7236-aacd-4761-8c33-e876b53e84ff
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230278"
 ---
 # <a name="architecture-of-biztalk-adapter-for-tibco-enterprise-message-service"></a><span data-ttu-id="06dbe-102">BizTalk Adapter for TIBCO Enterprise Message Service 的架構</span><span class="sxs-lookup"><span data-stu-id="06dbe-102">Architecture of BizTalk Adapter for TIBCO Enterprise Message Service</span></span>
 <span data-ttu-id="06dbe-103">Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) 提供在 TIBCO EMS 系統與 BizTalk Server 之間交換即時商務資料的方法。</span><span class="sxs-lookup"><span data-stu-id="06dbe-103">Microsoft BizTalk Adapter for TIBCO Enterprise Message Service (EMS) provides a means to exchange real-time business data between TIBCO EMS systems and BizTalk Server.</span></span> <span data-ttu-id="06dbe-104">此配接器可讓 XML 應用程式與 TIBCO EMS 互動。</span><span class="sxs-lookup"><span data-stu-id="06dbe-104">The adapter enables interaction between an XML application and TIBCO EMS.</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "原則測試追蹤輸出範例 |Microsoft 文件"
-ms.custom: 
+title: 原則測試追蹤輸出範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - testing, policies
 - policies, testing
 - testing, examples
 ms.assetid: 92e1dc7f-1a8d-41a5-84b6-46d5ad9f2ef2
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266678"
 ---
 # <a name="policy-test-trace-output-examples"></a><span data-ttu-id="93425-102">原則測試追蹤輸出範例</span><span class="sxs-lookup"><span data-stu-id="93425-102">Policy Test Trace Output Examples</span></span>
 <span data-ttu-id="93425-103">本章節包含不同事實類型的原則測試輸出範例。</span><span class="sxs-lookup"><span data-stu-id="93425-103">This section contains examples of the policy test output for different types of facts.</span></span>  
@@ -127,7 +128,7 @@ THEN <do something>
   
  <span data-ttu-id="93425-150">規則集名稱：LoanProcessing</span><span class="sxs-lookup"><span data-stu-id="93425-150">Ruleset Name: LoanProcessing</span></span>  
   
- <span data-ttu-id="93425-151">測試運算式： 選取 * 從 [CustInfo]，[CreditCardBalance] > 0</span><span class="sxs-lookup"><span data-stu-id="93425-151">Test Expression: select * from [CustInfo] where [CreditCardBalance] > 0</span></span>  
+ <span data-ttu-id="93425-151">測試運算式： 選取 \* 從 [CustInfo]，[CreditCardBalance] > 0</span><span class="sxs-lookup"><span data-stu-id="93425-151">Test Expression: select \* from [CustInfo] where [CreditCardBalance] > 0</span></span>  
   
  <span data-ttu-id="93425-152">左運算元值：</span><span class="sxs-lookup"><span data-stu-id="93425-152">Left Operand Value:</span></span>  
   

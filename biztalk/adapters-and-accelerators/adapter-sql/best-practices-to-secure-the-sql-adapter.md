@@ -1,14 +1,14 @@
 ---
-title: "最佳作法來保護 SQL 配接器 |Microsoft 文件"
-ms.custom: 
+title: 最佳作法來保護 SQL 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e32379d7-800a-49b7-a09a-6b3f04a6e5ef
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225550"
 ---
 # <a name="best-practices-to-secure-the-sql-adapter"></a><span data-ttu-id="40cf7-102">若要保護的 SQL 配接器的最佳作法</span><span class="sxs-lookup"><span data-stu-id="40cf7-102">Best practices to secure the SQL adapter</span></span>
 <span data-ttu-id="40cf7-103">最佳作法，您應該完全遵循更保護機密資料，當您使用或開發應用程式取用[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="40cf7-103">Best practices that you should follow to more completely protect sensitive data when you use or develop applications that consume the [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)].</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "密碼同步程式設計架構 |Microsoft 文件"
-ms.custom: 
+title: 密碼同步程式設計架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 679edbf1-fb08-4472-b366-3e1d361b20e7
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264670"
 ---
 # <a name="password-sync-programming-architecture"></a><span data-ttu-id="47f2b-102">密碼同步程式設計架構</span><span class="sxs-lookup"><span data-stu-id="47f2b-102">Password Sync Programming Architecture</span></span>
 <span data-ttu-id="47f2b-103">密碼同步配接器會使用提取模型的企業單一登入系統的其餘部分互動： 也就是配接器主動接收密碼變更從 「 企業單一登入 (ENTSSO) 服務和也非 Windows 系統。</span><span class="sxs-lookup"><span data-stu-id="47f2b-103">A password sync adapter uses a pull model for interacting with the rest of the Enterprise Single Sign-On system: that is, the adapter actively receives password changes from the Enterprise Single Sign-On (ENTSSO) service and also from the non-Windows system.</span></span> <span data-ttu-id="47f2b-104">同理，配接器會將接收到的密碼變更從一個系統推到另一個。</span><span class="sxs-lookup"><span data-stu-id="47f2b-104">Similarly, the adapter pushes password changes received from one system to the other.</span></span> <span data-ttu-id="47f2b-105">與此模型中，您的配接器互動具有三個架構的元件： ENTSSO 架構、 密碼同步 (PS) 協助程式元件，以及指定的非 Windows 系統。</span><span class="sxs-lookup"><span data-stu-id="47f2b-105">With this model, your adapter interacts with three architectural components: the ENTSSO architecture, the Password Sync (PS) Helper component, and a specified non-Windows system.</span></span>  

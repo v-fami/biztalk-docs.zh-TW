@@ -1,17 +1,17 @@
 ---
-title: "BAM 動態基礎結構 |Microsoft 文件"
-ms.custom: 
+title: BAM 動態基礎結構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - infrastructure, BAM
 - BAM, infrastructure
 ms.assetid: 88f39438-3213-4f0d-8b8d-e6426c266138
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230446"
 ---
 # <a name="bam-dynamic-infrastructure"></a><span data-ttu-id="e4348-102">BAM 動態基礎結構</span><span class="sxs-lookup"><span data-stu-id="e4348-102">BAM Dynamic Infrastructure</span></span>
 <span data-ttu-id="e4348-103">BAM 基礎結構包含 SQL Server 資料表、 BAM 檢視、 預存程序和 Data Transformation Services (DTS) 封裝所設定和管理透過累加在 BAM 資料庫 （主要匯入、 封存、 星狀結構描述和分析）部署 BAM 定義。</span><span class="sxs-lookup"><span data-stu-id="e4348-103">The BAM infrastructure consists of SQL Server tables, BAM views, stored procedures, and Data Transformation Services (DTS) packages in the BAM databases (Primary Import, Archive, Star Schema, and Analysis) as configured and managed through incremental deployments of BAM definitions.</span></span> <span data-ttu-id="e4348-104">基礎結構是 where、 在執行階段，事件會相互關聯、 彙總，且可供使用者查詢。</span><span class="sxs-lookup"><span data-stu-id="e4348-104">The infrastructure is where, at run time, events are correlated, aggregated, and then made available for querying by users.</span></span>  

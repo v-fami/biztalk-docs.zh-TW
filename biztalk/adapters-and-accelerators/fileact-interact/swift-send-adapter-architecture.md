@@ -1,14 +1,14 @@
 ---
-title: "SWIFT 傳送配接器架構 |Microsoft 文件"
-ms.custom: 
+title: SWIFT 傳送配接器架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e52a5a21-0aa1-4cd9-a2a4-f9df425913a0
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223870"
 ---
 # <a name="swift-send-adapter-architecture"></a><span data-ttu-id="2a5c3-102">SWIFT 傳送配接器架構</span><span class="sxs-lookup"><span data-stu-id="2a5c3-102">SWIFT Send Adapter Architecture</span></span>
 <span data-ttu-id="2a5c3-103">一般情況下，BizTalk Server 傳送配接器裝載於 BizTalk 服務處理序，Btsntsvc.exe 中。</span><span class="sxs-lookup"><span data-stu-id="2a5c3-103">In general, BizTalk Server send adapters are hosted in the BizTalk service process, Btsntsvc.exe.</span></span> <span data-ttu-id="2a5c3-104">這表示 BizTalk Server 管理配接器的存留期間。</span><span class="sxs-lookup"><span data-stu-id="2a5c3-104">This means that BizTalk Server manages the lifetime of the adapter.</span></span>  

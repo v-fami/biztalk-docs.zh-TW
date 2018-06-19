@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225230"
 ---
 # <a name="activity-relationships"></a><span data-ttu-id="d6e8d-102">活動關係</span><span class="sxs-lookup"><span data-stu-id="d6e8d-102">Activity Relationships</span></span>
 <span data-ttu-id="d6e8d-103">當活動與一或多個其他活動相關聯時，便存在活動關係，</span><span class="sxs-lookup"><span data-stu-id="d6e8d-103">An activity relationship exists when an activity relates to one or more other activities.</span></span> <span data-ttu-id="d6e8d-104">例如，多個「出貨」活動與單一「訂單」活動相關聯，或者一個「出貨」活動包含兩個「訂單」活動的項目。</span><span class="sxs-lookup"><span data-stu-id="d6e8d-104">An example of this is having multiple Shipment activities related to a single Purchase Order activity, or one Shipment activity containing items from two Purchase Order activities.</span></span>  

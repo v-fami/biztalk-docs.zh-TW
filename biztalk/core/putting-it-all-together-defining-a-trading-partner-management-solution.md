@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22269222"
 ---
 # <a name="putting-it-all-together-defining-a-trading-partner-management-solution"></a><span data-ttu-id="6412c-102">整合在一起： 定義交易夥伴管理解決方案</span><span class="sxs-lookup"><span data-stu-id="6412c-102">Putting it all Together: Defining a Trading Partner Management Solution</span></span>
 <span data-ttu-id="6412c-103">在瞭解用來建立 TPM 方案的不同元件類型後，接著要介紹典型的 TPM 方案流程，以及如何合併使用不同的建置組塊。</span><span class="sxs-lookup"><span data-stu-id="6412c-103">Now that we have understood about the different types of components in building a TPM solution, let us understand the flow of a typical TPM solution and how the different building blocks work together.</span></span> <span data-ttu-id="6412c-104">本節也列示建立 TPM 方案模型的一些最佳做法。</span><span class="sxs-lookup"><span data-stu-id="6412c-104">This section also lists some best practices for modeling a TPM solution.</span></span>  

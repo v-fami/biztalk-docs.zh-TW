@@ -1,11 +1,11 @@
 ---
-title: "作業中 SAP Rfc |Microsoft 文件"
-ms.custom: 
+title: 作業中 SAP Rfc |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, operations on RFCs
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - adapters, operations on tRFCs
 - RFC server
 ms.assetid: ca1b7b00-a9cf-41bc-b87c-2e7ce8cff65c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217062"
 ---
 # <a name="operations-on-rfcs-in-sap"></a><span data-ttu-id="d5aa3-102">作業中 SAP Rfc</span><span class="sxs-lookup"><span data-stu-id="d5aa3-102">Operations on RFCs in SAP</span></span>
 <span data-ttu-id="d5aa3-103">您可以使用[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]同時 RFC 用戶端和 RFC 伺服器。</span><span class="sxs-lookup"><span data-stu-id="d5aa3-103">You can use the[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] both as an RFC client and as an RFC server.</span></span> <span data-ttu-id="d5aa3-104">在 RFC 用戶端的情況下，您的應用程式的叫用 Rfc SAP 系統上叫用 RFC 作業上[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="d5aa3-104">In RFC client scenarios, your application invokes RFCs on the SAP system by invoking RFC operations on the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].</span></span> <span data-ttu-id="d5aa3-105">在 RFC 伺服器案例中的 SAP 系統會叫用 Rfc 上[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]，，接著，會叫用 RFC 成為您的應用程式的作業。</span><span class="sxs-lookup"><span data-stu-id="d5aa3-105">In RFC server scenarios the SAP system invokes RFCs on the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)], which, in turn, invokes the RFC as an operation on your application.</span></span>  

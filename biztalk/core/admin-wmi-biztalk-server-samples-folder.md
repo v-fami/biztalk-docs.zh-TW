@@ -1,11 +1,11 @@
 ---
-title: "管理 WMI （BizTalk Server 範例資料夾） |Microsoft 文件"
-ms.custom: 
+title: 管理 WMI （BizTalk Server 範例資料夾） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - administering, WMI
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - examples, administering
 - administering, examples
 ms.assetid: 39e2a6fe-2781-4be2-a152-f5e9960a0faa
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230070"
 ---
 # <a name="admin-wmi-biztalk-server-samples-folder"></a><span data-ttu-id="f3e91-102">管理 WMI （BizTalk Server 範例資料夾）</span><span class="sxs-lookup"><span data-stu-id="f3e91-102">Admin-WMI (BizTalk Server Samples Folder)</span></span>
 <span data-ttu-id="f3e91-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的軟體開發套件 (SDK) 中包含數個 Microsoft Windows Management Instrumentation (WMI) 管理範例。</span><span class="sxs-lookup"><span data-stu-id="f3e91-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes several Microsoft Windows Management Instrumentation (WMI) administration samples in its software development kit (SDK).</span></span> <span data-ttu-id="f3e91-104">本節提供每個 WMI 管理範例所示範功能的詳細資訊、用來建置和執行範例的指示，以及您可以預期的結果。</span><span class="sxs-lookup"><span data-stu-id="f3e91-104">This section provides detailed information about the functionality demonstrated by each WMI administration sample, instructions for building and running the sample, and the results you can expect.</span></span>  

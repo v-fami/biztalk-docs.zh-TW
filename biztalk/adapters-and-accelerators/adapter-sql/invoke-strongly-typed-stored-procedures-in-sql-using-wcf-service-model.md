@@ -1,14 +1,14 @@
 ---
-title: "叫用中使用 WCF 服務模型的 SQL 強型別的預存程序 |Microsoft 文件"
-ms.custom: 
+title: 叫用中使用 WCF 服務模型的 SQL 強型別的預存程序 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d56df5f6-b046-4fe4-a5b4-b29906093beb
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223982"
 ---
 # <a name="invoke-strongly-typed-stored-procedures-in-sql-using-wcf-service-model"></a><span data-ttu-id="1b077-102">叫用中使用 WCF 服務模型的 SQL 強型別的預存程序</span><span class="sxs-lookup"><span data-stu-id="1b077-102">Invoke Strongly-typed Stored Procedures in SQL using WCF Service Model</span></span>
 <span data-ttu-id="1b077-103">當您叫用底下所列的程序**Strongly-Typed 程序**節點[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]，輸出為強型別之結果集的格式。</span><span class="sxs-lookup"><span data-stu-id="1b077-103">When you invoke a procedure listed under the **Strongly-Typed Procedures** node in the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], the output is in the form of a strongly-typed result set.</span></span> <span data-ttu-id="1b077-104">本主題提供有關如何建立 WCF 用戶端來叫用傳回強型別之結果集在 SQL Server 預存程序的指示。</span><span class="sxs-lookup"><span data-stu-id="1b077-104">This topic provides instructions on how to create a WCF client to invoke stored procedures in SQL Server that return a strongly-typed result set.</span></span>  

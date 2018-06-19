@@ -1,14 +1,14 @@
 ---
-title: "使用 WCF 服務模型中的 SELECT 陳述式輪詢 Oracle E-business Suite |Microsoft 文件"
-ms.custom: 
+title: 使用 WCF 服務模型中的 SELECT 陳述式輪詢 Oracle E-business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 521d58e4-73b1-48a8-9a0a-9e733386c1b5
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218574"
 ---
 # <a name="poll-oracle-e-business-suite-using-select-statement-with-the-wcf-service-model"></a><span data-ttu-id="f0748-102">輪詢 Oracle E-business Suite 與 WCF 服務模型中使用 SELECT 陳述式</span><span class="sxs-lookup"><span data-stu-id="f0748-102">Poll Oracle E-Business Suite using SELECT statement with the WCF service model</span></span>
 <span data-ttu-id="f0748-103">您可以設定[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]接收定期的資料變更訊息，若要連續輪詢介面資料表使用 SELECT 陳述式，介面檢視、 資料表以及 Oracle E-business Suite 中的檢視。</span><span class="sxs-lookup"><span data-stu-id="f0748-103">You can configure the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] to receive periodic data-change messages by using a SELECT statement to continuously poll the interface tables, interface views, tables and views in Oracle E-Business Suite.</span></span> <span data-ttu-id="f0748-104">您可以指定 SELECT 陳述式為輪詢 Oracle E-business Suite 會定期執行配接器的輪詢陳述式。</span><span class="sxs-lookup"><span data-stu-id="f0748-104">You can specify a SELECT statement as a polling statement that the adapter executes periodically to poll Oracle E-Business Suite.</span></span> <span data-ttu-id="f0748-105">您也可以指定後續輪詢 PL/SQL 程式碼區塊後輪詢陳述式執行配接器。</span><span class="sxs-lookup"><span data-stu-id="f0748-105">You can also specify a post-poll PL/SQL code block that the adapter executes after the polling statement is executed.</span></span>  

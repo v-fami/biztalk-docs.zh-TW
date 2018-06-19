@@ -1,11 +1,11 @@
 ---
-title: "BizTalk 群組 |Microsoft 文件"
-ms.custom: 
+title: BizTalk 群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Management database, groups
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - groups, Management database
 - groups, about groups
 ms.assetid: 197cbcf6-c722-4cbb-9642-3cb8a34757e2
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231278"
 ---
 # <a name="biztalk-groups"></a><span data-ttu-id="e638c-102">BizTalk 群組</span><span class="sxs-lookup"><span data-stu-id="e638c-102">BizTalk Groups</span></span>
 

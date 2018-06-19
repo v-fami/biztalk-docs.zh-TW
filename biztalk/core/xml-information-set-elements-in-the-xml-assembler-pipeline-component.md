@@ -1,11 +1,11 @@
 ---
-title: "XML 組合器管線元件中的 XML 資訊集項目 |Microsoft 文件"
-ms.custom: 
+title: XML 組合器管線元件中的 XML 資訊集項目 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - XML Assembler [pipeline component], processing instructions
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - pipeline components, XML Assembler
 - XML Assembler [pipeline component], XML information set
 ms.assetid: 5a262763-838e-476b-8117-30c94bc1d64a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289518"
 ---
 # <a name="xml-information-set-elements-in-the-xml-assembler-pipeline-component"></a><span data-ttu-id="8cc91-102">XML 組合器管線元件中的 XML 資訊集項目</span><span class="sxs-lookup"><span data-stu-id="8cc91-102">XML Information Set Elements in the XML Assembler Pipeline Component</span></span>
 <span data-ttu-id="8cc91-103">XML 組合器元件處理 XML 資訊集項目的方式如下。</span><span class="sxs-lookup"><span data-stu-id="8cc91-103">The XML Assembler component handles XML information set elements as follows.</span></span>  

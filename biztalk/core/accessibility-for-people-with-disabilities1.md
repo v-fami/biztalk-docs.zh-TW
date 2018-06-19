@@ -1,15 +1,15 @@
 ---
-title: "殘障人士的協助工具 |Microsoft 文件"
-description: "鍵盤快速鍵和協助工具，以便讓 BizTalk Server"
-ms.custom: 
+title: 殘障人士的協助工具 |Microsoft 文件
+description: 鍵盤快速鍵和協助工具，以便讓 BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d96c203e-9697-4c1d-9492-f74cf6f080b6
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224662"
 ---
 # <a name="accessibility-for-people-with-disabilities"></a><span data-ttu-id="bf79c-103">行動不便人士的協助工具</span><span class="sxs-lookup"><span data-stu-id="bf79c-103">Accessibility for People with Disabilities</span></span>
 

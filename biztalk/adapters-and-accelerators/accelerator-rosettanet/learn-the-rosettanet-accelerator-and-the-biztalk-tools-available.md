@@ -1,15 +1,15 @@
 ---
-title: "了解 RosettaNet 加速器以及可用的 BizTalk Server 工具 |Microsoft 文件"
-description: "閱讀 RosettaNet 加速器 (BTARN) 的運作方式的工具和功能可用，並在 BizTalk Server 中的傳訊標準"
-caps.latest.revision: "4"
+title: 了解 RosettaNet 加速器以及可用的 BizTalk Server 工具 |Microsoft 文件
+description: 閱讀 RosettaNet 加速器 (BTARN) 的運作方式的工具和功能可用，並在 BizTalk Server 中的傳訊標準
+caps.latest.revision: 4
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/09/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e8f09634-5adb-4782-bf48-8b24b0a7e630
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209582"
 ---
 # <a name="about-the-rosettanet-accelerator"></a><span data-ttu-id="b7a1a-103">關於 RosettaNet 加速器</span><span class="sxs-lookup"><span data-stu-id="b7a1a-103">About the RosettaNet accelerator</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="b7a1a-104">® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 是完備的解決方案，可以在採用 RosettaNet 標準的高科技製造電腦應用程式之間交換資料。</span><span class="sxs-lookup"><span data-stu-id="b7a1a-104">® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] is a complete solution for the exchange of data between high-technology manufacturing computer applications based on the RosettaNet standards.</span></span> <span data-ttu-id="b7a1a-105">請使用本文件組，熟悉 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 的服務、性能及功能。</span><span class="sxs-lookup"><span data-stu-id="b7a1a-105">Use this documentation set to become familiar with the services, capabilities, and features of [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)].</span></span>  

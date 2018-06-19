@@ -1,15 +1,15 @@
 ---
-title: "使用特定 SAP 配接器實例的 SAP GUI 執行工作 |Microsoft 文件"
-description: "建立或傳送 RFC、 傳送及檢閱 Idoc，並在 SAP-BizTalk 配接器 (BAP) 中的資料行存放區的大小寫"
-ms.custom: 
+title: 使用特定 SAP 配接器實例的 SAP GUI 執行工作 |Microsoft 文件
+description: 建立或傳送 RFC、 傳送及檢閱 Idoc，並在 SAP-BizTalk 配接器 (BAP) 中的資料行存放區的大小寫
+ms.custom: ''
 ms.date: 08/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 738ed0d3-e68a-40a1-af0e-714bbecb38c6
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217142"
 ---
 # <a name="sap-gui-tasks-for-the-sap-adapter-scenarios"></a><span data-ttu-id="b2550-103">SAP 配接器實例的 SAP GUI 工作</span><span class="sxs-lookup"><span data-stu-id="b2550-103">SAP GUI tasks for the SAP adapter scenarios</span></span>
 

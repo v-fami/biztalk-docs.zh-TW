@@ -1,11 +1,11 @@
 ---
-title: "連接埠繫結 |Microsoft 文件"
-ms.custom: 
+title: 連接埠繫結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ports, warnings
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - bindings, deployment
 - bindings, dynamic
 ms.assetid: b61c725a-0082-42d3-b88a-533583161734
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265198"
 ---
 # <a name="port-bindings"></a><span data-ttu-id="ea16a-102">連接埠繫結</span><span class="sxs-lookup"><span data-stu-id="ea16a-102">Port Bindings</span></span>
 <span data-ttu-id="ea16a-103">連接埠繫結是組態資訊，用來決定傳送或接收訊息的位置與方式。</span><span class="sxs-lookup"><span data-stu-id="ea16a-103">A port binding is the configuration information that determines where and how a message will be sent or received.</span></span> <span data-ttu-id="ea16a-104">根據其類型，連接埠繫結可以指實體位置、管線或其他協調流程。</span><span class="sxs-lookup"><span data-stu-id="ea16a-104">Depending on its type, a port binding might refer to physical locations, pipelines, or other orchestrations.</span></span>  

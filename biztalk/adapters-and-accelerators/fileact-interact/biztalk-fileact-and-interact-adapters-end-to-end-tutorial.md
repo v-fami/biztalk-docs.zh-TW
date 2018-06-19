@@ -1,14 +1,14 @@
 ---
-title: "BizTalk FileAct 和互動配接器的端對端教學課程 |Microsoft 文件"
-ms.custom: 
+title: BizTalk FileAct 和互動配接器的端對端教學課程 |Microsoft 文件
+ms.custom: ''
 ms.date: 2015-12-10
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 73fbfb10-73e8-4365-a943-bcb9055f4f74
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222958"
 ---
 # <a name="biztalk-fileact-and-interact-adapters-end-to-end-tutorial"></a><span data-ttu-id="00515-102">BizTalk FileAct 和互動配接器的端對端教學課程</span><span class="sxs-lookup"><span data-stu-id="00515-102">BizTalk FileAct and InterAct Adapters End-to-End Tutorial</span></span>
 <span data-ttu-id="00515-103">The Microsoft®[!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]端對端教學課程提供您可以使用的特定資訊[!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]和[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]來設定即時和儲存和轉送訊息交換案例。</span><span class="sxs-lookup"><span data-stu-id="00515-103">The Microsoft® [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] End-to-End Tutorial provides specific information about how you can use [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)] and [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] to set up real-time and store and forward message exchange scenarios.</span></span>  

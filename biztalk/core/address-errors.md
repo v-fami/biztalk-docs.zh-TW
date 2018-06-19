@@ -1,14 +1,14 @@
 ---
-title: "解決錯誤 |Microsoft 文件"
-ms.custom: 
+title: 解決錯誤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c042e6d1-80b2-448d-b8e7-873419d31ae6
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229846"
 ---
 # <a name="address-errors"></a><span data-ttu-id="c8605-102">解決錯誤</span><span class="sxs-lookup"><span data-stu-id="c8605-102">Address Errors</span></span>
 <span data-ttu-id="c8605-103">本節包含診斷及解決 WCF 解決錯誤的詳細的資訊。</span><span class="sxs-lookup"><span data-stu-id="c8605-103">This section contains detailed information for diagnosing and resolving WCF Address errors.</span></span>  

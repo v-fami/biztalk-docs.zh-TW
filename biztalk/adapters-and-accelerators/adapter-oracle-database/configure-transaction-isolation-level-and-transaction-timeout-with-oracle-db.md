@@ -1,14 +1,14 @@
 ---
-title: "設定交易隔離等級和交易逾時與 Oracle 資料庫 |Microsoft 文件"
-ms.custom: 
+title: 設定交易隔離等級和交易逾時與 Oracle 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4b66e764-2330-441b-89ef-29118f27b366
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214510"
 ---
 # <a name="configure-transaction-isolation-level-and-transaction-timeout-with-oracle-database"></a><span data-ttu-id="a9db6-102">設定 Oracle 資料庫的交易隔離等級和交易逾時</span><span class="sxs-lookup"><span data-stu-id="a9db6-102">Configure transaction isolation level and transaction timeout with Oracle Database</span></span>
 <span data-ttu-id="a9db6-103">執行傳入的作業 （輪詢） 使用時[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]與[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，您應該適當地設定交易隔離等級和交易逾時值。</span><span class="sxs-lookup"><span data-stu-id="a9db6-103">While performing inbound operation (Polling) using the [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] with [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)], you should appropriately configure the transaction isolation level and the transaction timeout values.</span></span> <span data-ttu-id="a9db6-104">若要這樣做：</span><span class="sxs-lookup"><span data-stu-id="a9db6-104">To do this:</span></span>  

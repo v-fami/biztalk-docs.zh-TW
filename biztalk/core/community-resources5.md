@@ -1,14 +1,14 @@
 ---
-title: "社群 Resources5 |Microsoft 文件"
-ms.custom: 
+title: 社群 Resources5 |Microsoft 文件
+ms.custom: ''
 ms.date: 2016-03-24
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 632c6dcf-c60a-4914-8df4-97ef76d22b16
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231718"
 ---
 # <a name="community-resources"></a><span data-ttu-id="3827a-102">社群資源</span><span class="sxs-lookup"><span data-stu-id="3827a-102">Community Resources</span></span>
 <span data-ttu-id="3827a-103">加入 BizTalk Server 社群連接與其他開發人員和系統管理員，並取得問題的解答、 閱讀最新不同 BizTalk 社群資源，觀看 Channel 9 影片，深入了解 Azure 中，以及其他更多。</span><span class="sxs-lookup"><span data-stu-id="3827a-103">Plug into the BizTalk Server community to connect with other developers and admins and get answers to your questions, read the latest from different BizTalk community resources, watch Channel 9 videos, dive into Azure, and more.</span></span>  

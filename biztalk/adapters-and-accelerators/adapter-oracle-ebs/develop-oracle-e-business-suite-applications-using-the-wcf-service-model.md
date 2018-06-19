@@ -1,14 +1,14 @@
 ---
-title: "開發 Oracle E-business Suite 應用程式使用 WCF 服務模型 |Microsoft 文件"
-ms.custom: 
+title: 開發 Oracle E-business Suite 應用程式使用 WCF 服務模型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1cf3430d-12e9-437c-b398-d978faa4da2b
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217318"
 ---
 # <a name="develop-oracle-e-business-suite-applications-using-the-wcf-service-model"></a><span data-ttu-id="371bc-102">開發 Oracle E-business Suite 應用程式使用 WCF 服務模型</span><span class="sxs-lookup"><span data-stu-id="371bc-102">Develop Oracle E-Business Suite applications using the WCF Service Model</span></span>
 [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]<span data-ttu-id="371bc-103">提供呼叫連線到 WCF 服務模型程式設計模型[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="371bc-103"> provides a programming model called the WCF service model to connect to the [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].</span></span> <span data-ttu-id="371bc-104">服務模型已加入至 WCF 部分，解決部份的 WCF 通道的程式設計模型限制。</span><span class="sxs-lookup"><span data-stu-id="371bc-104">The service model was added to WCF to address, in part, some of the limitations of the WCF channel programming model.</span></span>  

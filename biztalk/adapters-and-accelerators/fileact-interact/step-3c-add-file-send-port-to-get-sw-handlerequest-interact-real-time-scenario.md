@@ -1,14 +1,14 @@
 ---
-title: "步驟 3c： 新增 FILE 傳送埠，以取得 Sw:HandleRequest-互動即時案例 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3c： 新增 FILE 傳送埠，以取得 Sw:HandleRequest-互動即時案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 31e9c942-ba74-4ae2-b6e1-5266d0fbcb14
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224190"
 ---
 # <a name="step-3c-add-file-send-port-to-get-swhandlerequest-interact-real-time-scenario"></a><span data-ttu-id="d4e24-102">步驟 3c： 新增 FILE 傳送埠，以取得 Sw:HandleRequest-互動即時案例</span><span class="sxs-lookup"><span data-stu-id="d4e24-102">Step 3C: Add FILE send port to get Sw:HandleRequest-InterAct real-time scenario</span></span>
 <span data-ttu-id="d4e24-103">當您傳送訊息給夥伴時，SWIFT 轉換訊息標頭，並將訊息轉寄給您的夥伴為 Sw:HandleRequest 訊息。</span><span class="sxs-lookup"><span data-stu-id="d4e24-103">When you send a message to your partner, SWIFT transforms the message header and forwards the message to your partner as a Sw:HandleRequest message.</span></span> <span data-ttu-id="d4e24-104">在開始此步驟之前，必須先完成[步驟 3B： 互動即時案例中加入互動的接收位置](../../adapters-and-accelerators/fileact-interact/step-3b-add-an-interact-receive-location-for-the-interact-real-time-scenario.md)。</span><span class="sxs-lookup"><span data-stu-id="d4e24-104">Before you begin this step, you must complete [Step 3B: Add an INTERACT Receive Location for the InterAct Real-Time Scenario](../../adapters-and-accelerators/fileact-interact/step-3b-add-an-interact-receive-location-for-the-interact-real-time-scenario.md).</span></span>  

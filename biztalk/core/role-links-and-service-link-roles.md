@@ -1,11 +1,11 @@
 ---
-title: "角色連結和服務連結角色 |Microsoft 文件"
-ms.custom: 
+title: 角色連結和服務連結角色 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deleting, orchestrations
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - role links, about role links
 - orchestrations, deleting
 ms.assetid: 23b4ca34-a1a5-44d4-a50d-661277681c72
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268678"
 ---
 # <a name="role-links-and-service-link-roles"></a><span data-ttu-id="44d5f-102">角色連結和服務連結角色</span><span class="sxs-lookup"><span data-stu-id="44d5f-102">Role Links and Service Link Roles</span></span>
 <span data-ttu-id="44d5f-103">A*角色*是使用服務或實作服務的連接埠類型的集合。</span><span class="sxs-lookup"><span data-stu-id="44d5f-103">A *role* is a collection of port types that either uses a service or implements a service.</span></span> <span data-ttu-id="44d5f-104">角色代表合作對象可擁有一或多個協調流程的互動類型。</span><span class="sxs-lookup"><span data-stu-id="44d5f-104">A role represents the type of interaction that a party can have with one or many orchestrations.</span></span> <span data-ttu-id="44d5f-105">當合作對象的數目增加時，角色提供彈性與簡易管理。</span><span class="sxs-lookup"><span data-stu-id="44d5f-105">Roles provide flexibility and ease of management as the number of parties increase.</span></span> <span data-ttu-id="44d5f-106">例如，協調流程可能使用託運商的角色。</span><span class="sxs-lookup"><span data-stu-id="44d5f-106">For example, an orchestration might use the role of a Shipper.</span></span> <span data-ttu-id="44d5f-107">託運商可能有一或多個合作對象與它關聯。</span><span class="sxs-lookup"><span data-stu-id="44d5f-107">The Shipper would have one or two parties associated with it.</span></span> <span data-ttu-id="44d5f-108">協調流程決定要僱用哪家託運公司運送項目時，它會比較託運商角色中合作對象的價格。</span><span class="sxs-lookup"><span data-stu-id="44d5f-108">When the orchestration decides which shipping company to use to ship an item, it compares the prices of the parties in the Shipper role.</span></span>  

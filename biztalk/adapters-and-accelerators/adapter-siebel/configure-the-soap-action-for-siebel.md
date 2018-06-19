@@ -1,15 +1,15 @@
 ---
-title: "在 BizTalk 中設定 Siebel 配接器的 SOAP 動作 |Microsoft 文件"
-description: "在 Visual Studio 中，輸入 SOAP 動作，或使用 Wcf-custom 或 Wcf-siebel 配接器在 BizTalk 配接器組件 (BAP)"
-ms.custom: 
+title: 在 BizTalk 中設定 Siebel 配接器的 SOAP 動作 |Microsoft 文件
+description: 在 Visual Studio 中，輸入 SOAP 動作，或使用 Wcf-custom 或 Wcf-siebel 配接器在 BizTalk 配接器組件 (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f22a4691-0355-4f08-a14e-e90a3c987ac0
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222558"
 ---
 # <a name="configure-the-soap-action-for-siebel"></a><span data-ttu-id="8c2c2-103">設定 Siebel 的 SOAP 動作</span><span class="sxs-lookup"><span data-stu-id="8c2c2-103">Configure the SOAP action for Siebel</span></span>
 <span data-ttu-id="8c2c2-104">若要執行使用 WCF 型 Siebel 系統中的任何作業[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]，配接器使用者必須指定 SOAP 動作。</span><span class="sxs-lookup"><span data-stu-id="8c2c2-104">To perform any operation on the Siebel system using the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)], adapter users must specify a SOAP action.</span></span> <span data-ttu-id="8c2c2-105">SOAP 動作與外界溝通的配接器應該執行哪些動作。</span><span class="sxs-lookup"><span data-stu-id="8c2c2-105">The SOAP action communicates to the adapter what action should be performed.</span></span> <span data-ttu-id="8c2c2-106">您可以指定在設計階段或執行階段的 SOAP 動作。</span><span class="sxs-lookup"><span data-stu-id="8c2c2-106">You can specify the SOAP action either at design time or at run time.</span></span> <span data-ttu-id="8c2c2-107">不過，如果您指定的 SOAP 動作這兩個設計階段和執行階段，則會覆寫您在設計階段指定的動作。</span><span class="sxs-lookup"><span data-stu-id="8c2c2-107">However, if you specify the SOAP action both at design time and run time, the action you specified at design time will be overridden.</span></span>  

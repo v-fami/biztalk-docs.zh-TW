@@ -1,18 +1,18 @@
 ---
-title: "配接器範例-開發 |Microsoft 文件"
-ms.custom: 
+title: 配接器範例-開發 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SDK examples
 - adapters, examples
 - examples, adapters
 ms.assetid: ef7bcb3a-3ff6-43b2-a21d-fd1ca11b5b93
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229894"
 ---
 # <a name="adapter-samples---development"></a><span data-ttu-id="7cac1-102">配接器範例 - 開發</span><span class="sxs-lookup"><span data-stu-id="7cac1-102">Adapter Samples - Development</span></span>
 <span data-ttu-id="7cac1-103">本節針對各配接器範例示範的功能、建置和執行範例的指示以及預期的結果，提供相關資訊。</span><span class="sxs-lookup"><span data-stu-id="7cac1-103">This section provides information about the functionality demonstrated by each adapter sample, instructions for building and running the sample, and the results you can expect.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "訊息豐富 」 範例 （BizTalk Server 範例） |Microsoft 文件"
-ms.custom: 
+title: 訊息豐富 」 範例 （BizTalk Server 範例） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a41ed707-dbdb-46b7-97a6-86fdbc8ad285
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265206"
 ---
 # <a name="message-enrichment-sample-biztalk-server-sample"></a><span data-ttu-id="c0c31-102">訊息豐富範例 (BizTalk Server 範例)</span><span class="sxs-lookup"><span data-stu-id="c0c31-102">Message Enrichment Sample (BizTalk Server Sample)</span></span>
 <span data-ttu-id="c0c31-103">「訊息豐富」範例會示範如何將交換標頭附加至 X12 和 EDIFACT 文件的交易集訊息。</span><span class="sxs-lookup"><span data-stu-id="c0c31-103">The Message Enrichment sample demonstrates how to append interchange headers to transaction-set messages for X12 and EDIFACT documents.</span></span>  

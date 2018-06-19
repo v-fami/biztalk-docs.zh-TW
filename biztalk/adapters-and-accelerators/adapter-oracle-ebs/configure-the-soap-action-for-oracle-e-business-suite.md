@@ -1,15 +1,15 @@
 ---
-title: "在 BizTalk Server 中設定 Oracle E-business Suite 的 SOAP 動作 |Microsoft 文件"
-description: "在 Visual Studio 中，輸入 SOAP 動作，或使用 Wcf-custom 或 Wcf-oracleebs 配接器在 BizTalk 配接器組件 (BAP)"
-ms.custom: 
+title: 在 BizTalk Server 中設定 Oracle E-business Suite 的 SOAP 動作 |Microsoft 文件
+description: 在 Visual Studio 中，輸入 SOAP 動作，或使用 Wcf-custom 或 Wcf-oracleebs 配接器在 BizTalk 配接器組件 (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ca799d96-66e4-4d4e-a632-cb5505e999b4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218278"
 ---
 # <a name="configure-the-soap-action-for-oracle-e-business-suite"></a><span data-ttu-id="31c4d-103">設定 for Oracle E-business Suite 的 SOAP 動作</span><span class="sxs-lookup"><span data-stu-id="31c4d-103">Configure the SOAP action for Oracle E-Business Suite</span></span>
 <span data-ttu-id="31c4d-104">若要執行使用 WCF 型 Oracle E-business Suite 中的任何作業[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]，您必須指定 SOAP 動作。</span><span class="sxs-lookup"><span data-stu-id="31c4d-104">To perform any operation on Oracle E-Business Suite using the WCF-based [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)], you must specify a SOAP action.</span></span> <span data-ttu-id="31c4d-105">SOAP 動作與外界溝通的配接器應該執行哪些動作。</span><span class="sxs-lookup"><span data-stu-id="31c4d-105">The SOAP action communicates to the adapter what action should be performed.</span></span> <span data-ttu-id="31c4d-106">您可以從指定的 SOAP 動作[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]或從[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台。</span><span class="sxs-lookup"><span data-stu-id="31c4d-106">You can specify the SOAP action either from [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] or from the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span> <span data-ttu-id="31c4d-107">不過，如果您指定的 SOAP 動作，從兩個位置，您指定動作從[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]會覆寫。</span><span class="sxs-lookup"><span data-stu-id="31c4d-107">However, if you specify the SOAP action from both locations, the action you specified from [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] is overridden.</span></span>  

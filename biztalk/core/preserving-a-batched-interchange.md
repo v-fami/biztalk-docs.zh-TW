@@ -1,14 +1,14 @@
 ---
-title: "保留的批次的交換 |Microsoft 文件"
-ms.custom: 
+title: 保留的批次的交換 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 907e07f3-1f3e-485e-a82d-b28eb7658e0a
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265342"
 ---
 # <a name="preserving-a-batched-interchange"></a><span data-ttu-id="87fbe-102">保留批次交換</span><span class="sxs-lookup"><span data-stu-id="87fbe-102">Preserving a Batched Interchange</span></span>
 <span data-ttu-id="87fbe-103">本主題說明如何設定協議，以單一文件的方式處理批次 EDI 交換，而不需要分割交換中的交易集。</span><span class="sxs-lookup"><span data-stu-id="87fbe-103">This topic describes how to configure an agreement for processing a batched EDI interchange as a single document without splitting the transaction sets from the interchange.</span></span>  

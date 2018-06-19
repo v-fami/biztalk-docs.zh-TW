@@ -1,11 +1,11 @@
 ---
-title: "可復原交換處理 |Microsoft 文件"
-ms.custom: 
+title: 可復原交換處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - interchange processing [Messaging Engine], modes
@@ -26,7 +26,7 @@ helpviewer_keywords:
 - System.Xml.XmlReader
 - interchange modes [Messaging Engine]
 ms.assetid: d9e366fe-b2a0-4f1a-b6b9-1264717e4731
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -35,6 +35,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268262"
 ---
 # <a name="recoverable-interchange-processing"></a><span data-ttu-id="98870-102">可復原交換處理</span><span class="sxs-lookup"><span data-stu-id="98870-102">Recoverable Interchange Processing</span></span>
 <span data-ttu-id="98870-103">本章節將討論**可復原交換處理**功能，讓即使在下列階段/階段失敗的交換中的一個或多個訊息完全處理交換：</span><span class="sxs-lookup"><span data-stu-id="98870-103">This section discusses **recoverable interchange processing** feature, which allows an interchange to be processed completely even if one or more messages in the interchange fail at the following stages/phases:</span></span>  

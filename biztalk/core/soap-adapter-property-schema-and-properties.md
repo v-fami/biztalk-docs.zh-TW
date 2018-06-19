@@ -1,11 +1,11 @@
 ---
-title: "SOAP 配接器屬性結構描述和屬性 |Microsoft 文件"
-ms.custom: 
+title: SOAP 配接器屬性結構描述和屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ProxyUsername property [SOAP adapters]
@@ -32,7 +32,7 @@ helpviewer_keywords:
 - MethodName property [SOAP adapters]
 - ProxyPort property [SOAP adapters]
 ms.assetid: b471cf4b-2d87-4aa2-ae4a-f48517fd4c94
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -41,6 +41,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277510"
 ---
 # <a name="soap-adapter-property-schema-and-properties"></a><span data-ttu-id="ffb27-102">SOAP 配接器屬性結構描述和屬性</span><span class="sxs-lookup"><span data-stu-id="ffb27-102">SOAP Adapter Property Schema and Properties</span></span>
 <span data-ttu-id="ffb27-103">下表列出 SOAP 配接器屬性結構描述中的屬性。</span><span class="sxs-lookup"><span data-stu-id="ffb27-103">The following table lists the properties in the SOAP adapter property schema.</span></span>  

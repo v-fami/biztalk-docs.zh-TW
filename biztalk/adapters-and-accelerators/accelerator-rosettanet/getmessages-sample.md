@@ -1,14 +1,14 @@
 ---
-title: "GetMessages 範例 |Microsoft 文件"
-ms.custom: 
+title: GetMessages 範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 29e575fa-d68b-4975-84b8-da4f17bd2db3
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210734"
 ---
 # <a name="getmessages-sample"></a><span data-ttu-id="ee12e-102">GetMessages 範例</span><span class="sxs-lookup"><span data-stu-id="ee12e-102">GetMessages Sample</span></span>
 <span data-ttu-id="ee12e-103">本主題提供您可以用來從其中一個訊息不可否認性表格，或可讀取格式的其中一個商務營運系統 (LOB) 表格中擷取訊息的範例程式碼。</span><span class="sxs-lookup"><span data-stu-id="ee12e-103">This topic provides sample code that you can use to retrieve messages from one of the message non-repudiation tables or one of the line-of-business (LOB) tables in a readable form.</span></span> <span data-ttu-id="ee12e-104">訊息不可否認性表格包括 [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 封存資料庫中的 MessageStorageIn 和 MessageStorageOut，而 LOB 表格包括 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] DATA 資料庫中的 MessageFromLOB 和 MessageToLOB。</span><span class="sxs-lookup"><span data-stu-id="ee12e-104">The message non-repudiation tables include MessageStorageIn and MessageStorageOut in the [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]Archive database; the LOB tables include MessageFromLOB and MessageToLOB in the [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]DATA database.</span></span>  

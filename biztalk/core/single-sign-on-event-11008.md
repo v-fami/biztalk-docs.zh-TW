@@ -1,14 +1,14 @@
 ---
-title: "單一登入： 事件 11008 |Microsoft 文件"
-ms.custom: 
+title: 單一登入： 事件 11008 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d7e11dbc-7596-45fa-ae54-a6e79498e60e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276902"
 ---
 # <a name="single-sign-on-event-11008"></a><span data-ttu-id="17396-102">單一登入： 事件 11008</span><span class="sxs-lookup"><span data-stu-id="17396-102">Single Sign-On: Event 11008</span></span>
 ## <a name="details"></a><span data-ttu-id="17396-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="17396-103">Details</span></span>  

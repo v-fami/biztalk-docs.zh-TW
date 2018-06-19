@@ -1,14 +1,14 @@
 ---
-title: "配接器訊息互動的商務交換 |Microsoft 文件"
-ms.custom: 
+title: 配接器訊息互動的商務交換 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3b443b8a-4e56-47f1-8d91-5c807fd54ccc
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224598"
 ---
 # <a name="interact-adapter-messages-for-business-exchange"></a><span data-ttu-id="71f05-102">配接器訊息互動的商務交換</span><span class="sxs-lookup"><span data-stu-id="71f05-102">InterAct Adapter Messages for Business Exchange</span></span>
 <span data-ttu-id="71f05-103">InterAct 配接器的端對端循環中有四種訊息。</span><span class="sxs-lookup"><span data-stu-id="71f05-103">There are four messages in the InterAct adapter end-to-end cycle.</span></span> <span data-ttu-id="71f05-104">這些訊息是 SWIFTNet 基本型別。</span><span class="sxs-lookup"><span data-stu-id="71f05-104">These messages are SWIFTNet primitives.</span></span> <span data-ttu-id="71f05-105">第一個和最後一個訊息是由用戶端基本型別、 SwInt:ExchangeRequest 與 SwInt:ExchangeResponse 組成。</span><span class="sxs-lookup"><span data-stu-id="71f05-105">The first and last messages comprise the client-side primitives, SwInt:ExchangeRequest and SwInt:ExchangeResponse.</span></span> <span data-ttu-id="71f05-106">伺服器端基本型別、 SwInt:HandleRequest 與 SwInt:HandleResponse 的各構成中間兩個訊息。</span><span class="sxs-lookup"><span data-stu-id="71f05-106">The middle two messages comprise the server-side primitives, SwInt:HandleRequest and SwInt:HandleResponse.</span></span>  

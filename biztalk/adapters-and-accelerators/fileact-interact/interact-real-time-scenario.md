@@ -1,14 +1,14 @@
 ---
-title: "互動即時案例 |Microsoft 文件"
-ms.custom: 
+title: 互動即時案例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dc73c84b-3361-41b0-b1b3-dc3c2ab31ccc
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223110"
 ---
 # <a name="interact-real-time-scenario"></a><span data-ttu-id="565b6-102">互動即時案例</span><span class="sxs-lookup"><span data-stu-id="565b6-102">InterAct Real-Time Scenario</span></span>
 <span data-ttu-id="565b6-103">在此案例中，您將設定 InterAct 配接器，即時處理訊息。</span><span class="sxs-lookup"><span data-stu-id="565b6-103">In this scenario, you will configure the InterAct adapter to process messages in real time.</span></span> <span data-ttu-id="565b6-104">您可以使用 SWIFT 解決方案案例，例如現金報告中。</span><span class="sxs-lookup"><span data-stu-id="565b6-104">You can use in SWIFT solutions scenarios such as cash reporting.</span></span> <span data-ttu-id="565b6-105">如需詳細資訊，請參閱 SWIFT 網站[http://go.microsoft.com/fwlink/?LinkId=100479](http://go.microsoft.com/fwlink/?LinkId=100479)。</span><span class="sxs-lookup"><span data-stu-id="565b6-105">For more information, see the SWIFT Web site at [http://go.microsoft.com/fwlink/?LinkId=100479](http://go.microsoft.com/fwlink/?LinkId=100479).</span></span>  

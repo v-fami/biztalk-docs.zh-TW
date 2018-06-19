@@ -1,14 +1,14 @@
 ---
-title: "UninstallApp 命令 |Microsoft 文件"
-ms.custom: 
+title: UninstallApp 命令 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f45c9530-8138-40f1-b279-1428c5a7fbbc
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286782"
 ---
 # <a name="uninstallapp-command"></a><span data-ttu-id="78ec2-102">UninstallApp 命令</span><span class="sxs-lookup"><span data-stu-id="78ec2-102">UninstallApp Command</span></span>
 <span data-ttu-id="78ec2-103">從本機電腦解除安裝 BizTalk 應用程式，同時將應用程式從 [控制台] 的 [新增或移除程式] 所列程式清單中移除。</span><span class="sxs-lookup"><span data-stu-id="78ec2-103">Uninstalls a BizTalk application from the local computer and also removes the application from the list of programs in Add or Remove Programs in Control Panel.</span></span> <span data-ttu-id="78ec2-104">此命令與使用 [新增或移除程式] 移除應用程式具有同樣的效果。</span><span class="sxs-lookup"><span data-stu-id="78ec2-104">This command has the same effect as removing an application by using Add or Remove Programs.</span></span> <span data-ttu-id="78ec2-105">如果應用程式是由多個 .msi 檔案經數次安裝，便會解除安裝所有 .msi 檔案安裝的全部項目。</span><span class="sxs-lookup"><span data-stu-id="78ec2-105">If multiple .msi files have been installed for this application, all of the items installed by all of the .msi files are uninstalled.</span></span>  
@@ -33,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
 |<span data-ttu-id="78ec2-113">參數</span><span class="sxs-lookup"><span data-stu-id="78ec2-113">Parameter</span></span>|<span data-ttu-id="78ec2-114">Required</span><span class="sxs-lookup"><span data-stu-id="78ec2-114">Required</span></span>|<span data-ttu-id="78ec2-115">Description</span><span class="sxs-lookup"><span data-stu-id="78ec2-115">Description</span></span>|  
 |---------------|--------------|-----------------|  
-|<span data-ttu-id="78ec2-116">**/ ApplicationName** (或**/A**，請參閱 < 備註 >)</span><span class="sxs-lookup"><span data-stu-id="78ec2-116">**/ApplicationName** (or **/A**, see Remarks)</span></span>|<span data-ttu-id="78ec2-117">是</span><span class="sxs-lookup"><span data-stu-id="78ec2-117">Yes</span></span>|<span data-ttu-id="78ec2-118">要解除安裝的 BizTalk 應用程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="78ec2-118">Name of the BizTalk application to uninstall.</span></span> <span data-ttu-id="78ec2-119">如果名稱包含空格，您必須將它括在雙引號 (") 中。</span><span class="sxs-lookup"><span data-stu-id="78ec2-119">If the name includes spaces, you must enclose it in double quotation marks (").</span></span>|  
+|<span data-ttu-id="78ec2-116">**/ ApplicationName** (或 **/A**，請參閱 < 備註 >)</span><span class="sxs-lookup"><span data-stu-id="78ec2-116">**/ApplicationName** (or **/A**, see Remarks)</span></span>|<span data-ttu-id="78ec2-117">是</span><span class="sxs-lookup"><span data-stu-id="78ec2-117">Yes</span></span>|<span data-ttu-id="78ec2-118">要解除安裝的 BizTalk 應用程式的名稱。</span><span class="sxs-lookup"><span data-stu-id="78ec2-118">Name of the BizTalk application to uninstall.</span></span> <span data-ttu-id="78ec2-119">如果名稱包含空格，您必須將它括在雙引號 (") 中。</span><span class="sxs-lookup"><span data-stu-id="78ec2-119">If the name includes spaces, you must enclose it in double quotation marks (").</span></span>|  
   
 ## <a name="sample"></a><span data-ttu-id="78ec2-120">範例</span><span class="sxs-lookup"><span data-stu-id="78ec2-120">Sample</span></span>  
  <span data-ttu-id="78ec2-121">**BTSTask UninstallApp /applicationname: myapplication**</span><span class="sxs-lookup"><span data-stu-id="78ec2-121">**BTSTask UninstallApp /ApplicationName:MyApplication**</span></span>  

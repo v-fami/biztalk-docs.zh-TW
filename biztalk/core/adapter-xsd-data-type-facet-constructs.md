@@ -1,14 +1,14 @@
 ---
-title: "配接器 XSD 資料型別 Facet 建構 |Microsoft 文件"
-ms.custom: 
+title: 配接器 XSD 資料型別 Facet 建構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bab996b0-e39c-4a3d-b083-b83fc6b90674
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229798"
 ---
 # <a name="adapter-xsd-data-type-facet-constructs"></a><span data-ttu-id="9dbef-102">配接器 XSD 資料型別 Facet 建構</span><span class="sxs-lookup"><span data-stu-id="9dbef-102">Adapter XSD Data Type-Facet Constructs</span></span>
 <span data-ttu-id="9dbef-103">下表列出配接器架構支援的 XSD 資料型別 Facet 建構。</span><span class="sxs-lookup"><span data-stu-id="9dbef-103">The following tables list XSD data type-facet constructs supported by the Adapter Framework.</span></span> <span data-ttu-id="9dbef-104">垂直軸包含支援的資料型別，水平軸則包含每一種資料型別的有效 Facet。</span><span class="sxs-lookup"><span data-stu-id="9dbef-104">The vertical axis contains the supported data types, and the horizontal axis contains the valid facets for each data type.</span></span>  

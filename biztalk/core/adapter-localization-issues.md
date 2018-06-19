@@ -1,14 +1,14 @@
 ---
-title: "配接器當地語系化問題 |Microsoft 文件"
-ms.custom: 
+title: 配接器當地語系化問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3d200ce9-1a60-455b-88b0-6ec86092a786
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229862"
 ---
 # <a name="adapter-localization-issues"></a><span data-ttu-id="69f5f-102">配接器當地語系化問題。</span><span class="sxs-lookup"><span data-stu-id="69f5f-102">Adapter Localization Issues</span></span>
 <span data-ttu-id="69f5f-103">下列主題涵蓋在開發自訂配接器時，您可能會遭遇的當地語系化問題。</span><span class="sxs-lookup"><span data-stu-id="69f5f-103">The following topics cover localization issues that you may encounter when developing custom adapters.</span></span>  

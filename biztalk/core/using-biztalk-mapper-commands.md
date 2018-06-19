@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 34fea0fb-0609-4571-be49-6ee3f03afe2a
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22289278"
 ---
 # <a name="using-biztalk-mapper-commands"></a><span data-ttu-id="b4368-102">使用 BizTalk 對應工具命令</span><span class="sxs-lookup"><span data-stu-id="b4368-102">Using BizTalk Mapper Commands</span></span>
 <span data-ttu-id="b4368-103">當 BizTalkMapper 變成作用中時，它會加入稱為功能表**BizTalk** microsoft[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]殼層。</span><span class="sxs-lookup"><span data-stu-id="b4368-103">When BizTalkMapper becomes active, it adds a menu called **BizTalk** to the Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] shell.</span></span> <span data-ttu-id="b4368-104">此功能表提供對 BizTalk 對應工具命令及其功能的存取。</span><span class="sxs-lookup"><span data-stu-id="b4368-104">This menu provides access to the BizTalk Mapper commands and their functionality.</span></span> <span data-ttu-id="b4368-105">BizTalk 對應工具為作用中，當 **BizTalk** 功能表可以提供編輯 BizTalk 對應特定的命令。</span><span class="sxs-lookup"><span data-stu-id="b4368-105">When BizTalk Mapper is active, the **BizTalk** menu provides the commands that are specific to editing BizTalk maps.</span></span>  

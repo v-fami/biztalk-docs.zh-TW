@@ -1,11 +1,11 @@
 ---
-title: "部署及管理 BizTalk 應用程式所需的權限 |Microsoft 文件"
-ms.custom: 
+title: 部署及管理 BizTalk 應用程式所需的權限 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying [applications], security
@@ -30,7 +30,7 @@ helpviewer_keywords:
 - assemblies, security
 - managing, security
 ms.assetid: 4a459ff1-661d-403a-99e0-d54b82e008d0
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -39,6 +39,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265542"
 ---
 # <a name="permissions-required-for-deploying-and-managing-a-biztalk-application"></a><span data-ttu-id="d9c1b-102">部署和管理 BizTalk 應用程式所需的權限</span><span class="sxs-lookup"><span data-stu-id="d9c1b-102">Permissions Required for Deploying and Managing a BizTalk Application</span></span>
 <span data-ttu-id="d9c1b-103">應用程式部署包括從 Visual Studio 部署 BizTalk 組件，以及匯入、匯出和安裝 BizTalk 應用程式。</span><span class="sxs-lookup"><span data-stu-id="d9c1b-103">Application deployment includes deploying BizTalk assemblies from Visual Studio as well as importing, exporting, and installing BizTalk applications.</span></span> <span data-ttu-id="d9c1b-104">執行這些工作所需的基本權限如下：</span><span class="sxs-lookup"><span data-stu-id="d9c1b-104">The basic permissions you need to perform these tasks are as follows:</span></span>  

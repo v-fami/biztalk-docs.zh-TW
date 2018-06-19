@@ -1,14 +1,14 @@
 ---
-title: "步驟 4c： 建立 FileAct 存放與轉寄 （提取） 案例的測試執行個體 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4c： 建立 FileAct 存放與轉寄 （提取） 案例的測試執行個體 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 50fc72f0-ec00-46f9-b24b-fe8d5e5079ee
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223854"
 ---
 # <a name="step-4c-create-a-test-instance-for-the-fileact-store-and-forward-pull-scenario"></a><span data-ttu-id="cb304-102">步驟 4c： 建立 FileAct 存放與轉寄 （提取） 案例的測試執行個體</span><span class="sxs-lookup"><span data-stu-id="cb304-102">Step 4C: Create a Test Instance for the FileAct Store and Forward (Pull) Scenario</span></span>
 <span data-ttu-id="cb304-103">在開始此步驟之前，必須先完成[步驟 4B： 啟動傳送埠和接收埠 FileAct 儲存和轉送 （提取） 案例](../../adapters-and-accelerators/fileact-interact/step-4b-start-send-and-receive-ports-for-fileact-store-and-forward-scenario.md)。</span><span class="sxs-lookup"><span data-stu-id="cb304-103">Before you begin this step, you must complete [Step 4B: Start the Send Ports and Receive Ports for the FileAct Store and Forward (Pull) Scenario](../../adapters-and-accelerators/fileact-interact/step-4b-start-send-and-receive-ports-for-fileact-store-and-forward-scenario.md).</span></span>  
@@ -40,7 +41,7 @@ ms.lasthandoff: 09/20/2017
     ```  
   
     > [!NOTE]
-    >  <span data-ttu-id="cb304-106">您必須取代*%physicalfoldername*實際的資料夾名稱中 FILEACT 您設定接收位置。</span><span class="sxs-lookup"><span data-stu-id="cb304-106">You must replace *%PhysicalFolderName%* with the actual folder name which you configured in the FILEACT receive location.</span></span>  
+    >  <span data-ttu-id="cb304-106">您必須取代 *%physicalfoldername*實際的資料夾名稱中 FILEACT 您設定接收位置。</span><span class="sxs-lookup"><span data-stu-id="cb304-106">You must replace *%PhysicalFolderName%* with the actual folder name which you configured in the FILEACT receive location.</span></span>  
   
 2.  <span data-ttu-id="cb304-107">ExchangeReqSimple.xml 的名稱儲存檔案。</span><span class="sxs-lookup"><span data-stu-id="cb304-107">Save the File with the name ExchangeReqSimple.xml.</span></span>  
   

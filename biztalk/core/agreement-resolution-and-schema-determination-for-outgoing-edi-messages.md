@@ -1,14 +1,14 @@
 ---
-title: "協議解析和外寄 EDI 訊息的結構描述判斷 |Microsoft 文件"
-ms.custom: 
+title: 協議解析和外寄 EDI 訊息的結構描述判斷 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e37aeb9d-1e95-464d-bb71-73653c1d4674
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231510"
 ---
 # <a name="agreement-resolution-and-schema-determination-for-outgoing-edi-messages"></a><span data-ttu-id="a4e32-102">外寄 EDI 訊息的協議解析和結構描述判斷</span><span class="sxs-lookup"><span data-stu-id="a4e32-102">Agreement Resolution and Schema Determination for Outgoing EDI Messages</span></span>
 <span data-ttu-id="a4e32-103">若要產生給交易夥伴的 EDI 訊息，EDI 傳送管線必須執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="a4e32-103">To generate an EDI message to a trading partner, the EDI send pipeline must do the following:</span></span>  

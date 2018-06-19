@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22230182"
 ---
 # <a name="an-error-occurred-when-decrypting-an-as2-message"></a><span data-ttu-id="2538b-102">解密 AS2 訊息時發生錯誤</span><span class="sxs-lookup"><span data-stu-id="2538b-102">An error occurred when decrypting an AS2 message</span></span>
 ## <a name="details"></a><span data-ttu-id="2538b-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="2538b-103">Details</span></span>  

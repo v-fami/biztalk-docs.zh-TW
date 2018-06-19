@@ -1,14 +1,14 @@
 ---
-title: "接收器介面 |Microsoft 文件"
-ms.custom: 
+title: 接收器介面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c7ab77d4-705a-4b39-8c33-a7532ae6484c
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268326"
 ---
 # <a name="receiver-interfaces"></a><span data-ttu-id="c24fa-102">接收器介面</span><span class="sxs-lookup"><span data-stu-id="c24fa-102">Receiver Interfaces</span></span>
 <span data-ttu-id="c24fa-103">除了標準的配接器介面，接收配接器必須實作**IBTTransportConfig**。</span><span class="sxs-lookup"><span data-stu-id="c24fa-103">In addition to the standard adapter interfaces, receive adapters need to implement **IBTTransportConfig**.</span></span> <span data-ttu-id="c24fa-104">這是 BizTalk 傳訊引擎將接收位置傳遞到配接器時所使用的介面。</span><span class="sxs-lookup"><span data-stu-id="c24fa-104">This is the interface on which the BizTalk Messaging Engine delivers receive location configuration to the adapter.</span></span>  

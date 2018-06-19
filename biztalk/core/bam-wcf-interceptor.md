@@ -1,14 +1,14 @@
 ---
-title: "BAM WCF 攔截器 |Microsoft 文件"
-ms.custom: 
+title: BAM WCF 攔截器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c2510008-4c89-436d-afd0-a98d9f803221
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230566"
 ---
 # <a name="bam-wcf-interceptor"></a><span data-ttu-id="2936c-102">BAM WCF 攔截器</span><span class="sxs-lookup"><span data-stu-id="2936c-102">BAM WCF Interceptor</span></span>
 <span data-ttu-id="2936c-103">BAM WCF 攔截器提供了在 WCF 服務內追蹤資料的完整支援。</span><span class="sxs-lookup"><span data-stu-id="2936c-103">The BAM WCF interceptor provides comprehensive support for tracking data within your WCF services.</span></span>  

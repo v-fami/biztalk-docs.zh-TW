@@ -1,17 +1,17 @@
 ---
-title: "步驟 1： 設定應用程式集區識別 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 設定應用程式集區識別 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - message enrichment tutorial, application pools
 - application pools
 ms.assetid: 66286327-8580-4378-89ee-ddd7204b03c6
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206574"
 ---
 # <a name="step-1-configure-application-pool-identity"></a><span data-ttu-id="5f2ce-102">步驟 1： 設定應用程式集區識別</span><span class="sxs-lookup"><span data-stu-id="5f2ce-102">Step 1: Configure Application Pool Identity</span></span>
 <span data-ttu-id="5f2ce-103">在本教學課程中，您可以使用應用程式集區中的[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]網際網路資訊服務 (IIS) 處理協調流程，您將發佈為 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="5f2ce-103">In this tutorial, you use an application pool in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] Internet Information Services (IIS) to process the orchestration, which you publish as a Web service.</span></span> <span data-ttu-id="5f2ce-104">應用程式集區是由背景工作處理序的一個或多個 url 群組。</span><span class="sxs-lookup"><span data-stu-id="5f2ce-104">An application pool is a grouping of one or more URLs served by a worker process.</span></span>  

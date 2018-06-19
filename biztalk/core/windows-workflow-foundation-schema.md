@@ -1,14 +1,14 @@
 ---
-title: "Windows Workflow Foundation 結構描述 |Microsoft 文件"
-ms.custom: 
+title: Windows Workflow Foundation 結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dd017df1-1b98-4e4a-83ad-61e8ec4b428d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289062"
 ---
 # <a name="windows-workflow-foundation-schema"></a><span data-ttu-id="733fe-102">Windows Workflow Foundation 結構描述</span><span class="sxs-lookup"><span data-stu-id="733fe-102">Windows Workflow Foundation Schema</span></span>
 <span data-ttu-id="733fe-103">本節包含 Windows Workflow Framework 攔截器的結構描述。</span><span class="sxs-lookup"><span data-stu-id="733fe-103">This section contains the schema for the Windows Workflow Foundation interceptor.</span></span>  

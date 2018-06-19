@@ -1,17 +1,17 @@
 ---
-title: "步驟 2： 設定 Wcf-custom 單向接收埠 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 設定 Wcf-custom 單向接收埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF-Custom one-way receive port, configuring
 - migration
 ms.assetid: e2a8f074-64d5-4e6c-84d0-318fb606c0ba
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,13 +20,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218550"
 ---
 # <a name="step-2-configure-a-wcf-custom-one-way-receive-port"></a><span data-ttu-id="a5f8d-102">步驟 2： 設定 Wcf-custom 單向接收埠</span><span class="sxs-lookup"><span data-stu-id="a5f8d-102">Step 2: Configure a WCF-Custom One-way Receive Port</span></span>
 <span data-ttu-id="a5f8d-103">![步驟 3 之 2](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")</span><span class="sxs-lookup"><span data-stu-id="a5f8d-103">![Step 2 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")</span></span>  
   
  <span data-ttu-id="a5f8d-104">**若要完成的時間：** 10 分鐘</span><span class="sxs-lookup"><span data-stu-id="a5f8d-104">**Time to complete:** 10 minutes</span></span>  
   
- <span data-ttu-id="a5f8d-105">**目標：**在此步驟中，您可以設定 WCF 自訂連接埠來接收一般檔案 IDOC 從 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="a5f8d-105">**Objective:** In this step, you configure a WCF-Custom port to receive a flat-file IDOC from an SAP system.</span></span> <span data-ttu-id="a5f8d-106">設定連接埠之後, 您可以設定 BizTalk 應用程式使用 WCF 自訂接收埠。</span><span class="sxs-lookup"><span data-stu-id="a5f8d-106">After configuring the port, you configure the BizTalk application to use the WCF-Custom receive port.</span></span>  
+ <span data-ttu-id="a5f8d-105">**目標：** 在此步驟中，您可以設定 WCF 自訂連接埠來接收一般檔案 IDOC 從 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="a5f8d-105">**Objective:** In this step, you configure a WCF-Custom port to receive a flat-file IDOC from an SAP system.</span></span> <span data-ttu-id="a5f8d-106">設定連接埠之後, 您可以設定 BizTalk 應用程式使用 WCF 自訂接收埠。</span><span class="sxs-lookup"><span data-stu-id="a5f8d-106">After configuring the port, you configure the BizTalk application to use the WCF-Custom receive port.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="a5f8d-107">必要條件</span><span class="sxs-lookup"><span data-stu-id="a5f8d-107">Prerequisites</span></span>  
  <span data-ttu-id="a5f8d-108">您必須建立和部署 vPrev BizTalk 專案，以從 SAP 系統接收 Idoc。</span><span class="sxs-lookup"><span data-stu-id="a5f8d-108">You must have built and deployed your vPrev BizTalk project to receive IDOCs from an SAP system.</span></span>  
@@ -53,7 +54,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  <span data-ttu-id="a5f8d-120">在**Wcf-custom 傳輸屬性**對話方塊方塊中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="a5f8d-120">In the **WCF-Custom Transport Properties** dialog box, do the following:</span></span>  
   
-    1.  <span data-ttu-id="a5f8d-121">按一下**一般** 索引標籤，然後在**位址 (URI)**欄位中，指定連線 URI 從 SAP 系統接收訊息。</span><span class="sxs-lookup"><span data-stu-id="a5f8d-121">Click the **General** tab, and in the **Address (URI)** field, specify the connection URI to receive messages from the SAP system.</span></span> <span data-ttu-id="a5f8d-122">連接至從 SAP 系統接收訊息的 URI 必須採用下列格式：</span><span class="sxs-lookup"><span data-stu-id="a5f8d-122">The connection URI to receive messages from the SAP system must be in the following format:</span></span>  
+    1.  <span data-ttu-id="a5f8d-121">按一下**一般** 索引標籤，然後在**位址 (URI)** 欄位中，指定連線 URI 從 SAP 系統接收訊息。</span><span class="sxs-lookup"><span data-stu-id="a5f8d-121">Click the **General** tab, and in the **Address (URI)** field, specify the connection URI to receive messages from the SAP system.</span></span> <span data-ttu-id="a5f8d-122">連接至從 SAP 系統接收訊息的 URI 必須採用下列格式：</span><span class="sxs-lookup"><span data-stu-id="a5f8d-122">The connection URI to receive messages from the SAP system must be in the following format:</span></span>  
   
         ```  
         sap://Client=800;lang=EN@A/YourSAPHOST/00?ListenerGwHost=YourSAPHOST&ListenerGwServ=SAPGW00&ListenerProgramId=MyProgramId  

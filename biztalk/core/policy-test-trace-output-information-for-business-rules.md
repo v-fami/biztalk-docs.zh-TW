@@ -1,11 +1,11 @@
 ---
-title: "商務規則的原則測試追蹤輸出資訊 |Microsoft 文件"
-ms.custom: 
+title: 商務規則的原則測試追蹤輸出資訊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - testing, business rules
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - business rules, testing
 - policies, testing
 ms.assetid: 26ff584e-97a1-4d76-a8a9-a55b4c99231f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265062"
 ---
 # <a name="policy-test-trace-output-information-for-business-rules"></a><span data-ttu-id="76552-102">商務規則的原則測試追蹤輸出資訊</span><span class="sxs-lookup"><span data-stu-id="76552-102">Policy Test Trace Output Information for Business Rules</span></span>
 <span data-ttu-id="76552-103">本節提供在「商務規則編輯器」中測試原則時所顯示的追蹤資訊之相關資訊。</span><span class="sxs-lookup"><span data-stu-id="76552-103">This section provides information on the tracking information that is displayed when testing a policy in the Business Rule Composer.</span></span> <span data-ttu-id="76552-104">檢視使用 [群組中樞] 頁面上追蹤查詢的訊息事件和服務執行個體的原則執行的追蹤結果時，會看到非常類似的資訊。</span><span class="sxs-lookup"><span data-stu-id="76552-104">Very similar information is seen when viewing tracking results for policy execution using the message event and service instance tracking queries on the Group Hub page.</span></span>  

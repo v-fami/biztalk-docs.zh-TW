@@ -1,18 +1,18 @@
 ---
-title: "索引運算質 |Microsoft 文件"
-ms.custom: 
+title: 索引運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Max Occurs property
 - Index functoids, about Index functoids
 - Index functoids
 ms.assetid: 0c8ba427-881c-4b1f-92b9-61992d2a29df
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972580"
 ---
 # <a name="index-functoid"></a><span data-ttu-id="728f1-102">索引運算質</span><span class="sxs-lookup"><span data-stu-id="728f1-102">Index Functoid</span></span>
 <span data-ttu-id="728f1-103">**索引**運算質可讓您從中選取一系列的記錄中的特定記錄資訊。</span><span class="sxs-lookup"><span data-stu-id="728f1-103">The **Index** functoid enables you to select information from a specific record in a series of records.</span></span> <span data-ttu-id="728f1-104">每個**索引**運算質均收集單一欄位的資訊。</span><span class="sxs-lookup"><span data-stu-id="728f1-104">Each **Index** functoid collects information from a single field.</span></span>  

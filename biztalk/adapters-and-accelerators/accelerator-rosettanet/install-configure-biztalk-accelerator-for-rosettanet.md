@@ -1,12 +1,12 @@
 ---
-title: "安裝 BizTalk Accelerator for RosettaNet (BTARN) 在 BizTalk Server 上 |Microsoft 文件"
-description: "請參閱硬體和軟體需求、 安裝的步驟和 BTARN BizTalk Server 中的組態步驟"
+title: 安裝 BizTalk Accelerator for RosettaNet (BTARN) 在 BizTalk Server 上 |Microsoft 文件
+description: 請參閱硬體和軟體需求、 安裝的步驟和 BTARN BizTalk Server 中的組態步驟
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
-ms.assetid: 
+ms.assetid: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -15,6 +15,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211038"
 ---
 # <a name="install-biztalk-accelerator-for-rosettanet"></a><span data-ttu-id="8e501-103">安裝 BizTalk Accelerator for RosettaNet</span><span class="sxs-lookup"><span data-stu-id="8e501-103">Install BizTalk Accelerator for RosettaNet</span></span>
 
@@ -92,7 +93,7 @@ ms.lasthandoff: 09/20/2017
     > [!IMPORTANT]
     >  <span data-ttu-id="8e501-173">如果您執行只安裝 BTARN HTTP 前端功能的自訂安裝，BTARN 組態可能會失敗之後安裝程式已完成，顯示 「 無法建立功能的物件： WebApp 」 錯誤。</span><span class="sxs-lookup"><span data-stu-id="8e501-173">If you perform a custom installation to install only the BTARN HTTP Front End feature, BTARN configuration may fail after setup is complete, displaying the "Failed to create object for feature: WebApp" error.</span></span> <span data-ttu-id="8e501-174">如果發生這種情況，將兩個檔案複製 (**Microsoft.VC80.ATL.manifest**和**atl80.dll**) 從 BizTalk Server 的電腦上安裝，若要安裝 BTARN HTTP 前端功能的電腦。</span><span class="sxs-lookup"><span data-stu-id="8e501-174">If this occurs, copy two files (**Microsoft.VC80.ATL.manifest** and **atl80.dll**) from a computer with BizTalk Server installed on it, to the computer where you installed the BTARN HTTP Front End feature.</span></span>  
     >   
-    >  <span data-ttu-id="8e501-175">如果與 BizTalk Server 在相同電腦上安裝 Visual Studio，兩個檔案的來源資料夾是*< 磁碟機\>*: \Program Files\Microsoft Visual Studio 11.0\VC\redist\x86\Microsoft.VC100.ATL。</span><span class="sxs-lookup"><span data-stu-id="8e501-175">If Visual Studio is installed on the same computer as BizTalk Server, the source folder for the two files is *<drive\>*:\Program Files\Microsoft Visual Studio 11.0\VC\redist\x86\Microsoft.VC100.ATL.</span></span> <span data-ttu-id="8e501-176">如果 BizTalk server 上未安裝 Visual Studio，BizTalk server 上的兩個檔案的來源資料夾是資料夾之下的*< 磁碟機\>*: \WINDOWS\WinSxS。</span><span class="sxs-lookup"><span data-stu-id="8e501-176">If Visual Studio is not installed on the BizTalk server, the source folder for the two files on the BizTalk server is a folder under *<drive\>*:\WINDOWS\WinSxS.</span></span> <span data-ttu-id="8e501-177">檔案版本應為 8.0.50727.42。</span><span class="sxs-lookup"><span data-stu-id="8e501-177">The version of the files should be 8.0.50727.42.</span></span> <span data-ttu-id="8e501-178">在已安裝 HTTP 前端功能的電腦上目的地資料夾是 BTARN 安裝目錄 (根據預設， *< 磁碟機\>*: \Program Files\Microsoft BTARN)。</span><span class="sxs-lookup"><span data-stu-id="8e501-178">The destination folder on the computer where you have installed the HTTP Front End feature is the BTARN installation directory (by default, *<drive\>*:\Program Files\Microsoft BTARN).</span></span>  
+    >  <span data-ttu-id="8e501-175">如果與 BizTalk Server 在相同電腦上安裝 Visual Studio，兩個檔案的來源資料夾是 *< 磁碟機\>*: \Program Files\Microsoft Visual Studio 11.0\VC\redist\x86\Microsoft.VC100.ATL。</span><span class="sxs-lookup"><span data-stu-id="8e501-175">If Visual Studio is installed on the same computer as BizTalk Server, the source folder for the two files is *<drive\>*:\Program Files\Microsoft Visual Studio 11.0\VC\redist\x86\Microsoft.VC100.ATL.</span></span> <span data-ttu-id="8e501-176">如果 BizTalk server 上未安裝 Visual Studio，BizTalk server 上的兩個檔案的來源資料夾是資料夾之下的 *< 磁碟機\>*: \WINDOWS\WinSxS。</span><span class="sxs-lookup"><span data-stu-id="8e501-176">If Visual Studio is not installed on the BizTalk server, the source folder for the two files on the BizTalk server is a folder under *<drive\>*:\WINDOWS\WinSxS.</span></span> <span data-ttu-id="8e501-177">檔案版本應為 8.0.50727.42。</span><span class="sxs-lookup"><span data-stu-id="8e501-177">The version of the files should be 8.0.50727.42.</span></span> <span data-ttu-id="8e501-178">在已安裝 HTTP 前端功能的電腦上目的地資料夾是 BTARN 安裝目錄 (根據預設， *< 磁碟機\>*: \Program Files\Microsoft BTARN)。</span><span class="sxs-lookup"><span data-stu-id="8e501-178">The destination folder on the computer where you have installed the HTTP Front End feature is the BTARN installation directory (by default, *<drive\>*:\Program Files\Microsoft BTARN).</span></span>  
     >   
     >  <span data-ttu-id="8e501-179">您將這些檔案複製到電腦已安裝 HTTP 前端功能之後，重新執行**Configuration.exe**。</span><span class="sxs-lookup"><span data-stu-id="8e501-179">After you have copied these files to the computer with the HTTP Front End feature installed, rerun **Configuration.exe**.</span></span>  
   
@@ -104,7 +105,7 @@ ms.lasthandoff: 09/20/2017
 1.  <span data-ttu-id="8e501-183">在**Microsoft BTARN 組態精靈**頁面上，選取**基本組態**設定伺服器預設設定，或**自訂組態**至設定伺服器使用進階的組態選項。</span><span class="sxs-lookup"><span data-stu-id="8e501-183">On the **Microsoft BTARN Configuration Wizard** page, select **Basic configuration** to configure the server with default settings, or **Custom configuration** to configure the server using advanced configuration options.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="8e501-184">如果您想要設定 BTARN 使用本機系統管理員帳戶，請輸入帳戶做為*< 機器名稱\>\\< 系統管理員名稱\>*中**使用者識別碼**欄位**服務認證**區域。</span><span class="sxs-lookup"><span data-stu-id="8e501-184">If you want to configure BTARN using a local administrator account, enter the account as *<machine name\>\\<administrator name\>* in the **User ID** field of the **Service Credential** area.</span></span>  
+    >  <span data-ttu-id="8e501-184">如果您想要設定 BTARN 使用本機系統管理員帳戶，請輸入帳戶做為 *< 機器名稱\>\\< 系統管理員名稱\>* 中**使用者識別碼**欄位**服務認證**區域。</span><span class="sxs-lookup"><span data-stu-id="8e501-184">If you want to configure BTARN using a local administrator account, enter the account as *<machine name\>\\<administrator name\>* in the **User ID** field of the **Service Credential** area.</span></span>  
   
 2.  <span data-ttu-id="8e501-185">在**資料庫伺服器名稱**文字方塊中，確認顯示的伺服器名稱正確無誤。</span><span class="sxs-lookup"><span data-stu-id="8e501-185">In the **Database server name** text box, verify that the server name displayed is correct.</span></span> <span data-ttu-id="8e501-186">在**服務認證**區域中，輸入執行服務的帳戶 （及網域） 的使用者名稱和密碼。</span><span class="sxs-lookup"><span data-stu-id="8e501-186">In the **Service credential** area, enter the user name (with domain) and password for the account that the services will run under.</span></span> <span data-ttu-id="8e501-187">按一下**設定**。</span><span class="sxs-lookup"><span data-stu-id="8e501-187">Click **Configure**.</span></span>  
   

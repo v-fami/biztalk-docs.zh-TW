@@ -1,14 +1,14 @@
 ---
-title: "整數屬性值不是有效的整數 |Microsoft 文件"
-ms.custom: 
+title: 整數屬性值不是有效的整數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aa97f3dd-4a01-4007-b23a-820cbebbc083
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278382"
 ---
 # <a name="the-integer-property-value-is-not-a-valid-integer"></a><span data-ttu-id="ae316-102">整數屬性值不是有效的整數</span><span class="sxs-lookup"><span data-stu-id="ae316-102">The integer property value is not a valid integer</span></span>
 ## <a name="details"></a><span data-ttu-id="ae316-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="ae316-103">Details</span></span>  

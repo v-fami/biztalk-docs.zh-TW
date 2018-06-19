@@ -1,11 +1,11 @@
 ---
-title: "可重複的欄位區段 |Microsoft 文件"
-ms.custom: 
+title: 可重複的欄位區段 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - segments, repeatable fields
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Segments table
 - RDT
 ms.assetid: 4c31cb56-21e5-4918-aaf6-67e8ceddd74f
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206326"
 ---
 # <a name="repeatable-field-segments"></a><span data-ttu-id="ce9ba-102">可重複的欄位區段</span><span class="sxs-lookup"><span data-stu-id="ce9ba-102">Repeatable Field Segments</span></span>
 <span data-ttu-id="ce9ba-103">HL7 Access 資料庫中的區段資料表包含資料行區段 （ADD、 RDT 和 QPD） 的最後一個欄位， [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 定義為可重複 (**Last_field_repeatable**  = **True**)。</span><span class="sxs-lookup"><span data-stu-id="ce9ba-103">The Segments table in the HL7 Access database contains a column for the last field of segments (ADD, RDT, and QPD) that [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) defines as repeatable (**Last_field_repeatable** = **True**).</span></span> [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="ce9ba-104">不支援新增。</span><span class="sxs-lookup"><span data-stu-id="ce9ba-104"> does not support ADD.</span></span> <span data-ttu-id="ce9ba-105">不過，RDT 和 QPD 出現查詢資料表，並以資料表值的回應。</span><span class="sxs-lookup"><span data-stu-id="ce9ba-105">However, both RDT and QPD are present to query tables and respond with table values.</span></span> <span data-ttu-id="ce9ba-106">下列範例將示範如何[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]處理這些資料行。</span><span class="sxs-lookup"><span data-stu-id="ce9ba-106">The following sample demonstrates how [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] handles these columns.</span></span>  

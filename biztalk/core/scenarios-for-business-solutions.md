@@ -1,11 +1,11 @@
 ---
-title: "商務解決方案的實例 |Microsoft 文件"
-ms.custom: 
+title: 商務解決方案的實例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - business solutions, tutorials
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - tutorials, business solutions
 - solutions, tutorials
 ms.assetid: f6239905-a1bf-4223-bdca-6677f2d6049b
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269118"
 ---
 # <a name="scenarios-for-business-solutions"></a><span data-ttu-id="34111-102">商務解決方案的實例</span><span class="sxs-lookup"><span data-stu-id="34111-102">Scenarios for Business Solutions</span></span>
 <span data-ttu-id="34111-103">本節說明兩個完整的模型 BizTalk 應用程式。</span><span class="sxs-lookup"><span data-stu-id="34111-103">This section describes two complete, model BizTalk applications.</span></span> <span data-ttu-id="34111-104">每個應用程式都代表一個特定的商務模式，並展示其他結構成分的整合模式。</span><span class="sxs-lookup"><span data-stu-id="34111-104">Each application represents a particular business pattern and demonstrates other constituent integration patterns.</span></span>  

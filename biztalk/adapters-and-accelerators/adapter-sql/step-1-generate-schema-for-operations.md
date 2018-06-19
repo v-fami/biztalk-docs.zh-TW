@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 作業產生結構描述 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 作業產生結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 63218a5e-9af2-40af-9992-ac5e204d2832
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224958"
 ---
 # <a name="step-1-generate-schema-for-operations"></a><span data-ttu-id="147fb-102">步驟 1： 作業產生結構描述</span><span class="sxs-lookup"><span data-stu-id="147fb-102">Step 1: Generate Schema for Operations</span></span>
 <span data-ttu-id="147fb-103">![步驟 2 之 1](../../adapters-and-accelerators/adapter-sql/media/step-1of2.gif "Step_1of2")</span><span class="sxs-lookup"><span data-stu-id="147fb-103">![Step 1 of 2](../../adapters-and-accelerators/adapter-sql/media/step-1of2.gif "Step_1of2")</span></span>  
   
  <span data-ttu-id="147fb-104">**若要完成的時間：** 5 分鐘</span><span class="sxs-lookup"><span data-stu-id="147fb-104">**Time to complete:** 5 minutes</span></span>  
   
- <span data-ttu-id="147fb-105">**目標：**在此步驟中，您會產生結構描述在 SQL Server 資料庫使用中執行的作業[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="147fb-105">**Objective:** In this step, you generate schemas for the operations that you perform on the SQL Server database using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span> <span data-ttu-id="147fb-106">此教學課程中，您必須產生以下的結構描述：</span><span class="sxs-lookup"><span data-stu-id="147fb-106">For this tutorial, you must generate schema for the following:</span></span>  
+ <span data-ttu-id="147fb-105">**目標：** 在此步驟中，您會產生結構描述在 SQL Server 資料庫使用中執行的作業[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="147fb-105">**Objective:** In this step, you generate schemas for the operations that you perform on the SQL Server database using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span> <span data-ttu-id="147fb-106">此教學課程中，您必須產生以下的結構描述：</span><span class="sxs-lookup"><span data-stu-id="147fb-106">For this tutorial, you must generate schema for the following:</span></span>  
   
 -   <span data-ttu-id="147fb-107">**通知**（輸入作業）。</span><span class="sxs-lookup"><span data-stu-id="147fb-107">**Notification** (inbound operation).</span></span>  
   

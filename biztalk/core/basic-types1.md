@@ -1,11 +1,11 @@
 ---
-title: "基本 Types1 |Microsoft 文件"
-ms.custom: 
+title: 基本 Types1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - JD Edwards OneWorld adapters, data types
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - JD Edwards OneWorld adapters, .NET Framework
 - adapters [JD Edwards OneWorld adapters], business functions
 ms.assetid: d306ea1b-fb74-4fa3-9681-405252928df1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231854"
 ---
 # <a name="basic-types"></a><span data-ttu-id="fec7b-102">基本類型</span><span class="sxs-lookup"><span data-stu-id="fec7b-102">Basic Types</span></span>
 <span data-ttu-id="fec7b-103">Microsoft BizTalk Adapter for JD Edwards OneWorld 僅提供對 JD Edwards OneWorld 商務功能的存取。</span><span class="sxs-lookup"><span data-stu-id="fec7b-103">Microsoft BizTalk Adapter for JD Edwards OneWorld provides access only to JD Edwards OneWorld business functions.</span></span> <span data-ttu-id="fec7b-104">商務功能中繼資料是透過商務功能介面來讀取，並可用以尋找商務功能與相關資料結構的清單。</span><span class="sxs-lookup"><span data-stu-id="fec7b-104">Business function metadata is read using a business function interface and used to find a list of business functions and associated data structures.</span></span> <span data-ttu-id="fec7b-105">不論什麼情況，所有商務功能方法都會使用強型別的中繼資料。</span><span class="sxs-lookup"><span data-stu-id="fec7b-105">Metadata is strongly typed in all cases for all business function methods.</span></span>  

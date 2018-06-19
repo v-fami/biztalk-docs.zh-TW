@@ -1,14 +1,14 @@
 ---
-title: "使用此資料提供者適用於 SAP ssrs |Microsoft 文件"
-ms.custom: 
+title: 使用此資料提供者適用於 SAP ssrs |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e821da18-790b-4e5d-99f4-afa57e1ad528
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216710"
 ---
 # <a name="use-the-data-provider-for-sap-with-ssrs"></a><span data-ttu-id="d1c28-102">使用適用於 SAP ssrs 資料提供者</span><span class="sxs-lookup"><span data-stu-id="d1c28-102">Use the Data Provider for SAP with SSRS</span></span>
 <span data-ttu-id="d1c28-103">您可以使用[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)]以及 SQL Server Reporting Services (SSRS) 建立的 SAP 資料為基礎的報表。</span><span class="sxs-lookup"><span data-stu-id="d1c28-103">You can use the [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] along with SQL Server Reporting Services (SSRS) to create reports based on SAP data.</span></span> <span data-ttu-id="d1c28-104">如需 SSRS 的詳細資訊，請參閱[http://go.microsoft.com/fwlink/?LinkId=125922](http://go.microsoft.com/fwlink/?LinkId=125922)。</span><span class="sxs-lookup"><span data-stu-id="d1c28-104">For more information about SSRS, see [http://go.microsoft.com/fwlink/?LinkId=125922](http://go.microsoft.com/fwlink/?LinkId=125922).</span></span>  

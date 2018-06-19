@@ -1,14 +1,14 @@
 ---
-title: "FileAct 配接器即時的端對端原型 |Microsoft 文件"
-ms.custom: 
+title: FileAct 配接器即時的端對端原型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f8591120-7259-49cb-90ac-954d8be226ed
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224926"
 ---
 # <a name="fileact-adapter-real-time-end-to-end-primitives"></a><span data-ttu-id="04033-102">FileAct 配接器即時的端對端原型</span><span class="sxs-lookup"><span data-stu-id="04033-102">FileAct Adapter Real-Time End-to-End Primitives</span></span>
 <span data-ttu-id="04033-103">SWIFTNet 原型是一組應用程式與 SWIFTNet 連結 (SNL) 之間交換的 XML 文件。</span><span class="sxs-lookup"><span data-stu-id="04033-103">SWIFTNet primitives are a pair of XML documents exchanged between the application and SWIFTNet Link (SNL).</span></span> <span data-ttu-id="04033-104">針對每個端對端基本，那里兩個基本項目 – 一個在用戶端 （或傳送） 端，在伺服器上的另一個版本 （或接收） 側邊。</span><span class="sxs-lookup"><span data-stu-id="04033-104">For each end-to-end primitive, there are two versions of the primitive – one at the client (or send) side and one at the server (or receive) side.</span></span> <span data-ttu-id="04033-105">這包含四個訊息總數： 放置檔案的基本類型、 取得檔案的基本類型和每個傳送傳遞通知。</span><span class="sxs-lookup"><span data-stu-id="04033-105">This comprises a total of four messages: Put File primitive, Get File primitive, and a Send Delivery Notification for each.</span></span>  

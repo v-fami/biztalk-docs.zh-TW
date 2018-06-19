@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 340048ad-ce28-4acf-ae4e-f18bdb3b6f47
-caps.latest.revision: ''
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22226086"
 ---
 # <a name="insert-update-delete-or-select-operations-in-sql-using-the-wcf-service-model"></a><span data-ttu-id="97b0c-102">插入、 更新、 刪除或 SQL 使用 WCF 服務模型中選取作業</span><span class="sxs-lookup"><span data-stu-id="97b0c-102">Insert, update, delete, or select operations in SQL using the WCF service model</span></span>
 <span data-ttu-id="97b0c-103">[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]會探索 SQL Server 資料庫資料表和檢視表的基本 Insert、 Select、 Update 和 Delete 作業的一組。</span><span class="sxs-lookup"><span data-stu-id="97b0c-103">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] discovers a set of basic Insert, Select, Update, and Delete operations on SQL Server database tables and views.</span></span> <span data-ttu-id="97b0c-104">藉由使用這些作業，您可以執行簡單的 SQL Insert、 Select、 Update 和 Delete 陳述式 Where 所限定的目標資料表或檢視上的子句。</span><span class="sxs-lookup"><span data-stu-id="97b0c-104">By using these operations, you can perform simple SQL Insert, Select, Update, and Delete statements qualified by a Where clause on a target table or view.</span></span> <span data-ttu-id="97b0c-105">本主題提供有關如何執行這些作業使用 WCF 服務模型的指示。</span><span class="sxs-lookup"><span data-stu-id="97b0c-105">This topic provides instructions on how to perform these operations using the WCF service model.</span></span>  

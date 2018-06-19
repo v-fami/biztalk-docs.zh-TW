@@ -1,14 +1,14 @@
 ---
-title: "瞭解 DTA 追蹤效能行為 |Microsoft 文件"
-ms.custom: 
+title: 瞭解 DTA 追蹤效能行為 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b1a70951-bfed-435c-97f4-0b28a8e4e4dc
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287022"
 ---
 # <a name="understanding-dta-tracking-performance-behavior"></a><span data-ttu-id="5c989-102">瞭解 DTA 追蹤效能行為</span><span class="sxs-lookup"><span data-stu-id="5c989-102">Understanding DTA Tracking Performance Behavior</span></span>
 <span data-ttu-id="5c989-103">決定 DTA 追蹤之最大持續性輸送量 (MST) 的主要因素如下：</span><span class="sxs-lookup"><span data-stu-id="5c989-103">The primary factors that determine maximum sustainable throughput (MST) for DTA tracking are:</span></span>  

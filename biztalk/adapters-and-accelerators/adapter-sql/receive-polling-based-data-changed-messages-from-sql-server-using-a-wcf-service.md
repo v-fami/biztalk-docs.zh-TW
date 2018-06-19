@@ -1,14 +1,14 @@
 ---
-title: "從 SQL Server 使用 WCF 服務模型收到輪詢基礎資料變更的訊息 |Microsoft 文件"
-ms.custom: 
+title: 從 SQL Server 使用 WCF 服務模型收到輪詢基礎資料變更的訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8713dd38-65ff-4d89-b23b-a93c06c5ff22
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226942"
 ---
 # <a name="receive-polling-based-data-changed-messages-from-sql-server-using-the-wcf-service-model"></a><span data-ttu-id="5d86b-102">從 SQL Server 使用 WCF 服務模型收到輪詢基礎資料變更的訊息</span><span class="sxs-lookup"><span data-stu-id="5d86b-102">Receive Polling-based Data-changed Messages from SQL Server Using the WCF Service Model</span></span>
 <span data-ttu-id="5d86b-103">您可以設定[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]接收 SQL Server 資料表或檢視表的週期性的資料變更訊息。</span><span class="sxs-lookup"><span data-stu-id="5d86b-103">You can configure the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] to receive periodic data-change messages for SQL Server tables or views.</span></span> <span data-ttu-id="5d86b-104">您可以指定執行以輪詢資料庫配接器的輪詢陳述式。</span><span class="sxs-lookup"><span data-stu-id="5d86b-104">You can specify a polling statement that the adapter executes to poll the database.</span></span> <span data-ttu-id="5d86b-105">輪詢陳述式可以是 SELECT 陳述式或預存程序會傳回結果集。</span><span class="sxs-lookup"><span data-stu-id="5d86b-105">The polling statement can be a SELECT statement or a stored procedure that returns a result set.</span></span>  

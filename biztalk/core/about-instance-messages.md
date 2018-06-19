@@ -1,14 +1,14 @@
 ---
-title: "關於執行個體訊息 |Microsoft 文件"
-ms.custom: 
+title: 關於執行個體訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: de7fc3d3-57a7-4df9-b981-127e21941e22
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224774"
 ---
 # <a name="about-instance-messages"></a><span data-ttu-id="caaec-102">關於執行個體訊息</span><span class="sxs-lookup"><span data-stu-id="caaec-102">About Instance Messages</span></span>
 <span data-ttu-id="caaec-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 傳送和接收執行個體訊息，每個執行個體訊息通常都代表一或多個商業文件 (例如訂單)。</span><span class="sxs-lookup"><span data-stu-id="caaec-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] sends and receives instance messages, each of which typically represents one or more business documents such as a purchase order.</span></span> <span data-ttu-id="caaec-104">執行個體訊息是由一或多個結構描述定義的訊息結構執行個體。</span><span class="sxs-lookup"><span data-stu-id="caaec-104">An instance message is an instance of a message structure defined by one or more schemas.</span></span> <span data-ttu-id="caaec-105">一個結構描述或是一組一起使用的結構描述會定義哪些內容可組成有效的執行個體訊息。</span><span class="sxs-lookup"><span data-stu-id="caaec-105">A schema, or a set of schemas being used together, defines what constitutes a valid instance message.</span></span> <span data-ttu-id="caaec-106">例如，訂單可能被定義為在其中有數個記錄，例如 ShipTo 記錄、BillTo 記錄、Items 記錄等等。</span><span class="sxs-lookup"><span data-stu-id="caaec-106">For example, a purchase order might be defined to have several records within it, such as a ShipTo record, a BillTo record, an Items record, and so on.</span></span> <span data-ttu-id="caaec-107">這些記錄的每一個都可以定義為包含自己的子記錄和欄位。</span><span class="sxs-lookup"><span data-stu-id="caaec-107">Each of these records can be defined to contain their own subrecords and fields.</span></span> <span data-ttu-id="caaec-108">對應的結構描述定義這些記錄與欄位的可能內容，對應的執行個體訊息則包含實際的訂單，而這些訂單包含根據結構描述結構化的訂單資料。</span><span class="sxs-lookup"><span data-stu-id="caaec-108">The corresponding schema defines the potential contents of these records and fields and the corresponding instance messages contain actual purchase orders that contain purchase order data structured according to the schema.</span></span>  

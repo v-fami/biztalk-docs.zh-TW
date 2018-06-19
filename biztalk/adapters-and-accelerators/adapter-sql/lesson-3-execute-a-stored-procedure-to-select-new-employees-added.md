@@ -1,14 +1,14 @@
 ---
-title: "第 3 課： 執行預存程序選取 加入新的員工 |Microsoft 文件"
-ms.custom: 
+title: 第 3 課： 執行預存程序選取 加入新的員工 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ec7897e9-0c77-41b2-8cc2-61745bd3b028
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222622"
 ---
 # <a name="lesson-3-execute-a-stored-procedure-to-select-new-employees-added"></a><span data-ttu-id="8f747-102">第 3 課： 執行預存程序選取 加入新的員工</span><span class="sxs-lookup"><span data-stu-id="8f747-102">Lesson 3: Execute a Stored Procedure to Select New Employees Added</span></span>
 <span data-ttu-id="8f747-103">了解工作執行在這一課之前，您必須先了解為什麼這些工作所需。</span><span class="sxs-lookup"><span data-stu-id="8f747-103">Before understanding the tasks performed in this lesson, you must first understand why these tasks are required.</span></span> <span data-ttu-id="8f747-104">**員工**要新增為新員工插入記錄的資料表中的方式進行定義，**狀態**資料行永遠為"0"每次加入新的員工。</span><span class="sxs-lookup"><span data-stu-id="8f747-104">The **Employee** table to which the records are inserted to add a new employee is defined in such a way that a **Status** column is always set to “0” every time a new employee is added.</span></span> <span data-ttu-id="8f747-105">這是好讓您可以使用此資料行查詢新加入的員工，並也會取得通知。</span><span class="sxs-lookup"><span data-stu-id="8f747-105">This is done so that you can use this column to query for newly added employees and also get notifications.</span></span> <span data-ttu-id="8f747-106">在 SQL Server 中，您會將此查詢執行下列 SQL 陳述式：</span><span class="sxs-lookup"><span data-stu-id="8f747-106">In SQL Server, you would query this by running the following SQL statement:</span></span>  

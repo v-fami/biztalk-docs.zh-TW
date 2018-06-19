@@ -1,15 +1,15 @@
 ---
-title: "管理設定、 憑證、 資料庫和 BizTalk Server 中的 RosettaNet 加速器中的安全性 |Microsoft 文件"
-description: "管理 BTARN 組態，設定 CIDX 解決方案，管理憑證的資料庫和 BizTalk Server 中的安全性"
-caps.latest.revision: "5"
+title: 管理設定、 憑證、 資料庫和 BizTalk Server 中的 RosettaNet 加速器中的安全性 |Microsoft 文件
+description: 管理 BTARN 組態，設定 CIDX 解決方案，管理憑證的資料庫和 BizTalk Server 中的安全性
+caps.latest.revision: 5
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/09/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fd202dc6-d2c2-4721-9a03-348dc05422a8
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209630"
 ---
 # <a name="manage-configuration-certificates-databases-and-security"></a><span data-ttu-id="1e8c3-103">管理設定、 憑證、 資料庫和安全性</span><span class="sxs-lookup"><span data-stu-id="1e8c3-103">Manage configuration, certificates, databases, and security</span></span>
 <span data-ttu-id="1e8c3-104">本節提供概念和程序的資訊，可讓您有效地設定、 監視及維護您[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]應用程式環境。</span><span class="sxs-lookup"><span data-stu-id="1e8c3-104">This section provides conceptual and procedural information that lets you effectively configure, monitor, and maintain your [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] application environment.</span></span>  

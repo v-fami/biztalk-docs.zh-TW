@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217182"
 ---
 # <a name="extend-adonet-interfaces-with-the-sap-adapter"></a><span data-ttu-id="b16ed-102">SAP 配接器以延伸的 ADO.NET 介面</span><span class="sxs-lookup"><span data-stu-id="b16ed-102">Extend ADO.NET Interfaces with the SAP adapter</span></span>
 <span data-ttu-id="b16ed-103">[!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]) 擴充各種 ADO.NET 介面。</span><span class="sxs-lookup"><span data-stu-id="b16ed-103">The [!INCLUDE[adoprovidersaplong](../../includes/adoprovidersaplong-md.md)] ([!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]) extends various ADO.NET interfaces.</span></span> <span data-ttu-id="b16ed-104">ADO.NET 用戶端可以使用這些 SAP 系統的介面。</span><span class="sxs-lookup"><span data-stu-id="b16ed-104">The ADO.NET clients can use these to interface with the SAP system.</span></span> <span data-ttu-id="b16ed-105">本節提供有關這些介面的詳細資訊。</span><span class="sxs-lookup"><span data-stu-id="b16ed-105">This section provides more information about these interfaces.</span></span>  

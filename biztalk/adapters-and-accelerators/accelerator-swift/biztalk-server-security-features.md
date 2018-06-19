@@ -1,11 +1,11 @@
 ---
-title: "BizTalk Server 安全性功能 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 安全性功能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - authentication
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - security, security features
 - BizTalk Server, security features
 ms.assetid: db356439-1898-4c09-86de-458a9bd21b18
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211046"
 ---
 # <a name="biztalk-server-security-features"></a><span data-ttu-id="0fb50-102">BizTalk Server 安全性功能</span><span class="sxs-lookup"><span data-stu-id="0fb50-102">BizTalk Server Security Features</span></span>
 <span data-ttu-id="0fb50-103">財務服務應用程式和整合解決方案開發使用[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]是[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]應用程式與都受到原生[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]安全性功能。</span><span class="sxs-lookup"><span data-stu-id="0fb50-103">Financial Services applications and integration solutions developed by using [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] are [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] applications and are secured by native [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] security features.</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="0fb50-104">應用程式通常會啟動的訊息功能 (訊息處理、 轉換、 路由) 和工作流程自動化 （商務程序自動化、 商務規則和邏輯評估）。</span><span class="sxs-lookup"><span data-stu-id="0fb50-104"> applications are typically made up of messaging functionality (message processing, transformation, routing) and workflow automation (business process automation, business rules and logic evaluation).</span></span> [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="0fb50-105">提供一般傳訊和工作流程自動化的安全性。</span><span class="sxs-lookup"><span data-stu-id="0fb50-105"> provides general messaging and workflow automation security.</span></span> [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]<span data-ttu-id="0fb50-106">提供特定的保護使用者訊息項目、 修復、 核准，以及送出額外的安全性功能。</span><span class="sxs-lookup"><span data-stu-id="0fb50-106"> provides additional security features specific to securing end-user message entry, repair, approval, and submission.</span></span> <span data-ttu-id="0fb50-107">如需有關[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]-特定的安全性，請參閱[A4SWIFT Message Repair 和 New Submission 的安全性功能](../../adapters-and-accelerators/accelerator-swift/a4swift-security-features-for-message-repair-and-new-submission.md)。</span><span class="sxs-lookup"><span data-stu-id="0fb50-107">For more information about [!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]-specific security, see [A4SWIFT Security Features for Message Repair and New Submission](../../adapters-and-accelerators/accelerator-swift/a4swift-security-features-for-message-repair-and-new-submission.md).</span></span>  

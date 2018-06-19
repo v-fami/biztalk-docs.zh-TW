@@ -1,11 +1,11 @@
 ---
-title: "開發 Siebel 應用程式使用 WCF 服務模型 |Microsoft 文件"
-ms.custom: 
+title: 開發 Siebel 應用程式使用 WCF 服務模型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, developing applications by using
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - proxy programming, performing operations
 - WCF service model, advantages of using
 ms.assetid: df5627b9-c80d-4a75-a20a-a0be119735a2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222526"
 ---
 # <a name="develop-siebel-applications-using-the-wcf-service-model"></a><span data-ttu-id="119b3-102">開發 Siebel 應用程式使用 WCF 服務模型</span><span class="sxs-lookup"><span data-stu-id="119b3-102">Develop Siebel applications using the WCF Service Model</span></span>
 [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]<span data-ttu-id="119b3-103">提供程式設計模型呼叫 WCF 服務模型的一部分，可協助解決某些其他的程式設計模型限制 — WCF 通道模型。</span><span class="sxs-lookup"><span data-stu-id="119b3-103"> provides a programming model called the WCF service model, which, in part, helps address some of the limitations of another programming model—the WCF channel model.</span></span>  

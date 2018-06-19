@@ -1,14 +1,14 @@
 ---
-title: "接收位置位址找不到 |Microsoft 文件"
-ms.custom: 
+title: 接收位置位址找不到 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 637f3925-06ff-47b2-99db-f85e829ee318
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268766"
 ---
 # <a name="receive-location-for-address-not-found"></a><span data-ttu-id="d9e9c-102">接收位置位址找不到</span><span class="sxs-lookup"><span data-stu-id="d9e9c-102">Receive location for address not found</span></span>
 ## <a name="details"></a><span data-ttu-id="d9e9c-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="d9e9c-103">Details</span></span>  

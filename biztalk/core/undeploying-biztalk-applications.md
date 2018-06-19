@@ -1,11 +1,11 @@
 ---
-title: "解除部署 BizTalk 應用程式 |Microsoft 文件"
-ms.custom: 
+title: 解除部署 BizTalk 應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - undeploying, applications
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - managing [applications], undeploying
 - undeploying
 ms.assetid: 424ada20-d023-4952-8a36-75f0327d87d5
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286638"
 ---
 # <a name="undeploying-biztalk-applications"></a><span data-ttu-id="58d34-102">解除部署 BizTalk 應用程式</span><span class="sxs-lookup"><span data-stu-id="58d34-102">Undeploying BizTalk Applications</span></span>
 <span data-ttu-id="58d34-103">您必須解除部署 BizTalk 應用程式，才能將其從您的 BizTalk 群組和主機電腦移除。</span><span class="sxs-lookup"><span data-stu-id="58d34-103">You must undeploy a BizTalk application to remove it from your BizTalk group and host computers.</span></span> <span data-ttu-id="58d34-104">本節描述解除部署應用程式所牽涉到的下列工作：</span><span class="sxs-lookup"><span data-stu-id="58d34-104">This section describes the following tasks involved in undeploying an application:</span></span>  

@@ -1,15 +1,15 @@
 ---
-title: "Microsoft BizTalk Adapter for Siebel eBusiness 應用程式文件 |Microsoft 文件"
-description: "取得啟動，架構、 安全性、 開發應用程式、 訊息結構描述，以及疑難排解 Siebel 配接器在 BizTalk Adapter Pack"
-ms.custom: 
+title: Microsoft BizTalk Adapter for Siebel eBusiness 應用程式文件 |Microsoft 文件
+description: 取得啟動，架構、 安全性、 開發應用程式、 訊息結構描述，以及疑難排解 Siebel 配接器在 BizTalk Adapter Pack
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 39cc8e02-d37f-4f8a-91f9-d87d312434a1
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222158"
 ---
 # <a name="microsoft-biztalk-adapter-for-siebel-ebusiness-applications-documentation"></a><span data-ttu-id="e9141-103">Microsoft BizTalk Adapter for Siebel eBusiness 應用程式文件</span><span class="sxs-lookup"><span data-stu-id="e9141-103">Microsoft BizTalk Adapter for Siebel eBusiness Applications documentation</span></span>
 <span data-ttu-id="e9141-104">[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]包含各種資源，可協助您了解如何配接器運作方式、 如何建立使用配接器的應用程式，描述不同的連接選項，等等。</span><span class="sxs-lookup"><span data-stu-id="e9141-104">The [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] includes a variety of resources to help you understand how the adapter works, how to create applications that use the adapter, describes the different connection options, and more.</span></span>

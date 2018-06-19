@@ -1,14 +1,14 @@
 ---
-title: "使用 BizTalk Server sql 接收輪詢訊息跨多個接收埠 |Microsoft 文件"
-ms.custom: 
+title: 使用 BizTalk Server sql 接收輪詢訊息跨多個接收埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 21cf4875-1c04-41cf-98f5-d1307987ca55
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223958"
 ---
 # <a name="receive-polling-messages-across-multiple-receive-ports-from-sql-using-biztalk-server"></a><span data-ttu-id="67b90-102">使用 BizTalk Server sql 接收輪詢訊息跨多個接收埠</span><span class="sxs-lookup"><span data-stu-id="67b90-102">Receive Polling Messages Across Multiple Receive Ports from SQL using BizTalk Server</span></span>
 <span data-ttu-id="67b90-103">假設您要建立 BizTalk 應用程式，其中包含兩個輪詢作業。</span><span class="sxs-lookup"><span data-stu-id="67b90-103">Consider a scenario where you want to create a BizTalk application that includes two polling operations.</span></span> <span data-ttu-id="67b90-104">每個輪詢作業就會以不同的資料表，員工和客戶，從相同的資料庫。</span><span class="sxs-lookup"><span data-stu-id="67b90-104">Each polling operation polls separate tables, Employee and Customer, from the same database.</span></span> <span data-ttu-id="67b90-105">當您部署中的這類的應用程式[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台中，您必須建立兩個接收埠。</span><span class="sxs-lookup"><span data-stu-id="67b90-105">When you deploy such an application in [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console, you will need to create two receive ports.</span></span> <span data-ttu-id="67b90-106">連線 URI 為每個接收埠將會：</span><span class="sxs-lookup"><span data-stu-id="67b90-106">The connection URI for each receive port will be:</span></span>  

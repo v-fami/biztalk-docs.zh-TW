@@ -1,11 +1,11 @@
 ---
-title: "要求-回應傳訊 |Microsoft 文件"
-ms.custom: 
+title: 要求-回應傳訊 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - request/response messaging, about request/response messaging
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - request/response messaging, SOAP adapters
 - messages, patterns
 ms.assetid: 1a2f79b5-1f44-4191-8ce1-b3c9043be4f4
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268518"
 ---
 # <a name="request-response-messaging"></a><span data-ttu-id="84b1e-102">要求-回應傳訊</span><span class="sxs-lookup"><span data-stu-id="84b1e-102">Request-Response Messaging</span></span>
 <span data-ttu-id="84b1e-103">在要求/回應傳訊模式中，一個合作對象會傳送要求訊息，而接收的合作對象則會回傳回應訊息。</span><span class="sxs-lookup"><span data-stu-id="84b1e-103">In a request/response messaging pattern, one party sends a request message and the receiving party returns a response message.</span></span> <span data-ttu-id="84b1e-104">要求/回應處理的兩個典型範例，是瀏覽器與使用 HTTP 配接器的 Web 伺服器之間的互動，以及使用「簡單物件存取通訊協定」(SOAP) 配接器的 Web 服務處理之間的互動。</span><span class="sxs-lookup"><span data-stu-id="84b1e-104">Two typical examples of request/response processing are the interaction that a browser has with a Web server using the HTTP adapter, and Web service processing using the Simple Object Access Protocol (SOAP) adapter.</span></span> <span data-ttu-id="84b1e-105">在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中，要求與回應訊息都是透過典型的發佈/訂閱方式處理的。</span><span class="sxs-lookup"><span data-stu-id="84b1e-105">In [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)], both the request and the response messages are handled in a typical publish/subscribe fashion.</span></span> <span data-ttu-id="84b1e-106">在您微調 BizTalk 應用程式效能時，這是一個需要瞭解的重要考量，因為對於個別訊息，需要高輸送量的系統與需要低延遲的系統兩者在設定上有所不同。</span><span class="sxs-lookup"><span data-stu-id="84b1e-106">This is an important consideration to understand when you performance-tune a BizTalk application, because a system requiring high throughput might be configured differently than one requiring low latency for individual messages.</span></span>  

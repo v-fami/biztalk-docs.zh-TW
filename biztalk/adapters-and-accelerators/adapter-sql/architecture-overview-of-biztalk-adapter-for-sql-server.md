@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Adapter for SQL Server 的架構概觀 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Adapter for SQL Server 的架構概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d31eb73f-b73e-4cd3-8b62-207b806175ee
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225246"
 ---
 # <a name="architecture-overview-of-biztalk-adapter-for-sql-server"></a><span data-ttu-id="20fb0-102">BizTalk Adapter for SQL Server 的架構概觀</span><span class="sxs-lookup"><span data-stu-id="20fb0-102">Architecture overview of BizTalk Adapter for SQL Server</span></span>
 <span data-ttu-id="20fb0-103">[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]是[!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]自訂繫結。</span><span class="sxs-lookup"><span data-stu-id="20fb0-103">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] is a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] custom binding.</span></span> <span data-ttu-id="20fb0-104">此繫結包含單一的自訂傳輸繫結項目，能夠啟用與 SQL Server 資料庫通訊。</span><span class="sxs-lookup"><span data-stu-id="20fb0-104">This binding contains a single custom transport binding element that enables communication with a SQL Server database.</span></span> <span data-ttu-id="20fb0-105">[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]包裝[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]執行階段，而且會公開給應用程式可以透過[!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)]通道架構。</span><span class="sxs-lookup"><span data-stu-id="20fb0-105">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] is wrapped by the [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] run time and is exposed to applications through the [!INCLUDE[nextref_btsWinCommFoundation](../../includes/nextref-btswincommfoundation-md.md)] channel architecture.</span></span> <span data-ttu-id="20fb0-106">[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]與透過 ADO.NET 的 SQL Server 資料庫通訊。</span><span class="sxs-lookup"><span data-stu-id="20fb0-106">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] communicates with the SQL Server database through ADO.NET.</span></span>  

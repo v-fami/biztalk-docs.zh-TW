@@ -1,15 +1,15 @@
 ---
-title: "Microsoft BizTalk Adapter for SQL Server 文件 |Microsoft 文件"
-description: "取得啟動，架構、 安全性、 開發應用程式、 訊息結構描述，以及疑難排解 BizTalk 配接器組件中的 SQL 配接器"
-ms.custom: 
+title: Microsoft BizTalk Adapter for SQL Server 文件 |Microsoft 文件
+description: 取得啟動，架構、 安全性、 開發應用程式、 訊息結構描述，以及疑難排解 BizTalk 配接器組件中的 SQL 配接器
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1979ca70-9075-4fdb-b4b4-0749c92b792f
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223054"
 ---
 # <a name="microsoft-biztalk-adapter-for-sql-server-documentation"></a><span data-ttu-id="9f50f-103">Microsoft BizTalk Adapter for SQL Server 文件</span><span class="sxs-lookup"><span data-stu-id="9f50f-103">Microsoft BizTalk Adapter for SQL Server documentation</span></span>
 <span data-ttu-id="9f50f-104">[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]包含許多可協助您了解如何配接器運作方式、 如何建立應用程式，使用配接器，說明不同的連接選項，了解如何建立應用程式和多個資源。</span><span class="sxs-lookup"><span data-stu-id="9f50f-104">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] includes a variety of resources to help you understand how the adapter works, how to create applications that use the adapter, describes the different connection options, learn to create applications, and more.</span></span>

@@ -1,15 +1,15 @@
 ---
-title: "設定連接埠使用 Wcf-oracleebs 配接器在 BizTalk |Microsoft 文件"
-description: "用於接收或傳送訊息從 BizTalk Server 中的 Oracle EBS Wcf-oracleebs 配接器"
-ms.custom: 
+title: 設定連接埠使用 Wcf-oracleebs 配接器在 BizTalk |Microsoft 文件
+description: 用於接收或傳送訊息從 BizTalk Server 中的 Oracle EBS Wcf-oracleebs 配接器
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6b4c5c10-79a6-48d3-b4ee-dddf837f020b
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218398"
 ---
 # <a name="configure-a-port-using-the-wcf-oracleebs-adapter"></a><span data-ttu-id="2e730-103">設定使用 Wcf-oracleebs 配接器的連接埠</span><span class="sxs-lookup"><span data-stu-id="2e730-103">Configure a port using the WCF-OracleEBS adapter</span></span>
 <span data-ttu-id="2e730-104">如何設定 Wcf-oracleebs 傳送和接收連接埠，以在傳出和傳入上執行作業使用 Oracle E-business Suite [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="2e730-104">How to configure WCF-OracleEBS send and receive ports to perform outbound and inbound operations on Oracle E-Business Suite using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].</span></span>  

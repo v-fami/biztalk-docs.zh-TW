@@ -1,11 +1,11 @@
 ---
-title: "MSMQ 配接器屬性結構描述和屬性 |Microsoft 文件"
-ms.custom: 
+title: MSMQ 配接器屬性結構描述和屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - AcknowledgeType property [MSMQ adapters]
@@ -40,7 +40,7 @@ helpviewer_keywords:
 - Priority property [MSMQ adapters]
 - AdministrationQueue property [MSMQ adapters]
 ms.assetid: 9de29341-db8e-4d50-8f1d-3b7397afb58d
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -49,6 +49,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265982"
 ---
 # <a name="msmq-adapter-property-schema-and-properties"></a><span data-ttu-id="6550e-102">MSMQ 配接器屬性結構描述和屬性</span><span class="sxs-lookup"><span data-stu-id="6550e-102">MSMQ Adapter Property Schema and Properties</span></span>
 <span data-ttu-id="6550e-103">MSMQ 配接器可指派值到您在應用程式中使用的內容屬性中。</span><span class="sxs-lookup"><span data-stu-id="6550e-103">The MSMQ adapter assigns values to context properties that you use in your applications.</span></span> <span data-ttu-id="6550e-104">如需傳送和接收 MSMQ 配接器中的屬性，請參閱[如何設定 MSMQ 接收位置](../core/how-to-configure-an-msmq-receive-location.md)和[如何設定 MSMQ 傳送埠](../core/how-to-configure-an-msmq-send-port.md)。</span><span class="sxs-lookup"><span data-stu-id="6550e-104">For a list of the send and receive properties in the MSMQ adapter, see [How to Configure an MSMQ Receive Location](../core/how-to-configure-an-msmq-receive-location.md) and [How to Configure an MSMQ Send Port](../core/how-to-configure-an-msmq-send-port.md).</span></span>  

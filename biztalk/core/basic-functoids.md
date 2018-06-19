@@ -1,14 +1,14 @@
 ---
-title: "基本運算質 |Microsoft 文件"
-ms.custom: 
+title: 基本運算質 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cd4b6924-4ad1-4297-a12f-22de11328bab
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230942"
 ---
 # <a name="basic-functoids"></a><span data-ttu-id="f2c54-102">基本運算質</span><span class="sxs-lookup"><span data-stu-id="f2c54-102">Basic Functoids</span></span>
 <span data-ttu-id="f2c54-103">不能在任何運算質**進階**類別會被視為基本運算質。</span><span class="sxs-lookup"><span data-stu-id="f2c54-103">Any functoid not in the **Advanced** category is considered a basic functoid.</span></span> <span data-ttu-id="f2c54-104">基本運算質一般來說很容易使用，並具有少數且通常可直接設定的輸入參數。</span><span class="sxs-lookup"><span data-stu-id="f2c54-104">Basic functoids are generally easy to use, having few and, often, straightforward input parameters to be configured.</span></span> <span data-ttu-id="f2c54-105">本節提供基本運算質的概念性資訊 (依類別顯示)。</span><span class="sxs-lookup"><span data-stu-id="f2c54-105">This section provides conceptual information about the basic functoids, organized by category.</span></span>  

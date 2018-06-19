@@ -1,14 +1,14 @@
 ---
-title: "轉換 Web 服務 |Microsoft 文件"
-ms.custom: 
+title: 轉換 Web 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 788bf4a9-a63b-4fd3-93a2-6e34a1464049
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294870"
 ---
 # <a name="the-transformation-web-service"></a><span data-ttu-id="66bb7-102">轉換 Web 服務</span><span class="sxs-lookup"><span data-stu-id="66bb7-102">The Transformation Web Service</span></span>
 <span data-ttu-id="66bb7-103">轉換 Web 服務可讓外部應用程式提交至 ESB 應用程式的文件，並使用已部署的 Microsoft BizTalk 對應轉換。</span><span class="sxs-lookup"><span data-stu-id="66bb7-103">The Transformation Web service enables external applications to submit a document to an ESB application and have it transformed using a deployed Microsoft BizTalk map.</span></span> <span data-ttu-id="66bb7-104">不同於轉換代理程式時，此服務不會路由訊息到 BizTalk Messagebox 資料庫。</span><span class="sxs-lookup"><span data-stu-id="66bb7-104">Unlike the transformation agent, this service does not route messages through the BizTalk Message Box database.</span></span>  

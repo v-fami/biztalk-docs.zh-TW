@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 將 UPDATE_EMPLOYEE 回應訊息對應至插入作業要求訊息 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 將 UPDATE_EMPLOYEE 回應訊息對應至插入作業要求訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8d12014a-0147-4227-88fa-0b290eff4cce
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224822"
 ---
 # <a name="step-2-map-the-updateemployee-response-message-to-insert-operation-request-message"></a><span data-ttu-id="c6131-102">步驟 2： 將 UPDATE_EMPLOYEE 回應訊息對應至插入作業要求訊息</span><span class="sxs-lookup"><span data-stu-id="c6131-102">Step 2: Map the UPDATE_EMPLOYEE Response Message to Insert Operation Request Message</span></span>
 <span data-ttu-id="c6131-103">![步驟 4 之 2](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span><span class="sxs-lookup"><span data-stu-id="c6131-103">![Step 2 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span></span>  
   
  <span data-ttu-id="c6131-104">**若要完成的時間：** 10 分鐘</span><span class="sxs-lookup"><span data-stu-id="c6131-104">**Time to complete:** 10 minutes</span></span>  
   
- <span data-ttu-id="c6131-105">**目標：**在此步驟中，您可以建立要在上執行插入作業的要求訊息**Purchase_Order**資料表，然後將對應的回應訊息**UPDATE_EMPLOYEE**儲存插入作業的要求訊息的程序。</span><span class="sxs-lookup"><span data-stu-id="c6131-105">**Objective:** In this step, you create the request message to perform an Insert operation on the **Purchase_Order** table and then map the response message for the **UPDATE_EMPLOYEE** stored procedure to the request message for the Insert operation.</span></span> <span data-ttu-id="c6131-106">如此一來，您傳遞要插入至回應訊息中的值**Purchase_Order**資料表。</span><span class="sxs-lookup"><span data-stu-id="c6131-106">By doing so, you pass on the values in the response message to be inserted in the **Purchase_Order** table.</span></span>  
+ <span data-ttu-id="c6131-105">**目標：** 在此步驟中，您可以建立要在上執行插入作業的要求訊息**Purchase_Order**資料表，然後將對應的回應訊息**UPDATE_EMPLOYEE**儲存插入作業的要求訊息的程序。</span><span class="sxs-lookup"><span data-stu-id="c6131-105">**Objective:** In this step, you create the request message to perform an Insert operation on the **Purchase_Order** table and then map the response message for the **UPDATE_EMPLOYEE** stored procedure to the request message for the Insert operation.</span></span> <span data-ttu-id="c6131-106">如此一來，您傳遞要插入至回應訊息中的值**Purchase_Order**資料表。</span><span class="sxs-lookup"><span data-stu-id="c6131-106">By doing so, you pass on the values in the response message to be inserted in the **Purchase_Order** table.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="c6131-107">必要條件</span><span class="sxs-lookup"><span data-stu-id="c6131-107">Prerequisites</span></span>  
  <span data-ttu-id="c6131-108">您必須先完成[步驟 1： 建立 Purchase_Order 資料表上的插入作業的要求訊息](../../adapters-and-accelerators/adapter-sql/step-1-create-the-request-message-for-insert-operation-on-purchase-order-table.md)。</span><span class="sxs-lookup"><span data-stu-id="c6131-108">You must have completed [Step 1: Create the Request Message for Insert Operation on Purchase_Order Table](../../adapters-and-accelerators/adapter-sql/step-1-create-the-request-message-for-insert-operation-on-purchase-order-table.md).</span></span>  
@@ -37,7 +38,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  <span data-ttu-id="c6131-113">設計介面上，以滑鼠右鍵按一下**constructmessage_1**圖形，，然後按一下**屬性 視窗**。</span><span class="sxs-lookup"><span data-stu-id="c6131-113">On the design surface, right-click the **ConstructMessage_1** shape, and then click **Properties Window**.</span></span>  
   
-3.  <span data-ttu-id="c6131-114">在**屬性**窗格**[constructmessage_1]**圖形中，指定下列值。</span><span class="sxs-lookup"><span data-stu-id="c6131-114">In the **Properties** pane for the **ConstructMessage_1** shape, specify the following values.</span></span>  
+3.  <span data-ttu-id="c6131-114">在**屬性**窗格 **[constructmessage_1]** 圖形中，指定下列值。</span><span class="sxs-lookup"><span data-stu-id="c6131-114">In the **Properties** pane for the **ConstructMessage_1** shape, specify the following values.</span></span>  
   
     |<span data-ttu-id="c6131-115">將此屬性設定</span><span class="sxs-lookup"><span data-stu-id="c6131-115">Set this property</span></span>|<span data-ttu-id="c6131-116">此值</span><span class="sxs-lookup"><span data-stu-id="c6131-116">To this value</span></span>|  
     |-----------------------|-------------------|  

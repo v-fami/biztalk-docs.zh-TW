@@ -1,14 +1,14 @@
 ---
-title: "根據指定的分隔符號集，沒有有效的時間值可能會產生 |Microsoft 文件"
-ms.custom: 
+title: 根據指定的分隔符號集，沒有有效的時間值可能會產生 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e7e22958-e1fa-474d-85a2-aa69e05b7228
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230790"
 ---
 # <a name="based-on-the-specified-delimiter-set-no-valid-time-value-could-be-generated"></a><span data-ttu-id="36052-102">根據指定的分隔符號集，沒有有效的時間值無法產生</span><span class="sxs-lookup"><span data-stu-id="36052-102">Based on the specified delimiter set, no valid Time value could be generated</span></span>
 ## <a name="details"></a><span data-ttu-id="36052-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="36052-103">Details</span></span>  

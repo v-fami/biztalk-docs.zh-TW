@@ -1,17 +1,17 @@
 ---
-title: "SAP 配接器中設定動態連接埠 |Microsoft 文件"
-ms.custom: 
+title: SAP 配接器中設定動態連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - dynamic ports, configuring
 - configuring, dynamic ports
 ms.assetid: 4d6569f9-e513-47f3-b2c1-4c21bafb2bf2
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216182"
 ---
 # <a name="configure-dynamic-ports-in-the-sap-adapter"></a><span data-ttu-id="643b4-102">SAP 配接器中設定動態連接埠</span><span class="sxs-lookup"><span data-stu-id="643b4-102">Configure dynamic ports in the SAP adapter</span></span>
 ## <a name="use-message-context-properties"></a><span data-ttu-id="643b4-103">使用訊息內容屬性</span><span class="sxs-lookup"><span data-stu-id="643b4-103">Use message context properties</span></span>

@@ -1,18 +1,18 @@
 ---
-title: "何謂 BAM 定義？ | Microsoft Docs"
-ms.custom: 
+title: 何謂 BAM 定義？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - definitions [BAM], observation models
 - definitions [BAM], about BAM definitions
 - definitions [BAM]
 ms.assetid: 1ba1f45e-85fe-492f-8a2e-98bf3570c633
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289678"
 ---
 # <a name="what-is-a-bam-definition"></a><span data-ttu-id="b4cdf-103">何謂 BAM 定義？</span><span class="sxs-lookup"><span data-stu-id="b4cdf-103">What Is a BAM Definition?</span></span>
 <span data-ttu-id="b4cdf-104">BAM 定義是 BAM 觀察模型的 XML 表示法，代表所監控之商務程序的高階定義。</span><span class="sxs-lookup"><span data-stu-id="b4cdf-104">A BAM definition is an XML representation of a BAM observation model, which is a high-level definition a business process that you want to monitor.</span></span> <span data-ttu-id="b4cdf-105">觀察模型的主要部分包括里程碑和蒐集的資料事件 (BAM 活動)、任何資料彙總的描述，以及向使用者呈現資訊的方式 (BAM 檢視)；因此這些同樣也是 BAM 定義的主要部分。</span><span class="sxs-lookup"><span data-stu-id="b4cdf-105">The main parts of the observation model, and therefore the BAM definition, are the milestone and data events to collect (the BAM activity); a description of any data aggregations; and how to present the information to users (the BAM view).</span></span>  

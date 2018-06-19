@@ -1,14 +1,14 @@
 ---
-title: "教學課程： 使用 BizTalk Adapter for JD Edwards EnterpriseOne |Microsoft 文件"
-ms.custom: 
+title: 教學課程： 使用 BizTalk Adapter for JD Edwards EnterpriseOne |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1cafbe72-2b90-4d8e-9a1d-5735cefeb3d4
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286374"
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-jd-edwards-enterpriseone"></a><span data-ttu-id="308c9-102">教學課程： 使用 BizTalk Adapter for JD Edwards EnterpriseOne</span><span class="sxs-lookup"><span data-stu-id="308c9-102">Tutorial: Using the BizTalk Adapter for JD Edwards EnterpriseOne</span></span>
 <span data-ttu-id="308c9-103">下列示範如何使用 BizTalk 內容屬性來控制 J.D.</span><span class="sxs-lookup"><span data-stu-id="308c9-103">The following demonstrates using BizTalk Context Properties to control the J.D.</span></span>  <span data-ttu-id="308c9-104">Edwards OneWorld 工作階段在協調流程中。</span><span class="sxs-lookup"><span data-stu-id="308c9-104">Edwards OneWorld session in your orchestration.</span></span> <span data-ttu-id="308c9-105">本教學課程假設您有協調流程會傳送 BeginDoc、 EditLine 及 EndDoc 呼叫至傳送埠繫結至 Microsoft BizTalk Adapter for J.D.</span><span class="sxs-lookup"><span data-stu-id="308c9-105">The tutorial assumes you have an orchestration that sends BeginDoc, EditLine and EndDoc calls to a send port bound to the Microsoft BizTalk Adapter for J.D.</span></span> <span data-ttu-id="308c9-106">Edwards OneWorld。</span><span class="sxs-lookup"><span data-stu-id="308c9-106">Edwards OneWorld.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268854"
 ---
 # <a name="secure-and-protect-your-biztalk-messages"></a><span data-ttu-id="5c643-102">保全及保護您的 BizTalk 訊息</span><span class="sxs-lookup"><span data-stu-id="5c643-102">Secure and protect your BizTalk messages</span></span>
 <span data-ttu-id="5c643-103">Microsoft® BizTalk® Server 提供標準閘道，可以同時在內部網路中以及透過網際網路來傳送和接收文件。</span><span class="sxs-lookup"><span data-stu-id="5c643-103">Microsoft® BizTalk® Server provides a standard gateway for sending and receiving documents both within an intranet and through the Internet.</span></span> <span data-ttu-id="5c643-104">由於往返 BizTalk Server 所傳送的訊息可能在商務上具有重大性質，請務必考量因應措施，在這些訊息的傳輸過程中，以及在 BizTalk Server 加以處理和儲存時，確保訊息及其所含資訊的安全性。</span><span class="sxs-lookup"><span data-stu-id="5c643-104">Due to the possible business-critical nature of the messages sent to and from BizTalk Server, it is important to consider measures for securing these messages and the information they contain both as they are in transit and while BizTalk Server processes and stores them.</span></span> <span data-ttu-id="5c643-105">本節將提供有關 BizTalk Server 安全性功能的詳細資訊，以及如何使用這些功能來保護資料和環境的安全。</span><span class="sxs-lookup"><span data-stu-id="5c643-105">This section provides information about the BizTalk Server security features, and how you can use them to secure your data and environment.</span></span>  

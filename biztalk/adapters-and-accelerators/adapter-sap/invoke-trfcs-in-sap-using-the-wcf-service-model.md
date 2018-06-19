@@ -1,17 +1,17 @@
 ---
-title: "叫用中使用 WCF 服務模型的 SAP tRFCs |Microsoft 文件"
-ms.custom: 
+title: 叫用中使用 WCF 服務模型的 SAP tRFCs |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - tRFCs, invoking by using the WCF service model
 - WCF service model, invoking tRFCs
 ms.assetid: 456fa869-2f1a-42e0-adbf-86bfe0876846
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216654"
 ---
 # <a name="invoke-trfcs-in-sap-using-the-wcf-service-model"></a><span data-ttu-id="cf233-102">叫用 tRFCs SAP 使用 WCF 服務模型中</span><span class="sxs-lookup"><span data-stu-id="cf233-102">Invoke tRFCs in SAP using the WCF Service Model</span></span>
 <span data-ttu-id="cf233-103">交易式遠端函式呼叫 (tRFCs) 保證*單次*RFC，SAP 系統上執行。</span><span class="sxs-lookup"><span data-stu-id="cf233-103">Transactional Remote Function Calls (tRFCs) guarantee a *one-time* execution of an RFC on an SAP system.</span></span> <span data-ttu-id="cf233-104">您可以叫用任何由顯示 Rfc [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] tRFC 為。</span><span class="sxs-lookup"><span data-stu-id="cf233-104">You can invoke any of the RFCs surfaced by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] as a tRFC.</span></span> <span data-ttu-id="cf233-105">叫用 WCF 服務模型中的 tRFC 是類似於叫用的 RFC 具有下列差異：</span><span class="sxs-lookup"><span data-stu-id="cf233-105">Invoking a tRFC in the WCF service model is similar to invoking an RFC with the following differences:</span></span>  

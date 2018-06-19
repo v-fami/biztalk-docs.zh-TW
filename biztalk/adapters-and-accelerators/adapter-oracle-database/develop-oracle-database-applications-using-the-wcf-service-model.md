@@ -1,18 +1,18 @@
 ---
-title: "開發 Oracle 資料庫應用程式使用 WCF 服務模型 |Microsoft 文件"
-ms.custom: 
+title: 開發 Oracle 資料庫應用程式使用 WCF 服務模型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performing operations, by using the WCF service model
 - developing applications, by using the WCF service model
 - WCF service model, using to develop applications
 ms.assetid: 3f2c60b2-4835-492d-8c3c-ed35d3e4c517
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215638"
 ---
 # <a name="develop-oracle-database-applications-using-the-wcf-service-model"></a><span data-ttu-id="9f22b-102">開發使用 WCF 服務模型的 Oracle 資料庫應用程式</span><span class="sxs-lookup"><span data-stu-id="9f22b-102">Develop Oracle Database applications using the WCF Service Model</span></span>
 <span data-ttu-id="9f22b-103">最低層級，[!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]提供程式設計的模型中的用戶端叫用作業服務藉由在用戶端與服務端點之間建立的通道上交換 SOAP 訊息。</span><span class="sxs-lookup"><span data-stu-id="9f22b-103">At the lowest level, the [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] presents a programming model in which clients invoke operations on a service by exchanging SOAP messages over a channel established between client and service endpoints.</span></span> <span data-ttu-id="9f22b-104">此模型中，稱為 WCF 通道模型，公開資料型別和方法，可讓您直接在 WCF 通道架構上運作。</span><span class="sxs-lookup"><span data-stu-id="9f22b-104">This model, known as the WCF channel model, exposes data types and methods that enable you to operate directly on the WCF channel architecture.</span></span> <span data-ttu-id="9f22b-105">WCF 通道模型會將您提供直接控制您所建立之 SOAP 訊息的內容以及方式這兩個應用程式和[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]取用這些; 不過，建立格式正確的 SOAP 訊息，透過通道傳送，並驗證傳回回覆訊息可以是詳細的精確的工作。</span><span class="sxs-lookup"><span data-stu-id="9f22b-105">The WCF channel model provides you with direct control over the contents of the SOAP messages you create and over the way both your application and the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)] consume them; however, creating well-formed SOAP messages to send over a channel and validating the reply messages returned can be a detailed and exacting task.</span></span>  

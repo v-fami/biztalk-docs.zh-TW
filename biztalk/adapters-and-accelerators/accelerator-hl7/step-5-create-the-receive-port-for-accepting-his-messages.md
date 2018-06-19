@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207246"
 ---
 # <a name="step-5-create-the-receive-port-for-accepting-his-messages"></a><span data-ttu-id="63a81-102">步驟 5： 建立接收埠，以便接受他的訊息</span><span class="sxs-lookup"><span data-stu-id="63a81-102">Step 5: Create the Receive Port for Accepting HIS Messages</span></span>
 <span data-ttu-id="63a81-103">在此步驟中，您會建立接收埠以指定傳入訊息傳送醫院資訊系統 (HIS) 的位置。</span><span class="sxs-lookup"><span data-stu-id="63a81-103">In this step you create a receive port to specify the location for incoming messages sent by the Hospital Information System (HIS).</span></span> <span data-ttu-id="63a81-104">使用下列程序來建立接收埠，以便接受從 ADT 系統使用最少的較低層通訊協定 (MLLP) 配接器的查詢回應訊息。</span><span class="sxs-lookup"><span data-stu-id="63a81-104">Use the following procedure to create the receive port for accepting query response messages from the ADT system using the Minimal Lower Layer Protocol (MLLP) adapter.</span></span>  

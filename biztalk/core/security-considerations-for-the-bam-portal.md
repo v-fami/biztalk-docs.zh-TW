@@ -1,11 +1,11 @@
 ---
-title: "BAM 入口網站的安全性考量 |Microsoft 文件"
-ms.custom: 
+title: BAM 入口網站的安全性考量 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM portal, security
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BAM portal, user accounts
 - security, BAM portal
 ms.assetid: 5c8e6034-dfb8-4dba-b040-0c19504abdb2
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269382"
 ---
 # <a name="security-considerations-for-the-bam-portal"></a><span data-ttu-id="d71be-102">BAM 入口網站的安全性考量</span><span class="sxs-lookup"><span data-stu-id="d71be-102">Security Considerations for the BAM Portal</span></span>
 <span data-ttu-id="d71be-103">依照最低權限原則，應對使用 BAM 入口網站執行例行工作的使用者帳戶賦予嚴格的存取權限。</span><span class="sxs-lookup"><span data-stu-id="d71be-103">Using the principle of least privilege, user accounts should have restrictive permissions to perform routine tasks in the BAM portal.</span></span> <span data-ttu-id="d71be-104">當您設定 BAM 的使用者帳戶時，請記住下列重點，以便在安全性與使用者之適當存取權之間取得平衡。</span><span class="sxs-lookup"><span data-stu-id="d71be-104">Keep the following points in mind as you set up your user accounts for BAM to balance security with appropriate access for users.</span></span>  

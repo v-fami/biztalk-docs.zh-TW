@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268478"
 ---
 # <a name="receiveportref-port-node"></a><span data-ttu-id="bd842-102">ReceivePortRef (連接埠節點)</span><span class="sxs-lookup"><span data-stu-id="bd842-102">ReceivePortRef (Port Node)</span></span>
 <span data-ttu-id="bd842-103">繫結檔案連接埠節點的 ReceivePortRef 節點包含與服務所參考之接收埠有關的資訊。</span><span class="sxs-lookup"><span data-stu-id="bd842-103">The ReceivePortRef node of the Port node of a binding file contains information about a receive port that is referenced by a service.</span></span>  

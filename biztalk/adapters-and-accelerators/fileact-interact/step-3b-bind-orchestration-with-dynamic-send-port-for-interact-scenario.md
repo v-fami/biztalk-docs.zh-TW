@@ -1,14 +1,14 @@
 ---
-title: "步驟 3B： 互動存放區和轉送 （提取） 案例的動態傳送埠與協調流程繫結 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3B： 互動存放區和轉送 （提取） 案例的動態傳送埠與協調流程繫結 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 55eec1f3-b920-48f8-946a-9ad7afa36fd6
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223294"
 ---
 # <a name="step-3b-bind-the-orchestration-with-dynamic-send-port-for-interact-store-and-forward-pull-scenario"></a><span data-ttu-id="d962e-102">步驟 3B： 互動存放區和轉送 （提取） 案例的動態傳送埠與協調流程繫結</span><span class="sxs-lookup"><span data-stu-id="d962e-102">Step 3B: Bind the orchestration with dynamic send port for InterAct Store and Forward (Pull) Scenario</span></span>
 <span data-ttu-id="d962e-103">在開始此步驟之前，必須先完成[步驟 3A： 建立協調流程互動的存放區和轉送 （提取） 案例的動態傳送埠](../../adapters-and-accelerators/fileact-interact/step-3a-create-orchestration-for-dynamic-send-port-interact-store-and-forward.md)。</span><span class="sxs-lookup"><span data-stu-id="d962e-103">Before you begin this step, you must complete [Step 3A: Create an orchestration for dynamic send port for InterAct Store and Forward (Pull) Scenario](../../adapters-and-accelerators/fileact-interact/step-3a-create-orchestration-for-dynamic-send-port-interact-store-and-forward.md).</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 將篩選加入 Insert 通知 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 將篩選加入 Insert 通知 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 53a1e9ef-a179-42a7-b4ae-b1170181053b
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223262"
 ---
 # <a name="step-3-add-a-filter-for-insert-notifications"></a><span data-ttu-id="a6bbc-102">步驟 3： 將篩選加入 Insert 通知</span><span class="sxs-lookup"><span data-stu-id="a6bbc-102">Step 3: Add a Filter for Insert Notifications</span></span>
 <span data-ttu-id="a6bbc-103">![步驟 3 之 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span><span class="sxs-lookup"><span data-stu-id="a6bbc-103">![Step 3 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span></span>  
   
  <span data-ttu-id="a6bbc-104">**若要完成的時間：** 5 分鐘</span><span class="sxs-lookup"><span data-stu-id="a6bbc-104">**Time to complete:** 5 minutes</span></span>  
   
- <span data-ttu-id="a6bbc-105">**目標：**此步驟中，在您加入至篩選的插入作業的通知訊息的協調流程 「 決定 」 圖形。</span><span class="sxs-lookup"><span data-stu-id="a6bbc-105">**Objective:** In this step, you add a Decide shape to the orchestration to filter for notification messages for Insert operation.</span></span> <span data-ttu-id="a6bbc-106">協調流程中的後續作業會執行才收到通知的插入類型。</span><span class="sxs-lookup"><span data-stu-id="a6bbc-106">Subsequent operations in the orchestration are performed only if the notification received is of Insert type.</span></span>  
+ <span data-ttu-id="a6bbc-105">**目標：** 此步驟中，在您加入至篩選的插入作業的通知訊息的協調流程 「 決定 」 圖形。</span><span class="sxs-lookup"><span data-stu-id="a6bbc-105">**Objective:** In this step, you add a Decide shape to the orchestration to filter for notification messages for Insert operation.</span></span> <span data-ttu-id="a6bbc-106">協調流程中的後續作業會執行才收到通知的插入類型。</span><span class="sxs-lookup"><span data-stu-id="a6bbc-106">Subsequent operations in the orchestration are performed only if the notification received is of Insert type.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="a6bbc-107">必要條件</span><span class="sxs-lookup"><span data-stu-id="a6bbc-107">Prerequisites</span></span>  
  <span data-ttu-id="a6bbc-108">您必須先完成[步驟 2： 擷取通知訊息的通知類型](../../adapters-and-accelerators/adapter-sql/step-2-extract-notification-type-from-notification-message.md)。</span><span class="sxs-lookup"><span data-stu-id="a6bbc-108">You must have completed [Step 2: Extract Notification Type from Notification Message](../../adapters-and-accelerators/adapter-sql/step-2-extract-notification-type-from-notification-message.md).</span></span>  
@@ -32,7 +33,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  <span data-ttu-id="a6bbc-110">新增**決定**圖形至協調流程之後,**運算式**圖形。</span><span class="sxs-lookup"><span data-stu-id="a6bbc-110">Add a **Decide** shape to the orchestration, after the **Expression** shape.</span></span> <span data-ttu-id="a6bbc-111">從 [工具箱] 拖曳**決定**圖形正下方的連接線到**運算式**圖形。</span><span class="sxs-lookup"><span data-stu-id="a6bbc-111">From the Toolbox, drag the **Decide** shape onto the connecting line directly below the **Expression** shape.</span></span>  
   
-     <span data-ttu-id="a6bbc-112">**決定**圖形展開會顯示分支**如果**陳述式**([rule_1])**和分支**Else**陳述式。</span><span class="sxs-lookup"><span data-stu-id="a6bbc-112">The **Decide** shape expands to show a branch for the **If** statement **(Rule_1)** and a branch for the **Else** statement.</span></span>  
+     <span data-ttu-id="a6bbc-112">**決定**圖形展開會顯示分支**如果**陳述式 **([rule_1])** 和分支**Else**陳述式。</span><span class="sxs-lookup"><span data-stu-id="a6bbc-112">The **Decide** shape expands to show a branch for the **If** statement **(Rule_1)** and a branch for the **Else** statement.</span></span>  
   
 2.  <span data-ttu-id="a6bbc-113">設計介面上，以滑鼠右鍵按一下**決定**圖形，，然後按一下**屬性 視窗**。</span><span class="sxs-lookup"><span data-stu-id="a6bbc-113">On the design surface, right-click the **Decide** shape, and then click **Properties Window**.</span></span>  
   

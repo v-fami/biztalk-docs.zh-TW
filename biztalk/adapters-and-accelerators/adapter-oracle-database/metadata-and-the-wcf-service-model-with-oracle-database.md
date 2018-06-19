@@ -1,18 +1,18 @@
 ---
-title: "中繼資料和 WCF 服務與 Oracle 資料庫的模型 |Microsoft 文件"
-ms.custom: 
+title: 中繼資料和 WCF 服務與 Oracle 資料庫的模型 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service model, metadata
 - WCF client class
 - WCF service contract
 ms.assetid: b55cf4ed-c41a-4986-bbaf-88e80c32b01f
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214974"
 ---
 # <a name="metadata-and-the-wcf-service-model-with-oracle-database"></a><span data-ttu-id="a4f26-102">中繼資料和 WCF 服務模型，與 Oracle 資料庫</span><span class="sxs-lookup"><span data-stu-id="a4f26-102">Metadata and the WCF Service Model with Oracle Database</span></span>
 <span data-ttu-id="a4f26-103">在 WCF 服務模型中，您可以使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]或者 ServiceModel Metadata Utility Tool (svcutile.exe) 來產生 proxy 類別，您的程式碼可以是：</span><span class="sxs-lookup"><span data-stu-id="a4f26-103">In the WCF service model, you use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)].or the ServiceModel Metadata Utility Tool (svcutile.exe) to generate proxy classes through which your code can either:</span></span>  

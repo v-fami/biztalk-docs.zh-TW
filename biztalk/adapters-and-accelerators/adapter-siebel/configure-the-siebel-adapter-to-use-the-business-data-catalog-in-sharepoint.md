@@ -1,14 +1,14 @@
 ---
-title: "設定 Siebel 配接器 Siebel 系統整合的商務資料目錄，而且 SharePoint |Microsoft 文件"
-ms.custom: 
+title: 設定 Siebel 配接器 Siebel 系統整合的商務資料目錄，而且 SharePoint |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 49b575e8-5f33-4e6e-a914-95d357671ab5
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22221934"
 ---
 # <a name="configure-the-siebel-adapter-to-integrate-the-siebel-system-with-the-business-data-catalog-and-sharepoint"></a><span data-ttu-id="a720a-102">設定 Siebel 配接器 Siebel 系統整合的商務資料目錄和 SharePoint</span><span class="sxs-lookup"><span data-stu-id="a720a-102">Configure the Siebel Adapter to Integrate the Siebel System with the Business Data Catalog and SharePoint</span></span>
 <span data-ttu-id="a720a-103">[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]包含[!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)]，如此就會產生特定 LOB 成品的 WCF 服務。</span><span class="sxs-lookup"><span data-stu-id="a720a-103">The [!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)] includes the [!INCLUDE[afsvcdevwizlong](../../includes/afsvcdevwizlong-md.md)], which generates a WCF service for specific LOB artifacts.</span></span> <span data-ttu-id="a720a-104">例如 Microsoft Internet Information Services (IIS) 裝載環境中裝載 WCF 服務。</span><span class="sxs-lookup"><span data-stu-id="a720a-104">This WCF service is hosted in a hosting environment such as Microsoft Internet Information Services (IIS).</span></span> <span data-ttu-id="a720a-105">商務資料目錄定義編輯器使用的 URL 取得 Web 服務描述語言 (WSDL) 的 WCF 服務中裝載 WCF 服務的位置。</span><span class="sxs-lookup"><span data-stu-id="a720a-105">The Business Data Catalog Definition Editor uses the URL where the WCF service is hosted to get the Web Services Description Language (WSDL) for the WCF service.</span></span> <span data-ttu-id="a720a-106">使用 WSDL，商務資料目錄定義編輯器中擷取可用的 WCF 服務的方法。</span><span class="sxs-lookup"><span data-stu-id="a720a-106">Using the WSDL, the Business Data Catalog Definition Editor extracts the methods available to the WCF service.</span></span> <span data-ttu-id="a720a-107">這些方法可以用來建立實體和實體之間的關聯。</span><span class="sxs-lookup"><span data-stu-id="a720a-107">These methods can be used to establish entities and the association between the entities.</span></span>  

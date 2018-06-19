@@ -1,15 +1,15 @@
 ---
-title: "SELECT 陳述式的範例 mySAP 配接器在 BizTalk 中 |Microsoft 文件"
-description: "選取範例和範例使用 mySAP 配接器在 BizTalk 配接器組件 (BAP)"
-ms.custom: 
+title: SELECT 陳述式的範例 mySAP 配接器在 BizTalk 中 |Microsoft 文件
+description: 選取範例和範例使用 mySAP 配接器在 BizTalk 配接器組件 (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 54a5a4ac-a994-4706-9735-a5a1a82b893b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216126"
 ---
 # <a name="examples-for-select-statement"></a><span data-ttu-id="62831-103">SELECT 陳述式的範例</span><span class="sxs-lookup"><span data-stu-id="62831-103">Examples for SELECT Statement</span></span>
 <span data-ttu-id="62831-104">本主題說明各種不同的 SELECT 陳述式的範例語法。</span><span class="sxs-lookup"><span data-stu-id="62831-104">This topic shows example syntax for various SELECT statements.</span></span>

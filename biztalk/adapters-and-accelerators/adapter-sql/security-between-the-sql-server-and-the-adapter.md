@@ -1,14 +1,14 @@
 ---
-title: "SQL Server 與配接器之間的安全性 |Microsoft 文件"
-ms.custom: 
+title: SQL Server 與配接器之間的安全性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c4b0fd11-6753-4f52-9be7-3b6fa330fb8b
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222494"
 ---
 # <a name="security-between-the-sql-server-and-the-adapter"></a><span data-ttu-id="057d5-102">SQL Server 與配接器之間的安全性</span><span class="sxs-lookup"><span data-stu-id="057d5-102">Security between the SQL Server and the adapter</span></span>
 <span data-ttu-id="057d5-103">[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]是相容的標準方法，例如 SSO 和 IPSEC 來保護資料交換與資料庫伺服器。</span><span class="sxs-lookup"><span data-stu-id="057d5-103">The [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] is compatible with the standard methods, such as SSO and IPSEC used to secure data exchanges with the database server.</span></span> <span data-ttu-id="057d5-104">不安全的資料交換可以將資料公開給未經授權的動作項目。</span><span class="sxs-lookup"><span data-stu-id="057d5-104">Unsecured data exchanges can expose data to unauthorized actors.</span></span> <span data-ttu-id="057d5-105">如需與 SQL Server 的安全性問題的資訊，請參閱[的 SQL Server 的安全性考量](http://go.microsoft.com/fwlink/p/?LinkId=196954)SQL 文件中。</span><span class="sxs-lookup"><span data-stu-id="057d5-105">For information about security issues with SQL Server, see [Security Considerations for SQL Server](http://go.microsoft.com/fwlink/p/?LinkId=196954) in the SQL documentation.</span></span>  

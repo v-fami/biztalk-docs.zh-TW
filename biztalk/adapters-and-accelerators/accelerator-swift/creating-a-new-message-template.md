@@ -1,18 +1,18 @@
 ---
-title: "建立新的郵件範本 |Microsoft 文件"
-ms.custom: 
+title: 建立新的郵件範本 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, templates
 - templates, creating
 - creating, templates
 ms.assetid: 8c601d2b-b7a5-4ac4-9d98-fd9960038340
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209238"
 ---
 # <a name="creating-a-new-message-template"></a><span data-ttu-id="b2065-102">建立新的郵件範本</span><span class="sxs-lookup"><span data-stu-id="b2065-102">Creating a New Message Template</span></span>
 <span data-ttu-id="b2065-103">您可以從現有的範本建立新的郵件範本。</span><span class="sxs-lookup"><span data-stu-id="b2065-103">You can create a new message template from an existing template.</span></span> <span data-ttu-id="b2065-104">這可讓自訂的表單，例如標準的 SWIFT 表單已輸入一些資料的複本上建立新的訊息執行個體的建立者。</span><span class="sxs-lookup"><span data-stu-id="b2065-104">This enables a creator to create a new message instance on a custom form, such as a copy of a standard SWIFT form that already has some data entered into it.</span></span> <span data-ttu-id="b2065-105">使用新範本，建立者並沒有輸入的所有使用空的表單時所需的資料。</span><span class="sxs-lookup"><span data-stu-id="b2065-105">Using the new template, the creator does not have to enter all of the data required when using an empty form.</span></span>  

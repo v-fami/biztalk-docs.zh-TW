@@ -1,11 +1,11 @@
 ---
-title: "商務事件節點 |Microsoft 文件"
-ms.custom: 
+title: 商務事件節點 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - events, Tracking Profile Editor
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Business Event nodes [Tracking Profile Editor]
 - Tracking Profile Editor, events
 ms.assetid: 177bc3c4-e762-42fe-80bc-edede5cd4fcd
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230902"
 ---
 # <a name="business-event-nodes"></a><span data-ttu-id="09ee3-102">商務事件節點</span><span class="sxs-lookup"><span data-stu-id="09ee3-102">Business Event Nodes</span></span>
 <span data-ttu-id="09ee3-103">「商務事件」或里程碑節點定義特定日期或時間的事件。</span><span class="sxs-lookup"><span data-stu-id="09ee3-103">Business Event or milestone nodes define events that are date- or time-specific.</span></span> <span data-ttu-id="09ee3-104">預先定義的商務事件和里程碑資料夾存在於您從商務使用者匯入的活動定義中，若不重新匯入活動定義檔案則無法刪除。</span><span class="sxs-lookup"><span data-stu-id="09ee3-104">Pre-defined business event and milestone folders exist in the activity definition you import from the business end user, and you cannot delete them without reimporting the activity definition file.</span></span>  

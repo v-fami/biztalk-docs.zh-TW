@@ -1,14 +1,14 @@
 ---
-title: "協調流程引擎效能計數器 |Microsoft 文件"
-ms.custom: 
+title: 協調流程引擎效能計數器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dcaf7517-da4a-4ed0-a3bb-7e9b73931bff
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22265606"
 ---
 # <a name="orchestration-engine-performance-counters"></a><span data-ttu-id="d85af-102">協調流程引擎效能計數器</span><span class="sxs-lookup"><span data-stu-id="d85af-102">Orchestration Engine Performance Counters</span></span>
 <span data-ttu-id="d85af-103">協調流程引擎包含數個效能計數器，以供您透過效能監視器來查看該引擎在一段時間內處理的協調流程執行個體數與交易數。</span><span class="sxs-lookup"><span data-stu-id="d85af-103">The orchestration engine maintains several performance counters that you can examine with Performance Monitor to see how many orchestration instances and transactions are being processed by the engine over time.</span></span>  

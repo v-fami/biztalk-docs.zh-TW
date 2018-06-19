@@ -1,17 +1,17 @@
 ---
-title: "使用 SQL Server Management Studio 的 SAP 資料匯入 |Microsoft 文件"
-ms.custom: 
+title: 使用 SQL Server Management Studio 的 SAP 資料匯入 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - importing SAP data, how to
 - SQL Server Management Studio, importing data
 ms.assetid: c8151c6d-4b33-40fe-9b83-9bed27df9a99
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217830"
 ---
 # <a name="import-sap-data-using-sql-server-management-studio"></a><span data-ttu-id="704d0-102">使用 SQL Server Management Studio 匯入 SAP 資料</span><span class="sxs-lookup"><span data-stu-id="704d0-102">Import SAP Data Using SQL Server Management Studio</span></span>
 <span data-ttu-id="704d0-103">本節提供有關如何使用 SQL Server Management Studio 從 SAP 系統的資料匯入到 SQL Server 資料庫的資訊。</span><span class="sxs-lookup"><span data-stu-id="704d0-103">This section provides information on how to use the SQL Server Management Studio to import data from an SAP system into a SQL Server database.</span></span> <span data-ttu-id="704d0-104">本節提供有關如何建立 SSIS 封裝，您可以執行匯入資料的指示。</span><span class="sxs-lookup"><span data-stu-id="704d0-104">This section provides instruction on how to create an SSIS package that you can execute to import data.</span></span> <span data-ttu-id="704d0-105">本章節也會提供有關如何執行 SSIS 封裝的資訊。</span><span class="sxs-lookup"><span data-stu-id="704d0-105">This section also provides information on how to execute the SSIS package.</span></span>  
@@ -41,7 +42,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  <span data-ttu-id="704d0-117">閱讀歡迎] 畫面中，然後按一下上的資訊**下一步**。</span><span class="sxs-lookup"><span data-stu-id="704d0-117">Read the information on the welcome screen and click **Next**.</span></span>  
   
-5.  <span data-ttu-id="704d0-118">在**選擇資料來源**對話方塊中，從**資料來源**下拉式選單**.NET Framework Data Provider for mySAP Business Suite**。</span><span class="sxs-lookup"><span data-stu-id="704d0-118">In the **Choose a Data Source** dialog box, from the **Data Source** drop-down list **.NET Framework Data Provider for mySAP Business Suite**.</span></span> <span data-ttu-id="704d0-119">對話方塊會列出不同的連線參數，以連接至 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="704d0-119">The dialog box lists the different connection parameters to connect to an SAP system.</span></span> <span data-ttu-id="704d0-120">一般連接字串來連接 SAP 系統使用[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]需要：</span><span class="sxs-lookup"><span data-stu-id="704d0-120">A typical connection string to connect to an SAP system using the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] requires:</span></span>  
+5.  <span data-ttu-id="704d0-118">在**選擇資料來源**對話方塊中，從**資料來源**下拉式選單 **.NET Framework Data Provider for mySAP Business Suite**。</span><span class="sxs-lookup"><span data-stu-id="704d0-118">In the **Choose a Data Source** dialog box, from the **Data Source** drop-down list **.NET Framework Data Provider for mySAP Business Suite**.</span></span> <span data-ttu-id="704d0-119">對話方塊會列出不同的連線參數，以連接至 SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="704d0-119">The dialog box lists the different connection parameters to connect to an SAP system.</span></span> <span data-ttu-id="704d0-120">一般連接字串來連接 SAP 系統使用[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]需要：</span><span class="sxs-lookup"><span data-stu-id="704d0-120">A typical connection string to connect to an SAP system using the [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] requires:</span></span>  
   
     -   <span data-ttu-id="704d0-121">輸入連接的連接參數。</span><span class="sxs-lookup"><span data-stu-id="704d0-121">The connection parameters for a connection type.</span></span> <span data-ttu-id="704d0-122">[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]支援連線類型 A、 B 和 d。若要連接到 SAP 系統必須提供連接參數的任何*一個*一種連線類型。</span><span class="sxs-lookup"><span data-stu-id="704d0-122">The [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)] supports connection types A, B, and D. To connect to an SAP system you must provide connection parameters for any *one* of these connection types.</span></span> <span data-ttu-id="704d0-123">比方說，連接類型的您必須提供應用程式伺服器主機和系統編號的名稱。</span><span class="sxs-lookup"><span data-stu-id="704d0-123">For example, for connection type A, you must provide the name of the application server host and the system number.</span></span>  
   

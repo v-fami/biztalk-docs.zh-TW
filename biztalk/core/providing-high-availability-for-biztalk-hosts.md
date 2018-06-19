@@ -1,11 +1,11 @@
 ---
-title: "為 BizTalk 主控件提供高可用性 |Microsoft 文件"
-ms.custom: 
+title: 為 BizTalk 主控件提供高可用性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, MessageBox database
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - hosts, planning
 - MessageBox database
 ms.assetid: 9583b85c-7cad-4016-8065-5ca7de3f4359
-caps.latest.revision: "47"
+caps.latest.revision: 47
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271894"
 ---
 # <a name="providing-high-availability-for-biztalk-hosts"></a><span data-ttu-id="5d997-102">為 BizTalk 主控件提供高可用性</span><span class="sxs-lookup"><span data-stu-id="5d997-102">Providing High Availability for BizTalk Hosts</span></span>
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="5d997-103"> 為處理高可用性提供很大的彈性，您可以策略性地讓邏輯主控件專用於執行特定部分的功能，例如，接收訊息、傳送訊息或處理協調流程。</span><span class="sxs-lookup"><span data-stu-id="5d997-103"> provides great flexibility for addressing high availability because you can strategically dedicate logical hosts to run specific areas of functionality such as receiving messages, sending messages or processing orchestrations.</span></span>  

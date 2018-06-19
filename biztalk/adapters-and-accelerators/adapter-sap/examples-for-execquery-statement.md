@@ -1,15 +1,15 @@
 ---
-title: "EXECQUERY 陳述式的範例 mySAP 配接器在 BizTalk 中 |Microsoft 文件"
-description: "EXECQUERY 範例和範例使用 mySAP 配接器在 BizTalk 配接器組件 (BAP)"
-ms.custom: 
+title: EXECQUERY 陳述式的範例 mySAP 配接器在 BizTalk 中 |Microsoft 文件
+description: EXECQUERY 範例和範例使用 mySAP 配接器在 BizTalk 配接器組件 (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4139af16-7c38-4ea2-b3e5-5acf8fc1f3c4
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216238"
 ---
 # <a name="examples-for-execquery-statement"></a><span data-ttu-id="2e357-103">EXECQUERY 陳述式的範例</span><span class="sxs-lookup"><span data-stu-id="2e357-103">Examples for EXECQUERY Statement</span></span>
 <span data-ttu-id="2e357-104">本主題提供範例 EXECQUERY 陳述式。</span><span class="sxs-lookup"><span data-stu-id="2e357-104">This topic provides sample EXECQUERY statements.</span></span>  

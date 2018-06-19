@@ -1,11 +1,11 @@
 ---
-title: "協調流程 |Microsoft 文件"
-ms.custom: 
+title: 協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - deploying, orchestrations
 - orchestrations, about orchestrations
 ms.assetid: fb01f78a-b805-46be-a7d9-2b7597daab96
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266670"
 ---
 # <a name="orchestrations"></a><span data-ttu-id="dae65-102">協調流程</span><span class="sxs-lookup"><span data-stu-id="dae65-102">Orchestrations</span></span>
 <span data-ttu-id="dae65-103">*協調流程*是可以訂閱 （接收） 的可執行的商務程序和發佈 （傳送） 訊息到 MessageBox 資料庫。</span><span class="sxs-lookup"><span data-stu-id="dae65-103">*Orchestrations* are executable business processes that can subscribe to (receive) and publish (send) messages through the MessageBox database.</span></span> <span data-ttu-id="dae65-104">此外，協調流程可以建構新的訊息。</span><span class="sxs-lookup"><span data-stu-id="dae65-104">In addition, orchestrations can construct new messages.</span></span> <span data-ttu-id="dae65-105">使用訂閱接收訊息並路由基礎結構中討論[訊息的生命週期](../core/lifecycle-of-a-message.md)。</span><span class="sxs-lookup"><span data-stu-id="dae65-105">Messages are received using the subscription and routing infrastructure discussed in [Lifecycle of a Message](../core/lifecycle-of-a-message.md).</span></span> <span data-ttu-id="dae65-106">若已為協調流程填入訂閱，則會啟動新的執行個體並傳送訊息，或者，在執行個體訂閱的狀況下，若有需要，執行個體會解除凍結，然後會傳送訊息。</span><span class="sxs-lookup"><span data-stu-id="dae65-106">When subscriptions are filled for orchestrations, a new instance is activated and the message is delivered, or in the case of instance subscriptions, the instance is rehydrated if necessary and the message is then delivered.</span></span> <span data-ttu-id="dae65-107">當從協調流程傳送訊息時，它們會以訊息到達接收位置時的相同方式發佈至 MessageBox，同時會有適當的屬性插入至資料庫中以供路由使用。</span><span class="sxs-lookup"><span data-stu-id="dae65-107">When messages are sent from an orchestration, they are published to the MessageBox in the same manner as a message arriving on a receive location with the appropriate properties getting inserted into the database for use in routing.</span></span>  

@@ -1,11 +1,11 @@
 ---
-title: "使用內嵌 C#、 JScript.NET 和 Visual Basic.NET 指令碼 |Microsoft 文件"
-ms.custom: 
+title: 使用內嵌 C#、 JScript.NET 和 Visual Basic.NET 指令碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Scripting functoids, JScript
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Scripting functoids, inline C#
 - Scripting functoids, .NET
 ms.assetid: dda60024-58bd-483f-a750-31b21059eded
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974540"
 ---
 # <a name="scripting-using-inline-c-jscript-net-and-visual-basic-net"></a><span data-ttu-id="65c3e-102">使用內嵌 C#、JScript .NET 以及 Visual Basic .NET 的指令碼處理</span><span class="sxs-lookup"><span data-stu-id="65c3e-102">Scripting Using Inline C#, JScript .NET, and Visual Basic .NET</span></span>
 <span data-ttu-id="65c3e-103">對於您不想在應用程式之其他地方使用的自訂程式碼而言，內嵌指令碼非常方便。</span><span class="sxs-lookup"><span data-stu-id="65c3e-103">Inline scripts are convenient for custom code that you are unlikely to use elsewhere in your application.</span></span>  

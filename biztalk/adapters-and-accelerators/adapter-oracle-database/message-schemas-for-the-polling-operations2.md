@@ -1,17 +1,17 @@
 ---
-title: "訊息結構描述的輪詢 Operations2 |Microsoft 文件"
-ms.custom: 
+title: 訊息結構描述的輪詢 Operations2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - POLLINGSTMT operation, message actions for
 - POLLINGSTMT operation, message structure for
 ms.assetid: b82edcc2-9437-4c7b-ba2b-7b966fff3f15
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214598"
 ---
 # <a name="message-schemas-for-the-polling-operations"></a><span data-ttu-id="5ea96-102">輪詢作業的訊息結構描述</span><span class="sxs-lookup"><span data-stu-id="5ea96-102">Message Schemas for the Polling Operations</span></span>
 <span data-ttu-id="5ea96-103">[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現輪詢根據 Oracle 資料庫上的目標物件與相關的各種輸入的作業。</span><span class="sxs-lookup"><span data-stu-id="5ea96-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] surfaces various inbound operations related to polling depending on the target object on the Oracle database.</span></span> <span data-ttu-id="5ea96-104">若要輪詢資料表和檢視表，而每個預存程序、 函數和已封裝的程序和函式公開為輸入進行輪詢作業，會顯示單一 POLLINGSTMT 作業。</span><span class="sxs-lookup"><span data-stu-id="5ea96-104">To poll tables and views, a single POLLINGSTMT operation is surfaced whereas each stored procedure, functions, and packaged procedures and functions are exposed as inbound operations for polling.</span></span>  

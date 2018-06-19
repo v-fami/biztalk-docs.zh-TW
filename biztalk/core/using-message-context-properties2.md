@@ -1,14 +1,14 @@
 ---
-title: "使用訊息內容 Properties2 |Microsoft 文件"
-ms.custom: 
+title: 使用訊息內容 Properties2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a550acd5-8c30-42d0-97e2-659060937b44
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287070"
 ---
 # <a name="using-message-context-properties"></a><span data-ttu-id="ed494-102">使用訊息內容屬性</span><span class="sxs-lookup"><span data-stu-id="ed494-102">Using Message Context Properties</span></span>
 <span data-ttu-id="ed494-103">本節會說明如何能夠透過 BizTalk 訊息內容屬性來控制連接工作階段。</span><span class="sxs-lookup"><span data-stu-id="ed494-103">This section explains how you can control the connection session through BizTalk message context properties.</span></span>  

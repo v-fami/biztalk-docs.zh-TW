@@ -1,14 +1,14 @@
 ---
-title: "建立 SQL Server 連接 URI |Microsoft 文件"
-ms.custom: 
+title: 建立 SQL Server 連接 URI |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 688e2215-a4d8-4f55-a37c-7d91c3de080f
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224094"
 ---
 # <a name="create-the-sql-server-connection-uri"></a><span data-ttu-id="9c017-102">建立 SQL Server 連接 URI</span><span class="sxs-lookup"><span data-stu-id="9c017-102">Create the SQL Server connection URI</span></span>
 <span data-ttu-id="9c017-103">[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]連線 URI 包含配接器用來連接到 SQL Server 資料庫的屬性。</span><span class="sxs-lookup"><span data-stu-id="9c017-103">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] connection URI contains properties that the adapter uses to establish a connection to the SQL Server database.</span></span> <span data-ttu-id="9c017-104">本主題提供 SQL Server 連接 URI 的相關資訊，並提供其他主題連結，說明如何在不同的程式設計案例中指定的 URI。</span><span class="sxs-lookup"><span data-stu-id="9c017-104">This topic provides information about the SQL Server connection URI, and provides links to other topics that explain how to specify a URI in different programming scenarios.</span></span>  

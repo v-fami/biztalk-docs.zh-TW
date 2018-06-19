@@ -1,15 +1,15 @@
 ---
-title: "設定連接埠使用 wcf-custom 配接器與 SQL 配接器在 BizTalk |Microsoft 文件"
-description: "建立 WCF 自訂傳送和接收 BizTalk Server 中使用 SQL Server 配接器的連接埠"
-ms.custom: 
+title: 設定連接埠使用 wcf-custom 配接器與 SQL 配接器在 BizTalk |Microsoft 文件
+description: 建立 WCF 自訂傳送和接收 BizTalk Server 中使用 SQL Server 配接器的連接埠
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d44d9932-0a5e-4072-a480-2f8dc544ca79
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226030"
 ---
 # <a name="configure-a-port-using-the-wcf-custom-adapter-and-sql-adapter"></a><span data-ttu-id="f3018-103">設定使用 wcf-custom 配接器和 SQL 配接器的連接埠</span><span class="sxs-lookup"><span data-stu-id="f3018-103">Configure a port using the WCF-custom adapter and SQL adapter</span></span>
 <span data-ttu-id="f3018-104">若要設定 Wcf-custom 傳送埠和接收埠來執行 SQL Server 使用的傳出和傳入作業步驟[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="f3018-104">Steps to configure WCF-Custom send and receive ports to perform outbound and inbound operations on SQL Server using the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span>  
@@ -42,7 +43,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  <span data-ttu-id="f3018-116">在**Wcf-custom 傳輸屬性**對話方塊方塊中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="f3018-116">In the **WCF-Custom Transport Properties** dialog box, do the following:</span></span>  
   
-    1.  <span data-ttu-id="f3018-117">按一下**一般** 索引標籤，然後在**位址 (URI)**欄位中，指定 SQL Server 的連線 URI。</span><span class="sxs-lookup"><span data-stu-id="f3018-117">Click the **General** tab, and in the **Address (URI)** field, specify the connection URI for SQL Server.</span></span> <span data-ttu-id="f3018-118">如需連線 URI 的詳細資訊，請參閱[建立 SQL Server 連接 URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md)。</span><span class="sxs-lookup"><span data-stu-id="f3018-118">For more information about the connection URI, see [Create the SQL Server connection URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md).</span></span>  
+    1.  <span data-ttu-id="f3018-117">按一下**一般** 索引標籤，然後在**位址 (URI)** 欄位中，指定 SQL Server 的連線 URI。</span><span class="sxs-lookup"><span data-stu-id="f3018-117">Click the **General** tab, and in the **Address (URI)** field, specify the connection URI for SQL Server.</span></span> <span data-ttu-id="f3018-118">如需連線 URI 的詳細資訊，請參閱[建立 SQL Server 連接 URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md)。</span><span class="sxs-lookup"><span data-stu-id="f3018-118">For more information about the connection URI, see [Create the SQL Server connection URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md).</span></span>  
   
     2.  <span data-ttu-id="f3018-119">在**一般**索引標籤的**動作**文字方塊中，輸入作業的動作。</span><span class="sxs-lookup"><span data-stu-id="f3018-119">On the **General** tab, in the **Action** text box, type the action for the operation.</span></span> <span data-ttu-id="f3018-120">請參閱[訊息與訊息結構描述](messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md)的每個作業的動作清單。</span><span class="sxs-lookup"><span data-stu-id="f3018-120">See [Messages and message schemas](messages-and-message-schemas-for-biztalk-adapter-for-sql-server.md) for a list of actions for each operation.</span></span> <span data-ttu-id="f3018-121">例如，叫用 SQL Server 資料庫中的資料表的 Insert 作業的動作是：</span><span class="sxs-lookup"><span data-stu-id="f3018-121">For example, the action to invoke the Insert operation on a table in a SQL Server database is:</span></span>  
   
@@ -103,7 +104,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  <span data-ttu-id="f3018-153">在**Wcf-custom 傳輸屬性**對話方塊方塊中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="f3018-153">In the **WCF-Custom Transport Properties** dialog box, do the following:</span></span>  
   
-    1.  <span data-ttu-id="f3018-154">按一下**一般** 索引標籤，然後在**位址 (URI)**欄位中，指定 SQL Server 的連線 URI。</span><span class="sxs-lookup"><span data-stu-id="f3018-154">Click the **General** tab, and in the **Address (URI)** field, specify the connection URI for SQL Server.</span></span> <span data-ttu-id="f3018-155">如需連線 URI 的詳細資訊，請參閱[建立 SQL Server 連接 URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md)。</span><span class="sxs-lookup"><span data-stu-id="f3018-155">For more information about the connection URI, see [Create the SQL Server connection URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md).</span></span>  
+    1.  <span data-ttu-id="f3018-154">按一下**一般** 索引標籤，然後在**位址 (URI)** 欄位中，指定 SQL Server 的連線 URI。</span><span class="sxs-lookup"><span data-stu-id="f3018-154">Click the **General** tab, and in the **Address (URI)** field, specify the connection URI for SQL Server.</span></span> <span data-ttu-id="f3018-155">如需連線 URI 的詳細資訊，請參閱[建立 SQL Server 連接 URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md)。</span><span class="sxs-lookup"><span data-stu-id="f3018-155">For more information about the connection URI, see [Create the SQL Server connection URI](../../adapters-and-accelerators/adapter-sql/create-the-sql-server-connection-uri.md).</span></span>  
   
     2.  <span data-ttu-id="f3018-156">按一下**繫結** 索引標籤，並從**繫結的型別**下拉式清單中，選取**sqlBinding**。</span><span class="sxs-lookup"><span data-stu-id="f3018-156">Click the **Binding** tab, and from the **Binding Type** drop-down list, select **sqlBinding**.</span></span> <span data-ttu-id="f3018-157">您可以指定不同的繫結屬性所公開[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="f3018-157">You can specify the different binding properties exposed by the [!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)].</span></span> <span data-ttu-id="f3018-158">如需繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for SQL Server 配接器繫結屬性](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md)。</span><span class="sxs-lookup"><span data-stu-id="f3018-158">For more information about binding properties, see [Read about the BizTalk Adapter for SQL Server adapter binding properties](../../adapters-and-accelerators/adapter-sql/read-about-the-biztalk-adapter-for-sql-server-adapter-binding-properties.md).</span></span>  
   

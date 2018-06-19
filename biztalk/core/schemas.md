@@ -1,11 +1,11 @@
 ---
-title: "結構描述 |Microsoft 文件"
-ms.custom: 
+title: 結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, schema types
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - XML schemas
 - flat file schemas
 ms.assetid: aea772bd-e7ab-448e-ba82-e7c8f38087db
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270086"
 ---
 # <a name="schemas"></a><span data-ttu-id="a7d8b-102">結構描述</span><span class="sxs-lookup"><span data-stu-id="a7d8b-102">Schemas</span></span>
 <span data-ttu-id="a7d8b-103">Microsoft[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用 XML 結構描述定義 (XSD) 語言來定義的所有訊息之處理序，並指的是這些做為訊息結構的定義結構*結構描述*。</span><span class="sxs-lookup"><span data-stu-id="a7d8b-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] uses the XML Schema definition (XSD) language to define the structure of all messages that it processes, and refers to these definitions of message structure as *schemas*.</span></span> <span data-ttu-id="a7d8b-104">在絕大部分的情況下，結構化訊息是所有應用程式的核心。</span><span class="sxs-lookup"><span data-stu-id="a7d8b-104">With few exceptions, structured messages are the core of any application.</span></span> <span data-ttu-id="a7d8b-105">這些結構化訊息可以是任何形式、大小，並以一系列大範圍的後端系統和資料存放區為目標。</span><span class="sxs-lookup"><span data-stu-id="a7d8b-105">These structured messages can take any form, large or small, and target a wide array of back-end systems and data stores.</span></span> <span data-ttu-id="a7d8b-106">經常建立和消耗結構化訊息的系統使用不同的格式。</span><span class="sxs-lookup"><span data-stu-id="a7d8b-106">Systems that create and consume the structured messages frequently use different formats.</span></span> <span data-ttu-id="a7d8b-107">結構化訊息最常使用的兩種格式為 XML 和一般檔案。</span><span class="sxs-lookup"><span data-stu-id="a7d8b-107">Two of the most common formats for structured messages are XML and flat files.</span></span>  

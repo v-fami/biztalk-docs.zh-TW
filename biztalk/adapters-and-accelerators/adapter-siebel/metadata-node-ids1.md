@@ -1,15 +1,15 @@
 ---
-title: "Siebel 配接器在 BizTalk Adapter Pack 中的中繼資料節點識別碼 |Microsoft 文件"
-description: "中繼資料、 搜尋、 擷取節點型別和 Siebel 配接器-BizTalk 配接器組件 (BAP) 中公開的 Siebel 元件中使用的識別碼"
-ms.custom: 
+title: Siebel 配接器在 BizTalk Adapter Pack 中的中繼資料節點識別碼 |Microsoft 文件
+description: 中繼資料、 搜尋、 擷取節點型別和 Siebel 配接器-BizTalk 配接器組件 (BAP) 中公開的 Siebel 元件中使用的識別碼
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bdffc8d1-0a0a-48d7-b134-5d16acf2c523
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223382"
 ---
 # <a name="node-types-and-ids-for-the-siebel-adapter"></a><span data-ttu-id="9c320-103">節點型別和 Siebel 配接器的識別碼</span><span class="sxs-lookup"><span data-stu-id="9c320-103">Node types and IDs for the Siebel adapter</span></span>
 
@@ -71,7 +72,7 @@ ms.lasthandoff: 09/20/2017
  <span data-ttu-id="9c320-204">如需有效的搜尋運算式中，請參閱 Siebel 文件。</span><span class="sxs-lookup"><span data-stu-id="9c320-204">For valid search expressions, refer to the Siebel documentation.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="9c320-205">[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]只支援在目前所選節點下的層級的搜尋。</span><span class="sxs-lookup"><span data-stu-id="9c320-205">The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] only supports searches at the level below the currently selected node.</span></span>  <span data-ttu-id="9c320-206">例如，選取 BusinessObjects 時，A * 為支援搜尋，但 A\*/A\*不是。</span><span class="sxs-lookup"><span data-stu-id="9c320-206">For example, when BusinessObjects is selected, A* is a supported search, but A\*/A\* is not.</span></span>  
+>  <span data-ttu-id="9c320-205">[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]只支援在目前所選節點下的層級的搜尋。</span><span class="sxs-lookup"><span data-stu-id="9c320-205">The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] only supports searches at the level below the currently selected node.</span></span>  <span data-ttu-id="9c320-206">例如，選取 BusinessObjects 時，A \* 為支援搜尋，但 A\*/A\*不是。</span><span class="sxs-lookup"><span data-stu-id="9c320-206">For example, when BusinessObjects is selected, A\* is a supported search, but A\*/A\* is not.</span></span>  
   
 ## <a name="metadata-retrieval-and-node-ids"></a><span data-ttu-id="9c320-207">擷取中繼資料和節點識別碼</span><span class="sxs-lookup"><span data-stu-id="9c320-207">Metadata Retrieval and Node IDs</span></span>  
  <span data-ttu-id="9c320-208">Siebel 配接器會擷取每種類型的成品的下列特性。</span><span class="sxs-lookup"><span data-stu-id="9c320-208">The Siebel adapter captures the following characteristics for each type of artifact.</span></span>  

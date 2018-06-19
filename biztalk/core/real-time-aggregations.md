@@ -1,17 +1,17 @@
 ---
-title: "即時彙總 |Microsoft 文件"
-ms.custom: 
+title: 即時彙總 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM, aggregations
 - aggregations [BAM], real-time data
 ms.assetid: 0ef44641-e067-4108-b318-f4373ca8fa8f
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269078"
 ---
 # <a name="real-time-aggregations"></a><span data-ttu-id="81f01-102">即時彙總</span><span class="sxs-lookup"><span data-stu-id="81f01-102">Real-Time Aggregations</span></span>
 <span data-ttu-id="81f01-103">在某些情況下，多維度彙總的特定配量有時間緊迫性，因此必須可即時取得。</span><span class="sxs-lookup"><span data-stu-id="81f01-103">In some cases, specific slices of the multidimensional aggregations are so time-sensitive that you want them to be available in real time.</span></span> <span data-ttu-id="81f01-104">例如，您的業務是銷售容易腐壞的產品，所以希望即時取得各個出貨階段的產品數量彙總。</span><span class="sxs-lookup"><span data-stu-id="81f01-104">For example, your business is selling perishable products and you want the aggregation of product quantity in different stages of delivery to be available in real time.</span></span> <span data-ttu-id="81f01-105">同時，您也有其他想要看到的彙總，如典型客戶的年齡彙總，但是這只有在月底進行商業智慧分析時才需要。</span><span class="sxs-lookup"><span data-stu-id="81f01-105">At the same time, you want other aggregations such as the age of your typical customers, but only at the end of the month for business intelligence analysis.</span></span>  

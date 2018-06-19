@@ -11,7 +11,7 @@ helpviewer_keywords:
 - artifacts, status
 - deploying [artifacts], status
 ms.assetid: 6d0f7336-c2cb-4aa4-9f1d-55fb85fe78bf
-caps.latest.revision: ''
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22276550"
 ---
 # <a name="status-of-file-artifacts-during-deployment"></a><span data-ttu-id="18491-102">部署期間檔案成品的狀態</span><span class="sxs-lookup"><span data-stu-id="18491-102">Status of File Artifacts During Deployment</span></span>
 <span data-ttu-id="18491-103">在執行前置或後置處理指令碼時，您可能需要知道在檔案系統上有哪些以檔案為基礎的成品。</span><span class="sxs-lookup"><span data-stu-id="18491-103">You may need to know what file-based artifacts exist on the file system when a pre- or post-processing script executes.</span></span> <span data-ttu-id="18491-104">例如，您可能想要讓後置處理指令碼在解除安裝期間執行，並且要它從檔案系統刪除特定成品檔案。</span><span class="sxs-lookup"><span data-stu-id="18491-104">For example, you might want a post-processing script to run during uninstallation and delete a certain artifact file from the file system.</span></span> <span data-ttu-id="18491-105">以檔案為基礎的成品，除了在 BizTalk 資料庫有其表示之外，在本機檔案系統上也有其檔案。</span><span class="sxs-lookup"><span data-stu-id="18491-105">File-based artifacts are artifacts that can exist as files on the local file system, in addition to their representation in the BizTalk databases.</span></span> <span data-ttu-id="18491-106">以檔案為基礎的成品範例包括 COM 元件、.NET 組件、BizTalk 組件、BAM 成品、臨機操作檔案、指令碼和繫結檔案。</span><span class="sxs-lookup"><span data-stu-id="18491-106">Examples of file-based artifacts are COM components, .NET assemblies, BizTalk assemblies, BAM artifacts, ad hoc files, scripts, and binding files.</span></span>  

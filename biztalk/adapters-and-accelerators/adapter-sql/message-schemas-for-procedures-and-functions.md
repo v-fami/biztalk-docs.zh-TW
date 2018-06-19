@@ -1,14 +1,14 @@
 ---
-title: "訊息的程序和函數的結構描述 |Microsoft 文件"
-ms.custom: 
+title: 訊息的程序和函數的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4acfb29e-8774-4eb7-ba10-2dcb93d2b41a
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223350"
 ---
 # <a name="message-schemas-for-procedures-and-functions"></a><span data-ttu-id="db982-102">訊息結構描述的程序和函式</span><span class="sxs-lookup"><span data-stu-id="db982-102">Message Schemas for Procedures and Functions</span></span>
 <span data-ttu-id="db982-103">[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]介面 SQL Server 資料庫預存程序和純量和資料表值函式做為作業。</span><span class="sxs-lookup"><span data-stu-id="db982-103">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] surfaces SQL Server database stored procedures and scalar and table valued functions as operations.</span></span> <span data-ttu-id="db982-104">本章節描述的訊息結構及用來叫用程序和函數的動作。</span><span class="sxs-lookup"><span data-stu-id="db982-104">This section describes the message structure and actions used to invoke procedures and functions.</span></span>  

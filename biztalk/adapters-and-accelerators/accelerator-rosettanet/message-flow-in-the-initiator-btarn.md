@@ -1,11 +1,11 @@
 ---
-title: "訊息啟動者 BTARN 中的流程 |Microsoft 文件"
-ms.custom: 
+title: 訊息啟動者 BTARN 中的流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Accelerator for RosettaNet, message flow
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - messages, message flow
 - initiator BTARN
 ms.assetid: 315f3d4c-5e40-4b8e-b135-9da98dc2db1e
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210590"
 ---
 # <a name="message-flow-in-the-initiator-btarn"></a><span data-ttu-id="17f51-102">啟動者 BTARN 中的訊息流程</span><span class="sxs-lookup"><span data-stu-id="17f51-102">Message Flow in the Initiator BTARN</span></span>
 <span data-ttu-id="17f51-103">啟動者電腦上的訊息流程是從接收來自後端商務營運系統應用程式的專屬格式訊息開始，</span><span class="sxs-lookup"><span data-stu-id="17f51-103">Message flow on an initiator computer starts with receiving a message from the back-end line-of-business application, in its proprietary format.</span></span> <span data-ttu-id="17f51-104">其中牽扯將該訊息轉換為 RosettaNet 實作架構 (RNIF) 相容訊息，然後透過網際網路傳送訊息至回應者電腦。</span><span class="sxs-lookup"><span data-stu-id="17f51-104">It involves converting that message to a RosettaNet Implementation Framework (RNIF)-compliant message, and then sending the message over the Internet to the responder computer.</span></span>  

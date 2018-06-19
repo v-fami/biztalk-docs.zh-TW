@@ -1,14 +1,14 @@
 ---
-title: "外寄 EDI 訊息處理透過 AS2 傳送端 |Microsoft 文件"
-ms.custom: 
+title: 外寄 EDI 訊息處理透過 AS2 傳送端 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dfb63b22-6e2e-4d4f-b028-301c8d4d53b0
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271870"
 ---
 # <a name="send-side-processing-of-an-outgoing-edi-message-over-as2"></a><span data-ttu-id="b06f6-102">透過 AS2 外寄之 EDI 訊息的傳送端處理</span><span class="sxs-lookup"><span data-stu-id="b06f6-102">Send-Side Processing of an Outgoing EDI Message over AS2</span></span>
 <span data-ttu-id="b06f6-103">透過 AS2 外寄之 EDI 訊息的傳送端處理的作業，包括透過 EDI 內容來傳送 AS2 訊息，以及接收 MDN 和 EDI 通知 (若已啟用)。</span><span class="sxs-lookup"><span data-stu-id="b06f6-103">Send-side processing of an EDI message over AS2 includes sending an AS2 message with the EDI payload and receiving MDN and EDI acknowledgments (if enabled).</span></span>  

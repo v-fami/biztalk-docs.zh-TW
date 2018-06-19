@@ -1,14 +1,14 @@
 ---
-title: "使用 MVG 欄位使用 BizTalk Server 和 Siebel 配接器執行商務元件上的作業 |Microsoft 文件"
-ms.custom: 
+title: 使用 MVG 欄位使用 BizTalk Server 和 Siebel 配接器執行商務元件上的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7c5db211-76a2-4c27-97f4-382302c722da
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226958"
 ---
 # <a name="run-operations-on-business-components-with-mvg-fields-using-biztalk-server-and-the-siebel-adapter"></a><span data-ttu-id="e4702-102">使用 MVG 欄位使用 BizTalk Server 和 Siebel 配接器執行商務元件上的作業</span><span class="sxs-lookup"><span data-stu-id="e4702-102">Run Operations on Business Components with MVG Fields Using BizTalk Server and the Siebel adapter</span></span>
 <span data-ttu-id="e4702-103">本節將提供包含多重值欄位的商務元件上執行操作的指示。</span><span class="sxs-lookup"><span data-stu-id="e4702-103">This section provides instructions on performing operation on a business component containing multi-value fields.</span></span> <span data-ttu-id="e4702-104">若要示範這類商務元件上的端對端作業，您必須執行：</span><span class="sxs-lookup"><span data-stu-id="e4702-104">To demonstrate an end-to-end operation on such business components, you need to perform:</span></span>  
@@ -117,7 +118,7 @@ ms.lasthandoff: 09/20/2017
   
 |<span data-ttu-id="e4702-179">形狀圖</span><span class="sxs-lookup"><span data-stu-id="e4702-179">Shape</span></span>|<span data-ttu-id="e4702-180">圖形類型</span><span class="sxs-lookup"><span data-stu-id="e4702-180">Shape Type</span></span>|<span data-ttu-id="e4702-181">屬性</span><span class="sxs-lookup"><span data-stu-id="e4702-181">Properties</span></span>|  
 |-----------|----------------|----------------|  
-|<span data-ttu-id="e4702-182">AccountAssociateXML</span><span class="sxs-lookup"><span data-stu-id="e4702-182">AccountAssociateXML</span></span>|<span data-ttu-id="e4702-183">Receive</span><span class="sxs-lookup"><span data-stu-id="e4702-183">Receive</span></span>|<span data-ttu-id="e4702-184">-設定**名稱**至*AccountAssociateXML*</span><span class="sxs-lookup"><span data-stu-id="e4702-184">-   Set **Name** to *AccountAssociateXML*</span></span><br /><span data-ttu-id="e4702-185">-設定**啟動**至*，則為 True*</span><span class="sxs-lookup"><span data-stu-id="e4702-185">-   Set **Activate** to *True*</span></span>|  
+|<span data-ttu-id="e4702-182">AccountAssociateXML</span><span class="sxs-lookup"><span data-stu-id="e4702-182">AccountAssociateXML</span></span>|<span data-ttu-id="e4702-183">Receive</span><span class="sxs-lookup"><span data-stu-id="e4702-183">Receive</span></span>|<span data-ttu-id="e4702-184">-設定**名稱**至*AccountAssociateXML*</span><span class="sxs-lookup"><span data-stu-id="e4702-184">-   Set **Name** to *AccountAssociateXML*</span></span><br /><span data-ttu-id="e4702-185">-設定**啟動**至 *，則為 True*</span><span class="sxs-lookup"><span data-stu-id="e4702-185">-   Set **Activate** to *True*</span></span>|  
 |<span data-ttu-id="e4702-186">SendToLOB</span><span class="sxs-lookup"><span data-stu-id="e4702-186">SendToLOB</span></span>|<span data-ttu-id="e4702-187">Send</span><span class="sxs-lookup"><span data-stu-id="e4702-187">Send</span></span>|<span data-ttu-id="e4702-188">-設定**名稱**至*SendToLOB*</span><span class="sxs-lookup"><span data-stu-id="e4702-188">-   Set **Name** to *SendToLOB*</span></span>|  
 |<span data-ttu-id="e4702-189">ReceiveResponse</span><span class="sxs-lookup"><span data-stu-id="e4702-189">ReceiveResponse</span></span>|<span data-ttu-id="e4702-190">Receive</span><span class="sxs-lookup"><span data-stu-id="e4702-190">Receive</span></span>|<span data-ttu-id="e4702-191">-設定**名稱**至*ReceiveResponse*</span><span class="sxs-lookup"><span data-stu-id="e4702-191">-   Set **Name** to *ReceiveResponse*</span></span><br /><span data-ttu-id="e4702-192">-設定**啟動**至*False*</span><span class="sxs-lookup"><span data-stu-id="e4702-192">-   Set **Activate** to *False*</span></span>|  
 |<span data-ttu-id="e4702-193">SendResponse</span><span class="sxs-lookup"><span data-stu-id="e4702-193">SendResponse</span></span>|<span data-ttu-id="e4702-194">Send</span><span class="sxs-lookup"><span data-stu-id="e4702-194">Send</span></span>|<span data-ttu-id="e4702-195">-設定**名稱**至*SendResponse*</span><span class="sxs-lookup"><span data-stu-id="e4702-195">-   Set **Name** to *SendResponse*</span></span>|  

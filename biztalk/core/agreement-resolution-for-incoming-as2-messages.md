@@ -1,14 +1,14 @@
 ---
-title: "內送 AS2 訊息的協議解析 |Microsoft 文件"
-ms.custom: 
+title: 內送 AS2 訊息的協議解析 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 746d01af-de6a-4d5d-9433-b0e1a2b41861
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230150"
 ---
 # <a name="agreement-resolution-for-incoming-as2-messages"></a><span data-ttu-id="bd2af-102">內送 AS2 訊息的協議解析</span><span class="sxs-lookup"><span data-stu-id="bd2af-102">Agreement Resolution for Incoming AS2 Messages</span></span>
 <span data-ttu-id="bd2af-103">當 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 透過 HTTP/HTTPS 傳輸接收 EDIINT/AS2 編碼訊息時，它會嘗試判斷傳送該訊息的交易夥伴商務設定檔。</span><span class="sxs-lookup"><span data-stu-id="bd2af-103">When [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receives an EDIINT/AS2-encoded message over HTTP/HTTPS transport, it attempts to determine the trading partner’s business profile that sent the message.</span></span> <span data-ttu-id="bd2af-104">它會嘗試執行下列步驟 (順序如下所示) 來進行判斷：</span><span class="sxs-lookup"><span data-stu-id="bd2af-104">It does so by attempting to do the following (in the order shown):</span></span>  

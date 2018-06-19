@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 設定並啟動應用程式 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 設定並啟動應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e4252470-805e-404f-80d5-df8d1ff3af63
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223502"
 ---
 # <a name="step-3-configure-and-start-the-application"></a><span data-ttu-id="e1ab4-102">步驟 3： 設定並啟動應用程式</span><span class="sxs-lookup"><span data-stu-id="e1ab4-102">Step 3: Configure and Start the Application</span></span>
 <span data-ttu-id="e1ab4-103">![步驟 4 之 3](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")</span><span class="sxs-lookup"><span data-stu-id="e1ab4-103">![Step 3 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")</span></span>  
   
  <span data-ttu-id="e1ab4-104">**若要完成的時間：** 10 分鐘</span><span class="sxs-lookup"><span data-stu-id="e1ab4-104">**Time to complete:** 10 minutes</span></span>  
   
- <span data-ttu-id="e1ab4-105">**目標：**在此步驟中，設定並啟動 SampleApplication 應用程式。</span><span class="sxs-lookup"><span data-stu-id="e1ab4-105">**Objective:** In this step, you configure and start the SampleApplication application.</span></span> <span data-ttu-id="e1ab4-106">當您設定 SampleApplication 應用程式時，您將建立關聯的邏輯成品，您在建立[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]與其實體對應項目。</span><span class="sxs-lookup"><span data-stu-id="e1ab4-106">When you configure the SampleApplication application, you associate the logical artifacts you created in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] with their physical counterparts.</span></span>  
+ <span data-ttu-id="e1ab4-105">**目標：** 在此步驟中，設定並啟動 SampleApplication 應用程式。</span><span class="sxs-lookup"><span data-stu-id="e1ab4-105">**Objective:** In this step, you configure and start the SampleApplication application.</span></span> <span data-ttu-id="e1ab4-106">當您設定 SampleApplication 應用程式時，您將建立關聯的邏輯成品，您在建立[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]與其實體對應項目。</span><span class="sxs-lookup"><span data-stu-id="e1ab4-106">When you configure the SampleApplication application, you associate the logical artifacts you created in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] with their physical counterparts.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="e1ab4-107">必要條件</span><span class="sxs-lookup"><span data-stu-id="e1ab4-107">Prerequisites</span></span>  
  <span data-ttu-id="e1ab4-108">您必須先完成[步驟 2： 設定的連接埠](../../adapters-and-accelerators/adapter-sql/step-2-configure-the-ports.md)。</span><span class="sxs-lookup"><span data-stu-id="e1ab4-108">You must have completed [Step 2: Configure the Ports](../../adapters-and-accelerators/adapter-sql/step-2-configure-the-ports.md).</span></span>  

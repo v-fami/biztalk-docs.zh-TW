@@ -1,17 +1,17 @@
 ---
-title: "訂單流程程序管理員透過 |Microsoft 文件"
-ms.custom: 
+title: 訂單流程程序管理員透過 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - process management solution tutorial, processing
 - processing, processing logic
 ms.assetid: e2b51eff-44b5-440f-a7d1-0872543e5f27
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266654"
 ---
 # <a name="order-flow-through-the-process-manager"></a><span data-ttu-id="a2960-102">透過處理序管理員的訂單流程</span><span class="sxs-lookup"><span data-stu-id="a2960-102">Order Flow through the Process Manager</span></span>
 <span data-ttu-id="a2960-103">本章節描述如何 Southridge Video 訂單程序管理員**OrderManager**協調流程、 處理訂單。</span><span class="sxs-lookup"><span data-stu-id="a2960-103">This section describes how the Southridge Video order process manager, the **OrderManager** orchestration, processes orders.</span></span> <span data-ttu-id="a2960-104">本節會透過協調流程來產生新訂單。</span><span class="sxs-lookup"><span data-stu-id="a2960-104">This section follows a new order through the orchestration.</span></span> <span data-ttu-id="a2960-105">本節也討論協調流程如何處理訂單的更新。</span><span class="sxs-lookup"><span data-stu-id="a2960-105">The section also discusses how the orchestration handles updates to orders.</span></span>  

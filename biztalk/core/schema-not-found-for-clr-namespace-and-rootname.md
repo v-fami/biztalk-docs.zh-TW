@@ -1,14 +1,14 @@
 ---
-title: "找不到 CLR 命名空間和 rootName 的結構描述 |Microsoft 文件"
-ms.custom: 
+title: 找不到 CLR 命名空間和 rootName 的結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: db283d81-1cb0-460d-ace4-49a91ceb4a02
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269398"
 ---
 # <a name="schema-not-found-for-clr-namespace-and-rootname"></a><span data-ttu-id="3c05f-102">找不到 CLR 命名空間和 rootName 的結構描述</span><span class="sxs-lookup"><span data-stu-id="3c05f-102">Schema not found for CLR Namespace and rootName</span></span>
 ## <a name="details"></a><span data-ttu-id="3c05f-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="3c05f-103">Details</span></span>  

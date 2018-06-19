@@ -1,11 +1,11 @@
 ---
-title: "訊息類型和事件 |Microsoft 文件"
-ms.custom: 
+title: 訊息類型和事件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, message events
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - message types
 - messages, message types
 ms.assetid: d53d51d0-216d-472b-97b7-8a96b8013510
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205950"
 ---
 # <a name="message-types-and-events"></a><span data-ttu-id="cdd7e-102">訊息類型和事件</span><span class="sxs-lookup"><span data-stu-id="cdd7e-102">Message Types and Events</span></span>
 <span data-ttu-id="cdd7e-103">HL7 標準已分組到真實世界的事件一起做為特定群組相關的訊息*訊息類型*ADT。</span><span class="sxs-lookup"><span data-stu-id="cdd7e-103">The HL7 standard has grouped messages that relate to a particular grouping of real-world events together as *message type* ADT.</span></span> <span data-ttu-id="cdd7e-104">這些訊息包含觸發程序事件，例如病患的管理。</span><span class="sxs-lookup"><span data-stu-id="cdd7e-104">These messages involve trigger events, such as patient administration.</span></span> <span data-ttu-id="cdd7e-105">2.4 版 HL7 標準定義 100 個以上的訊息類型，其中每個 HL7 組織已指派唯一三個字元的訊息型別程式碼。</span><span class="sxs-lookup"><span data-stu-id="cdd7e-105">Version 2.4 of the HL7 standard defines more than 100 message types, each of which the HL7 organization has assigned a unique three-character message type code.</span></span> <span data-ttu-id="cdd7e-106">HL7 標準版本進化，HL7 組織已加入新的訊息類型來提供新功能。</span><span class="sxs-lookup"><span data-stu-id="cdd7e-106">As versions of the HL7 standard have evolved, the HL7 organization has added new message types to provide new capabilities.</span></span>  

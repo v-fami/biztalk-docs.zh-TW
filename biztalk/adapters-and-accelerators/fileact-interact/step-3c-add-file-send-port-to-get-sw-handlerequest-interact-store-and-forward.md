@@ -1,14 +1,14 @@
 ---
-title: "步驟 3c： 新增 FILE 傳送埠，以取得 Sw:HandleRequest-互動存放與轉寄 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3c： 新增 FILE 傳送埠，以取得 Sw:HandleRequest-互動存放與轉寄 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c872b4be-ef8b-4e42-b5ef-63dfd120793f
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225574"
 ---
 # <a name="step-3c-add-file-send-port-to-get-swhandlerequest-interact-store-and-forward"></a><span data-ttu-id="ec30c-102">步驟 3c： 新增 FILE 傳送埠，以取得 Sw:HandleRequest-互動儲存與轉送</span><span class="sxs-lookup"><span data-stu-id="ec30c-102">Step 3C: Add FILE send port to get Sw:HandleRequest-InterAct Store and Forward</span></span>
 <span data-ttu-id="ec30c-103">在開始此步驟之前，必須先完成[步驟 3B： 新增的互動接收位置為互動存放與轉寄實例](../../adapters-and-accelerators/fileact-interact/step-3b-add-interact-receive-location-for-interact-store-and-forward-scenario.md)。</span><span class="sxs-lookup"><span data-stu-id="ec30c-103">Before you begin this step, you must complete [Step 3B: Add an INTERACT Receive Location for the InterAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-3b-add-interact-receive-location-for-interact-store-and-forward-scenario.md).</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22213958"
 ---
 # <a name="physical-diagram"></a><span data-ttu-id="f7565-102">實體的圖表</span><span class="sxs-lookup"><span data-stu-id="f7565-102">Physical Diagram</span></span>
 <span data-ttu-id="f7565-103">一般的部署已叢集化 BizTalk Server 電腦的訊息 （傳送和接收），來執行商務程序 （協調流程），以存取 InfoPath 範本 （MRSR 站台），BizTalk Server 電腦的 BizTalk Server 電腦和叢集的 SQL Server 電腦。</span><span class="sxs-lookup"><span data-stu-id="f7565-103">A typical deployment has clustered BizTalk Server computers for messaging (sending and receiving), BizTalk Server computers for executing the business process (orchestration), BizTalk Server computers for accessing the InfoPath templates (MRSR site), and clustered SQL Server computers.</span></span> <span data-ttu-id="f7565-104">下列部署可確保內部網路和網際網路使用者安全的環境。</span><span class="sxs-lookup"><span data-stu-id="f7565-104">The following deployment ensures a secure environment from both the intranet and Internet users.</span></span>  

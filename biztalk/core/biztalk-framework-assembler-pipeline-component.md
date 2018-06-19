@@ -1,17 +1,17 @@
 ---
-title: "BizTalk Framework 組合器管線元件 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Framework 組合器管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - pipeline components, BizTalk Framework Assembler
 - BizTalk Framework Assembler [pipeline component]
 ms.assetid: 116dff8d-b7f8-4564-a7fb-6440682683dc
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231102"
 ---
 # <a name="biztalk-framework-assembler-pipeline-component"></a><span data-ttu-id="dfd4d-102">BizTalk Framework 組合器管線元件</span><span class="sxs-lookup"><span data-stu-id="dfd4d-102">BizTalk Framework Assembler Pipeline Component</span></span>
 <span data-ttu-id="dfd4d-103">BizTalk Framework 是一種使用 HTTP 或 SMTP 這類透過網路的傳輸通訊協定，以執行只需一次保證傳遞的方法。</span><span class="sxs-lookup"><span data-stu-id="dfd4d-103">The BizTalk Framework is one approach for doing exactly-once guaranteed delivery using over-the-wire transport protocols such as HTTP or SMTP.</span></span> <span data-ttu-id="dfd4d-104">此架構從 1998 年開始出現，並被視為以 Web 服務 (尤其是 WSReliable) 為根據之擱置標準開發的先驅。</span><span class="sxs-lookup"><span data-stu-id="dfd4d-104">This framework has existed since 1998, and can be thought of as a precursor to pending standards initiatives based on Web services, specifically WSReliable.</span></span> <span data-ttu-id="dfd4d-105">基本上，資料的保證只需一次傳遞的問題，一直是「訊息佇列」(也稱為 MSMQ) 這類技術的範疇。</span><span class="sxs-lookup"><span data-stu-id="dfd4d-105">Typically, the problem of guaranteed exactly-once delivery of data has been the domain of technologies like Message Queuing (also known as MSMQ).</span></span> <span data-ttu-id="dfd4d-106">不過，這類技術在資料流的兩端通常需要通用軟體，而且不會針對以公用網路為基礎的開放式傳輸通訊協定的使用做任何處理，例如，利用網際網路在企業界限之間流動的資料。</span><span class="sxs-lookup"><span data-stu-id="dfd4d-106">However, such technologies usually require common software at the two endpoints of a data flow, and also do nothing to address the use of open transport protocols based on public networks, for example, data that flows across enterprise boundaries by using the Internet.</span></span>  

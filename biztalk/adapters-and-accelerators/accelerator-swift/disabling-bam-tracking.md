@@ -1,17 +1,17 @@
 ---
-title: "停用 BAM 追蹤 |Microsoft 文件"
-ms.custom: 
+title: 停用 BAM 追蹤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - FIN Response Reconciliation, disabling BAM tracking
 - BAM tracking
 ms.assetid: ea5fef0e-7a96-46f5-81d8-9b1d8a5d24d2
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209046"
 ---
 # <a name="disabling-bam-tracking"></a><span data-ttu-id="86d38-102">停用 BAM 追蹤</span><span class="sxs-lookup"><span data-stu-id="86d38-102">Disabling BAM Tracking</span></span>
 <span data-ttu-id="86d38-103">根據預設，已啟用 BAM 追蹤 FIN 回應調整。</span><span class="sxs-lookup"><span data-stu-id="86d38-103">By default, BAM tracking is enabled for FIN Response Reconciliation.</span></span> <span data-ttu-id="86d38-104">您可以停用它，如下所示。</span><span class="sxs-lookup"><span data-stu-id="86d38-104">You can disable it as follows.</span></span>  

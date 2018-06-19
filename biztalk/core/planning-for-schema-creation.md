@@ -1,14 +1,14 @@
 ---
-title: "規劃建立結構描述 |Microsoft 文件"
-ms.custom: 
+title: 規劃建立結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4ecb9154-b457-4209-b9b9-572c186bf5e7
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264638"
 ---
 # <a name="planning-for-schema-creation"></a><span data-ttu-id="5944e-102">規劃建立結構描述</span><span class="sxs-lookup"><span data-stu-id="5944e-102">Planning for Schema Creation</span></span>
 <span data-ttu-id="5944e-103">您可以使用結構描述以驗證要符合結構描述的訊息執行個體、定義如何雙向轉譯不同格式 (XML 和非 XML) 的執行個體訊息，以及定義如何將某個結構的 XML 執行個體訊息轉換為不同結構的 XML 執行個體訊息。</span><span class="sxs-lookup"><span data-stu-id="5944e-103">You use schemas to validate instances of messages that are meant to conform to the schema, to define how instance messages in different formats (XML and non-XML) can be translated back and forth, and to define how XML instance messages with one structure can be transformed into XML instance messages with a different structure.</span></span> <span data-ttu-id="5944e-104">如需有關執行個體訊息轉譯與執行個體訊息轉換之間差別的詳細資訊，請參閱[轉換 vs。轉譯](../core/data-transformation.md)。</span><span class="sxs-lookup"><span data-stu-id="5944e-104">For more information about the distinction between instance message translation and instance message transformation, see [Transformation vs. Translation](../core/data-transformation.md).</span></span>  

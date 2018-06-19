@@ -1,14 +1,14 @@
 ---
-title: "無法建立標準中繼資料繫結配置 |Microsoft 文件"
-ms.custom: 
+title: 無法建立標準中繼資料繫結配置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ce441c3e-0f6e-46ed-90cf-825dbf89d910
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231166"
 ---
 # <a name="cannot-create-standard-metadata-binding-for-scheme"></a><span data-ttu-id="9fc0c-102">無法為配置建立標準中繼資料繫結</span><span class="sxs-lookup"><span data-stu-id="9fc0c-102">Cannot create standard metadata binding for scheme</span></span>
 ## <a name="details"></a><span data-ttu-id="9fc0c-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="9fc0c-103">Details</span></span>  

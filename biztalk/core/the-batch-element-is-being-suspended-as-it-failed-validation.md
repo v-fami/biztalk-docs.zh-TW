@@ -1,14 +1,14 @@
 ---
-title: "因為驗證失敗處於暫停狀態的批次項目 |Microsoft 文件"
-ms.custom: 
+title: 因為驗證失敗處於暫停狀態的批次項目 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ea5e19e8-4592-40f4-bffe-85ab27653fd5
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279558"
 ---
 # <a name="the-batch-element-is-being-suspended-as-it-failed-validation"></a><span data-ttu-id="a264d-102">批次項目已暫停驗證失敗</span><span class="sxs-lookup"><span data-stu-id="a264d-102">The batch element is being suspended as it failed validation</span></span>
 ## <a name="details"></a><span data-ttu-id="a264d-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="a264d-103">Details</span></span>  

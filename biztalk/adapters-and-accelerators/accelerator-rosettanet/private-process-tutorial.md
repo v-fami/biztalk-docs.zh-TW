@@ -1,18 +1,18 @@
 ---
-title: "私用程序教學課程 |Microsoft 文件"
-ms.custom: 
+title: 私用程序教學課程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - private processes, tutorial
 - private process tutorial
 - tutorials, private process tutorial
 ms.assetid: 58affc48-af73-406e-895f-696bc284d945
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209918"
 ---
 # <a name="private-process-tutorial"></a><span data-ttu-id="c1503-102">私用程序教學課程</span><span class="sxs-lookup"><span data-stu-id="c1503-102">Private Process Tutorial</span></span>
 <span data-ttu-id="c1503-103">本教學課程包含了使用 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 的完整端點對端點解決方案。</span><span class="sxs-lookup"><span data-stu-id="c1503-103">This tutorial contains a complete end-to-end solution using [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)].</span></span> <span data-ttu-id="c1503-104">其中詳細描述必須遵循的步驟，透過在兩家虛構公司之間建立交易實例，藉此實作 RosettaNet 相容解決方案：賣方組織 Contoso 與買方組織 Fabrikam。</span><span class="sxs-lookup"><span data-stu-id="c1503-104">The tutorial details the steps that you have to follow to implement a RosettaNet-compliant solution by creating a trading scenario between two fictitious companies: Contoso, the supplier organization, and Fabrikam, the buyer organization.</span></span>  

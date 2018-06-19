@@ -1,18 +1,18 @@
 ---
-title: "服務執行個體狀態 |Microsoft 文件"
-ms.custom: 
+title: 服務執行個體狀態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service instances, states
 - messages, processing
 - states, service instances
 ms.assetid: 38189538-72b3-49df-810b-e134362e35ef
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272566"
 ---
 # <a name="service-instance-states"></a><span data-ttu-id="424d1-102">服務執行個體狀態</span><span class="sxs-lookup"><span data-stu-id="424d1-102">Service Instance States</span></span>
 <span data-ttu-id="424d1-103">在處理訊息時，會發生下列動作：</span><span class="sxs-lookup"><span data-stu-id="424d1-103">As a message is processed, the following actions take place:</span></span>  
@@ -56,7 +57,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="424d1-126">**作用中**</span><span class="sxs-lookup"><span data-stu-id="424d1-126">**Active**</span></span>|<span data-ttu-id="424d1-127">執行服務執行個體。</span><span class="sxs-lookup"><span data-stu-id="424d1-127">Running service instance.</span></span>|  
 |<span data-ttu-id="424d1-128">**凍結**</span><span class="sxs-lookup"><span data-stu-id="424d1-128">**Dehydrated**</span></span>|<span data-ttu-id="424d1-129">保存在 MessageBox 資料庫中的執行個體狀態，沒有任何 Windows 服務正在執行該執行個體。</span><span class="sxs-lookup"><span data-stu-id="424d1-129">Instance state persists in the MessageBox database and no Windows service is running that instance.</span></span>|  
 |<span data-ttu-id="424d1-130">**已完成但捨棄的訊息**</span><span class="sxs-lookup"><span data-stu-id="424d1-130">**Completed with discarded messages**</span></span>|<span data-ttu-id="424d1-131">服務執行個體已完成，不過該執行個體沒有消耗一些訊息。</span><span class="sxs-lookup"><span data-stu-id="424d1-131">The service instance was completed, but some messages were not consumed by the instance.</span></span>|  
-|<span data-ttu-id="424d1-132">**已擱置 （可繼續）**</span><span class="sxs-lookup"><span data-stu-id="424d1-132">**Suspended (resumable)**</span></span>|<span data-ttu-id="424d1-133">執行個體已擱置，您可繼續此執行個體。</span><span class="sxs-lookup"><span data-stu-id="424d1-133">Instance suspended, you can resume it.</span></span> <span data-ttu-id="424d1-134">**重要事項：**繼續訊息執行個體將會執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="424d1-134">**Important:**  Resuming a messaging instance will do the following:</span></span> <ul><li><span data-ttu-id="424d1-135">繼續訊息執行個體。</span><span class="sxs-lookup"><span data-stu-id="424d1-135">Resume the messaging instance.</span></span></li><li><span data-ttu-id="424d1-136">傳送訊息至傳送埠。</span><span class="sxs-lookup"><span data-stu-id="424d1-136">Send the message to the send port.</span></span></li><li><span data-ttu-id="424d1-137">傳送埠會將訊息傳遞到目的地;即使傳送埠不是已啟動 」 狀態。</span><span class="sxs-lookup"><span data-stu-id="424d1-137">The send port delivers the message to the destination; even if the send port is not in a Started state.</span></span></li></ul> <br /><br /> <span data-ttu-id="424d1-138">請注意，當您擱置排程的執行個體然後繼續時，執行個體便會進入已凍結狀態。</span><span class="sxs-lookup"><span data-stu-id="424d1-138">Note that when you suspend a scheduled instance and then resume it, the instance goes into a dehydrated state.</span></span>|  
+|<span data-ttu-id="424d1-132">**已擱置 （可繼續）**</span><span class="sxs-lookup"><span data-stu-id="424d1-132">**Suspended (resumable)**</span></span>|<span data-ttu-id="424d1-133">執行個體已擱置，您可繼續此執行個體。</span><span class="sxs-lookup"><span data-stu-id="424d1-133">Instance suspended, you can resume it.</span></span> <span data-ttu-id="424d1-134">**重要事項：** 繼續訊息執行個體將會執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="424d1-134">**Important:**  Resuming a messaging instance will do the following:</span></span> <ul><li><span data-ttu-id="424d1-135">繼續訊息執行個體。</span><span class="sxs-lookup"><span data-stu-id="424d1-135">Resume the messaging instance.</span></span></li><li><span data-ttu-id="424d1-136">傳送訊息至傳送埠。</span><span class="sxs-lookup"><span data-stu-id="424d1-136">Send the message to the send port.</span></span></li><li><span data-ttu-id="424d1-137">傳送埠會將訊息傳遞到目的地;即使傳送埠不是已啟動 」 狀態。</span><span class="sxs-lookup"><span data-stu-id="424d1-137">The send port delivers the message to the destination; even if the send port is not in a Started state.</span></span></li></ul> <br /><br /> <span data-ttu-id="424d1-138">請注意，當您擱置排程的執行個體然後繼續時，執行個體便會進入已凍結狀態。</span><span class="sxs-lookup"><span data-stu-id="424d1-138">Note that when you suspend a scheduled instance and then resume it, the instance goes into a dehydrated state.</span></span>|  
 |<span data-ttu-id="424d1-139">**已擱置 （不可繼續）**</span><span class="sxs-lookup"><span data-stu-id="424d1-139">**Suspended (not-resumable)**</span></span>|<span data-ttu-id="424d1-140">執行個體已擱置，但您不能繼續此執行個體。</span><span class="sxs-lookup"><span data-stu-id="424d1-140">Instance suspended, but you cannot resume it.</span></span> <span data-ttu-id="424d1-141">您可以儲存執行個體參考的訊息，然後終止執行個體。</span><span class="sxs-lookup"><span data-stu-id="424d1-141">You can save the Messages referenced by the instance, and then you can terminate the instance.</span></span><br /><br /> <span data-ttu-id="424d1-142">請注意，當您擱置排程的執行個體然後繼續時，執行個體便會進入已凍結狀態。</span><span class="sxs-lookup"><span data-stu-id="424d1-142">Note that when you suspend a scheduled instance and then resume it, the instance goes into a dehydrated state.</span></span>|  
 |<span data-ttu-id="424d1-143">**擱置的擱置 / 擱置的終止**</span><span class="sxs-lookup"><span data-stu-id="424d1-143">**Pending suspend/Pending terminate**</span></span>|<span data-ttu-id="424d1-144">一種狀態，並非獨立的狀態。</span><span class="sxs-lookup"><span data-stu-id="424d1-144">A status, not an independent state.</span></span> <span data-ttu-id="424d1-145">您可以將它與其他狀態結合。</span><span class="sxs-lookup"><span data-stu-id="424d1-145">You can combine it with other states.</span></span><br /><br /> <span data-ttu-id="424d1-146">擱置或終止的控制訊息已傳送至服務執行個體，但執行個體尚未拾取。</span><span class="sxs-lookup"><span data-stu-id="424d1-146">A control message to suspend or terminate was sent to a service instance, but has not yet been picked up by the instance.</span></span> <span data-ttu-id="424d1-147">每次只允許一個擱置作業。</span><span class="sxs-lookup"><span data-stu-id="424d1-147">Only one pending operation allowed at a time.</span></span> <span data-ttu-id="424d1-148">當含有擱置作業的執行個體凍結時，您可以終止此執行個體。</span><span class="sxs-lookup"><span data-stu-id="424d1-148">When an instance with a pending operation becomes dehydrated, you can terminate the instance.</span></span>|  
   

@@ -1,11 +1,11 @@
 ---
-title: "取得中繼資料中使用 IMetadataRetrievalContract SAP |Microsoft 文件"
-ms.custom: 
+title: 取得中繼資料中使用 IMetadataRetrievalContract SAP |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - how to, search metadata
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - how to, browse metadata
 - browsing metadata
 ms.assetid: 0944fc39-9ee5-4702-8b52-e0bc87f202c6
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218270"
 ---
 # <a name="get-metadata-in-sap-using-imetadataretrievalcontract"></a><span data-ttu-id="bc455-102">使用 IMetadataRetrievalContract SAP 中取得中繼資料</span><span class="sxs-lookup"><span data-stu-id="bc455-102">Get Metadata in SAP using IMetadataRetrievalContract</span></span>
 <span data-ttu-id="bc455-103">[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]公開**IMetadataRetrievalContract**端點可讓您瀏覽及搜尋 SAP 系統成品，以及擷取中繼資料的 Web 服務描述語言 (WSDL) 文件形式作業。</span><span class="sxs-lookup"><span data-stu-id="bc455-103">The [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] exposes an **IMetadataRetrievalContract**endpoint that you can use to browse and search for SAP system artifacts and to retrieve metadata in the form of a Web Services Description Language (WSDL) document for operations.</span></span>  

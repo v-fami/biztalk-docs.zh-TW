@@ -1,18 +1,18 @@
 ---
-title: "取得中繼資料在 SAP 中使用 Ws-metadata Exchange |Microsoft 文件"
-ms.custom: 
+title: 取得中繼資料在 SAP 中使用 Ws-metadata Exchange |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WS-Metadata Exchange
 - how to, retrieve metadata
 - retrieving metadata
 ms.assetid: 29f85963-ac7f-4e13-96b8-bc2c94a9fcae
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216878"
 ---
 # <a name="get-metadata-using-ws-metadata-exchange-in-sap"></a><span data-ttu-id="6b1e7-102">取得使用 Ws-metadata Exchange SAP 中的中繼資料</span><span class="sxs-lookup"><span data-stu-id="6b1e7-102">Get Metadata Using WS-Metadata Exchange in SAP</span></span>
 <span data-ttu-id="6b1e7-103">做為[!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]自訂繫結，[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]公開 WS 中繼資料交換 (MEX) 端點可讓您擷取從特定作業的中繼資料[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="6b1e7-103">As a [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] custom binding, the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] exposes a WS-Metadata Exchange (MEX) endpoint that you can use to retrieve metadata for specific operations from the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)].</span></span>  

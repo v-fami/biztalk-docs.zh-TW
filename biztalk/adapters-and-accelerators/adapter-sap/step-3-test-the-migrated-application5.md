@@ -1,17 +1,17 @@
 ---
-title: "步驟 3： 測試移轉的 Application5 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 測試移轉的 Application5 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - migration, testing the migrated application (Receive IDOC)
 - migration
 ms.assetid: 3ad15069-1556-4c0a-8bfd-86704d40c586
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,13 +20,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217246"
 ---
 # <a name="step-3-test-the-migrated-application"></a><span data-ttu-id="466d0-102">步驟 3： 測試已移轉的應用程式</span><span class="sxs-lookup"><span data-stu-id="466d0-102">Step 3: Test the Migrated Application</span></span>
 <span data-ttu-id="466d0-103">![步驟 3 之 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span><span class="sxs-lookup"><span data-stu-id="466d0-103">![Step 3 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span></span>  
   
  <span data-ttu-id="466d0-104">**若要完成的時間：** 5 分鐘</span><span class="sxs-lookup"><span data-stu-id="466d0-104">**Time to complete:** 5 minutes</span></span>  
   
- <span data-ttu-id="466d0-105">**目標：**在此步驟中，您會測試已移轉的應用程式接收一般檔案 IDOC 使用 WCF 型[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="466d0-105">**Objective:** In this step, you will test the migrated application by receiving a flat-file IDOC using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].</span></span>  
+ <span data-ttu-id="466d0-105">**目標：** 在此步驟中，您會測試已移轉的應用程式接收一般檔案 IDOC 使用 WCF 型[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="466d0-105">**Objective:** In this step, you will test the migrated application by receiving a flat-file IDOC using the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="466d0-106">必要條件</span><span class="sxs-lookup"><span data-stu-id="466d0-106">Prerequisites</span></span>  
   

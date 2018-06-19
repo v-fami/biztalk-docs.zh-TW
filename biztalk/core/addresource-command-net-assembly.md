@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ef6ec298-35fe-4845-9549-685993d2c659
-caps.latest.revision: ''
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22231654"
 ---
 # <a name="addresource-command-net-assembly"></a><span data-ttu-id="1a8b8-102">AddResource 命令：.NET 組件</span><span class="sxs-lookup"><span data-stu-id="1a8b8-102">AddResource Command: .NET Assembly</span></span>
 <span data-ttu-id="1a8b8-103">若要新增至 BizTalk 應用程式的.NET 組件 （其中包含 managed 的 COM 或 COM + 元件），您使用 **AddResource** 命令並指定 **system.biztalk: assembly** 做為 Type 參數。</span><span class="sxs-lookup"><span data-stu-id="1a8b8-103">To add a .NET assembly (which includes managed COM or COM+ components) to a BizTalk application, you use the **AddResource** command and specify **System.BizTalk:Assembly** for the Type parameter.</span></span> <span data-ttu-id="1a8b8-104">執行此命令會將組件新增至 BizTalk 管理資料庫。</span><span class="sxs-lookup"><span data-stu-id="1a8b8-104">Running this command adds the assembly to the BizTalk Management database.</span></span> <span data-ttu-id="1a8b8-105">組件也會顯示於 BizTalk 管理主控台，列在加入該組件的應用程式的 [資源] 資料夾中。</span><span class="sxs-lookup"><span data-stu-id="1a8b8-105">The assembly is also displayed in the BizTalk Administration console, in the Resources folder of the application to which you added it.</span></span> <span data-ttu-id="1a8b8-106">此外，組件時也將列出您使用[ListApp 命令](../core/listapp-command.md)。</span><span class="sxs-lookup"><span data-stu-id="1a8b8-106">In addition, the assembly is listed when you use the [ListApp Command](../core/listapp-command.md).</span></span>  
@@ -24,7 +25,7 @@ ms.lasthandoff: 03/23/2018
  <span data-ttu-id="1a8b8-107">如果組件與應用程式中現有的組件具有相同的完整名稱，您可以指定 Overwrite 參數。</span><span class="sxs-lookup"><span data-stu-id="1a8b8-107">If an assembly has the same full name as an assembly that already exists in the application, you can specify the Overwrite parameter.</span></span> <span data-ttu-id="1a8b8-108">完整名稱是由名稱、公開金鑰 Token、文化特性和版本所組成。</span><span class="sxs-lookup"><span data-stu-id="1a8b8-108">The full name consists of the name, public key token, culture, and version.</span></span> <span data-ttu-id="1a8b8-109">在此情況下會覆寫現有的組件。</span><span class="sxs-lookup"><span data-stu-id="1a8b8-109">In this case, the existing assembly is overwritten.</span></span> <span data-ttu-id="1a8b8-110">如需相依性的詳細資訊，請參閱[相依性和應用程式部署](../core/dependencies-and-application-deployment.md)。</span><span class="sxs-lookup"><span data-stu-id="1a8b8-110">For more information about dependencies, see [Dependencies and Application Deployment](../core/dependencies-and-application-deployment.md).</span></span>  
   
 ## <a name="usage"></a><span data-ttu-id="1a8b8-111">使用方式</span><span class="sxs-lookup"><span data-stu-id="1a8b8-111">Usage</span></span>  
- <span data-ttu-id="1a8b8-112">**BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:Assembly**[**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd***&#124;***GacOnInstall***&#124;***GacOnImport**&#124;**RegasmOnInstall**&#124;**RegsvcsOnInstall**] [**/Server:***value*] [**/Database:***value*]</span><span class="sxs-lookup"><span data-stu-id="1a8b8-112">**BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:Assembly**[**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd***&#124;***GacOnInstall***&#124;***GacOnImport**&#124;**RegasmOnInstall**&#124;**RegsvcsOnInstall**] [**/Server:***value*] [**/Database:***value*]</span></span>  
+ <span data-ttu-id="1a8b8-112">**BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:Assembly**[**/Overwrite **] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd ***&#124;*** GacOnInstall ***&#124;*** GacOnImport **&#124;** RegasmOnInstall **&#124;** RegsvcsOnInstall **] [**/Server:***value*] [**/Database:*** value*]</span><span class="sxs-lookup"><span data-stu-id="1a8b8-112">**BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:Assembly**[**/Overwrite **] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd ***&#124;*** GacOnInstall ***&#124;*** GacOnImport **&#124;** RegasmOnInstall **&#124;** RegsvcsOnInstall **] [**/Server:***value*] [**/Database:*** value*]</span></span>  
   
 ## <a name="parameters"></a><span data-ttu-id="1a8b8-113">參數</span><span class="sxs-lookup"><span data-stu-id="1a8b8-113">Parameters</span></span>  
   

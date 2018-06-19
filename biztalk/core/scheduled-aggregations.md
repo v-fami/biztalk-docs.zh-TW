@@ -1,18 +1,18 @@
 ---
-title: "排程彙總 |Microsoft 文件"
-ms.custom: 
+title: 排程彙總 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAM, aggregations
 - scheduling, aggregations [BAM]
 - aggregations [BAM], scheduling
 ms.assetid: 4e2da2eb-b1fc-4b27-98d6-564e6df719e1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269086"
 ---
 # <a name="scheduled-aggregations"></a><span data-ttu-id="c99c3-102">排程彙總</span><span class="sxs-lookup"><span data-stu-id="c99c3-102">Scheduled Aggregations</span></span>
 <span data-ttu-id="c99c3-103">BAM 排程彙總是以動態產生的 OLAP Cube 和 Data Transformation Services (DTS) 封裝為基礎。</span><span class="sxs-lookup"><span data-stu-id="c99c3-103">BAM bases scheduled aggregations on dynamically generated OLAP cubes and Data Transformation Services (DTS) packages.</span></span> <span data-ttu-id="c99c3-104">排程彙總的資料代表商務活動在 DTS 封裝啟動時的快照。</span><span class="sxs-lookup"><span data-stu-id="c99c3-104">The data in scheduled aggregations represents a snapshot of your business activities when you start your DTS package.</span></span> <span data-ttu-id="c99c3-105">若要達成此目的，分析的 DTS 封裝的第一個步驟是預存程序的呼叫**bam_Metadata_BeginAnalysis** ，將會擷取快照集組成：</span><span class="sxs-lookup"><span data-stu-id="c99c3-105">To achieve this, the first step of the DTS package for analysis is a call to the stored procedure **bam_Metadata_BeginAnalysis** that will retrieve a snapshot consisting of:</span></span>  

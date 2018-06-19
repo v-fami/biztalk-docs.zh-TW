@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ce25b112-38c9-40c8-9a5f-a2855572aabb
-caps.latest.revision: ''
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22265798"
 ---
 # <a name="managing-biztalk-server-developer-artifacts-with-a-source-control-systems"></a><span data-ttu-id="ff6d0-102">管理原始檔控制系統與 BizTalk Server 開發人員成品</span><span class="sxs-lookup"><span data-stu-id="ff6d0-102">Managing BizTalk Server Developer Artifacts with a Source Control Systems</span></span>
 <span data-ttu-id="ff6d0-103">保護您的 BizTalk 專案免於發生未預期的系統失敗，應做為第一優先的事項。</span><span class="sxs-lookup"><span data-stu-id="ff6d0-103">Protecting your BizTalk project from unexpected system failures should be a top priority.</span></span> <span data-ttu-id="ff6d0-104">保護專案檔案的一個方式是使用原始程式碼控制系統，例如 Team Foundation Server Source Control 與 Microsoft Visual SourceSafe。</span><span class="sxs-lookup"><span data-stu-id="ff6d0-104">One way to protect project files is to use a source code control system like Team Foundation Server Source Control and Microsoft Visual SourceSafe.</span></span> <span data-ttu-id="ff6d0-105">本主題說明一些基本策略，可將專案組織成與任何原始檔控制系統搭配使用時都能發揮最佳效果，並提供有關使用 Visual SourceSafe 的特定建議。</span><span class="sxs-lookup"><span data-stu-id="ff6d0-105">This topic discusses some basic strategies for organizing projects to best work with any source control system, and then provides specific suggestions for using Visual SourceSafe.</span></span>  

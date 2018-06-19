@@ -1,17 +1,17 @@
 ---
-title: "Siebel 配接器使用 WCF 服務模型以叫用商務服務方法 |Microsoft 文件"
-ms.custom: 
+title: Siebel 配接器使用 WCF 服務模型以叫用商務服務方法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF service model, invoking business service methods
 - business service methods, invoking by using the WCF service model
 ms.assetid: b41cf944-efdc-453f-824b-70581e7143e7
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222174"
 ---
 # <a name="invoke-business-service-methods-with-the-siebel-adapter-using-the-wcf-service-model"></a><span data-ttu-id="77b33-102">Siebel 配接器使用 WCF 服務模型以叫用商務服務方法</span><span class="sxs-lookup"><span data-stu-id="77b33-102">Invoke Business Service Methods with the Siebel adapter using the WCF Service Model</span></span>
 <span data-ttu-id="77b33-103">您可以建立 WCF 用戶端目標方法的 Siebel 商務服務。</span><span class="sxs-lookup"><span data-stu-id="77b33-103">You can create a WCF client that targets methods of Siebel business services.</span></span> <span data-ttu-id="77b33-104">您接著可以使用 WCF 用戶端叫用 Siebel 系統上的這些方法。</span><span class="sxs-lookup"><span data-stu-id="77b33-104">You can then use the WCF client to invoke these methods on the Siebel system.</span></span> <span data-ttu-id="77b33-105">Siebel 商務服務便會顯示在 [商務服務] 節點下[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="77b33-105">Siebel business services are surfaced under the Business Services node in the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)].</span></span> <span data-ttu-id="77b33-106">對應至該服務的節點下便會顯示每個商務服務所公開的方法。</span><span class="sxs-lookup"><span data-stu-id="77b33-106">The methods exposed by each business service are surfaced under the node corresponding to that service.</span></span> <span data-ttu-id="77b33-107">您可以遵循的步驟中[Siebel 配接器之 WCF 服務模型的概觀](../../adapters-and-accelerators/adapter-siebel/overview-of-the-wcf-service-model-with-the-siebel-adapter.md)來產生 WCF 用戶端為商務服務，並使用它來叫用服務的方法。</span><span class="sxs-lookup"><span data-stu-id="77b33-107">You can follow the steps in [Overview of the WCF Service Model with the Siebel Adapter](../../adapters-and-accelerators/adapter-siebel/overview-of-the-wcf-service-model-with-the-siebel-adapter.md) to generate a WCF client for a business service and to use it to invoke the service's methods.</span></span>  

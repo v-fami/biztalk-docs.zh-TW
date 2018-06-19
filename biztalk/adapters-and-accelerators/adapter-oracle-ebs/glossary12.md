@@ -1,15 +1,15 @@
 ---
-title: "Oracle E-business Suite 配接器在 BizTalk 中的詞彙 |Microsoft 文件"
-description: "一般詞彙和定義 Oracle EBS 配接器在 BizTalk 配接器組件 (BAP)"
-ms.custom: 
+title: Oracle E-business Suite 配接器在 BizTalk 中的詞彙 |Microsoft 文件
+description: 一般詞彙和定義 Oracle EBS 配接器在 BizTalk 配接器組件 (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 328b0ed2-58e2-45d5-8322-a72179ad5c8b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218638"
 ---
 # <a name="glossary"></a><span data-ttu-id="b1384-103">詞彙</span><span class="sxs-lookup"><span data-stu-id="b1384-103">Glossary</span></span>
 <span data-ttu-id="b1384-104">下列詞彙和定義會用於[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="b1384-104">The following terms and definitions are used in [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].</span></span>  
@@ -128,7 +129,7 @@ ms.lasthandoff: 09/20/2017
 <span data-ttu-id="b1384-197">**SOAP 訊息**</span><span class="sxs-lookup"><span data-stu-id="b1384-197">**SOAP message**</span></span>  
 <span data-ttu-id="b1384-198">格式正確的 XML 文件。</span><span class="sxs-lookup"><span data-stu-id="b1384-198">A well-formed XML document.</span></span> <span data-ttu-id="b1384-199">此文件應使用 SOAP 信封和 SOAP 編碼命名空間，且包含選擇性 XML 宣告，後面接著由選擇性 SOAP 標頭與 SOAP 訊息內文所構成的 SOAP 信封 (根項目)。</span><span class="sxs-lookup"><span data-stu-id="b1384-199">It should use the SOAP envelope and SOAP encoding namespaces and include an optional XML declaration, followed by a SOAP envelope (the root element), which is made up of an optional SOAP header and a SOAP message body.</span></span>
 
-<span data-ttu-id="b1384-200">**SQL Server Integration Services (SSIS)**元件用來匯入、 匯出及轉換來自不同資料來源的資料。</span><span class="sxs-lookup"><span data-stu-id="b1384-200">**SQL Server Integration Services (SSIS)** A component that is used to import, export, and transform data from different data sources.</span></span> <span data-ttu-id="b1384-201">先前稱為資料轉換服務 (DTS)。</span><span class="sxs-lookup"><span data-stu-id="b1384-201">Previously called data transformation service (DTS).</span></span>
+<span data-ttu-id="b1384-200">**SQL Server Integration Services (SSIS)** 元件用來匯入、 匯出及轉換來自不同資料來源的資料。</span><span class="sxs-lookup"><span data-stu-id="b1384-200">**SQL Server Integration Services (SSIS)** A component that is used to import, export, and transform data from different data sources.</span></span> <span data-ttu-id="b1384-201">先前稱為資料轉換服務 (DTS)。</span><span class="sxs-lookup"><span data-stu-id="b1384-201">Previously called data transformation service (DTS).</span></span>
 
 <span data-ttu-id="b1384-202">**強型別資料**</span><span class="sxs-lookup"><span data-stu-id="b1384-202">**strongly-typed data**</span></span>  
 <span data-ttu-id="b1384-203">資料集或結果集繫結至基礎的物件型別。</span><span class="sxs-lookup"><span data-stu-id="b1384-203">A data set or result set that is bound to an underlying object type.</span></span> <span data-ttu-id="b1384-204">強型別 XML 資料集的每個資料列被由型別，名為基礎的物件類型的欄位對應的項目。</span><span class="sxs-lookup"><span data-stu-id="b1384-204">Each row in a strongly-typed XML data set is composed of typed, named elements that correspond to fields of the underlying object type.</span></span>
@@ -160,4 +161,4 @@ ms.lasthandoff: 09/20/2017
   
 ## <a name="x"></a><span data-ttu-id="b1384-232">X</span><span class="sxs-lookup"><span data-stu-id="b1384-232">X</span></span>  
   
-<span data-ttu-id="b1384-233">**XML 結構描述定義語言 (XSD)**結構描述語言。</span><span class="sxs-lookup"><span data-stu-id="b1384-233">**XML Schema definition language (XSD)** A schema language.</span></span> <span data-ttu-id="b1384-234">XML 結構描述定義元素、 屬性和資料類型符合全球資訊網協會 (W3C) XML 結構描述第 1 部分： 結構建議事項，XML 結構描述定義語言。</span><span class="sxs-lookup"><span data-stu-id="b1384-234">An XML Schema defines the elements, attributes, and data types that comply with the World Wide Web Consortium (W3C) XML Schema Part 1: Structures Recommendation for the XML Schema Definition Language.</span></span> <span data-ttu-id="b1384-235">「W3C XML Schema Part 2: Datatypes Recommendation」則針對定義 XML 結構描述中所使用的資料類型提供建議。</span><span class="sxs-lookup"><span data-stu-id="b1384-235">The W3C XML Schema Part 2: Datatypes Recommendation is the recommendation for defining data types that are used in XML schemas.</span></span> <span data-ttu-id="b1384-236">XML 結構描述定義語言讓您定義 XML 訊息的結構和資料類型。</span><span class="sxs-lookup"><span data-stu-id="b1384-236">The XML Schema definition language enables you to define the structure and data types for XML messages.</span></span>
+<span data-ttu-id="b1384-233">**XML 結構描述定義語言 (XSD)** 結構描述語言。</span><span class="sxs-lookup"><span data-stu-id="b1384-233">**XML Schema definition language (XSD)** A schema language.</span></span> <span data-ttu-id="b1384-234">XML 結構描述定義元素、 屬性和資料類型符合全球資訊網協會 (W3C) XML 結構描述第 1 部分： 結構建議事項，XML 結構描述定義語言。</span><span class="sxs-lookup"><span data-stu-id="b1384-234">An XML Schema defines the elements, attributes, and data types that comply with the World Wide Web Consortium (W3C) XML Schema Part 1: Structures Recommendation for the XML Schema Definition Language.</span></span> <span data-ttu-id="b1384-235">「W3C XML Schema Part 2: Datatypes Recommendation」則針對定義 XML 結構描述中所使用的資料類型提供建議。</span><span class="sxs-lookup"><span data-stu-id="b1384-235">The W3C XML Schema Part 2: Datatypes Recommendation is the recommendation for defining data types that are used in XML schemas.</span></span> <span data-ttu-id="b1384-236">XML 結構描述定義語言讓您定義 XML 訊息的結構和資料類型。</span><span class="sxs-lookup"><span data-stu-id="b1384-236">The XML Schema definition language enables you to define the structure and data types for XML messages.</span></span>

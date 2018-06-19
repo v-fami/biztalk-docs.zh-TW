@@ -1,14 +1,14 @@
 ---
-title: "組態錯誤。 對單向 HTTP 要求同步 MDN 的傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 組態錯誤。 對單向 HTTP 要求同步 MDN 的傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3bd38eb3-321f-4738-b35e-390f4f54673e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231894"
 ---
 # <a name="configuration-error-synchronous-mdn-requested-on-one-way-http-send-port"></a><span data-ttu-id="74335-103">組態錯誤。</span><span class="sxs-lookup"><span data-stu-id="74335-103">Configuration error.</span></span> <span data-ttu-id="74335-104">對單向 HTTP 要求同步 MDN 的傳送埠</span><span class="sxs-lookup"><span data-stu-id="74335-104">Synchronous MDN requested on one way HTTP send port</span></span>
 ## <a name="details"></a><span data-ttu-id="74335-105">詳細資料</span><span class="sxs-lookup"><span data-stu-id="74335-105">Details</span></span>  

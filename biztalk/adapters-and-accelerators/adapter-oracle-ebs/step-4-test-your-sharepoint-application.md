@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 測試 SharePoint 應用程式 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 測試 SharePoint 應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a859044e-a28e-477e-a20b-f9bb3c9f7405
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218238"
 ---
 # <a name="step-4-test-your-sharepoint-application"></a><span data-ttu-id="4d72d-102">步驟 4： 測試 SharePoint 應用程式</span><span class="sxs-lookup"><span data-stu-id="4d72d-102">Step 4: Test your SharePoint application</span></span>
 <span data-ttu-id="4d72d-103">![步驟 4 之 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-4of4.gif "Step_4of4")</span><span class="sxs-lookup"><span data-stu-id="4d72d-103">![Step 4 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-4of4.gif "Step_4of4")</span></span>  
   
  <span data-ttu-id="4d72d-104">**若要完成的時間：** 10 分鐘</span><span class="sxs-lookup"><span data-stu-id="4d72d-104">**Time to complete:** 10 minutes</span></span>  
   
- <span data-ttu-id="4d72d-105">**目標：**您 SharePoint 網站中加入 Web 組件並建立應用程式，您必須測試應用程式擷取 Oracle E-business Suite 中的一些資料之後。</span><span class="sxs-lookup"><span data-stu-id="4d72d-105">**Objective:** After you have added Web Parts in the SharePoint site and created an application, you must test the application by retrieving some data from the Oracle E-Business Suite.</span></span> <span data-ttu-id="4d72d-106">本主題說明如何使用應用程式來擷取 Oracle E-business Suite 中的資料。</span><span class="sxs-lookup"><span data-stu-id="4d72d-106">This topic provides instructions on how to use the application to retrieve the data from the Oracle E-Business Suite.</span></span>  
+ <span data-ttu-id="4d72d-105">**目標：** 您 SharePoint 網站中加入 Web 組件並建立應用程式，您必須測試應用程式擷取 Oracle E-business Suite 中的一些資料之後。</span><span class="sxs-lookup"><span data-stu-id="4d72d-105">**Objective:** After you have added Web Parts in the SharePoint site and created an application, you must test the application by retrieving some data from the Oracle E-Business Suite.</span></span> <span data-ttu-id="4d72d-106">本主題說明如何使用應用程式來擷取 Oracle E-business Suite 中的資料。</span><span class="sxs-lookup"><span data-stu-id="4d72d-106">This topic provides instructions on how to use the application to retrieve the data from the Oracle E-Business Suite.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="4d72d-107">必要條件</span><span class="sxs-lookup"><span data-stu-id="4d72d-107">Prerequisites</span></span>  
  <span data-ttu-id="4d72d-108">您應該建立包含適當的 Web 組件，來擷取商務資料 Web 組件頁面。</span><span class="sxs-lookup"><span data-stu-id="4d72d-108">You should have created the Web Part page that contains the appropriate Web Parts to retrieve business data.</span></span> <span data-ttu-id="4d72d-109">請參閱[步驟 3： 建立 SharePoint 應用程式來擷取 Oracle E-business Suite 中的資料](../../adapters-and-accelerators/adapter-oracle-ebs/step-3-create-a-sharepoint-application-to-retrieve-data-from-oracle-ebs.md)。</span><span class="sxs-lookup"><span data-stu-id="4d72d-109">See [Step 3: Create a SharePoint application to retrieve data from Oracle E-Business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/step-3-create-a-sharepoint-application-to-retrieve-data-from-oracle-ebs.md).</span></span>  

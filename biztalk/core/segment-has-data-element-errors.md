@@ -1,14 +1,14 @@
 ---
-title: "區段有資料項目錯誤 |Microsoft 文件"
-ms.custom: 
+title: 區段有資料項目錯誤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 469622e2-6500-4f55-ab53-f8d89ee0a978
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269422"
 ---
 # <a name="segment-has-data-element-errors"></a><span data-ttu-id="61c0f-102">區段有資料元素錯誤</span><span class="sxs-lookup"><span data-stu-id="61c0f-102">Segment has data element errors</span></span>
 ## <a name="details"></a><span data-ttu-id="61c0f-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="61c0f-103">Details</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "重複使用配接器繫結與 Oracle E-business Suite |Microsoft 文件"
-ms.custom: 
+title: 重複使用配接器繫結與 Oracle E-business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb4dd90d-7958-4d62-bc7b-d6be16288dbc
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215766"
 ---
 # <a name="reuse-adapter-bindings-with-oracle-e-business-suite"></a><span data-ttu-id="3c883-102">Oracle E-business Suite 與重複使用配接器繫結</span><span class="sxs-lookup"><span data-stu-id="3c883-102">Reuse adapter bindings with Oracle E-Business Suite</span></span>
 <span data-ttu-id="3c883-103">繫結之間建立對應的邏輯端點 （例如協調流程連接埠或角色連結） 與實體端點 (例如傳送和接收埠)。</span><span class="sxs-lookup"><span data-stu-id="3c883-103">A binding creates a mapping between a logical endpoint (such as an orchestration port or a role link) and a physical endpoint (such as a send and receive port).</span></span> <span data-ttu-id="3c883-104">這可讓不同元件之間的通訊[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]商務解決方案。</span><span class="sxs-lookup"><span data-stu-id="3c883-104">This enables communication between different components of a [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] business solution.</span></span> <span data-ttu-id="3c883-105">您可以使用，以建立繫結[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台。</span><span class="sxs-lookup"><span data-stu-id="3c883-105">You can create bindings by using the [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span>  

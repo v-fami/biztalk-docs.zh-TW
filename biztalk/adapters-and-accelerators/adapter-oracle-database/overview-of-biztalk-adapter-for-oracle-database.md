@@ -1,18 +1,18 @@
 ---
-title: "BizTalk Adapter for Oracle 資料庫的概觀 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Adapter for Oracle 資料庫的概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapter, overview
 - ODP.NET
 - Oracle Data Provider for .NET 2.0
 ms.assetid: 852b8f82-ab34-45b8-ad7f-263d719a87f9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214206"
 ---
 # <a name="overview-of-biztalk-adapter-for-oracle-database"></a><span data-ttu-id="2e21f-102">BizTalk Adapter for Oracle 資料庫的概觀</span><span class="sxs-lookup"><span data-stu-id="2e21f-102">Overview of BizTalk Adapter for Oracle Database</span></span>
 <span data-ttu-id="2e21f-103">[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]公開為 WCF 服務的 Oracle 資料庫。</span><span class="sxs-lookup"><span data-stu-id="2e21f-103">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] exposes the Oracle database as a WCF service.</span></span> <span data-ttu-id="2e21f-104">配接器用戶端可以交換 SOAP 訊息的配接器所執行的 Oracle 資料庫上的作業。</span><span class="sxs-lookup"><span data-stu-id="2e21f-104">Adapter clients can perform operations on the Oracle database by exchanging SOAP messages with the adapter.</span></span> <span data-ttu-id="2e21f-105">配接器取用 WCF 訊息，並會適當 ODP.NET 呼叫，以執行此作業。</span><span class="sxs-lookup"><span data-stu-id="2e21f-105">The adapter consumes the WCF message and makes appropriate ODP.NET calls to perform the operation.</span></span> <span data-ttu-id="2e21f-106">配接器會傳回回應從 Oracle 資料庫中的 SOAP 訊息形式的用戶端。</span><span class="sxs-lookup"><span data-stu-id="2e21f-106">The adapter returns the response from the Oracle database back to the client in the form of SOAP messages.</span></span>  

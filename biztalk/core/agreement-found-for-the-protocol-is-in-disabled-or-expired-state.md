@@ -1,14 +1,14 @@
 ---
-title: "找到要通訊協定已停用協議或過期狀態 |Microsoft 文件"
-ms.custom: 
+title: 找到要通訊協定已停用協議或過期狀態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b524f423-1325-495c-9499-33101f6388fc
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22229886"
 ---
 # <a name="agreement-found-for-the-protocol-is-in-disabled-or-expired-state"></a><span data-ttu-id="5806e-102">找到要通訊協定已停用協議或過期的狀態</span><span class="sxs-lookup"><span data-stu-id="5806e-102">Agreement found for the Protocol is in Disabled or Expired state</span></span>
 ## <a name="details"></a><span data-ttu-id="5806e-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="5806e-103">Details</span></span>  

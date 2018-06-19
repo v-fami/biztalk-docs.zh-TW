@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Adapter for SQL Server 的概觀 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Adapter for SQL Server 的概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8e46690e-d5c4-4d6b-b7a0-9a5adf4431cd
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222742"
 ---
 # <a name="overview-of-biztalk-adapter-for-sql-server"></a><span data-ttu-id="6a08f-102">BizTalk Adapter for SQL Server 的概觀</span><span class="sxs-lookup"><span data-stu-id="6a08f-102">Overview of BizTalk Adapter for SQL Server</span></span>
 <span data-ttu-id="6a08f-103">[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]公開為 WCF 服務的 SQL Server 資料庫。</span><span class="sxs-lookup"><span data-stu-id="6a08f-103">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] exposes the SQL Server database as a WCF service.</span></span> <span data-ttu-id="6a08f-104">配接器用戶端可以交換 SOAP 訊息的配接器，以執行 SQL Server 資料庫上的作業。</span><span class="sxs-lookup"><span data-stu-id="6a08f-104">Adapter clients can perform operations on the SQL Server database by exchanging SOAP messages with the adapter.</span></span> <span data-ttu-id="6a08f-105">配接器會使用 SOAP 訊息，並會適當 ADO.NET 呼叫，以執行此作業。</span><span class="sxs-lookup"><span data-stu-id="6a08f-105">The adapter consumes the SOAP message and makes appropriate ADO.NET calls to perform the operation.</span></span> <span data-ttu-id="6a08f-106">配接器會傳回回應從 SQL Server 資料庫中的 SOAP 訊息形式的用戶端。</span><span class="sxs-lookup"><span data-stu-id="6a08f-106">The adapter returns the response from the SQL Server database back to the client in the form of SOAP messages.</span></span>  

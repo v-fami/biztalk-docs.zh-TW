@@ -1,14 +1,14 @@
 ---
-title: "使用 SQL 配接器的 Visual Studio 中的 SQL Server 作業取得中繼資料 |Microsoft 文件"
-ms.custom: 
+title: 使用 SQL 配接器的 Visual Studio 中的 SQL Server 作業取得中繼資料 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5a7ac720-e573-4564-8d15-8212a815f1f7
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222150"
 ---
 # <a name="get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter"></a><span data-ttu-id="fa686-102">使用 SQL 配接器的 Visual Studio 中的 SQL Server 作業取得中繼資料</span><span class="sxs-lookup"><span data-stu-id="fa686-102">Get metadata for SQL Server operations in Visual Studio using the SQL adapter</span></span>
 <span data-ttu-id="fa686-103">[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]提供三個[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]可用來協助您開發解決方案使用配接器的元件 — [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]、 [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，而[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="fa686-103">The [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] provides three [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] components that you can use to help you develop solutions using the adapter—the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)], the [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], and the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)].</span></span> <span data-ttu-id="fa686-104">配接器用戶端必須使用這些元件，來連接到 SQL Server，並產生他們想要執行作業的中繼資料。</span><span class="sxs-lookup"><span data-stu-id="fa686-104">Adapter clients must use these components to connect to SQL Server and then generate metadata for the operations they want to perform.</span></span>  

@@ -1,17 +1,17 @@
 ---
-title: "通訊方向 |Microsoft 文件"
-ms.custom: 
+title: 通訊方向 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - port types, communication direction
 - communication direction [port types]
 ms.assetid: b278325e-a1da-49a6-8332-80a5f640cc22
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231374"
 ---
 # <a name="communication-direction"></a><span data-ttu-id="f2a72-102">通訊方向</span><span class="sxs-lookup"><span data-stu-id="f2a72-102">Communication Direction</span></span>
 <span data-ttu-id="f2a72-103">每個*連接埠*都有它自己的通訊方向。</span><span class="sxs-lookup"><span data-stu-id="f2a72-103">Each *port* has its own communication direction.</span></span> <span data-ttu-id="f2a72-104">通訊方向是與連接埠類型的通訊模式結合使用，以完成如何使用連接埠的定義。</span><span class="sxs-lookup"><span data-stu-id="f2a72-104">The communication direction is used in combination with the communication pattern of the port's type to complete the definition of how a port can be used.</span></span> <span data-ttu-id="f2a72-105">通訊方向 (或極性) 可決定透過該連接埠傳輸之訊息的方向。</span><span class="sxs-lookup"><span data-stu-id="f2a72-105">The communication direction, or polarity, determines in which direction messages will be transmitted over that port.</span></span>  

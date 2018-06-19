@@ -1,14 +1,14 @@
 ---
-title: "互動配接器不可否認性 |Microsoft 文件"
-ms.custom: 
+title: 互動配接器不可否認性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a13fb77c-b10c-4f8a-ba4b-efecc83e092c
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224918"
 ---
 # <a name="interact-adapter-non-repudiation"></a><span data-ttu-id="d1072-102">互動配接器不可否認性</span><span class="sxs-lookup"><span data-stu-id="d1072-102">InterAct Adapter Non-Repudiation</span></span>
 <span data-ttu-id="d1072-103">外寄 InterAct 訊息不可否認性支援被透過 SwInt:NRIndicator 設 SwInt:RequestControl 或 SwInt:ResponseControl，視需要為 TRUE。</span><span class="sxs-lookup"><span data-stu-id="d1072-103">Non-repudiation support for an outgoing InterAct message is obtained by setting the SwInt:NRIndicator to TRUE in the SwInt:RequestControl or SwInt:ResponseControl, as appropriate.</span></span> <span data-ttu-id="d1072-104">這是必要只有當服務不會選取不可否認性支援，根據預設，根據服務的設定檔。</span><span class="sxs-lookup"><span data-stu-id="d1072-104">This is required only if the service does not select non-repudiation support by default, according to the Service Profile.</span></span>  

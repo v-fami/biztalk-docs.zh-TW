@@ -1,11 +1,11 @@
 ---
-title: "Update1 |Microsoft 文件"
-ms.custom: 
+title: Update1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Update function [Business Rules Engine]
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - .NET objects
 - Update function [Business Rules Engine], DataConnection
 ms.assetid: 939e45dc-6433-42f3-a336-8f3c247417ac
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288398"
 ---
 # <a name="update"></a><span data-ttu-id="9d5f7-102">Update</span><span class="sxs-lookup"><span data-stu-id="9d5f7-102">Update</span></span>
 <span data-ttu-id="9d5f7-103">當**更新**函式會叫用物件，該物件會判斷提示引擎重新進行評估，根據新資料和狀態。</span><span class="sxs-lookup"><span data-stu-id="9d5f7-103">When **Update** function is invoked an object, the object is reasserted into the engine to be re-evaluated, based on the new data and state.</span></span> <span data-ttu-id="9d5f7-104">物件可以是類型**TypedXmlDocument**或.NET 類別或**DataConnection**或**TypedDataTable**。</span><span class="sxs-lookup"><span data-stu-id="9d5f7-104">The object can be of type **TypedXmlDocument** or .NET class or **DataConnection** or **TypedDataTable**.</span></span>  
@@ -50,7 +51,7 @@ IF ItemB.Id == 2
 THEN ItemB.Value = 100  
 ```  
   
- <span data-ttu-id="9d5f7-118">這種在工作記憶體中重新判斷提示的能力，可讓使用者明確控制正向鏈結實例中的行為。</span><span class="sxs-lookup"><span data-stu-id="9d5f7-118">This ability to reassert objects into working memory allows the user explicit control over the behavior in forward-chaining scenarios.</span></span> <span data-ttu-id="9d5f7-119">不過，此範例中重新判斷提示的副作用是「規則 1」也會重新評估。</span><span class="sxs-lookup"><span data-stu-id="9d5f7-119">A side effect of the reassertion in this example, however, is that Rule 1 is also re-evaluated.</span></span> <span data-ttu-id="9d5f7-120">因為**ItemA.Id**未變更，規則 1 再次評估為**true**和**assert （itemb)**的動作引發一次。</span><span class="sxs-lookup"><span data-stu-id="9d5f7-120">Because **ItemA.Id** was not changed, Rule 1 again evaluates to **true** and the **Assert(ItemB)** action fires again.</span></span> <span data-ttu-id="9d5f7-121">其結果是，規則建立了無止盡迴圈的狀況。</span><span class="sxs-lookup"><span data-stu-id="9d5f7-121">As a result, the rule creates an endless loop situation.</span></span>  
+ <span data-ttu-id="9d5f7-118">這種在工作記憶體中重新判斷提示的能力，可讓使用者明確控制正向鏈結實例中的行為。</span><span class="sxs-lookup"><span data-stu-id="9d5f7-118">This ability to reassert objects into working memory allows the user explicit control over the behavior in forward-chaining scenarios.</span></span> <span data-ttu-id="9d5f7-119">不過，此範例中重新判斷提示的副作用是「規則 1」也會重新評估。</span><span class="sxs-lookup"><span data-stu-id="9d5f7-119">A side effect of the reassertion in this example, however, is that Rule 1 is also re-evaluated.</span></span> <span data-ttu-id="9d5f7-120">因為**ItemA.Id**未變更，規則 1 再次評估為**true**和**assert （itemb)** 的動作引發一次。</span><span class="sxs-lookup"><span data-stu-id="9d5f7-120">Because **ItemA.Id** was not changed, Rule 1 again evaluates to **true** and the **Assert(ItemB)** action fires again.</span></span> <span data-ttu-id="9d5f7-121">其結果是，規則建立了無止盡迴圈的狀況。</span><span class="sxs-lookup"><span data-stu-id="9d5f7-121">As a result, the rule creates an endless loop situation.</span></span>  
   
 > [!NOTE]
 >  <span data-ttu-id="9d5f7-122">重新評估規則的預設最大迴圈計數為 2 ^32。</span><span class="sxs-lookup"><span data-stu-id="9d5f7-122">The default maximum loop count of re-evaluation of rules is 2^32.</span></span> <span data-ttu-id="9d5f7-123">對於特定規則，原則執行可以持續很長的時間。</span><span class="sxs-lookup"><span data-stu-id="9d5f7-123">For certain rules, the policy execution could last for a long time.</span></span> <span data-ttu-id="9d5f7-124">您可以藉由調整減少計數**最大執行迴圈深度**原則版本的屬性。</span><span class="sxs-lookup"><span data-stu-id="9d5f7-124">You can reduce the count by adjusting the **Maximum Execution Loop Depth** property of the policy version.</span></span>  

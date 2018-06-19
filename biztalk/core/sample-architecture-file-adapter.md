@@ -1,11 +1,11 @@
 ---
-title: "範例架構： File 配接器 |Microsoft 文件"
-ms.custom: 
+title: 範例架構： File 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, security
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - architecture, security
 - File adapters, architecture examples
 ms.assetid: fdcbba0c-e301-46ce-8940-d617232cafbd
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269606"
 ---
 # <a name="sample-architecture-file-adapter"></a><span data-ttu-id="85f4a-102">範例架構： File 配接器</span><span class="sxs-lookup"><span data-stu-id="85f4a-102">Sample Architecture: File Adapter</span></span>
 <span data-ttu-id="85f4a-103">當您使用 File 配接器傳送和接收訊息時，本主題描述的範例架構。</span><span class="sxs-lookup"><span data-stu-id="85f4a-103">This topic describes the sample architecture when you use the File adapter to send and receive messages.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "範例凍結計算 |Microsoft 文件"
-ms.custom: 
+title: 範例凍結計算 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4da41d0d-10ee-4f64-97d1-3cfa9da153f7
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268878"
 ---
 # <a name="sample-dehydration-calculation"></a><span data-ttu-id="f52c0-102">範例凍結計算</span><span class="sxs-lookup"><span data-stu-id="f52c0-102">Sample Dehydration Calculation</span></span>
 <span data-ttu-id="f52c0-103">以下是範例計算的範例，使用私用位元組來決定 BizTalk 是否會凍結。</span><span class="sxs-lookup"><span data-stu-id="f52c0-103">Here is an example of a sample calculation, using private bytes, to determine if BizTalk will dehydrate or not.</span></span> <span data-ttu-id="f52c0-104">該範例使用預設的設定值，以及一些範例執行階段值。</span><span class="sxs-lookup"><span data-stu-id="f52c0-104">It uses the default configured values, and some example run-time values.</span></span>  

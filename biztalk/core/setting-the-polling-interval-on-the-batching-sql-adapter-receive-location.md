@@ -1,11 +1,11 @@
 ---
-title: "設定輪詢間隔，在批次處理 SQL 配接器接收位置 |Microsoft 文件"
-ms.custom: 
+title: 設定輪詢間隔，在批次處理 SQL 配接器接收位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - polling interval [receive adapters]
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - SQL adapters, receive locations
 - receive locations, SQL adapters
 ms.assetid: 9053b20d-145a-4445-b414-c0482cf975a0
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269686"
 ---
 # <a name="setting-the-polling-interval-on-the-batching-sql-adapter-receive-location"></a><span data-ttu-id="1a72a-102">在批次處理 SQL 配接器接收位置上設定輪詢間隔</span><span class="sxs-lookup"><span data-stu-id="1a72a-102">Setting the Polling Interval on the Batching SQL Adapter Receive Location</span></span>
 <span data-ttu-id="1a72a-103">您可以設定的輪詢間隔上，為批次處理 SQL 配接器接收位置 (**BatchControlMessageRecvLoc**) 以不同的方式開發和生產環境的電腦上。</span><span class="sxs-lookup"><span data-stu-id="1a72a-103">You can set the polling interval on the batching SQL adapter receive location (**BatchControlMessageRecvLoc**) differently on development and production computers.</span></span> <span data-ttu-id="1a72a-104">在程式開發伺服器上，Microsoft 建議您保持預設的 30 秒輪詢間隔，以快速啟動協議的批次處理協調流程。</span><span class="sxs-lookup"><span data-stu-id="1a72a-104">On a development server, Microsoft recommends that you keep the polling interval at the default of 30 seconds, for quick activation of the batching orchestration for an agreement.</span></span> <span data-ttu-id="1a72a-105">然而，在實際執行伺服器上，設定為 30 秒可能會影響效能。</span><span class="sxs-lookup"><span data-stu-id="1a72a-105">However, on a production server, a setting of 30 seconds may affect performance.</span></span> <span data-ttu-id="1a72a-106">一旦批次已啟動，可能需要將輪詢間隔值設高一點，例如 5 分鐘。</span><span class="sxs-lookup"><span data-stu-id="1a72a-106">Once you have activated a batch, you may want to set the polling interval to a higher value, such as five minutes.</span></span>  

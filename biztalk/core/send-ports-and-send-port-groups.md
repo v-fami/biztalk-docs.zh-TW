@@ -1,11 +1,11 @@
 ---
-title: "傳送埠與傳送埠群組 |Microsoft 文件"
-ms.custom: 
+title: 傳送埠與傳送埠群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, states
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - send port groups, about send port groups
 - states, send ports
 ms.assetid: 274bdd27-9098-46a2-8762-8b57bbfc95b8
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271822"
 ---
 # <a name="send-ports-and-send-port-groups"></a><span data-ttu-id="45380-102">傳送埠與傳送埠群組</span><span class="sxs-lookup"><span data-stu-id="45380-102">Send Ports and Send Port Groups</span></span>
 <span data-ttu-id="45380-103">A*傳送埠*是 Microsoft BizTalk Server 傳送訊息的位置，或從中 BizTalk Server 接收訊息。</span><span class="sxs-lookup"><span data-stu-id="45380-103">A *send port* is the location to which Microsoft BizTalk Server sends messages or from which BizTalk Server receives messages.</span></span> <span data-ttu-id="45380-104">它也提供 BizTalk Server 用來實作通訊動作的技術。</span><span class="sxs-lookup"><span data-stu-id="45380-104">It also provides the technology that BizTalk Server uses to implement the communication action.</span></span> <span data-ttu-id="45380-105">連接埠的名稱可指出唯一的位置。</span><span class="sxs-lookup"><span data-stu-id="45380-105">The name of the port uniquely identifies the location.</span></span>  

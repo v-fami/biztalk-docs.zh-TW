@@ -1,14 +1,14 @@
 ---
-title: "BAM 攔截器的一般問題 |Microsoft 文件"
-ms.custom: 
+title: BAM 攔截器的一般問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a32145e2-1367-4576-9103-86c9182c11a8
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231494"
 ---
 # <a name="common-issues-with-the-bam-interceptors"></a><span data-ttu-id="59000-102">BAM 攔截器的常見問題</span><span class="sxs-lookup"><span data-stu-id="59000-102">Common Issues with the BAM Interceptors</span></span>
 <span data-ttu-id="59000-103">這個主題討論以下使用 BAM 攔截器時可能常發生的問題：</span><span class="sxs-lookup"><span data-stu-id="59000-103">This topic discusses the following common problems that can arise when using BAM interceptors:</span></span>  

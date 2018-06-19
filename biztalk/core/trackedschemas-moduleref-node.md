@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278910"
 ---
 # <a name="trackedschemas-moduleref-node"></a><span data-ttu-id="81642-102">TrackedSchemas (ModuleRef 節點)</span><span class="sxs-lookup"><span data-stu-id="81642-102">TrackedSchemas (ModuleRef Node)</span></span>
 <span data-ttu-id="81642-103">繫結檔案之 TrackedSchemas 節點是所有 [結構描述] 節點的父節點，這些節點會描述繫結至隨同繫結檔案一起匯出之服務的結構描述。</span><span class="sxs-lookup"><span data-stu-id="81642-103">The TrackedSchemas node of a binding file is the parent node for all of the Schema nodes which describe the schemas bound to the service that is exported with the binding file.</span></span>  

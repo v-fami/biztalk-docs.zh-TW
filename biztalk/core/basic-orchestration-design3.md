@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230710"
 ---
 # <a name="basic-orchestration-design"></a><span data-ttu-id="dec12-102">基本協調流程設計</span><span class="sxs-lookup"><span data-stu-id="dec12-102">Basic Orchestration Design</span></span>
 <span data-ttu-id="dec12-103">當您建立基本協調流程時，在您的協調流程的接收埠收到 XML。</span><span class="sxs-lookup"><span data-stu-id="dec12-103">When you create a basic orchestration, you receive XML in the receive port of your orchestration.</span></span> <span data-ttu-id="dec12-104">XML 傳送到後端系統上，進行處理。</span><span class="sxs-lookup"><span data-stu-id="dec12-104">The XML is sent to the back-end system to be processed.</span></span> <span data-ttu-id="dec12-105">在後端系統中，可能會發生例外狀況，則會停止協調流程。</span><span class="sxs-lookup"><span data-stu-id="dec12-105">In the back-end system, an exception might occur that would stop the orchestration.</span></span> <span data-ttu-id="dec12-106">所產生的例外狀況提供未完成的協調流程的資訊。</span><span class="sxs-lookup"><span data-stu-id="dec12-106">The exception that is produced provides information that the orchestration was not completed.</span></span>  

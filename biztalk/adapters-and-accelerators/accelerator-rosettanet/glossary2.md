@@ -18,6 +18,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22211726"
 ---
 # <a name="glossary"></a><span data-ttu-id="e92e9-103">詞彙</span><span class="sxs-lookup"><span data-stu-id="e92e9-103">Glossary</span></span>
 [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]<span data-ttu-id="e92e9-104"> 使用下列字彙術語和定義。</span><span class="sxs-lookup"><span data-stu-id="e92e9-104"> uses the following glossary terms and definitions.</span></span>  

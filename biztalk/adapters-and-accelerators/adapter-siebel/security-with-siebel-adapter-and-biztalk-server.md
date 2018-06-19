@@ -1,11 +1,11 @@
 ---
-title: "使用 Siebel 配接器和 BizTalk Server 安全性 |Microsoft 文件"
-ms.custom: 
+title: 使用 Siebel 配接器和 BizTalk Server 安全性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - credentials, security considerations
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - user name password credentials
 - security, protecting credentials when using the Consume Adapter Service BizTalk Project Add-in
 ms.assetid: 0b3ab81f-0fe3-4dd3-9257-174d9803b4a3
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223902"
 ---
 # <a name="security-with-siebel-adapter-and-biztalk-server"></a><span data-ttu-id="24d6f-102">使用 Siebel 配接器和 BizTalk Server 安全性</span><span class="sxs-lookup"><span data-stu-id="24d6f-102">Security with Siebel adapter and BizTalk Server</span></span>
 <span data-ttu-id="24d6f-103">當您使用 BizTalk Server 管理主控台中，設定傳送埠或接收埠 （位置），或當您使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]擷取 BizTalk 解決方案的訊息結構描述，您必須提供認證，針對 Siebel 系統。</span><span class="sxs-lookup"><span data-stu-id="24d6f-103">When you configure a send port or a receive port (location) by using the BizTalk Server Administration console, or when you use the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] to retrieve message schemas for a BizTalk solution, you must provide credentials for the Siebel system.</span></span> <span data-ttu-id="24d6f-104">請務必在安全的方式，可協助防止它們被洩漏給潛在惡意的動作項目中提供這些認證。</span><span class="sxs-lookup"><span data-stu-id="24d6f-104">It is important to supply these credentials in a secure way to help prevent them from being revealed to potentially malicious actors.</span></span> <span data-ttu-id="24d6f-105">本主題討論如何最安全的方式提供的認證[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]BizTalk Server 解決方案。</span><span class="sxs-lookup"><span data-stu-id="24d6f-105">This topic discusses how to most securely supply credentials for the [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] for BizTalk Server solutions.</span></span>  

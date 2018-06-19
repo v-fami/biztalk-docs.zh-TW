@@ -1,14 +1,14 @@
 ---
-title: "通訊協定設定 |Microsoft 文件"
-ms.custom: 
+title: 通訊協定設定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 224a9837-5c85-4511-b6d9-c8fda63a27d1
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271918"
 ---
 # <a name="protocol-settings"></a><span data-ttu-id="b512b-102">通訊協定設定</span><span class="sxs-lookup"><span data-stu-id="b512b-102">Protocol Settings</span></span>
 ## <a name="overview"></a><span data-ttu-id="b512b-103">概觀</span><span class="sxs-lookup"><span data-stu-id="b512b-103">Overview</span></span>

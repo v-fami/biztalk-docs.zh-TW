@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268374"
 ---
 # <a name="receivelocations-receiveport-node"></a><span data-ttu-id="663c7-102">ReceiveLocations (ReceivePort 節點)</span><span class="sxs-lookup"><span data-stu-id="663c7-102">ReceiveLocations (ReceivePort Node)</span></span>
 <span data-ttu-id="663c7-103">繫結檔案之 [ReceivePort] 節點的 [ ReceiveLocations] 節點是所有 [ReceiveLocation] 節點的父節點，這些節點包含隨同繫結檔案一起匯出之接收位置的特定相關資訊。</span><span class="sxs-lookup"><span data-stu-id="663c7-103">The ReceiveLocations node of the ReceivePort node of a binding file is the parent node for all of the ReceiveLocation nodes which contain specific information about the receive locations that are exported with the binding file.</span></span>  

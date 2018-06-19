@@ -1,14 +1,14 @@
 ---
-title: "交易集控制編號序號已耗盡協力電腦和 TPA |Microsoft 文件"
-ms.custom: 
+title: 交易集控制編號序號已耗盡協力電腦和 TPA |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 67f194ca-3e0f-4ad4-8bc8-88aa7e5193a7
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278334"
 ---
 # <a name="transaction-set-control-number-sequence-exhausted-for-partner-and-tpa"></a><span data-ttu-id="1d3a2-102">協力電腦和 TPA 的交易集控制編號序號已耗盡</span><span class="sxs-lookup"><span data-stu-id="1d3a2-102">Transaction set control number sequence exhausted for Partner and TPA</span></span>
 ## <a name="details"></a><span data-ttu-id="1d3a2-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="1d3a2-103">Details</span></span>  

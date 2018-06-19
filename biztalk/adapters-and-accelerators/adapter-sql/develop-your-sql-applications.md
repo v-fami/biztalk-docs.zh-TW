@@ -1,15 +1,15 @@
 ---
-title: "開發 BizTalk Server 中的 SQL 應用程式 |Microsoft 文件"
-description: "建立 SQL 配接器應用程式使用 WCF，或在 BizTalk Server 與 BizTalk 配接器組件 (BAP)"
-ms.custom: 
+title: 開發 BizTalk Server 中的 SQL 應用程式 |Microsoft 文件
+description: 建立 SQL 配接器應用程式使用 WCF，或在 BizTalk Server 與 BizTalk 配接器組件 (BAP)
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fac4b5b0-2980-4784-a081-e795654292ed
-caps.latest.revision: "39"
+caps.latest.revision: 39
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224430"
 ---
 # <a name="develop-your-sql-applications"></a><span data-ttu-id="3b4b2-103">開發 SQL 應用程式</span><span class="sxs-lookup"><span data-stu-id="3b4b2-103">Develop your SQL applications</span></span>
 

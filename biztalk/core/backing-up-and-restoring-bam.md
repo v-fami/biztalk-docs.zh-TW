@@ -1,11 +1,11 @@
 ---
-title: "備份和還原 BAM |Microsoft 文件"
-ms.custom: 
+title: 備份和還原 BAM |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - backing up [BAM]
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - restoring [BAM]
 - BAM, backing up
 ms.assetid: 5d477492-fdb7-4866-92a8-2720fea15839
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230294"
 ---
 # <a name="backing-up-and-restoring-bam"></a><span data-ttu-id="c13c9-102">Backing Up and Restoring BAM</span><span class="sxs-lookup"><span data-stu-id="c13c9-102">Backing Up and Restoring BAM</span></span>
 <span data-ttu-id="c13c9-103">本節提供有關如何備份和還原 BAM Analysis、追蹤 Analysis、BAM 星狀結構描述和 BAM 封存資料庫的資訊。</span><span class="sxs-lookup"><span data-stu-id="c13c9-103">This section provides information about how to back up and restore the BAM Analysis, Tracking Analysis, BAM Star Schema, and BAM Archive databases.</span></span>  

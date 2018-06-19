@@ -1,18 +1,18 @@
 ---
-title: "了解 BizTalk Adapter for Siebel 繫結屬性 |Microsoft 文件"
-ms.custom: 
+title: 了解 BizTalk Adapter for Siebel 繫結屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding properties, setting
 - binding properties, adapter
 - how to, set binding properties
 ms.assetid: 48c77a2d-091c-40e0-aaf3-dc2ec34c55f2
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224038"
 ---
 # <a name="read-about-biztalk-adapter-for-siebel-binding-properties"></a><span data-ttu-id="e2764-102">了解 BizTalk Adapter for Siebel 繫結屬性</span><span class="sxs-lookup"><span data-stu-id="e2764-102">Read about BizTalk Adapter for Siebel Binding Properties</span></span>
 <span data-ttu-id="e2764-103">[!INCLUDE[adaptersiebel_md](../../includes/adaptersiebel-md.md)]呈現數個可讓您控制其執行階段和設計階段行為的某些繫結屬性。</span><span class="sxs-lookup"><span data-stu-id="e2764-103">The [!INCLUDE[adaptersiebel_md](../../includes/adaptersiebel-md.md)] surfaces several binding properties that enable you to control some of its run-time and design-time behavior.</span></span> <span data-ttu-id="e2764-104">本節描述這些繫結屬性，並提供連結，這些主題說明如何設定它們。</span><span class="sxs-lookup"><span data-stu-id="e2764-104">This section describes these binding properties and provides links to topics that explain how you can set them.</span></span>  

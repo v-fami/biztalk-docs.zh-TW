@@ -1,11 +1,11 @@
 ---
-title: "無法辨識的訊息中的 XML 解譯器管線元件 |Microsoft 文件"
-ms.custom: 
+title: 無法辨識的訊息中的 XML 解譯器管線元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Allow Unrecognized Messages property
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - pipeline components, XML Disassembler
 - XML Disassembler [pipeline component], unrecognized messages
 ms.assetid: 5a6be3a8-0bac-426a-bf0b-5091191091de
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286742"
 ---
 # <a name="unrecognized-messages-in-the-xml-disassembler-pipeline-component"></a><span data-ttu-id="ca815-102">XML 解譯器管線元件中無法辨識的訊息</span><span class="sxs-lookup"><span data-stu-id="ca815-102">Unrecognized Messages in the XML Disassembler Pipeline Component</span></span>
 <span data-ttu-id="ca815-103">XML 解譯器元件在以下情況中可能會將訊息當作「無法辨識」處理：</span><span class="sxs-lookup"><span data-stu-id="ca815-103">The XML Disassembler component may handle a message as "unrecognized" in the following cases:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 測試 SharePoint 應用程式使用 Siebel 配接器 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 測試 SharePoint 應用程式使用 Siebel 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ec1392fa-fdc1-42be-b4dc-75a55d8fa400
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222182"
 ---
 # <a name="step-4-test-your-sharepoint-application-with-the-siebel-adapter"></a><span data-ttu-id="8fe76-102">步驟 4： 測試 SharePoint 應用程式使用 Siebel 配接器</span><span class="sxs-lookup"><span data-stu-id="8fe76-102">Step 4: Test Your SharePoint Application with the Siebel adapter</span></span>
 <span data-ttu-id="8fe76-103">![步驟 4 之 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-4of4.gif "Step_4of4")</span><span class="sxs-lookup"><span data-stu-id="8fe76-103">![Step 4 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-4of4.gif "Step_4of4")</span></span>  
   
  <span data-ttu-id="8fe76-104">**若要完成的時間：** 5 分鐘。</span><span class="sxs-lookup"><span data-stu-id="8fe76-104">**Time to complete:** 5 minutes.</span></span>  
   
- <span data-ttu-id="8fe76-105">**目標：**您 SharePoint 網站中加入 Web 組件，並建立應用程式，您必須測試應用程式擷取來自 Siebel 系統的一些資料之後。</span><span class="sxs-lookup"><span data-stu-id="8fe76-105">**Objective:** After you have added Web Parts in the SharePoint site and created an application, you must test the application by retrieving some data from the Siebel system.</span></span> <span data-ttu-id="8fe76-106">本節提供有關如何使用來自 Siebel 系統擷取資料的應用程式的指示。</span><span class="sxs-lookup"><span data-stu-id="8fe76-106">This section provides instructions on how to use the application to retrieve the data from the Siebel system.</span></span>  
+ <span data-ttu-id="8fe76-105">**目標：** 您 SharePoint 網站中加入 Web 組件，並建立應用程式，您必須測試應用程式擷取來自 Siebel 系統的一些資料之後。</span><span class="sxs-lookup"><span data-stu-id="8fe76-105">**Objective:** After you have added Web Parts in the SharePoint site and created an application, you must test the application by retrieving some data from the Siebel system.</span></span> <span data-ttu-id="8fe76-106">本節提供有關如何使用來自 Siebel 系統擷取資料的應用程式的指示。</span><span class="sxs-lookup"><span data-stu-id="8fe76-106">This section provides instructions on how to use the application to retrieve the data from the Siebel system.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="8fe76-107">必要條件</span><span class="sxs-lookup"><span data-stu-id="8fe76-107">Prerequisites</span></span>  
  <span data-ttu-id="8fe76-108">您應該建立包含適當的 Web 組件，來擷取商務資料的 Web 組件頁面。</span><span class="sxs-lookup"><span data-stu-id="8fe76-108">You should have created the Web Part page containing the appropriate Web Parts to retrieve business data.</span></span> <span data-ttu-id="8fe76-109">請參閱[步驟 3： 建立 SharePoint 應用程式資料擷取 Siebel](../../adapters-and-accelerators/adapter-siebel/step-3-create-a-sharepoint-application-to-retrieve-data-from-siebel.md)。</span><span class="sxs-lookup"><span data-stu-id="8fe76-109">See [Step 3: Create a SharePoint Application to Retrieve Data from Siebel](../../adapters-and-accelerators/adapter-siebel/step-3-create-a-sharepoint-application-to-retrieve-data-from-siebel.md).</span></span>  

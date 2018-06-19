@@ -1,14 +1,14 @@
 ---
-title: "反映 BizTalk 組件時發生安全性例外狀況 |Microsoft 文件"
-ms.custom: 
+title: 反映 BizTalk 組件時發生安全性例外狀況 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 301b85c7-8e67-482e-8666-67a91ca5c73d
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224974"
 ---
 # <a name="a-security-exception-occurred-while-reflecting-a-biztalk-assembly"></a><span data-ttu-id="e97a4-102">反映 BizTalk 組件時發生安全性例外狀況</span><span class="sxs-lookup"><span data-stu-id="e97a4-102">A security exception occurred while reflecting a BizTalk assembly</span></span>
 ## <a name="details"></a><span data-ttu-id="e97a4-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="e97a4-103">Details</span></span>  

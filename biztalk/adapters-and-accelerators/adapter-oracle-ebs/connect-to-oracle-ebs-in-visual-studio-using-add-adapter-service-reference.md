@@ -1,14 +1,14 @@
 ---
-title: "連接到 Oracle E-business Suite，在 Visual Studio 中使用 新增配接器服務參考外掛程式 |Microsoft 文件"
-ms.custom: 
+title: 連接到 Oracle E-business Suite，在 Visual Studio 中使用 新增配接器服務參考外掛程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7fe4d1b7-8201-4816-ae90-020520f29714
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218470"
 ---
 # <a name="connect-to-oracle-e-business-suite-in-visual-studio-using-add-adapter-service-reference-plug-in"></a><span data-ttu-id="70a95-102">連接到 Oracle E-business Suite，在 Visual Studio 中使用 新增配接器服務參考外掛程式</span><span class="sxs-lookup"><span data-stu-id="70a95-102">Connect to Oracle E-Business Suite in Visual Studio using Add Adapter Service Reference Plug-in</span></span>
 <span data-ttu-id="70a95-103">若要連接到 Oracle E-business Suite 使用[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]在.NET 程式設計方案，您必須使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="70a95-103">To connect to Oracle E-Business Suite using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] in a .NET programming solution, you must use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)].</span></span> <span data-ttu-id="70a95-104">本主題說明如何使用[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="70a95-104">This topic provides instructions on how to use the [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)].</span></span>  

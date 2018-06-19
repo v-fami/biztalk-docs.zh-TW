@@ -1,14 +1,14 @@
 ---
-title: "配接器群組和群組配接器 |Microsoft 文件"
-ms.custom: 
+title: 配接器群組和群組配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0e0a9423-99dd-4474-afa1-fd8e1d074cd1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225374"
 ---
 # <a name="adapter-groups-and-group-adapters"></a><span data-ttu-id="301e3-102">配接器群組和群組配接器</span><span class="sxs-lookup"><span data-stu-id="301e3-102">Adapter Groups and Group Adapters</span></span>
 <span data-ttu-id="301e3-103">*配接器群組*是一種管理機制，您可以使用它來收集和組織的介面卡集合。</span><span class="sxs-lookup"><span data-stu-id="301e3-103">An *adapter group* is an administration mechanism that you can use to collect and organize a set of adapters.</span></span> <span data-ttu-id="301e3-104">相反地，*群組配接器*是服務配接器群組中的所有配接器的元件。</span><span class="sxs-lookup"><span data-stu-id="301e3-104">In contrast, a *group adapter* is a component that services all adapters in an adapter group.</span></span> <span data-ttu-id="301e3-105">例如，您可以撰寫一組配接器，讓它們都使用相同的 COM 元件，透過 TCP/IP 來傳輸密碼同步。</span><span class="sxs-lookup"><span data-stu-id="301e3-105">For example, you might write a set of adapters that all use the same COM component to transmit password synchronizations over TCP/IP.</span></span> <span data-ttu-id="301e3-106">這一組配接器即稱為配接器群組，而用來服務這些配接器的元件，就稱為群組配接器。</span><span class="sxs-lookup"><span data-stu-id="301e3-106">Your set of adapters is called the adapter group, whereas the component that services them all is called a group adapter.</span></span> <span data-ttu-id="301e3-107">配接器群組在組態存放區中加以描述。</span><span class="sxs-lookup"><span data-stu-id="301e3-107">Adapter groups are described in the configuration store.</span></span> <span data-ttu-id="301e3-108">您可以使用 `ISSOPSAdapter.ReceiveNotification` 擷取有關配接器群組的資訊和更新。</span><span class="sxs-lookup"><span data-stu-id="301e3-108">You can retrieve information and updates on an adapter group by using `ISSOPSAdapter.ReceiveNotification`.</span></span>  

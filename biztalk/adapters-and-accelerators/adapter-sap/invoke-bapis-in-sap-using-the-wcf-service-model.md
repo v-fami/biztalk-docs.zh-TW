@@ -1,17 +1,17 @@
 ---
-title: "叫用 SAP 使用 WCF 服務模型中的 Bapi |Microsoft 文件"
-ms.custom: 
+title: 叫用 SAP 使用 WCF 服務模型中的 Bapi |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BAPIs, invoking by using the WCF service model
 - WCF service model, invoking BAPIs
 ms.assetid: be3c48d6-2213-4ae5-97f4-634fbc423022
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218510"
 ---
 # <a name="invoke-bapis-in-sap-using-the-wcf-service-model"></a><span data-ttu-id="64159-102">叫用 SAP 使用 WCF 服務模型中的 Bapi</span><span class="sxs-lookup"><span data-stu-id="64159-102">Invoke BAPIs in SAP using the WCF Service Model</span></span>
 <span data-ttu-id="64159-103">[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]呈現為 Bapi:</span><span class="sxs-lookup"><span data-stu-id="64159-103">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces BAPIs as:</span></span>  

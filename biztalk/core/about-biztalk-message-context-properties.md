@@ -1,14 +1,14 @@
 ---
-title: "關於 BizTalk 訊息內容屬性 |Microsoft 文件"
-ms.custom: 
+title: 關於 BizTalk 訊息內容屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bc700e43-a44c-482b-b91c-9f1d997a486a
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225494"
 ---
 # <a name="about-biztalk-message-context-properties"></a><span data-ttu-id="31c5a-102">關於 BizTalk 訊息內容屬性</span><span class="sxs-lookup"><span data-stu-id="31c5a-102">About BizTalk Message Context Properties</span></span>
 <span data-ttu-id="31c5a-103">BizTalk Server 配接器在收到文件時，會為該文件建立 BizTalk 訊息。</span><span class="sxs-lookup"><span data-stu-id="31c5a-103">When a document is received by a BizTalk Server adapter, the adapter creates a BizTalk message for the document.</span></span> <span data-ttu-id="31c5a-104">BizTalk 訊息包含收到的文件及訊息內容。</span><span class="sxs-lookup"><span data-stu-id="31c5a-104">The BizTalk message contains the document that was received as well as a message context.</span></span> <span data-ttu-id="31c5a-105">訊息內容是 BizTalk Server 處理文件時使用的各種屬性之容器。</span><span class="sxs-lookup"><span data-stu-id="31c5a-105">The message context is a container for various properties that are used by BizTalk Server when processing the document.</span></span> <span data-ttu-id="31c5a-106">「訊息內容」中的每個屬性都由三種項目構成：名稱、命名空間和值。</span><span class="sxs-lookup"><span data-stu-id="31c5a-106">Each property in the Message Context is composed of three things, a name, a namespace, and a value.</span></span> <span data-ttu-id="31c5a-107">例如，下列訊息內容屬性描述文件的「交換 ID」：</span><span class="sxs-lookup"><span data-stu-id="31c5a-107">For example, the following message context property describes the Interchange ID for a document:</span></span>  

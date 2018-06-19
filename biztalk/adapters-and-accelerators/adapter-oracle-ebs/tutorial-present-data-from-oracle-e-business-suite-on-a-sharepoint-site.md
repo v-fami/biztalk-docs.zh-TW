@@ -1,14 +1,14 @@
 ---
-title: "教學課程： 將資料呈現從 SharePoint 網站上的 Oracle E-business Suite |Microsoft 文件"
-ms.custom: 
+title: 教學課程： 將資料呈現從 SharePoint 網站上的 Oracle E-business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1272b76c-29a1-4912-9c2d-8a4cf43df59d
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215630"
 ---
 # <a name="tutorial-present-data-from-oracle-e-business-suite-on-a-sharepoint-site"></a><span data-ttu-id="48b67-102">教學課程： 從 SharePoint 網站上的 Oracle E-business Suite 中呈現的資料</span><span class="sxs-lookup"><span data-stu-id="48b67-102">Tutorial: Present data from Oracle E-Business Suite on a SharePoint Site</span></span>
 <span data-ttu-id="48b67-103">本教學課程提供詳細的指示使用[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]與 Microsoft Office SharePoint Server 上的 SharePoint 入口網站，從 Oracle E-business Suite 呈現資料。</span><span class="sxs-lookup"><span data-stu-id="48b67-103">This tutorial provides detailed instructions on using the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] with Microsoft Office SharePoint Server to present data from Oracle E-Business Suite on a SharePoint portal.</span></span> <span data-ttu-id="48b67-104">它也會示範如何設定可讓您從 SharePoint 入口網站上設定的 Oracle E-business Suite 成品執行全文檢索搜尋 Microsoft Office SharePoint Server 中的搜尋應用程式。</span><span class="sxs-lookup"><span data-stu-id="48b67-104">It also demonstrates how to configure a search application in the Microsoft Office SharePoint Server that allows you to do a full-text search from a SharePoint portal on the configured Oracle E-Business Suite artifact.</span></span>  

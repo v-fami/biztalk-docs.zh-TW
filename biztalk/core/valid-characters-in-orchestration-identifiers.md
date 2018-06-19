@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287382"
 ---
 # <a name="valid-characters-in-orchestration-identifiers"></a><span data-ttu-id="1e352-102">協調流程識別碼中的有效字元</span><span class="sxs-lookup"><span data-stu-id="1e352-102">Valid Characters in Orchestration Identifiers</span></span>
 <span data-ttu-id="1e352-103">協調流程識別碼 (例如項目、變數和類型名稱) 具有幾項限制：</span><span class="sxs-lookup"><span data-stu-id="1e352-103">Orchestration identifiers, such as item, variable and type names, have a few restrictions:</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "重新傳送狀態詳細資料報表 |Microsoft 文件"
-ms.custom: 
+title: 重新傳送狀態詳細資料報表 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3cbc9d44-9a9a-4272-a138-ebd126a9f809
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268414"
 ---
 # <a name="resend-status-details-report"></a><span data-ttu-id="1e486-102">重新傳送狀態詳細資料報表</span><span class="sxs-lookup"><span data-stu-id="1e486-102">Resend Status Details Report</span></span>
 <span data-ttu-id="1e486-103">此狀態報表嘗試重試合作對象當做 AS2 接收者的合作對象屬性設定為重新傳送 AS2 訊息，如果未收到 MDN 時顯示資訊。</span><span class="sxs-lookup"><span data-stu-id="1e486-103">This status report displays information on retry attempts made when the Party as AS2 Receiver properties of a party are configured to resend the AS2 message if an MDN is not received.</span></span>  

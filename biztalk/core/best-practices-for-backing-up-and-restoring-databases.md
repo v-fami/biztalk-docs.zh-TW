@@ -1,11 +1,11 @@
 ---
-title: "備份和還原資料庫的最佳作法 |Microsoft 文件"
-ms.custom: 
+title: 備份和還原資料庫的最佳作法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - best practices, maintaining
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - maintaining, best practices
 - best practices, restoring
 ms.assetid: 649ca56b-3cc1-49ad-9f74-ba1521e65ee1
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231174"
 ---
 # <a name="best-practices-for-backing-up-and-restoring-databases"></a><span data-ttu-id="cdf63-102">備份和還原資料庫的最佳作法</span><span class="sxs-lookup"><span data-stu-id="cdf63-102">Best Practices for Backing Up and Restoring Databases</span></span>
 <span data-ttu-id="cdf63-103">請檢視下列最佳作法，以協助確保您可以備份和還原 BizTalk Server 資料庫。</span><span class="sxs-lookup"><span data-stu-id="cdf63-103">Review the following best practices to help ensure that you can backup and restore your BizTalk Server databases.</span></span>  

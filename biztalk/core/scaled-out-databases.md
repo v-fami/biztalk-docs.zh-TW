@@ -1,11 +1,11 @@
 ---
-title: "向外延展資料庫 |Microsoft 文件"
-ms.custom: 
+title: 向外延展資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance, databases [BAM]
@@ -34,7 +34,7 @@ helpviewer_keywords:
 - Analysis database [BAM], clustering
 - DTS packages, scheduling
 ms.assetid: e02edc0d-1c51-4b97-be04-0feb787089ac
-caps.latest.revision: "33"
+caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -43,6 +43,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272078"
 ---
 # <a name="scaled-out-databases"></a><span data-ttu-id="fa8c7-102">向外擴充的資料庫</span><span class="sxs-lookup"><span data-stu-id="fa8c7-102">Scaled-Out Databases</span></span>
 <span data-ttu-id="fa8c7-103">若要提供 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 資料庫的高可用性，請在 Windows 叢集中設定兩部執行 SQL Server 的電腦。</span><span class="sxs-lookup"><span data-stu-id="fa8c7-103">To provide high availability for the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] databases, configure two computers that are running SQL Server in a Windows cluster.</span></span> <span data-ttu-id="fa8c7-104">這些電腦可以主動/主動或主動/被動組態執行以做為備援，並將資料儲存在共用磁碟 (例如 RAID 1+0 SCSI 磁碟陣列) 或存放區域網路 (SAN) 上。</span><span class="sxs-lookup"><span data-stu-id="fa8c7-104">These computers can run in an active/active or active/passive configuration for redundancy and store data on a shared drive (such as a RAID 1+0 SCSI disk array) or storage area network (SAN).</span></span>  

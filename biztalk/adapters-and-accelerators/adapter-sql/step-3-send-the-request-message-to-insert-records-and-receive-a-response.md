@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 傳送要插入的記錄，並接收回應的要求訊息 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 傳送要插入的記錄，並接收回應的要求訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6a8a8906-7c7d-437c-9f04-345ad4ac460e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224086"
 ---
 # <a name="step-3-send-the-request-message-to-insert-records-and-receive-a-response"></a><span data-ttu-id="82eea-102">步驟 3： 傳送要插入的記錄，並接收回應的要求訊息</span><span class="sxs-lookup"><span data-stu-id="82eea-102">Step 3: Send the Request Message to Insert Records and Receive a Response</span></span>
 <span data-ttu-id="82eea-103">![步驟 4 之 3](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")</span><span class="sxs-lookup"><span data-stu-id="82eea-103">![Step 3 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")</span></span>  
   
  <span data-ttu-id="82eea-104">**若要完成的時間：** 10 分鐘</span><span class="sxs-lookup"><span data-stu-id="82eea-104">**Time to complete:** 10 minutes</span></span>  
   
- <span data-ttu-id="82eea-105">**目標：**在此步驟中，您可以傳送要插入至記錄的要求訊息**Purchase_Order**資料表，並接收回應。</span><span class="sxs-lookup"><span data-stu-id="82eea-105">**Objective:** In this step, you send the request message to insert records into the **Purchase_Order** table and receive a response.</span></span>  
+ <span data-ttu-id="82eea-105">**目標：** 在此步驟中，您可以傳送要插入至記錄的要求訊息**Purchase_Order**資料表，並接收回應。</span><span class="sxs-lookup"><span data-stu-id="82eea-105">**Objective:** In this step, you send the request message to insert records into the **Purchase_Order** table and receive a response.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="82eea-106">必要條件</span><span class="sxs-lookup"><span data-stu-id="82eea-106">Prerequisites</span></span>  
  <span data-ttu-id="82eea-107">您必須先完成[步驟 2： 將 UPDATE_EMPLOYEE 回應訊息對應至插入作業要求訊息](../../adapters-and-accelerators/adapter-sql/step-2-map-update_employee-response-to-insert-operation-request.md)。</span><span class="sxs-lookup"><span data-stu-id="82eea-107">You must have completed [Step 2: Map the UPDATE_EMPLOYEE Response Message to Insert Operation Request Message](../../adapters-and-accelerators/adapter-sql/step-2-map-update_employee-response-to-insert-operation-request.md).</span></span>  

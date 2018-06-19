@@ -1,17 +1,17 @@
 ---
-title: "系統管理員 ExplorerOM （BizTalk Server 範例資料夾） |Microsoft 文件"
-ms.custom: 
+title: 系統管理員 ExplorerOM （BizTalk Server 範例資料夾） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - examples, administering
 - administering, examples
 ms.assetid: f6553138-9ab3-4368-84bf-9813e909e372
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230030"
 ---
 # <a name="admin-explorerom-biztalk-server-samples-folder"></a><span data-ttu-id="0b85d-102">系統管理員 ExplorerOM （BizTalk Server 範例資料夾）</span><span class="sxs-lookup"><span data-stu-id="0b85d-102">Admin-ExplorerOM (BizTalk Server Samples Folder)</span></span>
 <span data-ttu-id="0b85d-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在其軟體開發套件 (SDK) 的 Admin\ExplorerOM 資料夾中包含了範例。</span><span class="sxs-lookup"><span data-stu-id="0b85d-103">Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] includes samples in the Admin\ExplorerOM folder in its software development kit (SDK).</span></span> <span data-ttu-id="0b85d-104">本節會詳細介紹每個 BizTalk 總管物件模型管理範例所示範的功能、用來建置和執行範例的指示，以及可預期結果。</span><span class="sxs-lookup"><span data-stu-id="0b85d-104">This section provides detailed information about the functionality demonstrated by each BizTalk Explorer object model administration sample, instructions for building and running the sample, and the results you can expect.</span></span>  

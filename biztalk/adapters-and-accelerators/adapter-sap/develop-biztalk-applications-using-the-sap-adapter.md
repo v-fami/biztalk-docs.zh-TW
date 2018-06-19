@@ -1,17 +1,17 @@
 ---
-title: "開發 BizTalk 應用程式使用 SAP 配接器 |Microsoft 文件"
-ms.custom: 
+title: 開發 BizTalk 應用程式使用 SAP 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk applications, developing
 - developing, BizTalk applications
 ms.assetid: 4aa10897-a08e-4fc3-9c1f-40485d204273
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216638"
 ---
 # <a name="develop-biztalk-applications-using-the-sap-adapter"></a><span data-ttu-id="c2662-102">開發 BizTalk 應用程式使用 SAP 配接器</span><span class="sxs-lookup"><span data-stu-id="c2662-102">Develop BizTalk applications using the SAP adapter</span></span>
 <span data-ttu-id="c2662-103">建立 BizTalk 專案中的開發 BizTalk 應用程式牽涉到[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]和使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]或[!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]產生 XML 結構描述。</span><span class="sxs-lookup"><span data-stu-id="c2662-103">Developing BizTalk applications involves creating a BizTalk project in [!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)] and using the [!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)] or [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)] to generate XML schema.</span></span> <span data-ttu-id="c2662-104">一旦您已經產生結構描述，您可以使用以內容為基礎的路由 (CBR)，或建立 BizTalk 協調流程傳送和接收符合產生結構描述的訊息。</span><span class="sxs-lookup"><span data-stu-id="c2662-104">Once you have generated the schema, you can either use Content-Based Routing (CBR) or create BizTalk orchestrations to send and receive messages that conform to the generated schema.</span></span>  

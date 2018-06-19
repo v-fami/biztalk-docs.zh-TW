@@ -1,14 +1,14 @@
 ---
-title: "如需 WCF LOB 配接器 SDK 教學課程 Prequisities |Microsoft 文件"
-ms.custom: 
+title: 如需 WCF LOB 配接器 SDK 教學課程 Prequisities |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b7d47ac1-1605-4c6d-a331-8583771dca28
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224078"
 ---
 # <a name="prequisities-for-the-wcf-lob-adapter-sdk-tutorials"></a><span data-ttu-id="8e81e-102">如需 WCF LOB 配接器 SDK 教學課程 Prequisities</span><span class="sxs-lookup"><span data-stu-id="8e81e-102">Prequisities for the WCF LOB Adapter SDK tutorials</span></span>
 <span data-ttu-id="8e81e-103">本節提供有關您應該要熟悉以充分利用教學課程中，為完成所需的軟體的概念的詳細資料。</span><span class="sxs-lookup"><span data-stu-id="8e81e-103">This section provides details about the concepts you should be familiar with to get the most out of the tutorials, as well as the software required to complete them.</span></span>  

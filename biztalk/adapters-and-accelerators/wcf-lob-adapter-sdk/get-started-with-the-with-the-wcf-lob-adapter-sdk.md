@@ -1,14 +1,14 @@
 ---
-title: "使用者入門 WCF LOB 配接器 sdk |Microsoft 文件"
-ms.custom: 
+title: 使用者入門 WCF LOB 配接器 sdk |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 80b2d80b-9160-4569-821d-1e5c1338127d
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224878"
 ---
 # <a name="get-started-with-the-with-the-wcf-lob-adapter-sdk"></a><span data-ttu-id="4b009-102">使用者入門 WCF LOB 配接器 sdk</span><span class="sxs-lookup"><span data-stu-id="4b009-102">Get started with the with the WCF LOB Adapter SDK</span></span>
 <span data-ttu-id="4b009-103">本節包含適用於不熟悉的使用者資訊[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="4b009-103">This section contains information that is relevant to users who are new to the [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)].</span></span> <span data-ttu-id="4b009-104">它包含有關安裝、 必要的技術和知識，一般的開發人員工作、 可用的社群資源，以及教學課程主題。</span><span class="sxs-lookup"><span data-stu-id="4b009-104">It contains topics about installation, required skills and knowledge, common developer tasks, available community resources, and tutorials.</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 建立應用程式定義檔的 Siebel 商務元件操作 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 建立應用程式定義檔的 Siebel 商務元件操作 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 75d34c48-0f2a-42e4-a60b-e04bcf2404e1
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,13 +17,14 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22227030"
 ---
 # <a name="step-2-create-an-application-definition-file-for-siebel-business-component-operations"></a><span data-ttu-id="94572-102">步驟 2： 建立應用程式定義檔的 Siebel 商務元件操作</span><span class="sxs-lookup"><span data-stu-id="94572-102">Step 2: Create an Application Definition File for Siebel Business Component Operations</span></span>
 <span data-ttu-id="94572-103">![步驟 4 之 2](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span><span class="sxs-lookup"><span data-stu-id="94572-103">![Step 2 of 4](../../adapters-and-accelerators/adapter-oracle-ebs/media/step-2of4.gif "Step_2of4")</span></span>  
   
  <span data-ttu-id="94572-104">**若要完成的時間：** 15 分鐘</span><span class="sxs-lookup"><span data-stu-id="94572-104">**Time to complete:** 15 minutes</span></span>  
   
- <span data-ttu-id="94572-105">**目標：**商務資料目錄公開，並從的特定業務 (LOB) 應用程式的資料合併至入口網站。</span><span class="sxs-lookup"><span data-stu-id="94572-105">**Objective:** The Business Data Catalog exposes and incorporates data from line-of-business (LOB) applications into portals.</span></span> <span data-ttu-id="94572-106">將此資料合併到您的入口網站，您必須建立 Microsoft Office SharePoint Server 可以使用應用程式定義檔。</span><span class="sxs-lookup"><span data-stu-id="94572-106">To incorporate this data into your portal site, you must build an application definition file that Microsoft Office SharePoint Server can consume.</span></span>  
+ <span data-ttu-id="94572-105">**目標：** 商務資料目錄公開，並從的特定業務 (LOB) 應用程式的資料合併至入口網站。</span><span class="sxs-lookup"><span data-stu-id="94572-105">**Objective:** The Business Data Catalog exposes and incorporates data from line-of-business (LOB) applications into portals.</span></span> <span data-ttu-id="94572-106">將此資料合併到您的入口網站，您必須建立 Microsoft Office SharePoint Server 可以使用應用程式定義檔。</span><span class="sxs-lookup"><span data-stu-id="94572-106">To incorporate this data into your portal site, you must build an application definition file that Microsoft Office SharePoint Server can consume.</span></span>  
   
  <span data-ttu-id="94572-107">商務資料目錄定義編輯器工具可讓您建立的商務資料目錄的應用程式定義檔。</span><span class="sxs-lookup"><span data-stu-id="94572-107">The Business Data Catalog Definition Editor tool enables you to create an application definition file for the Business Data Catalog.</span></span> <span data-ttu-id="94572-108">此工具會自動產生的 XML 定義檔。</span><span class="sxs-lookup"><span data-stu-id="94572-108">This tool automatically generates the XML for the definition file.</span></span> <span data-ttu-id="94572-109">因此，您不必手動檔案在編輯器中建立 XML。</span><span class="sxs-lookup"><span data-stu-id="94572-109">Therefore, you do not have to manually create the file in an XML editor.</span></span>  
   
@@ -152,7 +153,7 @@ ms.lasthandoff: 09/20/2017
          <span data-ttu-id="94572-201">![將參數對應至篩選](../../adapters-and-accelerators/adapter-siebel/media/199c8ba7-d0e8-4fb4-9d73-9cf548512498.gif "199c8ba7-d0e8-4fb4-9d73-9cf548512498")</span><span class="sxs-lookup"><span data-stu-id="94572-201">![Map a parameter to a filter](../../adapters-and-accelerators/adapter-siebel/media/199c8ba7-d0e8-4fb4-9d73-9cf548512498.gif "199c8ba7-d0e8-4fb4-9d73-9cf548512498")</span></span>  
   
         > [!IMPORTANT]
-        >  <span data-ttu-id="94572-202">**AccountQueryInputRecord**也包含**# 10**節點，其中包含**項目**節點。</span><span class="sxs-lookup"><span data-stu-id="94572-202">The **AccountQueryInputRecord** also contains a **QueryFields** node, which in turn contains an **Item** node.</span></span> <span data-ttu-id="94572-203">您必須刪除**項目** 節點，否則帳戶商務元件上的查詢作業，可能無法提供想要的結果。</span><span class="sxs-lookup"><span data-stu-id="94572-203">You must delete the **Item** node, otherwise the Query operation on the Account business component might not give the desired results.</span></span> <span data-ttu-id="94572-204">若要刪除**項目** 節點，以滑鼠右鍵按一下節點，然後選取**刪除**。</span><span class="sxs-lookup"><span data-stu-id="94572-204">To delete the **Item** node, right-click the node, and then select **Delete**.</span></span>  
+        >  <span data-ttu-id="94572-202">**AccountQueryInputRecord**也包含 **# 10**節點，其中包含**項目**節點。</span><span class="sxs-lookup"><span data-stu-id="94572-202">The **AccountQueryInputRecord** also contains a **QueryFields** node, which in turn contains an **Item** node.</span></span> <span data-ttu-id="94572-203">您必須刪除**項目** 節點，否則帳戶商務元件上的查詢作業，可能無法提供想要的結果。</span><span class="sxs-lookup"><span data-stu-id="94572-203">You must delete the **Item** node, otherwise the Query operation on the Account business component might not give the desired results.</span></span> <span data-ttu-id="94572-204">若要刪除**項目** 節點，以滑鼠右鍵按一下節點，然後選取**刪除**。</span><span class="sxs-lookup"><span data-stu-id="94572-204">To delete the **Item** node, right-click the node, and then select **Delete**.</span></span>  
   
 ##### <a name="to-create-a-finder-method-instance-for-query-method"></a><span data-ttu-id="94572-205">若要建立 Finder 方法執行個體的查詢方法</span><span class="sxs-lookup"><span data-stu-id="94572-205">To create a Finder method instance for Query method</span></span>  
   

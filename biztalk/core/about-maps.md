@@ -1,11 +1,11 @@
 ---
-title: "關於對應 |Microsoft 文件"
-ms.custom: 
+title: 關於對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - file types, maps
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - BizTalk Mapper, about BizTalk Mapper
 - maps
 ms.assetid: 512ef2b7-3d01-4fcf-bb38-de68ec608b07
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225558"
 ---
 # <a name="about-maps"></a><span data-ttu-id="909d2-102">關於對應</span><span class="sxs-lookup"><span data-stu-id="909d2-102">About Maps</span></span>
 <span data-ttu-id="909d2-103">您可使用 [BizTalk 對應工具]，利用連結和運算質定義輸入和輸出結構描述之間的關係。</span><span class="sxs-lookup"><span data-stu-id="909d2-103">Using BizTalk Mapper, you define the relationship between an input and an output schema by using links and functoids.</span></span> <span data-ttu-id="909d2-104">連結定義記錄或欄位的直接資料複本。</span><span class="sxs-lookup"><span data-stu-id="909d2-104">A link defines a direct data copy of a record or field.</span></span> <span data-ttu-id="909d2-105">連結可以直接連接項目到另一個結構描述，也可以建立與運算質的連接。</span><span class="sxs-lookup"><span data-stu-id="909d2-105">Links may directly connect to items in the other schema, or they may form connections to functoids.</span></span> <span data-ttu-id="909d2-106">運算質可執行複雜的資料操作，例如：</span><span class="sxs-lookup"><span data-stu-id="909d2-106">Functoids perform more complex data manipulations, such as:</span></span>  

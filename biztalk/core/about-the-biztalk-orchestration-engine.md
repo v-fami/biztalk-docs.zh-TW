@@ -1,14 +1,14 @@
 ---
-title: "關於 BizTalk 協調流程引擎 |Microsoft 文件"
-ms.custom: 
+title: 關於 BizTalk 協調流程引擎 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ac12012f-6253-4589-84b3-c1bb102ce8dd
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224446"
 ---
 # <a name="about-the-biztalk-orchestration-engine"></a><span data-ttu-id="70ff9-102">關於 BizTalk 協調流程引擎</span><span class="sxs-lookup"><span data-stu-id="70ff9-102">About the BizTalk Orchestration Engine</span></span>
 <span data-ttu-id="70ff9-103">在執行階段，BizTalk 協調流程引擎會執行由 BizTalk 協調流程設計師所產生的 XLANG/s 檔案。</span><span class="sxs-lookup"><span data-stu-id="70ff9-103">At run time, the BizTalk Orchestration Engine executes XLANG/s files that are produced by BizTalk Orchestration Designer.</span></span> <span data-ttu-id="70ff9-104">協調流程設計師是一個功能豐富的圖形工具，可以視覺方式來設計商務程序。</span><span class="sxs-lookup"><span data-stu-id="70ff9-104">Orchestration Designer is a rich graphical tool for visually designing business processes.</span></span> <span data-ttu-id="70ff9-105">它會產生 XLANG/s 檔案，這些檔案具有 .odx 副檔名，而且其標頭中包含其他視覺化資訊，本文中則包含自訂屬性資訊。</span><span class="sxs-lookup"><span data-stu-id="70ff9-105">It generates XLANG/s files that have an .odx extension and contain additional visualization information in their headers and custom attribute information in their bodies.</span></span>  

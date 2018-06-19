@@ -1,14 +1,14 @@
 ---
-title: "步驟 4c： 建立測試執行個體互動的存放區和情況的 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4c： 建立測試執行個體互動的存放區和情況的 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 64a69dcc-d307-47c0-87e8-b0cb2a4d655b
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225158"
 ---
 # <a name="step-4c-create-a-test-instance-for-the-interact-store-and-forward-scenario"></a><span data-ttu-id="761e2-102">步驟 4c： 建立測試執行個體互動的存放區和轉寄的案例</span><span class="sxs-lookup"><span data-stu-id="761e2-102">Step 4C: Create a Test Instance for the InterAct Store and Forward Scenario</span></span>
 <span data-ttu-id="761e2-103">在開始此步驟之前，必須先完成[步驟 4B： 啟動傳送埠和接收埠為互動存放與轉寄實例](../../adapters-and-accelerators/fileact-interact/step-4b-start-the-send-and-receive-ports-for-interact-store-and-forward.md)。</span><span class="sxs-lookup"><span data-stu-id="761e2-103">Before you begin this step, you must complete [Step 4B: Start the Send Ports and Receive Ports for the InterAct Store and Forward Scenario](../../adapters-and-accelerators/fileact-interact/step-4b-start-the-send-and-receive-ports-for-interact-store-and-forward.md).</span></span>  

@@ -1,14 +1,14 @@
 ---
-title: "在您使用 TPE 之前 |Microsoft 文件"
-ms.custom: 
+title: 在您使用 TPE 之前 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bc4f8e00-8a40-453f-be4c-1af683ad250c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231062"
 ---
 # <a name="before-you-use-the-tpe"></a><span data-ttu-id="2d5f2-102">開始使用 TPE 之前</span><span class="sxs-lookup"><span data-stu-id="2d5f2-102">Before You Use the TPE</span></span>
 <span data-ttu-id="2d5f2-103">在您開始使用追蹤設定檔編輯器 (TPE) 之前，建議您先瞭解 BizTalk Server 及其運作方式，以協助不同平台與應用程式之間的通訊作業。</span><span class="sxs-lookup"><span data-stu-id="2d5f2-103">Before you start working with the Tracking Profile Editor (TPE), we recommend that you understand BizTalk Server and how it works to facilitate communications across different platforms and applications.</span></span>  

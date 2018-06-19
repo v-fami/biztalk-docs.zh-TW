@@ -16,7 +16,7 @@ helpviewer_keywords:
 - searching, RFCs
 - WCF client, generating a
 ms.assetid: 68d9e7b2-b8ab-47f5-afda-2811f68e834b
-caps.latest.revision: ''
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22219254"
 ---
 # <a name="browse-search-and-get-metadata-for-rfc-operations-in-sap"></a><span data-ttu-id="73b21-102">瀏覽、 搜尋和 sap RFC 作業取得中繼資料</span><span class="sxs-lookup"><span data-stu-id="73b21-102">Browse, search, and get metadata for RFC operations in SAP</span></span>
 <span data-ttu-id="73b21-103">本節提供有關如何瀏覽、 搜尋和中繼資料擷取 RFC 作業使用的 SAP 指示[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]， [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，或[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="73b21-103">This section provides instructions on how to browse, search, and retrieve metadata from SAP for RFC operations using [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)], [!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)], or [!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)].</span></span> <span data-ttu-id="73b21-104">大部分的指示會針對所有三種使用者介面相同。</span><span class="sxs-lookup"><span data-stu-id="73b21-104">Most of the instructions are same for all three user interface.</span></span> <span data-ttu-id="73b21-105">只要適用的話，個別的程序提供相關的使用者介面。</span><span class="sxs-lookup"><span data-stu-id="73b21-105">Wherever applicable, separate procedures are provided for the relevant user interface.</span></span>  

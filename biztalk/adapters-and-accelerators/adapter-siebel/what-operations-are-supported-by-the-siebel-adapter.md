@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222350"
 ---
 # <a name="what-operations-are-supported-by-the-siebel-adapter"></a><span data-ttu-id="93a0a-102">Siebel 配接器支援哪些作業</span><span class="sxs-lookup"><span data-stu-id="93a0a-102">What operations are supported by the Siebel adapter</span></span>
 <span data-ttu-id="93a0a-103">配接器用戶端可以透過執行 Siebel 系統上的作業：</span><span class="sxs-lookup"><span data-stu-id="93a0a-103">Adapter clients can perform operations on the Siebel system by either:</span></span>  

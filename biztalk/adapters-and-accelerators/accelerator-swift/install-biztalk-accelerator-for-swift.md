@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211622"
 ---
 # <a name="install-biztalk-accelerator-for-swift"></a><span data-ttu-id="6c498-102">安裝 BizTalk Accelerator for SWIFT</span><span class="sxs-lookup"><span data-stu-id="6c498-102">Install BizTalk Accelerator for SWIFT</span></span>
 <span data-ttu-id="6c498-103">安裝[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef_md](../../includes/a4swift-currentversion-firstref-md.md)]BizTalk 伺服器上。</span><span class="sxs-lookup"><span data-stu-id="6c498-103">Install [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef_md](../../includes/a4swift-currentversion-firstref-md.md)] on BizTalk Server.</span></span> 

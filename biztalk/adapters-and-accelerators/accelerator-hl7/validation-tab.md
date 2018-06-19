@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206318"
 ---
 # <a name="validation-tab"></a><span data-ttu-id="38731-102">驗證索引標籤</span><span class="sxs-lookup"><span data-stu-id="38731-102">Validation Tab</span></span>
 <span data-ttu-id="38731-103">您使用**驗證**索引標籤，選取 輸入及產生訊息的訊息驗證選項。</span><span class="sxs-lookup"><span data-stu-id="38731-103">You use the **Validation** tab to select the message validation options for inbound and generated messages.</span></span>  

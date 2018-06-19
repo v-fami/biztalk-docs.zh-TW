@@ -1,14 +1,14 @@
 ---
-title: "Oracle E-business Suite 與配接器之間的安全性 |Microsoft 文件"
-ms.custom: 
+title: Oracle E-business Suite 與配接器之間的安全性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 88f5f8ed-48d5-4420-9fdb-0a6860b95ac4
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216390"
 ---
 # <a name="security-between-oracle-e-business-suite-and-the-adapter"></a><span data-ttu-id="e116c-102">Oracle E-business Suite 與配接器之間的安全性</span><span class="sxs-lookup"><span data-stu-id="e116c-102">Security between Oracle E-Business Suite and the adapter</span></span>
 <span data-ttu-id="e116c-103">[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]不提供支援以便它與 Oracle 資料庫之間的安全通訊。</span><span class="sxs-lookup"><span data-stu-id="e116c-103">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] provides no support for helping to secure communication between it and the Oracle database.</span></span> <span data-ttu-id="e116c-104">您必須提供安全性機制，以協助確保適當的授權、 驗證、 資料隱私權和資料配接器與 Oracle 資料庫之間的交換的資料完整性層級。</span><span class="sxs-lookup"><span data-stu-id="e116c-104">You must provide a security mechanism to help ensure appropriate levels of authorization, authentication, data privacy, and data integrity for data exchanges between the adapter and the Oracle database.</span></span>  

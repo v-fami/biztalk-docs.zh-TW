@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 測試 Solution2 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 測試 Solution2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 30dbc7c9-3c5f-4953-b26f-5c41141c22ad
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,15 +17,16 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277270"
 ---
 # <a name="step-3-test-the-solution"></a><span data-ttu-id="8fa14-102">步驟 3： 測試方案</span><span class="sxs-lookup"><span data-stu-id="8fa14-102">Step 3: Test the Solution</span></span>
 <span data-ttu-id="8fa14-103">![步驟 3 之 3](../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span><span class="sxs-lookup"><span data-stu-id="8fa14-103">![Step 3 of 3](../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span></span>  
   
  <span data-ttu-id="8fa14-104">**若要完成的時間：** 5 分鐘</span><span class="sxs-lookup"><span data-stu-id="8fa14-104">**Time to complete:** 5 minutes</span></span>  
   
- <span data-ttu-id="8fa14-105">**目標：**在此步驟中，您會測試 EAI 方案處理訊息的方式。</span><span class="sxs-lookup"><span data-stu-id="8fa14-105">**Objective:** In this step, you test how the EAI solution processes messages.</span></span>  
+ <span data-ttu-id="8fa14-105">**目標：** 在此步驟中，您會測試 EAI 方案處理訊息的方式。</span><span class="sxs-lookup"><span data-stu-id="8fa14-105">**Objective:** In this step, you test how the EAI solution processes messages.</span></span>  
   
- <span data-ttu-id="8fa14-106">**用途：**在此步驟中，您會檢查 EAIProcess 協調流程是否正確處理訊息。</span><span class="sxs-lookup"><span data-stu-id="8fa14-106">**Purpose:** In this step, you check that the EAIProcess orchestration processes messages correctly.</span></span> <span data-ttu-id="8fa14-107">您必須將範例訊息放入 EAI 應用程式所指定的接收位置。</span><span class="sxs-lookup"><span data-stu-id="8fa14-107">You do this by dropping sample messages into the receive location specified for the EAI application.</span></span> <span data-ttu-id="8fa14-108">若 EAI 方案正確地運作，且 EAIProcess 協調流程接收到倉儲的訊息要求超過 500 個項目，協調流程會產生拒絕的要求訊息。</span><span class="sxs-lookup"><span data-stu-id="8fa14-108">If the EAI solution is working properly, if the EAIProcess orchestration receives a message from the warehouse requesting more than 500 items, the orchestration generates a decline request message.</span></span> <span data-ttu-id="8fa14-109">若 EAIProcess 協調流程接收到倉儲的訊息要求少於 500 個項目，協調流程會將訊息傳遞到 ERP 系統。</span><span class="sxs-lookup"><span data-stu-id="8fa14-109">If the EAIProcess orchestration receives a message from the warehouse requesting fewer than 500 items, the orchestration passes the message on to the ERP system.</span></span>  
+ <span data-ttu-id="8fa14-106">**用途：** 在此步驟中，您會檢查 EAIProcess 協調流程是否正確處理訊息。</span><span class="sxs-lookup"><span data-stu-id="8fa14-106">**Purpose:** In this step, you check that the EAIProcess orchestration processes messages correctly.</span></span> <span data-ttu-id="8fa14-107">您必須將範例訊息放入 EAI 應用程式所指定的接收位置。</span><span class="sxs-lookup"><span data-stu-id="8fa14-107">You do this by dropping sample messages into the receive location specified for the EAI application.</span></span> <span data-ttu-id="8fa14-108">若 EAI 方案正確地運作，且 EAIProcess 協調流程接收到倉儲的訊息要求超過 500 個項目，協調流程會產生拒絕的要求訊息。</span><span class="sxs-lookup"><span data-stu-id="8fa14-108">If the EAI solution is working properly, if the EAIProcess orchestration receives a message from the warehouse requesting more than 500 items, the orchestration generates a decline request message.</span></span> <span data-ttu-id="8fa14-109">若 EAIProcess 協調流程接收到倉儲的訊息要求少於 500 個項目，協調流程會將訊息傳遞到 ERP 系統。</span><span class="sxs-lookup"><span data-stu-id="8fa14-109">If the EAIProcess orchestration receives a message from the warehouse requesting fewer than 500 items, the orchestration passes the message on to the ERP system.</span></span>  
   
 ## <a name="prerequisites"></a><span data-ttu-id="8fa14-110">必要條件</span><span class="sxs-lookup"><span data-stu-id="8fa14-110">Prerequisites</span></span>  
  <span data-ttu-id="8fa14-111">在開始此步驟之前必須先完成[步驟 2： 設定並啟動應用程式](../core/step-2-configure-and-start-the-application1.md)。</span><span class="sxs-lookup"><span data-stu-id="8fa14-111">Before you begin this step you must complete [Step 2: Configure and Start the Application](../core/step-2-configure-and-start-the-application1.md).</span></span>  

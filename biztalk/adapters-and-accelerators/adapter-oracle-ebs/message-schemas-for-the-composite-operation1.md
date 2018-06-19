@@ -1,14 +1,14 @@
 ---
-title: "訊息結構描述的複合 Operation1 |Microsoft 文件"
-ms.custom: 
+title: 訊息結構描述的複合 Operation1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 768473ef-da8d-4e58-86cb-597c28ded49c
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215174"
 ---
 # <a name="message-schemas-for-the-composite-operation"></a><span data-ttu-id="9f6fa-102">複合作業的訊息結構描述</span><span class="sxs-lookup"><span data-stu-id="9f6fa-102">Message Schemas for the Composite Operation</span></span>
 <span data-ttu-id="9f6fa-103">[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]可讓您執行複合操作 Oracle E-business Suite 中。</span><span class="sxs-lookup"><span data-stu-id="9f6fa-103">The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] enables you to execute composite operations in Oracle E-Business Suite.</span></span> <span data-ttu-id="9f6fa-104">複合作業可以包含多個作業，並依照任何順序。</span><span class="sxs-lookup"><span data-stu-id="9f6fa-104">A composite operation can contain multiple operations, and in any order.</span></span> <span data-ttu-id="9f6fa-105">有關哪些作業可以包含在複合作業的資訊，請參閱[複合作業的支援](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-composite-operations2.md)。</span><span class="sxs-lookup"><span data-stu-id="9f6fa-105">For information about which operations can be included in a composite operation, see [Support for Composite Operations](../../adapters-and-accelerators/adapter-oracle-ebs/support-for-composite-operations2.md).</span></span>  

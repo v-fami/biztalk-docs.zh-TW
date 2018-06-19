@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230590"
 ---
 # <a name="btaddatabase"></a><span data-ttu-id="327d8-102">BTAD_Database</span><span class="sxs-lookup"><span data-stu-id="327d8-102">BTAD_Database</span></span>
 <span data-ttu-id="327d8-103">在應用程式匯入期間執行前置和後置處理指令碼時，會設定 BTAD_Database 環境變數。</span><span class="sxs-lookup"><span data-stu-id="327d8-103">When pre- and post-processing scripts run on application import, the BTAD_Database environment variable is set.</span></span> <span data-ttu-id="327d8-104">它會指定群組的 BizTalk 管理資料庫名稱。</span><span class="sxs-lookup"><span data-stu-id="327d8-104">It specifies the name of the BizTalk Management database for the group.</span></span>  

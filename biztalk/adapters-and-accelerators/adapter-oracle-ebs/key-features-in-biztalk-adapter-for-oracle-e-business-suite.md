@@ -1,14 +1,14 @@
 ---
-title: "金鑰功能在 BizTalk adapter for Oracle E-business Suite |Microsoft 文件"
-ms.custom: 
+title: 金鑰功能在 BizTalk adapter for Oracle E-business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a43091ab-f81c-4c4f-bcc3-e6abe16d3d77
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218286"
 ---
 # <a name="key-features-in-biztalk-adapter-for-oracle-e-business-suite"></a><span data-ttu-id="8b3fd-102">BizTalk adapter for Oracle E-business Suite 中的重要功能</span><span class="sxs-lookup"><span data-stu-id="8b3fd-102">Key features in BizTalk adapter for Oracle E-Business Suite</span></span>
 <span data-ttu-id="8b3fd-103">此區段會列出中的主要功能[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="8b3fd-103">This section lists the key features in [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)].</span></span>  

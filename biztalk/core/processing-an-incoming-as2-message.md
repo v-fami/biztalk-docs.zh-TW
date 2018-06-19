@@ -1,14 +1,14 @@
 ---
-title: "處理內送 AS2 訊息 |Microsoft 文件"
-ms.custom: 
+title: 處理內送 AS2 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 998ff334-71e2-4686-b2b7-44940a0ebed1
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266390"
 ---
 # <a name="processing-an-incoming-as2-message"></a><span data-ttu-id="42c94-102">處理內送 AS2 訊息</span><span class="sxs-lookup"><span data-stu-id="42c94-102">Processing an Incoming AS2 Message</span></span>
 <span data-ttu-id="42c94-103">AS2 接收管線會透過 AS2 處理內送訊息。</span><span class="sxs-lookup"><span data-stu-id="42c94-103">The AS2 receive pipelines process an incoming message over AS2.</span></span> <span data-ttu-id="42c94-104">AS2EdiReceive 接收管線會使用 EDI 解譯器處理 EDI 編碼的訊息。</span><span class="sxs-lookup"><span data-stu-id="42c94-104">The AS2EdiReceive receive pipeline processes an EDI-encoded message, using the EDI Disassembler.</span></span> <span data-ttu-id="42c94-105">AS2Receive 接收管線會使用 AS2 解譯器處理非 EDI 編碼的訊息。</span><span class="sxs-lookup"><span data-stu-id="42c94-105">The AS2Receive receive pipeline processes a non-EDI-encoded message, using the AS2 Disassembler.</span></span> <span data-ttu-id="42c94-106">這兩種管線會處理 AS2 訊息的內容並以不同的方式產生 MDN，然而兩種接收管線都是使用 AS2 解碼器處理 AS2 訊息。</span><span class="sxs-lookup"><span data-stu-id="42c94-106">The two pipelines process the payload of the AS2 message and generate an MDN differently; however, both receive pipelines use the AS2 Decoder to process the AS2 message.</span></span>  

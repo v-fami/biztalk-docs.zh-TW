@@ -1,14 +1,14 @@
 ---
-title: "FileAct 配接器安全性架構 |Microsoft 文件"
-ms.custom: 
+title: FileAct 配接器安全性架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5faeebd6-5287-4ac4-a1db-e3c055d323d2
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222790"
 ---
 # <a name="fileact-adapter-security-architecture"></a><span data-ttu-id="51384-102">FileAct 配接器安全性架構</span><span class="sxs-lookup"><span data-stu-id="51384-102">FileAct Adapter Security Architecture</span></span>
 <span data-ttu-id="51384-103">檔案傳輸和接收的安全性是使用 SNL 和 SAG 中固有的憑證和密碼編譯功能來實作。</span><span class="sxs-lookup"><span data-stu-id="51384-103">Security for the file transmission and receipt is implemented using the certificate and crypto features inherent in SNL and the SAG.</span></span>  <span data-ttu-id="51384-104">管理憑證，以此類推，完全不 FileAct 配接器的範圍內。</span><span class="sxs-lookup"><span data-stu-id="51384-104">The management of certificates, etc., is completely outside of the scope of the FileAct Adapter.</span></span> <span data-ttu-id="51384-105">只要相關聯的 SAG SNL/執行個體註冊 SWIFT 和 SNL/SAG 上正確安裝的軟體之 FileAct 服務時，配接器會設備透過 SNL Api。</span><span class="sxs-lookup"><span data-stu-id="51384-105">As long as the associated SNL/SAG instance is registered for the FileAct service with SWIFT and the software properly installed on SNL/SAG, the adapter makes use of the facilities throught the SNL APIs.</span></span> <span data-ttu-id="51384-106">FileAct 配接器一定會將設定為"Advanced"（最佳做法） FACryptoMode。</span><span class="sxs-lookup"><span data-stu-id="51384-106">The FileAct Adapter will always set the FACryptoMode to “Advanced” (best practice).</span></span>  

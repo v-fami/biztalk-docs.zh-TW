@@ -1,14 +1,14 @@
 ---
-title: "配接器元件 |Microsoft 文件"
-ms.custom: 
+title: 配接器元件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 383e8bcb-2b4d-40f9-9e98-f49e8d6f30f7
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225326"
 ---
 # <a name="adapter-components"></a><span data-ttu-id="fc388-102">配接器元件</span><span class="sxs-lookup"><span data-stu-id="fc388-102">Adapter Components</span></span>
 <span data-ttu-id="fc388-103">自訂配接器共用由原生配接器所使用的標準化組態、管理和設定機制。</span><span class="sxs-lookup"><span data-stu-id="fc388-103">A custom adapter shares the standardized configuration, management, and setup mechanisms used by the native adapters.</span></span> <span data-ttu-id="fc388-104">運用配接器架構的標準化，自訂配接器的管理藉由使用 [[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台] 進行。</span><span class="sxs-lookup"><span data-stu-id="fc388-104">With the standardization to the Adapter Framework, a custom adapter is managed by using the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration console.</span></span>  

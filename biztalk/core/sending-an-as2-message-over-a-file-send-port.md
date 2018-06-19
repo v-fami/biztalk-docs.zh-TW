@@ -1,14 +1,14 @@
 ---
-title: "透過 FILE 傳送埠傳送 AS2 訊息 |Microsoft 文件"
-ms.custom: 
+title: 透過 FILE 傳送埠傳送 AS2 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8c5ce9ff-fd73-4d5f-9b16-387c1e520c3a
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270726"
 ---
 # <a name="sending-an-as2-message-over-a-file-send-port"></a><span data-ttu-id="37a30-102">透過 FILE 傳送埠傳送 AS2 訊息</span><span class="sxs-lookup"><span data-stu-id="37a30-102">Sending an AS2 Message over a FILE Send Port</span></span>
 <span data-ttu-id="37a30-103">AS2 訊息通常會透過 HTTP 配接器傳送。</span><span class="sxs-lookup"><span data-stu-id="37a30-103">AS2 messages are normally sent over an HTTP adapter.</span></span> <span data-ttu-id="37a30-104">然而，如果建立自訂元件，也可以透過 FILE 配接器傳送 AS2 訊息。</span><span class="sxs-lookup"><span data-stu-id="37a30-104">You can, however, send AS2 messages over a FILE adapter if you create custom components.</span></span> <span data-ttu-id="37a30-105">本主題說明這類解決方案的運作方式，並提供該解決方案的範例程式碼。</span><span class="sxs-lookup"><span data-stu-id="37a30-105">This topic describes how such a solution would work and provides sample code for the solution.</span></span>  

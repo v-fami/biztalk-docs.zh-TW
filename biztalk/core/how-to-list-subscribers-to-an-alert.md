@@ -1,18 +1,18 @@
 ---
-title: "如何列出警示的訂閱者 |Microsoft 文件"
-ms.custom: 
+title: 如何列出警示的訂閱者 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - alerts, listing subscribers
 - managing [BAM], listing alert subscribers
 - subscriptions, listing subscribers
 ms.assetid: 760cc88f-896d-43a3-a4af-b2a836190276
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974340"
 ---
 # <a name="how-to-list-subscribers-to-an-alert"></a><span data-ttu-id="cde9f-102">如何列出警示的訂閱者</span><span class="sxs-lookup"><span data-stu-id="cde9f-102">How to List Subscribers to an Alert</span></span>
 <span data-ttu-id="cde9f-103">系統管理員使用**get 訂閱**命令，列出所有的訂閱者至指定的警示。</span><span class="sxs-lookup"><span data-stu-id="cde9f-103">Administrators use the **get-subscriptions** command to list all of the subscribers to a specified alert.</span></span>  

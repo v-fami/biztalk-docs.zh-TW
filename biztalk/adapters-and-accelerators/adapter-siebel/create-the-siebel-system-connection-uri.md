@@ -1,11 +1,11 @@
 ---
-title: "建立 Siebel 系統連接 URI |Microsoft 文件"
-ms.custom: 
+title: 建立 Siebel 系統連接 URI |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - connection URI
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - how to, connect using connection URI
 - connecting using connection URI
 ms.assetid: 8cc78149-1c20-40db-aece-aab520ee04e7
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224550"
 ---
 # <a name="create-the-siebel-system-connection-uri"></a><span data-ttu-id="fcfaf-102">建立 Siebel 系統連接 URI</span><span class="sxs-lookup"><span data-stu-id="fcfaf-102">Create the Siebel system connection URI</span></span>
 <span data-ttu-id="fcfaf-103">[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]連線 URI 包含用來連接至 Siebel 系統的配接器屬性。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-103">The [!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)] connection URI contains properties that the adapter uses to establish a connection to the Siebel system.</span></span>  
@@ -99,7 +100,7 @@ siebel://Username=[USER_NAME];Password=[PASSWORD]@[SERVER]:[PORT]?SiebelObjectMa
 |<span data-ttu-id="fcfaf-162">加密</span><span class="sxs-lookup"><span data-stu-id="fcfaf-162">Encryption</span></span>|<span data-ttu-id="fcfaf-163">使用之間的加密類型[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]與 Siebel 系統。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-163">The type of encryption to use between the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] and the Siebel system.</span></span> <span data-ttu-id="fcfaf-164">支援的值為 none、 mscrypto，或 rsa。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-164">Supported values are none, mscrypto, or rsa.</span></span> <span data-ttu-id="fcfaf-165">這個參數是選擇性的。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-165">This parameter is optional.</span></span> <span data-ttu-id="fcfaf-166">如果未指定，Siebel 系統會提供預設值 （無）。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-166">If it is not specified, the Siebel system supplies a default value (none).</span></span>|  
 |<span data-ttu-id="fcfaf-167">壓縮更</span><span class="sxs-lookup"><span data-stu-id="fcfaf-167">Compresssion</span></span>|<span data-ttu-id="fcfaf-168">之間使用的壓縮演算法[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]與 Siebel 系統。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-168">The compression algorithm to use between the [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] and the Siebel system.</span></span> <span data-ttu-id="fcfaf-169">支援的值為 none 或 zlib。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-169">Supported values are none or zlib.</span></span> <span data-ttu-id="fcfaf-170">這個參數是選擇性的。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-170">This parameter is optional.</span></span> <span data-ttu-id="fcfaf-171">如果未指定，Siebel 系統會提供預設值 (zlib)。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-171">If it is not specified, the Siebel system supplies a default value (zlib).</span></span>|  
 |<span data-ttu-id="fcfaf-172">SiebelServer</span><span class="sxs-lookup"><span data-stu-id="fcfaf-172">SiebelServer</span></span>|<span data-ttu-id="fcfaf-173">Siebel 伺服器。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-173">The Siebel server.</span></span> <span data-ttu-id="fcfaf-174">所需的所有 Siebel 7.5 伺服器連接 (7.5.2、 7.5.3，等。)。否則，請勿設定此參數。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-174">Required for all Siebel 7.5 server connections (7.5.2, 7.5.3, etc.); otherwise, do not set this parameter.</span></span>|  
-|<span data-ttu-id="fcfaf-175">SiebelRepository</span><span class="sxs-lookup"><span data-stu-id="fcfaf-175">SiebelRepository</span></span>|<span data-ttu-id="fcfaf-176">Siebel 儲存機制。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-176">The Siebel repository.</span></span> <span data-ttu-id="fcfaf-177">需要伺服器上是否有一個以上的儲存機制否則為選擇性。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-177">Required if more than one repository exists on the server; otherwise, optional.</span></span> <span data-ttu-id="fcfaf-178">**注意：**如果伺服器上有一個以上的儲存機制，您必須指定一個目標存放庫 SiebelRepository 參數中。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-178">**Note:**  If more than one repository exists on the server, you must specify a target repository in the SiebelRepository parameter.</span></span>|  
+|<span data-ttu-id="fcfaf-175">SiebelRepository</span><span class="sxs-lookup"><span data-stu-id="fcfaf-175">SiebelRepository</span></span>|<span data-ttu-id="fcfaf-176">Siebel 儲存機制。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-176">The Siebel repository.</span></span> <span data-ttu-id="fcfaf-177">需要伺服器上是否有一個以上的儲存機制否則為選擇性。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-177">Required if more than one repository exists on the server; otherwise, optional.</span></span> <span data-ttu-id="fcfaf-178">**注意：** 如果伺服器上有一個以上的儲存機制，您必須指定一個目標存放庫 SiebelRepository 參數中。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-178">**Note:**  If more than one repository exists on the server, you must specify a target repository in the SiebelRepository parameter.</span></span>|  
   
  <span data-ttu-id="fcfaf-179">如需查詢資訊中所設定的 Siebel 參數的詳細資訊，請參閱您的 Siebel 文件。</span><span class="sxs-lookup"><span data-stu-id="fcfaf-179">For more information about the Siebel parameters that are set in the query information, see your Siebel documentation.</span></span>  
   

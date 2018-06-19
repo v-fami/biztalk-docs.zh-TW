@@ -1,17 +1,17 @@
 ---
-title: "發佈 Web 服務 |Microsoft 文件"
-ms.custom: 
+title: 發佈 Web 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, publishing
 - BizTalk Server Web Services Publishing Wizard
 ms.assetid: eed0717c-b390-492a-a3b9-ae31024805a2
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268542"
 ---
 # <a name="publishing-web-services"></a><span data-ttu-id="d52d3-102">發佈 Web 服務</span><span class="sxs-lookup"><span data-stu-id="d52d3-102">Publishing Web Services</span></span>
 <span data-ttu-id="d52d3-103">發佈 Web 服務可讓您建立 Web 服務，而這種服務可以將訊息提交給 Microsoft BizTalk Server，以供協調流程和其他傳送配接器使用。</span><span class="sxs-lookup"><span data-stu-id="d52d3-103">Publishing Web services enables you to create a Web service that can submit messages to Microsoft BizTalk Server for use by orchestrations and other send adapters.</span></span> <span data-ttu-id="d52d3-104">您可以使用 [BizTalk Web 服務發佈精靈] 來建立已發佈的 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="d52d3-104">You create published Web services using the BizTalk Web Services Publishing Wizard.</span></span> <span data-ttu-id="d52d3-105">如需設定 SOAP 傳送處理常式的資訊，請參閱[如何設定 SOAP 傳送處理常式](../core/how-to-configure-a-soap-send-handler.md)。</span><span class="sxs-lookup"><span data-stu-id="d52d3-105">For information about configuring a SOAP send handler, see [How to Configure a SOAP Send Handler](../core/how-to-configure-a-soap-send-handler.md).</span></span> <span data-ttu-id="d52d3-106">如需設定 SOAP 傳送埠的資訊，請參閱[如何設定 SOAP 傳送埠](../core/how-to-configure-a-soap-send-port.md)。</span><span class="sxs-lookup"><span data-stu-id="d52d3-106">For information about configuring a SOAP send port, see [How to Configure a SOAP Send Port](../core/how-to-configure-a-soap-send-port.md).</span></span>  

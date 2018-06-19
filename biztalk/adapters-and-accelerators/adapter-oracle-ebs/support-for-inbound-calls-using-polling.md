@@ -1,14 +1,14 @@
 ---
-title: "支援使用輪詢進行傳入呼叫 |Microsoft 文件"
-ms.custom: 
+title: 支援使用輪詢進行傳入呼叫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ae02a93a-808f-4774-a2c4-efdf39a4d49a
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217398"
 ---
 # <a name="support-for-inbound-calls-using-polling"></a><span data-ttu-id="03c88-102">使用輪詢進行傳入呼叫時的支援</span><span class="sxs-lookup"><span data-stu-id="03c88-102">Support for Inbound Calls Using Polling</span></span>
 <span data-ttu-id="03c88-103">[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]可讓用戶端程式來接收通知他們 Oracle E-business Suite 中的資料變更的 Oracle E-business Suite 中的訊息。</span><span class="sxs-lookup"><span data-stu-id="03c88-103">The [!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)] enables client programs to receive messages from Oracle E-Business Suite informing them of changes to data in Oracle E-Business Suite.</span></span> <span data-ttu-id="03c88-104">[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]接收 「 輪詢基礎 」 的訊息，其中指定的 SQL 陳述式、 預存程序、 函數或程序在封裝中，而執行配接器支援擷取資料，並提供用戶端定期的結果時間。</span><span class="sxs-lookup"><span data-stu-id="03c88-104">The [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)] supports receiving "polling-based" messages wherein the adapter executes a specified SQL statement, stored procedure, function or a procedure within a package, retrieves the data, and provides the result to the client at regular intervals of time.</span></span>  
@@ -64,7 +65,7 @@ ms.lasthandoff: 09/20/2017
 |<span data-ttu-id="03c88-138">輪詢</span><span class="sxs-lookup"><span data-stu-id="03c88-138">Polling</span></span>|<span data-ttu-id="03c88-139">通知</span><span class="sxs-lookup"><span data-stu-id="03c88-139">Notification</span></span>|  
 |-------------|------------------|  
 |<span data-ttu-id="03c88-140">支援的所有 Oracle 資料庫版本都支援輪詢[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="03c88-140">Polling is supported for all the Oracle database versions that are supported by the [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)].</span></span>|<span data-ttu-id="03c88-141">10.2 和更新版本的 Oracle 資料庫版本才支援通知。</span><span class="sxs-lookup"><span data-stu-id="03c88-141">Notification is only supported for Oracle database versions 10.2 and later.</span></span>|  
-|<span data-ttu-id="03c88-142">您可以設定輪詢間隔，以檢查適用於定期輪詢資料，或立即一樣，當有可用的資料。</span><span class="sxs-lookup"><span data-stu-id="03c88-142">You can either configure the polling interval to check the data available for polling at regular intervals or instantaneously as and when the data is available.</span></span> <span data-ttu-id="03c88-143">**提示：**輪詢可讓您更佳的輸送量持續發生資料變更並不想為每項變更，並發生時加以通知。</span><span class="sxs-lookup"><span data-stu-id="03c88-143">**Tip:**  Polling can give you better throughput in scenarios where the data changes are happening continuously, and you do not want to be notified of each change as and when it happens.</span></span> <span data-ttu-id="03c88-144">相反地，您可以指定您要在其後發生是因為最後一個變更通知的所有變更的通知輪詢間隔。</span><span class="sxs-lookup"><span data-stu-id="03c88-144">Instead, you specify a polling interval after which you want to be notified of all the changes that have happened since the last change notification.</span></span>|<span data-ttu-id="03c88-145">資料變更通知是一律在瞬間完成。</span><span class="sxs-lookup"><span data-stu-id="03c88-145">The data-change notification is always instantaneous.</span></span>|  
+|<span data-ttu-id="03c88-142">您可以設定輪詢間隔，以檢查適用於定期輪詢資料，或立即一樣，當有可用的資料。</span><span class="sxs-lookup"><span data-stu-id="03c88-142">You can either configure the polling interval to check the data available for polling at regular intervals or instantaneously as and when the data is available.</span></span> <span data-ttu-id="03c88-143">**提示：** 輪詢可讓您更佳的輸送量持續發生資料變更並不想為每項變更，並發生時加以通知。</span><span class="sxs-lookup"><span data-stu-id="03c88-143">**Tip:**  Polling can give you better throughput in scenarios where the data changes are happening continuously, and you do not want to be notified of each change as and when it happens.</span></span> <span data-ttu-id="03c88-144">相反地，您可以指定您要在其後發生是因為最後一個變更通知的所有變更的通知輪詢間隔。</span><span class="sxs-lookup"><span data-stu-id="03c88-144">Instead, you specify a polling interval after which you want to be notified of all the changes that have happened since the last change notification.</span></span>|<span data-ttu-id="03c88-145">資料變更通知是一律在瞬間完成。</span><span class="sxs-lookup"><span data-stu-id="03c88-145">The data-change notification is always instantaneous.</span></span>|  
 |<span data-ttu-id="03c88-146">輪詢配接器所起始。</span><span class="sxs-lookup"><span data-stu-id="03c88-146">Polling is initiated by the adapter.</span></span> <span data-ttu-id="03c88-147">若要驗證是否資料適用於輪詢，並以起始輪詢執行輪詢陳述式，如果某些資料可用於輪詢 SQL 陳述式執行配接器。</span><span class="sxs-lookup"><span data-stu-id="03c88-147">The adapter executes a SQL statement to validate whether data is available for polling, and then initiates polling by executing the polling statement if some data is available for polling.</span></span>|<span data-ttu-id="03c88-148">通知是由 Oracle 資料庫啟動。</span><span class="sxs-lookup"><span data-stu-id="03c88-148">Notification is initiated by the Oracle database.</span></span> <span data-ttu-id="03c88-149">只在配接器發出的通知陳述式會指示資料庫在陳述式的結果集變更的情況下起始通知。</span><span class="sxs-lookup"><span data-stu-id="03c88-149">The notification statement issued by the adapter just instructs the database to initiate notification in case there is a change in the result set of the statement.</span></span> <span data-ttu-id="03c88-150">通知是 Oracle 資料庫的功能。</span><span class="sxs-lookup"><span data-stu-id="03c88-150">Notification is a feature of the Oracle database.</span></span>|  
 |<span data-ttu-id="03c88-151">您可以使用輪詢陳述式來讀取或更新的 Oracle 資料庫中的資料。</span><span class="sxs-lookup"><span data-stu-id="03c88-151">You can use the polling statement to read or update data in the Oracle database.</span></span>|<span data-ttu-id="03c88-152">您可以使用通知陳述式只讀取 Oracle 資料庫中的資料。</span><span class="sxs-lookup"><span data-stu-id="03c88-152">You can use the notification statement to only read data in an Oracle database.</span></span>|  
 |<span data-ttu-id="03c88-153">輪詢會通知您有關已變更的實際資料。</span><span class="sxs-lookup"><span data-stu-id="03c88-153">Polling informs you about the actual data that has changed.</span></span>|<span data-ttu-id="03c88-154">通知會告知中插入，例如資料的變更類型的相關更新和刪除。</span><span class="sxs-lookup"><span data-stu-id="03c88-154">Notification informs only about the type of change in the data such as Insert, Update, and Delete.</span></span>|  

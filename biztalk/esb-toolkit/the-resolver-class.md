@@ -1,14 +1,14 @@
 ---
-title: "解析程式類別 |Microsoft 文件"
-ms.custom: 
+title: 解析程式類別 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b9ebd6c2-fd86-471a-bc50-b1b89f701fab
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294846"
 ---
 # <a name="the-resolver-class"></a><span data-ttu-id="59ebb-102">解析程式類別</span><span class="sxs-lookup"><span data-stu-id="59ebb-102">The Resolver Class</span></span>
 <span data-ttu-id="59ebb-103">**解析程式**類別會公開 （expose） 的名稱/值組的簡單結構。</span><span class="sxs-lookup"><span data-stu-id="59ebb-103">The **Resolver** class is a simple structure that exposes a name/value pair.</span></span> <span data-ttu-id="59ebb-104">解析程式的 Web 服務會傳回這個類別的執行個體的泛型集合，從它的方法。</span><span class="sxs-lookup"><span data-stu-id="59ebb-104">The Resolver Web service returns a generic collection of instances of this class from its methods.</span></span>  

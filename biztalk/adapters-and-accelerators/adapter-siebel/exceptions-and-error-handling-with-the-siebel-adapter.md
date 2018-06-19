@@ -1,18 +1,18 @@
 ---
-title: "例外狀況和錯誤處理 Siebel 配接器 |Microsoft 文件"
-ms.custom: 
+title: 例外狀況和錯誤處理 Siebel 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - error handling, troubleshooting
 - exceptions, troubleshooting
 - troubleshooting, exceptions and error handling
 ms.assetid: d46e908f-0715-43e2-879b-f5d0beb9bc64
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22221862"
 ---
 # <a name="exceptions-and-error-handling-with-the-siebel-adapter"></a><span data-ttu-id="ac113-102">例外狀況和錯誤處理 Siebel 配接器</span><span class="sxs-lookup"><span data-stu-id="ac113-102">Exceptions and Error Handling with the Siebel adapter</span></span>
 ## <a name="exception-list"></a><span data-ttu-id="ac113-103">例外狀況清單</span><span class="sxs-lookup"><span data-stu-id="ac113-103">Exception list</span></span>

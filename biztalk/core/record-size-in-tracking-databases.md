@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22268310"
 ---
 # <a name="record-size-in-tracking-databases"></a><span data-ttu-id="cde84-102">追蹤資料庫中的記錄大小</span><span class="sxs-lookup"><span data-stu-id="cde84-102">Record Size in Tracking Databases</span></span>
 <span data-ttu-id="cde84-103">為了協助您規劃 BizTalk 的硬體需求，下表會顯示追蹤資料庫中不同事件記錄的預期記錄大小。</span><span class="sxs-lookup"><span data-stu-id="cde84-103">To help you plan your hardware requirements for BizTalk, the following table shows the expected record size for various event records in the Tracking database.</span></span>  

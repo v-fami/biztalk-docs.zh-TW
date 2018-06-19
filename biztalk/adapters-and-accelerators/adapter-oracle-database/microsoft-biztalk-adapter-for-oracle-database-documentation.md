@@ -1,15 +1,15 @@
 ---
-title: "Microsoft BizTalk Adapter for Oracle 資料庫的文件 |Microsoft 文件"
-description: "取得啟動，架構、 安全性、 開發應用程式、 訊息結構描述，以及疑難排解 Oracle 資料庫配接器在 BizTalk Adapter Pack"
-ms.custom: 
+title: Microsoft BizTalk Adapter for Oracle 資料庫的文件 |Microsoft 文件
+description: 取得啟動，架構、 安全性、 開發應用程式、 訊息結構描述，以及疑難排解 Oracle 資料庫配接器在 BizTalk Adapter Pack
+ms.custom: ''
 ms.date: 08/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9308cbde-9d4d-4c1f-9532-cce0f7726327
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214254"
 ---
 # <a name="microsoft-biztalk-adapter-for-oracle-database"></a><span data-ttu-id="c9fea-103">Microsoft BizTalk Adapter for Oracle Database</span><span class="sxs-lookup"><span data-stu-id="c9fea-103">Microsoft BizTalk Adapter for Oracle Database</span></span>
 <span data-ttu-id="c9fea-104">[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]文件集包括各種不同的資源，幫助您了解如何開發、 管理和使用[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="c9fea-104">The [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] documentation includes a variety of resources that can help you learn to develop, administer, and use the [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)].</span></span>  

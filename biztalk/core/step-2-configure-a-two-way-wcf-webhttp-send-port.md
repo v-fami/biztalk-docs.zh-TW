@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 設定雙向 Wcf-webhttp 傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 設定雙向 Wcf-webhttp 傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0bcab296-7921-4df4-abcc-eea78cc827e8
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278886"
 ---
 # <a name="step-2-configure-a-two-way-wcf-webhttp-send-port"></a><span data-ttu-id="e01e6-102">步驟 2： 設定雙向 Wcf-webhttp 傳送埠</span><span class="sxs-lookup"><span data-stu-id="e01e6-102">Step 2: Configure a Two-way WCF-WebHttp Send Port</span></span>
 <span data-ttu-id="e01e6-103">在這個步驟您要設定雙向**Wcf-webhttp**傳送埠以叫用 REST 資源 URL，以擷取在美國空中電信業者的排程中的延遲。</span><span class="sxs-lookup"><span data-stu-id="e01e6-103">In this step you configure a two-way **WCF-WebHttp** send port to invoke the REST resource URL to retrieve delays in the US air carriers’ schedules.</span></span>  

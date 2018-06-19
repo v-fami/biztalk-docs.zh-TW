@@ -1,11 +1,11 @@
 ---
-title: "發佈具有 SOAP 標頭的 Web 服務 |Microsoft 文件"
-ms.custom: 
+title: 發佈具有 SOAP 標頭的 Web 服務 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP headers, orchestrations
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - pipelines, SOAP headers
 - orchestrations, SOAP headers
 ms.assetid: c362caff-b75f-4c1b-9013-d2b9c74f5c65
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269022"
 ---
 # <a name="publishing-web-services-with-soap-headers"></a><span data-ttu-id="0b84f-102">發佈具有 SOAP 標頭的 Web 服務</span><span class="sxs-lookup"><span data-stu-id="0b84f-102">Publishing Web Services with SOAP Headers</span></span>
 <span data-ttu-id="0b84f-103">當您執行「BizTalk Web 服務發佈精靈」時，可以將 SOAP 標頭加入至 Web 服務。</span><span class="sxs-lookup"><span data-stu-id="0b84f-103">You add SOAP headers to your Web services when you run the BizTalk Web Services Publishing Wizard.</span></span> <span data-ttu-id="0b84f-104">當您發佈可支援 SOAP 標頭的 Web 服務時，標頭會變成包含 SOAP 標頭字串表示的內容屬性，提供給協調流程和管線元件使用。</span><span class="sxs-lookup"><span data-stu-id="0b84f-104">When you publish a Web service that supports SOAP headers, the headers become available to orchestrations and pipeline components as context properties that contain string representations of the SOAP headers.</span></span>  

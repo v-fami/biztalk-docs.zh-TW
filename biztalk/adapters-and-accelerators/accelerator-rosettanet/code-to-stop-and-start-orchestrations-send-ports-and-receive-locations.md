@@ -1,11 +1,11 @@
 ---
-title: "停止和啟動協調流程、 傳送埠和接收位置，以程式設計的方式 |Microsoft 文件"
-ms.custom: 
+title: 停止和啟動協調流程、 傳送埠和接收位置，以程式設計的方式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, examples
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - SDK samples, receive locations
 - examples, receive locations
 ms.assetid: 1c06e14d-44ec-4292-a2c2-ee2c8d07d948
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210878"
 ---
 # <a name="stopping-and-starting-orchestrations-send-ports-and-receive-locations-programmatically"></a><span data-ttu-id="d4cdf-102">停止和啟動協調流程、 傳送埠和接收位置，以程式設計的方式</span><span class="sxs-lookup"><span data-stu-id="d4cdf-102">Stopping and Starting Orchestrations, Send Ports, and Receive Locations Programmatically</span></span>
 <span data-ttu-id="d4cdf-103">本主題提供以程式控制方式停止及啟動協調流程、傳送埠和接收位置的範例程式碼。</span><span class="sxs-lookup"><span data-stu-id="d4cdf-103">This topic provides sample code for programmatically stopping and starting orchestrations, send ports, and receive locations.</span></span> <span data-ttu-id="d4cdf-104">您可以將所有的協調流程、傳送埠和接收位置當做群組或個別地執行這些動作。</span><span class="sxs-lookup"><span data-stu-id="d4cdf-104">You can perform these actions on all orchestrations, send ports, and receive locations as a group or individually.</span></span> <span data-ttu-id="d4cdf-105">只要將這個程式碼包含在程式中，即可動態地執行這些動作。</span><span class="sxs-lookup"><span data-stu-id="d4cdf-105">You can include this code in a program to perform these actions dynamically.</span></span> <span data-ttu-id="d4cdf-106">在圖形化使用者介面中執行這些動作在設計階段於[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]，或在執行階段在 BizTalk 管理主控台。</span><span class="sxs-lookup"><span data-stu-id="d4cdf-106">You perform these actions in the graphical user interface at design time in [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)], or at run time in the BizTalk Administration console.</span></span>  

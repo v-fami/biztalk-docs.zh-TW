@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269014"
 ---
 # <a name="sample-biztalk-server-architectures"></a><span data-ttu-id="dd413-102">BizTalk Server 架構範例</span><span class="sxs-lookup"><span data-stu-id="dd413-102">Sample BizTalk Server Architectures</span></span>
 <span data-ttu-id="dd413-103">若要儘可能提供 Microsoft® BizTalk® Server 環境最大的安全性，建議您使用根據其中所含資料與服務的重要性以及攻擊者危害伺服器時的暗示，來使用可分散 BizTalk Server 的架構。</span><span class="sxs-lookup"><span data-stu-id="dd413-103">To provide the greatest possible security to your Microsoft® BizTalk® Server environment, it is recommended that you use an architecture where you distribute the BizTalk Servers based on the criticality of the data and services that they contain, and the implication if an attacker compromises the server.</span></span>  

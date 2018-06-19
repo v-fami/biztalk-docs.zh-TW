@@ -1,14 +1,14 @@
 ---
-title: "InterAct 配接器伺服器應用程式 |Microsoft 文件"
-ms.custom: 
+title: InterAct 配接器伺服器應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8c50b239-0480-449f-aa6d-50bbb892e8a1
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222998"
 ---
 # <a name="interact-adapter-server-application"></a><span data-ttu-id="3c621-102">InterAct 配接器伺服器應用程式</span><span class="sxs-lookup"><span data-stu-id="3c621-102">InterAct Adapter Server Application</span></span>
 <span data-ttu-id="3c621-103">此章節提供的撰寫伺服器應用程式要求訊息的一般描述。</span><span class="sxs-lookup"><span data-stu-id="3c621-103">This section presents a general description of the composition of server application Request messages.</span></span> <span data-ttu-id="3c621-104">這些是從伺服器端 SNL 傳遞至伺服器應用程式的 XML 文件。</span><span class="sxs-lookup"><span data-stu-id="3c621-104">These are the XML documents passed from the server-side SNL to the server application.</span></span> <span data-ttu-id="3c621-105">因此，這些訊息會運用在伺服器端的 SWIFTNet 原始物件的第一個部分的特性。</span><span class="sxs-lookup"><span data-stu-id="3c621-105">As such, these messages are characteristic of the first part of the SWIFTNet primitives exercised on the server side.</span></span>  

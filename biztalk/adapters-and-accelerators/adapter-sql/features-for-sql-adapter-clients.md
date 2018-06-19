@@ -1,14 +1,14 @@
 ---
-title: "SQL 配接器用戶端的功能 |Microsoft 文件"
-ms.custom: 
+title: SQL 配接器用戶端的功能 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f638154b-0a09-4f89-9c52-2a62fafec7dc
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222710"
 ---
 # <a name="features-for-sql-adapter-clients"></a><span data-ttu-id="10fd4-102">SQL 配接器用戶端的功能</span><span class="sxs-lookup"><span data-stu-id="10fd4-102">Features for SQL adapter clients</span></span>
 <span data-ttu-id="10fd4-103">除了所有的主題所討論的功能[概觀的 BizTalk 配接器適用於 SQL Server](../../adapters-and-accelerators/adapter-sql/overview-of-biztalk-adapter-for-sql-server.md)、[!INCLUDE[adaptersql](../../includes/adaptersql-md.md)]也提供可用於配接器用戶端的下列功能：</span><span class="sxs-lookup"><span data-stu-id="10fd4-103">In addition to the features discussed throughout the topics of [Overview of BizTalk Adapter for SQL Server](../../adapters-and-accelerators/adapter-sql/overview-of-biztalk-adapter-for-sql-server.md), the [!INCLUDE[adaptersql](../../includes/adaptersql-md.md)] also provides the following features that are useful for adapter clients:</span></span>  

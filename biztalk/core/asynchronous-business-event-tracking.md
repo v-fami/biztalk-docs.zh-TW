@@ -1,11 +1,11 @@
 ---
-title: "非同步的商務事件追蹤 |Microsoft 文件"
-ms.custom: 
+title: 非同步的商務事件追蹤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance, BAM
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - BAM, event tracking
 - BAM, performance
 ms.assetid: 6d51fadf-b329-4536-9618-d982d9c17882
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230470"
 ---
 # <a name="asynchronous-business-event-tracking"></a><span data-ttu-id="43d0a-102">非同步的商務事件追蹤</span><span class="sxs-lookup"><span data-stu-id="43d0a-102">Asynchronous Business Event Tracking</span></span>
 <span data-ttu-id="43d0a-103">非同步 (使用`BufferedEventStream`)-這種模型提供顯著的效能改進。</span><span class="sxs-lookup"><span data-stu-id="43d0a-103">Asynchronous (using `BufferedEventStream`) - This model offers significant performance improvements.</span></span> <span data-ttu-id="43d0a-104">其所使用的 API 與同步模型相似，唯一的差別在於建構函式不同。</span><span class="sxs-lookup"><span data-stu-id="43d0a-104">This uses a similar API to the synchronous model, using only a different constructor.</span></span> <span data-ttu-id="43d0a-105">BufferedEventStream 並非將資料推送至主要匯入資料庫，而是將事件資料以二進位格式累積到記憶體中，再將之以單一資料表記錄的方式插入過渡資料庫 (MessageBox)。</span><span class="sxs-lookup"><span data-stu-id="43d0a-105">Instead of pushing the data into the primary import database, BufferedEventStream accumulates the event data in memory in binary form, and then inserts it as a single table record into an interim database (MessageBox).</span></span> <span data-ttu-id="43d0a-106">事件匯流排服務會讀取 BizTalk 佇列於 MessageBox 資料庫中的資料，然後匯入至主要匯入資料庫。</span><span class="sxs-lookup"><span data-stu-id="43d0a-106">The Event Bus service reads the data queued in the MessageBox database by BizTalk and imports it into the primary import database.</span></span>  

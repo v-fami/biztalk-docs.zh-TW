@@ -1,11 +1,11 @@
 ---
-title: "啟動者私用程序 |Microsoft 文件"
-ms.custom: 
+title: 啟動者私用程序 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - line-of-business applications (LOBs)
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - private processes, message flow
 - private processes, errors
 ms.assetid: 8444a5c8-445a-4bbd-a793-a16816fcb397
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211022"
 ---
 # <a name="initiator-private-process"></a><span data-ttu-id="337c3-102">啟動者私用程序</span><span class="sxs-lookup"><span data-stu-id="337c3-102">Initiator Private Process</span></span>
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="337c3-103">[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]會使用啟動者私用程序 (PrivateInitiator.odx) 來處理啟動者電腦上的服務內容。</span><span class="sxs-lookup"><span data-stu-id="337c3-103"> [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] uses the initiator private process (PrivateInitiator.odx) to process service content at an initiator computer.</span></span> <span data-ttu-id="337c3-104">這包括下列項目：</span><span class="sxs-lookup"><span data-stu-id="337c3-104">This includes the following:</span></span>  

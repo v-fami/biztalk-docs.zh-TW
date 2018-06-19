@@ -1,14 +1,14 @@
 ---
-title: "節點名稱屬性 |Microsoft 文件"
-ms.custom: 
+title: 節點名稱屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 95d9e5bf-7439-4ef4-ad14-e8d3e8eff911
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972796"
 ---
 # <a name="node-name-property"></a><span data-ttu-id="a00de-102">節點名稱屬性</span><span class="sxs-lookup"><span data-stu-id="a00de-102">Node Name Property</span></span>
 <span data-ttu-id="a00de-103">使用「BizTalk 編輯器」將節點插入結構描述樹狀結構時，有些節點必須重新命名，有些則不用。</span><span class="sxs-lookup"><span data-stu-id="a00de-103">As you use BizTalk Editor to insert nodes into the schema tree, some nodes are meant to be renamed and others are not.</span></span> <span data-ttu-id="a00de-104">基本上，您可以也應該重新命名**記錄**節點**欄位項目**節點，和**欄位屬性**節點。</span><span class="sxs-lookup"><span data-stu-id="a00de-104">Essentially, you can and should rename **Record** nodes, **Field Element** nodes, and **Field Attribute** nodes.</span></span> <span data-ttu-id="a00de-105">您提供給這些節點的名稱會成為結構描述定義的訊息中，XML 項目及屬性的名稱。</span><span class="sxs-lookup"><span data-stu-id="a00de-105">The names that you give to these nodes will become the names of the XML elements and attributes in the message that the schema defines.</span></span>  

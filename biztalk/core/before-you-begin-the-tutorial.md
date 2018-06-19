@@ -1,14 +1,14 @@
 ---
-title: "開始本教學課程之前 |Microsoft 文件"
-ms.custom: 
+title: 開始本教學課程之前 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b77a49ba-9e15-4754-b8b9-7b7af6e6db0f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230774"
 ---
 # <a name="before-you-begin-the-tutorial"></a><span data-ttu-id="8f4cc-102">開始教學課程之前</span><span class="sxs-lookup"><span data-stu-id="8f4cc-102">Before You Begin the Tutorial</span></span>
 <span data-ttu-id="8f4cc-103">在您開始教學課程之前，您必須先在單一電腦上安裝 BizTalk Server，也要安裝教學課程檔案。</span><span class="sxs-lookup"><span data-stu-id="8f4cc-103">Before you begin the tutorial, you must install BizTalk Server on a single computer, and also install the tutorial files.</span></span> <span data-ttu-id="8f4cc-104">此教學課程未提供在多部電腦環境操作的指示。</span><span class="sxs-lookup"><span data-stu-id="8f4cc-104">The tutorial does not provide instructions for a multicomputer environment.</span></span> <span data-ttu-id="8f4cc-105">如果是在分散式 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 環境中工作，您必須在執行教學課程中的步驟時將它考慮在內。</span><span class="sxs-lookup"><span data-stu-id="8f4cc-105">If you are working in a distributed [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] environment, you must take that into consideration when you perform the steps in the tutorials.</span></span>  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25973868"
 ---
 # <a name="file-inventory-for-the-business-process-management-solution"></a><span data-ttu-id="0c8cc-102">商務程序管理解決方案的檔案庫存</span><span class="sxs-lookup"><span data-stu-id="0c8cc-102">File Inventory for the Business Process Management Solution</span></span>
 <span data-ttu-id="0c8cc-103">本節列出商務程序管理解決方案的子目錄和原始程式檔。</span><span class="sxs-lookup"><span data-stu-id="0c8cc-103">This section lists subdirectories and source files for the Business Process Management solution.</span></span> <span data-ttu-id="0c8cc-104">「商務程序管理」方案原始程式檔的預設安裝目錄是 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\BPM。</span><span class="sxs-lookup"><span data-stu-id="0c8cc-104">The default installation directory for the Business Process Management solution source files is [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Scenarios\BPM.</span></span> <span data-ttu-id="0c8cc-105">下表會取代此路徑與之前的描述\<安裝目錄\>。</span><span class="sxs-lookup"><span data-stu-id="0c8cc-105">Descriptions before the following tables replace this path with \<Install Directory\>.</span></span>  

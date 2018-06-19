@@ -1,14 +1,14 @@
 ---
-title: "設定 EPM 執行緒集區大小 |Microsoft 文件"
-ms.custom: 
+title: 設定 EPM 執行緒集區大小 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9e170e76-5151-4306-9473-5b68e815219a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271134"
 ---
 # <a name="setting-the-epm-threadpool-size"></a><span data-ttu-id="8d91a-102">設定 EPM 執行緒集區大小</span><span class="sxs-lookup"><span data-stu-id="8d91a-102">Setting the EPM Threadpool Size</span></span>
 <span data-ttu-id="8d91a-103">本主題將說明如何設定「結束點管理員」(EPM) 的執行緒集區大小。</span><span class="sxs-lookup"><span data-stu-id="8d91a-103">This topic explains how to set the threadpool size for the End Point Manager (EPM).</span></span>  

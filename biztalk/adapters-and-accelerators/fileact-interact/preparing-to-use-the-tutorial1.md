@@ -1,14 +1,14 @@
 ---
-title: "準備使用 Tutorial1 |Microsoft 文件"
-ms.custom: 
+title: 準備使用 Tutorial1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d4a792b2-8351-4ae8-9d7c-75420c00af03
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225206"
 ---
 # <a name="preparing-to-use-the-tutorial"></a><span data-ttu-id="2bd24-102">準備使用本教學課程</span><span class="sxs-lookup"><span data-stu-id="2bd24-102">Preparing to Use the Tutorial</span></span>
 <span data-ttu-id="2bd24-103">您必須執行下列使用 A4SWIFT 配接器的端對端教學課程之前。</span><span class="sxs-lookup"><span data-stu-id="2bd24-103">You must do the following before using the A4SWIFT adapter end-to-end tutorial.</span></span>  

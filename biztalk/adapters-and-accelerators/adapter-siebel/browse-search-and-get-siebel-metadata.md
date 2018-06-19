@@ -16,7 +16,7 @@ helpviewer_keywords:
 - metadata, searching
 - searching, metadata
 ms.assetid: 48fc3bb1-b949-4b8d-ab62-a41cd8c2f0a0
-caps.latest.revision: ''
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22222566"
 ---
 # <a name="browse-search-and-get-siebel-metadata"></a><span data-ttu-id="7edc1-102">瀏覽、 搜尋及取得 Siebel 中繼資料</span><span class="sxs-lookup"><span data-stu-id="7edc1-102">Browse, search, and get Siebel metadata</span></span>
 <span data-ttu-id="7edc1-103">[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]表面來自 Siebel 系統的說明與使用配接器的 Siebel 系統通訊的訊息結構的中繼資料。</span><span class="sxs-lookup"><span data-stu-id="7edc1-103">The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] surfaces metadata from the Siebel system that describes the message structure for communicating with a Siebel system using the adapter.</span></span> <span data-ttu-id="7edc1-104">[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]支援兩個介面來擷取中繼資料。</span><span class="sxs-lookup"><span data-stu-id="7edc1-104">The [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] supports two interfaces for retrieving metadata.</span></span>  

@@ -1,18 +1,18 @@
 ---
-title: "教學課程 4： 移轉 SAP 接收 IDOC 的 BizTalk 專案 |Microsoft 文件"
-ms.custom: 
+title: 教學課程 4： 移轉 SAP 接收 IDOC 的 BizTalk 專案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - migration, SAP Receive IDOC BizTalk project
 - migrating, SAP Receive IDOC BizTalk project
 - migration
 ms.assetid: 74b667d8-2d8c-4c15-9dd2-f13521404b85
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217886"
 ---
 # <a name="tutorial-4-migrating-an-sap-receive-idoc-biztalk-project"></a><span data-ttu-id="f44fa-102">教學課程 4： 移轉 SAP 接收 IDOC 的 BizTalk 專案</span><span class="sxs-lookup"><span data-stu-id="f44fa-102">Tutorial 4: Migrating an SAP Receive IDOC BizTalk Project</span></span>
 <span data-ttu-id="f44fa-103">SAP 配接器隨附於 Microsoft BizTalk Server 的先前版本不同於 WCF 基礎[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]在許多方面，包括：</span><span class="sxs-lookup"><span data-stu-id="f44fa-103">The previous version of the SAP adapter that shipped with Microsoft BizTalk Server differs from the WCF-based [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] in many aspects, including:</span></span>  

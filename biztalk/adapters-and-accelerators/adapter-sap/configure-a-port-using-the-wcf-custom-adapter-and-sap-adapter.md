@@ -1,15 +1,15 @@
 ---
-title: "設定連接埠使用 wcf-custom 配接器和 SAP 配接器在 BizTalk |Microsoft 文件"
-description: "建立 WCF 自訂連接埠來傳送或接收訊息從 SAP BizTalk 配接器組件 (BAP) 中使用 mySAP 配接器"
-ms.custom: 
+title: 設定連接埠使用 wcf-custom 配接器和 SAP 配接器在 BizTalk |Microsoft 文件
+description: 建立 WCF 自訂連接埠來傳送或接收訊息從 SAP BizTalk 配接器組件 (BAP) 中使用 mySAP 配接器
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e3962456-e9ac-4575-8266-b35e892dd428
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217734"
 ---
 # <a name="configure-a-port-using-the-wcf-custom-adapter-and-sap-adapter"></a><span data-ttu-id="89a1c-103">設定使用 wcf-custom 配接器和 SAP 配接器的連接埠</span><span class="sxs-lookup"><span data-stu-id="89a1c-103">Configure a port using the WCF-custom adapter and SAP adapter</span></span>
 <span data-ttu-id="89a1c-104">本主題說明如何設定 Wcf-custom 傳送埠和接收埠來執行 SAP 系統使用的傳出和傳入作業[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="89a1c-104">This topic provides instructions on how to configure WCF-Custom send and receive ports to perform outbound and inbound operations on SAP system using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].</span></span>  
@@ -42,7 +43,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  <span data-ttu-id="89a1c-116">在**Wcf-custom 傳輸屬性**對話方塊方塊中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="89a1c-116">In the **WCF-Custom Transport Properties** dialog box, do the following:</span></span>  
   
-    1.  <span data-ttu-id="89a1c-117">按一下**一般** 索引標籤，然後在**位址 (URI)**欄位中，指定連線 URI，SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="89a1c-117">Click the **General** tab, and in the **Address (URI)** field, specify the connection URI for the SAP system.</span></span> <span data-ttu-id="89a1c-118">如需連線 URI 的詳細資訊，請參閱[建立 SAP 系統連接 URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md)。</span><span class="sxs-lookup"><span data-stu-id="89a1c-118">For more information about the connection URI, see [Create the SAP system connection URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md).</span></span>  
+    1.  <span data-ttu-id="89a1c-117">按一下**一般** 索引標籤，然後在**位址 (URI)** 欄位中，指定連線 URI，SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="89a1c-117">Click the **General** tab, and in the **Address (URI)** field, specify the connection URI for the SAP system.</span></span> <span data-ttu-id="89a1c-118">如需連線 URI 的詳細資訊，請參閱[建立 SAP 系統連接 URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md)。</span><span class="sxs-lookup"><span data-stu-id="89a1c-118">For more information about the connection URI, see [Create the SAP system connection URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md).</span></span>  
   
     2.  <span data-ttu-id="89a1c-119">在**一般**索引標籤的**動作**文字方塊中，輸入作業的動作。</span><span class="sxs-lookup"><span data-stu-id="89a1c-119">On the **General** tab, in the **Action** text box, type the action for the operation.</span></span> <span data-ttu-id="89a1c-120">請參閱[訊息與訊息結構描述](messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md)的每個作業的動作清單。</span><span class="sxs-lookup"><span data-stu-id="89a1c-120">See [Messages and message schemas](messages-and-message-schemas-for-biztalk-adapter-for-mysap-business-suite.md) for a list of actions for each operation.</span></span> <span data-ttu-id="89a1c-121">例如，要叫用 RFC_CUSTOMER_GET 動作會：</span><span class="sxs-lookup"><span data-stu-id="89a1c-121">For example, the action to invoke the RFC_CUSTOMER_GET would be:</span></span>  
   
@@ -97,7 +98,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  <span data-ttu-id="89a1c-149">在**Wcf-custom 傳輸屬性**對話方塊方塊中，執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="89a1c-149">In the **WCF-Custom Transport Properties** dialog box, do the following:</span></span>  
   
-    1.  <span data-ttu-id="89a1c-150">按一下**一般** 索引標籤，然後在**位址 (URI)**欄位中，指定連線 URI，SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="89a1c-150">Click the **General** tab, and in the **Address (URI)** field, specify the connection URI for the SAP system.</span></span> <span data-ttu-id="89a1c-151">如需連線 URI 的詳細資訊，請參閱[建立 SAP 系統連接 URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md)。</span><span class="sxs-lookup"><span data-stu-id="89a1c-151">For more information about the connection URI, see [Create the SAP system connection URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md).</span></span>  
+    1.  <span data-ttu-id="89a1c-150">按一下**一般** 索引標籤，然後在**位址 (URI)** 欄位中，指定連線 URI，SAP 系統。</span><span class="sxs-lookup"><span data-stu-id="89a1c-150">Click the **General** tab, and in the **Address (URI)** field, specify the connection URI for the SAP system.</span></span> <span data-ttu-id="89a1c-151">如需連線 URI 的詳細資訊，請參閱[建立 SAP 系統連接 URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md)。</span><span class="sxs-lookup"><span data-stu-id="89a1c-151">For more information about the connection URI, see [Create the SAP system connection URI](../../adapters-and-accelerators/adapter-sap/create-the-sap-system-connection-uri.md).</span></span>  
   
     2.  <span data-ttu-id="89a1c-152">按一下**繫結** 索引標籤，並從**繫結的型別**下拉式清單中，選取**sapBinding**。</span><span class="sxs-lookup"><span data-stu-id="89a1c-152">Click the **Binding** tab, and from the **Binding Type** drop-down list, select **sapBinding**.</span></span> <span data-ttu-id="89a1c-153">如需繫結屬性的詳細資訊，請參閱[閱讀 BizTalk Adapter for mySAP Business Suite 繫結屬性](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md)。</span><span class="sxs-lookup"><span data-stu-id="89a1c-153">For more information about binding properties, see [Read about BizTalk Adapter for mySAP Business Suite binding properties](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md).</span></span>  
   

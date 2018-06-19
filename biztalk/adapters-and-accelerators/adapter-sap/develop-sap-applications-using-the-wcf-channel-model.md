@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216022"
 ---
 # <a name="develop-sap-applications-using-the-wcf-channel-model"></a><span data-ttu-id="fa319-102">開發 SAP 應用程式使用 WCF 通道模型</span><span class="sxs-lookup"><span data-stu-id="fa319-102">Develop SAP applications using the WCF Channel Model</span></span>
 <span data-ttu-id="fa319-103">您可以使用[!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)]使用通道模型[!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]直接透過 SAP 繫結的通道執行個體傳送 XML 訊息。</span><span class="sxs-lookup"><span data-stu-id="fa319-103">You can use the [!INCLUDE[firstref_btsWinCommFoundation](../../includes/firstref-btswincommfoundation-md.md)] channel model to consume the [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)] by sending XML messages directly over a channel instance created with the SAP Binding.</span></span>  

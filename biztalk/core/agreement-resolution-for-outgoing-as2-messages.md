@@ -1,14 +1,14 @@
 ---
-title: "外寄 AS2 訊息的協議解析 |Microsoft 文件"
-ms.custom: 
+title: 外寄 AS2 訊息的協議解析 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 578d7565-534c-4c13-b473-975f347f3a9b
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230318"
 ---
 # <a name="agreement-resolution-for-outgoing-as2-messages"></a><span data-ttu-id="9199d-102">外寄 AS2 訊息的協議解析</span><span class="sxs-lookup"><span data-stu-id="9199d-102">Agreement Resolution for Outgoing AS2 Messages</span></span>
 <span data-ttu-id="9199d-103">當 AS2 傳送管線處理透過 HTTP/HTTPS 傳輸的外寄 EDIINT/AS2 編碼訊息時，它會判斷該訊息將解析的協議。</span><span class="sxs-lookup"><span data-stu-id="9199d-103">When an AS2 send pipeline processes an outgoing EDIINT/AS2-encoded message over HTTP/HTTPS transport, it determines the agreement that the message will resolve to.</span></span> <span data-ttu-id="9199d-104">它接著會使用這些協議屬性來處理外寄訊息。</span><span class="sxs-lookup"><span data-stu-id="9199d-104">It will then use those agreement properties to process the outgoing message.</span></span> <span data-ttu-id="9199d-105">傳送管線會使用下列準則來判斷協議 (依優先順序)：</span><span class="sxs-lookup"><span data-stu-id="9199d-105">The send pipeline will use the following criteria to determine the agreement (in order of priority):</span></span>  

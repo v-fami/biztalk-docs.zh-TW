@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22268750"
 ---
 # <a name="required-user-rights-for-managing-bam-definition-files"></a><span data-ttu-id="9b2e4-102">管理 BAM 定義檔案所需的使用者權限</span><span class="sxs-lookup"><span data-stu-id="9b2e4-102">Required User Rights for Managing BAM Definition Files</span></span>
 <span data-ttu-id="9b2e4-103">任何角色中的使用者都可以建立、管理和檢視 BAM 定義檔案。</span><span class="sxs-lookup"><span data-stu-id="9b2e4-103">BAM definition files can be created, managed, and viewed by users in any role.</span></span> <span data-ttu-id="9b2e4-104">管理 BAM 定義檔案包括了部署和移除定義檔案，以及管理與定義檔案關聯的活動、檢視、警示和成品。</span><span class="sxs-lookup"><span data-stu-id="9b2e4-104">Managing BAM definition files includes deploying and removing them as well as managing the activities, views, alerts, and artifacts that are associated with the definition file.</span></span>  

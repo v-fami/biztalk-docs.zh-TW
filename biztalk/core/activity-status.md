@@ -1,11 +1,11 @@
 ---
-title: "[活動狀態] |Microsoft 文件"
-ms.custom: 
+title: '[活動狀態] |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities [BAM], status
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - activities [BAM], viewing status
 - queries [BAM], viewing details
 ms.assetid: 986ea044-576d-4e68-8ade-077165eaf735
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22224638"
 ---
 # <a name="activity-status"></a><span data-ttu-id="3704b-102">活動狀態</span><span class="sxs-lookup"><span data-stu-id="3704b-102">Activity Status</span></span>
 <span data-ttu-id="3704b-103">結果詳細資料的 [活動狀態] 區域，可讓您在單一頁面中檢視結果項目的所有詳細資料。</span><span class="sxs-lookup"><span data-stu-id="3704b-103">The Activity Status area of the results details allows you to view all of the details for the results item on a single page.</span></span>  
