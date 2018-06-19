@@ -1,15 +1,15 @@
 ---
-title: "安裝 BizTalk Adapter Pack 2016 |Microsoft 文件"
-description: "以無訊息模式安裝的 BAP 2016，32 位元與 64 位元、 標準或自訂安裝"
-ms.custom: 
+title: 安裝 BizTalk Adapter Pack 2016 |Microsoft 文件
+description: 以無訊息模式安裝的 BAP 2016，32 位元與 64 位元、 標準或自訂安裝
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2f3e1717-8063-4460-bfdc-a933cd58a5c1
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967788"
 ---
 # <a name="install-the-biztalk-adapter-pack-2016"></a>安裝 BizTalk Adapter Pack 2016
 安裝[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]下列兩種方式：  

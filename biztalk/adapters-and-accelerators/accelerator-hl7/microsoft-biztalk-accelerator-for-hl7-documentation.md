@@ -1,15 +1,15 @@
 ---
-title: "Microsoft BizTalk Accelerator for HL7 文件 |Microsoft 文件"
-description: "若要安裝，快速連結開始使用，請了解，程式設計和工具，批次處理和疑難排解 BizTalk Server 中的 HL7 加速器"
-ms.custom: 
+title: Microsoft BizTalk Accelerator for HL7 文件 |Microsoft 文件
+description: 若要安裝，快速連結開始使用，請了解，程式設計和工具，批次處理和疑難排解 BizTalk Server 中的 HL7 加速器
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: aa333ee8-ba93-4a61-9c0a-94e64627b8cf
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206070"
 ---
 # <a name="microsoft-biztalk-accelerator-for-hl7-documentation"></a>Microsoft BizTalk Accelerator for HL7 文件
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)]文件說明使用不同的新[!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)]版本中，示範如何安裝[!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)]，包含逐步教學課程，並可提供資訊來了解 HL7、 開發工作與操作工作。   

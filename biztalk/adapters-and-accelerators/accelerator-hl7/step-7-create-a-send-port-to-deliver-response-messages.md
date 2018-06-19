@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207078"
 ---
 # <a name="step-7-create-a-send-port-to-deliver-response-messages"></a>步驟 7： 建立傳送埠以傳送回應訊息
 在此步驟中，您建立傳送埠傳送查詢回應，回到許可、 放電和傳輸 (ADT) 系統。  

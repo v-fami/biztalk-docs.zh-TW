@@ -1,14 +1,14 @@
 ---
-title: "低權限環境 |Microsoft 文件"
-ms.custom: 
+title: 低權限環境 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: abdc45d0-b63a-4b6c-80c4-1f8e87644cd9
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298294"
 ---
 # <a name="low-privilege-environments"></a>低權限環境
 所包含的數個工作流程[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理組件需要提高權限來執行特定動作。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理組件可讓您在低權限環境中執行基本監視功能。 有兩個系統管理角色： BizTalk Server 系統管理員和 BizTalk Server 操作員。 BizTalk Server 系統管理員是具有組態和追蹤資料存取權的高權限角色。 BizTalk Server 系統管理員可以執行所有的主要系統管理工作，這類登錄與啟動成品。 BizTalk Server 操作員則是低權限角色，僅具有用來監控和疑難排解動作的存取權。 如需詳細資訊，請參閱[最低安全性使用者權限](http://technet.microsoft.com/library/aa559845\(BTS.80\).aspx)。  

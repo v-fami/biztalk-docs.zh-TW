@@ -1,14 +1,14 @@
 ---
-title: "階段 3： 準備評定 |Microsoft 文件"
-ms.custom: 
+title: 階段 3： 準備評定 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d153ed62-f2cc-4080-8912-c98ecdd329f5
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22301838"
 ---
 # <a name="phase-3-preparing-for-the-assessment"></a>階段 3： 準備進行評估
 準備效能評估階段可以視為 「 範圍 」 階段的 「 作法 」 和 「 如何 」 計劃 」 階段的 「 時機 」。 此時效能評定，所有專案關係人應該均同意 engagement 和計劃的範圍進行實驗室。 它是在其中執行計畫，而會採取的步驟以準備好的效能實驗室執行效能評定的準備階段。  

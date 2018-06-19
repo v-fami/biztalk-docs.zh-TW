@@ -1,14 +1,14 @@
 ---
-title: "設定 BizTalk Server 記錄傳送 |Microsoft 文件"
-ms.custom: 
+title: 設定 BizTalk Server 記錄傳送 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bcef31f7-30d1-4ada-b627-2a5c9ec7e43e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299694"
 ---
 # <a name="configuring-biztalk-server-log-shipping"></a>設定 BizTalk Server 記錄傳送
 除了商務活動監控 (BAM) 使用的部分資料庫是例外之外，您要使用「備份 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]」工作來備份 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 來源系統中的所有資料庫。 來源系統是包含即時資料的伺服器或伺服器群組。 因為某些 BAM 資料庫有不同的備份和還原需求，這些資料庫備份和還原使用其他方法。  

@@ -1,17 +1,17 @@
 ---
-title: "重設金鑰驗證階段 |Microsoft 文件"
-ms.custom: 
+title: 重設金鑰驗證階段 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - rekey verification
 - stages, rekey verification
 ms.assetid: 8a2880b6-bb25-4af5-9f51-d0b090ca38c8
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214198"
 ---
 # <a name="rekey-verification-stage"></a>重設金鑰驗證階段
 當重設金鑰驗證階段進行訊息修復工作流程中的原始訊息複本由訊息修復和新送出與訊息的完全相同複本維護傳送的驗證器收件匣。 重設金鑰驗證。 在重設金鑰驗證[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]Message Repair 和 New Submission 清除指定手動重新進入的欄位。  

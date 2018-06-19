@@ -1,14 +1,14 @@
 ---
-title: "產生類別 0 和 MT121 Form |Microsoft 文件"
-ms.custom: 
+title: 產生類別 0 和 MT121 Form |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1470b8e1-0008-4f15-8958-ba4c7ecbffd8
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207302"
 ---
 # <a name="generating-category-0-and-mt121-forms"></a>產生類別 0 和 MT121 表單
 類別 0 和 MT121 InfoPath 表單產生需要不同的範本檔案。 類別 0 form 分成 5 的類別。 一般類別訊息會產生相同的方式進行其餘的 MT 類別。 其他 4 類別，以訊息名稱的範例如下：  

@@ -1,14 +1,14 @@
 ---
-title: "如何識別追蹤資料庫中的瓶頸 |Microsoft 文件"
-ms.custom: 
+title: 如何識別追蹤資料庫中的瓶頸 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9b72e726-6225-47a0-8e1d-0f5a9cf745d3
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297982"
 ---
 # <a name="how-to-identify-bottlenecks-in-the-tracking-database"></a>如何識別追蹤資料庫中的瓶頸
 若要識別 BizTalk 追蹤 (BizTalkDTADb) 資料庫中的瓶頸，請執行下列步驟：  

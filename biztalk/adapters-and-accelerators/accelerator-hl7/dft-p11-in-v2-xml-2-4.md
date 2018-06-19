@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204710"
 ---
 # <a name="dftp11-in-v2xml-24"></a>V2 中 DFT_P11。XML 2.4
 您必須手動變更 v2 DFT_P11 結構描述中的下列程式碼。XML 2.4 之後執行 Update2XMLSchema 工具：  

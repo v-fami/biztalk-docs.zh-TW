@@ -1,15 +1,15 @@
 ---
-title: "建立 TIBCO Rendezvous 配接器傳送成品 |Microsoft 文件"
-description: "建立傳送埠，請設定將訊息從 BizTalk 傳送至 TIBCO Rendezvous 傳輸屬性"
-ms.custom: 
+title: 建立 TIBCO Rendezvous 配接器傳送成品 |Microsoft 文件
+description: 建立傳送埠，請設定將訊息從 BizTalk 傳送至 TIBCO Rendezvous 傳輸屬性
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ad996c4f-e6ed-4582-a768-0cb1ad25b1d8
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014349"
 ---
 # <a name="create-tibco-rendezvous-send-handlers"></a>建立 TIBCO Rendezvous 傳送處理常式
 本節說明如何建立結構描述，以在 BizTalk Server 協調流程中使用 TIBCO Rendezvous。  
@@ -36,7 +37,7 @@ ms.lasthandoff: 11/07/2017
   
     3.  從**傳送處理常式**下拉式清單中，選取 URI。  
   
-    4.  從 [傳送管線] 下拉式清單中，選取 [ **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**。  從**接收管線**下拉式清單中，選取**[microsoft.biztalk.defaultpiplelines.xmlreceive]**。  
+    4.  從 [傳送管線] 下拉式清單中，選取 [ **Microsoft.BizTalk.DefaultPipelines.XMLTransmit**。  從**接收管線**下拉式清單中，選取 **[microsoft.biztalk.defaultpiplelines.xmlreceive]**。  
 
         > [!NOTE]
         > Microsoft BizTalk Adapter for TIBCO Rendezvous 需要您選取 XMLTransmit 管線傳送，並針對 receive XMLReceive 管線。

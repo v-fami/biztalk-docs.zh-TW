@@ -1,11 +1,11 @@
 ---
-title: "私用程序 |Microsoft 文件"
-ms.custom: 
+title: 私用程序 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - private processes, trading partners
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - BTARN, private processes
 - business processes, private processes
 ms.assetid: 0c5895eb-22c1-431f-a769-ae6ca05d1e45
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22207686"
 ---
 # <a name="private-processes"></a>私用程序
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]實作做為私用程序將組織內部的商務程序。 公開程序會處理與交易夥伴整合有關的商務程序。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]隔離服務內容處理及後端整合 （在私用程序中） 從 RosettaNet 實作架構 (RNIF) 處理 （在公開程序）。  

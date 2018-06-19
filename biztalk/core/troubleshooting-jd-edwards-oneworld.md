@@ -1,14 +1,14 @@
 ---
-title: "疑難排解 JD Edwards OneWorld |Microsoft 文件"
-ms.custom: 
+title: 疑難排解 JD Edwards OneWorld |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 15d73c2a-c6ee-46bf-8837-9c6ae3b098d2
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015605"
 ---
 # <a name="troubleshooting-jd-edwards-oneworld"></a>疑難排解 JD Edwards OneWorld
 

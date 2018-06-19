@@ -1,14 +1,14 @@
 ---
-title: "新增 MX 傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 新增 MX 傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c3ad5d2f-1fcb-49d4-9974-664733308f45
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22208910"
 ---
 # <a name="adding-an-mx-send-port"></a>新增 MX 傳送連接埠
 **若要新增 MX 傳送埠：**  
@@ -33,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
 6.  在瀏覽資料夾] 對話方塊中，選取 [檔案位置。  
   
-7.  在 檔案名稱 方塊中，輸入**%MessageID%.xml**，然後按一下 **確定**。  
+7.  在 檔案名稱 方塊中，輸入 **%MessageID%.xml**，然後按一下 **確定**。  
   
 8.  在 [傳送埠屬性] 對話方塊中，按一下 [傳送管線] 方塊中的下拉式清單，然後選取傳送管線已部署管線專案中。  
   

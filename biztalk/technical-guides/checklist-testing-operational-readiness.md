@@ -1,14 +1,14 @@
 ---
-title: "檢查清單： 測試操作整備 |Microsoft 文件"
-ms.custom: 
+title: 檢查清單： 測試操作整備 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ecdf2609-ba77-4756-a949-ab4e10c54313
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299270"
 ---
 # <a name="checklist-testing-operational-readiness"></a>檢查清單： 測試操作整備
 只有至少執行或經常忽略的重要程序就操作整備測試。 是進行徹底測試所有企業級應用程式中，關鍵需求，並以開發方案[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]也不例外。 最少，您應該執行下列測試之前將 BizTalk 方案移到實際執行環境：  

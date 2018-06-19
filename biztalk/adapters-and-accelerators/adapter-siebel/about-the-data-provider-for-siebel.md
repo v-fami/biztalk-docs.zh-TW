@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217758"
 ---
 # <a name="about-the-data-provider-for-siebel"></a>有關 Siebel 的資料提供者
 ## <a name="overview"></a>概觀

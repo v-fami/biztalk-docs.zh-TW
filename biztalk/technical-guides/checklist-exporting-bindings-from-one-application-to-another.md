@@ -1,14 +1,14 @@
 ---
-title: "檢查清單： 匯出繫結到另一個應用程式從 |Microsoft 文件"
-ms.custom: 
+title: 檢查清單： 匯出繫結到另一個應用程式從 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 152924e6-da64-4db9-a852-bdb4e79687fb
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22299806"
 ---
 # <a name="checklist-exporting-bindings-from-one-application-to-another"></a>檢查清單： 從另一個應用程式匯出繫結
 本主題描述傳送至另一個應用程式開發或實際執行環境中的一個應用程式的繫結所需的步驟。 此程序會使用.msi 檔案將應用程式部署程序類似。 不過，當您部署使用的.msi 檔案的應用程式時，處理程序會自動建立應用程式。 當您從應用程式之間傳輸的繫結時，相反地，必須已存在目的端應用程式。  

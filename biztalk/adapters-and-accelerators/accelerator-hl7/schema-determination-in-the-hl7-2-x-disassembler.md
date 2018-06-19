@@ -1,11 +1,11 @@
 ---
-title: "HL7 2.X 解譯器中的結構描述判斷 |Microsoft 文件"
-ms.custom: 
+title: HL7 2.X 解譯器中的結構描述判斷 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - header segments [2.X]
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - disassembler, parsing messages
 - 2.X messages, MSH
 ms.assetid: afd45c4c-2feb-44eb-b3bd-49fe114eb893
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206086"
 ---
 # <a name="schema-determination-in-the-hl7-2x-disassembler"></a>HL7 2.X 解譯器中的結構描述判斷
 HL7 2.X 訊息包含標頭區段 (MSH)，後面接著的主體區段的數目和選擇性的 Z 區段數目。 MSH 包含 21 的欄位。  

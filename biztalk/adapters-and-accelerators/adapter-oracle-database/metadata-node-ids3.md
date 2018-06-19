@@ -1,15 +1,15 @@
 ---
-title: "BizTalk Adapter Pack 的 Oracle 資料庫配接器的中繼資料節點識別碼 |Microsoft 文件"
-description: "中繼資料、 搜尋、 擷取節點型別和 Oracle 資料庫配接器-BizTalk 配接器組件 (BAP) 中公開的 Oracle 元件中使用的識別碼"
-ms.custom: 
+title: BizTalk Adapter Pack 的 Oracle 資料庫配接器的中繼資料節點識別碼 |Microsoft 文件
+description: 中繼資料、 搜尋、 擷取節點型別和 Oracle 資料庫配接器-BizTalk 配接器組件 (BAP) 中公開的 Oracle 元件中使用的識別碼
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 523c7611-b21f-4598-ac77-ba71075db073
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216742"
 ---
 # <a name="node-types-and-ids-for-the-oracle-database-adapter"></a>節點型別與 Oracle 資料庫配接器的識別碼
 

@@ -1,14 +1,14 @@
 ---
-title: "如何安裝憑證，以便讓 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 如何安裝憑證，以便讓 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 70a89595-8828-4872-b78b-77e9b0b048b8
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298422"
 ---
 # <a name="how-to-install-certificates-for-biztalk-server"></a>如何安裝 BizTalk Server 的憑證
 在傳送以協助保護資料[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，您必須將適當的憑證新增至適當的憑證存放區中，並將憑證與適當的 BizTalk 成品產生關聯。 本主題說明如何顯示憑證管理主控台介面的本機電腦和目前的使用者憑證存放區，以及如何在適當的存放區中安裝適當的憑證。  

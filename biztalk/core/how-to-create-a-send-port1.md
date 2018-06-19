@@ -1,17 +1,17 @@
 ---
-title: "如何建立傳送 Port1 |Microsoft 文件"
-ms.custom: 
+title: 如何建立傳送 Port1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating send ports
 - send ports, creating
 ms.assetid: bf32e9f5-ebed-43d2-b9a9-6ab91925d973
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015037"
 ---
 # <a name="how-to-create-a-send-port"></a>如何建立傳送埠
 使用下列程序建立 JD Edwards EnterpriseOne 的 BizTalk Server 傳送埠。  
@@ -38,7 +39,7 @@ ms.lasthandoff: 11/07/2017
   
 5.  按一下**傳輸**的左窗格中。  
   
-6.  按一下**傳輸類型**，然後選取**[jdeentone]**。  
+6.  按一下**傳輸類型**，然後選取 **[jdeentone]**。  
   
 7.  選取**位址 (URI)**，然後按一下省略符號 （...） 按鈕。  
   

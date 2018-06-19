@@ -1,17 +1,17 @@
 ---
-title: "批次相關升級屬性 |Microsoft 文件"
-ms.custom: 
+title: 批次相關升級屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - promoted properties, batch related properties
 - batching, promoted properties
 ms.assetid: 00df1d8f-2f3f-4e3f-9983-37dcf3514fd8
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210542"
 ---
 # <a name="batch-related-promoted-properties"></a>批次相關升級的屬性
 當 SWIFT 解譯器會來自傳入的批次至 MessageBox 資料庫的訊息發佈時，解譯器會將訊息標示與特殊[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]升級特定批次訊息的屬性。 這些屬性會提供內容資訊，例如訊息起源哪些序數位置從哪一個批次是中的批次部分 A4SWIFT 已保留，依此類推。  

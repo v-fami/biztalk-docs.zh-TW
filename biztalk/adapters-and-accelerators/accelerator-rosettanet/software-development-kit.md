@@ -1,15 +1,15 @@
 ---
-title: "RosettaNet 加速器，BizTalk Server 中的軟體開發套件 |Microsoft 文件"
-description: "BizTalk Server 的 BTARN SDK 中的公用程式和範例清單"
-ms.custom: 
+title: RosettaNet 加速器，BizTalk Server 中的軟體開發套件 |Microsoft 文件
+description: BizTalk Server 的 BTARN SDK 中的公用程式和範例清單
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 36a1b283-26e1-407e-afc4-8879ef0d1672
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22211278"
 ---
 # <a name="software-development-kit"></a>軟體開發套件
 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]包括軟體開發套件 (SDK) 包含完整程式設計人員參考資料與指南。 此外，SDK 包含可以讓您的營運及後端整合更為容易的公用程式和範例。  

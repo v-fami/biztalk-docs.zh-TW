@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Single Sign-On, creating tickets
 - SSO tickets
 ms.assetid: 790fbe21-8081-4d57-803f-23014c8a3135
-caps.latest.revision: ''
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "24015085"
 ---
 # <a name="creating-affiliate-applications"></a>建立分支機構應用程式
 下列步驟說明如何開始使用採用 SSO 的分支機構應用程式。  

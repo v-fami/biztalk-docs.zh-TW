@@ -1,15 +1,15 @@
 ---
-title: "建立環境的語彙基元 & 變數 |Microsoft 文件 」"
-description: "繫結檔案更新為使用環境語彙基元，並在 VSTS 來自動化部署的 BizTalk Server 應用程式中建立變數"
-ms.custom: 
+title: 建立環境的語彙基元 & 變數 |Microsoft 文件 」
+description: 繫結檔案更新為使用環境語彙基元，並在 VSTS 來自動化部署的 BizTalk Server 應用程式中建立變數
+ms.custom: ''
 ms.date: 11/08/2017
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.prod: biztalk-server
 ms.topic: article
 ms.assetid: 28bb2d4a-f45c-466d-ba65-0ca8cad0bffd
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: tordgladnordahl
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: a0165ec2f1e8b58545638666b7bfa2bf440036fd
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/09/2017
+ms.locfileid: "24054566"
 ---
 # <a name="configure-environmental-tokens-and-variables-for-automatic-deployment"></a>設定環境的語彙基元和自動部署的變數
 使用 Visual Studio Team Services (VSTS) 變數，在您[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]繫結檔案。

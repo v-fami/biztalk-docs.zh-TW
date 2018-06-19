@@ -1,17 +1,17 @@
 ---
-title: "匯入憑證 |Microsoft 文件"
-ms.custom: 
+title: 匯入憑證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - importing certificates
 - certificates, importing
 ms.assetid: c2576f89-b5de-4250-9c54-74c8a218bb39
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209974"
 ---
 # <a name="importing-certificates"></a>匯入憑證
 本節描述如何匯入憑證，其中包括從何處匯入憑證、將憑證存放在何處，以及匯入憑證的工具。  

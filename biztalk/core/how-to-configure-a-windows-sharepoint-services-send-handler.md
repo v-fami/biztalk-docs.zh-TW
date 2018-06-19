@@ -1,18 +1,18 @@
 ---
-title: "如何設定 Windows SharePoint Services 傳送處理常式 |Microsoft 文件"
-ms.custom: 
+title: 如何設定 Windows SharePoint Services 傳送處理常式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [Windows SharePoint Services adapters], send handlers
 - send handlers, Windows SharePoint Services adapters
 - Windows SharePoint Services adapters, send handlers
 ms.assetid: 457767d9-6e39-4553-9bbe-212fcb7c04bc
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25969132"
 ---
 # <a name="how-to-configure-a-windows-sharepoint-services-send-handler"></a>如何設定 Windows SharePoint Services 傳送處理常式
 使用下列程序，變更與 Windows SharePoint Services 傳送處理常式關聯的主控件。  
@@ -42,7 +43,7 @@ ms.lasthandoff: 11/28/2017
   
     |使用|動作|  
     |--------------|----------------|  
-    |傳送批次大小|Windows SharePoint Services Web 服務視為一個批次進行處理的文件數目上限。 預設值是 20。 **注意：**的最小值為 1。|  
+    |傳送批次大小|Windows SharePoint Services Web 服務視為一個批次進行處理的文件數目上限。 預設值是 20。 **注意：** 的最小值為 1。|  
   
 ## <a name="see-also"></a>請參閱  
  [如何設定 Windows SharePoint Services 接收位置](../core/how-to-configure-a-windows-sharepoint-services-receive-location.md)   

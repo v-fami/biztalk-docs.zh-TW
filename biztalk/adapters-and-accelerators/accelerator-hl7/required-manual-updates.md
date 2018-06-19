@@ -1,17 +1,17 @@
 ---
-title: "必要的手動更新 |Microsoft 文件"
-ms.custom: 
+title: 必要的手動更新 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - schemas, updating
 - Update2XMLSchema tool, manual updates
 ms.assetid: 2b46039b-8eee-4db2-b8f2-a6ecaf700c6e
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22205958"
 ---
 # <a name="required-manual-updates"></a>必要的手動更新
 之後 Update2XMLSchema 工具轉換 HL7 結構描述版本，[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]可以使用，您必須手動更新產生的結構描述中的某些欄位。  

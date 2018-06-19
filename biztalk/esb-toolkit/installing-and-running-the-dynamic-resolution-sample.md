@@ -1,14 +1,14 @@
 ---
-title: "安裝及執行動態解析範例 |Microsoft 文件"
-ms.custom: 
+title: 安裝及執行動態解析範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d4359987-b18c-44f5-a2cf-e30e17ac5e9f
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015301"
 ---
 # <a name="installing-and-running-the-dynamic-resolution-sample"></a>安裝及執行動態解析範例
 動態解析 」 範例示範如何在一般使用案例的 ESB 發送器和 ESB 發送器解譯器管線元件。 它示範如何使用元件以動態方式解析端點位置、 設定路由的屬性，並解決，並執行 Microsoft BizTalk 對應，在訊息層級，而不需使用協調流程。 它也示範單向和雙向的訊息模式。  

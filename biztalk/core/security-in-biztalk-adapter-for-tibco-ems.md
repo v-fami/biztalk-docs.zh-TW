@@ -1,15 +1,15 @@
 ---
-title: "使用 SSO 安全 TIBCO EMS |Microsoft 文件"
-description: "使用 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 在 BizTalk Server 時的安全性概觀"
-ms.custom: 
+title: 使用 SSO 安全 TIBCO EMS |Microsoft 文件
+description: 使用 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 在 BizTalk Server 時的安全性概觀
+ms.custom: ''
 ms.date: 10/19/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0eccb44b-e9d8-42c2-a575-47f1d1cfe93c
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24016073"
 ---
 # <a name="security-in-biztalk-adapter-for-tibco-ems"></a>在 BizTalk Adapter for TIBCO EMS 中的安全性
 

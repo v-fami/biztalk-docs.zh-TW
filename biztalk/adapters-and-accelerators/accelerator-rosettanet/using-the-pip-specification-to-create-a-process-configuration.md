@@ -13,7 +13,7 @@ helpviewer_keywords:
 - process configuration, PIPs
 - PIPs, process configuration
 ms.assetid: 64f0f5fb-f880-4ef1-95d7-2575b8d0bcff
-caps.latest.revision: ''
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22207822"
 ---
 # <a name="using-the-pip-specification-to-create-a-process-configuration"></a>使用 PIP 規格建立程序組態
 從 RosettaNet 組織 (從 RosettaNet.org) 下載交易夥伴介面程序 (PIP) 後，下載封裝包含 PIP 規格文件。 此文件可指導您在 [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] 管理主控台中建立程序組態時，要使用哪些設定。  

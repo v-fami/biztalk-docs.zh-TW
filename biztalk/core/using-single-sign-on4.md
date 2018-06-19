@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/security-in-biztalk-adapter-for-tibco-ems/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 6715342fde73a5243f1d076e0863ba796fb231a0
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013557"
 ---
 # <a name="using-single-sign-on"></a>使用單一登入
 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 提供單一登入 (SSO) 支援。 由企業單一登入工具所建立的分支機構應用程式，代表像是 TIBCO Enterprise Message Service 的伺服器系統。  

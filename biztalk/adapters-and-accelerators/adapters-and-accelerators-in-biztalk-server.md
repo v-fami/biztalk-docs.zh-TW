@@ -1,15 +1,15 @@
 ---
-title: "配接器和 BizTalk Server 中的快速鍵 |Microsoft 文件"
-description: "所有配接器和在 BizTalk 中，包括內建配接器、 BAP、 HL7、 Swift、 RosettaNet、 FileAct，以及互動的加速器概觀"
-caps.latest.revision: "3"
+title: 配接器和 BizTalk Server 中的快速鍵 |Microsoft 文件
+description: 所有配接器和在 BizTalk 中，包括內建配接器、 BAP、 HL7、 Swift、 RosettaNet、 FileAct，以及互動的加速器概觀
+caps.latest.revision: 3
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/09/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: df7f26a1-e47b-4323-b9f0-58842c55a6f8
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014173"
 ---
 # <a name="adapters-and-accelerators-in-biztalk-server"></a>配接器和 BizTalk Server 中的快速鍵
  [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]包含不同的配接器和為您建立應用程式接收資料，並將資料傳送至不同的服務和 LOB 系統的快速鍵。 

@@ -1,14 +1,14 @@
 ---
-title: "SWIFTNet 是什麼？ | Microsoft Docs"
-ms.custom: 
+title: SWIFTNet 是什麼？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2b074385-352c-40f4-b73e-1891c627aa4e
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225310"
 ---
 # <a name="what-is-swiftnet"></a>SWIFTNet 是什麼？
 做為一般用途，財務產業的業界標準方案 SWIFTNet 提供通用的財務社群的參與的所有機構所有連接的應用程式的應用程式無關的單一視窗介面。 實際的存取控制是商務原則決策的每個服務系統管理員，而不是由基礎結構的技術限制。  

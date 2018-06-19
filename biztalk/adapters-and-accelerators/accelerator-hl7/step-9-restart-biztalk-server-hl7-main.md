@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206286"
 ---
 # <a name="step-9-restart-biztalk-serverhl7main"></a>步驟 9： 重新啟動 BizTalk Server_hl7_main
 在此步驟中，您重新啟動[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]為了讓您在本教學課程做才會生效的變更。  

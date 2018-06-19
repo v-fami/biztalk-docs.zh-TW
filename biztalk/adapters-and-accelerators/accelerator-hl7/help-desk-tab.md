@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204854"
 ---
 # <a name="help-desk-tab"></a>說明服務人員索引標籤
 您可以使用 [技術支援] 索引標籤來輸入資料的目的地或來源合作對象。 需要技術支援 索引標籤中的合作對象資訊有幫助，如果沒有產生任何錯誤，您需要連絡合作對象。 如果訊息沒有錯誤，會通知訊息中的合作對象資訊。  

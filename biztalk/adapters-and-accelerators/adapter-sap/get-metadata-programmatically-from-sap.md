@@ -1,18 +1,18 @@
 ---
-title: "以程式設計方式取得中繼資料，從 SAP |Microsoft 文件"
-ms.custom: 
+title: 以程式設計方式取得中繼資料，從 SAP |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IMetadataRetrievalContract endpoint
 - metadata, retrieving programmatically
 - WS-Metadata Exchange (MEX) endpoint
 ms.assetid: 8d75332e-c103-4bd5-a9a2-56d21747a04e
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216830"
 ---
 # <a name="get-metadata-programmatically-from-sap"></a>從 SAP 以程式設計方式取得中繼資料
 [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]是自訂的 WCF 繫結會公開為 WCF 服務的 SAP 系統。 配接器公開 SAP 系統做自我描述的服務。也就是能夠發行中繼資料支援的作業有關的服務。 中繼資料描述至 WCF 服務; 的邏輯介面也就是服務合約、 訊息和訊息結構描述必須用來與服務互動。  

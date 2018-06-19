@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206038"
 ---
 # <a name="preparing-to-use-the-batching-tutorial"></a>準備使用批次的教學課程
 您可以使用批次處理教學課程之前，您必須執行本節中的工作。  

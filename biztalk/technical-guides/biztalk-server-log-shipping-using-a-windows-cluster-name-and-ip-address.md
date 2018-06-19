@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server 記錄傳送使用 Windows 叢集名稱和 IP 位址 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 記錄傳送使用 Windows 叢集名稱和 IP 位址 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 82ef6908-6009-4d06-8315-0bc85a0aad18
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300062"
 ---
 # <a name="biztalk-server-log-shipping-using-a-windows-cluster-name-and-ip-address"></a>BizTalk Server 記錄傳送使用 Windows 叢集名稱和 IP 位址
 可簡化[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用兩個執行個體的記錄傳送[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]叢集中，為來源和目的地伺服器中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]記錄傳送案例。 然後，萬一嚴重損壞修復事件發生資料庫復原已簡化藉由只切換的名稱和叢集相關聯的 IP 位址資源[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]執行個體，如下所述。 使用這個方式時無須執行 UpdateDatabase.vbs 指令碼，如本主題所述[如何還原資料庫中 「 備份 BizTalk Server 」 工作](../technical-guides/how-to-restore-databases-in-the-backup-biztalk-server-job.md)因為資料庫名稱不會變更。  

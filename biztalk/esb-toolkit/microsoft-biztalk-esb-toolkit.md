@@ -1,15 +1,15 @@
 ---
-title: "Microsoft BizTalk ESB 工具組 |Microsoft 文件"
-description: "簡介、 常見的案例和 ESB toolkit，BizTalk Server 中的元件"
-caps.latest.revision: "14"
+title: Microsoft BizTalk ESB 工具組 |Microsoft 文件
+description: 簡介、 常見的案例和 ESB toolkit，BizTalk Server 中的元件
+caps.latest.revision: 14
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/10/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 17ffaebc-7e33-4de8-8e94-109cd5d16ca0
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22297030"
 ---
 # <a name="microsoft-biztalk-esb-toolkit"></a>Microsoft BizTalk ESB 工具組
 ![BizTalk ESB 工具組標誌](../esb-toolkit/media/biztalkesbtoolkitlogo.gif "BizTalkESBToolkitLogo")  

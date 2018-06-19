@@ -1,18 +1,18 @@
 ---
-title: "步驟 10： 建立協調流程 |Microsoft 文件"
-ms.custom: 
+title: 步驟 10： 建立協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, creating
 - creating, orchestrations
 - message enrichment tutorial, orchestrations
 ms.assetid: 10f5cf3d-4a34-4c80-89d1-c390552cfc09
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22206566"
 ---
 # <a name="step-10-create-an-orchestration"></a>步驟 10： 建立協調流程
 在此步驟中，您可以使用 協調流程設計師建立協調流程代表商務程序來擷取完整填入 ADT_A04 訊息的其他病患詳細資料。 使用協調流程設計師 」，您會選取協調流程圖形來表示此商務程序的動作。 在更新版本的練習中，您可以提供其他資訊以設定圖形，讓它們可以正常運作。  
@@ -50,7 +51,7 @@ ms.lasthandoff: 09/20/2017
   
 10. （在右下方的螢幕） 的 [屬性] 視窗中按一下**名稱**屬性來變更名稱**轉換**圖形至**DoorbellTransform**，然後按下**輸入**。  
   
-11. 在**工具箱**窗格拖曳**訊息指派**圖形至 [設計] 檢視介面並將它放在正下方的區域上**[constructmessage_1]**圖形。  
+11. 在**工具箱**窗格拖曳**訊息指派**圖形至 [設計] 檢視介面並將它放在正下方的區域上 **[constructmessage_1]** 圖形。  
   
 12. 在 協調流程設計檢視介面中，按一下  **MessageAssignment_1**圖形，然後在**屬性** 窗格中，按一下 **名稱**，輸入新名稱**DoorbellFinalTransform**，然後按下**Enter**。  
   

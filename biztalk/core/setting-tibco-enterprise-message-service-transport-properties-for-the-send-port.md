@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-tibco-enterprise-message-service-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 24e73be3b953cbd7f597a34a06f09d364ec0f4f4
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014269"
 ---
 # <a name="set-send-port-transport-properties-for-the-send-port-for-tibco-enterprise-message-service"></a>設定 TIBCO Enterprise Message Service 的傳送埠的傳送埠傳輸屬性
 TIBCO Enterprise Message Service 傳輸屬性是在設計階段設定、在執行階段使用。 在**傳輸屬性**對話方塊中，您設定的連接和認證參數特定伺服器系統和您嘗試存取的物件。  
@@ -31,7 +32,7 @@ TIBCO Enterprise Message Service 傳輸屬性是在設計階段設定、在執�
   
     |參數|Description|  
     |---------------|-----------------|  
-    |`Destination`|必要設定。 定義目的地的名稱與類型。 例如： staticqueue [Q1]。<br /><br /> 使用下列格式定義佇列或主題: {static} {dynamic] Queue [queuename] 或 {static} {dynamic] Topic [topicname]。 **注意：**您可以傳送訊息至不存在的目的地。 在此情況下，TIBCO Enterprise Message Service 會建立目的地;這指*動態目的地*。 這是由產生者所建立的目的地，當訊息使用完畢和當產生者中斷連線時即會刪除。 A*靜態目的地*目的地只可以建立由 TIBCO Enterprise Message Service 系統管理員。 由於 BizTalk Adapter for TIBCO Enterprise Message Service 在伺服器上使用名稱對應機制，因此您無法在開啟目的地連線期間連線至動態連接埠。 當您使用名稱對應功能時，只會顯示靜態連接埠。 連線至動態連接埠時，可以使用靜態目的地；但是，如果該名稱的目的地不存在，則系統會建立一個目的地。 目的地可讓您明確指定，定義連接埠時要使用的目的地類型。 目的地語法不區分大小寫： staticqueue [queue_name]，statictopic [topic_name]，dynamicqueue [queue_name];dynamictopic [topic_name]。|  
+    |`Destination`|必要設定。 定義目的地的名稱與類型。 例如： staticqueue [Q1]。<br /><br /> 使用下列格式定義佇列或主題: {static} {dynamic] Queue [queuename] 或 {static} {dynamic] Topic [topicname]。 **注意：** 您可以傳送訊息至不存在的目的地。 在此情況下，TIBCO Enterprise Message Service 會建立目的地;這指*動態目的地*。 這是由產生者所建立的目的地，當訊息使用完畢和當產生者中斷連線時即會刪除。 A*靜態目的地*目的地只可以建立由 TIBCO Enterprise Message Service 系統管理員。 由於 BizTalk Adapter for TIBCO Enterprise Message Service 在伺服器上使用名稱對應機制，因此您無法在開啟目的地連線期間連線至動態連接埠。 當您使用名稱對應功能時，只會顯示靜態連接埠。 連線至動態連接埠時，可以使用靜態目的地；但是，如果該名稱的目的地不存在，則系統會建立一個目的地。 目的地可讓您明確指定，定義連接埠時要使用的目的地類型。 目的地語法不區分大小寫： staticqueue [queue_name]，statictopic [topic_name]，dynamicqueue [queue_name];dynamictopic [topic_name]。|  
     |`Port Number`|TIBCO EMS 伺服器所收聽的連接埠。|  
     |`Server Name`|必要設定。 裝載 TIBCO EMS 伺服器的系統名稱。|  
   

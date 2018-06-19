@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/adding-biztalk-adapter-for-jd-edwards-enterpriseone/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 71a1b75c9a602b196504fa9f06984f0ed9d52e05
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014301"
 ---
 # <a name="setting-jd-edwards-enterpriseone-transport-properties"></a>設定 JD Edwards EnterpriseOne 傳輸屬性
 JD Edwards EnterpriseOne 傳輸屬性是用於設計與執行階段。 在**傳輸屬性**對話方塊中，您設定的連接和認證參數特定伺服器系統和您嘗試存取的物件。  
@@ -28,7 +29,7 @@ JD Edwards EnterpriseOne 傳輸屬性是用於設計與執行階段。 在**傳�
   
 4.  在下**一般**，請在**傳輸類型**方塊中，選取**JDE EnterpriseOne**下拉式清單中。  
   
-5.  在**位址 (URI)**屬性中，按一下省略符號 (**...**).  
+5.  在**位址 (URI)** 屬性中，按一下省略符號 (**...**).  
   
      **JDE EnterpriseOne 傳輸屬性** 對話方塊隨即出現。  
   

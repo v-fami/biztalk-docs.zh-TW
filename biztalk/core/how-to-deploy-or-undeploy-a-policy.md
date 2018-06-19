@@ -1,11 +1,11 @@
 ---
-title: "如何部署或解除部署原則 |Microsoft 文件"
-ms.custom: 
+title: 如何部署或解除部署原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [policies], undeploying
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - policies, undeploying
 - undeploying, policies
 ms.assetid: 9d26d4fe-9673-4baa-9927-02efda56b7a4
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970100"
 ---
 # <a name="how-to-deploy-or-undeploy-a-policy"></a>如何部署或解除部署原則
 本主題描述如何使用 [BizTalk Server 管理] 主控台，以手動方式部署或解除部署原則。 此外，啟動應用程式會自動部署它所包含的原則，而停止應用程式則會自動解除部署它的原則。 部署原則會在使用它的應用程式中生效； 解除部署原則會讓它成為非使用中，所以此原則在 BizTalk 群組中使用它的任何應用程式內都不再有任何作用。  

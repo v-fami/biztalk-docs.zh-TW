@@ -1,14 +1,14 @@
 ---
-title: "網路最佳化 |Microsoft 文件"
-ms.custom: 
+title: 網路最佳化 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9ff0392f-37ae-4ca6-8cc6-d53065de64c5
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298758"
 ---
 # <a name="network-optimizations"></a>網路最佳化
 在 BizTalk Server 環境中的 BizTalk Server 電腦所在的 SQL Server 電腦不同，BizTalk Server 處理的每個訊息不需要透過網路通訊。 此通訊包括相當大的 BizTalk Server 電腦和 BizTalk Messagebox 資料庫、 BizTalk 管理資料庫、 BAM 資料庫中，與其他資料庫之間的流量。 在高負載情況下，這類通訊會造成相當大的網路流量而成為瓶頸，特別是當未最佳化的網路設定、 安裝沒有足夠的網路介面卡，或沒有足夠的網路頻寬可以使用。  
@@ -57,7 +58,7 @@ ms.lasthandoff: 09/20/2017
   
 5.  之後關閉虛擬機器，以滑鼠右鍵按一下虛擬機器，然後**設定**變更虛擬機器的設定。  
   
-6.  在**< machine_name > 設定**對話方塊的 **新增硬體**，按一下以選取**網路介面卡**，然後按一下 **新增**.  
+6.  在 **< machine_name > 設定**對話方塊的 **新增硬體**，按一下以選取**網路介面卡**，然後按一下 **新增**.  
   
 7.  在**網路介面卡**組態頁面上，在**網路：**，選取您稍早建立的私人虛擬網路，然後按一下**確定**。 您現在已經私人虛擬網路可供仍可在下一次啟動虛擬機器的 HYPER-V 虛擬機器。  
   

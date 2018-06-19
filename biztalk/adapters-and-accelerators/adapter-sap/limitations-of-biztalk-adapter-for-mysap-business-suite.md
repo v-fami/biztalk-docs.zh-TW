@@ -1,17 +1,17 @@
 ---
-title: "限制 BizTalk adapter for mySAP Business Suite |Microsoft 文件"
-ms.custom: 
+title: 限制 BizTalk adapter for mySAP Business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - adapters, limitations of
 - IDOC, sending an IDOC to an SAP system
 ms.assetid: 1ca1e0cf-7ae7-4a8b-8363-e5f3746e8e26
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217078"
 ---
 # <a name="limitations-of-biztalk-adapter-for-mysap-business-suite"></a>BizTalk adapter for mySAP Business Suite 的限制
 

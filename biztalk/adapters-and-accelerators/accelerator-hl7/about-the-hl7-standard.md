@@ -1,18 +1,18 @@
 ---
-title: "關於 HL7 標準 |Microsoft 文件"
-ms.custom: 
+title: 關於 HL7 標準 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - standards [HL7]
 - HL7, standards
 - Health Level Seven (HL7)
 ms.assetid: 15f26ae3-d1ad-40a4-aafe-7148ef30cadb
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204838"
 ---
 # <a name="about-the-hl7-standard"></a>關於 HL7 標準
 健全狀況層級七 (HL7) 標準的目的是協助醫療保健環境中的通訊。 主要目標是提供醫療保健電腦刪除或大幅降低可能需要的自訂介面程式設計和程式維護的應用程式之間的資料交換標準。 您可以為目標的一組描述這個主要目標：  

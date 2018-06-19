@@ -1,15 +1,15 @@
 ---
-title: "Oracle 資料庫配接器範例 |Microsoft 文件"
-description: "可以使用 BizTalk Server、 WCF 服務模型時，與 WCF 通道模型的 oracle DB WCF 配接器範例"
-ms.custom: 
+title: Oracle 資料庫配接器範例 |Microsoft 文件
+description: 可以使用 BizTalk Server、 WCF 服務模型時，與 WCF 通道模型的 oracle DB WCF 配接器範例
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 744f19ce-3126-4745-92dd-4f68443180fc
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013925"
 ---
 # <a name="samples-for-the-oracle-database-adapter"></a>適用於 Oracle 資料庫配接器範例
 範例如[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]分類成：  

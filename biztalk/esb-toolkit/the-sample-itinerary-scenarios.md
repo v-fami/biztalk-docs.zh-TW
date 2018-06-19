@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22297182"
 ---
 # <a name="the-sample-itinerary-scenarios"></a>路線案例的範例
 下表列出路線上手範例包含所有預先定義的行程檔案。 這些位於 \Source\Samples\Itinerary\Itineraries 資料夾中。  

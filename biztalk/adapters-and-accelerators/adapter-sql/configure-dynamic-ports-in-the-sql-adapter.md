@@ -1,14 +1,14 @@
 ---
-title: "SQL 配接器中設定動態連接埠 |Microsoft 文件"
-ms.custom: 
+title: SQL 配接器中設定動態連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c98b66ed-0bf7-4b24-9d16-9792d033b818
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22222190"
 ---
 # <a name="configure-dynamic-ports-in-the-sql-adapter"></a>SQL 配接器中設定動態連接埠
 在[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，您可以設定動態連接埠[!INCLUDE[wcfadapter_short](../../includes/wcfadapter-short-md.md)]。 因為[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]是 WCF 架構的配接器，您可以動態設定的連接埠[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]使用訊息內容屬性。  

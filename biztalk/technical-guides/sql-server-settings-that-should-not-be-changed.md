@@ -1,15 +1,15 @@
 ---
-title: "不是要變更 SQL Server 設定 |Microsoft 文件"
-description: "Max Degree of Parallelism，自動建立統計資料自動更新統計資料，以及重建索引，在 BizTalk Server"
-ms.custom: 
+title: 不是要變更 SQL Server 設定 |Microsoft 文件
+description: Max Degree of Parallelism，自動建立統計資料自動更新統計資料，以及重建索引，在 BizTalk Server
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4b383bfb-c3d9-47d4-b294-f6be94302734
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24015365"
 ---
 # <a name="sql-server-settings-that-should-not-be-changed"></a>不應該變更的 SQL Server 設定
 設定時[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]操作整備程序期間[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，您應該對下列設定進行變更。  

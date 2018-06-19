@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/using-tibco-rendezvous-send-ports-from-biztalk-server/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: d4a4f4fce200089db0e29d09b3ea49af00f3792f
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014493"
 ---
 # <a name="using-biztalk-server-from-tibco-rendezvous-to-send-messages"></a>從 TIBCO Rendezvous 使用 BizTalk Server 傳送訊息
 Microsoft BizTalk Adapter for TIBCO Rendezvous 使用非同步 API (Transport.Send)。 您可以使用訊息內容屬性指定配接器傳送的訊息種類：  

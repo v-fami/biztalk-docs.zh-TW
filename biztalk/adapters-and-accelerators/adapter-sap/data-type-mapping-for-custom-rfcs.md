@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217414"
 ---
 # <a name="data-type-mapping-for-custom-rfcs"></a>自訂 Rfc 的資料類型對應
 下表提供有關 SAP 資料類型和其如何對應至.NET 資料型別 Z_EXTRACT_DATA_OO RFC 的資訊。 使用這個自訂 RFC [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]。  

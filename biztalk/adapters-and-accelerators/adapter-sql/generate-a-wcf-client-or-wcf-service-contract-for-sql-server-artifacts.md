@@ -1,14 +1,14 @@
 ---
-title: "SQL Server 成品產生 WCF 用戶端或 WCF 服務合約 |Microsoft 文件"
-ms.custom: 
+title: SQL Server 成品產生 WCF 用戶端或 WCF 服務合約 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5fa7d8c0-8ee4-41e7-9394-d22e87e09391
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22225254"
 ---
 # <a name="generate-a-wcf-client-or-wcf-service-contract-for-sql-server-artifacts"></a>SQL Server 成品產生 WCF 用戶端或 WCF 服務合約
 您可以使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]產生 WCF 用戶端類別針對選取的作業，於 SQL Server 成品上指明。 您也可以使用 ServiceModel Metadata Utility Tool (svcutil.exe) 來產生 WCF 用戶端類別。不過，[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]公開 ServiceModel Metadata Utility Tool，透過標準的 Microsoft Windows 介面的功能。 它也提供不是使用 svcutil.exe 工具，可用的瀏覽和搜尋功能，並產生根據您連接到 SQL Server 資料庫時，您選取的繫結屬性的組態檔。  
@@ -26,7 +27,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]方案總管 中，以滑鼠右鍵按一下您的專案，然後**新增配接器服務參考**。  
   
-2.  之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[取得中繼資料使用 SQL 配接器的 Visual Studio 中的 SQL Server 作業](../../adapters-and-accelerators/adapter-sql/get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter.md)連線到 SQL Server，並瀏覽和搜尋作業。 若要建立的作業，您選取的 WCF 用戶端類別，務必**用戶端 （輸出作業）**選取從**選取合約型別**下拉式清單。 （這是預設值）。  
+2.  之後**新增配接器服務參考**對話方塊隨即開啟，請依照下列中的步驟[取得中繼資料使用 SQL 配接器的 Visual Studio 中的 SQL Server 作業](../../adapters-and-accelerators/adapter-sql/get-metadata-for-sql-server-operations-in-visual-studio-using-the-sql-adapter.md)連線到 SQL Server，並瀏覽和搜尋作業。 若要建立的作業，您選取的 WCF 用戶端類別，務必**用戶端 （輸出作業）** 選取從**選取合約型別**下拉式清單。 （這是預設值）。  
   
 3.  在您選取的所有作業，您要為目標，請按一下之後**確定**產生 WCF 用戶端類別。  
   
@@ -53,7 +54,7 @@ ms.lasthandoff: 09/20/2017
     > [!IMPORTANT]
     >  如果您要產生 WCF 服務合約**TypedPolling**輸入的作業，您必須指定**InboundID**連線 URI 的一部分和**PollingStatement**繫結屬性。  
   
-3.  您已經連接到 SQL Server 資料庫之後，請選取**服務 （輸入操作）**從**選取合約型別**下拉式清單。  
+3.  您已經連接到 SQL Server 資料庫之後，請選取**服務 （輸入操作）** 從**選取合約型別**下拉式清單。  
   
 4.  在**選取類別目錄**方塊中，按一下根節點 (**/**)，選取的輸入的作業**可用的類別和作業** 方塊中，然後按一下**新增**。  
   

@@ -19,6 +19,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25967940"
 ---
 # <a name="invoke-trfcs-in-sap-using-biztalk-server"></a>叫用中使用 BizTalk Server 的 SAP tRFCs
 交易式遠端函式呼叫 (tRFCs) 保證只有一個時間執行的 SAP 系統上的 RFC。 您可以叫用任何由顯示 Rfc [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] tRFC 為。 叫用 tRFC 是類似於 RFC 叫用 (請參閱[叫用的 Rfc，SAP 使用 BizTalk server 中](../../adapters-and-accelerators/adapter-sap/invoke-rfcs-in-sap-using-biztalk-server.md)) 具有下列差異：  
@@ -114,7 +115,7 @@ ms.lasthandoff: 11/28/2017
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveXml|Receive|-設定**名稱**至*ReceiveXml*<br />-設定**啟動**至*，則為 True*|  
+|ReceiveXml|Receive|-設定**名稱**至*ReceiveXml*<br />-設定**啟動**至 *，則為 True*|  
 |SendToLOB|Send|-設定**名稱**至*SendToLOB*|  
 |ReceiveResponse|Receive|-設定**名稱**至*ReceiveResponse*<br />-設定**啟動**至*False*|  
 |SendResponse|Send|-設定**名稱**至*SendResponse*|  

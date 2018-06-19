@@ -1,11 +1,11 @@
 ---
-title: "HL7 2.X 子資料夾和事件 |Microsoft 文件"
-ms.custom: 
+title: HL7 2.X 子資料夾和事件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - HL7, default sub-folders
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - HL7, events
 - HL7, 2.X versions
 ms.assetid: 30c5db16-ed9f-427a-84fd-58822c57308f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22204606"
 ---
 # <a name="hl7-2x-subfolders-and-events"></a>HL7 2.X 子資料夾和事件
 下列各小節列出 HL7 的每個版本的安裝精靈所建立的子資料夾 2.X，以及每個子資料夾內的事件。  

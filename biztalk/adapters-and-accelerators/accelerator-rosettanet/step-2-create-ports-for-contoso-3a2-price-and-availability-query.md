@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22210142"
 ---
 # <a name="step-2-creating-ports-for-the-contoso-3a2-price-and-availability-queryresponse-scenario"></a>步驟 2： 為 Contoso 3A2 價格與可用性查詢/回應實例建立連接埠
 在此步驟中，您可以建立使用由 BizTalk Server 所提供的 SQL 配接器的傳送埠。 您可以使用 SQL 連接埠傳送並接收往返於 Contoso ERP 系統的「3A2 價格與可用性」回應。  

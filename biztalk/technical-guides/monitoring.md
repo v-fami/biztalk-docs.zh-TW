@@ -1,14 +1,14 @@
 ---
-title: "監視 |Microsoft 文件"
-ms.custom: 
+title: 監視 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7effa38f-f9f2-40b7-8d8b-fa13cf94aa4f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298902"
 ---
 # <a name="monitoring"></a>監視
 根據預設，所有的 BizTalk Server 監控和工作使用的預設動作帳戶沒有任何特定執行身分帳戶定義的執行身分設定檔的 BizTalk Server 監視帳戶中的目標時。 若要設定執行身分帳戶與權限所需的監控 BizTalk Server 的最小集合，則需要下列的權限：  

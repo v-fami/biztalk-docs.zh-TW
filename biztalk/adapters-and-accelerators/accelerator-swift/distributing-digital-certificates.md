@@ -1,17 +1,17 @@
 ---
-title: "散發數位憑證 |Microsoft 文件"
-ms.custom: 
+title: 散發數位憑證 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - digital signatures
 - security, digital signatures
 ms.assetid: 3e93a405-3c9b-43f5-bbdf-bec25d43eb45
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209414"
 ---
 # <a name="distributing-digital-certificates"></a>散發的數位簽章
 用於數位簽章的數位簽章通常發行和發佈至使用者工作站憑證授權單位 (Ca)，可能是外部的商業實體，例如 VeriSign 或裝載於組織的內部 Ca。 使用數位簽章的類型 （加密演算法和加密強度） 可能與組織的不同。 [!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]數位簽署表單使用所組成的私密金鑰，且具有數位簽章和/或金鑰使用方法屬性的加密值的任何憑證格式。 此外，憑證的用途應該被設定為用戶端驗證。  

@@ -1,14 +1,14 @@
 ---
-title: "安裝、 設定或升級 Microsoft BizTalk Accelerator for RosettaNet (BTARN) |Microsoft 文件"
-description: "概觀安裝、 設定、 升級、 解除安裝，及 RosettaNet 加速器，BizTalk Server 中的疑難排解"
-caps.latest.revision: "2"
+title: 安裝、 設定或升級 Microsoft BizTalk Accelerator for RosettaNet (BTARN) |Microsoft 文件
+description: 概觀安裝、 設定、 升級、 解除安裝，及 RosettaNet 加速器，BizTalk Server 中的疑難排解
+caps.latest.revision: 2
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c984fbad-43a6-459d-9583-d0acf77e0ef8
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22209774"
 ---
 # <a name="install-or-upgrade-microsoft-biztalk-accelerator-for-rosettanet"></a>安裝或升級 Microsoft BizTalk Accelerator for RosettaNet
 

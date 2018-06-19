@@ -1,18 +1,18 @@
 ---
-title: "使用 Visual Studio 的 SAP 資料匯入 |Microsoft 文件"
-ms.custom: 
+title: 使用 Visual Studio 的 SAP 資料匯入 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - importing SAP data, how to
 - importing SAP data, using Visual Studio
 - Visual Studio, importing SAP data
 ms.assetid: 70cce089-232d-4ab9-81bd-6b0d6f0097d7
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217750"
 ---
 # <a name="import-sap-data-using-visual-studio"></a>使用 Visual Studio 的 SAP 資料匯入
 本節提供有關如何使用 Microsoft 的資訊[!INCLUDE[btsVStudioNoVersion](../../includes/btsvstudionoversion-md.md)]SAP 系統的資料匯入至 SQL Server 資料庫。 本節提供有關如何建立 SSIS 封裝，您可以執行匯入資料的指示。 本章節也會提供有關如何執行 SSIS 封裝的資訊。  
@@ -40,7 +41,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  閱讀歡迎 畫面中，然後按一下上的資訊**下一步**。  
   
-4.  在**選擇資料來源**對話方塊中，從**資料來源**下拉式選單**.NET Framework Data Provider for mySAP Business Suite**。 對話方塊會列出不同的連線參數，以連接至 SAP 系統。 一般連接字串來連接 SAP 系統使用[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]需要：  
+4.  在**選擇資料來源**對話方塊中，從**資料來源**下拉式選單 **.NET Framework Data Provider for mySAP Business Suite**。 對話方塊會列出不同的連線參數，以連接至 SAP 系統。 一般連接字串來連接 SAP 系統使用[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]需要：  
   
     -   輸入連接的連接參數。 [!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]支援連線類型 A、 B 和 d。若要連接到 SAP 系統必須提供連接參數的任何*一個*一種連線類型。 比方說，連接類型的您必須提供應用程式伺服器主機和系統編號的名稱。  
   

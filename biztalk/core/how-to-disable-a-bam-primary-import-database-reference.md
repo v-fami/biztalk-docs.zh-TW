@@ -1,14 +1,14 @@
 ---
-title: "如何停用 BAM 主要匯入資料庫參考 |Microsoft 文件"
-ms.custom: 
+title: 如何停用 BAM 主要匯入資料庫參考 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 78d2d644-6ebb-4051-ae59-af7d0fb75753
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968892"
 ---
 # <a name="how-to-disable-a-bam-primary-import-database-reference"></a>如何停用 BAM 主要匯入資料庫參考
 系統管理員使用**停用參考**命令以停用指定的 BAM 主要匯入資料庫的參考。  

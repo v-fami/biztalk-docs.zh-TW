@@ -1,18 +1,18 @@
 ---
-title: "從 SAP 使用 BizTalk Server 接收 Idoc |Microsoft 文件"
-ms.custom: 
+title: 從 SAP 使用 BizTalk Server 接收 Idoc |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IDOCs, sample (receiving)
 - IDOCs, business scenarios for receiving
 - IDOCs, receiving from SAP using BizTalk Server
 ms.assetid: b904bf07-1108-4ed3-8564-d83eaafff247
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25968060"
 ---
 # <a name="receive-idocs-from-sap-using-biztalk-server"></a>從 SAP 使用 BizTalk Server 接收 Idoc
 接收 IDOC 包括[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]做為要從 SAP 接收特殊的 RFC 呼叫的 RFC 伺服器。 SAP 配接器可以接收 Idoc 做為 RFC 伺服器或 tRFC 伺服器。 如需使用行為就像是 tRFC 伺服器配接器接收 IDOC 的詳細資訊，請參閱[從交易內容所使用的 BizTalk Server 中的 SAP 接收的 Idoc](../../adapters-and-accelerators/adapter-sap/receive-idocs-from-sap-in-a-transactional-context-using-biztalk-server.md)。  
@@ -81,7 +82,7 @@ ms.lasthandoff: 11/28/2017
 -   *FlatFileSegmentIndicator* – 指出如果 IDOC 結構描述\<appinfo\>區段定義名稱或區段型別名稱，應包含標記。 這是適用於使用希望傳送/接收一般檔案 IDOC 至/從 SAP。 如果*GenerateFlatFileCompatibleIDoc*設定為 false，則*FlatFileSegmentIndicator*繫結屬性會被忽略。  
   
 > [!IMPORTANT]
->  因為您正在產生發話 IDOC 的結構描述，請確定您選取**服務 （輸入作業）**從**選取合約型別**下拉式清單中的[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]。  
+>  因為您正在產生發話 IDOC 的結構描述，請確定您選取**服務 （輸入作業）** 從**選取合約型別**下拉式清單中的[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]。  
   
 ## <a name="defining-messages-and-message-types"></a>定義訊息和訊息類型  
  您先前產生的結構描述會描述 「 類型 」 所需的協調流程中的訊息。 訊息通常是為其型別由對應的結構描述所定義的變數。 您必須連結產生的結構描述您在第一個步驟中的訊息從 BizTalk 專案的協調流程檢視。  
@@ -137,7 +138,7 @@ ms.lasthandoff: 11/28/2017
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ListenToSAP|Receive|-設定**名稱**至*ListenToSAP*<br /><br /> -設定**啟動**至*，則為 True*|  
+|ListenToSAP|Receive|-設定**名稱**至*ListenToSAP*<br /><br /> -設定**啟動**至 *，則為 True*|  
 |SaveIDOC|Send|-設定**名稱**至*SaveIDOC*|  
 |SendResponse|Send|-設定**名稱**至*SendResponse*|  
   

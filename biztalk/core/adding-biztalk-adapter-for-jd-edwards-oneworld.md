@@ -1,15 +1,15 @@
 ---
-title: "新增 BizTalk Adapter for JD Edwards OneWorld |Microsoft 文件"
-description: "將 JD Edwards OneWorld 新增至 BizTalk 管理、 建立傳送埠、 設定傳輸屬性中，和 BizTalk Server 中使用 JD Edwards OneWorld 配接器時，使用 xmlreceive 和 XMLTransmit 管線"
-ms.custom: 
+title: 新增 BizTalk Adapter for JD Edwards OneWorld |Microsoft 文件
+description: 將 JD Edwards OneWorld 新增至 BizTalk 管理、 建立傳送埠、 設定傳輸屬性中，和 BizTalk Server 中使用 JD Edwards OneWorld 配接器時，使用 xmlreceive 和 XMLTransmit 管線
+ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 03126f4e-9156-4c0c-ab5c-0627f0c05263
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014253"
 ---
 # <a name="configure-jd-edwards-enterpriseone-artifacts-in-biztalk-administration"></a>在 BizTalk 管理中設定 JD Edwards EnterpriseOne 成品
 Microsoft BizTalk Adapter for JD Edwards OneWorld 包含 [接收處理常式] 和 [傳送處理常式] 資料夾。 [傳送處理常式] 資料夾包含 BizTalkServerApplication。 BizTalk Adapter for JD Edwards OneWorld 是可建立的；它會在與 BizTalk Server 相同的程序中執行，而且不會在外掛式主控件程序中執行。  
@@ -30,14 +31,14 @@ Microsoft BizTalk Adapter for JD Edwards OneWorld 包含 [接收處理常式] �
   
 3.  輸入配接器的名稱。 例如，輸入`JDEOneWorld`。  
   
-4.  選取**[jdeoneworld]**從**配接器**清單，並選取**確定**。  
+4.  選取 **[jdeoneworld]** 從**配接器**清單，並選取**確定**。  
 
   
 ### <a name="check-if-the-adapter-is-working"></a>檢查配接器是否正常運作 
  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，您可以確認配接器會正確運作，藉由查看**邏輯系統**視窗。 在初次安裝時，因為您尚未建立與伺服器系統的連線，也尚未建立任何邏輯系統，所以這個視窗會是空的。  
   
  
-1.  在**BizTalk Server 管理**，依序展開**平台設定**，依序展開**配接器**，然後選取**[jdeoneworld]**。  
+1.  在**BizTalk Server 管理**，依序展開**平台設定**，依序展開**配接器**，然後選取 **[jdeoneworld]**。  
   
 2.  在詳細資料窗格中，以滑鼠右鍵按一下**BizTalkServerApplication**，然後選取**屬性**。  
   
@@ -62,7 +63,7 @@ Microsoft BizTalk Adapter for JD Edwards OneWorld 包含 [接收處理常式] �
   
 3.  在**傳送埠屬性**，選取**名稱**欄位，並輸入傳送埠名稱。 例如，輸入**SendToJDE**。  
   
-4.  在**類型**下拉式清單中，選取**[jdeoneworld]**。  
+4.  在**類型**下拉式清單中，選取 **[jdeoneworld]**。  
   
 5.  在**URI**下拉式清單中，選取傳送處理常式。  
   

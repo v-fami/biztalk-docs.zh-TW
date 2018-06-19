@@ -1,14 +1,14 @@
 ---
-title: "使用 Oracle E-business Suite 配接器與 SharePoint |Microsoft 文件"
-ms.custom: 
+title: 使用 Oracle E-business Suite 配接器與 SharePoint |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d431f8a6-9812-4783-b9f4-34ceb73cf8ba
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22215302"
 ---
 # <a name="use-the-oracle-e-business-suite-adapter-with-sharepoint"></a>搭配 SharePoint 使用 Oracle E-business Suite 介面卡
 大部分的特定業務 (LOB) 應用程式擁有相對較少的必要的主旨專業人士存取的專屬介面。 不過，資訊工作者需要的相關資訊所有層級的組織中，因為相關主題專家有必要的資料匯出至更熟悉的應用程式，類似 Microsoft Excel，資訊工作者使用該資訊。  

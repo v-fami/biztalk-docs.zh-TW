@@ -1,18 +1,18 @@
 ---
-title: "如何建立傳送埠群組 |Microsoft 文件"
-ms.custom: 
+title: 如何建立傳送埠群組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, send port groups
 - send port groups, creating
 - managing [send port groups], creating
 ms.assetid: de3e72aa-83f4-4760-9f39-a488f904f1d3
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970364"
 ---
 # <a name="how-to-create-a-send-port-group"></a>如何建立傳送埠群組
 本主題描述如何使用 BizTalk Server 管理主控台，在 BizTalk 應用程式中建立傳送埠群組，然後在其中新增傳送埠。 您只能將靜態單向傳送埠新增到傳送埠群組。 傳送埠群組必須包含至少一個傳送埠，才能路由訊息。  

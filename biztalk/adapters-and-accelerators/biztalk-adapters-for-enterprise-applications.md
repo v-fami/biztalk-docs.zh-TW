@@ -1,15 +1,15 @@
 ---
-title: "企業應用程式配接器 |Microsoft 文件"
-description: "Microsoft BizTalk Adapters for Enterprise Applications 包括 JD Edwards EnterpriseOne，JD Edwards OneWorld，PeopleSoft Enterprise、 TIBCO Enterprise Message Service 和 TIBCO Rendezvous 使用 BizTalk Server 中"
-ms.custom: 
+title: 企業應用程式配接器 |Microsoft 文件
+description: Microsoft BizTalk Adapters for Enterprise Applications 包括 JD Edwards EnterpriseOne，JD Edwards OneWorld，PeopleSoft Enterprise、 TIBCO Enterprise Message Service 和 TIBCO Rendezvous 使用 BizTalk Server 中
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c1960a5a-d627-42ce-8898-5df444846fea
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24016133"
 ---
 # <a name="enterprise-applications-adapters-in-biztalk-server"></a>在 BizTalk Server 的企業應用程式配接器
 

@@ -1,14 +1,14 @@
 ---
-title: "調查瓶頸 |Microsoft 文件"
-ms.custom: 
+title: 調查瓶頸 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2ab8e485-ffe5-4f71-9ce2-f72c0c939e5d
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298838"
 ---
 # <a name="investigating-bottlenecks"></a>調查瓶頸
 本主題說明建議的程序來調查瓶頸。  
@@ -36,15 +37,15 @@ ms.lasthandoff: 09/20/2017
 ## <a name="testing-consistency"></a>測試一致性  
  測量效能特性，變更設定之後應該要驗證變更的效果。  
   
--   **硬體-**使用一致的硬體，因為變更硬體會造成不一致的行為，並且會產生誤導的結果。 例如，您會使用膝上型電腦測試 BizTalk 解決方案的效能。  
+-   **硬體-** 使用一致的硬體，因為變更硬體會造成不一致的行為，並且會產生誤導的結果。 例如，您會使用膝上型電腦測試 BizTalk 解決方案的效能。  
   
--   **測試回合持續時間-**測量固定的最小週期，以確保結果會持續的效能。 執行較長時間測試也可確保系統經歷初始暖機/逐漸增加的所有快取會填入、 資料庫資料表已達到預期的計數，而節流有足夠的時間，可管制輸送量，一次指定預先定義的期間臨界值會叫用。 這種方法有助於探索最佳、持續性輸送量。  
+-   **測試回合持續時間-** 測量固定的最小週期，以確保結果會持續的效能。 執行較長時間測試也可確保系統經歷初始暖機/逐漸增加的所有快取會填入、 資料庫資料表已達到預期的計數，而節流有足夠的時間，可管制輸送量，一次指定預先定義的期間臨界值會叫用。 這種方法有助於探索最佳、持續性輸送量。  
   
--   **測試參數 –**不會改變從測試執行的測試參數。 例如，變更對應的複雜性和 (或) 文件大小，可能會產生不同的輸送量和延遲結果。  
+-   **測試參數 –** 不會改變從測試執行的測試參數。 例如，變更對應的複雜性和 (或) 文件大小，可能會產生不同的輸送量和延遲結果。  
   
--   **清除狀態-**完成測試之後，請確定測試環境的狀態是初始狀態，再執行下一個測試。 例如，歷程記錄資料可以建置執行階段輸送量會影響資料庫中。 回收服務執行個體有助於釋快取的資源，例如記憶體、 資料庫連接和執行緒。 在測試環境中，您可能想要建立和執行 bts_CleanupMsgbox 預存程序中所述[如何從測試環境中的 MessageBox 資料庫手動清除資料](http://go.microsoft.com/fwlink/?LinkId=158064)(http://go.microsoft.com/fwlink/?LinkId=158064)。 此指令碼是回到您 BizTalk Server 的測試環境與訊息方塊的全新狀態之間執行。 指令碼刪除所有的執行個體，包括狀態、 訊息和訂用帳戶，這些執行個體的所有資訊，但會保留所有啟用訂用帳戶，因此您不需要重新登錄您的協調流程或傳送埠。 請注意，此工具不支援在生產系統上。  
+-   **清除狀態-** 完成測試之後，請確定測試環境的狀態是初始狀態，再執行下一個測試。 例如，歷程記錄資料可以建置執行階段輸送量會影響資料庫中。 回收服務執行個體有助於釋快取的資源，例如記憶體、 資料庫連接和執行緒。 在測試環境中，您可能想要建立和執行 bts_CleanupMsgbox 預存程序中所述[如何從測試環境中的 MessageBox 資料庫手動清除資料](http://go.microsoft.com/fwlink/?LinkId=158064)(http://go.microsoft.com/fwlink/?LinkId=158064)。 此指令碼是回到您 BizTalk Server 的測試環境與訊息方塊的全新狀態之間執行。 指令碼刪除所有的執行個體，包括狀態、 訊息和訂用帳戶，這些執行個體的所有資訊，但會保留所有啟用訂用帳戶，因此您不需要重新登錄您的協調流程或傳送埠。 請注意，此工具不支援在生產系統上。  
   
--   **效能測試和調整-**這個測試類別的目標是將您的應用程式的效能和輸送量最大化，並尋找最大持續輸送量 (MST) 的系統。  如需規劃和測量最大持續性效能的詳細資訊請參閱[規劃維持效能](http://go.microsoft.com/fwlink/?LinkId=158065)(http://go.microsoft.com/fwlink/?LinkId=158065) 和[何謂持續性效能？](http://go.microsoft.com/fwlink/?LinkId=132304) (http://go.microsoft.com/fwlink/?LinkId=132304)。  
+-   **效能測試和調整-** 這個測試類別的目標是將您的應用程式的效能和輸送量最大化，並尋找最大持續輸送量 (MST) 的系統。  如需規劃和測量最大持續性效能的詳細資訊請參閱[規劃維持效能](http://go.microsoft.com/fwlink/?LinkId=158065)(http://go.microsoft.com/fwlink/?LinkId=158065) 和[何謂持續性效能？](http://go.microsoft.com/fwlink/?LinkId=132304) (http://go.microsoft.com/fwlink/?LinkId=132304)。  
   
      MST 是在生產環境中的系統可無限處理的訊息流量的最高負載。 所有的 BizTalk 應用程式應該實際執行前先測試效能和輸送量。 最少，您應該執行一組代表性代表最常見的使用方式案例的測試案例。 我們建議您對預期負載進行測試，並在個別的環境符合實際執行環境的特性的尖峰負載。 此環境中應該有所有的公司標準服務安裝和執行，例如監視的代理程式和防毒軟體。  
   

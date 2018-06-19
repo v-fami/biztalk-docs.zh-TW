@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216606"
 ---
 # <a name="special-operations"></a>特殊作業
 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]呈現數個特殊的作業。 這些作業不根據 SAP 系統成品。 它們會顯示為配接器用戶端應用程式提供功能。 是特殊作業：  

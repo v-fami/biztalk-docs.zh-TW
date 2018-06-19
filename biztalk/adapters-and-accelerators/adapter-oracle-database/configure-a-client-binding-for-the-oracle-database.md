@@ -1,18 +1,18 @@
 ---
-title: "設定 Oracle 資料庫繫結的用戶端 |Microsoft 文件"
-ms.custom: 
+title: 設定 Oracle 資料庫繫結的用戶端 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - client binding, specifying in code
 - WCF client, creating
 - client binding, specifying in configuration file
 ms.assetid: f18c7296-c28a-4dec-9514-5299c8c2dffe
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22214606"
 ---
 # <a name="configure-a-client-binding-for-the-oracle-database"></a>設定用戶端的 Oracle 資料庫繫結
 產生 WCF 用戶端類別後，您可以建立 WCF 用戶端 （執行個體），並叫用其方法來取用[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]。 如需有關如何產生 WCF 用戶端類別和協助程式程式碼的作業資訊的[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]公開，請參閱[產生 WCF 用戶端或 WCF 服務合約的 Oracle 資料庫方案成品](../../adapters-and-accelerators/adapter-oracle-database/create-a-wcf-client-or-wcf-service-contract-for-oracle-db-solution-artifacts.md)。  
