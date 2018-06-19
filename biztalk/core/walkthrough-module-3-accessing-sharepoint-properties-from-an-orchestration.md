@@ -1,11 +1,11 @@
 ---
-title: "逐步解說： 模組 3-從協調流程存取 SharePoint 屬性 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 模組 3-從協調流程存取 SharePoint 屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, Windows SharePoint Services adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Windows SharePoint Services adapters, orchestrations
 - Windows SharePoint Services adapter tutorials, accessing SharePoint properties
 ms.assetid: 310c4002-3416-44c6-b409-1d5467063e28
-caps.latest.revision: "45"
+caps.latest.revision: 45
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010959"
 ---
 # <a name="walkthrough-module-3---accessing-sharepoint-properties-from-an-orchestration"></a>逐步解說： 模組 3-從協調流程存取 SharePoint 屬性
 這個逐步解說是工作的接續[逐步解說： 模組 2-整合 Office 與 Windows SharePoint Services 配接器](../core/walkthrough-module-2--integrate-office-with-the-sharepoint-adapter-in-biztalk.md)，並示範如何存取內送訊息在 Windows SharePoint Services 內容屬性執行階段，然後決定該使用動態連接埠的協調流程中的屬性為基礎的訊息的目的地。 如需 Windows SharePoint Services 配接器的簡介，請參閱[什麼是 Windows SharePoint Services 配接器？](../core/what-is-the-windows-sharepoint-services-adapter.md)。  

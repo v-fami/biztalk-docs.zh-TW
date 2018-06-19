@@ -1,14 +1,14 @@
 ---
-title: "詳細資料中的處理指示 |Microsoft 文件"
-ms.custom: 
+title: 詳細資料中的處理指示 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ed5d92fb-d53b-49a2-b2c7-8558708d6554
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008935"
 ---
 # <a name="processing-instructions-in-detail"></a>詳細資料中的處理指示
 本主題描述的格式和系統 Properties.xsd 屬性結構描述、 定義路線處理所需的數個內容屬性的結構。 收到訊息並處理透過 BizTalk Server 管線; 時，這些屬性會升級因為它們是升級的屬性，都能夠存取 BizTalk Server 元件。 系統 Properties.xsd 屬性結構描述中定義下列屬性：  

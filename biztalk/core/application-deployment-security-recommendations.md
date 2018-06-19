@@ -1,11 +1,11 @@
 ---
-title: "應用程式部署的安全性建議 |Microsoft 文件"
-ms.custom: 
+title: 應用程式部署的安全性建議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, applications
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - applications, best practices
 - applications, security
 ms.assetid: 77902140-8b4c-437c-af4c-10a12b3bc950
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231950"
 ---
 # <a name="application-deployment-security-recommendations"></a>應用程式部署的安全性建議
 以下是將 BizTalk 應用程式部署在環境中的指導方針：  

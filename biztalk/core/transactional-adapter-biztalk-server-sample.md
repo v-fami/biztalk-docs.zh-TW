@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 31a13377-cc89-4763-ad1b-508a16fc9708
-caps.latest.revision: ''
+caps.latest.revision: 36
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26009887"
 ---
 # <a name="transactional-adapter-biztalk-server-sample"></a>交易式配接器 （BizTalk Server 範例）
 交易式配接器範例示範如何建立和使用在處理期間針對資料庫明確 Microsoft 分散式交易協調器 (MSDTC) 交易[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]訊息。  
@@ -127,7 +128,7 @@ ms.lasthandoff: 03/28/2018
   
 #### <a name="create-a-receive-port-and-location-that-uses-the-adapter"></a>建立使用配接器的接收埠和接收位置  
   
-1.  展開**BizTalk 群組 [伺服器名稱]**節點[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，依序展開**應用程式**] 節點，展開 [ **BizTalk Application 1**節點。  
+1.  展開**BizTalk 群組 [伺服器名稱]** 節點[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，依序展開**應用程式**] 節點，展開 [ **BizTalk Application 1**節點。  
   
 2.  以滑鼠右鍵按一下 **接收埠**, ，然後按一下  **新增**, ，請選取 **單向接收埠。**  
   
@@ -153,7 +154,7 @@ ms.lasthandoff: 03/28/2018
     |輪詢間隔單位|資料輪詢的時間量值單位數。 設定為秒數。|  
     |輪詢間隔|資料輪詢的時間量值單位。 設定為 15 秒。|  
   
-10. 按一下**[確定]**關閉 [設定] 對話方塊中，然後**確定**] 以關閉 [**接收位置屬性**對話方塊，即可返回[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]。  
+10. 按一下 **[確定]** 關閉 [設定] 對話方塊中，然後**確定**] 以關閉 [**接收位置屬性**對話方塊，即可返回[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]。  
   
 #### <a name="create-a-send-port-and-send-handler-that-use-the-adapter"></a>建立使用配接器的傳送埠和傳送處理常式  
   
@@ -221,7 +222,7 @@ ms.lasthandoff: 03/28/2018
   
 4.  在[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，依序展開**傳送埠**節點中，選取**TxnSendPort1**傳送埠，然後選取**啟動**。  
   
-5.  在[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，依序展開**ReceiveLocations**節點中，選取**[txnrecievelocation1]**接收位置，然後再選取**啟用**。  
+5.  在[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，依序展開**ReceiveLocations**節點中，選取 **[txnrecievelocation1]** 接收位置，然後再選取**啟用**。  
   
 6.  一旦啟用接收位置，它會自動輪詢資料庫，在指定的時間間隔的資料。  
   

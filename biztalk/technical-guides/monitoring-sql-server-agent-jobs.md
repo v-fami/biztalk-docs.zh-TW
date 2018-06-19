@@ -1,14 +1,14 @@
 ---
-title: "監視 SQL Server Agent 作業 |Microsoft 文件"
-ms.custom: 
+title: 監視 SQL Server Agent 作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 60d0a377-c86d-429b-9e48-c37bd5b0f912
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298958"
 ---
 # <a name="monitoring-sql-server-agent-jobs"></a>監視 SQL Server Agent 作業
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 包含多項 SQL Server Agent 作業，可執行重要功能以維持伺服器運作正常且狀況良好。 您應該監視這些作業的狀況，確保它們在沒有錯誤的情況下執行。  

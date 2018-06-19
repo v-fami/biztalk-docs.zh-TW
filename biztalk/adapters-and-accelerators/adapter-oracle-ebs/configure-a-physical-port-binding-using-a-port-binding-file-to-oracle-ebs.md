@@ -1,14 +1,14 @@
 ---
-title: "設定實體連接埠繫結使用連接埠繫結檔案至 Oracle E-business Suite |Microsoft 文件"
-ms.custom: 
+title: 設定實體連接埠繫結使用連接埠繫結檔案至 Oracle E-business Suite |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5c3c468e-815c-4611-879c-8da9111eeb3b
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22218262"
 ---
 # <a name="configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-e-business-suite"></a>設定使用連接埠繫結檔案至 Oracle E-business Suite 實體連接埠繫結
 當您使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]產生中繼資料以外的結構描述檔案，Oracle E-business Suite 成品[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]也會產生連接埠繫結檔案。 您可以將此繫結檔案匯 BizTalk 應用程式來建立實體傳送或接收埠。 如需匯入繫結檔案的指示，請參閱[重複使用配接器繫結與 Oracle E-business Suite](../../adapters-and-accelerators/adapter-oracle-ebs/reuse-adapter-bindings-with-oracle-e-business-suite.md)。 如果您匯入此繫結檔案，您不必手動建立實體傳送或接收埠。  

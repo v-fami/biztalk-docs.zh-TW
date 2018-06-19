@@ -1,14 +1,14 @@
 ---
-title: "執行 BizTalk 作業範例 |Microsoft 文件"
-ms.custom: 
+title: 執行 BizTalk 作業範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e91d4e57-ba94-4730-8c5a-4c96902f313f
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294534"
 ---
 # <a name="running-the-biztalk-operations-sample"></a>執行 BizTalk 作業範例
 Microsoft BizTalk 作業範例會使用 Windows Form 測試用戶端應用程式來執行 BizTalk 作業 Web 服務方法並顯示結果。 您可以開啟測試用戶端專案來執行它，並檢查以查看如何使用您自己的服務導向架構 (SOA) 和 ESB 應用程式中的 BizTalk 作業 Web 服務的程式碼。  

@@ -8,15 +8,16 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a7df6e78-6d18-443d-82dc-4351c20a8c4e
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: gplarsen
 ms.author: hisdocs; plarsen
 manager: anneta
 ms.openlocfilehash: 6bae89d2a05ec34095e0fa2ac3feafc7b88b894e
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30250922"
 ---
 # <a name="how-to-disable-an-affiliate-application"></a>如何停用分支機構應用程式
 使用 MMC 嵌入式管理單元或**disableapp**停用指定的分支機構應用程式的命令。  

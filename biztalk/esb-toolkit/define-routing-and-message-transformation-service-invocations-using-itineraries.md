@@ -1,14 +1,14 @@
 ---
-title: "定義路由和訊息轉換服務引動過程使用旅 |Microsoft 文件"
-ms.custom: 
+title: 定義路由和訊息轉換服務引動過程使用旅 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e6f2448e-a5a7-496c-86d3-47f12e6f1251
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294278"
 ---
 # <a name="defining-routing-and-message-transformation-service-invocations-using-itineraries"></a>定義路由和訊息轉換服務使用旅的引動過程
 在此使用案例，提交進行處理的訊息會包含路線的 SOAP 標頭描述要執行的服務和其解析需求的清單。 具體而言，轉換和路由服務會定義，每個選擇性需要透過通用描述、 探索與整合 (UDDI)、 商務規則引擎原則、 XML 路徑語言 (XPath) 或靜態查閱解析。 此使用案例可以透過在發行訊息時，將其他服務加入至路線擴充。  

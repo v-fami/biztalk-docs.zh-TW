@@ -1,14 +1,14 @@
 ---
-title: "步驟 2： 設定並啟動 Application1 |Microsoft 文件"
-ms.custom: 
+title: 步驟 2： 設定並啟動 Application1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5cb061ca-acf4-4de4-a634-b3bb98876989
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,15 +17,16 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280006"
 ---
 # <a name="step-2-configure-and-start-the-application"></a>步驟 2： 設定並啟動應用程式
 ![步驟 3 之 2](../adapters-and-accelerators/adapter-oracle-database/media/step-2of3.gif "Step_2of3")  
   
  **若要完成的時間：** 10 分鐘  
   
- **目標：**在此步驟中，設定並啟動 EAISolution 應用程式。  
+ **目標：** 在此步驟中，設定並啟動 EAISolution 應用程式。  
   
- **用途：**是多半關於繫結的組態。  繫結會在邏輯端點 (例如協調流程連接埠或角色連結) 與實體端點 (例如傳送和接收埠或合作對象) 之間建立對應。 這讓通訊能在不同的 BizTalk 商務方案元件之間進行。 您可以使用 [BizTalk Server 管理主控台] 建立繫結。  
+ **用途：** 是多半關於繫結的組態。  繫結會在邏輯端點 (例如協調流程連接埠或角色連結) 與實體端點 (例如傳送和接收埠或合作對象) 之間建立對應。 這讓通訊能在不同的 BizTalk 商務方案元件之間進行。 您可以使用 [BizTalk Server 管理主控台] 建立繫結。  
   
 ## <a name="prerequisites"></a>必要條件  
  開始此步驟之前，請注意下列需求：  
@@ -138,7 +139,7 @@ ms.lasthandoff: 09/20/2017
     |使用|動作|  
     |--------------|----------------|  
     |**Host**|選取 **[BizTalkServerApplication]**。|  
-    |**接收埠**如**ReceiveRequestPort**|選取**[eaisolutionreceivereqeustport]**。|  
+    |**接收埠**如**ReceiveRequestPort**|選取 **[eaisolutionreceivereqeustport]**。|  
     |**傳送埠與傳送埠群組**如**ReceiveRequestPort**|選取**EAISolutionSendDeclinePort**。|  
     |**接收埠**如**ReceiveRequestPort**|選取**EAISolutionSendToERPPort**。|  
   

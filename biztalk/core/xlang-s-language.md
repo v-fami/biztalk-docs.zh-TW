@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290910"
 ---
 # <a name="xlang-s-language"></a>XLANG 的語言
 XLANG/s 設計為可使用網際網路標準 (如 XML、XSD 和 Web 服務描述語言 (WSDL))，而且具有內嵌支援來處理 .NET 物件和訊息。 XLANG/s 可視為具有某些 C# 運算式功能的訊息語言。 但是，XLANG/s 與 C# 之間無法移植程式碼。  

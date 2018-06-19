@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22216542"
 ---
 # <a name="configure-the-sign-in-credentials-for-the-oracle-database"></a>設定登入認證，Oracle 資料庫
 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]需要配接器用戶端提供用戶端認證。 配接器使用這些認證來驗證與 Oracle 資料庫使用者，並建立連接。  

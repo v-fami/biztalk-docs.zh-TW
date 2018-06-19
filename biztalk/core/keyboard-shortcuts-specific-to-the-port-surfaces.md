@@ -1,17 +1,17 @@
 ---
-title: "鍵盤快速鍵特有的連接埠介面 」 |Microsoft 文件"
-ms.custom: 
+title: 鍵盤快速鍵特有的連接埠介面 」 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - keyboard shortcuts, Orchestration Designer
 - Orchestration Designer, keyboard shortcuts
 ms.assetid: 42c6fd89-c32a-4cb5-a1a5-47cc87b680a9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25972252"
 ---
 # <a name="keyboard-shortcuts-specific-to-the-port-surfaces"></a>連接埠介面 」 的專用鍵盤快速鍵
 下列是左 [連接埠介面] 和右 [連接埠介面] 中有作用的按鍵。  

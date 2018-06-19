@@ -1,17 +1,17 @@
 ---
-title: "WCF 配接器安全性建議 |Microsoft 文件"
-ms.custom: 
+title: WCF 配接器安全性建議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - WCF adapters, security
 - security, WCF adapters
 ms.assetid: bbaaca56-9ad5-4122-a8e9-6e975d308230
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289686"
 ---
 # <a name="wcf-adapters-security-recommendations"></a>WCF 配接器安全性建議
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會使用 WCF 配接器來發佈 (接收) 和使用 (傳送) WCF 服務。 建議您依照這些指導方針來保護和部署您作業環境中的 WCF 配接器。  

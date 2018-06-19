@@ -1,14 +1,14 @@
 ---
-title: "從協調流程 」 範例執行的標頭屬性的存取權 |Microsoft 文件"
-ms.custom: 
+title: 從協調流程 」 範例執行的標頭屬性的存取權 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2059eb2c-50a3-4618-a6ec-faa1a9e5d368
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294774"
 ---
 # <a name="running-the-header-property-access-from-an-orchestration-sample"></a>從協調流程 」 範例執行標頭屬性存取
 範例的這個部分會示範如何 ESB 升級至訊息內容屬性，程式碼與在 Microsoft BizTalk 協調流程中的元件可以存取的 JMS 標頭的中繼資料。 此範例包含接收管線，其中包含將 JMS 標頭的中繼資料升級至訊息內容屬性 ESB JMS 元件的執行個體。  

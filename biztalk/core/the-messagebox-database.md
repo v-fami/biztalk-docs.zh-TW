@@ -1,11 +1,11 @@
 ---
-title: "MessageBox 資料庫 |Microsoft 文件"
-ms.custom: 
+title: MessageBox 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, MessageBox database
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - MessageBox database
 - suspended messages, MessageBox database
 ms.assetid: f89eb02c-1b83-4127-8a91-e78fb4a1f96e
-caps.latest.revision: "15"
+caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279310"
 ---
 # <a name="the-messagebox-database"></a>MessageBox 資料庫
 在 Microsoft BizTalk Server 中發佈/訂閱引擎的中心是 MessageBox 資料庫。 MessageBox 是由兩個元件組成：一或多個 Microsoft SQL Server 資料庫和傳訊代理程式。 SQL Server 資料庫會提供許多項目的持續性存放區，這些項目包括訊息、訊息部分、訊息屬性、訂閱、協調流程狀態、追蹤資料、路由的主控件佇列，以及其他項目。 BizTalk Server 群組可能會有一或多個 MessageBox 資料庫，可讓它發佈訊息到其中，而那些訊息的訂閱者也會從其中擷取訊息。  

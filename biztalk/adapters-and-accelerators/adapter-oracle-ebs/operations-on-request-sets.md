@@ -1,14 +1,14 @@
 ---
-title: "要求的作業 |Microsoft 文件"
-ms.custom: 
+title: 要求的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0537354d-821e-4cf9-a4d1-f4e7d1643df9
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22217294"
 ---
 # <a name="operations-on-request-sets"></a>要求的作業
 在 Oracle E-business Suite 中設定的要求是一組報表和並行會組織成不同階段的程式。 您可以使用單一要求設定為執行一組報表和並行程式。 要求集劃分為一個或多個階段，而且每個階段包含一組報表和並行程式。 這些階段會彼此連結，而且每個階段執行的順序定義。 如需要求集的多個 Oracle 特定資訊，請移至[http://go.microsoft.com/fwlink/p/?LinkId=129539](http://go.microsoft.com/fwlink/p/?LinkId=129539)。  

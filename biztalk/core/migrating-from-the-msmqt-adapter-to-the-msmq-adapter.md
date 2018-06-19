@@ -1,14 +1,14 @@
 ---
-title: "從 MSMQT 配接器移轉至 MSMQ 配接器 |Microsoft 文件"
-ms.custom: 
+title: 從 MSMQT 配接器移轉至 MSMQ 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 12/07/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 97126f70-0be5-4a2f-bcba-173fd932b6de
-caps.latest.revision: 
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710185"
 ---
 # <a name="migrate-from-the-msmqt-adapter-to-the-msmq-adapter"></a>從 MSMQT 配接器移轉至 MSMQ 配接器
 本主題討論的內容是將解決方案從 BizTalk 訊息佇列 (MSMQT) 配接器移轉至訊息佇列 (MSMQ) 配接器以前，考量有關端對端排序的傳遞、交易一致性、高可用性和擴充性的要點。 排序的傳遞、交易一致性、高可用性和擴充性等主題的用途定義如下：  

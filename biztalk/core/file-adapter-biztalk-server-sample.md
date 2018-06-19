@@ -11,7 +11,7 @@ helpviewer_keywords:
 - examples, File adapters
 - File adapters, examples
 ms.assetid: d59cecb4-6353-44d5-b8d6-316446758536
-caps.latest.revision: ''
+caps.latest.revision: 46
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010335"
 ---
 # <a name="file-adapter-biztalk-server-sample"></a>File 配接器 （BizTalk Server 範例）
 File 配接器範例是以 Microsoft Visual C#.NET 才能使用 Microsoft BizTalk Server 撰寫的。 此範例提供可建置動態或靜態配接器的程式碼。  不過，下列程序僅概述靜態配接器。 靜態配接器具有一組靜態結構描述，且沒有自訂使用者介面。 動態配接器具有自訂使用者介面，並且可能有一組動態結構描述。 靜態和動態配接器都使用「新增配接器精靈」將結構描述新增至 BizTalk 專案。  
@@ -38,7 +39,7 @@ File 配接器範例是以 Microsoft Visual C#.NET 才能使用 Microsoft BizTal
  \<*範例路徑*\>**\AdaptersDevelopment\File 配接器**  
   
 > [!NOTE]
->  預設位置\<*範例路徑*\>是*%programfiles%*\Microsoft BizTalk Server\SDK\Samples 時執行 32 位元的電腦上安裝 BizTalk ServerWindows 版本。 預設位置\<*範例路徑*\>是*%programfiles （x86） %*\Microsoft BizTalk Server\SDK\Samples 時執行 64 位的電腦上安裝 BizTalk Server位元版本的 Windows。 若要判斷相關聯的值 *%programfiles%* 或 *%programfiles （x86） %* 環境變數類型 **echo %programfiles%** 或 **echo %programfiles （x86） %** 在命令提示字元並按下 ENTER 鍵。 如果在 64 位元作業系統上執行此範例，您必須變更任何的.reg 檔案中的所有參考 **%programfiles%** 至 **%programfiles （x86） %** 之前執行.reg 檔案。  
+>  預設位置\<*範例路徑*\>是 *%programfiles%* \Microsoft BizTalk Server\SDK\Samples 時執行 32 位元的電腦上安裝 BizTalk ServerWindows 版本。 預設位置\<*範例路徑*\>是 *%programfiles （x86） %* \Microsoft BizTalk Server\SDK\Samples 時執行 64 位的電腦上安裝 BizTalk Server位元版本的 Windows。 若要判斷相關聯的值 *%programfiles%* 或 *%programfiles （x86） %* 環境變數類型 **echo %programfiles%** 或 **echo %programfiles （x86） %** 在命令提示字元並按下 ENTER 鍵。 如果在 64 位元作業系統上執行此範例，您必須變更任何的.reg 檔案中的所有參考 **%programfiles%** 至 **%programfiles （x86） %** 之前執行.reg 檔案。  
   
  下表顯示此範例中的檔案，並說明其用途。  
   
@@ -106,7 +107,7 @@ File 配接器範例是以 Microsoft Visual C#.NET 才能使用 Microsoft BizTal
   
 1.  按一下  **啟動**, ，指向  **所有程式**, ，指向 **附屬應用程式**, ，然後按一下  **Windows 檔案總管**。  
   
-2.  瀏覽至\<*範例路徑*\>**"\AdaptersDevelopment\File Adapter\Runtime"**目錄，然後再按兩下**DotNetFile.sln**.  
+2.  瀏覽至\<*範例路徑*\>**"\AdaptersDevelopment\File Adapter\Runtime"** 目錄，然後再按兩下**DotNetFile.sln**.  
   
 3.  重新建置配接器接收器執行階段專案，在方案總管] 中，以滑鼠右鍵按一下 **DotNetFile**, ，然後按一下 [ **重建**。  
   
@@ -114,7 +115,7 @@ File 配接器範例是以 Microsoft Visual C#.NET 才能使用 Microsoft BizTal
   
 #### <a name="to-build-the-adapter-design-time-project"></a>建置配接器執行階段專案  
   
-1.  在 Windows 檔案總管，瀏覽至\<*範例路徑*\>**"\AdaptersDevelopment\File Adapter\Design Time\Adapter Management"**目錄，然後再按兩下**AdapterManagement.sln**。  
+1.  在 Windows 檔案總管，瀏覽至\<*範例路徑*\>**"\AdaptersDevelopment\File Adapter\Design Time\Adapter Management"** 目錄，然後再按兩下**AdapterManagement.sln**。  
   
 2.  在 方案總管 中，以滑鼠右鍵按一下 **AdapterManagement**, ，然後按一下  **重建**。  
   
@@ -122,7 +123,7 @@ File 配接器範例是以 Microsoft Visual C#.NET 才能使用 Microsoft BizTal
   
 #### <a name="to-register-the-sample-static-adapter"></a>註冊範例靜態配接器  
   
-1.  在 Windows 檔案總管，瀏覽至\<*範例路徑*\>**"\AdaptersDevelopment\File 配接器 」**目錄。  
+1.  在 Windows 檔案總管，瀏覽至\<*範例路徑*\>**"\AdaptersDevelopment\File 配接器 」** 目錄。  
   
 2.  若要將範例配接器新增至登錄中，按兩下 **StaticAdapterManagement.reg**。  
   
@@ -196,7 +197,7 @@ File 配接器範例是以 Microsoft Visual C#.NET 才能使用 Microsoft BizTal
   
 7.  按一下 **[確定]**。  
   
-8.  展開**BizTalk 群組 [*伺服器名稱*]**節點[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**應用程式**] 節點，展開 [ **BizTalk Application 1**節點。  
+8.  展開**BizTalk 群組 [*伺服器名稱*]** 節點[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**應用程式**] 節點，展開 [ **BizTalk Application 1**節點。  
   
 9. 以滑鼠右鍵按一下 **傳送埠** 節點，然後再按一下 **新增**, ，請選取 **靜態單向傳送埠**, ，然後按一下  **確定**。  
   
@@ -318,7 +319,7 @@ File 配接器範例是以 Microsoft Visual C#.NET 才能使用 Microsoft BizTal
   
 ##### <a name="to-test-the-sample-add-adapter-wizard-functionality-for-the-sample-static-adapter"></a>測試範例靜態配接器的範例新增配接器精靈功能  
   
-1.  在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，在 [方案總管] 中，以滑鼠右鍵按一下**[adapterharnessproject]**，指向**新增**，然後按一下 **新增產生的項目**。  
+1.  在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，在 [方案總管] 中，以滑鼠右鍵按一下 **[adapterharnessproject]**，指向**新增**，然後按一下 **新增產生的項目**。  
   
 2.  在 **加入產生的項目-adapterharnessproject** 對話方塊中，按一下  **新增配接器中繼資料**, ，然後按一下  **開啟**。  
   

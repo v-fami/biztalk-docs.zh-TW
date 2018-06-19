@@ -8,15 +8,16 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eb91879c-73f4-4e9e-9e5b-534f48cd5584
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: gplarsen
 ms.author: hisdocs; plarsen
 manager: anneta
 ms.openlocfilehash: 89fd7ab2ca83d23a37944447997becd2d3f008c2
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30250962"
 ---
 # <a name="how-to-create-user-mappings"></a>如何建立使用者對應
 使用**createmappings**建立一或多個使用者對應，XML 檔案中所指定的命令。 以下是 XML 檔案的範例。  
@@ -54,7 +55,7 @@ ms.lasthandoff: 03/28/2018
   
      預設安裝目錄是\<*磁碟機*>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別`ssomanage –createmappings <mappings file name>`，其中*\<對應檔案名稱 >*是包含您想要建立的使用者對應的檔案名稱。  
+3.  型別`ssomanage –createmappings <mappings file name>`，其中*\<對應檔案名稱 >* 是包含您想要建立的使用者對應的檔案名稱。  
   
 ### <a name="to-create-user-mappings-using-the-client-utility"></a>使用用戶端公用程式建立使用者對應  
   
@@ -64,7 +65,7 @@ ms.lasthandoff: 03/28/2018
   
      預設安裝目錄是\<*磁碟機*>: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別`ssoclient –setcredentials <application name >`，其中*\<應用程式名稱 >*是使用者想要建立對應的分支機構應用程式的名稱。  
+3.  型別`ssoclient –setcredentials <application name >`，其中*\<應用程式名稱 >* 是使用者想要建立對應的分支機構應用程式的名稱。  
   
 ## <a name="see-also"></a>另請參閱  
  [SSO 對應](../esso/sso-mappings.md)   

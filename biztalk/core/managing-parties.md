@@ -24,6 +24,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009647"
 ---
 # <a name="managing-parties"></a>管理合作對象
 使用**合作對象**節點，您可以設定商務夥伴 （合作對象） 或內部部門 （商務設定檔） 與[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]解決方案互動。 如需詳細資訊，請參閱[交易夥伴](../core/trading-partners-and-business-profiles.md)。  
@@ -44,7 +45,7 @@ ms.lasthandoff: 12/01/2017
     |使用|動作|  
     |--------------|----------------|  
     |**名稱**|輸入合作對象名稱。|  
-    |**本機 BizTalk 會處理合作對象或支援此合作對象傳送訊息所收到的訊息**|選取此核取方塊，以指定合作對象代表同時裝載了 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的同一個交易夥伴。 **重要事項：**對於兩個合作對象 TPM 解決方案會使用管線的方塊外，隨附於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，您必須選取此核取方塊，至少一個合作對象。 **注意：**某些屬性如果您清除此核取方塊，將會停用時建立此合作對象的協議。|  
+    |**本機 BizTalk 會處理合作對象或支援此合作對象傳送訊息所收到的訊息**|選取此核取方塊，以指定合作對象代表同時裝載了 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的同一個交易夥伴。 **重要事項：** 對於兩個合作對象 TPM 解決方案會使用管線的方塊外，隨附於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，您必須選取此核取方塊，至少一個合作對象。 **注意：** 某些屬性如果您清除此核取方塊，將會停用時建立此合作對象的協議。|  
     |**其他屬性 – 名稱/值**|請輸入名稱-值組來儲存合作對象的任何資訊。 您可以視需要新增任意數目的名稱-值組。 **請注意**： 名稱 / 值組不會由 BizTalk Server 進行任何處理; 此資料僅供資訊。|  
     |**Delete**|選取即可刪除選取的名稱 / 值組。|  
   

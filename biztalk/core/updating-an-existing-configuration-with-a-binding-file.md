@@ -1,11 +1,11 @@
 ---
-title: "與繫結檔案更新現有的組態 |Microsoft 文件"
-ms.custom: 
+title: 與繫結檔案更新現有的組態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - binding files, updating
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - binding files, customizing
 - artifacts, updating
 ms.assetid: 11580e59-7147-42d0-a976-f6b5e6933d24
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22291494"
 ---
 # <a name="updating-an-existing-configuration-with-a-binding-file"></a>使用繫結檔案更新現有的組態
 繫結檔案中的資訊會取代現有的組態資訊。 如果繫結檔案中的成品名稱與現有組態中的成品名稱相符，則當您匯入繫結檔案時，繫結檔案中的成品將會更新現有組態中的成品。  

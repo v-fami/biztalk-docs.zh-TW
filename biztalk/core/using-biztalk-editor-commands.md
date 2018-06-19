@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22289254"
 ---
 # <a name="use-biztalk-editor-commands"></a>使用 BizTalk 編輯器命令
 
@@ -61,7 +62,7 @@ ms.lasthandoff: 03/23/2018
 |**剪下、 複製、 貼上**|使用這些命令可在 BizTalk 專案中執行剪下、複製和貼上整個結構描述等標準 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 行為。|  
 |**刪除**|在確認提示之後，永久刪除目前選取的結構描述。|  
 |**重新命名**|允許就地重新命名目前選取的結構描述。|  
-|**屬性**|開啟 Visual Studio **屬性**   視窗中目前選取的結構描述，在這部分的結構描述屬性可以檢查和設定。 <br/><br/>**注意：**檢查及設定結構描述的其他屬性[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]屬性 視窗選取結構描述時。 屬性中設定 **屬性** 視窗是這些屬性，其不同的值可能適用於相同的結構描述使用一個以上的 BizTalk 專案中。 <br /><br /> 如需有關設定結構描述屬性和結構描述屬性的詳細資訊，請參閱[設定結構描述檔案和結構描述項目屬性](../core/how-to-set-schema-file-and-schema-item-properties.md)和**結構描述檔案屬性** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。|  
+|**屬性**|開啟 Visual Studio **屬性**   視窗中目前選取的結構描述，在這部分的結構描述屬性可以檢查和設定。 <br/><br/>**注意：** 檢查及設定結構描述的其他屬性[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]屬性 視窗選取結構描述時。 屬性中設定 **屬性** 視窗是這些屬性，其不同的值可能適用於相同的結構描述使用一個以上的 BizTalk 專案中。 <br /><br /> 如需有關設定結構描述屬性和結構描述屬性的詳細資訊，請參閱[設定結構描述檔案和結構描述項目屬性](../core/how-to-set-schema-file-and-schema-item-properties.md)和**結構描述檔案屬性** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。|  
   
 ## <a name="see-also"></a>另請參閱  
  [使用 BizTalk 編輯器](../core/using-biztalk-editor.md)

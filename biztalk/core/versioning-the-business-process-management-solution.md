@@ -1,11 +1,11 @@
 ---
-title: "版本控制商務程序管理解決方案 |Microsoft 文件"
-ms.custom: 
+title: 版本控制商務程序管理解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - versioning, process management solutions
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - processing, stages
 - process management solution tutorial, processing stages
 ms.assetid: 501b2162-821f-44e1-87c0-8628cc5bd9c3
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288646"
 ---
 # <a name="versioning-the-business-process-management-solution"></a>版本控制商務程序管理解決方案
 商務程序管理解決方案的設計目的是讓您可在需要時取代階段。 此設計也提供更容易管理結構描述版本的方法。  

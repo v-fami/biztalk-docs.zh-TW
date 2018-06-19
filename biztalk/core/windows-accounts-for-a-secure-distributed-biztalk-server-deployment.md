@@ -1,11 +1,11 @@
 ---
-title: "Windows 帳戶的安全分散式的 BizTalk Server 部署 |Microsoft 文件"
-ms.custom: 
+title: Windows 帳戶的安全分散式的 BizTalk Server 部署 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - BizTalk Server, Windows groups
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - user accounts, administrators
 - architecture, large distributions
 ms.assetid: 2a0893ef-8bfb-481b-b024-7f7d6e2a6f09
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974956"
 ---
 # <a name="windows-accounts-for-a-secure-distributed-biztalk-server-deployment"></a>用於安全分散式 BizTalk Server 部署的 Windows 帳戶
 完成 BizTalk Server 部署的系統架構的詳細資訊，請參閱[範例 BizTalk Server 架構](../core/sample-biztalk-server-architectures.md)。  
@@ -75,7 +76,7 @@ ms.lasthandoff: 11/28/2017
 |BizTalk 系統管理員|使用者|BizTalk 系統管理員<br /><br /> SSO 分支機構系統管理員|  
 |BizTalk 操作員|使用者|BizTalk 操作員|  
 |BizTalk 處理 1|服務|BizTalk 處理主控件使用者 1|  
-|BizTalk 處理 2**附註：**您可以針對每個處理主控件建立多個帳戶，您的環境中。|服務|BizTalk 處理主控件使用者 1|  
+|BizTalk 處理 2**附註：** 您可以針對每個處理主控件建立多個帳戶，您的環境中。|服務|BizTalk 處理主控件使用者 1|  
 |BizTalk 追蹤|服務|BizTalk 追蹤主控件使用者|  
 |SOAP adapter (SOAP 配接器)|服務|BizTalk SOAP 使用者|  
 |HTTP 配接器|服務|BizTalk HTTP 使用者|  

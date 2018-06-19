@@ -1,15 +1,15 @@
 ---
-title: "匯入和匯出 BizTalk Server 組態 |Microsoft 文件"
-description: "若要套用，步驟匯入、 匯出或取消設定元件，並更新資料庫和 BizTalk Server 中的服務帳戶"
-ms.custom: 
+title: 匯入和匯出 BizTalk Server 組態 |Microsoft 文件
+description: 若要套用，步驟匯入、 匯出或取消設定元件，並更新資料庫和 BizTalk Server 中的服務帳戶
+ms.custom: ''
 ms.date: 08/14/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c6206ed8-d087-44cc-8ab5-da5d8a28e09a
-caps.latest.revision: "40"
+caps.latest.revision: 40
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22300126"
 ---
 # <a name="import-and-export-biztalk-server-configuration"></a>匯入和匯出 BizTalk Server 組態
 BizTalk Server 組態可提供本機電腦上所安裝功能之組態狀態的高階分析。 此工具可讓您設定與取消設定功能、設定安全性設定，以及匯入和匯出組態。  

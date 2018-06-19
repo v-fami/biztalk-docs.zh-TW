@@ -1,14 +1,14 @@
 ---
-title: "附錄 c: BizTalk Server 和 SQL Server 使用 HYPER-V 的支援能力 |Microsoft 文件"
-ms.custom: 
+title: '附錄 c: BizTalk Server 和 SQL Server 使用 HYPER-V 的支援能力 |Microsoft 文件'
+ms.custom: ''
 ms.date: 11/29/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 05bc03d4-8fe7-490d-84e2-05dae7a7441e
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007703"
 ---
 # <a name="appendix-c-biztalk-server-and-sql-server-hyper-v-supportability"></a>附錄 c: BizTalk Server 和 SQL Server HYPER-V 可支援性
 測試案例所述[測試 BizTalk 伺服器虛擬化效能](../technical-guides/testing-biztalk-server-virtualization-performance.md)所執行之 BizTalk Server 和 SQL Server。 請參閱： 

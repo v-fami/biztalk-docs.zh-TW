@@ -1,17 +1,17 @@
 ---
-title: "設定 File 配接器時的限制 |Microsoft 文件"
-ms.custom: 
+title: 設定 File 配接器時的限制 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - configuring [File adapters], restrictions
 - File adapters, restrictions
 ms.assetid: 8d8137a7-5b16-4ae3-a0a7-6d114324bdf3
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25975126"
 ---
 # <a name="restrictions-when-configuring-the-file-adapter"></a>設定 File 配接器時的限制
 限制和規則時使用 file 配接器。
@@ -101,9 +102,9 @@ ms.lasthandoff: 11/28/2017
 |%DestinationParty%|目的地合作對象的名稱。 這個值來自訊息內容屬性 **BTS.DestinationParty**。|  
 |%DestinationPartyQualifier%|目的地合作對象的辨識符號。 這個值來自訊息內容屬性 **BTS.DestinationPartyQualifier**。|  
 |%MessageID%|BizTalk Server 中訊息的全域唯一識別碼 (GUID)。 值是直接來自訊息內容屬性**BTS。MessageID**。|  
-|%SourceFileName%|FILE 配接器從中讀取訊息的檔案名稱。 檔案名稱包含副檔名但排除檔案路徑，例如 Sample.xml。 File 配接器時取代這個屬性，從儲存在的絕對檔案路徑擷取檔案名稱**檔案。ReceivedFileName**內容屬性。 如果內容屬性沒有值 — 比方說，如果在 File 配接器以外的配接器收到的訊息-巨集將不會被取代，並將保留在檔案名稱 (例如 C:\Drop\\%sourcefilename%)。 **注意：**正確實作此巨集需要的輸出訊息和接收的訊息相同的訊息。|  
-|%SourceParty%|FILE 配接器從中接收訊息的來源合作對象名稱。 **注意：**正確實作此巨集需要的輸出訊息和接收的訊息相同的訊息。|  
-|%SourcePartyQualifier%|FILE 配接器從中接收訊息的來源合作對象辨識符號。 **注意：**正確實作此巨集需要的輸出訊息和接收的訊息相同的訊息。|  
+|%SourceFileName%|FILE 配接器從中讀取訊息的檔案名稱。 檔案名稱包含副檔名但排除檔案路徑，例如 Sample.xml。 File 配接器時取代這個屬性，從儲存在的絕對檔案路徑擷取檔案名稱**檔案。ReceivedFileName**內容屬性。 如果內容屬性沒有值 — 比方說，如果在 File 配接器以外的配接器收到的訊息-巨集將不會被取代，並將保留在檔案名稱 (例如 C:\Drop\\%sourcefilename%)。 **注意：** 正確實作此巨集需要的輸出訊息和接收的訊息相同的訊息。|  
+|%SourceParty%|FILE 配接器從中接收訊息的來源合作對象名稱。 **注意：** 正確實作此巨集需要的輸出訊息和接收的訊息相同的訊息。|  
+|%SourcePartyQualifier%|FILE 配接器從中接收訊息的來源合作對象辨識符號。 **注意：** 正確實作此巨集需要的輸出訊息和接收的訊息相同的訊息。|  
 |%time%|UTC 時間的格式為 hhmmss。|  
 |%time.tz%|本地時間加上 GMT 的時區，格式為 hhmmssTZD (例如，124525+530)。|  
   

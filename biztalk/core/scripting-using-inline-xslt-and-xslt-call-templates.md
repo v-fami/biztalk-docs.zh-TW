@@ -1,14 +1,14 @@
 ---
-title: "使用內嵌 XSLT 與 XSLT 呼叫範本指令碼 |Microsoft 文件"
-ms.custom: 
+title: 使用內嵌 XSLT 與 XSLT 呼叫範本指令碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e3168417-3653-4c9e-a09c-184ffdc0ccb2
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270430"
 ---
 # <a name="scripting-using-inline-xslt-and-xslt-call-templates"></a>使用內嵌 XSLT 與 XSLT 呼叫範本的指令碼處理
 您可以直接編寫用於可延伸樣式表語言轉換 (XSLT) 樣式表**指令碼處理**運算質。 如此可讓您執行轉換，而連結與內建的運算質可能不會顯示。 XSLT 指令碼分為兩種：內嵌 XSLT 與 XSLT 呼叫範本。 選取任一種**選取指令碼類型**下拉式清單中的**設定指令碼處理運算質**對話方塊中，範例程式碼會顯示您可以使用。  

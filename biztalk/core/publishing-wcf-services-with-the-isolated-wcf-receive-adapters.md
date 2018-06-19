@@ -1,11 +1,11 @@
 ---
-title: "發佈 WCF 服務，利用外掛式 WCF 接收配接器 |Microsoft 文件"
-ms.custom: 
+title: 發佈 WCF 服務，利用外掛式 WCF 接收配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - receive adapters, WCF services
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - WCF services, receive adapters
 - WCF services, publishing
 ms.assetid: 62ebf373-075c-4c98-8130-ac2cf06e4a70
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271630"
 ---
 # <a name="publishing-wcf-services-with-the-isolated-wcf-receive-adapters"></a>利用外掛式 WCF 接收配接器發佈 WCF 服務
 BizTalk Windows Communication Foundation (WCF) 配接器允許[!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]與 WCF 架構的應用程式通訊。 BizTalk WCF 配接器包含七個實體配接器。 除了 WCF-CustomIsolated 配接器之外，每個配接器均包含傳送與接收配接器。  
@@ -57,7 +58,7 @@ BizTalk Windows Communication Foundation (WCF) 配接器允許[!INCLUDE[btsCoNam
 |檔案|資料夾|Description|  
 |----------|------------|-----------------|  
 |WCF 服務 (.svc 檔案)|\|使用外掛式 WCF 配接器發佈之 WCF 接收位置的 WCF 服務。|  
-|Web.config|\|ASP.NET 組態檔，其中包含 ASP.NET Web 應用程式行為、已發佈的 WCF 服務行為、中繼資料端點以及 BizTalk 相關設定的資訊。 「BizTalk WCF 發佈精靈」產生的預設中繼資料繫結並不安全，它允許匿名存取中繼資料。 服務中繼資料包含關於服務的詳細描述，因此可能會在有意或無意之間包含機密資訊。 若要防止未經授權存取服務中繼資料，您可以修改 Web.config，為中繼資料結束點使用安全繫結。 **注意：**並非所有的中繼資料端點繫結和服務端點繫結的組合都有效。 在某些狀況下，中繼資料端點的繫結組態必須與其服務端點的繫結組態一致。 例如，當服務端點的安全性模式依賴 HTTPS 時，中繼資料端點就無法使用需要 HTTP 傳輸的安全性模式設定。|  
+|Web.config|\|ASP.NET 組態檔，其中包含 ASP.NET Web 應用程式行為、已發佈的 WCF 服務行為、中繼資料端點以及 BizTalk 相關設定的資訊。 「BizTalk WCF 發佈精靈」產生的預設中繼資料繫結並不安全，它允許匿名存取中繼資料。 服務中繼資料包含關於服務的詳細描述，因此可能會在有意或無意之間包含機密資訊。 若要防止未經授權存取服務中繼資料，您可以修改 Web.config，為中繼資料結束點使用安全繫結。 **注意：** 並非所有的中繼資料端點繫結和服務端點繫結的組合都有效。 在某些狀況下，中繼資料端點的繫結組態必須與其服務端點的繫結組態一致。 例如，當服務端點的安全性模式依賴 HTTPS 時，中繼資料端點就無法使用需要 HTTP 傳輸的安全性模式設定。|  
 |ServiceDescription.xml|\|描述已發佈之 WCF 服務合約 (包括訊息類型) 的 XML 檔案。|  
 |BizTalk 結構描述 (.xsd 檔案)|\App_Data|定義 XML 執行個體訊息結構的 XML 結構描述，這會使用外接式 WCF 配接器發佈。|  
 |SchemaIndex.xml|\App_Data|表示在發佈的 WCF 服務中使用之 XML 結構描述檔案的 XML 檔案。|  

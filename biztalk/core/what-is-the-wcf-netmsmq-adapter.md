@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289430"
 ---
 # <a name="what-is-the-wcf-netmsmq-adapter"></a>何謂 WCF-NetMsmq 配接器？
 WCF-NetMsmq 配接器可在服務與用戶端皆為 WCF 架構的環境中，使用佇列技術提供離線的跨電腦通訊。 它會使用「訊息佇列」(MSMQ) 傳輸，而且訊息具有二進位編碼。  

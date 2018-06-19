@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290638"
 ---
 # <a name="using-visual-studio"></a>使用 Visual Studio
 在 BizTalk 專案系統中，您可使用 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中的許多可用工具，以及專為建立在 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 上執行的應用程式而設計的工具。 本主題描述一些您可用來建立在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 上執行之應用程式的常見程序。  
@@ -39,7 +40,7 @@ ms.lasthandoff: 09/20/2017
 |子功能表名稱|子功能表名稱 (若適用)|Description|  
 |------------------|------------------------------------|-----------------|  
 ||||  
-|**其他視窗**|**協調流程檢視**|[協調流程檢視] 這個視窗，可以讓您新增、刪除和檢查協調流程參數、連接埠與連接埠類型、訊息與多部分訊息類型、相互關聯集與相互關聯類型、角色連結與角色連結類型、範圍以及協調流程屬性。 **注意：**此視窗，才可以從開啟的協調流程內使用。|  
+|**其他視窗**|**協調流程檢視**|[協調流程檢視] 這個視窗，可以讓您新增、刪除和檢查協調流程參數、連接埠與連接埠類型、訊息與多部分訊息類型、相互關聯集與相互關聯類型、角色連結與角色連結類型、範圍以及協調流程屬性。 **注意：** 此視窗，才可以從開啟的協調流程內使用。|  
 |**其他視窗**|**運算式編輯器**|運算式編輯器屬於可用視窗之一，是一個附有 IntelliSense 而可讓您輸入複雜運算式的標準 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 文字編輯器。|  
 |**[工具箱]**|**BizTalk 管線元件**|此為列出您可拖曳至管線設計介面上的管線元件之清單。 您只能新增管線元件到可用的作用中管線。|  
 |**[工具箱]**|**BizTalk 協調流程**|此為列出您可拖曳至協調流程設計介面上的協調流程圖形之清單。|  
@@ -55,8 +56,8 @@ ms.lasthandoff: 09/20/2017
 |**加入參考**|使用此功能表項目以參考其他專案、其他 .NET 專案或 COM 專案。|  
 |**加入服務參考**|使用此功能表項目加入 WCF 服務參考。 您也使用此項目，即可將 Web 參考**進階**上**加入服務參考** 對話方塊。|  
 |**加入產生的項目**|使用此功能表項目加入產生的配接器或結構描述檔案，或是取用 WCF 服務。|  
-|**新增配接器服務參考**|使用此功能表項目以瀏覽 (和搜尋) 中繼資料，並使用選取的作業和/或類型產生 .NET CLR Proxy 類別。 **注意：**此項目會出現在 BizTalk 功能表只有當至少一張介面卡 (隨附於[!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)]) 安裝在電腦上。|  
-|**加入使用配接器參考**|使用此功能表項目從配接器瀏覽 (和搜尋) 中繼資料，然後產生已選取作業的 XML 結構描述。 **注意：**此項目會出現在 BizTalk 功能表只有當至少一張介面卡 (隨附於[!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)]) 安裝在電腦上。|  
+|**新增配接器服務參考**|使用此功能表項目以瀏覽 (和搜尋) 中繼資料，並使用選取的作業和/或類型產生 .NET CLR Proxy 類別。 **注意：** 此項目會出現在 BizTalk 功能表只有當至少一張介面卡 (隨附於[!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)]) 安裝在電腦上。|  
+|**加入使用配接器參考**|使用此功能表項目從配接器瀏覽 (和搜尋) 中繼資料，然後產生已選取作業的 XML 結構描述。 **注意：** 此項目會出現在 BizTalk 功能表只有當至少一張介面卡 (隨附於[!INCLUDE[afproductnameshort](../includes/afproductnameshort-md.md)]) 安裝在電腦上。|  
   
  如需將 BizTalk Web 服務的 Web 參考加入資訊，請參閱[加入 Web 參考](../core/adding-web-references.md)。  
   
@@ -86,7 +87,7 @@ ms.lasthandoff: 09/20/2017
 |**目錄**|此功能表命令會開啟**內容**索引標籤，顯示所有已安裝的說明集合。 您必須已安裝 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 與 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的產品文件，才能檢視內容。|  
 |**關於 Microsoft BizTalk Server**|此功能表命令會開啟**關於 Microsoft BizTalk Server**  對話方塊。 此對話方塊會顯示 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 產品資訊。|  
 |**Index**|在此版本中，「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 說明」文件無法透過索引加以存取。|  
-|**搜尋**|沒有任何篩選條件的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]說明 」 文件，在此版本中，但如果您選取**（未篩選）**中**經過**下拉式清單中，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]說明文件，可用於搜尋。|  
+|**搜尋**|沒有任何篩選條件的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]說明 」 文件，在此版本中，但如果您選取 **（未篩選）** 中**經過**下拉式清單中，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]說明文件，可用於搜尋。|  
   
 ## <a name="property-pages"></a>屬性頁  
  您可以使用專案設計工具中的屬性頁，來為 BizTalk 專案設定組件專案屬性和部署屬性。  

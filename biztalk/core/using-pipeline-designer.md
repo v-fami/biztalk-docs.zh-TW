@@ -1,17 +1,17 @@
 ---
-title: "使用管線設計師 |Microsoft 文件"
-ms.custom: 
+title: 使用管線設計師 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Pipeline Designer, how to
 - pipelines, Pipeline Designer
 ms.assetid: bdb2f5c7-f8a2-4bd6-a8d8-8b7a64f97bd0
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287830"
 ---
 # <a name="using-pipeline-designer"></a>使用管線設計師
 管線設計師是一套裝載於 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 的圖形化編輯器，可讓您建立新管線、檢視 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 隨附的管線範本、移動管線內的管線元件，還可以設定管線、階段以及管線元件。  

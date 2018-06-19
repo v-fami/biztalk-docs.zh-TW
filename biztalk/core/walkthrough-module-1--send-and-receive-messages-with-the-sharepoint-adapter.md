@@ -1,11 +1,11 @@
 ---
-title: "逐步解說： 模組 1-傳送和接收訊息與 Windows SharePoint Services 配接器 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 模組 1-傳送和接收訊息與 Windows SharePoint Services 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Windows SharePoint Services, creating sites
@@ -19,7 +19,7 @@ helpviewer_keywords:
 - Windows SharePoint Services
 - Windows SharePoint Services adapter tutorials, sending messages
 ms.assetid: 6494aef5-bb1d-4a41-8186-1d49625a1013
-caps.latest.revision: "41"
+caps.latest.revision: 41
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -28,6 +28,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010503"
 ---
 # <a name="walkthrough-module-1---sending-and-receiving-messages-with-the-windows-sharepoint-services-adapter"></a>逐步解說： 模組 1-傳送和接收訊息，Windows SharePoint Services 配接器
 本逐步解說會示範如何設定 Windows SharePoint Services 和[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]讓您可以傳送和接收訊息，使用 Windows SharePoint Services 配接器和以內容為基礎的路由 (CBR)。 對於繫結至特定連接埠的訊息，以內容為基礎的路由可免除訊息訂閱之需求。 它也提供額外的彈性，讓使用者可傳遞以信封屬性為基礎的訊息，或僅以接收埠組態屬性為基礎的訊息。 如需 Windows SharePoint Services 配接器的簡介，請參閱[什麼是 Windows SharePoint Services 配接器？](../core/what-is-the-windows-sharepoint-services-adapter.md)。  
@@ -52,7 +53,7 @@ ms.lasthandoff: 12/01/2017
   
 4.  在**網站位址**區段的**URL 名稱**欄位中，輸入`WSSAdapterWalkthrough`。  
   
-5.  在**網站集合擁有者**區段的**使用者名稱 欄位，**輸入使用者名稱。 此使用者是網站擁有者，而且不需要特殊權限中的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  
+5.  在**網站集合擁有者**區段的**使用者名稱 欄位，** 輸入使用者名稱。 此使用者是網站擁有者，而且不需要特殊權限中的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  
   
 6.  在**網站集合擁有者**區段的**電子郵件**欄位中，輸入電子郵件地址。  
   
@@ -68,7 +69,7 @@ ms.lasthandoff: 12/01/2017
   
 2.  在下**文件庫**，按一下 **文件庫**。  
   
-3.  在**名稱和描述**區段的**名稱 欄位中，**類型`Source`。  
+3.  在**名稱和描述**區段的**名稱 欄位中，** 類型`Source`。  
   
 4.  在**瀏覽**區段中，選取**是**快速啟動 列上顯示此表單庫。  
   

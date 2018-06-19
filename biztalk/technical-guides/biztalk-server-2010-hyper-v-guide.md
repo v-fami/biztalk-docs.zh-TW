@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server 2010 HYPER-V 指南 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 2010 HYPER-V 指南 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3c38ecdd-de72-41d9-b639-2aa6bbfee917
-caps.latest.revision: "29"
+caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26011007"
 ---
 # <a name="biztalk-server-2010-hyper-v-guide"></a>BizTalk Server 2010 HYPER-V 指南
 本指南的目的是要提供使用 Microsoft BizTalk Server 與 Microsoft 的實用指南[!INCLUDE[btsWinSvr2k8R2](../includes/btswinsvr2k8r2-md.md)]HYPER-V。 重點在於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，但適用於分析的虛擬化的伺服器應用程式效能的一般效能評估方法和測試案例的效能。 本指南會感興趣的 IT 專業人員和開發人員社群。  

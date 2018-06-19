@@ -1,14 +1,14 @@
 ---
-title: "管理使用 ESB 管理入口網站 |Microsoft 文件"
-ms.custom: 
+title: 管理使用 ESB 管理入口網站 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 478d1dcc-e9b2-443b-be98-5b7545322401
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290270"
 ---
 # <a name="administration-using-the-esb-management-portal"></a>使用 ESB 管理入口網站的系統管理
 ESB 管理入口網站中，包含[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]，會示範如何使用計量，以及可能存在的值來擴充 BizTalk ESB Toolkit 的範例網站。 入口網站提供的起點，您可以從中建立您自己的自訂入口網站。  

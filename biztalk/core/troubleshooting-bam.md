@@ -1,14 +1,14 @@
 ---
-title: "疑難排解 BAM |Microsoft 文件"
-ms.custom: 
+title: 疑難排解 BAM |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e63299a8-5c74-4337-ba20-3213e0c6ea1f
-caps.latest.revision: 
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710253"
 ---
 # <a name="troubleshooting-bam"></a>疑難排解 BAM
 本主題提供使用商務活動監控 (BAM) 時，可能會遇到的資訊可協助您疑難排解問題。  
@@ -67,7 +68,7 @@ ms.lasthandoff: 02/28/2018
   
 2.  在 **使用者帳戶控制** 對話方塊中，按一下  **繼續**。  
   
-3.  在 Internet Explorer 網址列中，輸入`http://<server>/BAM`，其中*\<伺服器\>*執行 BAM 入口網站之電腦的名稱。  
+3.  在 Internet Explorer 網址列中，輸入`http://<server>/BAM`，其中*\<伺服器\>* 執行 BAM 入口網站之電腦的名稱。  
   
 ## <a name="bam-portal-does-not-work-if-invalid-users-are-granted-permissions"></a>無效的使用者權限，如果 BAM 入口網站無法運作  
  如果從 AD 移除 AD 使用者擁有 BAM 檢視權限，則 BAM 入口網站未正確載入的任何使用者 （除了 DBO)。  

@@ -1,15 +1,15 @@
 ---
-title: "WCF LOB Adapter SDK 的架構概觀 |Microsoft 文件"
-description: "處理常式，通道實作，連線管理、 中繼資料，然後使用 WSDL 中 WCF LOB 配接器 SDK 簡介"
-ms.custom: 
+title: WCF LOB Adapter SDK 的架構概觀 |Microsoft 文件
+description: 處理常式，通道實作，連線管理、 中繼資料，然後使用 WSDL 中 WCF LOB 配接器 SDK 簡介
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: dbd9b63c-54a4-4f63-b3a8-8600f6009a74
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226622"
 ---
 # <a name="architecture-overview-of-the-wcf-lob-adapter-sdk"></a>WCF LOB Adapter SDK 的架構概觀
 [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]建置於 WCF 通道模型之上，並提供設計階段和執行階段擴充功能，讓配接器開發人員建立有大型且動態的中繼資料的特定業務系統的配接器。 建立使用的配接器[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]呈現給取用者做為自訂的 WCF 繫結。 下圖顯示的內部架構和主要元件 WCF LOB 配接器 SDK。  

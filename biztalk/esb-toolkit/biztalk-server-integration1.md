@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server Integration1 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server Integration1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7eafe91d-125a-46a8-8216-d75f07a4abca
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289902"
 ---
 # <a name="biztalk-server-integration"></a>BizTalk Server 整合
 SOA 服務管理員會提供精靈，可協助您設定 SOA Service Manager 使用 Microsoft BizTalk server。 例如，圖 1 顯示的精靈，幫助您安裝及設定 BizTalk 整合點連結之 BizTalk Server 傳送埠和接收位置到 SOA 服務管理員。  

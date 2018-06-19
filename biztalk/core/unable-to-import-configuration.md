@@ -1,14 +1,14 @@
 ---
-title: "無法匯入組態 |Microsoft 文件"
-ms.custom: 
+title: 無法匯入組態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2887da50-4f74-4259-a7d6-c87bc9b9fc58
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286678"
 ---
 # <a name="unable-to-import-configuration"></a>無法匯入組態
 ## <a name="details"></a>詳細資料  
@@ -66,4 +67,4 @@ ms.lasthandoff: 09/20/2017
   
 9. 按一下 **[匯入]**。 匯入有效的完整組態檔。  
   
- 您也可以藉由使用服務組態編輯器中將它開啟來確認組態檔的有效性**(開始 > 所有程式 > Windows SDK)** （此步驟中假設您已安裝 Windows SDK）。開啟**svcConfigEditor.exe**並確認每一個屬性的組態檔。
+ 您也可以藉由使用服務組態編輯器中將它開啟來確認組態檔的有效性 **(開始 > 所有程式 > Windows SDK)** （此步驟中假設您已安裝 Windows SDK）。開啟**svcConfigEditor.exe**並確認每一個屬性的組態檔。

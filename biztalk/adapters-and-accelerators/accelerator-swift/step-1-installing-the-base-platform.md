@@ -1,18 +1,18 @@
 ---
-title: "步驟 1： 安裝基底平台 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 安裝基底平台 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - platforms
 - installing, base platform
 - base platform
 ms.assetid: 27da386f-90c7-414f-a4e3-e909f0c18371
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005143"
 ---
 # <a name="step-1-installing-the-base-platform"></a>步驟 1： 安裝基底平台
 基底平台，安裝[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsWinSvr2k3](../../includes/btswinsvr2k3-md.md)]和[!INCLUDE[btsWinSvr2k3](../../includes/btswinsvr2k3-md.md)]使用預設安裝選項的每部伺服器上的 Service Pack 2。 請遵循下列建議：  

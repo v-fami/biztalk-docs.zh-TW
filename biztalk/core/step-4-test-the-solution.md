@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 測試方案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 測試方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 60c39521-eee2-49f7-a9f9-2dfb9ab468e9
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277406"
 ---
 # <a name="step-4-test-the-solution"></a>步驟 4： 測試方案
 本主題，您會測試方案，藉由在您與檔案相關聯的資料夾中放置虛擬要求訊息在接收埠。 中所述，而叫用虛擬要求訊息置放**Wcf-webhttp**傳送埠。 您可以建立虛擬要求訊息，如下所示：  

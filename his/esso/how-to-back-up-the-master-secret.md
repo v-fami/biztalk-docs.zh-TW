@@ -8,15 +8,16 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0841c52a-7b15-45f8-9900-f5c9e3abd90b
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: gplarsen
 ms.author: hisdocs; plarsen
 manager: anneta
 ms.openlocfilehash: 124c077d7a15a4938f94239518ad02c8268074a4
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30250994"
 ---
 # <a name="how-to-back-up-the-master-secret"></a>如何備份主要密碼
 您可以從主要密碼伺服器將主要密碼備份至 NTFS 檔案系統或卸除式媒體 (例如磁片)。  
@@ -44,7 +45,7 @@ ms.lasthandoff: 03/28/2018
   
      預設安裝目錄是*\<磁碟機 >*: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-4.  型別`ssoconfig –backupsecret <backup file>`，其中*\<備份檔案 >*是其中的主要密碼將備份，例如，檔案的名稱與路徑`A:\ssobackup.bak`。  
+4.  型別`ssoconfig –backupsecret <backup file>`，其中*\<備份檔案 >* 是其中的主要密碼將備份，例如，檔案的名稱與路徑`A:\ssobackup.bak`。  
   
 5.  提供密碼來保護這個檔案。  
   

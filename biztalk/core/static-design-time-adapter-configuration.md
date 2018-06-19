@@ -1,14 +1,14 @@
 ---
-title: "靜態設計階段配接器組態 |Microsoft 文件"
-ms.custom: 
+title: 靜態設計階段配接器組態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 332723a4-e39d-43f5-af4d-bf9f56496535
-caps.latest.revision: "28"
+caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278894"
 ---
 # <a name="static-design-time-adapter-configuration"></a>靜態設計階段配接器組態
 配接器的設計階段部分必須負責定義所有可用屬性並驗證使用者輸入。 在靜態設計階段組態中，配接器使用預設使用者介面 (UI) 來顯示和編輯其屬性。  

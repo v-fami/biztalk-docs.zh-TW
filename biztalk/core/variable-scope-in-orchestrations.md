@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288118"
 ---
 # <a name="variable-scope-in-orchestrations"></a>協調流程中的變數範圍
 關於協調流程中各個部分的變數和協調流程參數之可見性和狀態 (包含例外狀況處理常式和補償區塊)，您必須瞭解一些重點。  

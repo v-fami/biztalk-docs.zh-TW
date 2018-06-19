@@ -1,14 +1,14 @@
 ---
-title: "無法建立 AS2 EDIINT MIC 資料表中的項目 |Microsoft 文件"
-ms.custom: 
+title: 無法建立 AS2 EDIINT MIC 資料表中的項目 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a1c75d70-e39e-4465-b32b-db646c059c9b
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286694"
 ---
 # <a name="unable-to-create-the-entry-in-the-as2-ediint-mic-table"></a>無法建立 AS2 EDIINT MIC 資料表中的項目
 ## <a name="details"></a>詳細資料  

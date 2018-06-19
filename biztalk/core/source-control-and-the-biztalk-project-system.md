@@ -1,18 +1,18 @@
 ---
-title: "原始檔控制和 BizTalk 專案系統 |Microsoft 文件"
-ms.custom: 
+title: 原始檔控制和 BizTalk 專案系統 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Microsoft Source Code Control Interface (MSSCCI)
 - projects, security
 - security, projects
 ms.assetid: 0f5c2f4d-5e16-4277-b750-60813a3ff964
-caps.latest.revision: "18"
+caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008199"
 ---
 # <a name="source-control-and-the-biztalk-project-system"></a>原始檔控制和 BizTalk 專案系統
 原始檔控制是一種機制，軟體中央部分可在其中儲存和追蹤檔案版本以及控制可存取檔案的使用者。 當您使用原始檔控制時，可以：  

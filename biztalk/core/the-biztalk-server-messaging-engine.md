@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server 傳訊引擎 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 傳訊引擎 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c0c8d3e6-953d-4a04-adfc-b77ef7173464
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279262"
 ---
 # <a name="the-biztalk-server-messaging-engine"></a>BizTalk Server 傳訊引擎
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]傳訊引擎可以讓使用者建立跨越多個應用程式藉由提供兩個主要動作的商務程序：  

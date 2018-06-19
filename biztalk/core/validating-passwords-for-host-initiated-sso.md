@@ -1,17 +1,17 @@
 ---
-title: "驗證密碼的主控件初始化的 SSO |Microsoft 文件"
-ms.custom: 
+title: 驗證密碼的主控件初始化的 SSO |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - passwords, host initiated [SSO]
 - host initiated SSO, passwords
 ms.assetid: 3cc1d68a-27ac-46ce-ba1e-21139a9df55e
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287854"
 ---
 # <a name="validating-passwords-for-host-initiated-sso"></a>驗證密碼的主控件初始化的 SSO
 當主控件初始化的 SSO 之分支機構應用程式建立時，依照預設會啟用非 Windows 使用者的密碼驗證。 這表示當應用程式呼叫 SSO 以取得 Windows 使用者 Token 來存取資源時，它們必須提供非 Windows 使用者帳戶與非 Windows 密碼。 若密碼不符合該非 Windows 使用者在 SSO 資料庫中的密碼，就會拒絕存取。 如有必要，可以停用分支機構應用程式的密碼驗證功能。 密碼驗證功能可套用至主控件初始化的 SSO 之個別與主控件群組類型分支機構應用程式。  

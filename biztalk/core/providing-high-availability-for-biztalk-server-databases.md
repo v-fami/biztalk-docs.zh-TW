@@ -1,11 +1,11 @@
 ---
-title: "BizTalk Server 資料庫提供高可用性 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 資料庫提供高可用性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - clustering, SQL Servers
@@ -22,7 +22,7 @@ helpviewer_keywords:
 - data, persistence
 - SQL Server Analysis Services
 ms.assetid: 47fbc402-9e46-41dd-bc12-d1cde1982576
-caps.latest.revision: "41"
+caps.latest.revision: 41
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -31,6 +31,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269342"
 ---
 # <a name="providing-high-availability-for-biztalk-server-databases"></a>為 BizTalk Server 資料庫提供高可用性
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 高度依賴 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 以保存資料。 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中所有其他元件和主控件在整合不同的商業應用程式的程序中都有特定的角色 (例如，接收、處理或路由訊息)，但是資料庫電腦會擷取此工作並將它保存到磁碟中。  

@@ -1,14 +1,14 @@
 ---
-title: "這個排程器無法排程批次 |Microsoft 文件"
-ms.custom: 
+title: 這個排程器無法排程批次 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4146124c-1eb0-4c1e-843b-b19c687a56b7
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278142"
 ---
 # <a name="this-scheduler-was-unable-to-schedule-the-batch"></a>這個排程器無法排程批次
 ## <a name="details"></a>詳細資料  

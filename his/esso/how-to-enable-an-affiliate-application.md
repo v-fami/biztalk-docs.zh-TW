@@ -8,15 +8,16 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 051bc35f-55e6-4811-9559-b1bb66a570ce
-caps.latest.revision: ''
+caps.latest.revision: 3
 author: gplarsen
 ms.author: hisdocs; plarsen
 manager: anneta
 ms.openlocfilehash: 53dcd9886bc808f84b112146971a6f9519c404e2
 ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "30250930"
 ---
 # <a name="how-to-enable-an-affiliate-application"></a>如何啟用分支機構應用程式
 您可以使用 MMC 嵌入式管理單元或**enableapp**命令以啟用指定的分支機構應用程式。  

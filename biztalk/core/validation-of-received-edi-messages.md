@@ -1,14 +1,14 @@
 ---
-title: "驗證收到的 EDI 訊息 |Microsoft 文件"
-ms.custom: 
+title: 驗證收到的 EDI 訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7c56a3c0-042e-4611-8131-d51098064f0f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288054"
 ---
 # <a name="validation-of-received-edi-messages"></a>驗證已接收的 EDI 訊息
 EDI 接收管線處理內送訊息時，會對信封和訊息資料執行一系列驗證。 有些驗證處理是固定會執行的，而有些需經啟用才會執行。 這些驗證包括下列項目：  

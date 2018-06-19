@@ -1,18 +1,18 @@
 ---
-title: "附錄 a： 元件介面方法 |Microsoft 文件"
-ms.custom: 
+title: 附錄 a： 元件介面方法 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - component interfaces, methods
 - methods, component interfaces
 - component interface methods
 ms.assetid: c8377589-fbdf-4287-b822-53263a00381d
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230102"
 ---
 # <a name="appendix-a-component-interface-methods"></a>附錄 a： 元件介面方法
 Microsoft BizTalk Adapter for PeopleSoft Enterprise 有針對元件介面提供標準方法。  

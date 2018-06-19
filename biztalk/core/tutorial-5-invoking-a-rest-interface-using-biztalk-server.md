@@ -1,14 +1,14 @@
 ---
-title: "教學課程 5： 叫用 REST 介面使用 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 教學課程 5： 叫用 REST 介面使用 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 73871ca3-abd0-45ae-b379-6df76a967a80
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287294"
 ---
 # <a name="tutorial-5-invoking-a-rest-interface-using-biztalk-server"></a>教學課程 5： 叫用 REST 介面使用 BizTalk Server
 此章節提供如何叫用 REST 端點使用的逐步解說[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 在本教學課程叫用 REST 端點可從[!INCLUDE[winazure](../includes/winazure-md.md)]Marketplace 傳回延遲班機美式空中承運業者寄送。 本教學課程會使用新**Wcf-webhttp**配接器中導入[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]叫用 REST 端點。  

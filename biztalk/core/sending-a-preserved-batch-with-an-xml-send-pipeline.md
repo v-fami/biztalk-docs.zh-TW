@@ -1,14 +1,14 @@
 ---
-title: "傳送保留批次與 XML 傳送管線 |Microsoft 文件"
-ms.custom: 
+title: 傳送保留批次與 XML 傳送管線 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6765576a-134f-4856-911c-2f603b6479bd
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269822"
 ---
 # <a name="sending-a-preserved-batch-with-an-xml-send-pipeline"></a>透過 XML 傳送管線來傳送保留批次
 通常保留批次會透過 EDI 傳送管線來傳送。 但是，您也可以使用 XML 傳送管線來傳送保留批次。 因為 EDI 接收管線所產生和放入 MessageBox 中的保留批次具有 XML 格式，所以 XML 傳送管線可以逐一處理 XML 格式的批次。  

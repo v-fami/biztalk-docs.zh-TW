@@ -1,14 +1,14 @@
 ---
-title: "檢查清單： 更新協調流程中使用的並存版本控制 |Microsoft 文件"
-ms.custom: 
+title: 檢查清單： 更新協調流程中使用的並存版本控制 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 97f66987-0269-4dfe-a648-7b68412e86fe
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009935"
 ---
 # <a name="checklist-updating-an-orchestration-using-side-by-side-versioning"></a>檢查清單： 更新協調流程中使用的並存版本控制
 變更協調流程可以更為複雜，比其他成品，例如對應變更。 如果您有存留較短的協調流程，簡單的更新可能不足。 但是，如果您有長時間執行的協調流程，或無法終止現有的執行個體，則-並存版本控制會是唯一的選擇。  
@@ -26,11 +27,11 @@ ms.lasthandoff: 12/01/2017
 |步驟|參考|  
 |-----------|---------------|  
 |必要的變更協調流程後，遞增組件版本號碼。|[如何更新組件](../technical-guides/how-to-update-an-assembly.md)|  
-|部署到 BizTalk 應用程式，從 Visual Studio 組件，然後測試組件。 **注意：**請確定您選取要在 GAC 中安裝組件的部署選項。|[部署 BizTalk 組件從 Visual Studio 到 BizTalk 應用程式](http://go.microsoft.com/fwlink/?LinkID=154719)(http://go.microsoft.com/fwlink/?LinkID=154719)。|  
+|部署到 BizTalk 應用程式，從 Visual Studio 組件，然後測試組件。 **注意：** 請確定您選取要在 GAC 中安裝組件的部署選項。|[部署 BizTalk 組件從 Visual Studio 到 BizTalk 應用程式](http://go.microsoft.com/fwlink/?LinkID=154719)(http://go.microsoft.com/fwlink/?LinkID=154719)。|  
 |將組件匯出至.msi 檔案將測試環境中的應用程式。|[如何將應用程式匯出至 .msi 檔案](../technical-guides/how-to-export-an-application-to-an-msi-file.md)|  
-|將.msi 檔案匯入實際執行環境，其中包含您想要更新的協調流程的 BizTalk 應用程式。 **注意：**您可以使用下列步驟的測試組件並將其部署到實際執行環境。|[如何從 .msi 檔案匯入應用程式](../technical-guides/how-to-import-an-application-from-an-msi-file.md)|  
+|將.msi 檔案匯入實際執行環境，其中包含您想要更新的協調流程的 BizTalk 應用程式。 **注意：** 您可以使用下列步驟的測試組件並將其部署到實際執行環境。|[如何從 .msi 檔案匯入應用程式](../technical-guides/how-to-import-an-application-from-an-msi-file.md)|  
 |繫結更新與原始協調流程使用相同的繫結的協調流程。|[如何設定協調流程的繫結](http://go.microsoft.com/fwlink/?LinkId=154850)(http://go.microsoft.com/fwlink/?LinkId=154850)。|  
-|取消登錄原始的協調流程，然後啟動更新的協調流程。 **注意：**避免任何訊息遺失，您應該執行下列作業以程式設計的方式。|如需有關以程式設計方式部署協調流程的詳細資訊，請參閱[部署和啟動新版本的協調流程以程式設計方式](http://go.microsoft.com/fwlink/?LinkId=154851)(http://go.microsoft.com/fwlink/?LinkId=154851)。<br /><br /> 如需有關如何手動部署協調流程的詳細資訊，請參閱 BizTalk Server 說明中的下列：<br /><br /> -   [如何取消登錄協調流程](http://go.microsoft.com/fwlink/?LinkId=154852)(http://go.microsoft.com/fwlink/?LinkId=154852)。<br />-   [如何登錄協調流程](http://go.microsoft.com/fwlink/?LinkId=154853)(http://go.microsoft.com/fwlink/?LinkId=154853)。<br />-   [如何啟動協調流程](http://go.microsoft.com/fwlink/?LinkId=154854)(http://go.microsoft.com/fwlink/?LinkId=154854)。|  
+|取消登錄原始的協調流程，然後啟動更新的協調流程。 **注意：** 避免任何訊息遺失，您應該執行下列作業以程式設計的方式。|如需有關以程式設計方式部署協調流程的詳細資訊，請參閱[部署和啟動新版本的協調流程以程式設計方式](http://go.microsoft.com/fwlink/?LinkId=154851)(http://go.microsoft.com/fwlink/?LinkId=154851)。<br /><br /> 如需有關如何手動部署協調流程的詳細資訊，請參閱 BizTalk Server 說明中的下列：<br /><br /> -   [如何取消登錄協調流程](http://go.microsoft.com/fwlink/?LinkId=154852)(http://go.microsoft.com/fwlink/?LinkId=154852)。<br />-   [如何登錄協調流程](http://go.microsoft.com/fwlink/?LinkId=154853)(http://go.microsoft.com/fwlink/?LinkId=154853)。<br />-   [如何啟動協調流程](http://go.microsoft.com/fwlink/?LinkId=154854)(http://go.microsoft.com/fwlink/?LinkId=154854)。|  
 |監視系統執行個體的原始的協調流程版本使用 群組中樞頁面上的查詢檢視。|[如何檢視協調流程的執行個體資訊](http://go.microsoft.com/fwlink/?LinkId=154855)(http://go.microsoft.com/fwlink/?LinkId=154855)。|  
 |所有其作用中、 凍結和擱置的執行個體完成時，解除部署應用程式從原始的協調流程。|[如何從應用程式移除協調流程](http://go.microsoft.com/fwlink/?LinkId=154856)(http://go.microsoft.com/fwlink/?LinkId=154856)。|  
 |從每部執行應用程式的電腦上的 GAC，選擇性地解除安裝的原始組件版本。|[如何從 GAC 解除安裝組件](http://go.microsoft.com/fwlink/?LinkId=154857)(http://go.microsoft.com/fwlink/?LinkId=154857)。|  

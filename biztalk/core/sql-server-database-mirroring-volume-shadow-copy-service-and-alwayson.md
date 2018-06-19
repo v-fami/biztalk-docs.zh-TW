@@ -1,14 +1,14 @@
 ---
-title: "SQL Server 資料庫鏡像磁碟區陰影複製服務和 AlwaysOn |Microsoft 文件"
-ms.custom: 
+title: SQL Server 資料庫鏡像磁碟區陰影複製服務和 AlwaysOn |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b965cafc-cd34-4657-975d-0dedffd27333
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277990"
 ---
 # <a name="sql-server-database-mirroring-volume-shadow-copy-service-and-alwayson"></a>SQL Server 資料庫鏡像磁碟區陰影複製服務和 AlwaysOn
 Microsoft 提供軟體解決方案，稱為 SQL Server*資料庫鏡像*和 Windows 磁碟區陰影複製服務 (VSS) 來增加特定案例的高可用性。 SQL Server*資料庫鏡像*增加資料庫的可用磁碟區陰影複製服務 (VSS) 提供災害復原的備份和還原功能的機率。 使用 SQL Server*資料庫鏡像*或 Windows 磁碟區陰影複製服務不支援的解決方案，可確保高可用性的 Microsoft[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫。  

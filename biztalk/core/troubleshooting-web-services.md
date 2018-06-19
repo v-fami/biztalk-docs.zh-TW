@@ -1,14 +1,14 @@
 ---
-title: "Web 服務疑難排解 |Microsoft 文件"
-ms.custom: 
+title: Web 服務疑難排解 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c32bf542-dcc6-4727-b31f-52bb19d4b89d
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287486"
 ---
 # <a name="troubleshooting-web-services"></a>Web 服務疑難排解
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在使用 SOAP 配接器以及將協調流程發佈為 Web 服務時，均大量使用 Web 服務。 本主題提供可供您進行 Web 服務疑難排解的一些步驟，並說明某些常見的 Web 服務問題以及解決這些問題的方式。  

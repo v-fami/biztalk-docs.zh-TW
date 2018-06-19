@@ -1,11 +1,11 @@
 ---
-title: "服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: 服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service solutions
@@ -30,7 +30,7 @@ helpviewer_keywords:
 - business solutions, Web services
 - business solutions, service solutions
 ms.assetid: ce7cdf8d-ecaf-4a6a-9536-a9cf5d7f874f
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -39,6 +39,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271366"
 ---
 # <a name="service-oriented-solution"></a>服務導向解決方案
 服務導向解決方案顯示如何將 BizTalk 應用程式以服務的方式呈現，可做為 Web 服務並可供舊有應用程式存取的形式來使用。 解決方案也顯示如何與做為 Web 服務的後端程序通訊，以及如何從多個後端系統彙總回應。  

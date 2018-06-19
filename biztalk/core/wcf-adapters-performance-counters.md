@@ -1,18 +1,18 @@
 ---
-title: "WCF 配接器效能計數器 |Microsoft 文件"
-ms.custom: 
+title: WCF 配接器效能計數器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - performance, WCF adapters
 - performance, performance counters
 - WCF adapters, performance
 ms.assetid: 9feb052f-5674-419f-84ab-9b5d312a04a5
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289470"
 ---
 # <a name="wcf-adapters-performance-counters"></a>WCF 配接器效能計數器
 效能計數器可讓您針對服務在網站或系統上所執行的工作，監控其特定層面。 效能計數器也可以幫助您識別和疑難排解伺服器的效能問題。 WCF 配接器本身並未提供效能計數器。 然而，監控 Windows Communication Foundation (WCF) 的效能計數器，即可量測 WCF 接收位置的效能。 若要針對 WCF 接收位置使用 WCF 效能計數器，您必須為執行接收位置之主控件執行個體啟用效能計數器。  

@@ -1,15 +1,15 @@
 ---
-title: "追蹤資料至 Application Insights 或事件中心 |Microsoft 文件"
-description: "若要啟用分析追蹤資料與 Azure Application Insights 或 BizTalk Server 中的 Azure 事件中心的功能套件的安裝"
+title: 追蹤資料至 Application Insights 或事件中心 |Microsoft 文件
+description: 若要啟用分析追蹤資料與 Azure Application Insights 或 BizTalk Server 中的 Azure 事件中心的功能套件的安裝
 ms.custom: fp1, fp2
 ms.date: 11/16/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b3ff6cb9-44d0-46cd-9b4f-a346365afb7b
-caps.latest.revision: 
+caps.latest.revision: 10
 author: tordgladnordahl
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710777"
 ---
 # <a name="send-biztalk-tracking-data-to-azure-application-insights-or-event-hubs"></a>傳送 BizTalk 追蹤資料到 Azure Application Insights 或事件中心
 
@@ -42,7 +43,7 @@ ms.lasthandoff: 02/28/2018
 3. 如**目標類型**，選取**Application Insight**或**事件中心**從清單中。
     ![啟用分析為您的環境](../core/media/environmentsettingapplicationinishgt.PNG)
 
-4. 如**連接參數**，選取**...**  按鈕，和**登入**到您的 Azure 帳戶。  
+4. 如**連接參數**，選取 **...**  按鈕，和**登入**到您的 Azure 帳戶。  
 
     **Application insights**  
     選取您**訂用帳戶**，**資源群組**，和您的 Application Insights 執行個體。

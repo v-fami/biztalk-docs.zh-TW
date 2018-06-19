@@ -1,14 +1,14 @@
 ---
-title: "交易集的重複控制編號找到 |Microsoft 文件"
-ms.custom: 
+title: 交易集的重複控制編號找到 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1b2779a0-b365-4c4b-81c7-8f9284748b6e
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278558"
 ---
 # <a name="transaction-set-duplicate-control-number-found"></a>找到的交易集重複控制編號
 ## <a name="details"></a>詳細資料  

@@ -1,18 +1,18 @@
 ---
-title: "交易式協調流程 |Microsoft 文件"
-ms.custom: 
+title: 交易式協調流程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - orchestrations, compensations
 - orchestrations, transactional
 - Transaction Type property
 ms.assetid: c4f0b6ca-d939-4d3a-b7ef-53c6aafdea9c
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278734"
 ---
 # <a name="transacted-orchestrations"></a>交易的協調流程
 協調流程可以是交易式流程，就像範圍一樣。 事實上，協調流程本身也可以視為範圍。 適用於交易協調流程的相同規則通常也適用於交易範圍。  

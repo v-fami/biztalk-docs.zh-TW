@@ -1,14 +1,14 @@
 ---
-title: "收集例外狀況，並將保存使用 ESB 例外狀況處理器裝載 |Microsoft 文件"
-ms.custom: 
+title: 收集例外狀況，並將保存使用 ESB 例外狀況處理器裝載 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 52650eed-e760-4ade-bc3f-2b5b2a1c43ff
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007015"
 ---
 # <a name="collecting-exceptions-and-persisting-the-payload-using-the-esb-exception-processor"></a>收集例外狀況，並將保存裝載使用 ESB 例外狀況處理器
 在此使用情況下，協調流程的例外狀況處理常式會發佈 ESB 錯誤訊息到 BizTalk Server 訊息方塊，或是 BizTalk 失敗訊息路由的機制會產生錯誤訊息。 傳送埠，以 ESB 例外狀況編碼器管線元件，預先設定訂閱這兩個錯誤訊息類型。 它會處理錯誤訊息，並再將它們保存為磁碟檔案，您可以檢視使用 InfoPath，如圖 1 所示。  

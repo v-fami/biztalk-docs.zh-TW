@@ -1,11 +1,11 @@
 ---
-title: "Windows SharePoint Services 配接器屬性參考 |Microsoft 文件"
-ms.custom: 
+title: Windows SharePoint Services 配接器屬性參考 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - ConfigCustomTemplatesDocLib property [Windows SharePoint Services adapters]
@@ -40,7 +40,7 @@ helpviewer_keywords:
 - ConfigNamespaceAliases property [Windows SharePoint Services adapters]
 - ConfigAdapterWSPort property [Windows SharePoint Services adapters]
 ms.assetid: c64c43ac-05bb-427c-987a-71663ae8e43d
-caps.latest.revision: "22"
+caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -49,6 +49,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22291750"
 ---
 # <a name="windows-sharepoint-services-adapter-properties-reference"></a>Windows SharePoint Services 配接器屬性參考
 下列 Windows SharePoint Services 配接器屬性會升級到 BizTalk Server 或用來指定外寄訊息的傳送埠組態選項。 這些屬性可以用來存取與訊息相關的 Windows SharePoint Services 資訊，或提供資訊到來自協調流程內的 Windows SharePoint Services 配接器。  
@@ -75,9 +76,9 @@ ms.lasthandoff: 09/20/2017
   
 |屬性類型|Description|  
 |-------------------|-----------------|  
-|**IN**|IN 屬性是從 Windows SharePoint Services 取得其值的 BizTalk Server 屬性。 **注意：**您不應修改這些屬性在協調流程中的。|  
+|**IN**|IN 屬性是從 Windows SharePoint Services 取得其值的 BizTalk Server 屬性。 **注意：** 您不應修改這些屬性在協調流程中的。|  
 |**組態**|CONFIG 屬性是從 BizTalk 協調流程或自訂管線取得其值的屬性。 Windows SharePoint Services 配接器會在決定外寄訊息的目的地時，使用此值。 CONFIG 屬性可以讓您指定在協調流程或自訂管線中的部分屬性值，不然您必須在傳送埠中定義。 開頭不是 IN 或 CONFIG 的屬性皆是 IN 和 CONFIG，URL 屬性除外。|  
-|**升級**|以內容為基礎的路由 (CBR) 可以使用 PROMOTED 屬性。 CBR 無法使用不是標示為 PROMOTED 的屬性。 **注意：**升級的屬性雖然所有配接器屬性會顯示在 CBR 篩選編輯器中，可用於 CBR。|  
+|**升級**|以內容為基礎的路由 (CBR) 可以使用 PROMOTED 屬性。 CBR 無法使用不是標示為 PROMOTED 的屬性。 **注意：** 升級的屬性雖然所有配接器屬性會顯示在 CBR 篩選編輯器中，可用於 CBR。|  
 |**特殊**|不適用|  
   
 > [!NOTE]
@@ -102,18 +103,18 @@ ms.lasthandoff: 09/20/2017
 |檔案大小|InFileSize|xs:int|Windows SharePoint Services 檔案的大小。|IN|  
 |不適用|InListName|xs:string|此檔案所在的文件庫名稱。|IN/PROMOTED|  
 |不適用|InListUrl|xs:string|此檔案所在的文件庫或文件庫資料夾名稱。|IN|  
-|不適用|InPropertiesXml|xs:string|包含所有標準和使用者定義 Windows SharePoint Services 資料行的一般 XML 文件。 它可以從協調流程存取任何 Windows SharePoint Services 資料行，包括使用者定義資料行的值。 **注意：**它沒有 16 資料行的限制。 **注意：**請參閱本主題的下一節的範例 InPropertiesXml 值。|IN|  
+|不適用|InPropertiesXml|xs:string|包含所有標準和使用者定義 Windows SharePoint Services 資料行的一般 XML 文件。 它可以從協調流程存取任何 Windows SharePoint Services 資料行，包括使用者定義資料行的值。 **注意：** 它沒有 16 資料行的限制。 **注意：** 請參閱本主題的下一節的範例 InPropertiesXml 值。|IN|  
 |不適用|InOfficeIntegration|xs:string|根據接收位置的值。 這個值可以是 `yes`、`no` 或 `optional`。|IN|  
-|不適用|ConfigOverwrite|xs:string|[是] 會以相同名稱覆寫已經存在的檔案。 [否] 會在相同名稱的檔案存在時引發一個錯誤。 [重新命名] 會藉由附加唯一的序列到檔案名稱，將檔案變成一個唯一名稱。 **注意：**這是與實體傳送埠的 [覆寫] 欄位相似。 **注意：** [協調流程] 不是有效的值，這個欄位。|CONFIG|  
+|不適用|ConfigOverwrite|xs:string|[是] 會以相同名稱覆寫已經存在的檔案。 [否] 會在相同名稱的檔案存在時引發一個錯誤。 [重新命名] 會藉由附加唯一的序列到檔案名稱，將檔案變成一個唯一名稱。 **注意：** 這是與實體傳送埠的 [覆寫] 欄位相似。 **注意：** [協調流程] 不是有效的值，這個欄位。|CONFIG|  
 |不適用|ConfigNamespaceAliases|xs:string|XPATHs 的別名定義。|CONFIG|  
-|不適用|ConfigOfficeIntegration|xs:string|若應該呼叫 OfficeImporter 則為 [是]。 [否] 則依原狀處理訊息，不作任何變更。 若找到 IP 解決方案，則 [選擇性] 會導致 [是]，不然則為 [否]。 **注意：**這是與實體傳送埠的 [Microsoft Office 整合] 欄位相似。 **注意：** [協調流程] 不是有效的值，這個欄位。|CONFIG|  
-|不適用|ConfigTemplatesDocLib|xs:string|後援文件庫名稱。 這是搜尋的第二個位置。 **注意：**這是與實體傳送埠的 [範本後援文件庫] 欄位相似。|CONFIG|  
-|不適用|ConfigTemplatesNamespaceCol|xs:string|後援文件庫的命名空間資料行名稱。 **注意：**類似於實體傳送埠的 範本後援命名空間資料行 ' 欄位。|CONFIG|  
-|不適用|ConfigCustomTemplatesDocLib|xs:string|主要文件庫名稱。 這是搜尋的第一個位置。 **注意：**這是與實體傳送埠的 [範本文件庫] 欄位相似。|CONFIG|  
-|不適用|ConfigCustomTemplatesNamespaceCol|xs:string|主要文件庫的命名空間資料行名稱。 **注意：**這是與實體傳送埠的 [範本命名空間資料行] 欄位相似。|CONFIG|  
-|不適用|ConfigPropertiesXml|xs:string|一般 XML 文件，其中包含所有 Windows SharePoint Services 資料行名稱，以及隨後在 Windows SharePoint Services 中更新的值。 它可以讓協調流程開發人員設定即將在 SharePoint 建立的後續訊息的 SharePoint 資料行值。 **注意：**類似於資料行 n 透過所提供的功能和資料行 n 值 欄位的實體傳送埠。 **注意：**它有 16 個資料行限制。 **注意：**請參閱本主題稍後的範例 ConfigPropertiesXml 值。|CONFIG|  
+|不適用|ConfigOfficeIntegration|xs:string|若應該呼叫 OfficeImporter 則為 [是]。 [否] 則依原狀處理訊息，不作任何變更。 若找到 IP 解決方案，則 [選擇性] 會導致 [是]，不然則為 [否]。 **注意：** 這是與實體傳送埠的 [Microsoft Office 整合] 欄位相似。 **注意：** [協調流程] 不是有效的值，這個欄位。|CONFIG|  
+|不適用|ConfigTemplatesDocLib|xs:string|後援文件庫名稱。 這是搜尋的第二個位置。 **注意：** 這是與實體傳送埠的 [範本後援文件庫] 欄位相似。|CONFIG|  
+|不適用|ConfigTemplatesNamespaceCol|xs:string|後援文件庫的命名空間資料行名稱。 **注意：** 類似於實體傳送埠的 範本後援命名空間資料行 ' 欄位。|CONFIG|  
+|不適用|ConfigCustomTemplatesDocLib|xs:string|主要文件庫名稱。 這是搜尋的第一個位置。 **注意：** 這是與實體傳送埠的 [範本文件庫] 欄位相似。|CONFIG|  
+|不適用|ConfigCustomTemplatesNamespaceCol|xs:string|主要文件庫的命名空間資料行名稱。 **注意：** 這是與實體傳送埠的 [範本命名空間資料行] 欄位相似。|CONFIG|  
+|不適用|ConfigPropertiesXml|xs:string|一般 XML 文件，其中包含所有 Windows SharePoint Services 資料行名稱，以及隨後在 Windows SharePoint Services 中更新的值。 它可以讓協調流程開發人員設定即將在 SharePoint 建立的後續訊息的 SharePoint 資料行值。 **注意：** 類似於資料行 n 透過所提供的功能和資料行 n 值 欄位的實體傳送埠。 **注意：** 它有 16 個資料行限制。 **注意：** 請參閱本主題稍後的範例 ConfigPropertiesXml 值。|CONFIG|  
 |不適用|ConfigTimeout|xs:int|Web 服務呼叫的逾時 (以毫秒為單位)。|CONFIG|  
-|不適用|ConfigAdapterWSPort|xs:int|連接埠或 IIS 的網站，其中已安裝並設定配接器。 **注意：**協調流程中無效的連接埠組態值將會擱置該訊息，即使實體傳送埠的值覆寫協調流程定義。|CONFIG|  
+|不適用|ConfigAdapterWSPort|xs:int|連接埠或 IIS 的網站，其中已安裝並設定配接器。 **注意：** 協調流程中無效的連接埠組態值將會擱置該訊息，即使實體傳送埠的值覆寫協調流程定義。|CONFIG|  
   
 ## <a name="sample-inpropertiesxml"></a>範例 InPropertiesXml  
  以下是 InPropertiesXml 的範例 XML。  

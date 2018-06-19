@@ -1,11 +1,11 @@
 ---
-title: "逐步解說： 建立 BizTalk 應用程式使用 MQSeries 配接器 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 建立 BizTalk 應用程式使用 MQSeries 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IBM WebSphere MQ queues
@@ -17,7 +17,7 @@ helpviewer_keywords:
 - MQSeries adapters, queues
 - configuring [MQSeries adapters], tutorial
 ms.assetid: e9e169e4-d41c-4e5d-b165-7bd36b481f24
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -26,6 +26,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290470"
 ---
 # <a name="walkthrough-creating-a-biztalk-application-that-uses-the-mqseries-adapter"></a>逐步解說： 建立使用 MQSeries 配接器的 BizTalk 應用程式
 本節將帶領您建立使用 MQSeries 配接器的簡單 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 應用程式。  
@@ -44,7 +45,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，指向 **程式**，指向  **IBM WebSphere MQ**，然後按一下  **WebSphere MQ Explorer**。  
   
-2.  按兩下**佇列管理員**，然後按兩下預設佇列管理員。 預設佇列管理員通常會命名為**Qm_<***< machine_name >*其中*machine_name*是您的電腦名稱。  
+2.  按兩下**佇列管理員**，然後按兩下預設佇列管理員。 預設佇列管理員通常會命名為**Qm_<***< machine_name >* 其中*machine_name*是您的電腦名稱。  
   
 3.  以滑鼠右鍵按一下**佇列**，指向 **新增**，然後按一下 **本機佇列**。  
   
@@ -83,7 +84,7 @@ ms.lasthandoff: 09/20/2017
   
 12. 在**佇列**方塊中，輸入**MQStoBTS**，然後按一下 **匯出**。  
   
-13. 中**匯出**對話方塊中，按一下**Create Queue**，然後按一下 [**確定**和**[確定]** ，以返回**接收位置屬性**] 對話方塊。  
+13. 中**匯出**對話方塊中，按一下**Create Queue**，然後按一下 [**確定**和 **[確定]** ，以返回**接收位置屬性**] 對話方塊。  
   
 14. 在**接收處理常式**方塊中，選取**BizTalkServerApplication**。  
   
@@ -110,7 +111,7 @@ ms.lasthandoff: 09/20/2017
   
 8.  在**佇列**方塊中，輸入**BTStoMQS**，然後按一下 **匯出**。  
   
-9. 中**匯出**對話方塊中，按一下**Create Queue**，然後按一下 [**確定**和**[確定]** ，以返回**傳送埠屬性**] 對話方塊。  
+9. 中**匯出**對話方塊中，按一下**Create Queue**，然後按一下 [**確定**和 **[確定]** ，以返回**傳送埠屬性**] 對話方塊。  
   
 10. 在**傳送管線**方塊中，選取**PassThruTransmit**。  
   

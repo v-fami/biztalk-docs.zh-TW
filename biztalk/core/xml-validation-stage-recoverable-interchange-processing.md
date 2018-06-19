@@ -1,14 +1,14 @@
 ---
-title: "XML 驗證階段 （可復原交換處理） |Microsoft 文件"
-ms.custom: 
+title: XML 驗證階段 （可復原交換處理） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1ed00971-d85b-4adb-86c4-c56de7ba7c67
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289950"
 ---
 # <a name="xml-validation-stage-recoverable-interchange-processing"></a>XML 驗證階段 (可復原交換處理)
 **XML 驗證器**管線元件會處理交換，在兩種模式：  

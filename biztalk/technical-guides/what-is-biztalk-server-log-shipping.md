@@ -1,14 +1,14 @@
 ---
-title: "什麼是 BizTalk Server 記錄傳送？ | Microsoft Docs"
-ms.custom: 
+title: 什麼是 BizTalk Server 記錄傳送？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 79a2088a-ff36-4590-97c9-51d5bb245486
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010495"
 ---
 # <a name="what-is-biztalk-server-log-shipping"></a>什麼是 BizTalk Server 記錄傳送？
 BizTalk Server 嚴重損壞修復程序根據 BizTalk 建立記錄傳送。 BizTalk 記錄傳送可簡化資料庫還原發生災害時持續套用交易記錄更新至災害復原站台資料庫。  

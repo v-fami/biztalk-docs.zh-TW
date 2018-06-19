@@ -1,11 +1,11 @@
 ---
-title: "瞭解服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: 瞭解服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - service solution tutorial, background information
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - service solution tutorial, about service solution tutorial
 - Service Oriented Architecture (SOA)
 ms.assetid: 56a2ad90-74bb-489a-ab1d-900f3bea3d64
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287942"
 ---
 # <a name="understanding-the-service-oriented-solution"></a>瞭解服務導向解決方案
 服務導向解決方案提供以服務方式設計的信用結餘報告應用程式。 接著應用程式會使用三個以服務方式公開的後端應用程式，來取得信用結餘所需的資訊。  

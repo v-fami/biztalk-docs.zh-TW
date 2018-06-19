@@ -1,14 +1,14 @@
 ---
-title: "Microsoft BizTalk Server FileAct 和互動的介面卡的文件 |Microsoft 文件"
-ms.custom: 
+title: Microsoft BizTalk Server FileAct 和互動的介面卡的文件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: f7079835-cfb4-4696-9993-b70f31a57259
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22223974"
 ---
 # <a name="microsoft-biztalk-server-fileact-and-interact-adapters-documentation"></a>Microsoft BizTalk Server FileAct 和互動的介面卡的文件
 [!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]包含的資訊可協助您安裝和設定 FileAct 和 InterAct adapters、 了解這些介面卡，和了解的架構。  

@@ -1,11 +1,11 @@
 ---
-title: "何謂活動檢視？ | Microsoft Docs"
-ms.custom: 
+title: 何謂活動檢視？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - activities [BAM], Activity view [Tracking Profile Editor]
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Tracking Profile Editor, Activity view
 - Activity view [Tracking Profile Editor]
 ms.assetid: ae6bcdc8-e426-4148-b83d-08a1a5e99ca3
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290382"
 ---
 # <a name="what-is-an-activity-view"></a>何謂活動檢視？
 活動檢視含有匯入的 BAM 活動定義，這是您使用 Excel 的 BAM 增益集所建立的。 BAM 活動定義是對於商務程序之追蹤需求的抽象概念。 活動可以跨越多個協調流程與連接埠。 您可以匯入一次活動定義，然後將活動定義對應至每個符合部分定義的協調流程或傳訊成品。  
@@ -73,9 +74,9 @@ ms.lasthandoff: 09/20/2017
   
 |功能表項目|使用方式|  
 |---------------|-----------|  
-|新接續|在 [活動] 樹狀結構中插入新的 [Continuation] 資料夾。 您對應此資料夾從接續的來源區段的值。<br /><br /> 與 [ContinuationID] 資料夾搭配使用，提供一種方式讓填入相同活動的多個元件彼此互相轉手處理工作。 BizTalk 協調流程、連接埠、BufferedEventStreams 和 DirectEventStreams 都是這些元件的例子。 **注意：**接續資料夾名稱可以包含最多 127 個字元。|  
+|新接續|在 [活動] 樹狀結構中插入新的 [Continuation] 資料夾。 您對應此資料夾從接續的來源區段的值。<br /><br /> 與 [ContinuationID] 資料夾搭配使用，提供一種方式讓填入相同活動的多個元件彼此互相轉手處理工作。 BizTalk 協調流程、連接埠、BufferedEventStreams 和 DirectEventStreams 都是這些元件的例子。 **注意：** 接續資料夾名稱可以包含最多 127 個字元。|  
 |新 ContinuationID|在 [活動] 樹狀結構中插入 [ContinuationID] 資料夾。 您可以將這個資料夾對應到接續的 continued-to 區段。 例如，如果協調流程 A 接續到協調流程 B，這個資料夾就必須對應到協調流程 B 中的項目。<br /><br /> 與 [Continuation] 資料夾搭配使用，提供一種方式讓填入相同活動的多個元件彼此互相轉手處理工作。 BizTalk 協調流程、連接埠、BufferedEventStreams 和 DirectEventStreams 都是這些元件的例子。 **注意：** continuationid 資料夾可以包含最多 127 個字元。|  
-|新增關聯性|在 [活動] 樹狀結構中插入新的關係資料夾。 用於發佈組成檢視之各個活動之間的關係。 **注意：**關係資料夾名稱可以包含最多 128 個字元。 這包括了伺服器名稱和 BizTalk 管理資料庫名稱。|  
+|新增關聯性|在 [活動] 樹狀結構中插入新的關係資料夾。 用於發佈組成檢視之各個活動之間的關係。 **注意：** 關係資料夾名稱可以包含最多 128 個字元。 這包括了伺服器名稱和 BizTalk 管理資料庫名稱。|  
 |新 Document Reference URL|在 [活動] 樹狀結構中插入新的 [Document Reference URL] 資料夾。 用於將參考 URL 設定為含有此活動相關文件的位置。 **注意：** Document Reference URL 資料夾名稱可以包含最多 128 個字元。|  
   
  **屬性節點**  

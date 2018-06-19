@@ -1,11 +1,11 @@
 ---
-title: "向外擴充 SQL Server 層 |Microsoft 文件"
-ms.custom: 
+title: 向外擴充 SQL Server 層 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - scaling, MessageBox database
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - MessageBox database, scaling
 - scaling, strategies
 ms.assetid: d5b2ebba-401e-4fde-8818-407fa626043a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22272350"
 ---
 # <a name="scaling-out-the-sql-server-tier"></a>向外擴充 SQL Server 層
 針對每個 BizTalk 群組，加入一個主要 MessageBox 資料庫。 所有之後加入的 MessageBox 資料庫都稱為次要 MessageBox。 主要 MessageBox 會處理所有的訂閱和訊息路由， 而且還可以發佈訊息。 次要 MessageBox 資料庫只有在經過特別設定時，才會發佈訊息。  

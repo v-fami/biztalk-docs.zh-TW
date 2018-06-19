@@ -1,17 +1,17 @@
 ---
-title: "版本控制服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: 版本控制服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - versioning, service solutions
 - service solution tutorial, versioning
 ms.assetid: 0e09720f-53f2-4b38-aae3-a79ddfd35be5
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287638"
 ---
 # <a name="versioning-the-service-oriented-solution"></a>版本控制服務導向解決方案
 做為前端加入方案中，兩個協調流程**CustomerServiceReceiveSend**和**CustomerServiceNativeRequestResponse**，呼叫中央使用協調流程， **CustomerService**。 協調流程呼叫取決於包含協調流程之組件的版本號碼。 由於這三個協調流程都在相同的組件中，因此沒有版本管理的問題。  

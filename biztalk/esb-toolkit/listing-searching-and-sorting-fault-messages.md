@@ -1,14 +1,14 @@
 ---
-title: "列出、 搜尋和排序錯誤訊息 |Microsoft 文件"
-ms.custom: 
+title: 列出、 搜尋和排序錯誤訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 850b9682-8eba-4a3f-8508-d3eefcd715b7
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294638"
 ---
 # <a name="listing-searching-and-sorting-fault-messages"></a>列出、 搜尋和排序錯誤訊息
 您可以使用 ESB 管理入口網站的首頁上，若要取得 Microsoft BizTalk Server 內執行的應用程式狀態的整體檢視。 錯誤頁面可用來查詢的錯誤訊息，根據準則的範圍。  
@@ -27,7 +28,7 @@ ms.lasthandoff: 09/20/2017
   
 2.  若要選取您要檢視資訊的應用程式，請按一下**選取應用程式**連結上方的第一個圖表，然後選取或清除核取方塊會顯示已安裝 BizTalk Server 應用程式清單中。  
   
-3.  若要變更的期間，入口網站會顯示資訊，請選取**小時、 天、 週、 月、 季、 年、**或**所有**第一個圖表上方的下拉式清單中。  
+3.  若要變更的期間，入口網站會顯示資訊，請選取**小時、 天、 週、 月、 季、 年、** 或**所有**第一個圖表上方的下拉式清單中。  
   
 4.  若要變更預設設定用於應用程式的清單顯示期間在首頁上，編輯設定上[入口網站我的設定頁面](../esb-toolkit/portal-my-settings-page.md)。  
   

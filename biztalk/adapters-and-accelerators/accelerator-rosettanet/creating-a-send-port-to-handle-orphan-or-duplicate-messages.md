@@ -1,11 +1,11 @@
 ---
-title: "建立傳送埠，以便處理遭遺棄或重複的訊息 |Microsoft 文件"
-ms.custom: 
+title: 建立傳送埠，以便處理遭遺棄或重複的訊息 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - messages, duplicate messages
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - send ports, orphaned messages
 - messages, send ports
 ms.assetid: 61d51206-13e3-4d32-a184-866248db9b45
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006951"
 ---
 # <a name="creating-a-send-port-to-handle-orphan-or-duplicate-messages"></a>建立傳送埠，以便處理遭遺棄或重複的訊息
 本主題說明如何設定傳送埠，讓您可以用來刪除遭遺棄或重複的訊息。  

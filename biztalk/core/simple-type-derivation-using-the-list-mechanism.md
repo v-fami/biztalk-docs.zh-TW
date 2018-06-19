@@ -1,14 +1,14 @@
 ---
-title: "使用清單機制衍生簡單型別 |Microsoft 文件"
-ms.custom: 
+title: 使用清單機制衍生簡單型別 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 14f3c7b7-7585-4297-9177-2deaef8355f0
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270958"
 ---
 # <a name="simple-type-derivation-using-the-list-mechanism"></a>使用清單機制的簡單型別衍生
 當您使用清單機制從現有的簡單型別衍生新的簡單型別時，即是指定此屬性或項目的值做為指定型別之以空格分隔的值清單。 例如，您可以指定屬性或項目值為以空格分隔的整數清單。  

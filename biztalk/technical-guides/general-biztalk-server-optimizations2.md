@@ -1,14 +1,14 @@
 ---
-title: "一般 BizTalk Server Optimizations2 |Microsoft 文件"
-ms.custom: 
+title: 一般 BizTalk Server Optimizations2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 41b452e9-d94c-4bcb-8ef6-e9cea28fc0ab
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009975"
 ---
 # <a name="general-biztalk-server-optimizations"></a>一般 BizTalk Server 最佳化
 下列建議可以用來增加[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]效能。 本主題中列出的最佳化會在之後套用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]已經安裝及設定。  
@@ -172,7 +173,7 @@ ms.lasthandoff: 12/01/2017
     |DWORD 項目|預設值|建議值|  
     |-----------------|-------------------|-----------------------|  
     |MaxIOThreads|20|100|  
-    |MaxWorkerThreads|25|100**重要事項：**增加此值超過 100，則可以有裝載 BizTalk Server MessageBox 資料庫之 SQL Server 電腦的效能造成負面影響。 發生此問題時，SQL Server 可能會遇到死結狀況。 建議您將此參數不增加超過 100 的值。|  
+    |MaxWorkerThreads|25|100**重要事項：** 增加此值超過 100，則可以有裝載 BizTalk Server MessageBox 資料庫之 SQL Server 電腦的效能造成負面影響。 發生此問題時，SQL Server 可能會遇到死結狀況。 建議您將此參數不增加超過 100 的值。|  
     |MinIOThreads|1|25|  
     |MinWorkerThreads|1|25|  
   

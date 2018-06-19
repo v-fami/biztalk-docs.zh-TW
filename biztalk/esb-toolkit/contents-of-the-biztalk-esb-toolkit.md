@@ -1,14 +1,14 @@
 ---
-title: "BizTalk ESB 工具組的內容 |Microsoft 文件"
-ms.custom: 
+title: BizTalk ESB 工具組的內容 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6e7114df-dadf-49ab-b024-44d84e47faa5
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290614"
 ---
 # <a name="contents-of-the-biztalk-esb-toolkit"></a>BizTalk ESB 工具組的內容
 [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]提供的架構指引、 模式和作法，以及 BizTalk Server 和.NET Framework 元件，可簡化開發 Microsoft 平台上的企業級解決方案的集合。 此工具組也提供功能，可協助開發人員擴充現有的訊息和整合解決方案。 [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]集合間的互通性支援並實作鬆散偶合的傳訊環境，可簡化建立動態的訊息型企業應用程式的程序的元件所組成。  

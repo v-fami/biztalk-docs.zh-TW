@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 建立拒絕要求結構描述 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 建立拒絕要求結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e1ce166c-1be1-4ef4-9d00-3da7038d4ada
-caps.latest.revision: "39"
+caps.latest.revision: 39
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,15 +17,16 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278550"
 ---
 # <a name="step-3-create-the-request-decline-schema"></a>步驟 3：建立拒絕要求結構描述
 ![步驟 5 的 3](../core/media/step-3of5.gif "Step_3of5")  
   
  **若要完成的時間：** 7 分鐘  
   
- **目標：**在此步驟中，您會建立訊息的結構描述[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]傳送傳回倉儲的商務程序拒絕庫存補充要求的情況。  
+ **目標：** 在此步驟中，您會建立訊息的結構描述[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]傳送傳回倉儲的商務程序拒絕庫存補充要求的情況。  
   
- **用途：**結構描述會定義資料的要求拒絕訊息結構。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用結構描述來識別及訊息中的資料互動。  
+ **用途：** 結構描述會定義資料的要求拒絕訊息結構。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]使用結構描述來識別及訊息中的資料互動。  
   
 ## <a name="prerequisites"></a>必要條件  
  開始此步驟之前，請注意下列需求：  

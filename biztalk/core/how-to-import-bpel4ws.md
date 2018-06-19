@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/16/2018
+ms.locfileid: "31008473"
 ---
 # <a name="import-bpel4ws-in-biztalk-server"></a>在 BizTalk Server 中匯入 BPEL4WS
 您可以從現有的 BPEL4WS 匯入，以建立協調流程。  

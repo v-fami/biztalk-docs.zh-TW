@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c18607b5-d929-48c9-9fa3-f728a7a80d04
-caps.latest.revision: ''
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22231822"
 ---
 # <a name="addresource-command-biztalk-assembly"></a>AddResource 命令：BizTalk 組件
 若要將 BizTalk 組件加入至 BizTalk 應用程式，您使用 **AddResource** 命令並指定 **system.biztalk: biztalkassembly** 做為 Type 參數。 執行此命令會將組件新增至 BizTalk 管理資料庫。 組件也會顯示於 BizTalk Server 管理主控台，列在加入該組件的應用程式的 [資源] 資料夾中。 包含在組件中的成品也會顯示在對應的資料夾裡。 此外，也會列出成品當您使用[ListApp 命令](../core/listapp-command.md)。  
@@ -34,7 +35,7 @@ ms.lasthandoff: 03/23/2018
  如需相依性的詳細資訊，請參閱[相依性和應用程式部署](../core/dependencies-and-application-deployment.md)。  
   
 ## <a name="usage"></a>使用方式  
- **BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:BizTalkAssembly** [**/Overwrite**] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd***&#124;***GacOnInstall***&#124;***GacOnImport**] [**/Server:***value*] [**/Database:***value*]  
+ **BTSTask AddResource** [**/ApplicationName:***value*] **/Type:System.BizTalk:BizTalkAssembly** [**/Overwrite **] **/Source:***value* [**/Destination:***value*] [**/Options:GacOnAdd ***&#124;*** GacOnInstall ***&#124;*** GacOnImport **] [**/Server:***value*] [**/Database:*** value*]  
   
 ## <a name="parameters"></a>參數  
   

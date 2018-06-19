@@ -1,14 +1,14 @@
 ---
-title: "EDI 內容屬性 |Microsoft 文件"
-ms.custom: 
+title: EDI 內容屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d6a408af-daf5-4e9e-afb3-9fd1795e8c16
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010615"
 ---
 # <a name="edi-context-properties"></a>EDI 內容屬性
 EDI 全域屬性結構描述中的訊息內容屬性都是公開屬性，因此您可以在像是訊息路由等作業中使用這些內容屬性。 這些內容屬性都是定義在 Microsoft.BizTalk.Edi.BaseArtifacts 組件的 PropertySchema.xsd 結構描述中。 屬性的命名空間是 `http://schemas.microsoft.com/ Edi/PropertySchema`。 如果升級，這些訊息內容屬性就可做為 Edi。\<*屬性名稱*\>中**篩選**頁面**傳送埠屬性 對話方塊** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。

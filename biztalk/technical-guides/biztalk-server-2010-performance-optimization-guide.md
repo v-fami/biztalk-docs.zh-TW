@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server 2010 效能最佳化指南 |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 2010 效能最佳化指南 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9a56b27f-3e57-47db-a776-520f2d67d65e
-caps.latest.revision: "31"
+caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010727"
 ---
 # <a name="biztalk-server-2010-performance-optimization-guide"></a>BizTalk Server 2010 效能最佳化指南
 歡迎使用 Microsoft® BizTalk® Server 2010 效能最佳化指南。 我們建立了本指南提供的最佳化 BizTalk Server 解決方案的效能的深入資訊。 企業應用程式部署期間經常忽略完整端對端效能測試。 了解 Microsoft 已建置可擴充的傳訊基礎結構，使用 BizTalk Server 的許多組織縮短對幾乎不執行效能測試的自己的應用程式的時間。 BizTalk Server 應用程式含有許多部分，其中可能包含自訂元件，以及 Microsoft 所提供。 Microsoft 在效能測試所有可能組合，這些元件，所以不可能。 因此，完整及正確執行程式的效能測試是應用的任何部署的重要步驟。  

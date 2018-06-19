@@ -1,18 +1,18 @@
 ---
-title: "最佳化效能，MSMQ 配接器 |Microsoft 文件"
-ms.custom: 
+title: 最佳化效能，MSMQ 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - MSMQ adapters, performance
 - performance, MSMQ adapters
 - configuring [MSMQ adapters], performance
 ms.assetid: f8537ea8-a96e-4874-bcaf-cd1442a50bd4
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007335"
 ---
 # <a name="optimizing-performance-of-the-msmq-adapter"></a>最佳化 MSMQ 配接器效能
 MSMQ 配接器的最佳化在傳送端與接收端之間各有不同。 您可以藉由設定接收位置上的屬性，來控制接收端上的最佳化。 在傳送端上，您可以使用協調流程來控制最佳化。  

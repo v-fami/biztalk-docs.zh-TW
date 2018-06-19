@@ -1,14 +1,14 @@
 ---
-title: "EDI 處理的協議的角色 |Microsoft 文件"
-ms.custom: 
+title: EDI 處理的協議的角色 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d81b0449-6656-49f7-a781-5fd60031b3d5
-caps.latest.revision: "25"
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279934"
 ---
 # <a name="the-role-of-agreements-in-edi-processing"></a>中協議 EDI 處理的角色
 組織會使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]來接收 EDI 訊息，並傳送 EDI 訊息，一個或多個交易夥伴。 交易夥伴，接著定義組織內的商務實體的商務設定檔。 如何商務設定檔交換訊息定義為屬於交易夥伴的兩個商務設定檔之間的合約。 如需詳細資訊，請參閱[交易夥伴管理解決方案的建置組塊](../core/building-blocks-of-a-trading-partner-management-solution.md)。  

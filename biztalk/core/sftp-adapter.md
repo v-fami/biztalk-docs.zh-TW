@@ -18,6 +18,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "29564406"
 ---
 # <a name="sftp-adapter"></a>SFTP 配接器
 BizTalk Server 包含 **SFTP** 配接器傳送和接收訊息的安全 FTP 伺服器，使用 SSH 檔案傳輸通訊協定。 本主題包含設定的步驟 **SFTP** 接收位置，並設定 SFTP 傳送埠來接收和傳送訊息從安全 FTP 伺服器。 它也包含常見的問題和答案。

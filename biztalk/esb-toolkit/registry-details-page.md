@@ -1,14 +1,14 @@
 ---
-title: "登錄詳細資料頁面 |Microsoft 文件"
-ms.custom: 
+title: 登錄詳細資料頁面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: db723382-f7f1-485a-bf0e-84d6d7a986cc
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294542"
 ---
 # <a name="registry-details-page"></a>[登錄詳細資料] 頁面
 圖 1 顯示登錄詳細資料頁面上，您可以用它來發佈現有的通用描述、 探索與整合 (UDDI) 登錄要求、 建立新的要求，或編輯現有的要求。  

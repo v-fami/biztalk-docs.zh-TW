@@ -1,14 +1,14 @@
 ---
-title: "開始使用 BizTalk ESB 工具組 |Microsoft 文件"
-ms.custom: 
+title: 開始使用 BizTalk ESB 工具組 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 59fee2fc-6689-445a-aaf7-2b0aafa71db5
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294526"
 ---
 # <a name="getting-started-with-the-biztalk-esb-toolkit"></a>開始使用 BizTalk ESB 工具組
 本主題說明用於設計和作業的概念[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]元件和服務用來建立啟用 ESB 的解決方案。 本主題包含下列主題章節：  

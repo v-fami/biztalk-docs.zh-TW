@@ -1,15 +1,15 @@
 ---
-title: "BizTalk ESB 工具組範例應用程式 |Microsoft 文件"
-description: "安裝 ESB Toolkit 範例應用程式，並取得有關如何在 BizTalk Server 中使用它們的快速連結"
-caps.latest.revision: "5"
+title: BizTalk ESB 工具組範例應用程式 |Microsoft 文件
+description: 安裝 ESB Toolkit 範例應用程式，並取得有關如何在 BizTalk Server 中使用它們的快速連結
+caps.latest.revision: 5
 author: MandiOhlinger
 manager: anneta
-ms.custom: 
+ms.custom: ''
 ms.date: 08/10/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 188f8e1f-26fb-4ea6-8e2e-f2ae3e46ca20
 ms.author: mandia
@@ -18,6 +18,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290686"
 ---
 # <a name="biztalk-esb-toolkit-sample-applications"></a>BizTalk ESB 工具組範例應用程式
 [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]包含數個範例應用程式，您可以安裝和執行，以查看 ESB 運作，以及如何使用某些 ESB 管線元件。 您可以調整，並修改程式碼和您自己的應用程式範例中所使用的技術。  

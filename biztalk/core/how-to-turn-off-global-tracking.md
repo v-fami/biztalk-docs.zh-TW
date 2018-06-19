@@ -1,14 +1,14 @@
 ---
-title: "如何關閉全域追蹤 |Microsoft 文件"
-ms.custom: 
+title: 如何關閉全域追蹤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: eae3059a-cbdd-47c4-84cd-edfb5480b9fa
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007095"
 ---
 # <a name="how-to-turn-off-global-tracking"></a>如何關閉全域追蹤
 根據預設，當您安裝 BizTalk Server 時，會啟用全域追蹤。 BizTalk 追蹤 (BizTalkDTADb) 資料庫成長的大小為[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]處理您的系統上的資料。 如果 BizTalk 追蹤資料庫導致磁碟效能低落，您可以從追蹤資料庫清除資料。 如果效能問題是藉由清除 BizTalk 追蹤資料庫而暫時解決，而您想要將 BizTalk 設定為不再收集追蹤資訊，則您可以考慮關閉全域追蹤。  
@@ -35,11 +36,11 @@ ms.lasthandoff: 12/01/2017
   
 2.  在**連接到伺服器**對話方塊中，確認伺服器名稱和驗證，然後按一下**連接**。  
   
-3.  在 Microsoft SQL Server Management Studio 中**物件總管] 中**，依序展開\<*電腦名稱*\>，依序展開**資料庫**，展開**BizTalkMgmtDb**，依序展開**資料表**，以滑鼠右鍵按一下**[adm_group]**，然後按一下 [**開啟資料表**。  
+3.  在 Microsoft SQL Server Management Studio 中**物件總管] 中**，依序展開\<*電腦名稱*\>，依序展開**資料庫**，展開**BizTalkMgmtDb**，依序展開**資料表**，以滑鼠右鍵按一下 **[adm_group]**，然後按一下 [**開啟資料表**。  
   
-4.  在資料表檢視器中水平捲動，直到您找到**[globaltrackingoption]**。  
+4.  在資料表檢視器中水平捲動，直到您找到 **[globaltrackingoption]**。  
   
-5.  在**[globaltrackingoption]**資料行，將值從 1 變更為 0 時，若要關閉此功能，然後按 ENTER。  
+5.  在 **[globaltrackingoption]** 資料行，將值從 1 變更為 0 時，若要關閉此功能，然後按 ENTER。  
   
 6.  關閉 Microsoft SQL Server Management Studio。  
   

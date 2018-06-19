@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289662"
 ---
 # <a name="using-failed-message-routing"></a>使用失敗訊息路由
 錯誤處理機制可讓設計師指定自動化的傳訊失敗處理方式，而不是依照傳統行為，將失敗的訊息放在已擱置佇列中 (現在的預設行為)。 此自動化處理將錯誤訊息路由至任何訂閱路由的目的地，像是傳送埠或協調流程。 錯誤訊息是原始訊息的複製，含有現在已降級之所有先前升級的屬性，以及已升級為訊息內容之與特定傳訊失敗相關的已選取屬性。  
@@ -51,7 +52,7 @@ ms.lasthandoff: 09/20/2017
 |[FailureCode]|System.String|是|錯誤碼。 報告在 [BizTalk Server 管理] 主控台中的一個十六進位值。|  
 |FailureCategory|System.Int32|是|不會使用此屬性。 未定義其值。|  
 |描述|System.String|否|錯誤描述。 與寫入有關此傳訊失敗的應用程式事件記錄檔中之診斷文字相同的診斷文字。|  
-|MessageType|System.String|是|若訊息類型未確定，則訊息類型為失敗的訊息或空白。<br /><br /> BizTalk Server 使用訊息類型為訊息與其 XML 結構描述建立關聯。 訊息類型是藉由串連結構描述命名空間與結構描述根節點所構成：http://mynamespace#rootnode。 **注意：**其訊息類型決定之前失敗，並沒有這個屬性的訊息設定。|  
+|MessageType|System.String|是|若訊息類型未確定，則訊息類型為失敗的訊息或空白。<br /><br /> BizTalk Server 使用訊息類型為訊息與其 XML 結構描述建立關聯。 訊息類型是藉由串連結構描述命名空間與結構描述根節點所構成：http://mynamespace#rootnode。 **注意：** 其訊息類型決定之前失敗，並沒有這個屬性的訊息設定。|  
 |ReceivePortName|System.String|**[已升級]** ：若失敗發生在輸入處理期間 (在接收埠)<br /><br /> **[未升級]** ：若失敗發生在傳送埠。|失敗發生所在的接收埠名稱。|  
 |[InboundTransportLocation]|System.String|**[已升級]** ：若失敗發生在輸入處理期間 (在接收埠)<br /><br /> **[未升級]** ：若失敗發生在傳送埠。|失敗發生所在的接收位置 URI。|  
 |SendPortName|System.String|**[已升級]** ：若失敗發生在輸出處理期間 (在傳送埠)<br /><br /> **[未升級]** ：若失敗發生在接收埠。|失敗發生所在的傳送埠名稱。|  

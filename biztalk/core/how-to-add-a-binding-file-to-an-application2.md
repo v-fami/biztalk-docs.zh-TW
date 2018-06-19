@@ -18,6 +18,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "29710419"
 ---
 # <a name="add-a-binding-file-to-an-application"></a>應用程式中加入繫結檔案
 

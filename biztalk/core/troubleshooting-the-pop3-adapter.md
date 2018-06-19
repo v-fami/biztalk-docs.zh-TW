@@ -1,14 +1,14 @@
 ---
-title: "POP3 配接器疑難排解 |Microsoft 文件"
-ms.custom: 
+title: POP3 配接器疑難排解 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 48b95040-481e-4bd7-93f8-abef50268754
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22284238"
 ---
 # <a name="troubleshooting-the-pop3-adapter"></a>POP3 配接器疑難排解
 本節說明 POP3 配接器在使用上的已知問題。  

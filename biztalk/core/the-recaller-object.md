@@ -1,11 +1,11 @@
 ---
-title: "Recaller 物件 |Microsoft 文件"
-ms.custom: 
+title: Recaller 物件 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Recaller object
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - process management solution tutorial, Recaller object
 - process management solution tutorial, errors
 ms.assetid: b30ad1ae-475f-4913-b402-4d3263fcf072
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279886"
 ---
 # <a name="the-recaller-object"></a>Recaller 物件
 商務程序管理解決方案會以一般的方法來重試某些失敗的物件方法呼叫。 這個解決方案會執行透過**Recaller**物件存放至**ExceptionHandler**協調流程。 **ExceptionHandler**協調流程會使用重試物件方法呼叫的物件。 如需詳細資訊，請參閱[ExceptionHandler 協調流程](../core/the-exceptionhandler-orchestration.md)。  

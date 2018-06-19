@@ -1,14 +1,14 @@
 ---
-title: "使用指令碼來部署應用程式 |Microsoft 文件"
-ms.custom: 
+title: 使用指令碼來部署應用程式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9e683c5f-7576-4382-9952-d577cd00186c
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009671"
 ---
 # <a name="using-scripts-to-deploy-applications"></a>使用指令碼來部署應用程式
 部署 BizTalk 應用程式，可能的話，您應該使用指令碼。 指令碼部署程序期間減少人為錯誤的風險。 您也應該記錄深度您部署程序。 您應該記錄任何您不要的指令碼非常詳細的步驟。 這包括記錄到外部系統和非 Microsoft 元件部署的任何變更。  

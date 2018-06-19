@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230430"
 ---
 # <a name="artifacts"></a>成品
 本主題討論各種 BizTalk Server 成品。 成品包含供 BizTalk 應用程式運作所需的組件、安全性憑證、商務規則原則、BAM 組態檔、繫結等等。 您可以從「BizTalk 管理」主控台中檢視和管理應用程式的成品。  

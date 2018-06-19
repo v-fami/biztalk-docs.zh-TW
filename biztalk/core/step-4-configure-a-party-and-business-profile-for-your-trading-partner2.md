@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 設定合作對象與商務設定檔為您的交易夥伴 2 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 設定合作對象與商務設定檔為您的交易夥伴 2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ce07a1a6-4d5d-44ea-b1cb-04d7ae85747f
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278118"
 ---
 # <a name="step-4-configure-a-party-and-business-profile-for-your-trading-partner"></a>步驟 4： 為交易夥伴設定合作對象與商務設定檔
 ![步驟 11-4](../core/media/tut-step4-of-11.gif "Tut_Step4_of_11")  

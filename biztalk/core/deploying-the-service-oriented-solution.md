@@ -1,11 +1,11 @@
 ---
-title: "部署服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: 部署服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, service solution tutorial
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - service solution tutorial, background information
 - tutorials, deploying
 ms.assetid: 88d4d28d-9031-4fb8-ab62-04ee27949673
-caps.latest.revision: "24"
+caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22239190"
 ---
 # <a name="deploying-the-service-oriented-solution"></a>部署服務導向解決方案
 「服務導向架構」(Service Oriented Architecture，SOA) 是一種建置分散式系統的方法。 服務導向解決方案展示如何將數個使用不同通訊協定的後端系統彙總成用戶端可以取用的單一服務。 此解決方案使用可保證傳遞和效能特性的方法來整合服務。  

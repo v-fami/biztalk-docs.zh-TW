@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286774"
 ---
 # <a name="types-of-pipeline-components"></a>類型的管線元件
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 包含三種管線元件類型：一般、組合和解譯。 這三種類型也能實作探查功能。 此主題描述每種元件類型以及通常會使用各個元件的階段。  

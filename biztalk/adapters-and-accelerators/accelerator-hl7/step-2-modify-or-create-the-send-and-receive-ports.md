@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8d96d02c-b75d-4d18-a127-37002c5ff138
-caps.latest.revision: ''
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26007159"
 ---
 # <a name="step-2-modify-or-create-the-send-and-receive-ports"></a>步驟 2： 修改或建立傳送和接收埠
 您需要 FILE 傳送和接收埠以進行批次中 / 出教學課程的批次。 如果您按下**啟動教學課程**結尾的安裝 Enterprise Edition 按鈕[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]為您建立這些連接埠： 名為 Tutorial_BTAHL7Drop，傳送埠和接收埠命名為 Tutorial_BTAHL7PickUp。 如果您有這些連接埠，您仍然需要修改傳送埠 Tutorial_BTAHL7Drop。  
@@ -33,7 +34,7 @@ ms.lasthandoff: 03/28/2018
   
 4.  在主控台樹狀目錄中，按一下**篩選**。  
   
-5.  在**篩選**窗格中的，第二個資料列中，選取**BTAHL7Schemas.MessageClass**如**屬性**，選取**==**的**運算子**，然後輸入**MessageClass2X**如**值**。 按一下 **[輸入]**。  
+5.  在**篩選**窗格中的，第二個資料列中，選取**BTAHL7Schemas.MessageClass**如**屬性**，選取**==** 的**運算子**，然後輸入**MessageClass2X**如**值**。 按一下 **[輸入]**。  
   
 6.  設定**分組**上**BTS。ReceivePortName**列**或者**，然後按一下 **確定**。  
   
@@ -68,7 +69,7 @@ ms.lasthandoff: 03/28/2018
   
     |使用|動作|  
     |--------------|----------------|  
-    |**接收資料夾**|瀏覽至 **\<***磁碟機***\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\End 端對端 Tutorial\Tutorial_BTAHL7PickUp**. **注意：**這是在檔案系統或公用共用位置的路徑從哪裡[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]會收取檔案。|  
+    |**接收資料夾**|瀏覽至 **\<***磁碟機***\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\End 端對端 Tutorial\Tutorial_BTAHL7PickUp**. **注意：** 這是在檔案系統或公用共用位置的路徑從哪裡[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]會收取檔案。|  
     |**檔案遮罩**|型別 **\*.txt**。|  
   
 12. 按一下 **[確定]**。  
@@ -100,8 +101,8 @@ ms.lasthandoff: 03/28/2018
   
     |使用|動作|  
     |--------------|----------------|  
-    |**目的地資料夾**|瀏覽至 **\<***磁碟機***:\>\Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\End 端對端 Tutorial\Tutorial_BTAHL7Drop**. **注意：**這是在檔案系統或公用共用的位置路徑[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]會寫入檔案。|  
-    |**檔案名稱**|型別**%MessageID%.txt** （請注意副檔名是 txt、 不是 xml）。|  
+    |**目的地資料夾**|瀏覽至 **\<***磁碟機***:\>\Program Files\Microsoft BizTalk\<版本\>Accelerator for HL7\SDK\End 端對端 Tutorial\Tutorial_BTAHL7Drop**. **注意：** 這是在檔案系統或公用共用的位置路徑[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]會寫入檔案。|  
+    |**檔案名稱**|型別 **%MessageID%.txt** （請注意副檔名是 txt、 不是 xml）。|  
   
 4.  按一下 **[確定]**。  
   
@@ -112,11 +113,11 @@ ms.lasthandoff: 03/28/2018
     |使用|動作|  
     |--------------|----------------|  
     |**屬性**|選取**BTS。ReceivePortName**從下拉式清單。|  
-    |**運算子**|保留**==**做為運算子。|  
+    |**運算子**|保留**==** 做為運算子。|  
     |**值**|型別**Tutorial_BTAHL7PickUp**。|  
     |**分組方式**|選取**或**從下拉式清單。|  
     |**屬性**|選取**BTAHL7Schemas.MessageClass**。|  
-    |**運算子**|保留**==**做為運算子。|  
+    |**運算子**|保留**==** 做為運算子。|  
     |**值**|型別**MessageClass2X**。|  
   
 7.  按一下 **[輸入]**。 確認在對話方塊底部窗格中的篩選條件運算式正確。  

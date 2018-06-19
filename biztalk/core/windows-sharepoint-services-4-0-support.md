@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "26009967"
 ---
 # <a name="windows-sharepoint-services-40-support"></a>Windows SharePoint Services 4.0 支援
 BizTalk Server 的 Windows SharePoint Services 配接器提供的 Windows SharePoint Services 配接器的功能同位檢查[!INCLUDE[btsBizTalkServer2006](../includes/btsbiztalkserver2006-md.md)]。 BizTalk Server 的 Windows SharePoint Services 配接器也支援 Windows SharePoint Services 4.0 提供的下列功能：  
@@ -41,7 +42,7 @@ BizTalk Server 的 Windows SharePoint Services 配接器提供的 Windows ShareP
 |屬性|Value|  
 |--------------|-----------|  
 |目的資料夾 URL|相對於 SharePoint 網站之 Posts 清單 (例如 "Lists/Posts") 的目的資料夾 URL。|  
-|SharePoint 網站 URL|Windows SharePoint Services 4.0 部落格網站，例如 http:// URL*\<servername\>*/sites/部落格/其中*\<servername\>*是Web 伺服器的實際名稱的預留位置。|  
+|SharePoint 網站 URL|Windows SharePoint Services 4.0 部落格網站，例如 http:// URL*\<servername\>*/sites/部落格/其中*\<servername\>* 是Web 伺服器的實際名稱的預留位置。|  
   
  然後設定的值 **類別**, ，**發佈**, ，**標題**, ，和 **主體** 部落格張貼在 WSS 中設定對應值的屬性。ConfigPropertiesXml 的訊息內容屬性。 此步驟可以在自訂管線或協調流程中進行。 例如，協調流程中的下列運算式會設定 Message_Out 訊息之 WSS.ConfigPropertiesXml 內容屬性中的值：  
   
@@ -86,7 +87,7 @@ Message_Out(WSS.ConfigPropertiesXml) = “<ConfigPropertiesXml>
 |屬性|Value|  
 |--------------|-----------|  
 |目的資料夾 URL|相對於 SharePoint 網站的 Wiki 網站 (例如 "wikiSP") 首頁 URL。|  
-|SharePoint 網站 URL|Windows SharePoint Services 4.0 Wiki 網站，例如 http:// URL*\<servername\>*/sites/wiki/其中*\<servername\>*是web 伺服器的實際名稱的預留位置。|  
+|SharePoint 網站 URL|Windows SharePoint Services 4.0 Wiki 網站，例如 http:// URL*\<servername\>*/sites/wiki/其中*\<servername\>* 是web 伺服器的實際名稱的預留位置。|  
   
  接著設定值 **Wiki 內容** Wiki 頁面，在 WSS 中設定對應值的屬性。ConfigPropertiesXml 的訊息內容屬性。 此步驟可以在自訂管線或協調流程中進行。 例如，協調流程中的下列運算式會設定 Message_Out 訊息之 WSS.ConfigPropertiesXml 內容屬性中的值：  
   

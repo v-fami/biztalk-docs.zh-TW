@@ -1,11 +1,11 @@
 ---
-title: "密碼 Synchronization2 |Microsoft 文件"
-ms.custom: 
+title: 密碼 Synchronization2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, passwords
@@ -15,7 +15,7 @@ helpviewer_keywords:
 - Password Synchronization [SSO], about Password Synchronization
 - SSO database, passwords
 ms.assetid: 6d4970e0-ac73-4fca-ab8f-6c8a6f3a6ec0
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -24,6 +24,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22264358"
 ---
 # <a name="password-synchronization"></a>密碼同步
 「密碼同步」的目的是簡化 SSO 資料庫的管理，以及讓使用者目錄的密碼同步。  

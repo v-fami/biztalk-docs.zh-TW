@@ -1,14 +1,14 @@
 ---
-title: "何謂配接器架構？ | Microsoft Docs"
-ms.custom: 
+title: 何謂配接器架構？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: bd1e2fd7-4e77-49c4-839d-c2bf16b10ba2
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289598"
 ---
 # <a name="what-is-the-adapter-framework"></a>何謂配接器架構？
 BizTalk 配接器架構提供穩定、開放的機制，讓所有的配接器都能從 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 傳訊引擎實作或存取工作。 中描述的介面**Microsoft.BizTalk.Adapter.Framework**命名空間啟用配接器能夠提供方法來修改組態屬性頁。 這種方法也可以將服務和結構描述匯入到 BizTalk 專案中。  

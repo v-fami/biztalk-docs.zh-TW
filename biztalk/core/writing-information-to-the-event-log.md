@@ -1,14 +1,14 @@
 ---
-title: "將資訊寫入至事件記錄檔 |Microsoft 文件"
-ms.custom: 
+title: 將資訊寫入至事件記錄檔 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1d7398dc-29d8-4a7a-bab4-c8f128b47dca
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289574"
 ---
 # <a name="writing-information-to-the-event-log"></a>將資訊寫入事件日誌
 您可能會想要將資訊寫入預設的應用程式日誌或自訂的事件日誌，以便監視 BizTalk 應用程式中不同商務程序的進度。 寫入事件日誌，在下列實例中可能會很有用：  

@@ -1,14 +1,14 @@
 ---
-title: "入口網站的報表頁面 |Microsoft 文件"
-ms.custom: 
+title: 入口網站的報表頁面 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 51d793cc-dcea-4c29-883b-a5045d39d4f6
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294598"
 ---
 # <a name="portal-reports-page"></a>入口網站的報表 頁面
 入口網站的報表頁面上，顯示在圖 1 中，會顯示下列圖表：  
@@ -43,7 +44,7 @@ ms.lasthandoff: 09/20/2017
   
 -   按一下**SelectApplications**連結上方的第一個圖表，然後選取或清除核取方塊會顯示已安裝 Microsoft BizTalk Server 應用程式清單中。 您也可以使用顯示來選取所有或任何應用程式的連結。 按一下**儲存**以顯示所選的應用程式的資訊，或按一下**取消**放棄變更。  
   
--   使用上述的第一個圖表的下拉式清單，選取您想要的圖表，以顯示資料的間隔。 您可以選擇包含先前資料**小時、 天、 週、 月、 季、 年、**或**所有**。  
+-   使用上述的第一個圖表的下拉式清單，選取您想要的圖表，以顯示資料的間隔。 您可以選擇包含先前資料**小時、 天、 週、 月、 季、 年、** 或**所有**。  
   
 -   按一下其中一個服務應用程式中所顯示的資料分析網頁中的圖表。 根據圖表您所選取這會顯示個別的錯誤、 警示、 錯誤類型、 resubmissions 或為每個服務的警示訂閱的計數或趨勢線。  
   

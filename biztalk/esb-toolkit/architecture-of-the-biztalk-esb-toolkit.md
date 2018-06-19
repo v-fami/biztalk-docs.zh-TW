@@ -1,14 +1,14 @@
 ---
-title: "BizTalk ESB toolkit 架構 |Microsoft 文件"
-ms.custom: 
+title: BizTalk ESB toolkit 架構 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a41674f5-5ea4-4a8f-a270-b67fd6854028
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007847"
 ---
 # <a name="architecture-of-the-biztalk-esb-toolkit"></a>BizTalk ESB Toolkit 的架構
 [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]包含一系列的支援和實作鬆散偶合的傳訊環境，可讓您更輕鬆地建立以訊息為基礎的企業應用程式元件間的互通性。 服務和元件自然可分成下列七個類別：  

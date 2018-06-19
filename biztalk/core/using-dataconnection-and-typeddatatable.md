@@ -1,11 +1,11 @@
 ---
-title: "使用 DataConnection 與 TypedDataTable |Microsoft 文件"
-ms.custom: 
+title: 使用 DataConnection 與 TypedDataTable |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Retract function [Business Rules Engine], TypedData table
@@ -20,7 +20,7 @@ helpviewer_keywords:
 - Update function [Business Rules Engine], TypedData table
 - Update function [Business Rules Engine], DataConnection
 ms.assetid: e825803e-6626-4ddd-a77e-75a3ba2b74a4
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -29,6 +29,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287542"
 ---
 # <a name="using-dataconnection-and-typeddatatable"></a>使用 DataConnection 與 TypedDataTable
 在許多情況下，使用**DataConnection**提供更佳的效能，並耗用較少的記憶體比使用**TypedDataTable**。 不過， **TypedDataTable**可能需要在某些情況下，因為使用的特定限制**DataConnection**。 在某些其他情況下，使用**TypedDataTable**可能會產生較佳的效能比使用**DataConnection**。 本主題描述您在選擇正確方法時應該考量的準則和因素。  

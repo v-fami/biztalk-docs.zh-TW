@@ -23,6 +23,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010431"
 ---
 # <a name="using-the-mqsagent-com-configuration-wizard"></a>使用 MQSAgent COM + 組態精靈
 [MQSAgent COM+ 組態精靈] 可以設定 MQSAgent、配接器的 COM+ 應用程式 (MQSeries 元件) 部分。 精靈會設定元件的應用程式識別，以及角色中包含的角色名稱和使用者。 使用 MQSAgent COM + 組態精靈所建立的 MQSAgent COM + 元件的名稱是**MQSAgent2**。  
@@ -127,7 +128,7 @@ ms.lasthandoff: 12/01/2017
   
     -   選取**MQSAgent2RunTime**下**請選取目的地**按一下**確定**。  
   
-    -   重複這些步驟**[mqsagent2.mqsbroker.1]**和**[mqsagent2.mqsproxy.1]**元件。  
+    -   重複這些步驟 **[mqsagent2.mqsbroker.1]** 和 **[mqsagent2.mqsproxy.1]** 元件。  
   
 ## <a name="see-also"></a>請參閱  
  [如何設定 MQSeries 配接器傳送和接收處理常式](../core/how-to-configure-mqseries-adapter-send-and-receive-handlers.md)   

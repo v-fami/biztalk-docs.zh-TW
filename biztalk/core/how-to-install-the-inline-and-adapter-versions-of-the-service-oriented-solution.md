@@ -1,14 +1,14 @@
 ---
-title: "安裝內嵌和配接器版本的服務導向解決方案 |Microsoft 文件"
-ms.custom: 
+title: 安裝內嵌和配接器版本的服務導向解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6050cfe9-4e94-4a55-8b24-fbcc74d9e8f4
-caps.latest.revision: "97"
+caps.latest.revision: 97
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010735"
 ---
 # <a name="how-to-install-the-inline-and-adapter-versions-of-the-service-oriented-solution"></a>如何安裝服務導向解決方案的內嵌與配接器版本
 下列步驟描述如何準備安裝服務導向解決方案內嵌與配接器版本的電腦，以及如何在此電腦上安裝解決方案。  
@@ -367,7 +368,7 @@ ms.lasthandoff: 12/01/2017
   
     1.  在**目錄安全性**索引標籤上，按一下 **編輯**修改**驗證和存取控制**。 選取**基本驗證 （密碼會以純文字傳送）**，清除其他**驗證存取**核取方塊。 按一下**確定**關閉**驗證方法** 對話方塊。  
   
-    2.  在**目錄安全性**索引標籤上，按一下 [**編輯**下**安全通訊**群組方塊，然後再檢查**需要安全通道 (SSL)**中**安全通訊**] 對話方塊。  
+    2.  在**目錄安全性**索引標籤上，按一下 [**編輯**下**安全通訊**群組方塊，然後再檢查**需要安全通道 (SSL)** 中**安全通訊**] 對話方塊。  
   
     3.  在**虛擬目錄**索引標籤上，設定**應用程式集區**建立擱置交易 Web 服務的新 IIS 應用程式集區 」 程序所建立的應用程式集區。  
   

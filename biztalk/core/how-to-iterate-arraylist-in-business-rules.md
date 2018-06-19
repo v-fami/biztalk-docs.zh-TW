@@ -1,18 +1,18 @@
 ---
-title: "如何逐一查看商務規則中的 ArrayList |Microsoft 文件"
-ms.custom: 
+title: 如何逐一查看商務規則中的 ArrayList |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Business Rules Framework, ArrayList
 - business rules, arrays
 - Business Rules Framework, programming
 ms.assetid: 935e8648-72dc-4128-986c-72b0487bc074
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25970788"
 ---
 # <a name="how-to-iterate-arraylist-in-business-rules"></a>如何逐一查看商務規則中的 ArrayList
 本節提供範例逐一查看成員**ArrayList**商務規則中。  

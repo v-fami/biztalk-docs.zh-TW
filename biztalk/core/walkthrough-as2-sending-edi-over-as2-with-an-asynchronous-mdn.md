@@ -1,14 +1,14 @@
 ---
-title: "逐步解說 (AS2): 使用非同步 MDN 透過 AS2 傳送 EDI |Microsoft 文件"
-ms.custom: 
+title: '逐步解說 (AS2): 使用非同步 MDN 透過 AS2 傳送 EDI |Microsoft 文件'
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 83644ac9-7023-4b09-966c-7c41d36f6b11
-caps.latest.revision: "30"
+caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22292406"
 ---
 # <a name="walkthrough-as2-sending-edi-over-as2-with-an-asynchronous-mdn"></a>逐步解說 (AS2)：使用非同步 MDN 透過 AS2 傳送 EDI
 本逐步解說提供一組逐步執行的程序，建立使用非同步 MDN 透過 AS2 傳送 EDI 訊息的解決方案。  您可以建立並測試在單一電腦上的本逐步解說的完整方案  
@@ -150,7 +151,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  在**新增指令碼對應**對話方塊方塊中，輸入`BtsHttpReceive.dll`中**要求路徑**欄位。  
   
-4.  在**可執行檔**欄位中，按一下**省略符號 （...）**按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive。 選取 BtsHttpReceive.dll，然後按一下**確定**。  
+4.  在**可執行檔**欄位中，按一下**省略符號 （...）** 按鈕並瀏覽至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]HttpReceive。 選取 BtsHttpReceive.dll，然後按一下**確定**。  
   
 5.  輸入`BizTalk HTTP Receive`中`Name`欄位，，然後按一下**要求限制**。  
   
@@ -164,7 +165,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  在 [IIS 管理員] 中，以滑鼠右鍵按一下**應用程式集區**選取**新增應用程式集區**。  
   
-2.  在**新增應用程式集區**對話方塊方塊中，輸入**BizTalkAppPool**中**名稱**，然後選取**.NET Framework v4.0.30210**中**.NET framework 版本**下拉式清單中。 按一下 **[確定]**。  
+2.  在**新增應用程式集區**對話方塊方塊中，輸入**BizTalkAppPool**中**名稱**，然後選取 **.NET Framework v4.0.30210**中 **.NET framework 版本**下拉式清單中。 按一下 **[確定]**。  
   
     > [!NOTE]
     >  版本號碼可能會依據電腦上安裝的 [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)] 版本而有所不同。  
@@ -276,7 +277,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在**接收位置屬性**對話方塊中，名稱您接收位置中，選取**HTTP**如**類型**，然後按一下 **設定**。  
   
-5.  在**HTTP 傳輸屬性**對話方塊方塊中，輸入**/Fabrikam/BTSHttpReceive.dll**如**虛擬目錄加 ISAPI 延伸模組**。 清除**成功時傳回相互關聯控制代碼**選取**擱置失敗的要求**。 按一下 **[確定]**。  
+5.  在**HTTP 傳輸屬性**對話方塊方塊中，輸入 **/Fabrikam/BTSHttpReceive.dll**如**虛擬目錄加 ISAPI 延伸模組**。 清除**成功時傳回相互關聯控制代碼**選取**擱置失敗的要求**。 按一下 **[確定]**。  
   
 6.  選取**AS2Receive**如**接收管線**。 按一下**確定**，然後按一下 **確定**一次。  
   
@@ -292,7 +293,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在**FILE 傳輸屬性**對話方塊中，針對**目的地資料夾**，輸入您為 EDI 內容所建立的本機資料夾。  
   
-5.  如**檔案名稱**，輸入檔案名稱。 如果您使用 SamplePO.txt 檔案做為測試訊息，輸入**%MessageID%.txt**。 按一下 **[確定]**。  
+5.  如**檔案名稱**，輸入檔案名稱。 如果您使用 SamplePO.txt 檔案做為測試訊息，輸入 **%MessageID%.txt**。 按一下 **[確定]**。  
   
 6.  接受預設值是**PassThruTransmit**如**傳送管線**。  
   
@@ -326,7 +327,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在**接收位置屬性**對話方塊中，名稱您接收位置中，選取**HTTP**如**類型**，然後按一下 **設定**。  
   
-5.  在**HTTP 傳輸屬性**對話方塊方塊中，輸入**/Contoso/BTSHTTPReceive.dll**如**虛擬目錄加 ISAPI 延伸模組**。 清除**成功時傳回相互關聯控制代碼**選取**擱置失敗的要求**。 按一下 **[確定]**。  
+5.  在**HTTP 傳輸屬性**對話方塊方塊中，輸入 **/Contoso/BTSHTTPReceive.dll**如**虛擬目錄加 ISAPI 延伸模組**。 清除**成功時傳回相互關聯控制代碼**選取**擱置失敗的要求**。 按一下 **[確定]**。  
   
 6.  選取**AS2Receive**如**接收管線**。 按一下**確定**，然後按一下 **確定**一次。  
   
@@ -342,7 +343,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在**FILE 傳輸屬性**對話方塊中，針對**目的地資料夾**，輸入您要建立為 MDN 傳送目標的本機資料夾。  
   
-5.  如**檔案名稱**，輸入**%MessageID%.msg**。按一下**確定**。  
+5.  如**檔案名稱**，輸入 **%MessageID%.msg**。按一下**確定**。  
   
 6.  接受預設值是**PassThruTransmit**如**傳送管線**。  
   
@@ -363,7 +364,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  以滑鼠右鍵按一下合作對象名稱，指向**新增**，然後按一下 **商務設定檔**。  
   
-4.  在**設定檔屬性**對話方塊**一般**頁面上，輸入**[fabrikam_profile]**中**名稱**文字方塊。  
+4.  在**設定檔屬性**對話方塊**一般**頁面上，輸入 **[fabrikam_profile]** 中**名稱**文字方塊。  
   
     > [!NOTE]
     >  當您建立合作對象時，會同時建立設定檔。 您可以重新命名再使用該設定檔，而不需建立新設定檔。 若要重新命名設定檔，以滑鼠右鍵按一下 設定檔，然後選取**屬性**。 在**一般**頁面上，指定設定檔的名稱。  
@@ -379,7 +380,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  以滑鼠右鍵按一下合作對象名稱，指向**新增**，然後按一下 **商務設定檔**。  
   
-4.  在**設定檔屬性**對話方塊**一般**頁面上，輸入**[contoso_profile]**中**名稱**文字方塊。  
+4.  在**設定檔屬性**對話方塊**一般**頁面上，輸入 **[contoso_profile]** 中**名稱**文字方塊。  
   
     > [!NOTE]
     >  當您建立合作對象時，會同時建立設定檔。 您可以重新命名再使用該設定檔，而不需建立新設定檔。 若要重新命名設定檔，以滑鼠右鍵按一下 設定檔，然後選取**屬性**。 在**一般**頁面上，指定設定檔的名稱。  
@@ -402,7 +403,7 @@ ms.lasthandoff: 09/20/2017
   
     1.  在**識別碼**頁面上，輸入的值**AS2-從**和**AS2-要**。 如**AS2-從**，輸入`Contoso`。 如**AS2-To**，輸入`Fabrikam`。  
   
-    2.  在**通知 (Mdn)**頁面上，執行下列動作：  
+    2.  在**通知 (Mdn)** 頁面上，執行下列動作：  
   
         1.  選取**針對路由/傳遞選項處理 MessageBox 中的輸入的 MDN**核取方塊。  
   
@@ -417,7 +418,7 @@ ms.lasthandoff: 09/20/2017
   
         5.  在**回條傳遞選項 (URL)**，輸入**http://localhost/Contoso/BTSHttpReceive.dll**。  
   
-        6.  **配置通知至**預設將設定為您指定**回條傳遞選項 (URL)**屬性。 在處理 AS2 的過程中並不會使用這個欄位的值。  
+        6.  **配置通知至**預設將設定為您指定**回條傳遞選項 (URL)** 屬性。 在處理 AS2 的過程中並不會使用這個欄位的值。  
   
     3.  在**傳送埠**頁面上，將會傳送 EDI 交換給 Fabrikam 的雙向傳送埠產生關聯。 在**傳送埠**方格下方**名稱**資料行，按一下空白儲存格，然後從下拉式清單中，選取 傳送埠**SendISAToFab**。  
   

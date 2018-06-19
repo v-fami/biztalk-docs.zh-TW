@@ -1,14 +1,14 @@
 ---
-title: "在 ESB 例外狀況管理架構的設計 |Microsoft 文件"
-ms.custom: 
+title: 在 ESB 例外狀況管理架構的設計 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cfc2688c-c01c-4244-9e35-3d482135d8b7
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008007"
 ---
 # <a name="design-of-the-esb-exception-management-framework"></a>在 ESB 例外狀況管理架構的設計
 一致且可重複使用管理例外狀況的模式是核心考量任何開發專案。這些資訊可協助最大化可維護性，並簡化支援應用程式部署之後。  

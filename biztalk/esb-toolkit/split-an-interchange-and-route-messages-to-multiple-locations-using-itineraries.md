@@ -1,14 +1,14 @@
 ---
-title: "如何： 將交換分割，並將產生的訊息路由至多個檔案位置使用不同的行程 |Microsoft 文件"
-ms.custom: 
+title: 如何： 將交換分割，並將產生的訊息路由至多個檔案位置使用不同的行程 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: ccd46bee-e4a1-4846-8bde-b0460bda1e72
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010751"
 ---
 # <a name="how-to-split-an-interchange-and-route-the-resulting-messages-to-multiple-file-locations-using-distinct-itineraries"></a>如何： 將交換分割，並將產生的訊息路由至多個使用不同的行程的檔案位置
 ## <a name="goal"></a>目標  

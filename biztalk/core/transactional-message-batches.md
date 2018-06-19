@@ -1,14 +1,14 @@
 ---
-title: "交易式訊息批次 |Microsoft 文件"
-ms.custom: 
+title: 交易式訊息批次 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b1790c05-e3f7-4667-8a9e-f6f208e55e40
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279526"
 ---
 # <a name="transactional-message-batches"></a>交易式訊息批次
 某些配接器必須協調外部交易與內部 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 交易。 例如，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 提供的 SQL 配接器必須協調 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 交易與 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 交易。 若要這樣做，此配接器必須存取 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 交易物件。 將批次提交給 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 之前，要明確建立交易物件並讓它與此批次產生關聯。 具有關聯交易物件的批次稱為交易式批次。 您可以藉由提供您自己的 Microsoft Distributed Transaction Coordinator (MSDTC) 交易物件，與 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 之間達成「只有一次保證」的資料往來傳遞。  

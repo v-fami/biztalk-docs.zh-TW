@@ -1,11 +1,11 @@
 ---
-title: "私用程序協調流程中定義的商務規則 |Microsoft 文件"
-ms.custom: 
+title: 私用程序協調流程中定義的商務規則 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - deploying, policies
@@ -37,7 +37,7 @@ helpviewer_keywords:
 - private processes, business rules
 - policies, creating
 ms.assetid: 5d2b0257-1b15-482b-a562-798b808e9a2d
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -46,6 +46,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010527"
 ---
 # <a name="defining-a-business-rule-for-a-private-process-orchestration"></a>私用程序協調流程中定義的商務規則
 您可以定義要在通知私用程序中使用的商務規則。 這讓您可以動態地修改商務規則，而不需停止私用程序協調流程。 這個程序會使用「[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 商務規則引擎」。 這個程序包含下列步驟：  
@@ -112,7 +113,7 @@ ms.lasthandoff: 12/01/2017
   
 1.  在商務規則編輯器] 中 [原則總管] 窗格中，以滑鼠右鍵按一下**原則**，然後按一下 [**新增原則**。  
   
-2.  按一下**[policy1]**。  
+2.  按一下 **[policy1]**。  
   
 3.  在 [屬性] 窗格中，設定**名稱**屬性設為適當的原則名稱。  
   

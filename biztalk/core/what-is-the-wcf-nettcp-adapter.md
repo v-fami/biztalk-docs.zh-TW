@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289406"
 ---
 # <a name="what-is-the-wcf-nettcp-adapter"></a>何謂 WCF-NetTcp 配接器？
 WCF-NetTcp 配接器可在服務與用戶端皆為 WCF 架構的環境中，提供連線的跨電腦或跨處理序通訊。 該配接器可完整存取 SOAP 安全性、可靠性和交易功能。 此配接器使用 TCP 傳輸，而且訊息具有二進位編碼。  

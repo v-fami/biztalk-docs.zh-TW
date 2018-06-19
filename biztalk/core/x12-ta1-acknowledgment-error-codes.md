@@ -1,14 +1,14 @@
 ---
-title: "X12 TA1 通知錯誤碼 |Microsoft 文件"
-ms.custom: 
+title: X12 TA1 通知錯誤碼 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 47eb315f-ec99-4e1e-937b-22199255f14f
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290846"
 ---
 # <a name="x12-ta1-acknowledgment-error-codes"></a>X12 TA1 通知錯誤碼
 本主題列出 X12 TA1 通知區段中所使用的錯誤碼。 如需有關這些區段的詳細資訊，請參閱[X12 TA1 通知](../core/x12-ta1-acknowledgment.md)。  

@@ -1,14 +1,14 @@
 ---
-title: "這個執行個體為夥伴批次服務窗口之外 |Microsoft 文件"
-ms.custom: 
+title: 這個執行個體為夥伴批次服務窗口之外 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0e420d75-11fd-4221-9d97-814ca6e48c81
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278662"
 ---
 # <a name="this-instance-is-outside-the-batching-service-window-for-the-partner"></a>此執行個體在夥伴的 [批次處理服務] 視窗外
 ## <a name="details"></a>詳細資料  

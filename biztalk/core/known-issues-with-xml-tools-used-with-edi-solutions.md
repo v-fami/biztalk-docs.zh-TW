@@ -1,14 +1,14 @@
 ---
-title: "EDI 解決方案搭配使用的 XML 工具的已知問題 |Microsoft 文件"
-ms.custom: 
+title: EDI 解決方案搭配使用的 XML 工具的已知問題 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 03d9b361-be98-494c-b32d-03892672fef1
-caps.latest.revision: "19"
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26008719"
 ---
 # <a name="known-issues-with-xml-tools-used-with-edi-solutions"></a>與 EDI 解決方案搭配使用之 XML 工具的已知問題
 本主題描述 BizTalk Server 中的 XML 工具的已知的問題。  

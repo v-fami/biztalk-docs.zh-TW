@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288894"
 ---
 # <a name="what-is-the-wcf-custom-adapter"></a>何謂 WCF-Custom 配接器？
 WCF-Custom 配接器是用來啟用 BizTalk Server 中的 WCF 擴充性元件。 此配接器可以發揮 WCF 架構的完整彈性。 它可以讓使用者針對接收位置和傳送埠選取及設定 WCF 繫結， 也能讓使用者設定結束點行為和安全性設定。  

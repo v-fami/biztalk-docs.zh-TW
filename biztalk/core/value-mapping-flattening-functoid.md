@@ -19,12 +19,13 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287870"
 ---
 # <a name="value-mapping-flattening-functoid"></a>值對應 (簡維) 運算質
-**值對應 （簡維）**運算質可讓您轉換成單一記錄多筆記錄來簡維輸入執行個體訊息部分。 這是轉換 Microsoft Commerce Server 目錄中的一般作業。  
+**值對應 （簡維）** 運算質可讓您轉換成單一記錄多筆記錄來簡維輸入執行個體訊息部分。 這是轉換 Microsoft Commerce Server 目錄中的一般作業。  
   
 > [!NOTE]
->  **值對應 （簡維）**運算質不應與結合**迴圈**運算質或**表格迴圈**運算質。 若將它們合併，則會導致編譯的對應，假設沒有來源迴圈相依性下面的目標節點**迴圈**或**表格迴圈**運算質。  
+>  **值對應 （簡維）** 運算質不應與結合**迴圈**運算質或**表格迴圈**運算質。 若將它們合併，則會導致編譯的對應，假設沒有來源迴圈相依性下面的目標節點**迴圈**或**表格迴圈**運算質。  
   
  下列程式碼會顯示一部分列出產品變數的目錄，而變數的每個功能都會列在個別的記錄中。  
   
@@ -55,7 +56,7 @@ ms.lasthandoff: 09/20/2017
  ![對應來源記錄使用運算質。] (../core/media/valuemappingflattenfunctoid.gif "valuemappingflattenfunctoid")  
 值對應 (簡維) 運算質對應  
   
- **值對應 （簡維）**運算質會傳回其第二個參數的值，如果第一個參數為 true。 在此圖中，第一個**等於**運算質會測試**名稱**屬性等於"Material"。 如果屬性等於"Material"，**等於**運算質會傳回**True**。 接著，這會導致**值對應 （簡維）**指派的值，運算質**值**屬性設定為輸出訊息中的欄位。  
+ **值對應 （簡維）** 運算質會傳回其第二個參數的值，如果第一個參數為 true。 在此圖中，第一個**等於**運算質會測試**名稱**屬性等於"Material"。 如果屬性等於"Material"，**等於**運算質會傳回**True**。 接著，這會導致**值對應 （簡維）** 指派的值，運算質**值**屬性設定為輸出訊息中的欄位。  
   
 ## <a name="see-also"></a>另請參閱  
  [如何新增值對應 （簡維） 運算質至對應](../core/how-to-add-value-mapping-flattening-functoids-to-a-map.md)   

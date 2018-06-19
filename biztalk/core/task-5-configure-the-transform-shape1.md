@@ -1,14 +1,14 @@
 ---
-title: "工作 5： 設定轉換 Shape1 |Microsoft 文件"
-ms.custom: 
+title: 工作 5： 設定轉換 Shape1 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 93a73fd2-0f34-4681-8aed-7d54d69c86d3
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278742"
 ---
 # <a name="task-5-configure-the-transform-shape"></a>工作 5： 設定轉換圖形
 請使用下列程序設定「轉換」圖形。  
@@ -37,7 +38,7 @@ ms.lasthandoff: 09/20/2017
   
      針對您的工作環境，您可能會傳送文件 (而非 BeginDoc)，其中包含可讓您建構所有可能訊息、BeginDoc、EditLine 和 EndDoc 的所有值。 不過，此範例只有硬式編碼資料。  
   
-2.  按兩下**[transform_1]**開啟。  
+2.  按兩下 **[transform_1]** 開啟。  
   
     1.  選取來源，在 加入資料列中按一下**變數名稱**選取**begindocresponsemsg**。  
   
@@ -47,7 +48,7 @@ ms.lasthandoff: 09/20/2017
   
          ![](../core/media/jde-transform-destination.gif "JDE_transform_destination")  
   
-3.  在 [方案總管] 中，按兩下**[transform_1.btm]**開啟對應工具。 連結下列四個項目：  
+3.  在 [方案總管] 中，按兩下 **[transform_1.btm]** 開啟對應工具。 連結下列四個項目：  
   
     -   mnCMJobNo  
   
@@ -87,13 +88,13 @@ ms.lasthandoff: 09/20/2017
   
      以滑鼠右鍵按一下中央並選取**插入圖形**，然後選取**轉換**。  
   
-5.  按兩下**[transform_2]**開啟。  
+5.  按兩下 **[transform_2]** 開啟。  
   
     1.  選取**來源**按一下底下的 加入資料列中的 **變數名稱**選取**begindocresponsemsg**。  
   
     2.  選取**目的地**按一下底下的 加入資料列中的 **變數名稱**，選取**EndDocMsg**，按一下**確定**。  
   
-6.  在 [方案總管] 中，按兩下**[transform_2.btm]**開啟對應工具。 連結下列四個項目：  
+6.  在 [方案總管] 中，按兩下 **[transform_2.btm]** 開啟對應工具。 連結下列四個項目：  
   
     -   mnCMJobNo  
   

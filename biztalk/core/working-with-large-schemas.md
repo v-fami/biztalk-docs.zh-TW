@@ -1,14 +1,14 @@
 ---
-title: "使用大型結構描述 |Microsoft 文件"
-ms.custom: 
+title: 使用大型結構描述 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8348036d-6edb-46a3-badd-0223cfe0a92f
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289710"
 ---
 # <a name="working-with-large-schemas"></a>使用大型結構描述
 當結構描述變得非常大，您可能發現重新整理 XSD 檢視的速度變慢，且使用者介面的其他方面也可能大受影響。 此問題解決方法是關閉自動重新整理功能，並改為使用手動**重新整理**XSD 檢視要定期重新整理 XSD 檢視中的連結。 逐步說明如何開啟的自動重新整理功能關閉，請參閱 < 開啟及關閉開啟自動重新整理 XSD 檢視的 「 程序中[管理 XSD 檢視](../core/how-to-manage-the-xsd-view.md)。  

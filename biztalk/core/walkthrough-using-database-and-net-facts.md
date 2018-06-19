@@ -1,14 +1,14 @@
 ---
-title: "逐步解說： 使用資料庫和.NET 事實 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 使用資料庫和.NET 事實 |Microsoft 文件
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 676d6e46-d9f8-477e-979e-1ac051ad4451
-caps.latest.revision: "23"
+caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25976044"
 ---
 # <a name="walkthrough-using-database-and-net-facts"></a>逐步解說： 使用資料庫和.NET 事實
 此逐步解說提供逐步程序，說明如何透過「商務規則編輯器」建立使用資料庫和 .NET 事實的原則。  
@@ -103,7 +104,7 @@ ms.lasthandoff: 11/28/2017
     }  
     ```  
   
-7.  加入名為的靜態方法**[getmaxallowed]**至**POUtility**類別，如下列程式碼所示：  
+7.  加入名為的靜態方法 **[getmaxallowed]** 至**POUtility**類別，如下列程式碼所示：  
   
     ```  
     public static int GetMaxAllowed()  
@@ -147,9 +148,9 @@ ms.lasthandoff: 11/28/2017
   
 5.  展開**TestDB**，然後展開**PO**。  
   
-6.  在 [事實總管] 視窗中，按一下**.NET 類別**。  
+6.  在 [事實總管] 視窗中，按一下 **.NET 類別**。  
   
-7.  以滑鼠右鍵按一下**。NETAssemblies**，然後按一下 **瀏覽**。  
+7.  以滑鼠右鍵按一下 **。NETAssemblies**，然後按一下 **瀏覽**。  
   
 8.  選取**POUtility**，然後按一下 **確定**。  
   
@@ -157,7 +158,7 @@ ms.lasthandoff: 11/28/2017
   
 10. 在原則總管] 視窗中，以滑鼠右鍵按一下**原則**，然後按一下 [**新增原則**。  
   
-11. 從原則的名稱變更**[policy1]**至**ProcessPurchaseOrderDbNet**然後按 ENTER 鍵。 您也可以在 [屬性] 視窗中變更原則的名稱。  
+11. 從原則的名稱變更 **[policy1]** 至**ProcessPurchaseOrderDbNet**然後按 ENTER 鍵。 您也可以在 [屬性] 視窗中變更原則的名稱。  
   
 12. 以滑鼠右鍵按一下**1.0 版**，然後按一下  **AddNewRule**。  
   
@@ -169,9 +170,9 @@ ms.lasthandoff: 11/28/2017
   
 16. 拖曳**數量**節點從 [事實總管] 視窗**引數 1** [IF] 窗格中。  
   
-17. 在 [事實總管] 視窗中，按一下**.NET 類別**。  
+17. 在 [事實總管] 視窗中，按一下 **.NET 類別**。  
   
-18. 拖曳**[getmaxallowed]**節點從 [事實總管] 視窗**引數 2** [IF] 窗格中。  
+18. 拖曳 **[getmaxallowed]** 節點從 [事實總管] 視窗**引數 2** [IF] 窗格中。  
   
 19. 在 [事實總管] 視窗中，按一下**資料庫**。  
   
@@ -189,9 +190,9 @@ ms.lasthandoff: 11/28/2017
   
 26. 拖曳**數量**節點從 [事實總管] 視窗**引數 1** [IF] 窗格中。  
   
-27. 在 [事實總管] 視窗中，按一下**.NET 類別**。  
+27. 在 [事實總管] 視窗中，按一下 **.NET 類別**。  
   
-28. 拖曳**[getmaxallowed]**節點從 [事實總管] 視窗**引數 2** [IF] 窗格中。  
+28. 拖曳 **[getmaxallowed]** 節點從 [事實總管] 視窗**引數 2** [IF] 窗格中。  
   
 29. 在 [事實總管] 視窗中，按一下**資料庫**。  
   

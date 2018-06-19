@@ -1,14 +1,14 @@
 ---
-title: "監控 BizTalk Server 資料庫 |Microsoft 文件"
-ms.custom: 
+title: 監控 BizTalk Server 資料庫 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 3f137fc5-0e95-4952-8465-008771a1a377
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22298918"
 ---
 # <a name="monitor-the-biztalk-server-databases"></a>監控 BizTalk Server 資料庫
 您可以執行監視 BizTalk Server SQL 代理程式作業，以識別任何已知的問題，管理、 訊息方塊或 DTA 資料庫中。 當您在 BizTalk Server 管理主控台中設定 BizTalk 群組或從舊版本升級 BizTalk 時，就會建立此工作。  

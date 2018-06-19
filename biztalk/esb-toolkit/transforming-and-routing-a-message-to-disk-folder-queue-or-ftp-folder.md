@@ -1,14 +1,14 @@
 ---
-title: "轉換，並將訊息路由至磁碟資料夾、 佇列或 FTP 資料夾 |Microsoft 文件"
-ms.custom: 
+title: 轉換，並將訊息路由至磁碟資料夾、 佇列或 FTP 資料夾 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5bfdbc38-6663-4d95-a0ed-57fec0245b9f
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26009839"
 ---
 # <a name="transforming-and-routing-a-message-to-disk-folder-queue-or-ftp-folder"></a>轉換，並將訊息路由至磁碟資料夾、 佇列或 FTP 資料夾
 在此使用案例中，ESB 轉換提交透過路線 Web 服務或任何上手的訊息。 動態解析查閱是 FILE 類型、 FTP 或佇列位置決定地圖名稱 （轉換） 以及訊息的目標端點，如圖 1 所示。  

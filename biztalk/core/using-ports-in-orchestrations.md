@@ -1,11 +1,11 @@
 ---
-title: "協調流程中使用連接埠 |Microsoft 文件"
-ms.custom: 
+title: 協調流程中使用連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - send ports, receiving
@@ -25,7 +25,7 @@ helpviewer_keywords:
 - ports, about ports
 - ports, configuring
 ms.assetid: 968b2d1b-e233-4eb0-8254-9ec6b7642cdf
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -34,6 +34,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287414"
 ---
 # <a name="using-ports-in-orchestrations"></a>在協調流程中使用連接埠
 連接埠指定您的協調流程和其他商務程序之間傳送和接收訊息的方式。 每個連接埠都具有類型、方向和繫結，由這些決定通訊的方向、通訊的模式、傳送和接受訊息的位置，以及通訊進行的方式。  

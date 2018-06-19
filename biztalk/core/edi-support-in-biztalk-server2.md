@@ -1,14 +1,14 @@
 ---
-title: "EDI 支援 |Microsoft 文件"
-ms.custom: 
+title: EDI 支援 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1d4f50a9-fc55-400c-a63c-40b697425fea
-caps.latest.revision: 
+caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710293"
 ---
 # <a name="edi-support-in-biztalk-server"></a>BizTalk Server 中的 EDI 支援
 EDI 內建於 BizTalk Server 時，則選擇性元件安裝和設定 BizTalk Server。 

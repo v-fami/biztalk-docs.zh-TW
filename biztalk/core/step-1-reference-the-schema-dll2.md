@@ -1,14 +1,14 @@
 ---
-title: "步驟 1： 參考結構描述 DLL2 |Microsoft 文件"
-ms.custom: 
+title: 步驟 1： 參考結構描述 DLL2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1db92227-6164-42b9-b60c-12dd2cae46e2
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277526"
 ---
 # <a name="step-1-reference-the-schema-dll"></a>步驟 1： 參考結構描述 DLL
 在 BizTalk 中，訊息都是不變的。 因此，若要變更屬性值，您必須建立新訊息並加以修改。 在接收和傳送圖形之間插入訊息指派圖形，就可以建立新訊息和加以修改。  
@@ -37,7 +38,7 @@ ms.lasthandoff: 09/20/2017
   
     2.  選取 Microsoft BizTalk Adapter for J.D. Edwards OneWorld 和您剛建立的連接埠。  
   
-    3.  在**新增配接器精靈**，選取**[csales\b4200310]**。  
+    3.  在**新增配接器精靈**，選取 **[csales\b4200310]**。  
   
     4.  按一下**完成**產生結構描述包含訊息的格式。  
   

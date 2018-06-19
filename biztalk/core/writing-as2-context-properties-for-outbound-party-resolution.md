@@ -1,14 +1,14 @@
 ---
-title: "撰寫 AS2 內容屬性的輸出合作對象解析 |Microsoft 文件"
-ms.custom: 
+title: 撰寫 AS2 內容屬性的輸出合作對象解析 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 808d63d9-076d-4eed-8420-aee12b130fee
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289350"
 ---
 # <a name="writing-as2-context-properties-for-outbound-party-resolution"></a>撰寫 AS2 內容屬性以執行輸出合作對象解析
 透過 AS2To 內容屬性或 `Http.UserHttpHeaders` 內容屬性中的 AS2To 屬性，便可以執行輸出 AS2 訊息的協議解析。 不過，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在收到 AS2 訊息時，並不會將 AS2To 屬性寫至內容。 如果您想對 AS2To 或 UserHttpHeaders 內容屬性執行協議解析，必須撰寫自訂協調流程或自訂管線元件。 只有在傳送埠未連結至協議時，才需要這麼做。  

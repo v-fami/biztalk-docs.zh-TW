@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/creating-peoplesoft-send-handlers/
-redirect_document_id: True
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 2b0a1aa81971e3e086881e23bcfd6d7ba5d5799d
 ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24012877"
 ---
 # <a name="optimize-configuration"></a>最佳化組態
 本節內容包含如何最佳化 BizTalk Adapter for PeopleSoft Enterprise 組態的相關資訊，並且包含設定配接器時所使用參數的說明。  

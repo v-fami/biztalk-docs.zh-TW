@@ -1,14 +1,14 @@
 ---
-title: "逐步解說： 使用發佈 WCF 服務 Wcf-netmsmq 配接器 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 使用發佈 WCF 服務 Wcf-netmsmq 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e623b6dc-32e5-467c-bb7d-68b7a75723c1
-caps.latest.revision: "46"
+caps.latest.revision: 46
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010719"
 ---
 # <a name="walkthrough-publishing-wcf-services-with-the-wcf-netmsmq-adapter"></a>逐步解說： 使用發佈 WCF 服務 Wcf-netmsmq 配接器
   
@@ -62,13 +63,13 @@ ms.lasthandoff: 12/01/2017
   
 2.  在 Visual Studio 中開啟**Wcfnetmsmqadapterpublishing**檔案。  
   
-3.  在 [方案總管] 中，展開**[biztalkapp]**，然後開啟**OrderProcess.odx**檢閱。 範例協調流程接收訂單要求訊息，並只再傳回訂單回應訊息。  
+3.  在 [方案總管] 中，展開 **[biztalkapp]**，然後開啟**OrderProcess.odx**檢閱。 範例協調流程接收訂單要求訊息，並只再傳回訂單回應訊息。  
   
-4.  因為**[biztalkapp]**該組件必須安裝在 GAC 中，它將需要強式名稱金鑰檔案，以完成部署程序。 以滑鼠右鍵按一下**[biztalkapp]**專案，然後再按一下**屬性**。 在**屬性**頁面上，按一下**簽署**，然後選取**簽署組件**。 按一下向下的箭號，在**選擇強式名稱金鑰檔**下拉式清單中，按一下  **\<新增\>**輸入`keyfile.snk`中**金鑰檔名稱**文字方塊。 取消核取**保護我的密碼金鑰檔**，然後按一下 **確定**。  
+4.  因為 **[biztalkapp]** 該組件必須安裝在 GAC 中，它將需要強式名稱金鑰檔案，以完成部署程序。 以滑鼠右鍵按一下 **[biztalkapp]** 專案，然後再按一下**屬性**。 在**屬性**頁面上，按一下**簽署**，然後選取**簽署組件**。 按一下向下的箭號，在**選擇強式名稱金鑰檔**下拉式清單中，按一下  **\<新增\>** 輸入`keyfile.snk`中**金鑰檔名稱**文字方塊。 取消核取**保護我的密碼金鑰檔**，然後按一下 **確定**。  
   
 5.  按一下**部署**索引標籤，然後再變更**伺服器**屬性，如果您使用不同的資料庫伺服器的 「 BizTalk 管理 」 資料庫，除了**LOCALHOST**。  請確定**BizTalk 應用程式**值設定為**WCFNetMsmqAdapterPublishing**。 請確定**安裝到全域組件快取**設**True**。  
   
-6.  在 [方案總管] 中，以滑鼠右鍵按一下**[biztalkapp]**專案，然後按一下**重建**。  
+6.  在 [方案總管] 中，以滑鼠右鍵按一下 **[biztalkapp]** 專案，然後按一下**重建**。  
   
 7.  在 方案總管 中，以滑鼠右鍵按一下**biztalkapp**，然後按一下 **部署**。  
   
@@ -108,7 +109,7 @@ ms.lasthandoff: 12/01/2017
   
     6.  在**接收位置屬性**對話方塊中，於**傳輸**區段旁邊**類型**，選取**Wcf-netmsmq**從下拉式清單，然後按一下**設定**。  
   
-    7.  在**Wcf-netmsmq 傳輸屬性**對話方塊**一般**索引標籤的**位址 (URI)**文字方塊中，輸入`net.msmq://localhost/private/WCFNetMsmqAdapterPublishing`。  
+    7.  在**Wcf-netmsmq 傳輸屬性**對話方塊**一般**索引標籤的**位址 (URI)** 文字方塊中，輸入`net.msmq://localhost/private/WCFNetMsmqAdapterPublishing`。  
   
     8.  在**Wcf-netmsmq 傳輸屬性**對話方塊**繫結**索引標籤上，請確定**交易式**選取核取方塊。  
   
@@ -140,7 +141,7 @@ ms.lasthandoff: 12/01/2017
   
     2.  在**協調流程屬性**對話方塊中，選取**WCFNetMsmqAdapterPublishing.ReceivePurchaseOrder**從**接收埠**的下拉式清單**PurchaseOrderRequestPort**。  
   
-    3.  在**協調流程屬性**對話方塊中，選取**WCFNetMsmqAdapterPublishing.SendPurchaseOrder.File**從**傳送埠/傳送埠群組**下拉式清單如**[wcfnetmsmqadapterpublishing.sendpurchaseorder.file]**。  
+    3.  在**協調流程屬性**對話方塊中，選取**WCFNetMsmqAdapterPublishing.SendPurchaseOrder.File**從**傳送埠/傳送埠群組**下拉式清單如 **[wcfnetmsmqadapterpublishing.sendpurchaseorder.file]**。  
   
     4.  在**協調流程屬性**對話方塊中，按一下 **確定**儲存設定。  
   
@@ -150,7 +151,7 @@ ms.lasthandoff: 12/01/2017
   
 2.  在**歡迎使用 BizTalk WCF 服務發佈精靈**頁面上，按一下**下一步**。  
   
-3.  在**WCF 服務類型**頁面上，選取**中繼資料唯一端點 (MEX)**核取方塊以發行中繼資料的 WCFNetMsmq 接收位置。 選取**WCFNetMsmqAdapterPublishing.ReceivePurchaseOrder.NetMsmq**從**發行中繼資料的接收位置**下拉式清單，然後按一下**下一步**。  
+3.  在**WCF 服務類型**頁面上，選取**中繼資料唯一端點 (MEX)** 核取方塊以發行中繼資料的 WCFNetMsmq 接收位置。 選取**WCFNetMsmqAdapterPublishing.ReceivePurchaseOrder.NetMsmq**從**發行中繼資料的接收位置**下拉式清單，然後按一下**下一步**。  
   
 4.  在**建立 WCF 服務**頁面上，選取**BizTalk 協調流程發佈為 WCF 服務**，然後按一下 **下一步**。  
   
@@ -211,7 +212,7 @@ ms.lasthandoff: 12/01/2017
   
 3.  在 Visual Studio，在 方案總管中以滑鼠右鍵按一下**WCFClient**，指向 **新增**，然後按一下 **現有項目**。  
   
-4.  在**加入現有項目**對話方塊中，瀏覽至**WCFClient**資料夾中，選取**所有檔案 (\*。\*)**中**檔案類型**下拉式清單中，選取**BizTalkServiceInstance.cs**和**output.config**檔案、，然後按一下  **新增**。  
+4.  在**加入現有項目**對話方塊中，瀏覽至**WCFClient**資料夾中，選取**所有檔案 (\*。\*)** 中**檔案類型**下拉式清單中，選取**BizTalkServiceInstance.cs**和**output.config**檔案、，然後按一下  **新增**。  
   
 5.  展開**WCFClient**，以滑鼠右鍵按一下**output.config**，按一下 **重新命名**，然後輸入`App.config`做為新的名稱。  
   

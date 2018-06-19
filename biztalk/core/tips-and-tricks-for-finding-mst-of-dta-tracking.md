@@ -1,14 +1,14 @@
 ---
-title: "秘訣和訣竅尋找 MST 的 DTA 追蹤 |Microsoft 文件"
-ms.custom: 
+title: 秘訣和訣竅尋找 MST 的 DTA 追蹤 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7d72e4ac-d952-4cff-9a65-491e20945d40
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279878"
 ---
 # <a name="tips-and-tricks-for-finding-mst-of-dta-tracking"></a>尋找 DTA 追蹤之 MST 的秘訣和訣竅
 根據定義，MST 是以重現方式使用固定負載來測量系統效能的基準。 在下列情況中，瞭解 MST 將特別有用。  

@@ -1,14 +1,14 @@
 ---
-title: "BizTalk 一般檔案結構描述精靈逐步解說 |Microsoft 文件"
-ms.custom: 
+title: BizTalk 一般檔案結構描述精靈逐步解說 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9e764d5c-be06-445d-80f5-7fa8c7ea075b
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230454"
 ---
 # <a name="biztalk-flat-file-schema-wizard-walkthrough"></a>BizTalk 一般檔案結構描述精靈逐步解說
 下列逐步解說為您顯示如何使用「BizTalk 一般檔案結構描述精靈」從一般檔案文件執行個體建立一般檔案結構描述。  

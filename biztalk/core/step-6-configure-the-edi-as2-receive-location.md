@@ -1,14 +1,14 @@
 ---
-title: "步驟 6： 設定 EDI AS2 接收位置 |Microsoft 文件"
-ms.custom: 
+title: 步驟 6： 設定 EDI AS2 接收位置 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 167f8ba2-d38b-4088-863b-2bd90c2a12a2
-caps.latest.revision: "27"
+caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22276254"
 ---
 # <a name="step-6-configure-the-edi-as2-receive-location"></a>步驟 6： 設定 EDI AS2 接收位置
 ![步驟 11-6](../core/media/tut-step6-of-11.gif "Tut_Step6_of_11")  
@@ -38,7 +39,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  在**接收位置屬性**對話方塊中，名稱您接收位置**Receive_AS2**，選取**HTTP**如**類型**，然後按一下**設定**。  
   
-5.  在**HTTP 傳輸屬性**對話方塊方塊中，輸入**/Contoso/BTSHTTPReceive.dll**如**虛擬目錄加 ISAPI 延伸模組**。 清除**成功時傳回相互關聯控制代碼**選取**擱置失敗的要求**。 按一下 **[確定]**。  
+5.  在**HTTP 傳輸屬性**對話方塊方塊中，輸入 **/Contoso/BTSHTTPReceive.dll**如**虛擬目錄加 ISAPI 延伸模組**。 清除**成功時傳回相互關聯控制代碼**選取**擱置失敗的要求**。 按一下 **[確定]**。  
   
 6.  選取**AS2EdiReceive**如**接收管線**。 按一下**確定**，然後按一下**確定**一次。  
   

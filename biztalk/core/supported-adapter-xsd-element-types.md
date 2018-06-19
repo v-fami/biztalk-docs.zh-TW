@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 00691a9e-434f-4baa-9a01-b6f452758ab3
-caps.latest.revision: ''
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "22279390"
 ---
 # <a name="supported-adapter-xsd-element-types"></a>支援的配接器 XSD 項目類型
 下表列出配接器架構支援的項目。 在組態結構描述中定義新的項目時，請使用下列任何類型取代以下範例中的 `string`：  

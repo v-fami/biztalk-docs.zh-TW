@@ -1,11 +1,11 @@
 ---
-title: "追蹤設定檔編輯器 |Microsoft 文件"
-ms.custom: 
+title: 追蹤設定檔編輯器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Tracking Profile Editor, prerequisites
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - BAM, Tracking Profile Editor
 - tracking profiles
 ms.assetid: 064f5795-28d4-40c5-a0d2-295d3516d7f3
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278374"
 ---
 # <a name="tracking-profile-editor"></a>Tracking Profile Editor (追蹤設定檔編輯器)
 本節說明「追蹤設定檔編輯器」(TPE)。 TPE 是一種開發人員用來在 BAM 活動項目與這些項目的 BizTalk 解決方案來源之間建立或修改對應 (稱為追蹤設定檔) 的工具。 TPE 是由圖形化使用者介面組成，可以讓開發人員將內部商務程序的特定檢視和關聯資料對應到協調流程和連接埠。  

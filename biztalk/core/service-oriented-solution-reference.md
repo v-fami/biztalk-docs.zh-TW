@@ -1,17 +1,17 @@
 ---
-title: "服務導向解決方案參考 |Microsoft 文件"
-ms.custom: 
+title: 服務導向解決方案參考 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - technical reference, service solution tutorial
 - service solution tutorial, technical reference
 ms.assetid: fb742016-4214-4f51-a9ee-6874d9cf275a
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22270014"
 ---
 # <a name="service-oriented-solution-reference"></a>服務導向解決方案參考
 本節提供解決方案中的檔案清單，以及協調流程中的訊息。  

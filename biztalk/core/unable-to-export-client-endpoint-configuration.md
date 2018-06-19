@@ -1,14 +1,14 @@
 ---
-title: "無法匯出用戶端端點組態 |Microsoft 文件"
-ms.custom: 
+title: 無法匯出用戶端端點組態 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2d93fe5e-fdb2-49c5-86de-d428b1ecda7f
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286950"
 ---
 # <a name="unable-to-export-client-endpoint-configuration"></a>無法匯出用戶端結束點組態
 ## <a name="details"></a>詳細資料  
@@ -38,10 +39,10 @@ ms.lasthandoff: 09/20/2017
   
      \- 或 -  
   
--   某些必要的屬性未正確指定，例如**位址 (URI)**和**繫結的型別**。  
+-   某些必要的屬性未正確指定，例如**位址 (URI)** 和**繫結的型別**。  
   
 ## <a name="user-action"></a>使用者動作  
- 使用下列程序來驗證使用者權限，並確認**位址 (URI)**和**繫結的型別**設定是否有效。  
+ 使用下列程序來驗證使用者權限，並確認**位址 (URI)** 和**繫結的型別**設定是否有效。  
   
 #### <a name="to-verify-user-permissions-and-confirm-settings"></a>確認使用者權限，並確認設定  
   

@@ -1,11 +1,11 @@
 ---
-title: "使用交易及處理例外狀況 |Microsoft 文件"
-ms.custom: 
+title: 使用交易及處理例外狀況 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - transactions, orchestrations
@@ -18,7 +18,7 @@ helpviewer_keywords:
 - Scope shape [Orchestration Designer], errors
 - Scope shape [Orchestration Designer], transactions
 ms.assetid: bb38f5eb-6641-4e7c-8e2a-c474fc739999
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -27,6 +27,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288430"
 ---
 # <a name="using-transactions-and-handling-exceptions"></a>使用交易和例外狀況處理
 設計協調流程時，您應該仔細思考可能發生問題的地方，以及處理問題的最佳方式。 許多協調流程都有多個潛在的失敗點。 問題可能是由其他原因所引起；例如，伺服器可能當機，或是訊息格式不正確。  

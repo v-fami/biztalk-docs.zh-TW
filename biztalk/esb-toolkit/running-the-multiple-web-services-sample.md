@@ -1,14 +1,14 @@
 ---
-title: "執行多個 Web 服務範例 |Microsoft 文件"
-ms.custom: 
+title: 執行多個 Web 服務範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b201c7c3-213a-4009-8872-5a4c1cbb8195
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294798"
 ---
 # <a name="running-the-multiple-web-services-sample"></a>執行多個 Web 服務範例
 多個 Web 服務範例會使用路線上手範例提供的 Windows Form 測試用戶端應用程式。  

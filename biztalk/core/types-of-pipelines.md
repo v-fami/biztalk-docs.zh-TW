@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286430"
 ---
 # <a name="types-of-pipelines"></a>類型的管線
 在 BizTalk 專案中建立新管線時，您有以下兩個選擇：建立接收管線或建立傳送管線。 本節說明各管線類型之間的差異，以及每個管線類型的設計考量。  

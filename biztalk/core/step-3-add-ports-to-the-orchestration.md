@@ -1,14 +1,14 @@
 ---
-title: "步驟 3： 新增至協調流程連接埠 |Microsoft 文件"
-ms.custom: 
+title: 步驟 3： 新增至協調流程連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 245df16e-d327-4c79-be85-004134d5ea6f
-caps.latest.revision: "45"
+caps.latest.revision: 45
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,15 +17,16 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279830"
 ---
 # <a name="step-3-add-ports-to-the-orchestration"></a>步驟 3：將連接埠加入協調流程
 ![步驟 4 之 3](../adapters-and-accelerators/adapter-oracle-ebs/media/step-3of4.gif "Step_3of4")  
   
  **若要完成的時間：** 10 分鐘  
   
- **目標：**在此步驟中，新增三個連接埠到 EAIProcess 協調流程，並設定它們。  
+ **目標：** 在此步驟中，新增三個連接埠到 EAIProcess 協調流程，並設定它們。  
   
- **用途：**連接埠指定您的協調流程的傳送訊息及接收來自其他商務程序的訊息。 每個連接埠都具有類型、方向和繫結，由這些決定通訊的方向、通訊的模式、傳送和接受訊息的位置，以及通訊進行的方式。 您在此步驟中建立和設定的 3 個連接埠會執行下列角色：  
+ **用途：** 連接埠指定您的協調流程的傳送訊息及接收來自其他商務程序的訊息。 每個連接埠都具有類型、方向和繫結，由這些決定通訊的方向、通訊的模式、傳送和接受訊息的位置，以及通訊進行的方式。 您在此步驟中建立和設定的 3 個連接埠會執行下列角色：  
   
 -   **ReceiveRequestPort**接收倉儲的庫存補充要求訊息。  
   

@@ -1,14 +1,14 @@
 ---
-title: "需求階段建議 |Microsoft 文件"
-ms.custom: 
+title: 需求階段建議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0b510313-c3a7-42bc-9c9b-336c927a5d4a
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22271014"
 ---
 # <a name="requirements-phase-recommendations"></a>需求階段建議
 與需求階段有關的主要工作事項是制定需求規格，或者說，制定一份包含附帶效能目標之需求的功能規格。 在決定這些目標時，必須將系統的使用者和企業主一併列入考慮，才能取得精確的效能分析資料。  

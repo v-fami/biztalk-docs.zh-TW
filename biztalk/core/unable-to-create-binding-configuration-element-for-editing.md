@@ -1,14 +1,14 @@
 ---
-title: "無法建立繫結組態項目進行編輯 |Microsoft 文件"
-ms.custom: 
+title: 無法建立繫結組態項目進行編輯 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 71853662-5a4a-417e-8160-c93dbcbea336
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286422"
 ---
 # <a name="unable-to-create-binding-configuration-element-for-editing"></a>無法建立繫結組態項目進行編輯
 ## <a name="details"></a>詳細資料  

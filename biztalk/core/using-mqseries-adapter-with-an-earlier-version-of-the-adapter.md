@@ -1,12 +1,13 @@
 ---
 redirect_url: /biztalk/core/mqseries-adapter-deployment-options
-redirect_document_id: 
+redirect_document_id: true
 ROBOTS: NOINDEX
 ms.openlocfilehash: 2aa74be2d86bcb8f32661fdcf06727eb6391861d
 ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/28/2018
+ms.locfileid: "29710705"
 ---
 # <a name="using-mqseries-adapter-with-an-earlier-version-of-the-adapter"></a>以舊版配接器使用 MQSeries 配接器
 MQSeries 配接器的不同 BizTalk Server 版本可以全部使用相同的遠端 WebSphere MQ Server 上的 Windows。 MQSeries 어댑터에 사용되는 다음 버전의 COM+ 응용 프로그램을 같은 WebSphere MQSeries 컴퓨터에서 함께 사용할 수 있기 때문입니다.  

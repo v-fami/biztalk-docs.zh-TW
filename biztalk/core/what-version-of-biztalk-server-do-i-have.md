@@ -1,14 +1,14 @@
 ---
-title: "是否有 BizTalk Server 的版本？ | Microsoft Docs"
-ms.custom: 
+title: 是否有 BizTalk Server 的版本？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cb651202-f682-4e5f-8a79-221877af20a7
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288846"
 ---
 # <a name="what-version-of-biztalk-server-do-i-have"></a>是否有 BizTalk Server 的版本？
 您可能執行不同版本與不同版本的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 本主題會示範如何判斷[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安裝資訊，包括版本號碼、 版本與安裝路徑。  

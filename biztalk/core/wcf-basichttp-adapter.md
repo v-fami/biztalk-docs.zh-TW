@@ -10,7 +10,7 @@ ms.topic: article
 helpviewer_keywords:
 - WCF-BasicHttp adapters
 ms.assetid: 51bc56be-3c78-4bf9-87b6-8fb1435d8cde
-caps.latest.revision: ''
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -19,6 +19,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "25976092"
 ---
 # <a name="wcf-basichttp-adapter"></a>WCF-BasicHttp 配接器
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用 Wcf-basichttp 配接器來接收和傳送 WCF 服務要求，透過[BasicHttpBinding 類別](https://msdn.microsoft.com/library/system.servicemodel.basichttpbinding.aspx)。 Wcf-basichttp 配接器可讓您發佈協調流程和結構描述為 WCF 服務，並使用外部 WCF 服務與 **BasicHttpBinding**。  

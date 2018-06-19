@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2d58bfa4-322b-455f-a062-5bd44d368f57
-caps.latest.revision: ''
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26009151"
 ---
 # <a name="using-the-unit-testing-feature-with-pipelines"></a>使用單元測試功能搭配管線
 此主題示範如何使用單元測試功能，以在 FlatFileReceive 管線範例中新增管線的單元測試。 管線單元測試會記載於此處的 Pipeline.exe 工具相似：[管線工具](../core/pipeline-tools.md)。 當您啟用單元測試上 **部署** ] 索引標籤的 [專案屬性中，您的專案中的管線類別衍生自 **Microsoft.BizTalk.TestTools.Pipeline.TestableReceivePipeline**。  此類別可做為 Pipeline.exe 工具所公開之一些相同功能的模型。  

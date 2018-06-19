@@ -1,14 +1,14 @@
 ---
-title: "BizTalk Server 訊息內容屬性 （傳送處理常式） |Microsoft 文件"
-ms.custom: 
+title: BizTalk Server 訊息內容屬性 （傳送處理常式） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a065ba89-9fdb-47dc-9021-fb95cf347cdc
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24013837"
 ---
 # <a name="biztalk-server-message-context-properties-send-handlers"></a>BizTalk Server 訊息內容屬性 （傳送處理常式）
 在執行階段，必須可從 BizTalk Server 協調流程存取的，除了有訊息內容以外，還有訊息包含的補充資訊。  
@@ -29,9 +30,9 @@ ms.lasthandoff: 11/07/2017
 |回覆主體|string|是|協調流程會 提供用於回覆訊息的相關主體 。 預設值是空值。|  
   
 ## <a name="getting-a-tibco-reply"></a>取得 TIBCO 回覆  
- **問題：**如何執行 BizTalk Adapter for TIBCO Rendezvous 讀取及操作的協調流程內的回覆主旨，以便讓使用的傳送主體做為回應？ 配接器如何找到來自 Rendezvous 之內送訊息的訊息內容？  
+ **問題：** 如何執行 BizTalk Adapter for TIBCO Rendezvous 讀取及操作的協調流程內的回覆主旨，以便讓使用的傳送主體做為回應？ 配接器如何找到來自 Rendezvous 之內送訊息的訊息內容？  
   
- **回答：**內送訊息的內容中填入回覆主體及協調流程可以讀取它。 如果協調流程最終會產生回覆，即可使用該值來設定回覆訊息的傳送主體。  
+ **回答：** 內送訊息的內容中填入回覆主體及協調流程可以讀取它。 如果協調流程最終會產生回覆，即可使用該值來設定回覆訊息的傳送主體。  
   
 1.  在 BizTalk Server 專案中，新增 <install_directory>\TibcoRV\bin\Microsoft.BizTalk.Adapters.TibRV.Properties.dll 的參考。  
   

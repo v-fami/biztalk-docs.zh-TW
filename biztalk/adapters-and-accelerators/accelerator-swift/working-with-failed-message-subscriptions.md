@@ -1,18 +1,18 @@
 ---
-title: "使用失敗訊息的訂用帳戶 |Microsoft 文件"
-ms.custom: 
+title: 使用失敗訊息的訂用帳戶 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - failed messages, subscriptions
 - failed messages, developing
 - developing, failed message subscriptions
 ms.assetid: 8dee0aa8-53bf-40be-866b-f1b83960dc99
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005607"
 ---
 # <a name="working-with-failed-message-subscriptions"></a>使用失敗的訊息的訂閱
 當[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]解譯器處理序 （剖析及驗證） 訊息時，它會升級屬性，該訊息。 如果 A4SWIFT 收到訊息做為輸入的批次的一部分，這些升級的屬性會提供資訊的正確性與有效的訊息，以及批次相關資訊。 如需這些屬性的完整清單，請參閱[A4SWIFT_ * 升級屬性](../../adapters-and-accelerators/accelerator-swift/a4swift-promoted-properties.md)。  

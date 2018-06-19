@@ -1,14 +1,14 @@
 ---
-title: "執行 「 訊息豐富 」 範例 |Microsoft 文件"
-ms.custom: 
+title: 執行 「 訊息豐富 」 範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7015a2fe-3727-48f3-a2ed-c368e0630626
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294822"
 ---
 # <a name="running-the-message-enrichment-sample"></a>執行 「 訊息豐富 」 範例
 「 訊息豐富 」 範例會使用路線上手範例隨附的 Windows Form 測試用戶端應用程式。  

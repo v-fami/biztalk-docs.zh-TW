@@ -1,12 +1,12 @@
 ---
-title: "技術白皮書、 部落格和下載 Host Integration server |Microsoft 文件"
-description: "管理組件、 Sdk、 最佳做法分析程式及他白皮書 （英文） 下載"
+title: 技術白皮書、 部落格和下載 Host Integration server |Microsoft 文件
+description: 管理組件、 Sdk、 最佳做法分析程式及他白皮書 （英文） 下載
 author: MandiOhlinger
 manager: anneta
 ms.date: 08/10/2017
 ms.prod: biztalk-server
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.author: mandia
 ms.openlocfilehash: 4c2a19381719569422c43a1e146096ddb25042ba
@@ -14,6 +14,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22290078"
 ---
 # <a name="his-popular-downloads-and-blogs"></a>他的熱門下載和部落格
 

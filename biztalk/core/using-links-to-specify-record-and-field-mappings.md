@@ -1,14 +1,14 @@
 ---
-title: "使用連結指定記錄和欄位對應 |Microsoft 文件"
-ms.custom: 
+title: 使用連結指定記錄和欄位對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 1c669d93-e088-459e-8f45-87c359874a7e
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287246"
 ---
 # <a name="using-links-to-specify-record-and-field-mappings"></a>使用連結指定記錄和欄位對應
 在 BizTalk 對應工具中，連結是一種將來源結構描述中的資料項目與目的結構描述中的資料項目產生關聯的方法。 通常在完成的對應中，來源結構描述與目的結構描述之間會有多個連結。 整體而言，這些連結指定來源執行個體訊息中的資料如何轉換至語意相同、但語法不同的目的執行個體訊息中。  

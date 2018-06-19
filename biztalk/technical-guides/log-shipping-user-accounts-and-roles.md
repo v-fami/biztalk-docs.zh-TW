@@ -1,14 +1,14 @@
 ---
-title: "記錄傳送的使用者帳戶和角色 |Microsoft 文件"
-ms.custom: 
+title: 記錄傳送的使用者帳戶和角色 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2056ea90-5e9f-4501-95d6-18c905db4023
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010599"
 ---
 # <a name="log-shipping-user-accounts-and-roles"></a>記錄傳送的使用者帳戶和角色
 BizTalk Server 記錄傳送由 SQL Server Agent 作業所驅動還原的備份和記錄檔的程序自動化。 不正確的權限可能會導致執行失敗的 BizTalk Server 記錄傳送還原作業。 設定要還原資料庫的使用者帳戶必須具有裝載 BizTalk 管理資料庫的生產資料庫執行個體的存取。 在大部分情況下這表示服務帳戶的驅動 BizTalk Server 記錄傳送作業在嚴重損壞修復的 SQL Server Agent 作業[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]執行個體所需的登入和權限的生產資料庫執行個體裝載[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理資料庫。 這樣會假設 SQL Server Agent 服務帳戶設定為作業的擁有者。  

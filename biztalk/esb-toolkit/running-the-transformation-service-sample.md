@@ -1,14 +1,14 @@
 ---
-title: "執行 「 轉換服務 」 範例 |Microsoft 文件"
-ms.custom: 
+title: 執行 「 轉換服務 」 範例 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 42064d32-5ec5-4219-a338-c5769969b958
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22295230"
 ---
 # <a name="running-the-transformation-service-sample"></a>執行 「 轉換服務 」 範例
 您可以執行轉換服務 」 範例使用任何工具或公用程式可執行 Web 服務方法。 例如，您可以使用出現，可從[CodePlex](http://go.microsoft.com/fwlink/?LinkId=187762) ([http://go.microsoft.com/fwlink/?LinkId=187762](http://go.microsoft.com/fwlink/?LinkId=187762))，或者您可以建立自己的測試用戶端叫用轉換 Web 服務。  

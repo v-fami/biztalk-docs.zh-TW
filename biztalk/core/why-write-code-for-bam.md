@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4434f50a-e0a9-45e0-8c68-a059011e1296
-caps.latest.revision: ''
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/23/2018
+ms.locfileid: "22289886"
 ---
 # <a name="why-write-code-for-bam"></a>為何為 BAM 撰寫程式碼？
 在多數狀況下，您都可以使用 BAM 工具，而不需要撰寫自己的程式碼以執行追蹤功能。 這些工具包括適用於 Excel 的 BAM 增益集、[BAM 管理公用程式]，以及 [追蹤設定檔編輯器] \(TPE)。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中的 BAM 提供 BizTalk 協調流程和傳訊元件 (管線和連接埠) 的攔截器。 攔截器是一種檢測應用程式的軟體，使其能夠根據組態檔而以一般方式收集資料。 您可以使用 [追蹤設定檔編輯器] 來檢測應用程式，以便使用這些攔截器。 如需追蹤設定檔編輯器的詳細資訊，請參閱[追蹤設定檔編輯器](../core/tracking-profile-editor.md)。  

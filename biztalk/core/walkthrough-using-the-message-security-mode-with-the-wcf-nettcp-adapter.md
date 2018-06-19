@@ -1,14 +1,14 @@
 ---
-title: "逐步解說： 使用 Wcf-nettcp 配接器使用訊息安全性模式 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 使用 Wcf-nettcp 配接器使用訊息安全性模式 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c7f6e892-34ce-4132-8867-54cc3bbfe507
-caps.latest.revision: "47"
+caps.latest.revision: 47
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010607"
 ---
 # <a name="walkthrough-using-the-message-security-mode-with-the-wcf-nettcp-adapter"></a>逐步解說： 使用訊息安全性模式，Wcf-nettcp 配接器
   
@@ -73,7 +74,7 @@ ms.lasthandoff: 12/01/2017
     1.  在 Internet Explorer 中瀏覽的網站`http://localhost/certsrv`。 在**歡迎**頁面上，按一下**要求憑證**，然後按一下 **進階的憑證要求**上**要求憑證**頁面。  
   
         > [!NOTE]
-        >  當使用[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]與憑證授權單位要求憑證要求從[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]電腦，您可能會收到錯誤**「 為了完成憑證註冊，ca 的網站必須設定為使用 HTTPS驗證 」**。 如果發生這個錯誤，就必須設定使用 Web 憑證 (SSL) 註冊網站。 如需完成此工作的詳細資訊，請參閱下列連結：  
+        >  當使用[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]與憑證授權單位要求憑證要求從[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]電腦，您可能會收到錯誤 **「 為了完成憑證註冊，ca 的網站必須設定為使用 HTTPS驗證 」**。 如果發生這個錯誤，就必須設定使用 Web 憑證 (SSL) 註冊網站。 如需完成此工作的詳細資訊，請參閱下列連結：  
         >   
         >  [AD CS： 網頁註冊](http://technet.microsoft.com/library/cc732517.aspx)  
         >   
@@ -160,7 +161,7 @@ ms.lasthandoff: 12/01/2017
   
     5.  在**接收位置屬性**對話方塊中，於**傳輸**區段旁邊**類型**，選取**Wcf-nettcp**從下拉式清單清單，然後再按**設定**。  
   
-    6.  在**Wcf-nettcp 傳輸屬性**對話方塊**一般**索引標籤的**位址 (URI)**文字方塊中，輸入`net.tcp://localhost/WcfMessageSecurity`。  
+    6.  在**Wcf-nettcp 傳輸屬性**對話方塊**一般**索引標籤的**位址 (URI)** 文字方塊中，輸入`net.tcp://localhost/WcfMessageSecurity`。  
   
     7.  在**Wcf-nettcp 傳輸屬性**對話方塊**安全性**索引標籤上，選取**訊息**從**安全性模式**下拉式清單清單，然後再選取**憑證**從**訊息用戶端認證類型**下拉式清單。 這會設定 Wcf-nettcp 配接器使用訊息安全性模式。  
   
@@ -179,7 +180,7 @@ ms.lasthandoff: 12/01/2017
   
     3.  在**傳送埠屬性**對話方塊中，於**傳輸**區段旁邊**類型**，選取**檔案**從下拉式清單中，然後按一下**設定**。  
   
-    4.  在**FILE 傳輸屬性**對話方塊**一般**索引標籤上，輸入`C:\WCFMessageSecurity\OrderRequestOut`中**目的地資料夾**文字方塊，然後再按一下**[確定]**.  
+    4.  在**FILE 傳輸屬性**對話方塊**一般**索引標籤上，輸入`C:\WCFMessageSecurity\OrderRequestOut`中**目的地資料夾**文字方塊，然後再按一下 **[確定]**.  
   
     5.  在**傳送埠屬性**對話方塊**篩選**索引標籤上，選取**BTS。ReceivePortName**如**屬性**欄位中，輸入`WcfMessageSecurity.OrderRequest.Receive`如**值**欄位，，然後按一下**確定**。 這個篩選條件運算式會路由傳送傳入[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]到用戶端的訊息**WcfMessageSecurity.OrderRequest.Receive**接收這個傳送埠的連接埠。  
   

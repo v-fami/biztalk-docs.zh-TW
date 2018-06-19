@@ -1,14 +1,14 @@
 ---
-title: "步驟 6： 設定傳送埠，以便將資料傳送至您的組織 |Microsoft 文件"
-ms.custom: 
+title: 步驟 6： 設定傳送埠，以便將資料傳送至您的組織 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 796570ca-8178-4679-9213-d67a2a189bf9
-caps.latest.revision: "26"
+caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277006"
 ---
 # <a name="step-6-configure-a-send-port-to-send-data-to-your-organization"></a>步驟 6： 設定傳送埠，以便將資料傳送至您的組織
 ![步驟 6 的 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-6of9.gif "Step_6of9")  
@@ -70,13 +71,13 @@ ms.lasthandoff: 09/20/2017
     |**值**|輸入`ReceiveEDI_fromTHEM_A`。|  
     |**群組依據**|選取**和**。|  
     |**屬性**|在下一行中，選取**BTS。MessageType**。|  
-    |**運算子**|選取**！ =**。|  
+    |**運算子**|選取 **！ =**。|  
     |**值**|輸入`http://schemas.microsoft.com/Edi/X12#X12_997_Root`。|  
   
     > [!NOTE]
     >  篩選器將確保此傳送埠將收取由 Receive_EDI_fromTHEM_A 接收位置所收到的訊息，而該傳送埠將不會收取 997 通知，而只收取 850 訊息。  
   
-7.  在主控台樹狀目錄中，按一下**[輸出對應]**。 在**輸出對應**窗格，請在**對應**資料行，第一個資料列上，選取**Inbound4010850_to_OrderFile**。 (中的項目**來源文件**資料行都將是 X12_00401_850。)  
+7.  在主控台樹狀目錄中，按一下 **[輸出對應]**。 在**輸出對應**窗格，請在**對應**資料行，第一個資料列上，選取**Inbound4010850_to_OrderFile**。 (中的項目**來源文件**資料行都將是 X12_00401_850。)  
   
     > [!NOTE]
     >  這個步驟可確保輸出訊息將會包含只對應來源為根據的輸入訊息資料的**Inbound4010850_to_OrderFile**對應。  

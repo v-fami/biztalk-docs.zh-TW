@@ -1,14 +1,14 @@
 ---
-title: "逐步解說： 修改的原則 |Microsoft 文件"
-ms.custom: 
+title: 逐步解說： 修改的原則 |Microsoft 文件
+ms.custom: ''
 ms.date: 2016-04-05
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9dd74440-2a45-4a1a-8e36-98796e1e1392
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289670"
 ---
 # <a name="walkthrough-modifying-the-policy"></a>逐步解說： 修改原則
 本逐步解說提供建立新版的逐步指示**POVocabulary**，建立新版本的**ProcessPurchaseOrder**原則，並使用最新版**POVocabulary**在新版的**ProcessPurchaseOrder**原則。  
@@ -46,7 +47,7 @@ ms.lasthandoff: 09/20/2017
   
 4.  以滑鼠右鍵按一下**POVocabulary**，然後按一下 **貼上詞彙版本**。  
   
-5.  按兩下**數目的項目允許的最大**中**版本 1.1 （未儲存）**啟動 [詞彙定義精靈]。  
+5.  按兩下**數目的項目允許的最大**中**版本 1.1 （未儲存）** 啟動 [詞彙定義精靈]。  
   
 6.  按一下 **[下一步]**。  
   
@@ -68,7 +69,7 @@ ms.lasthandoff: 09/20/2017
   
 3.  以滑鼠右鍵按一下**ProcessPurchaseOrder**，然後按一下  **pastepolicyversion**。  
   
-4.  按一下**ApprovalRule**中**（未儲存） 1.3 版**。  
+4.  按一下**ApprovalRule**中 **（未儲存） 1.3 版**。  
   
 5.  在 [事實總管] 中，展開**詞彙**，依序展開**POVocabulary**，然後展開**1.1 版-已發佈**。  
   
@@ -76,7 +77,7 @@ ms.lasthandoff: 09/20/2017
   
 7.  重複步驟 4-6 **DeniedRule**。  
   
-8.  以滑鼠右鍵按一下**（未儲存） 1.3 版**，然後按一下 **儲存**。  
+8.  以滑鼠右鍵按一下 **（未儲存） 1.3 版**，然後按一下 **儲存**。  
   
 9. 以滑鼠右鍵按一下**1.3 版**，然後按一下 **發行**。  
   

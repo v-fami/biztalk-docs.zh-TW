@@ -1,14 +1,14 @@
 ---
-title: "BAM 基礎結構限制 |Microsoft 文件"
-ms.custom: 
+title: BAM 基礎結構限制 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e33d2f6c-8d26-4a76-810e-85d810cfdbee
-caps.latest.revision: "21"
+caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26005599"
 ---
 # <a name="bam-infrastructure-limitations"></a>BAM 基礎結構限制
 BAM 基礎結構有下列設計限制此版本的 BizTalk Server:  

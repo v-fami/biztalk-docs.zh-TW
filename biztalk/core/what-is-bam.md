@@ -1,11 +1,11 @@
 ---
-title: "何謂 BAM？ | Microsoft Docs"
-ms.custom: 
+title: 何謂 BAM？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - aggregations [BAM], monitoring
@@ -26,7 +26,7 @@ helpviewer_keywords:
 - monitoring, BAM
 - profiles, BAM
 ms.assetid: 5160026a-1ffe-457e-8b75-35ed9bb3457c
-caps.latest.revision: "17"
+caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -35,6 +35,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289758"
 ---
 # <a name="what-is-bam"></a>何謂 BAM？
 「商務活動監控」(Business Activity Monitoring，BAM) 是一組工具集合，可以讓您管理彙總、警示與設定檔，以監視相關的商務計量 (稱為「關鍵效能指標」(Key Performance Indicators，KPI)。 BAM 提供您商務程序的端對端可見性，以及有關不同作業、程序和交易之狀態及結果的精確資訊，以便讓您找出問題所在並解決商務上的議題。  

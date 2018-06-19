@@ -1,14 +1,14 @@
 ---
-title: "處理 JSON 訊息使用 BizTalk Server |Microsoft 文件"
-ms.custom: 
+title: 處理 JSON 訊息使用 BizTalk Server |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c6db1421-9478-477c-8645-09eefba06246
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26007151"
 ---
 # <a name="processing-json-messages-using-biztalk-server"></a>使用 BizTalk Server 處理 JSON 訊息
 > [!NOTE]

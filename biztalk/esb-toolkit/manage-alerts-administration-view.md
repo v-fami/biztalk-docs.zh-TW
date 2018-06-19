@@ -1,14 +1,14 @@
 ---
-title: "管理警示 （系統管理 檢視） |Microsoft 文件"
-ms.custom: 
+title: 管理警示 （系統管理 檢視） |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 27f8bf7d-15b7-448d-8c13-e4969b90d021
-caps.latest.revision: "2"
+caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22294438"
 ---
 # <a name="manage-alerts-administration-view"></a>管理警示 （系統管理 檢視）
 圖 1 顯示系統管理 檢視中，系統管理員可以用來檢視所有警示和其活動的摘要清單中的 警示 頁面。 資料表會顯示每個警示的資料列。 警示名稱、 建立者的名稱、 一般統計資料 （例如數字的最後一個小時、 天、 或月份內的警示啟動），警示會顯示每個資料列的 「 訂閱者 」 的連結警示的檢視清單，以及動作資料行，內含一組 cli 計數在警示上執行動作的 ckable 圖示。  
@@ -33,7 +34,7 @@ ms.lasthandoff: 09/20/2017
   
 -   按一下**匯出至 Excel**警示的清單匯出為 Microsoft Excel 試算表的連結。  
   
--   按一下 +**檢視 「 訂閱者 」**顯示一份 「 訂閱者 」 警示的資料列中的連結。 清單中資料列，就會展開並刪除圖示出現在每個可讓系統管理員從警示移除訂閱者的動作資料行。 同時，此連結會變更-**隱藏的訂閱者**，讓您可以摺疊的訂閱者清單。  
+-   按一下 +**檢視 「 訂閱者 」** 顯示一份 「 訂閱者 」 警示的資料列中的連結。 清單中資料列，就會展開並刪除圖示出現在每個可讓系統管理員從警示移除訂閱者的動作資料行。 同時，此連結會變更-**隱藏的訂閱者**，讓您可以摺疊的訂閱者清單。  
   
 -   按一下 執行工作，該資料列中警示的 動作 欄中的圖示。 （中出現的順序） 的圖示和工作如下所示：  
   

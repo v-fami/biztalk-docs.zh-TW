@@ -1,11 +1,11 @@
 ---
-title: "使用 BizTalk 對應工具建立對應 |Microsoft 文件"
-ms.custom: 
+title: 使用 BizTalk 對應工具建立對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - creating, maps
@@ -16,7 +16,7 @@ helpviewer_keywords:
 - transformations [maps]
 - maps
 ms.assetid: 265e61d8-8cff-44c9-a717-8e895cb4b9bf
-caps.latest.revision: "20"
+caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -25,6 +25,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238334"
 ---
 # <a name="creating-maps-using-biztalk-mapper"></a>使用 BizTalk 對應工具建立對應
 「BizTalk 對應工具」是在 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 環境中執行的工具。 您可以使用 BizTalk 對應工具建立和編輯對應，以轉譯或轉換 XML 訊息。 對應可以用於協調流程 (如下圖所示)，也可以用於處理接收埠所接收的訊息，接著加以轉換然後透過傳送埠傳送出去。  

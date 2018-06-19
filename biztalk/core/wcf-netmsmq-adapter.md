@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288094"
 ---
 # <a name="wcf-netmsmq-adapter"></a>WCF-NetMsmq 配接器
 [!INCLUDE[btsCoName](../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]接收及傳送 WCF 服務透過要求時使用 Wcf-netmsmq 配接器[NetMsmqBinding](http://go.microsoft.com/fwlink/?LinkId=82589)。 Wcf-netmsmq 配接器可讓您協調流程和結構描述為 WCF 服務發佈，並使用外部 WCF 服務與**NetMsmqBinding**。  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22269406"
 ---
 # <a name="services-moduleref-node"></a>服務 (ModuleRef 節點)
 繫結檔案的 [服務] 節點包含隨著繫結檔案匯出之每項服務的特定資訊。  

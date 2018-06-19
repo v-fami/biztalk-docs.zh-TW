@@ -1,11 +1,11 @@
 ---
-title: "什麼是 SOAP 配接器？ | Microsoft Docs"
-ms.custom: 
+title: 什麼是 SOAP 配接器？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SOAP adapters
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - BizTalk Web Services Publishing Wizard, SOAP adapters
 - SOAP adapters, about SOAP adapters
 ms.assetid: 725e6e31-430f-49f3-b9dd-8e65b963da70
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289918"
 ---
 # <a name="what-is-the-soap-adapter"></a>什麼是 SOAP 配接器？
 Web 服務是一些程式，其介面符合為 Web 服務描述語言 (WSDL) 設定的標準。 您可以使用 Microsoft BizTalk Server 協調流程來建立和使用 Web 服務將容易管理而且直覺的方式結合不同但相關的商務功能。 如需 Web 服務和協調流程的詳細資訊，請參閱[使用 Web Services](../core/using-web-services.md)。  

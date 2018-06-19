@@ -1,17 +1,17 @@
 ---
-title: "使用挑選清單欄位使用 BizTalk Server 和 Siebel 配接器執行商務元件上的作業 |Microsoft 文件"
-ms.custom: 
+title: 使用挑選清單欄位使用 BizTalk Server 和 Siebel 配接器執行商務元件上的作業 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - how to, perform operations with picklist fields by using BizTalk Server
 - business components, performing operations with picklist fields by using BizTalk Server
 ms.assetid: b62d32fa-903a-442b-951b-2343ef719bd0
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -20,6 +20,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22226830"
 ---
 # <a name="run-operations-on-business-components-with-picklist-fields-using-biztalk-server-and-the-siebel-adapter"></a>使用挑選清單欄位使用 BizTalk Server 和 Siebel 配接器執行商務元件上的作業
 Siebel 挑選清單的欄位類型構成的可能值的集合從用戶端可以指定要傳遞到 Siebel 系統為某個值。 換句話說，挑選清單欄位包含一份可接受的欄位值。 如需挑選清單和其類型的詳細資訊，請參閱 Siebel 文件。 如需有關如何[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]挑選清單欄位的商務元件上的支援作業[在 Siebel 商務元件上的作業](../../adapters-and-accelerators/adapter-siebel/operations-on-business-components-in-siebel.md)。  
@@ -104,7 +105,7 @@ Siebel 挑選清單的欄位類型構成的可能值的集合從用戶端可以�
   
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
-|ReceiveXML|Receive|-設定**名稱**至*ReceiveXML*<br />-設定**啟動**至*，則為 True*|  
+|ReceiveXML|Receive|-設定**名稱**至*ReceiveXML*<br />-設定**啟動**至 *，則為 True*|  
 |SendToLOB|Send|-設定**名稱**至*SendToLOB*|  
 |ReceiveResponse|Receive|-設定**名稱**至*ReceiveResponse*<br />-設定**啟動**至*False*|  
 |SendResponse|Send|-設定**名稱**至*SendResponse*|  

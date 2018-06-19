@@ -1,14 +1,14 @@
 ---
-title: "工作 3： 設定傳送埠和接收 Shapes2 |Microsoft 文件"
-ms.custom: 
+title: 工作 3： 設定傳送埠和接收 Shapes2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 6ebe7141-f2bd-4e6a-9204-d61bd64286af
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279022"
 ---
 # <a name="task-3-configure-the-send-and-receive-shapes"></a>工作 3： 設定傳送埠和接收圖形
 請使用下列程序設定傳送和接收圖形。  

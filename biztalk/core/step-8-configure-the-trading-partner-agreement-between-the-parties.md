@@ -1,14 +1,14 @@
 ---
-title: "步驟 8： 設定合作對象之間交易夥伴協議 |Microsoft 文件"
-ms.custom: 
+title: 步驟 8： 設定合作對象之間交易夥伴協議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 9f532f85-3f09-4b60-b7bb-817ee3c79899
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280014"
 ---
 # <a name="step-8-configure-the-trading-partner-agreement-between-the-parties"></a>步驟 8： 設定合作對象之間交易夥伴協議
 ![步驟 8 的 9](../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-8of9.gif "Step_8of9")  
@@ -30,7 +31,7 @@ ms.lasthandoff: 09/20/2017
   
 1.  按一下**啟動**，按一下 **所有程式**，按一下  **Microsoft BizTalk Server**，然後按一下  **BizTalk Server 管理**。  
   
-2.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，按一下 **合作對象**的主控台樹狀目錄中，然後在**合作對象與商務設定檔**頁面上，以滑鼠右鍵按一下**[fabrikam_profile]**，指向 **新增**，然後按一下 **協議**。  
+2.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，按一下 **合作對象**的主控台樹狀目錄中，然後在**合作對象與商務設定檔**頁面上，以滑鼠右鍵按一下 **[fabrikam_profile]**，指向 **新增**，然後按一下 **協議**。  
   
 3.  在**一般屬性** 頁面上，針對**名稱**文字方塊中，輸入協議的名稱。  
   
@@ -60,7 +61,7 @@ ms.lasthandoff: 09/20/2017
   
     2.  在**通知**頁面的 **交換設定**區段中，按一下**預期 997**。 若是選取這個核取方塊，則會提示接收管線在收到 850 交換時產生 997 通知。  
   
-    3.  在**驗證**頁面**交換設定**區段中，請確定**交換控制編號 （檢查重複的 isa13）**未選項。  
+    3.  在**驗證**頁面**交換設定**區段中，請確定**交換控制編號 （檢查重複的 isa13）** 未選項。  
   
         > [!NOTE]
         >  清除**檢查重複的 ISA13**屬性可讓您接收相同訊息的多個執行個體。  
@@ -101,14 +102,14 @@ ms.lasthandoff: 09/20/2017
   
         |使用|動作|  
         |--------------|----------------|  
-        |**預設值**|選取核取方塊**預設**資料行。 **注意：**當您選取這個資料列的預設值為**GS1**， **GS2**， **GS3**， **GS7**，和**GS8**可用即使值**交易類型**，**版本/版次**，和**目標命名空間**都不符合訊息。|  
+        |**預設值**|選取核取方塊**預設**資料行。 **注意：** 當您選取這個資料列的預設值為**GS1**， **GS2**， **GS3**， **GS7**，和**GS8**可用即使值**交易類型**，**版本/版次**，和**目標命名空間**都不符合訊息。|  
         |**交易類型**|選取的測試訊息，訊息類型**850-Purchase Order**。|  
         |**版本/版次**|輸入 EDI 版本， **00401**。|  
         |**目標命名空間**|選取**http://schemas.microsoft.com/Edi/X12**。|  
-        |**GS1**|確認**PO-Purchase Order (850)**已選取。|  
+        |**GS1**|確認**PO-Purchase Order (850)** 已選取。|  
         |**GS2**|輸入**1234567**。<br /><br /> **寄件者應用程式識別碼。**|  
         |**GS3**|輸入**0000000**。<br /><br /> **接收者應用程式識別碼。**|  
-        |**GS4**|選取**CCYYMMDD**。 **注意：**您必須在下拉式清單中選取值，不只是按一下欄位以顯示預設值。 如果您按一下欄位而未從下拉式清單中選取值，實際上不會選取值。|  
+        |**GS4**|選取**CCYYMMDD**。 **注意：** 您必須在下拉式清單中選取值，不只是按一下欄位以顯示預設值。 如果您按一下欄位而未從下拉式清單中選取值，實際上不會選取值。|  
         |**GS5**|選取**HHMM**。|  
         |**GS7**|選取**X-Accredited 的 Standards Committee X12**。|  
         |**GS8**|確認**00401**已輸入。|  

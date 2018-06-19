@@ -1,11 +1,11 @@
 ---
-title: "建立 Web 連接埠 |Microsoft 文件"
-ms.custom: 
+title: 建立 Web 連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - Web services, Web ports
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - ports, Web ports
 - Web ports, about Web ports
 ms.assetid: 3792ec2b-72e5-4374-90a6-706afc16fb22
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22238198"
 ---
 # <a name="creating-web-ports"></a>建立 Web 連接埠
 Web 連接埠是專門針對使用 (呼叫) Web 服務所設定的連接埠。 Web 連接埠可包含多項作業，代表混合單向 (僅限要求) 和雙向 (要求-回應) 的 Web 方法。 Web 連接埠中的每一項作業代表 Web 服務的一種方法。  

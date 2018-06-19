@@ -1,14 +1,14 @@
 ---
-title: "執行 BizTalk Server 的電腦備份 |Microsoft 文件"
-ms.custom: 
+title: 執行 BizTalk Server 的電腦備份 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 70f53b41-8083-4b56-8698-e75a13b21a69
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230502"
 ---
 # <a name="backing-up-a-computer-running-biztalk-server"></a>對執行 BizTalk Server 的電腦進行備份
 執行 BizTalk Server 的電腦若發生無法修復的硬體失敗，您就必須用一模一樣的電腦予以替換。 您應該設定在替換的電腦具有基底平台軟體、 軟體必要元件，BizTalk Server 元件和相同的組態設定。 這些組態設定可能包括適用的登錄項目、檔案和資料夾，還有 BizTalk 應用程式正常運作所需的相關 Windows 服務。  

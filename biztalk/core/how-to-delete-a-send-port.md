@@ -1,18 +1,18 @@
 ---
-title: "如何刪除傳送埠 |Microsoft 文件"
-ms.custom: 
+title: 如何刪除傳送埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - managing [send ports], deleting
 - send ports, deleting
 - deleting, send ports
 ms.assetid: aff5980e-57bf-400c-82bd-3d02e143f227
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26006167"
 ---
 # <a name="how-to-delete-a-send-port"></a>如何刪除傳送埠
 本主題描述如何使用 BizTalk Server 管理主控台，從 BizTalk 應用程式中刪除傳送埠。 這樣做也會從群組的 BizTalk 管理資料庫中刪除傳送埠。  

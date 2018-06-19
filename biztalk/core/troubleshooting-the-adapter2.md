@@ -1,11 +1,11 @@
 ---
-title: "疑難排解 Adapter2 |Microsoft 文件"
-ms.custom: 
+title: 疑難排解 Adapter2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - wildcard characters, in send port properties
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Get.xml
 - send ports, using wildcards in properties
 ms.assetid: e9e0408f-5a12-4f05-83a6-37dc519ae4c5
-caps.latest.revision: "10"
+caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279190"
 ---
 # <a name="troubleshooting-the-adapter"></a>配接器疑難排解
 本主題所含的資訊，可協助您辨識和解決在使用 Microsoft BizTalk Adapter for PeopleSoft Enterprise 時可能會遇到的問題。  

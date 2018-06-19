@@ -1,14 +1,14 @@
 ---
-title: "使用限制機制的複雜型別衍生 |Microsoft 文件"
-ms.custom: 
+title: 使用限制機制的複雜型別衍生 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: c3003d88-6b75-4dcb-834f-1babcf7449cb
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22233478"
 ---
 # <a name="complex-type-derivation-using-the-restriction-mechanism"></a>使用限制機制的複雜型別衍生
 就「BizTalk 編輯器」功能而言，透過限制產生的衍生和透過延伸產生的衍生類似。 透過限制所衍生的複雜型別與其基底資料型別類似，但其宣告較基底資料型別中對應的宣告受限制。 事實上，新型別所代表的值，是基底資料型別所代表的值之子集 (與簡單型別的限制相同)。 為基底資料型別值準備的應用程式，應該要能夠順利處理限制型別的任何值。  

@@ -8,7 +8,7 @@ ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 8da91ba4-e1c9-4e6b-bbd1-fe71ea880118
-caps.latest.revision: ''
+caps.latest.revision: 43
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 03/28/2018
+ms.locfileid: "26010663"
 ---
 # <a name="how-the-edi-disassembler-works"></a>EDI 解譯器如何運作
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會在 EDI 接收管線 (`Microsoft.BizTalk.DefaultPipelines.EDIReceivePipeline`) 中執行對所收到 EDI 編碼交換的大部分處理。 此管線包含 EDI 解譯器管線元件，可執行下列處理：  

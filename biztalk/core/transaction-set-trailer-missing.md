@@ -1,14 +1,14 @@
 ---
-title: "交易集結尾遺失 |Microsoft 文件"
-ms.custom: 
+title: 交易集結尾遺失 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 07753300-fe47-47a6-a947-6abec10c1c90
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279286"
 ---
 # <a name="transaction-set-trailer-missing"></a>交易集結尾遺失
 ## <a name="details"></a>詳細資料  

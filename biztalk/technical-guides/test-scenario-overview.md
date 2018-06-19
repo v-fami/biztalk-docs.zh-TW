@@ -1,14 +1,14 @@
 ---
-title: "測試案例概觀 |Microsoft 文件"
-ms.custom: 
+title: 測試案例概觀 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: cde553ad-2540-40d9-a74b-928fee873c31
-caps.latest.revision: "32"
+caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 12/01/2017
+ms.locfileid: "26010687"
 ---
 # <a name="test-scenario-overview"></a>測試案例概觀
 本主題提供的測試應用程式的概觀測試使用，方法和清單的描述在負載測試期間擷取關鍵效能指標 (Kpi)。  
@@ -103,34 +104,34 @@ ms.lasthandoff: 12/01/2017
   
  測試用戶端用來建立每個測試回合的唯一結果目錄。 這個目錄包含所有效能記錄檔，事件記錄檔和相關聯的測試所需的資料。 這種方法提供必要回溯分析先前的測試執行時所需的資訊。 在每個測試結束時，原始資料被編譯成一組一致的結果與關鍵效能指標 (Kpi)。 實體和虛擬機器提供的不同測試回合和不同環境之間所需的比較點收集一致的結果設定。 包含收集的資料：  
   
--   **環境 –**記錄何種環境測試正在執行對實體硬體上的 BizTalk Server 或 HYPER-V 上的 BizTalk Server。  
+-   **環境 –** 記錄何種環境測試正在執行對實體硬體上的 BizTalk Server 或 HYPER-V 上的 BizTalk Server。  
   
--   **測試回合數 –**來唯一識別每個測試回合  
+-   **測試回合數 –** 來唯一識別每個測試回合  
   
--   **測試案例 –**記錄在測試期間使用的 BizTalk Server 解決方案的架構。 （例如具有邏輯連接埠與協調流程使用內嵌的協調流程傳送）  
+-   **測試案例 –** 記錄在測試期間使用的 BizTalk Server 解決方案的架構。 （例如具有邏輯連接埠與協調流程使用內嵌的協調流程傳送）  
   
--   **日期 –**執行記錄的日期和時間，測試  
+-   **日期 –** 執行記錄的日期和時間，測試  
   
--   **時間已啟動 –**報告的第一個 VSTS 負載測試代理程式起始  
+-   **時間已啟動 –** 報告的第一個 VSTS 負載測試代理程式起始  
   
--   **時間已停止 –**完成最後一個 VSTS 負載測試代理程式報告  
+-   **時間已停止 –** 完成最後一個 VSTS 負載測試代理程式報告  
   
--   **測試持續時間，以分鐘為單位 –**記錄的測試持續期間。  
+-   **測試持續時間，以分鐘為單位 –** 記錄的測試持續期間。  
   
 -   **總計-傳送的郵件數**記錄從負載代理程式的電腦傳送至 BizTalk Server 的電腦在測試期間的訊息總數。  
   
 -   **每秒 – 傳送的郵件數**來記錄每秒從負載代理程式電腦的 BizTalk Server 電腦測試期間傳送的訊息。  
   
--   **平均用戶端延遲 –**記錄的平均測試載入代理程式用戶端起始的要求和負載測試期間，從 BizTalk Server 的電腦收到的回應之間的時間量。  
+-   **平均用戶端延遲 –** 記錄的平均測試載入代理程式用戶端起始的要求和負載測試期間，從 BizTalk Server 的電腦收到的回應之間的時間量。  
   
--   **要求-回應持續時間平均 （毫秒） –**所報告**BizTalk： 傳訊 Latency\Request 回應延遲 （秒）** BizTalkServerIsolatedHost 效能監視器計數器  
+-   **要求-回應持續時間平均 （毫秒） –** 所報告**BizTalk： 傳訊 Latency\Request 回應延遲 （秒）** BizTalkServerIsolatedHost 效能監視器計數器  
   
     > [!NOTE]  
     >  使用其中多個虛擬化的 BizTalk 主控件執行這些計數器的平均值計算從記錄檔。  
   
--   **協調流程已完成，每秒 –**所報告**XLANG/s 協調流程 (BizTalkServerApplication) \Orchestrations 每秒完成**效能監視器計數器。 此計數器提供良好的輸送量的測量[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]方案。  
+-   **協調流程已完成，每秒 –** 所報告**XLANG/s 協調流程 (BizTalkServerApplication) \Orchestrations 每秒完成**效能監視器計數器。 此計數器提供良好的輸送量的測量[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]方案。  
   
--   **%的訊息處理 < 3 秒數 –**記錄在測試期間 3 秒內已處理的訊息總數。  
+-   **%的訊息處理 < 3 秒數 –** 記錄在測試期間 3 秒內已處理的訊息總數。  
   
  VSTS 2008 負載測試用來產生整個所有測試的一致性負載。 下列測試回合設定，並調整每個測試的負載設定檔在測試期間已修改的負載模式：  
   
@@ -138,7 +139,7 @@ ms.lasthandoff: 12/01/2017
   
      下列測試回合設定已修改視正在執行測試而定：  
   
-    -   **執行持續時間 –**指定多久執行測試。  
+    -   **執行持續時間 –** 指定多久執行測試。  
   
      ![測試回合的設定](../technical-guides/media/wcfloadtestrunsettings.gif "WCFLoadTestRunSettings")  
 測試回合設定  
@@ -147,23 +148,23 @@ ms.lasthandoff: 12/01/2017
   
      下列測試模式設定已修改視正在執行測試而定：  
   
-    1.  **模式 –**指定負載測試期間調整模擬的使用者負載的方式。 負載模式是**常數**，**步驟**，或**目標**基礎。 所有負載測試執行都是常數或步驟。  
+    1.  **模式 –** 指定負載測試期間調整模擬的使用者負載的方式。 負載模式是**常數**，**步驟**，或**目標**基礎。 所有負載測試執行都是常數或步驟。  
   
         > [!NOTE]  
         >  本指南中使用 執行所有測試**常數**負載模式或**步驟**負載模式。 常數負載模式和步驟負載模式提供下列功能：  
         >   
-        >  -   **常數負載模式 –**負載模式是相同的測試持續期間、 模擬使用者數目開始預先定義的層級，且不會變更。  
-        > -   **步驟負載模式 –**測試回合期間增加負載模式時，模擬使用者數目在預先定義的層級啟動，而且根據預先定義的數量預先定義的間隔遞增測試的持續時間。  
+        >  -   **常數負載模式 –** 負載模式是相同的測試持續期間、 模擬使用者數目開始預先定義的層級，且不會變更。  
+        > -   **步驟負載模式 –** 測試回合期間增加負載模式時，模擬使用者數目在預先定義的層級啟動，而且根據預先定義的數量預先定義的間隔遞增測試的持續時間。  
   
-    2.  **常數使用者計數 （常數負載模式）-**正在產生負載的 Visual Studio 負載測試專案的 app.config 檔案中指定的端點位址的虛擬使用者數目。 使用負載測試的負載模式設定中指定此值。  
+    2.  **常數使用者計數 （常數負載模式）-** 正在產生負載的 Visual Studio 負載測試專案的 app.config 檔案中指定的端點位址的虛擬使用者數目。 使用負載測試的負載模式設定中指定此值。  
   
-    3.  **初始使用者計數 （步驟負載模式）-**正在產生負載的步驟負載模式測試的開頭指定的端點位址的虛擬使用者數目。 使用負載測試的負載模式設定中指定此值。  
+    3.  **初始使用者計數 （步驟負載模式）-** 正在產生負載的步驟負載模式測試的開頭指定的端點位址的虛擬使用者數目。 使用負載測試的負載模式設定中指定此值。  
   
-    4.  **最大使用者計數 （步驟負載模式）-**正在產生負載的測試步驟負載模式的結尾指定的端點位址的虛擬使用者數目。 使用負載測試的負載模式設定中指定此值。  
+    4.  **最大使用者計數 （步驟負載模式）-** 正在產生負載的測試步驟負載模式的結尾指定的端點位址的虛擬使用者數目。 使用負載測試的負載模式設定中指定此值。  
   
-    5.  **逐步執行持續期間 （步驟負載模式）-**虛擬使用者正在產生負載的負載測試步驟指定的端點位址的秒數。  
+    5.  **逐步執行持續期間 （步驟負載模式）-** 虛擬使用者正在產生負載的負載測試步驟指定的端點位址的秒數。  
   
-    6.  **逐步執行使用者計數 （步驟負載模式）-**增加每個步驟，使用步驟負載模式時的虛擬使用者數目。  
+    6.  **逐步執行使用者計數 （步驟負載模式）-** 增加每個步驟，使用步驟負載模式時的虛擬使用者數目。  
   
      ![測試模式設定](../technical-guides/media/wcfloadtestpatternsettings.gif "WCFLoadTestPatternSettings")  
 測試模式設定  
@@ -180,23 +181,23 @@ ms.lasthandoff: 12/01/2017
   
 -   **每秒 – 處理的文件**所測量**BizTalk： 傳訊/文件 processed/Sec**計數器。  
   
--   **延遲 –**測量 VSTS 2008 負載測試控制器所傳回。  
+-   **延遲 –** 測量 VSTS 2008 負載測試控制器所傳回。  
   
  **SQL Server KPI**  
   
--   **SQL 伺服器處理器使用率 –**所測量**SQL\Processor(Total)\\%Processor Time**計數器。 此計數器會測量的 CPU 使用率[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]處理[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]電腦。  
+-   **SQL 伺服器處理器使用率 –** 所測量**SQL\Processor(Total)\\%Processor Time**計數器。 此計數器會測量的 CPU 使用率[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]處理[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]電腦。  
   
--   **Transact SQL 命令的處理效能 –**所測量**\SQL Server:SQL Statistics\Batch Requests/sec**計數器。 此計數器會測量每秒接收的 TRANSACT-SQL 命令批次數目。 此計數器可用來測量輸送量上[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]電腦。  
+-   **Transact SQL 命令的處理效能 –** 所測量**\SQL Server:SQL Statistics\Batch Requests/sec**計數器。 此計數器會測量每秒接收的 TRANSACT-SQL 命令批次數目。 此計數器可用來測量輸送量上[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]電腦。  
   
  **KPI 的網路功能**  
   
--   **BizTalk Server 網路輸送量 –**所測量**\Network 介面 (\*) \Bytes Total/sec**上的效能監視器計數器[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]電腦。  
+-   **BizTalk Server 網路輸送量 –** 所測量**\Network 介面 (\*) \Bytes Total/sec**上的效能監視器計數器[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]電腦。  
   
--   **SQL Server 網路輸送量 –**所測量**SQL Network Interface\Bytes Total/sec （平均）** VSTS 2008 負載測試控制器所傳回。  
+-   **SQL Server 網路輸送量 –** 所測量**SQL Network Interface\Bytes Total/sec （平均）** VSTS 2008 負載測試控制器所傳回。  
   
  **記憶體 KPI**  
   
--   **可用的記憶體-**所測量**\Memory\Available Mbytes**計數器的各種案例。  
+-   **可用的記憶體-** 所測量**\Memory\Available Mbytes**計數器的各種案例。  
   
 ## <a name="physical-infrastructure-specifics"></a>實體基礎結構細節  
  每個已安裝的伺服器已調整的下列設定。  

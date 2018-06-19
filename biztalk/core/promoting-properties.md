@@ -1,18 +1,18 @@
 ---
-title: "升級屬性 |Microsoft 文件"
-ms.custom: 
+title: 升級屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - properties, promoting
 - promoting properties
 - promoting properties, about promoting properties
 ms.assetid: e1825028-7dd9-4eae-a383-4db12a83a402
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -21,6 +21,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22266422"
 ---
 # <a name="promoting-properties"></a>升級屬性
 升級屬性牽涉到將**欄位項目**或**欄位屬性**是結構描述中的節點**辨別欄位**或**屬性欄位**。 您也可以升級**記錄**節點做為**屬性欄位**有簡單內容 (**內容型別**屬性**記錄**節點設定為**SimpleContent**)。 本節提供逐步指示，將節點升級為 **辨別欄位**或**屬性欄位**。  

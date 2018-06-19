@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289694"
 ---
 # <a name="what-is-the-wcf-customisolated-adapter"></a>WCF-CustomIsolated 配接器為何？
 WCF-CustomIsolated 配接器是用來啟用在具有外掛式主控件的 BizTalk Server 中使用 WCF 擴充性元件的功能。 此配接器可以發揮 WCF 架構的完整彈性。 它可以讓使用者選取及設定接收位置的 WCF 繫結，以及指定端點行為和安全性設定。 只有裝載在 Internet Information Services (IIS) 中的傳輸方式才能使用這個配接器。  

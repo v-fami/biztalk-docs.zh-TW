@@ -1,14 +1,14 @@
 ---
-title: "SOAP 傳送配接器 |Microsoft 文件"
-ms.custom: 
+title: SOAP 傳送配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 4d65218d-516b-4e45-a824-272ef6ef298c
-caps.latest.revision: "12"
+caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278854"
 ---
 # <a name="soap-send-adapter"></a>SOAP 傳送配接器
 您可以使用 SOAP 傳送配接器來呼叫 Web 服務。 SOAP 傳送配接器會讀取 BizTalk 訊息物件中的訊息內容以取得 Proxy 名稱，並呼叫關聯的外部 Web 服務 Proxy。  

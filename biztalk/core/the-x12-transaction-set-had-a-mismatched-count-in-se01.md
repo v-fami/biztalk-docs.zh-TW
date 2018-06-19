@@ -1,14 +1,14 @@
 ---
-title: "X12 交易集 SE01 中有不相符的計數 |Microsoft 文件"
-ms.custom: 
+title: X12 交易集 SE01 中有不相符的計數 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a90079f5-5939-40b6-9756-d7943240c125
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278702"
 ---
 # <a name="the-x12-transaction-set-had-a-mismatched-count-in-se01"></a>X12 交易集 SE01 中有不相符的計數
 ## <a name="details"></a>詳細資料  

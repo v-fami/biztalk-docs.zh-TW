@@ -1,14 +1,14 @@
 ---
-title: "傳送保留批次交換 |Microsoft 文件"
-ms.custom: 
+title: 傳送保留批次交換 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d9bc2207-e34d-4d06-a224-bd7f8e498c27
-caps.latest.revision: "14"
+caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/28/2017
+ms.locfileid: "25974844"
 ---
 # <a name="sending-a-preserved-batch-interchange"></a>傳送保留的批次交換
 當 EDI 傳送管線處理保留的輸出批次交換時，它會將該批次交換一起處理。 它通常會建立 EDI 交換，而不是套用信封根據協議中的現有信封 （控制項） 區段重複使用。 發生這種情況時**輸入批次處理選項**屬性設定為**保留交換-發生錯誤時暫停交換**或**保留交換-發生時暫停交易集錯誤**。  

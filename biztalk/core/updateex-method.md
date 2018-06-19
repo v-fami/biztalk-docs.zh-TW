@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22287422"
 ---
 # <a name="updateex-method"></a>UpdateEx 方法
 用來更新屬性，根據輸入金鑰參數 (key1、 key2、... ...keyn)。 使用 `UpdateEx` 時，您無法刪除集合中的項目。 有一種個別的方法可協助刪除。 如需詳細資訊，請參閱[DeleteOnly 方法](../core/deleteonly-method.md)。  

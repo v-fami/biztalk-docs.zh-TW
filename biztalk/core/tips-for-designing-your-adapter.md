@@ -1,14 +1,14 @@
 ---
-title: "設計您的配接器的秘訣 |Microsoft 文件"
-ms.custom: 
+title: 設計您的配接器的秘訣 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 0bb60988-4e48-4654-9cf4-512dd7c97239
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279862"
 ---
 # <a name="tips-for-designing-your-adapter"></a>設計配接器的秘訣
 本節包含配接器開發人員在設計配接器時所學習到的提示及秘訣。  
@@ -26,7 +27,7 @@ ms.lasthandoff: 09/20/2017
   
  問題在於我們不知道是否應該覆寫這個提供給執行階段的值。 這麼做的方法，通常是先瞭解定義這個值的 NULL，然後再對該值執行測試。 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中使用 XSD 屬性工作表時，之所以產生問題，是因為只有字串才支援 NULL。 即使您希望透過使用這種 NULL 測試，將配接器設定為預設設定，而且願意將配接器限制為字串類型，這還是會在使用者介面上，讓人有格格不入的感覺。  
   
- XSD 產生的屬性工作表只支援 NULL 屬性的設定，以滑鼠右鍵按一下屬性，此時**使合約失效？**就會出現內容功能表，這個屬性可以設定為 NULL。 至於該屬性是否為 NULL，並沒有視覺回應可供參考。  
+ XSD 產生的屬性工作表只支援 NULL 屬性的設定，以滑鼠右鍵按一下屬性，此時**使合約失效？** 就會出現內容功能表，這個屬性可以設定為 NULL。 至於該屬性是否為 NULL，並沒有視覺回應可供參考。  
   
 ## <a name="considerations-for-implementing-schema-generation-wizards"></a>實作結構描述產生精靈的考量  
  程式設計人員還是喜歡針對強型別 (Strongly Typed) 物件模型撰寫程式碼。 在程式碼中操作 XML，起初可能很麻煩，而且容易出錯。 但是藉助一些訣竅並巧妙運用 .NET Framework 提供的支援，事情可以在大幅簡化之後迎刃而解。  

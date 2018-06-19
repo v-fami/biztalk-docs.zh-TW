@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230630"
 ---
 # <a name="btadserver"></a>BTAD_Server
 在應用程式匯入期間執行前置和後置處理指令碼時，會設定 BTAD_Server 環境變數。 它會為群組指定執行 BizTalk 管理資料庫之 SQL Server 執行個體的名稱。  

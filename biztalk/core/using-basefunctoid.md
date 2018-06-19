@@ -1,14 +1,14 @@
 ---
-title: "使用 BaseFunctoid |Microsoft 文件"
-ms.custom: 
+title: 使用 BaseFunctoid |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: fb26a54d-20bf-4302-a5cb-b38e4091002b
-caps.latest.revision: "16"
+caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288710"
 ---
 # <a name="using-basefunctoid"></a>使用 BaseFunctoid
 所有的自訂運算質都必須從 **BaseFunctoid** 類別衍生。 您必須先覆寫建構函式，然後進行一組呼叫，告知 BizTalk 對應工具有關自訂運算質的資訊。 然後您需要寫入運算質邏輯。  

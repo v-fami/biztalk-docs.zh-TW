@@ -1,11 +1,11 @@
 ---
-title: "商務規則引擎中的類別繼承支援 |Microsoft 文件"
-ms.custom: 
+title: 商務規則引擎中的類別繼承支援 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - code samples, Business Rules Engine
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - Business Rules Engine, examples
 - examples, Business Rules Engine
 ms.assetid: 50871f34-ccbe-4f77-8feb-5694e1b14837
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278622"
 ---
 # <a name="support-for-class-inheritance-in-the-business-rule-engine"></a>支援商務規則引擎中的類別繼承
 「物件導向程式設計」(OOP) 語言的其中一個主要功能為繼承。 繼承是指可以使用現有類別的所有功能，並且不需重新撰寫原始類別即可擴充這些功能。  

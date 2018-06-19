@@ -1,14 +1,14 @@
 ---
-title: "（適用於 Azure) 的步驟 2： 建立 EDI 協議 |Microsoft 文件"
-ms.custom: 
+title: （適用於 Azure) 的步驟 2： 建立 EDI 協議 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: a8003697-4955-45c0-ba0b-e7c293a050a2
-caps.latest.revision: "5"
+caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280070"
 ---
 # <a name="step-2-for-azure-create-an-edi-agreement"></a>（適用於 Azure) 的步驟 2： 建立 EDI 協議
 在本主題中，您將建立使用 Azure BizTalk 入口網站可做為夥伴的一部分[!INCLUDE[appfabricintegration](../includes/appfabricintegration-md.md)]。 您也會建立兩個夥伴 （Northwind 和 Contoso） 來處理的 X12 銷售訂單訊息傳送至 Northwind 的 contoso 之間的協議。  
@@ -43,10 +44,10 @@ ms.lasthandoff: 09/20/2017
     |||  
     |-|-|  
     |**欄位**|**說明**|  
-    |名稱|輸入協議的名稱。 此教學課程中，將名稱指定為`DemoAgreement`。<br /><br /> **注意：**這是必要欄位。 協議的名稱必須是唯一的。|  
+    |名稱|輸入協議的名稱。 此教學課程中，將名稱指定為`DemoAgreement`。<br /><br /> **注意：** 這是必要欄位。 協議的名稱必須是唯一的。|  
     |Description|輸入附註或針對協議的描述。|  
-    |夥伴 1 設定檔 (managed)|選取受管理的夥伴協議。 受管理的夥伴是由服務提供者管理，而且合約部署期間為該合作夥伴部署管線。 企業夥伴未標示為受管理夥伴時，服務提供者所管理的夥伴一般是設定為受管理夥伴。<br /><br /> **注意：**此教學課程中，受管理的夥伴是**Northwind**。<br /><br /> **注意：**的預設設定檔會顯示在 [設定檔] 欄位。 選擇所需的設定檔已設定為夥伴。|  
-    |2 的夥伴設定檔|選取的夥伴協議 （使用者不受管理的夥伴）。<br /><br /> **注意：**的預設設定檔會顯示在 [設定檔] 欄位。 選擇所需的設定檔已設定為夥伴。|  
+    |夥伴 1 設定檔 (managed)|選取受管理的夥伴協議。 受管理的夥伴是由服務提供者管理，而且合約部署期間為該合作夥伴部署管線。 企業夥伴未標示為受管理夥伴時，服務提供者所管理的夥伴一般是設定為受管理夥伴。<br /><br /> **注意：** 此教學課程中，受管理的夥伴是**Northwind**。<br /><br /> **注意：** 的預設設定檔會顯示在 [設定檔] 欄位。 選擇所需的設定檔已設定為夥伴。|  
+    |2 的夥伴設定檔|選取的夥伴協議 （使用者不受管理的夥伴）。<br /><br /> **注意：** 的預設設定檔會顯示在 [設定檔] 欄位。 選擇所需的設定檔已設定為夥伴。|  
   
      **身分識別**  
   
@@ -92,7 +93,7 @@ ms.lasthandoff: 09/20/2017
   
     3.  在**轉換**頁面上上, 傳您在建立轉換[建立 EDI 專案中的轉換](../core/step-1-for-azure-create-the-edi-project.md#BKMK_CreateTrfm)。  
   
-         在下**選擇您想要當做此協議的一部分執行的對應**，選擇**/X12_00401_840.xsd**如**結構描述**和**/EDI840TOSALESORDER。TRFM**如**轉換檔名稱**。  
+         在下**選擇您想要當做此協議的一部分執行的對應**，選擇 **/X12_00401_840.xsd**如**結構描述**和 **/EDI840TOSALESORDER。TRFM**如**轉換檔名稱**。  
   
     4.  在**路由**頁面上，選取**路由至服務匯流排佇列**並提供的佇列傳送訊息的相對位址。 此教學課程中，指定相對位址，表示為`queueordersedi`使的完整 URL `https://<namespace>.servicebus.appfabriclabs.com/queueordersedi`。  
   

@@ -1,11 +1,11 @@
 ---
-title: "授權訊息接收器 |Microsoft 文件"
-ms.custom: 
+title: 授權訊息接收器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - security, messages
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - receive authorization
 - messages, security
 ms.assetid: c0cdb3ef-ee8e-40a1-9362-13cd26495951
-caps.latest.revision: "8"
+caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22230742"
 ---
 # <a name="authorizing-the-receiver-of-a-message"></a>授權訊息接收器
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 可讓您限制您授權接收訊息的處理程序和合作對象。  
@@ -42,9 +43,9 @@ BizTalk Server 用來授權訊息接收器的安全性功能。
 ## <a name="receive-authorization"></a>接收授權  
  接收授權是可用來控制哪些主控件可以接收 (訂閱) 指定訊息的方法。 BizTalk Server 會使用憑證資訊，如訊息上的訂用帳戶屬性，以符合述詞： MessageBox 資料庫只會路由傳送的訊息標示為有該訊息的解密憑證的主機所需的授權。 為了方便說明這個程序，請您考量下列實例：  
   
--   **未加密的訊息路由傳送：**時 BizTalk Server 收到的訊息寄件者未加密，所以在解密限制對於 BizTalk 如何路由傳送訊息。 不論主控件有無設定接收授權憑證，都可以接收訊息。  
+-   **未加密的訊息路由傳送：** 時 BizTalk Server 收到的訊息寄件者未加密，所以在解密限制對於 BizTalk 如何路由傳送訊息。 不論主控件有無設定接收授權憑證，都可以接收訊息。  
   
--   **加密的訊息路由傳送：**加密的訊息抵達後，接收管線必須包含解密訊息的解碼元件。 當 BizTalk Server 在解密訊息後進行路由時，BizTalk 使用可用來解密訊息的憑證指紋做為 MessageBox 資料庫訂閱機制中的識別項，並且只有那些以該項憑證設定的主控件才能接收訊息。  
+-   **加密的訊息路由傳送：** 加密的訊息抵達後，接收管線必須包含解密訊息的解碼元件。 當 BizTalk Server 在解密訊息後進行路由時，BizTalk 使用可用來解密訊息的憑證指紋做為 MessageBox 資料庫訂閱機制中的識別項，並且只有那些以該項憑證設定的主控件才能接收訊息。  
   
  如果要使用接收授權，則必須在您想要授權其接收訊息之主控件的屬性中提供解密憑證的指紋。 如需有關接收授權，請參閱[如何修改主機內容](../core/how-to-modify-host-properties.md)。  
   

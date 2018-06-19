@@ -1,11 +1,11 @@
 ---
-title: "了解 SSO |Microsoft 文件"
-ms.custom: 
+title: 了解 SSO |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - SSO, about SSO
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - Extranet Single Sign-On (Web SSO)
 - Server-Based Intranet Single Sign-On
 ms.assetid: 03f78a7b-4880-408f-9733-d07e19775d21
-caps.latest.revision: "11"
+caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22286982"
 ---
 # <a name="understanding-sso"></a>瞭解 SSO
 若要瞭解「企業單一登入」，看看今天提供的三種「單一登入」類型會有所幫助，即：Windows 整合、外部網路和內部網路。 以下分別說明「企業單一登入」在這三類中的情形。  

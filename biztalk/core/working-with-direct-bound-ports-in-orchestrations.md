@@ -1,14 +1,14 @@
 ---
-title: "使用 協調流程中的直接繫結連接埠 |Microsoft 文件"
-ms.custom: 
+title: 使用 協調流程中的直接繫結連接埠 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 03a37ac0-5131-4d37-b60b-56763c460463
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289270"
 ---
 # <a name="working-with-direct-bound-ports-in-orchestrations"></a>在協調流程中使用直接繫結連接埠
 有三種類型的直接繫結連接埠： MessageBox、 自我相互關聯和夥伴協調流程。  

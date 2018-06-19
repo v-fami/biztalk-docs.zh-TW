@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289334"
 ---
 # <a name="what-is-the-wcf-wshttp-adapter"></a>何謂 WCF-WSHttp 配接器？
 您可以使用 WCF-WSHttp 配接器，利用具有文字或 Message Transmission Optimization Mechanism (MTOM) 編碼的 HTTP 或 HTTPS 傳輸，與能夠瞭解下一代 Web 服務標準的服務和用戶端進行跨電腦的通訊。 WCF-WSHttp 配接器可完整存取 SOAP 安全性、可靠性和交易等功能。  

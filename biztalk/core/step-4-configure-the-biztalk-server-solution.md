@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 設定 BizTalk Server 解決方案 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 設定 BizTalk Server 解決方案 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: d60e6a82-51af-41e5-a755-5f337492ba2f
-caps.latest.revision: "4"
+caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22280182"
 ---
 # <a name="step-4-configure-the-biztalk-server-solution"></a>步驟 4： 設定 BizTalk Server 解決方案
 在上一個步驟中，建立並部署[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式接收到 Salesforce 通知[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]並插入一個在內部部署 SQL Server 資料庫的詳細資料。 在此步驟中，我們會將設定中的應用程式[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台。 主要設定應用程式，包括建立實體連接埠對應到協調流程中建立的邏輯連接埠。 它還包含了繫結至邏輯連接埠的實體連接埠。 我們會執行下列步驟來設定[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]應用程式：  
@@ -41,7 +42,7 @@ ms.lasthandoff: 09/20/2017
     |-|-|  
     |名稱|輸入`ReceiveOppNotification`。|  
     |類型|選取**Wcf-basichttprelay**|  
-    |接收處理常式|選取**[biztalkserverapplication]**|  
+    |接收處理常式|選取 **[biztalkserverapplication]**|  
     |接收管線|選取**XMLReceive**|  
     |傳送管線|選取**PassThruTransmit**|  
   
@@ -71,7 +72,7 @@ ms.lasthandoff: 09/20/2017
     |-|-|  
     |名稱|輸入`SalesforceREST`。|  
     |類型|選取**Wcf-webhttp**|  
-    |傳送處理常式|選取**[biztalkserverapplication]**|  
+    |傳送處理常式|選取 **[biztalkserverapplication]**|  
     |傳送管線|選取**PassThruTransmit**|  
     |接收管線|選取**AddNamespace** ，然後按一下省略符號按鈕，針對來設定管線的管線。<br /><br /> -在**階段 1： 解碼**，如**NamespaceBase**，輸入`http://BtsSalesforceIntegration.QueryResult`。 這是您在建立 QueryResult.xsd 結構描述的命名空間[步驟 3b： 擷取機會詳細資料來自使用 Wcf-webhttp 配接器的 Salesforce](../core/step-3b-retrieve-opportunities-from-salesforce-using-the-wcf-webhttp-adapter.md)。 當**AddNamespace**接收管線接收來自 Salesforce 的回應，它會將此命名空間加入至回應訊息。 根據預設，來自 Salesforce 的回應訊息不包含任何命名空間。<br />     如**NamespacePrefix**，輸入`sf`。<br />-在**階段 2： 解譯**，接受預設值，然後按一下**確定**。|  
   
@@ -97,9 +98,9 @@ ms.lasthandoff: 09/20/2017
             https://na15.salesforce.com/services/data/v24.0/query?q=<query_string>  
             ```  
   
-             我們已經有 Salesforce REST 端點的一部分**位址 (URI)**欄位。 因此，部分**HTTP 方法和 URL 對應**屬性，我們在此指定使用 GET 方法和附加**{VAR}**為變數。  
+             我們已經有 Salesforce REST 端點的一部分**位址 (URI)** 欄位。 因此，部分**HTTP 方法和 URL 對應**屬性，我們在此指定使用 GET 方法和附加 **{VAR}** 為變數。  
   
-        -   在**變數對應**方塊中，按一下**編輯**。 在此方塊，您可以指定如何值**{VAR}**變數會在執行階段推算出來。  
+        -   在**變數對應**方塊中，按一下**編輯**。 在此方塊，您可以指定如何值 **{VAR}** 變數會在執行階段推算出來。  
   
              在[步驟 3b： 擷取機會詳細資料來自使用 Wcf-webhttp 配接器的 Salesforce](../core/step-3b-retrieve-opportunities-from-salesforce-using-the-wcf-webhttp-adapter.md)，我們必須升級 [查詢] 屬性，導致建立**PropertySchema.xsd**。 我們將使用**查詢**該結構描述將由該元素對應至 {VAR} 變數，在 URL 中傳遞查詢字串中的項目。  
   
@@ -141,7 +142,7 @@ ms.lasthandoff: 09/20/2017
     |-|-|  
     |名稱|輸入`SendToSQL`。|  
     |類型|選取**WCF-SQL**|  
-    |傳送處理常式|選取**[biztalkserverapplication]**|  
+    |傳送處理常式|選取 **[biztalkserverapplication]**|  
     |傳送管線|選取**XMLTransmit**|  
   
      在 傳送埠屬性 對話方塊中，按一下 **設定**針對連接埠類型。  

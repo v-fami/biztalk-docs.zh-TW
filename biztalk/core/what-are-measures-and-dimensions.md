@@ -1,14 +1,14 @@
 ---
-title: "什麼是量值和維度？ | Microsoft Docs"
-ms.custom: 
+title: 什麼是量值和維度？ | Microsoft Docs
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e6b12a4c-9be5-4cac-b5b9-ece376d28cb1
-caps.latest.revision: "3"
+caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22289782"
 ---
 # <a name="what-are-measures-and-dimensions"></a>什麼是量值和維度？
 維度和量值是資料彙總的實體層面。 本主題使用 BAM 實例提供環境以說明量值和維度的意義。  

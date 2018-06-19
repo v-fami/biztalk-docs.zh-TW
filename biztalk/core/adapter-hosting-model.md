@@ -17,6 +17,7 @@ ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 04/20/2018
+ms.locfileid: "22225166"
 ---
 # <a name="adapter-hosting-model"></a>配接器裝載模型
 BizTalk 配接器通常裝載 BizTalk 服務 Btsntsvc.exe 中。 這表示[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理配接器的存留期間。 不過也有某些情況 (說明如下) 是由其他處理序負責管理配接器。  

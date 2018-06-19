@@ -1,14 +1,14 @@
 ---
-title: "WCF 配接器屬性結構描述和屬性 |Microsoft 文件"
-ms.custom: 
+title: WCF 配接器屬性結構描述和屬性 |Microsoft 文件
+ms.custom: ''
 ms.date: 02/09/2018
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 2093745e-86c0-4276-a7cc-a0187391ca4a
-caps.latest.revision: 
+caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: 50798e04fdcaf5dce5288aa18608e2a981b162fc
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 02/11/2018
+ms.locfileid: "29139294"
 ---
 # <a name="wcf-adapters-property-schema-and-properties"></a>WCF 配接器屬性結構描述和屬性
 閱讀有關 WCF 配接器屬性結構描述中的升級屬性。 WCF 配接器會為您可以在應用程式中使用的屬性指派值。 WCF 配接器也提供了一種將自訂屬性寫入但不升級至 BizTalk 訊息內容的機制，以及一種將自訂屬性升級至 BizTalk 訊息內容的機制。 如需詳細資訊，請參閱[SOAP 標頭與已發佈 WCF 服務](../core/soap-headers-with-published-wcf-services.md)。  
@@ -65,7 +66,7 @@ ms.lasthandoff: 02/11/2018
 - WCF-WSHttp 配接器
 
 #### <a name="bindingconfiguration"></a>BindingConfiguration
-指定的 XML 字串**\<繫結\>**項目來設定不同類型的預先定義 Windows Communication Foundation (WCF) 所提供的繫結。 如需有關系統提供之繫結與自訂繫結的詳細資訊，請參考「請參閱」一節中的適當主題。
+指定的 XML 字串**\<繫結\>** 項目來設定不同類型的預先定義 Windows Communication Foundation (WCF) 所提供的繫結。 如需有關系統提供之繫結與自訂繫結的詳細資訊，請參考「請參閱」一節中的適當主題。
 
 範例：
 
@@ -147,7 +148,7 @@ ms.lasthandoff: 02/11/2018
 - WCF-NetMsmq 配接器
 
 #### <a name="endpointbehaviorconfiguration"></a>EndpointBehaviorConfiguration
-指定的 XML 字串**\<行為\>**元素 **\<endpointBehaviors\>** 項目來設定的行為設定WCF 端點。 如需有關 **\<endpointBehaviors\>** 項目，請參閱 < 另請參閱中的適當主題。
+指定的 XML 字串**\<行為\>** 元素 **\<endpointBehaviors\>** 項目來設定的行為設定WCF 端點。 如需有關 **\<endpointBehaviors\>** 項目，請參閱 < 另請參閱中的適當主題。
 
 範例： 
 ```
@@ -503,7 +504,7 @@ Wcf-nettcp 配接器會利用 [NetTcpBinding](http://go.microsoft.com/fwlink/?Li
 適用於： 所有 WCF 配接器*除了*Wcf-custom 和 Wcf-customisolated 配接器
 
 #### <a name="servicebehaviorconfiguration"></a>ServiceBehaviorConfiguration
-指定的 XML 字串**\<行為\>**元素 **\<serviceBehaviors\>** 設定 WCF 行為設定的項目服務。 如需有關 **\<serviceBehaviors\>** 項目，請參閱 < 另請參閱中的適當主題。
+指定的 XML 字串**\<行為\>** 元素 **\<serviceBehaviors\>** 設定 WCF 行為設定的項目服務。 如需有關 **\<serviceBehaviors\>** 項目，請參閱 < 另請參閱中的適當主題。
 
 範例：
 
@@ -625,15 +626,15 @@ Wcf-nettcp 配接器會利用 [NetTcpBinding](http://go.microsoft.com/fwlink/?Li
 適用於： 所有 WCF 都傳送配接器*除了*Wcf-netnamedpipe 配接器
 
 #### <a name="referencedbindings"></a>ReferencedBindings
-指定所參考的繫結組態**bindingConfiguration**屬性**\<簽發者\>**元素**wsFederationHttpBinding**和**customBinding**，表示安全性權杖服務 (STS) 發行安全性權杖。 如需詳細資訊**\<簽發者\>**項目，請參閱主題 <"\<簽發者\>」 在[http://go.microsoft.com/fwlink/?LinkId=83476](http://go.microsoft.com/fwlink/?LinkId=83476)。
+指定所參考的繫結組態**bindingConfiguration**屬性**\<簽發者\>** 元素**wsFederationHttpBinding**和**customBinding**，表示安全性權杖服務 (STS) 發行安全性權杖。 如需詳細資訊**\<簽發者\>** 項目，請參閱主題 <"\<簽發者\>」 在[http://go.microsoft.com/fwlink/?LinkId=83476](http://go.microsoft.com/fwlink/?LinkId=83476)。
 
-繫結資訊，包括**\<簽發者\>**元素**wsFederationHttpBinding**和**customBinding**可以是透過設定**BindingConfiguration** Wcf-custom 和 Wcf-customisolated 配接器的屬性。 所有參考繫結組態，這個屬性必須放置在表單的[\<繫結\>](http://go.microsoft.com/fwlink/?LinkID=80878)項目。 
-
-**附註**  
-**BindingConfiguration**屬性**\<簽發者\>**元素必須參考這個屬性中的有效繫結名稱。 
+繫結資訊，包括**\<簽發者\>** 元素**wsFederationHttpBinding**和**customBinding**可以是透過設定**BindingConfiguration** Wcf-custom 和 Wcf-customisolated 配接器的屬性。 所有參考繫結組態，這個屬性必須放置在表單的[\<繫結\>](http://go.microsoft.com/fwlink/?LinkID=80878)項目。 
 
 **附註**  
-**\<簽發者\>**中參考繫結組態項目也可以使用參照到不同的繫結中設定這個屬性如果這個參考鏈結不會循環相依性。 
+**BindingConfiguration**屬性**\<簽發者\>** 元素必須參考這個屬性中的有效繫結名稱。 
+
+**附註**  
+**\<簽發者\>** 中參考繫結組態項目也可以使用參照到不同的繫結中設定這個屬性如果這個參考鏈結不會循環相依性。 
 
 範例： 
 

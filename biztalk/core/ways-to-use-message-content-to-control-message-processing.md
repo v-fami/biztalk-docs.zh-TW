@@ -1,14 +1,14 @@
 ---
-title: "如何使用訊息內容控制訊息處理 |Microsoft 文件"
-ms.custom: 
+title: 如何使用訊息內容控制訊息處理 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: e1e3792e-9cd4-42b6-8b9d-3c2a022a16d6
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288870"
 ---
 # <a name="ways-to-use-message-content-to-control-message-processing"></a>使用訊息內容控制訊息處理的方式
 有兩種類型的屬性升級：**辨別欄位**和**屬性欄位**，後者使用屬性結構描述。 在 [BizTalk 編輯器] 中，您管理這兩種類型的屬性升級使用**升級屬性**對話方塊中，以存取使用**升級屬性**屬性**結構描述**節點。  

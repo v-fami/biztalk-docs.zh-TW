@@ -1,11 +1,11 @@
 ---
-title: "測試對應 |Microsoft 文件"
-ms.custom: 
+title: 測試對應 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - testing, BizTalk Mapper
@@ -13,7 +13,7 @@ helpviewer_keywords:
 - testing, maps
 - BizTalk Mapper, testing
 ms.assetid: c1c8509c-6711-4998-9686-33d0a692d70b
-caps.latest.revision: "7"
+caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -22,6 +22,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279614"
 ---
 # <a name="testing-maps"></a>測試對應
 完成對應的編譯且未發生任何警告之後，就必須對其進行測試。 此部分描述測試對應時的各種層面。  

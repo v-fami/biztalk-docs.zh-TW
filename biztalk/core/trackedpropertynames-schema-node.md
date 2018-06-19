@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22279254"
 ---
 # <a name="trackedpropertynames-schema-node"></a>TrackedPropertyNames (結構描述節點)
 繫結檔案的 TrackedPropertyNames 節點包含一些項目，這些項目會指定要追蹤父結構描述中的哪些屬性。  

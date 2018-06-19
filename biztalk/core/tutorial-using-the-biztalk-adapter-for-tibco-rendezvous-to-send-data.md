@@ -1,15 +1,15 @@
 ---
-title: "教學課程： 使用 TIBCO Rendezvous 配接器傳送 |Microsoft 文件"
-description: "使用 BizTalk Adapter for TIBCO Rendezvous 在 BizTalk Server 中，將資料傳送至 TIBCO 系統的逐步指南"
-ms.custom: 
+title: 教學課程： 使用 TIBCO Rendezvous 配接器傳送 |Microsoft 文件
+description: 使用 BizTalk Adapter for TIBCO Rendezvous 在 BizTalk Server 中，將資料傳送至 TIBCO 系統的逐步指南
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: b761ce2d-3465-43e0-bd8d-4d68b523226a
-caps.latest.revision: "9"
+caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -18,6 +18,7 @@ ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 11/07/2017
+ms.locfileid: "24014437"
 ---
 # <a name="tutorial-using-the-biztalk-adapter-for-tibco-rendezvous-to-send-data"></a>教學課程：使用 BizTalk Adapter for TIBCO Rendezvous 來傳送資料
 您可以使用 BizTalk Adapter for TIBCO Rendezvous 將資料傳送至 TIBCO 系統。 這個逐步解說將說明示範這一點的 SDK 範例。  
@@ -100,7 +101,7 @@ ms.lasthandoff: 11/07/2017
   
 1.  在**BizTalk Server 管理**，展開**BizTalk 群組**，展開**應用程式**，依序展開**BizTalk Application 1**，然後按一下**接收埠**。  
   
-2.  以滑鼠右鍵按一下接收埠] 資料夾，然後按一下 [**新增**，**單向接收埠...**以顯示 [接收埠屬性] 對話方塊。  
+2.  以滑鼠右鍵按一下接收埠] 資料夾，然後按一下 [**新增**，**單向接收埠...** 以顯示 [接收埠屬性] 對話方塊。  
   
 3.  輸入一個值**名稱**欄位，例如**TIBCORndOneWayFileRP**，然後按一下**確定**。  
   

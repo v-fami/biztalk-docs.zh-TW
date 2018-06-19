@@ -1,14 +1,14 @@
 ---
-title: "避免 DBNETLIB 例外狀況 |Microsoft 文件"
-ms.custom: 
+title: 避免 DBNETLIB 例外狀況 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 5fbee0cf-d249-4d98-8d16-168ded32f9f1
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22231910"
 ---
 # <a name="avoiding-dbnetlib-exceptions"></a>避免 DBNETLIB 例外狀況
 當 BizTalk Server 執行階段無法與 MessageBox 或「管理」資料庫通訊時，會發生 DBNetLib (資料庫網路程式庫) 錯誤。 發生此錯誤時，攔截例外狀況的 BizTalk Server 執行階段執行個體會關閉，然後每分鐘循環查看資料庫是否可以使用。  

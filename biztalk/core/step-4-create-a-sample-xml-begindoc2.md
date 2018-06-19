@@ -1,14 +1,14 @@
 ---
-title: "步驟 4： 建立範例 XML BeginDoc2 |Microsoft 文件"
-ms.custom: 
+title: 步驟 4： 建立範例 XML BeginDoc2 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 7cdda509-085f-4485-b488-c045d589ee96
-caps.latest.revision: "6"
+caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -17,6 +17,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22277534"
 ---
 # <a name="step-4-create-a-sample-xml-begindoc"></a>步驟 4： 建立範例 XML BeginDoc
 將下列程式碼貼到 XML 檔案中。 如果您的測試會使用此範例中的步驟，並使用範例的 J.D. Edwards EnterpriseOne 物件選取項目，[//csales/b4200310]，您可以將這放入 Input 資料夾並將其指定的 Out 資料夾 （繫結至 EndDocOut 連接埠的資料夾）。  

@@ -1,11 +1,11 @@
 ---
-title: "使用 Ops 配接器 |Microsoft 文件"
-ms.custom: 
+title: 使用 Ops 配接器 |Microsoft 文件
+ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
-ms.reviewer: 
-ms.suite: 
-ms.tgt_pltfrm: 
+ms.reviewer: ''
+ms.suite: ''
+ms.tgt_pltfrm: ''
 ms.topic: article
 helpviewer_keywords:
 - IOpsAIC interface
@@ -14,7 +14,7 @@ helpviewer_keywords:
 - process management solution tutorial, Ops adapters
 - Ops adapters, processing
 ms.assetid: 331f3614-e00b-4587-b82b-3c7bc394f361
-caps.latest.revision: "13"
+caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
@@ -23,6 +23,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22288734"
 ---
 # <a name="using-the-ops-adapter"></a>使用 Ops 配接器
 商務程序管理解決方案使用 Ops 配接器處理來自新錯誤報告功能的錯誤報告。 解決方案包括一個處理配接器訊息的範例處理常式，但您可以輕鬆的撰寫自己的處理常式，並使用其他解決方案中的配接器。 錯誤報告功能的相關資訊，請參閱[使用失敗訊息路由](../core/using-failed-message-routing.md)。  

@@ -19,6 +19,7 @@ ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
 ms.translationtype: MT
 ms.contentlocale: zh-TW
 ms.lasthandoff: 09/20/2017
+ms.locfileid: "22278990"
 ---
 # <a name="transporttype-receivehandler-node"></a>TransportType (ReceiveHandler 節點)
 繫結檔案之 [ReceiveHandler] 節點的 [TransportType] 節點中，包含與隨同繫結檔案一起匯出的接收處理常式有關聯之配接器的特定資訊。  
