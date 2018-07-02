@@ -1,5 +1,5 @@
 ---
-title: 建立 MSMQ 接收位置和傳送埠從程式碼 |Microsoft 文件
+title: 建立 MSMQ 接收位置和傳送埠從程式碼 |Microsoft Docs
 description: 以程式設計方式建立 MSMQ 接收位置和 BizTalk Server 中的傳送埠
 ms.custom: ''
 ms.date: 06/08/2017
@@ -13,28 +13,28 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b5f00a0bfe14eeb7d4205973b3fef96e23026616
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: f367680408f208d5d7a93ef45e925ddfc1893ba5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25971668"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36989759"
 ---
 # <a name="create-msmq-receive-locations-and-send-ports-programmatically"></a>以程式設計方式建立 MSMQ 接收位置和傳送埠
 本主題將說明如何使用 WMI 來建立 MSMQ 配接器的連接埠或位置。  
   
- 如需詳細資訊，請參閱**與日期時間排程組態使用 WMI 建立接收位置** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
+ 如需詳細資訊，請參閱 <<c0>  **日期時間排程組態使用 wmi 建立接收位置** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
   
 ## <a name="setting-property-values"></a>設定屬性值  
  建立連接埠或位置的程序都是相同的：  
   
-1.  建立正確型別的物件。  
+1. 建立正確型別的物件。  
   
-2.  設定物件的屬性值。  
+2. 設定物件的屬性值。  
   
-3.  認可物件值到資料庫。  
+3. 認可物件值到資料庫。  
   
- 所有介面卡都有特定的屬性，例如**HostName**通用。 您可以用直接指派到物件的方式來設定這些通用屬性。 以下 C# 程式碼所示就是這種典型範例：  
+   所有介面卡都有特定的屬性，例如**HostName**通用。 您可以用直接指派到物件的方式來設定這些通用屬性。 以下 C# 程式碼所示就是這種典型範例：  
   
 ```  
 objReceiveLocation["HostName"] = "BizTalkServerApplication";  
@@ -54,7 +54,7 @@ objReceiveLocation["CustomCfg"] =
   
  在 CustomProps 項目內標記的名稱，就是配接器會用於這些屬性的內部名稱。  
   
- MSMQ 配接器在 CustomProps 標記中設有單一個 AdapterConfig 標記。 AdapterConfig 標記包含已括在 Config 標記中之自訂屬性值會使用的 XML 標記字串。 不過，標記會編碼:"&lt;"取代"\<"和"&gt;"取代"\>"。 例如，用於 MSMQ 屬性之配接器子集的 XML 可能如下所示：  
+ MSMQ 配接器在 CustomProps 標記中設有單一個 AdapterConfig 標記。 AdapterConfig 標記包含已括在 Config 標記中之自訂屬性值會使用的 XML 標記字串。 不過，括住的標記:"&lt;"取代"\<"和"&gt;」 取代 「\>"。 例如，用於 MSMQ 屬性之配接器子集的 XML 可能如下所示：  
   
 ```  
 <Config>  
@@ -62,23 +62,23 @@ objReceiveLocation["CustomCfg"] =
 </Config>  
 ```  
   
- 請注意， **vt**屬性不是。 指派給字串**CustomCfg**屬性編碼後顯示如下：  
+ 請注意， **vt**屬性不用。 將字串指派到**CustomCfg**屬性編碼後顯示如下：  
   
 ```  
 <CustomProps><AdapterConfig vt="8"><Config><batchSize>40</batchSize></Config></AdapterConfig></CustomProps>  
 ```  
   
 ## <a name="custom-property-names"></a>自訂屬性名稱  
- 下表描述的 MSMQ 配接器的內部名稱**傳送**自訂屬性。  
+ 下表描述 MSMQ 配接器的內部名稱**傳送**自訂屬性。  
   
-|**傳送自訂屬性名稱**|**顯示名稱**|  
+|**Send 自訂屬性名稱**|**顯示名稱**|  
 |-----------------------------------|----------------------|  
 |acknowledgeType|通知類型|  
 |administrationQueue|管理佇列|  
 |憑證 (certificate)|憑證指紋|  
 |encryptionAlgorithm|加密演算法|  
 |maximumMessageSize|訊息大小上限 (以 KB 為單位)|  
-|密碼|密碼|  
+|密碼|[密碼]|  
 |priority|訊息優先順序|  
 |queue|目的地佇列|  
 |recoverable|可復原|  
@@ -93,12 +93,12 @@ objReceiveLocation["CustomCfg"] =
 |useJournalQueue|使用日誌佇列|  
 |userName|使用者名稱|  
   
- 下表描述的 MSMQ 配接器的內部名稱**接收**自訂屬性。  
+ 下表描述 MSMQ 配接器的內部名稱**接收**自訂屬性。  
   
 |**Receive 自訂屬性名稱**|**顯示名稱**|  
 |--------------------------------------|----------------------|  
 |batchSize|批次大小|  
-|密碼|密碼|  
+|[密碼]|[密碼]|  
 |佇列|佇列|  
 |serialProcessing|連續處理|  
 |異動|異動|  

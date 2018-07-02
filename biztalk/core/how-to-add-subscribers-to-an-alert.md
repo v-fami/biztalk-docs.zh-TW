@@ -1,5 +1,5 @@
 ---
-title: 如何新增訂閱者至警示 |Microsoft 文件
+title: 如何新增訂閱者至警示 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,31 +16,31 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6e86bde9f47e04c17f62c3cacff5d779cf0bed56
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e0174d5f37bc34b6c882d82cb58192ce9f1d634d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22247246"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972615"
 ---
 # <a name="how-to-add-subscribers-to-an-alert"></a>如何新增訂閱者至警示
-系統管理員使用**新增訂閱**命令，將訂閱者新增至指定的警示。  
+系統管理員可以使用**新增為訂用帳戶**命令，將訂閱者新增至指定的警示。  
   
 ### <a name="to-add-subscribers-to-an-alert"></a>新增訂閱者至警示  
   
-1.  開啟命令提示字元，如下所示： 按一下**啟動**，按一下**執行**，型別**cmd**，然後按一下 **確定**。  
+1. 開啟命令提示字元，如下所示： 按一下**開始**，按一下**執行**，型別**cmd**，然後按一下 **確定**。  
   
-2.  在命令提示字元中，輸入 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking，以瀏覽至追蹤資料夾。 按 ENTER 鍵。  
+2. 在命令提示字元中，輸入 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking，以瀏覽至追蹤資料夾。 按 ENTER 鍵。  
   
-3.  輸入 `bm add-subscription -View:<view name> -Alert:<alert name> -AccountName:<account name> -Type: [ File | Email ][ -Email:<e-mail address> ]`。  
+3. 輸入 `bm add-subscription -View:<view name> -Alert:<alert name> -AccountName:<account name> -Type: [ File | Email ][ -Email:<e-mail address> ]`。  
   
-    > [!NOTE]
-    >  *型別*指定 BAM 用來傳遞警示的傳遞方法。 如果您指定電子郵件的傳遞類型，則必須提供所傳遞警示的目標電子郵件地址。  
+   > [!NOTE]
+   >  *型別*指定 BAM 用來傳遞警示的傳遞方法。 如果您指定電子郵件的傳遞類型，則必須提供所傳遞警示的目標電子郵件地址。  
   
-    > [!NOTE]
-    >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
+   > [!NOTE]
+   >  在支援 [使用者帳戶控制] \(UAC) 的系統上，您必須以系統管理權限執行此工具。  
   
-4.  按 ENTER 鍵。  
+4. 按 ENTER 鍵。  
   
 ## <a name="see-also"></a>另請參閱  
  [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   

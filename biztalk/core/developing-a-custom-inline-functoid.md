@@ -1,5 +1,5 @@
 ---
-title: 開發自訂內嵌運算質 |Microsoft 文件
+title: 開發自訂內嵌運算質 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1a742e6a53b5fb81d92922ff94e7754239f723ea
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cd6e208cd894c2b307bd2c601b7d8bd774e204ce
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22242014"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976695"
 ---
 # <a name="developing-a-custom-inline-functoid"></a>開發自訂內嵌運算質
 自訂內嵌運算質藉由直接複製實作程式碼到對應中，以提供功能，而不是像自訂參考運算質一樣參考組件、類別和方法名稱。  
@@ -25,39 +25,39 @@ ms.locfileid: "22242014"
 ## <a name="building-inline-script"></a>建置內嵌指令碼  
  有兩種方式可以提供指令碼包含在對應中。 根據您的自訂運算質是否可支援不同數量的參數，從下列方法選擇：  
   
--   覆寫**GetInlineScriptBuffer**當您自訂運算質接受多個輸入參數，而且您已經將**HasVariableInputs**屬性`true`。 例如，若您要串連不同數量的字串或尋找一組值中的最大值，即可使用此方法。  
+- 覆寫**GetInlineScriptBuffer**當您的自訂運算質接受變動數目的輸入參數，而且您已經將**HasVariableInputs**屬性設`true`。 例如，若您要串連不同數量的字串或尋找一組值中的最大值，即可使用此方法。  
   
--   使用**SetScriptBuffer**時不需要支援多個輸入參數。 您還是可以使用選擇性的參數，但參數的總數是固定的。  
+- 使用**SetScriptBuffer**時您不需要支援的輸入參數的變數數目。 您還是可以使用選擇性的參數，但參數的總數是固定的。  
   
- 這兩種方法需要不同的實作。  
+  這兩種方法需要不同的實作。  
   
 ### <a name="providing-inline-code-with-setscriptbuffer"></a>提供具有 SetScriptBuffer 的內嵌程式碼  
  將您的自訂運算質設定為使用內嵌指令碼：  
   
-1.  呼叫**AddScriptTypeSupport**與[Microsoft.BizTalk.BaseFunctoids.ScriptType](http://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.scripttype.aspx)以啟用內嵌程式碼並設定支援的指令碼類型。  
+1. 呼叫**AddScriptTypeSupport**具有[addscripttypesupport](http://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.scripttype.aspx)以啟用內嵌程式碼並設定支援的指令碼型別。  
   
-2.  叫用**SetScriptBuffer**設定要用於自訂運算質程式碼。 您將以 `functionNumber` 參數，為自訂累計運算質呼叫此函式三次，並為自訂非累計運算質呼叫此函式一次。  
+2. 叫用**SetScriptBuffer**設定要用於自訂運算質的程式碼。 您將以 `functionNumber` 參數，為自訂累計運算質呼叫此函式三次，並為自訂非累計運算質呼叫此函式一次。  
   
-3.  使用 **[setscriptglobalbuffer]** 以宣告您的內嵌程式碼會使用任何全域變數。  
+3. 使用 **[setscriptglobalbuffer]** 以宣告您的內嵌程式碼會使用任何全域變數。  
   
-4.  使用**RequiredGlobalHelperFunctions**表示您的自訂內嵌運算質所需要的 helper 函式。  
+4. 使用**RequiredGlobalHelperFunctions**表示您的自訂內嵌運算質所需要的協助程式函式。  
   
- 您可以使用 StringBuilder 或常數建置您的指令碼。 撰寫指令碼的一個方法是先撰寫自訂參考運算質，排除所有錯誤之後，複製您的運算質到字串常數，以將它轉換為內嵌。  
+   您可以使用 StringBuilder 或常數建置您的指令碼。 撰寫指令碼的一個方法是先撰寫自訂參考運算質，排除所有錯誤之後，複製您的運算質到字串常數，以將它轉換為內嵌。  
   
 ### <a name="providing-inline-code-with-getinlinescriptbuffer"></a>提供具有 GetInlineScriptBuffer 的內嵌程式碼  
- 如果您的自訂內嵌運算質可支援不同數量的參數，您將會覆寫**GetInlineScriptBuffer**。 將您的自訂運算質設定為使用內嵌指令碼：  
+ 如果您的自訂內嵌運算質支援不同數量的參數，您將會覆寫**GetInlineScriptBuffer**。 將您的自訂運算質設定為使用內嵌指令碼：  
   
-1.  在建構函式，宣告您的自訂運算質有變數輸入，藉由設定**HasVariableInputs**至`true`。  
+1. 在建構函式，宣告您的自訂運算質有變數輸入，藉由設定**HasVariableInputs**至`true`。  
   
-2.  在建構函式，呼叫**AddScriptTypeSupport**與[Microsoft.BizTalk.BaseFunctoids.ScriptType](http://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.scripttype.aspx)以啟用內嵌程式碼並設定支援的指令碼類型。  
+2. 在建構函式，呼叫**AddScriptTypeSupport**具有[addscripttypesupport](http://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.scripttype.aspx)以啟用內嵌程式碼並設定支援的指令碼型別。  
   
-3.  覆寫**GetInlineScriptBuffer**建構及傳回自訂運算質的對應中所使用的程式碼。 檢查 `scriptType` 和 `numParams`，以使用參數建置正確的程式碼。 最後一個參數， `functionNumber`，應該是 0。 這是因為累計函式有固定的數目的輸入，而且不會使用這個機制。  
+3. 覆寫**GetInlineScriptBuffer**建構和傳回對應中所使用的自訂運算質的程式碼。 檢查 `scriptType` 和 `numParams`，以使用參數建置正確的程式碼。 最後一個參數， `functionNumber`，應該是 0。 這是因為累計函式有固定的數目的輸入，而且不會使用此機制。  
   
-4.  使用 **[setscriptglobalbuffer]** 以宣告您的內嵌程式碼使用全域變數。  
+4. 使用 **[setscriptglobalbuffer]** 以宣告您的內嵌程式碼使用的全域變數。  
   
-5.  使用**RequiredGlobalHelperFunctions**表示您的自訂內嵌運算質所需要的 helper 函式。  
+5. 使用**RequiredGlobalHelperFunctions**表示您的自訂內嵌運算質所需要的協助程式函式。  
   
- 下列程式碼片段建置的 C# 函式有傳入 `numParams` 的參數數目，但沒有函式主體。 若要使用此程式碼片段，可將範例複製到您的解決方案，再新增程式碼以參數執行動作並傳回值。  
+   下列程式碼片段建置的 C# 函式有傳入 `numParams` 的參數數目，但沒有函式主體。 若要使用此程式碼片段，可將範例複製到您的解決方案，再新增程式碼以參數執行動作並傳回值。  
   
 ```  
 // Override GetInlineScriptBuffer  
@@ -103,7 +103,7 @@ protected override string GetInlineScriptBuffer(ScriptType scriptType, int numPa
   
  檢視對應的 XSLT：  
   
-1.  在 Visual Studio BizTalk 專案中，按一下 [**方案總管] 中**索引標籤上，以滑鼠右鍵按一下使用您的自訂內嵌運算質的對應，然後按一下**驗證對應**。  
+1.  從 Visual Studio BizTalk 專案中，按一下**方案總管**索引標籤上，以滑鼠右鍵按一下使用您的自訂內嵌運算質的對應，然後按一下**驗證對應**。  
   
 2.  捲動至 [輸出] 視窗，以尋找 XSLT 檔案的 URL。 按 CTRL 再按一下 URL，以檢視檔案。  
   
@@ -115,11 +115,11 @@ protected override string GetInlineScriptBuffer(ScriptType scriptType, int numPa
   
  測試對應：  
   
-1.  在 Visual Studio BizTalk 專案中，按一下 [**方案總管] 中**索引標籤上，以滑鼠右鍵按一下使用您的自訂內嵌運算質的對應，然後按一下**測試對應**。  
+1. 從 Visual Studio BizTalk 專案中，按一下**方案總管**索引標籤上，以滑鼠右鍵按一下使用您的自訂內嵌運算質的對應，然後按一下**測試對應**。  
   
-2.  捲動至 [輸出] 視窗，以尋找輸出檔案的 URL。 按 CTRL 再按一下 URL，以檢視檔案。  
+2. 捲動至 [輸出] 視窗，以尋找輸出檔案的 URL。 按 CTRL 再按一下 URL，以檢視檔案。  
   
- 您可以檢查輸入和輸出值，以驗證對應是否如預期運作。  
+   您可以檢查輸入和輸出值，以驗證對應是否如預期運作。  
   
 ## <a name="example"></a>範例  
  下列範例說明如何建立自訂內嵌運算質以供串連兩個字串。 它依賴包含三個字串資源以及一個 16x16 像素點陣圖資源的資源檔案。  
@@ -192,4 +192,4 @@ namespace Microsoft.Samples.BizTalk.CustomFunctoid
 ## <a name="see-also"></a>另請參閱  
  [使用 BaseFunctoid](../core/using-basefunctoid.md)   
  [開發自訂參考運算質](../core/developing-a-custom-referenced-functoid.md)   
- [自訂運算質 （BizTalk Server 範例）](../core/custom-functoid-biztalk-server-sample.md)
+ [自訂運算質 (BizTalk Server 範例)](../core/custom-functoid-biztalk-server-sample.md)

@@ -1,5 +1,5 @@
 ---
-title: 設定遠端偵錯的協調流程 |Microsoft 文件
+title: 設定協調流程的遠端偵錯 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,15 +18,15 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4184b82efccd0ab2dcc2b871b6389b28148754c0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6f5d28c13cb9da4454efcad1a43a4048c8881ea8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22233406"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36967287"
 ---
 # <a name="configuring-remote-debugging-for-orchestrations"></a>設定協調流程的遠端偵錯
-您可以完整設定用戶端和伺服器之間的遠端偵錯。 Microsoft.XLANGs.BizTalk.Client.dll.config 中指定的用戶端組態。BTSNTSvc.exe.config 中指定的伺服器組態。以下是每個預設組態的清單。  
+您可以完整設定用戶端和伺服器之間的遠端偵錯。 用戶端組態是在 Microsoft.XLANGs.BizTalk.Client.dll.config 中指定。BTSNTSvc.exe.config 中指定的伺服器組態。以下是每個預設組態的清單。  
   
 ## <a name="client-microsoftxlangsbiztalkclientdllconfig"></a>用戶端 (Microsoft.XLANGs.BizTalk.Client.dll.config)  
   
@@ -100,23 +100,23 @@ ms.locfileid: "22233406"
   
  中的 securityPackage 屬性\<s / > 項目可以有下列值之一：  
   
--   negotiate  
+- negotiate  
   
--   ntlm  
+- ntlm  
   
--   Kerberos  
+- Kerberos  
   
- 中的 authenticationLevel 屬性\<s / > 項目可以有下列值之一：  
+  中的 authenticationLevel 屬性\<s / > 項目可以有下列值之一：  
   
--   packetPrivacy  - 訊息會加密/解密  
+- packetPrivacy  - 訊息會加密/解密  
   
--   packetIntegrity – 訊息會經過簽署/驗證  
+- packetIntegrity – 訊息會經過簽署/驗證  
   
--   call  - 訊息會以原始格式傳送  
+- call  - 訊息會以原始格式傳送  
   
- 中的 ref 屬性\<通道 / > 項目可以變更為 tcp 或 http。 中的屬性名稱與連接埠\<通道 / > 項目可以變更以及明確的值。  
+  中的 ref 屬性\<通道 / > 項目可以變更為 tcp 或 http。 中的屬性名稱與連接埠\<通道 / > 項目可以變更以及明確的值。  
   
- 如需詳細資訊，請參閱《.NET Framework 開發人員手冊》(通道和格式子組態屬性)。  
+  如需詳細資訊，請參閱《.NET Framework 開發人員手冊》(通道和格式子組態屬性)。  
   
 ## <a name="see-also"></a>另請參閱  
  [偵錯協調流程](../core/debugging-orchestrations.md)

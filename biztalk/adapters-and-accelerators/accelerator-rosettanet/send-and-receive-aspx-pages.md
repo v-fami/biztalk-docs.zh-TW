@@ -1,5 +1,5 @@
 ---
-title: 傳送和接收 ASPX 頁面 |Microsoft 文件
+title: 傳送和接收 ASPX 頁面 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -31,15 +31,15 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0782c421dfe771cd024b5ce4df893e2aaa45721d
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: e688686e8bd787e22d7e5a246e0cce62f469649c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/18/2018
-ms.locfileid: "25967444"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982047"
 ---
 # <a name="send-and-receive-aspx-pages"></a>傳送和接收 ASPX 頁面
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] ASPX 頁面是之間的直接介面[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]和網際網路。 ASPX 頁面有兩種，分別是接收頁面 (RNIFReceive.aspx) 和傳送頁面 (RNIFSend.aspx)。 每個 ASPX 頁面都是對應的 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 管線的延伸。 管線需要 ASPX 頁面才能處理 RosettaNet 實作架構 (RNIF) 標頭。 管線執行大多數的 HTTP 處理，然而，每個 ASPX 頁面執行 RNIF 標頭的 HTTP 處理。 頁面能夠擴大 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] HTTP 配接器的功能。  
+Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] ASPX 頁面是之間的直接介面[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]和網際網路。 ASPX 頁面有兩種，分別是接收頁面 (RNIFReceive.aspx) 和傳送頁面 (RNIFSend.aspx)。 每個 ASPX 頁面都是對應的 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 管線的延伸。 管線需要 ASPX 頁面才能處理 RosettaNet 實作架構 (RNIF) 標頭。 管線執行大多數的 HTTP 處理，然而，每個 ASPX 頁面執行 RNIF 標頭的 HTTP 處理。 頁面能夠擴大 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] HTTP 配接器的功能。  
   
  每個 ASPX 頁面都是 ASP[!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] Web 應用程式，但不具有使用者介面。 這些頁面使用 ASP[!INCLUDE[btsDotNet](../../includes/btsdotnet-md.md)] Web 安全性以確保與外部合作對象建立安全連線。 您可以在所提供的階層中實作容錯、延展性以及高可用性的服務。  
   
@@ -54,13 +54,13 @@ http://localhost:<port number>/RNIFSend.aspx?<query string>
   
  查詢字串包括了傳送頁面將訊息傳送給交易夥伴時所需的下列資料，以及交易夥伴處理訊息時所需具備的資料：  
   
--   交易夥伴 URL: http://www。\<*位址*\>.com/RNIFReceive.aspx  
+- 交易夥伴 URL: http://www.\<*地址*\>.com/RNIFReceive.aspx  
   
--   回應類型： sync 或 async  
+- 回應類型： sync 或 async  
   
--   RNIF 版本： 1.1 或 2.0。  
+- RNIF 版本： 1.1 或 2.0。  
   
- BizTalk HTTP 配接器會將 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 傳送管線所產生的 MIME 訊息傳送至啟動者的 RNIFSend.aspx 頁面。 RNIFSend.aspx 會依照下列方式處理訊息：  
+  BizTalk HTTP 配接器會將 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 傳送管線所產生的 MIME 訊息傳送至啟動者的 RNIFSend.aspx 頁面。 RNIFSend.aspx 會依照下列方式處理訊息：  
   
 1.  傳送頁面執行訊息的驗證。  
   
@@ -106,40 +106,40 @@ http://localhost:<port number>/RNIFSend.aspx?<query string>
   
  此實例牽涉四個不同的 HTTP 連線，每個步驟說明一個連線：  
   
-1.  啟動者傳送頁面傳送動作要求訊息給回應者接收頁面。  
+1. 啟動者傳送頁面傳送動作要求訊息給回應者接收頁面。  
   
-    > [!NOTE]
-    >  下列的步驟 2 和 3 可能需要以相反的順序執行，視系統的負載程度而定。  
+   > [!NOTE]
+   >  下列的步驟 2 和 3 可能需要以相反的順序執行，視系統的負載程度而定。  
   
-2.  回應者傳送頁面傳送要求信號訊息給啟動者接收頁面。  
+2. 回應者傳送頁面傳送要求信號訊息給啟動者接收頁面。  
   
-3.  回應者傳送頁面傳送動作回應訊息給啟動者接收頁面。  
+3. 回應者傳送頁面傳送動作回應訊息給啟動者接收頁面。  
   
-4.  啟動者傳送頁面傳送回應信號訊息給回應者接收頁面。  
+4. 啟動者傳送頁面傳送回應信號訊息給回應者接收頁面。  
   
- **單向動作非同步**  
+   **單向動作非同步**  
   
- 此實例牽涉兩個不同的 HTTP 連線，每個步驟說明一個連線。 請注意，此實例是由雙向動作非同步實例的步驟 1 和 2 組成。  
+   此實例牽涉兩個不同的 HTTP 連線，每個步驟說明一個連線。 請注意，此實例是由雙向動作非同步實例的步驟 1 和 2 組成。  
   
-1.  啟動者傳送頁面傳送動作要求訊息給回應者接收頁面。  
+5. 啟動者傳送頁面傳送動作要求訊息給回應者接收頁面。  
   
-2.  回應者傳送頁面傳送要求信號訊息給啟動者接收頁面。  
+6. 回應者傳送頁面傳送要求信號訊息給啟動者接收頁面。  
   
- **雙向動作同步**  
+   **雙向動作同步**  
   
- 此實例牽涉一個 HTTP 連線：  
+   此實例牽涉一個 HTTP 連線：  
   
-1.  啟動者傳送頁面傳送動作要求訊息給回應者接收頁面。  
+7. 啟動者傳送頁面傳送動作要求訊息給回應者接收頁面。  
   
-2.  回應者接收頁面透過步驟 1 所使用的相同連線傳送動作回應訊息 (如果有問題的話，會傳送例外狀況) 至啟動者傳送頁面。  
+8. 回應者接收頁面透過步驟 1 所使用的相同連線傳送動作回應訊息 (如果有問題的話，會傳送例外狀況) 至啟動者傳送頁面。  
   
- **單向動作同步**  
+   **單向動作同步**  
   
- 此實例牽涉一個 HTTP 連線：  
+   此實例牽涉一個 HTTP 連線：  
   
-1.  啟動者傳送頁面傳送動作要求訊息給回應者接收頁面。  
+9. 啟動者傳送頁面傳送動作要求訊息給回應者接收頁面。  
   
-2.  回應者接收頁面透過相同連線傳送要求信號訊息 (如果有問題的話，會傳送例外狀況) 至啟動者傳送頁面。  
+10. 回應者接收頁面透過相同連線傳送要求信號訊息 (如果有問題的話，會傳送例外狀況) 至啟動者傳送頁面。  
   
 ## <a name="see-also"></a>另請參閱  
  [BTARN 中的訊息處理](../../adapters-and-accelerators/accelerator-rosettanet/message-processing-in-btarn.md)   

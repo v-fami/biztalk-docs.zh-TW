@@ -1,5 +1,5 @@
 ---
-title: 區段應該有至少兩個字元的名稱 |Microsoft 文件
+title: 區段應該有至少兩個字元的名稱 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 70d4b39aa9421e4b60fd9e0c4415c69862c00526
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: def67be8b1c146bd6da37b669a71f2be15e22e2d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22269142"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36985959"
 ---
 # <a name="segment-should-have-a-name-with-at-least-two-characters"></a>區段應該有至少兩個字元的名稱
 ## <a name="details"></a>詳細資料  
   
-|||  
-|-|-|  
-|產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|產品版本|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|事件識別碼|-|  
-|事件來源|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]EDI|  
-|元件|EDI 引擎|  
-|符號名稱|SchemaCode103EInvalidTagLength|  
-|訊息文字|區段應該有至少 2 個字元的名稱|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  產品名稱   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| 產品版本 |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    事件識別碼     |                                           -                                            |
+|  事件來源   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI |
+|    元件    |                                       將 EDI 引擎                                       |
+|  符號名稱  |                             SchemaCode103EInvalidTagLength                             |
+|  訊息文字   |                 區段應該有至少 2 個字元的名稱                  |
   
 ## <a name="explanation"></a>說明  
  這個錯誤/警告/資訊事件表示接收管線無法處理內送交換，因為交換中的區段名稱沒有至少 2 個字元。  

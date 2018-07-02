@@ -1,5 +1,5 @@
 ---
-title: 程式設計 Guide1 |Microsoft 文件
+title: 程式設計 Guide1 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,18 +15,18 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 230ecf4cf9b735bdc2d4e68fc233799e95bb3182
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: f0a36c2714c8da07f054553466f4e9105c4f6517
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26004679"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36980687"
 ---
 # <a name="programming-guide"></a>程式設計手冊
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]程式設計指南說明適用於開發人員撰寫的程式碼與 BTAHL7 的概念和程序。 使用本指南搭配[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)]文件。  
+Microsoft[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]程式設計指南說明適用於開發人員撰寫程式碼與 BTAHL7 的概念和程序。 使用本指南與 Microsoft[!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)]文件。  
   
 > [!NOTE]
->  閱讀本指南之前, 您應該熟悉[!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)]程式開發，BizTalk Server 和[HL7 加速器，可用的 BizTalk 工具深入了解](../../adapters-and-accelerators/accelerator-hl7/learn-the-hl7-accelerator-and-the-biztalk-tools-available.md)。  
+>  之後，再閱讀本指南，您應該熟悉[!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)]開發，BizTalk Server 中，並[了解 HL7 加速器以及可用的 BizTalk 工具](../../adapters-and-accelerators/accelerator-hl7/learn-the-hl7-accelerator-and-the-biztalk-tools-available.md)。  
   
 ## <a name="in-this-section"></a>本節內容  
   

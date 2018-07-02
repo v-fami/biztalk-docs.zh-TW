@@ -1,5 +1,5 @@
 ---
-title: 設計您的配接器的秘訣 |Microsoft 文件
+title: 設計您的配接器的秘訣 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,22 +12,22 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 93c59efc2ae811827cd0cb1cf4763485b675f4ea
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 306cb2ae9aeca57804a57f0dfa8c1de1bfd0025d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22279862"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982679"
 ---
 # <a name="tips-for-designing-your-adapter"></a>設計配接器的秘訣
 本節包含配接器開發人員在設計配接器時所學習到的提示及秘訣。  
   
 ## <a name="handler-properties-should-be-strings-if-used-as-default-configurations"></a>處理常式屬性在當做預設組態使用時必須是字串  
- 它似乎很討喜 XSD 產生的處理常式屬性工作表上使用屬性的預設值為其**位置**屬性因為如果未設定值**位置**執行階段自動會使用處理常式中設定的值。 但這會產生幾個問題，使得這種做法不是那麼好用。  
+ 似乎能吸引使用 XSD 產生的處理常式屬性工作表上的屬性，預設值為他們**位置**屬性因為如果未設定值**位置**執行階段自動會使用處理常式中設定的值。 但這會產生幾個問題，使得這種做法不是那麼好用。  
   
  問題在於我們不知道是否應該覆寫這個提供給執行階段的值。 這麼做的方法，通常是先瞭解定義這個值的 NULL，然後再對該值執行測試。 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中使用 XSD 屬性工作表時，之所以產生問題，是因為只有字串才支援 NULL。 即使您希望透過使用這種 NULL 測試，將配接器設定為預設設定，而且願意將配接器限制為字串類型，這還是會在使用者介面上，讓人有格格不入的感覺。  
   
- XSD 產生的屬性工作表只支援 NULL 屬性的設定，以滑鼠右鍵按一下屬性，此時**使合約失效？** 就會出現內容功能表，這個屬性可以設定為 NULL。 至於該屬性是否為 NULL，並沒有視覺回應可供參考。  
+ XSD 產生的屬性工作表僅支援 NULL 屬性的設定，以滑鼠右鍵按一下  屬性，此時**使合約失效？** 操作功能表隨即出現，並將屬性可以設為 NULL。 至於該屬性是否為 NULL，並沒有視覺回應可供參考。  
   
 ## <a name="considerations-for-implementing-schema-generation-wizards"></a>實作結構描述產生精靈的考量  
  程式設計人員還是喜歡針對強型別 (Strongly Typed) 物件模型撰寫程式碼。 在程式碼中操作 XML，起初可能很麻煩，而且容易出錯。 但是藉助一些訣竅並巧妙運用 .NET Framework 提供的支援，事情可以在大幅簡化之後迎刃而解。  
@@ -55,11 +55,11 @@ ms.locfileid: "22279862"
   
  在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中，解決的方法如下：  
   
--   使用協調流程中的相互關聯集  
+- 使用協調流程中的相互關聯集  
   
--   設定兩個不同的連接埠： 一個用於傳送，一個用於接收  
+- 設定兩個不同的連接埠： 一個用於傳送，一個用於接收  
   
- 在簡單的情況下，協調流程會依據配接器指定與訊息有關的相互關聯識別碼。 這個識別碼會傳遞給配接器做為訊息上的內容屬性。 在更複雜的情況下，這個實例會要求外部傳訊系統配置識別碼。 在此情況下它可以傳遞回從傳送埠至協調流程將回應訊息。 此回應訊息只是將識別碼傳回，並不是真正的訊息回應。  
+  在簡單的情況下，協調流程會依據配接器指定與訊息有關的相互關聯識別碼。 這個識別碼會傳遞給配接器做為訊息上的內容屬性。 在更複雜的情況下，這個實例會要求外部傳訊系統配置識別碼。 在此情況下將它傳遞回從傳送埠至協調流程的回應訊息。 此回應訊息只是將識別碼傳回，並不是真正的訊息回應。  
   
 > [!NOTE]
 >  在協調流程引擎中會發生競爭情形，以致真正的訊息回應可能搶先傳送作業中的識別碼回應。 這種競爭情形必須在協調流程內部自行處理。

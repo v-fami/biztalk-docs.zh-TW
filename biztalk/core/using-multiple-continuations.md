@@ -1,5 +1,5 @@
 ---
-title: 使用多個接續 |Microsoft 文件
+title: 使用多個接續 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0e27a73fae39a55f05650c08397616f3cbe4fa80
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 78468438dbd04583f8936bab28e80bf400e83d72
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22288934"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36987135"
 ---
 # <a name="using-multiple-continuations"></a>使用多個接續
 在有多個活動的環境中使用「追蹤設定檔編輯器」(TPE) 時，您必須瞭解追蹤活動所在的實例，才能以正確順序對應接收埠、協調流程和傳送埠。  
@@ -41,25 +41,25 @@ ms.locfileid: "22288934"
   
  建立接續的程序如下：  
   
-1.  在追蹤設定檔的資料夾活動樹狀檢視中建立接續。  
+1. 在追蹤設定檔的資料夾活動樹狀檢視中建立接續。  
   
-2.  按一下以選擇內容屬性結構描述**選取事件來源** 按鈕，然後按一下**選取內容屬性**功能表項目。  
+2. 按一下以選擇內容屬性結構描述**選取事件來源** 按鈕，然後按一下**選取內容屬性**功能表項目。  
   
-3.  找出**interchangeId 屬性**中**內容屬性名稱**清單，然後加以選取。  
+3. 找出**interchangeId 屬性**中**內容屬性名稱**清單，然後再選取它。  
   
-4.  從屬性結構描述中，將 interchangeID 對應至您剛才建立的接續資料夾。  
+4. 從屬性結構描述中，將 interchangeID 對應至您剛才建立的接續資料夾。  
   
-5.  在活動樹狀結構中新建立的 interchangeID 節點上按一下滑鼠右鍵，然後選取要做為對應起點的連接埠。  
+5. 在活動樹狀結構中新建立的 interchangeID 節點上按一下滑鼠右鍵，然後選取要做為對應起點的連接埠。  
   
-6.  在**選取連接埠**對話方塊顯示時，會選取所有**N**接收埠。  
+6. 在 **選取連接埠**會顯示的對話方塊中選取所有**N**接收埠。  
   
-7.  在資料夾活動樹狀結構中建立 [continuationID] 資料夾。  
+7. 在資料夾活動樹狀結構中建立 [continuationID] 資料夾。  
   
-8.  按一下以開啟每個協調流程**選取事件來源** 按鈕，然後按一下**選取協調流程排程**功能表項目。 在每個協調流程中的圖形上按一下滑鼠右鍵，然後將 interchangeID 內容屬性對應至新建立的 continuationID。  
+8. 開啟每個協調流程，依序按一下**選取事件來源** 按鈕，然後按一下**選取協調流程排程**功能表項目。 在每個協調流程中的圖形上按一下滑鼠右鍵，然後將 interchangeID 內容屬性對應至新建立的 continuationID。  
   
- 在包含三個協調流程的部署中，追蹤設定檔看起來會像這樣：  
+   在包含三個協調流程的部署中，追蹤設定檔看起來會像這樣：  
   
- ![TPE 多重接續案例 1](../core/media/4761d680-7218-4404-a636-06739f70f344.gif "4761d680-7218-4404-a636-06739f70f344")  
+   ![TPE 多重接續案例 1](../core/media/4761d680-7218-4404-a636-06739f70f344.gif "4761d680-7218-4404-a636-06739f70f344")  
   
 #### <a name="scenario-solution-2---one-receive-port-and-multiple-orchestrations"></a>實例解決方案 2 - 一個接收埠和多個協調流程  
  在這個實例中，訊息只會抵達其中一個接收埠 (R1)，而且會由每一個協調流程處理。 這會在同時傳送訊息給每一個協調流程時發生。  
@@ -77,7 +77,7 @@ ms.locfileid: "22288934"
 >  上述對應也適用於只抵達其中一個接收埠、但會傳送給所有傳送埠的訊息。  
   
 #### <a name="scenario-solution-4---one-orchestration-multiple-send-ports"></a>實例解決方案 4 - 一個協調流程和多個傳送埠  
- 在此案例中，有多個傳送。 連接埠。 只由其中一個協調流程，這取決於處理規則的宣告，並且會傳送至所有傳送埠會處理訊息。 在這種情況下，需要一個接續。 對應看起來會像這樣：  
+ 在此案例中，有多個傳送。 連接埠。 已處理的訊息只由其中一個協調流程，這取決於處理規則，而且會傳送給所有傳送埠。 在這種情況下，需要一個接續。 對應看起來會像這樣：  
   
  ![接續案例 4](../core/media/3ab10b51-d306-4ad1-acb6-6731e23394ac.gif "3ab10b51-d306-4ad1-acb6-6731e23394ac")  
   

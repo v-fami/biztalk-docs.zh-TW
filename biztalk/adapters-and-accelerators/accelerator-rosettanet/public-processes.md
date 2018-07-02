@@ -1,5 +1,5 @@
 ---
-title: 公開程序 |Microsoft 文件
+title: 公開程序 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -21,15 +21,15 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6634a5d5871deac48fad1defbd79fae8f5f384ad
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2f9d0288defa0705c7e12f102011edbf9ee7e90d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22210022"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36984719"
 ---
 # <a name="public-processes"></a>公開程序
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]實作與交易夥伴的公開程序整合有關的商務程序。 並將組織內部的商務程序實作為私用程序。 使用公開程序和私用程序，會將 RosettaNet 實作架構 (RNIF) 處理 (在公開程序中) 從服務內容處理及後端整合 (在私用程序中) 隔離出來。  
+Microsoft[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]實作商務程序牽涉到與交易夥伴的公開程序整合。 並將組織內部的商務程序實作為私用程序。 使用公開程序和私用程序，會將 RosettaNet 實作架構 (RNIF) 處理 (在公開程序中) 從服務內容處理及後端整合 (在私用程序中) 隔離出來。  
   
  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 會實作公開程序做為長期執行的 BizTalk 協調流程。 一個公開程序協調流程會在啟動者端執行，另一個則是在回應者端執行。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 安裝程式為 RNIF 1.1 與 RNIF 2.01 都提供了啟動者及回應者公開程序協調流程版本。  
   

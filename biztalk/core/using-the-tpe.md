@@ -1,5 +1,5 @@
 ---
-title: 使用 TPE |Microsoft 文件
+title: 使用 TPE |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b0fa826ce68042336c2b6e4fb006ecb278a3f981
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 03cde68788e6be74a6d49fe0dd894b3f912819bd
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22288070"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36968159"
 ---
 # <a name="using-the-tpe"></a>使用 TPE
 您使用「追蹤設定檔編輯器」(TPE) 將協調流程和屬性對應至 BAM 活動定義。  
@@ -35,19 +35,19 @@ ms.locfileid: "22288070"
   
  建立追蹤設定檔有兩個必要條件：  
   
-1.  BAM 活動已經由商務分析師定義為整體觀察模型的一部分，並由系統管理員加以部署。  
+1. BAM 活動已經由商務分析師定義為整體觀察模型的一部分，並由系統管理員加以部署。  
   
-2.  BizTalk 解決方案 (包括協調流程、結構描述、對應和管線) 已經成功部署在目標環境中。  
+2. BizTalk 解決方案 (包括協調流程、結構描述、對應和管線) 已經成功部署在目標環境中。  
   
- 由於在安裝之後 TPE 不會填入任何資料以從資料庫進行擷取，因此必須具備這些必要條件。  
+   由於在安裝之後 TPE 不會填入任何資料以從資料庫進行擷取，因此必須具備這些必要條件。  
   
- **針對自訂的 BAM 方案建立設定檔**  
+   **針對自訂的 BAM 方案建立設定檔**  
   
- 追蹤設定檔僅與具有攔截器的執行階段相關。 由使用 BAM API 的自訂程式碼所組成的 BAM 方案並沒有相關的 BAM 執行階段攔截器，傳送資料至 BAM 的作業只能以兩種方式完成：  
+   追蹤設定檔僅與具有攔截器的執行階段相關。 由使用 BAM API 的自訂程式碼所組成的 BAM 方案並沒有相關的 BAM 執行階段攔截器，傳送資料至 BAM 的作業只能以兩種方式完成：  
   
--   透過 BAM API 直接完成。 開發人員可以使用 API 來明確地將事件資料傳送至 BAM 基礎結構。 如需有關如何使用 BAM Api 的詳細資訊，請參閱[使用事件資料流實作 BAM 活動](../core/implementing-bam-activities-with-event-streams.md)。  
+- 透過 BAM API 直接完成。 開發人員可以使用 API 來明確地將事件資料傳送至 BAM 基礎結構。 如需使用 BAM Api 的詳細資訊，請參閱[使用事件資料流實作 BAM 活動](../core/implementing-bam-activities-with-event-streams.md)。  
   
--   透過 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 屬性間接完成。 如果遇到自訂程式碼是在某個執行階段內容內部執行，而該執行階段並無相關的攔截技術 (例如自訂管線)，或是叫用自訂組件的運算式/動作圖形，則您可依上述使用 BAM API，或使用傳統的資料升級技術。 將屬性升級後，就可以透過 TPE 存取這些屬性，然後可以使用正確的內容屬性，在 TPE 中建立該事件資料與 BAM 活動項目的關聯。 如需有關如何升級屬性的詳細資訊，請參閱[升級屬性](../core/promoting-properties.md)。  
+- 透過 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 屬性間接完成。 如果遇到自訂程式碼是在某個執行階段內容內部執行，而該執行階段並無相關的攔截技術 (例如自訂管線)，或是叫用自訂組件的運算式/動作圖形，則您可依上述使用 BAM API，或使用傳統的資料升級技術。 將屬性升級後，就可以透過 TPE 存取這些屬性，然後可以使用正確的內容屬性，在 TPE 中建立該事件資料與 BAM 活動項目的關聯。 如需有關如何升級屬性的詳細資訊，請參閱 <<c0> [ 升級屬性](../core/promoting-properties.md)。  
   
 ## <a name="in-this-section"></a>本節內容  
   

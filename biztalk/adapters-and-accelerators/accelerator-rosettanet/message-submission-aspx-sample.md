@@ -1,5 +1,5 @@
 ---
-title: 訊息提交 ASPX 範例 |Microsoft 文件
+title: 訊息提交 ASPX 範例 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 12fb7d90485014a62ed9010590d27a79ecd925c5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a36a41e5bb60169632072445ff4685e1df5dbce9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22207198"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979591"
 ---
 # <a name="message-submission-aspx-sample"></a>訊息提交 ASPX 範例
 本主題提供範例 .aspx 程式碼，讓您可以用來提交服務內容至私用程序。 您可以使用這個 .aspx 程式碼來代替商務營運系統 (LOB) 應用程式。  
@@ -34,9 +34,9 @@ ms.locfileid: "22207198"
 -   產生輸入附件檔案陣列和註解  
   
 ## <a name="example"></a>範例  
- 這段程式碼會接受來自前端應用程式 (例如瀏覽器、[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]® 或 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® Word) 的輸入，並產生啟動者私用程序可以使用的 XML 文件。  
+ 此程式碼會接受來自前端應用程式，例如瀏覽器中，輸入[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]®，或 Microsoft® Word，並產生可取用啟動者私用程序的 XML 文件。  
   
- LOBWebApplication 公用程式包含下列程式碼。 如需詳細資訊，請參閱[LOBWebApplication](../../adapters-and-accelerators/accelerator-rosettanet/lobwebapplication.md)。  
+ LOBWebApplication 公用程式包含下列程式碼。 如需詳細資訊，請參閱 < [LOBWebApplication](../../adapters-and-accelerators/accelerator-rosettanet/lobwebapplication.md)。  
   
 ```  
 using System;  

@@ -1,5 +1,5 @@
 ---
-title: 升級至 BizTalk Server 2016 |Microsoft 文件
+title: 升級到 BizTalk Server 2016 |Microsoft Docs
 ms.custom: ''
 ms.prod: biztalk-server
 ms.date: 06/08/2017
@@ -12,12 +12,12 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 39b5b6b6da7d97d3c763e5f45f215aa03d13c77c
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: bbd6debef5517e95295be0b7680244ee433b6e2f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "25976372"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976575"
 ---
 # <a name="upgrade-to-biztalk-server-2016"></a>升級到 BizTalk Server 2016
 從 [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)] 或 BizTalk Server 2013 升級至 [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]。
@@ -56,10 +56,10 @@ ms.locfileid: "25976372"
 
 下表列出可以升級至 [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] 的支援 SQL Server 版本。 SQL Server 會主控 BizTalk Server 所使用的資料庫。 「是」表示可以升級使用該 SQL Server 版本的 BizTalk Server。 「否」表示不能升級使用該 SQL Server 版本的 BizTalk Server。 當出現「否」時，必須在支援的 SQL Server 版本上重新建立 BizTalk 環境。 [BizTalk Server 2016 的硬體和軟體需求](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)會列出支援的 SQL Server 版本。 
 
-> [!TIP] 
+> [!TIP]
 > 如果您的 SQL Server 版本不受支援或不在下列清單中，請參閱 SQL Server 升級文件。 SQL 升級涵蓋的版本比 BizTalk 支援的多。 例如，如果您使用 SQL Server 2008，您可以升級至 SQL Server 2016。 然後可以升級至 [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]。 [升級到 SQL Server 2016](https://msdn.microsoft.com/library/bb677622.aspx) 和[升級至 SQL Server 2014](https://msdn.microsoft.com/library/bb677622(v=sql.120).aspx) 會列出可以升級的 SQL Server 版本。
 
-| SQL Server | BizTalk Server 2013 R2 |BizTalk Server 2013 |
+| [SQL Server] | BizTalk Server 2013 R2 |BizTalk Server 2013 |
 | --- | --- | --- |
 | SQL Server 2014 | 是 | 否 |
 | SQL Server 2012 SP1| 否 | 否 |
@@ -100,14 +100,14 @@ ms.locfileid: "25976372"
 
     1. 在 [伺服器管理員] 中選取 [工具]，並開啟 [具有進階安全性的 Windows 防火牆]。
     2. 選取 [輸入規則]。
-    3. 在**輸入規則**，以滑鼠右鍵按一下**分散式交易協調器*** （適合的話），然後**啟用規則**。
+    3. 在 **輸入規則**，以滑鼠右鍵按一下**分散式交易協調器*** （適合的話），然後**啟用規則**。
     4.  在 [具有進階安全性的 Windows 防火牆] 中，選取 [輸出規則]。
-    5.  在**輸出規則**，以滑鼠右鍵按一下**分散式交易協調器*** （適合的話），然後**啟用規則**。
-    
+    5.  在 **輸出規則**，以滑鼠右鍵按一下**分散式交易協調器*** （適合的話），然後**啟用規則**。
+
 - **SharePoint**：用戶端物件模型 (CSOM) 用來連接到 SharePoint Services。 [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] 已移除伺服器端物件模型 (SSOM) (web 服務)。
 
     如果您使用不支援 CSOM 的 SharePoint 版本，您可以升級至支援的 SharePoint 版本︰
-    
+
     [升級到 SharePoint 2016](https://technet.microsoft.com/library/cc303420(v=office.16).aspx)  
     [升級到 SharePoint 2013](https://technet.microsoft.com/library/cc303420(v=office.15).aspx)
 
@@ -129,12 +129,12 @@ ms.locfileid: "25976372"
 
 1. 開啟命令提示字元，並移至 `\Program Files (x86)\Microsoft BizTalk Server <your version>\Tracking`。
 2. 在命令提示字元中建立定義檔：`bm.exe get-defxml -FileName:YourBAMDefinition.xml`
-4. 在 [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]/2013 設定中，取消設定 BAM 警示。
-5. 升級到 SQL Server 2016 或 SQL Server 2014 SP1。
-6. 設定 SQL Server Database Mail。
-7. 升級到 [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]。
-8. 在 [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] 設定中，設定 BAM 警示。
-9. 將已儲存的定義檔部署在命令提示字元中：`bm.exe update-all -DefinitionFile:YourBAMDefinition.xml`
+3. 在 [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]/2013 設定中，取消設定 BAM 警示。
+4. 升級到 SQL Server 2016 或 SQL Server 2014 SP1。
+5. 設定 SQL Server Database Mail。
+6. 升級到 [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]。
+7. 在 [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] 設定中，設定 BAM 警示。
+8. 將已儲存的定義檔部署在命令提示字元中：`bm.exe update-all -DefinitionFile:YourBAMDefinition.xml`
 
 > [!IMPORTANT]
 > 如果您不依列出的順序進行這些步驟或建立定義檔案，您必須在 BizTalk Server 升級之後重新建立定義檔。
@@ -162,23 +162,23 @@ ms.locfileid: "25976372"
 
 - **即時資料活頁簿**：如果您在 BizTalk Server 2013 R2/2013 中使用 BAM，則升級之後，就必須手動重新產生即時資料活頁簿。 若要重新產生即時資料活頁簿：
 
-    1. 執行下列命令，擷取 BAM 定義：  
-    `BM get-defxml MyDef.xml`
-    2. 開啟 Microsoft Office Excel，再選取 BAM 增益集，重新建立樞紐分析表。匯入步驟 (1) 中建立的 *MyDef.xml* 檔案，然後重新建立樞紐分析表。 將新的 BAM 活頁簿儲存為 *MyNewBook.xls*。
-    3. 在 `<BAMDefinition>\<Extension>\<OWC>\<PivotTableView>\<PivotTable>\<PivotView>\<Label>` 路徑的 `<Caption>` 下，於 *MyDef.xml* 中尋找樞紐分析表的名稱。 使用這些名稱重新命名 *MyNewBook.xls* 中的樞紐分析表。
-    4. 執行下列命令，重新產生即時資料活頁簿：  
-    `BM regenerate-livedataworkbook MyNewBook.xls`
+  1. 執行下列命令，擷取 BAM 定義：  
+     `BM get-defxml MyDef.xml`
+  2. 開啟 Microsoft Office Excel，再選取 BAM 增益集，重新建立樞紐分析表。匯入步驟 (1) 中建立的 *MyDef.xml* 檔案，然後重新建立樞紐分析表。 將新的 BAM 活頁簿儲存為 *MyNewBook.xls*。
+  3. 在 `<BAMDefinition>\<Extension>\<OWC>\<PivotTableView>\<PivotTable>\<PivotView>\<Label>` 路徑的 `<Caption>` 下，於 *MyDef.xml* 中尋找樞紐分析表的名稱。 使用這些名稱重新命名 *MyNewBook.xls* 中的樞紐分析表。
+  4. 執行下列命令，重新產生即時資料活頁簿：  
+     `BM regenerate-livedataworkbook MyNewBook.xls`
 
-    > [!NOTE]
-    > 重新產生的即時資料活頁簿不會重新建立原始即時資料活頁簿中的 Excel 成品 (例如，圖表)。 手動重新建立成品。
+     > [!NOTE]
+     > 重新產生的即時資料活頁簿不會重新建立原始即時資料活頁簿中的 Excel 成品 (例如，圖表)。 手動重新建立成品。
 
 
 ### <a name="enterprise-single-sign-on-esso"></a>企業單一登入 (ESSO)
 
-| 狀況 | 其他資訊 |
-| --- | --- |
+|                            狀況                            |                                                                                                                                                                                                                                                                                                                                          其他資訊                                                                                                                                                                                                                                                                                                                                          |
+|----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 從舊版企業單一登入升級 | BizTalk Server 包含更新版企業單一登入 (ESSO)。 如果您在具有舊版 BizTalk 的電腦上安裝此版本，則安裝期間會自動更新 ESSO。 建議您先執行下列步驟，再進行升級： <br/><br/> 1.確認已將目前版本的單一登入資料庫 (SSODB) 備份至安全的位置。 <br/>2.確認已將目前的主要密碼金鑰備份至安全的位置。<br/>3.知道主要密碼的密碼。<br/><br/>將 BizTalk 群組中的所有伺服器都升級至相同版本。 此需求也適用於獨立的主要密碼伺服器。 |
-| 使用企業單一登入獨立安裝程式進行升級 | 使用下列步驟，在已安裝獨立企業單一登入的電腦 (如專用的主要密碼伺服器) 上執行升級。<br/><br/>1.確認已將目前的主要密碼金鑰備份至安全的位置。<br/>2.確認已將目前版本的 SSODB 備份至安全的位置。<br/>3.從 [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] 安裝媒體中執行 ESSO **Setup.exe**。 預設的安裝資料夾是 `\Platform\SSO`。<br/>4.在 [自動執行] 對話方塊中，選取 [Microsoft 企業單一登入]。<br/>5.在 [摘要] 對話方塊中，選取 [升級]。 |
+|  使用企業單一登入獨立安裝程式進行升級  |             使用下列步驟，在已安裝獨立企業單一登入的電腦 (如專用的主要密碼伺服器) 上執行升級。<br/><br/>1.確認已將目前的主要密碼金鑰備份至安全的位置。<br/>2.確認已將目前版本的 SSODB 備份至安全的位置。<br/>3.從 [!INCLUDE[bts2016_md](../includes/bts2016-md.md)] 安裝媒體中執行 ESSO **Setup.exe**。 預設的安裝資料夾是 `\Platform\SSO`。<br/>4.在 [自動執行] 對話方塊中，選取 [Microsoft 企業單一登入]。<br/>5.在 [摘要] 對話方塊中，選取 [升級]。              |
 
 ### <a name="multicomputer-environment"></a>多重電腦環境
 在多重電腦環境中，升級 SSO 主要密碼伺服器電腦。 接著，升級其他 BizTalk Server 電腦。 不支援同時升級同一群組中的 BizTalk 電腦。 依照下列順序一次升級一部電腦：
@@ -219,17 +219,17 @@ ms.locfileid: "25976372"
 
 ## <a name="prepare-your-computer-for-upgrade"></a>備妥電腦準備升級
 
-| 工作 | 資訊 |
-| --- | --- | 
-| 安裝 Windows 重大更新 | 從 [程式] 功能表中選取 [Windows Update]。 您可能需要重新啟動電腦。 |
-| 儲存 BAM 警示定義 | 只有目前使用現有的 BAM 警示定義與 SQL Server 通知服務時才適用。 使用 BM.exe 建立一個定義檔案並取消設定 [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]/2013 設定中的 BAM 警示。<br/><br/>**在升級之前** (在本主題中) 列出特定的步驟。<br/><br/>否則在升級之後重新建立 BAM 警示定義。 |
-| 升級 SQL Server | 升級至支援的 SQL Server 版本。 請參閱：<br/><br/>[BizTalk Server 2016 的硬體和軟體需求](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)<br/>[升級到 SQL Server 2016](https://msdn.microsoft.com/library/bb677622.aspx)<br/>[升級到 SQL Server 2014](https://msdn.microsoft.com/library/bb677622(v=sql.120).aspx) |
-| 升級 SQL Server 用戶端工具 | 在多重電腦環境中，管理工具可能被安裝在另一部電腦上。 升級 SQL Server 管理用戶端工具，包括管理工具。 |
-| 安裝 Visual Studio | 請參閱 [BizTalk Server 2016 的硬體和軟體需求](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)取得支援的版本。 不同的 Visual Studio 版本可以並存安裝。 請參閱 [Visual Studio 2015](https://msdn.microsoft.com/library/ms246609(v=vs.140).aspx) 和 [Visual Studio 2013](https://msdn.microsoft.com/library/ms246609(v=vs.120).aspx)。 |
-| 安裝 Office | 請參閱[在同一部電腦上安裝和使用不同版本的 Office](https://support.office.com/article/Install-and-use-different-versions-of-Office-on-the-same-PC-6EBB44CE-18A3-43F9-A187-B78C513788BF)。 [BizTalk Server 2016 的硬體和軟體需求](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)會列出支援的 Office 版本。 |
-| 停止 BizTalk 和 Windows 服務 | - BizTalk 服務 BizTalk 群組：*<應用程式名稱>*<br/>- BizTalk 基底 EDI 服務<br/>- 規則引擎更新服務<br/>- World Wide Web Publishing Service<br/><br/>**注意**<br/>如果您已安裝任何 BizTalk Server 加速器，請停止 HL7 記錄服務。 |
-| 備份資料庫 | - Master<br/>- MSDB<br/>- BAMArchive<br/>- BAMPrimaryImport<br/>- BAMStarSchema<br/>- BizTalkDTADb<br/>- BizTalkEDIDb<br/>- BizTalkHwsDb<br/>- BizTalkMgmtDb<br/>- BizTalkMsgBoxDb<br/>- BizTalkRuleEngineDb<br/>- TPM<br/>- BizTalkAnalysisDb<br/>- BAMAnalysis<br/><br/>[SQL Server 2014：備份概觀](https://technet.microsoft.com/library/ms175477(v=sql.120).aspx)<br/>[SQL Server 2012：備份概觀](https://technet.microsoft.com/library/ms175477(v=sql.110).aspx) |
-| 設定 SQL Server Database Mail | 只有使用 BAM 警示定義與 SQL Server 通知服務時才適用。<br/><br/>**在升級之前** (在本主題中) 列出特定的步驟。<br/><br/>否則在升級之後重新建立 BAM 警示定義。 |
+|                 工作                  |                                                                                                                                                                                                                                        資訊                                                                                                                                                                                                                                         |
+|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   安裝 Windows 重大更新    |                                                                                                                                                                                                從 [程式] 功能表中選取 [Windows Update]。 您可能需要重新啟動電腦。                                                                                                                                                                                                 |
+|      儲存 BAM 警示定義       |                                    只有目前使用現有的 BAM 警示定義與 SQL Server 通知服務時才適用。 使用 BM.exe 建立一個定義檔案並取消設定 [!INCLUDE[bts2013r2_md](../includes/bts2013r2-md.md)]/2013 設定中的 BAM 警示。<br/><br/>**在升級之前** (在本主題中) 列出特定的步驟。<br/><br/>否則在升級之後重新建立 BAM 警示定義。                                    |
+|          升級 SQL Server           |                                         升級至支援的 SQL Server 版本。 請參閱：<br/><br/>[BizTalk Server 2016 的硬體和軟體需求](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)<br/>[升級到 SQL Server 2016](https://msdn.microsoft.com/library/bb677622.aspx)<br/>[升級到 SQL Server 2014](https://msdn.microsoft.com/library/bb677622(v=sql.120).aspx)                                          |
+|    升級 SQL Server 用戶端工具    |                                                                                                                                                在多重電腦環境中，管理工具可能被安裝在另一部電腦上。 升級 SQL Server 管理用戶端工具，包括管理工具。                                                                                                                                                |
+|         安裝 Visual Studio         |                         請參閱 [BizTalk Server 2016 的硬體和軟體需求](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)取得支援的版本。 不同的 Visual Studio 版本可以並存安裝。 請參閱 [Visual Studio 2015](https://msdn.microsoft.com/library/ms246609(v=vs.140).aspx) 和 [Visual Studio 2013](https://msdn.microsoft.com/library/ms246609(v=vs.120).aspx)。                         |
+|            安裝 Office             |                                     請參閱[在同一部電腦上安裝和使用不同版本的 Office](https://support.office.com/article/Install-and-use-different-versions-of-Office-on-the-same-PC-6EBB44CE-18A3-43F9-A187-B78C513788BF)。 [BizTalk Server 2016 的硬體和軟體需求](../install-and-config-guides/hardware-and-software-requirements-for-biztalk-server-2016.md)會列出支援的 Office 版本。                                     |
+| 停止 BizTalk 和 Windows 服務 |                                                                                                      - BizTalk 服務 BizTalk 群組：*<應用程式名稱>*<br/>- BizTalk 基底 EDI 服務<br/>- 規則引擎更新服務<br/>- World Wide Web Publishing Service<br/><br/>**注意**<br/>如果您已安裝任何 BizTalk Server 加速器，請停止 HL7 記錄服務。                                                                                                      |
+|         備份資料庫         | - Master<br/>- MSDB<br/>- BAMArchive<br/>- BAMPrimaryImport<br/>- BAMStarSchema<br/>- BizTalkDTADb<br/>- BizTalkEDIDb<br/>- BizTalkHwsDb<br/>- BizTalkMgmtDb<br/>- BizTalkMsgBoxDb<br/>- BizTalkRuleEngineDb<br/>- TPM<br/>- BizTalkAnalysisDb<br/>- BAMAnalysis<br/><br/>[SQL Server 2014：備份概觀](https://technet.microsoft.com/library/ms175477(v=sql.120).aspx)<br/>[SQL Server 2012：備份概觀](https://technet.microsoft.com/library/ms175477(v=sql.110).aspx) |
+|  設定 SQL Server Database Mail   |                                                                                                                      只有使用 BAM 警示定義與 SQL Server 通知服務時才適用。<br/><br/>**在升級之前** (在本主題中) 列出特定的步驟。<br/><br/>否則在升級之後重新建立 BAM 警示定義。                                                                                                                       |
 
 ## <a name="do-the-upgrade"></a>執行升級作業
 
@@ -252,9 +252,9 @@ ms.locfileid: "25976372"
 8. 如果電腦缺少必要元件，安裝程式可以安裝必要的可轉散發套件。 您可以：
 
     - 選取 [從 Web 自動安裝必要的可轉散發套件]  
-  
+
       OR  
-  
+
     - 如果您已下載封包檔，則可以選取 [從封包檔自動安裝必要的可轉散發套件]。 瀏覽至封包檔位置，然後選取該檔案。
 
 9. 在 [摘要] 檢視可升級的元件。
@@ -322,25 +322,25 @@ ms.locfileid: "25976372"
 - **在管理電腦上設定 BAM 警示**：這是一個管理、執行階段和 SQL Server 元件安裝在不同電腦上的多重電腦環境。 當使用 BAM 工具或 BAM 警示時，可能會發生下列問題：
 
     **問題**：當您在 BizTalk 管理電腦上設定 BAM 工具時，發生下列錯誤：
-    
+
     `Service BAMAlerts was not found on computer ‘.’.The specified service does not exist as an installed service.`
 
     **問題**：當您從執行階段電腦部署 BAM 活動定義時，發生下列錯誤：
-    
+
     `A network-related or instance-specific error occurred while establishing a connection to SQL Server. The server was not found or was not accessible. Verify that the instance name is correct and that SQL Server is configured to allow remote connections. (provider: Named Pipes Provider, error: 40 - Could not open a connection to SQL Server) (.Net SqlClient Data Provider)`
-    
+
     如果在執行階段電腦上設定 BAM 警示就會發生這種情況。 若要解決，請在相同電腦上的 BizTalk 管理主控台中設定 BAM 警示。 請勿在執行階段電腦上設定 BAM 警示。
 
 - **從失敗的升級復原**︰升級期間隨時都會發生升級失敗。 從升級失敗中復原的方式取決於每個階段中發生失敗的時間點而定。
 
-    - 如果在安裝先決條件時升級失敗，安裝程式就會停止進一步安裝必要元件，並傳回錯誤訊息。 然後，您可以更正問題，並重新執行安裝程式。
-    
-    - 如果在升級資料庫、從現有的 BizTalk Server 版本中移除功能，或安裝新的版本時升級失敗，安裝程式會停止進一步安裝並傳回錯誤訊息。 所有變更都會復原。 對 BizTalk Server 資料庫所做的變更無法回復。
-    
-        如果 BizTalk Server 舊版安裝的元件在升級期間移除，您的電腦可能會處於沒有任何 BizTalk Server 元件的情況。 可能會保留舊版安裝的功能組態資訊。 而且根據升級程序失敗的位置，BizTalk Server 資料庫可能已經升級。 此時，您可能必須先還原之前備份的資料庫，然後再次執行安裝程式。
-    
-    - 如果在重新設定 BizTalk Server 功能時升級失敗，安裝程式會傳回完成程度的訊息。 如果設定升級失敗或部分成功，請執行 BizTalk Server 設定完成升級。
-    
+  - 如果在安裝先決條件時升級失敗，安裝程式就會停止進一步安裝必要元件，並傳回錯誤訊息。 然後，您可以更正問題，並重新執行安裝程式。
+
+  - 如果在升級資料庫、從現有的 BizTalk Server 版本中移除功能，或安裝新的版本時升級失敗，安裝程式會停止進一步安裝並傳回錯誤訊息。 所有變更都會復原。 對 BizTalk Server 資料庫所做的變更無法回復。
+
+      如果 BizTalk Server 舊版安裝的元件在升級期間移除，您的電腦可能會處於沒有任何 BizTalk Server 元件的情況。 可能會保留舊版安裝的功能組態資訊。 而且根據升級程序失敗的位置，BizTalk Server 資料庫可能已經升級。 此時，您可能必須先還原之前備份的資料庫，然後再次執行安裝程式。
+
+  - 如果在重新設定 BizTalk Server 功能時升級失敗，安裝程式會傳回完成程度的訊息。 如果設定升級失敗或部分成功，請執行 BizTalk Server 設定完成升級。
+
     如果升級持續失敗，且您需要回復至舊版 BizTalk Server，您必須還原已備份的資料庫，然後重新安裝舊版的 BizTalk Server。
 
 - **使用相同的版本**：在 BizTalk 應用程式群組中，您無法執行具有不同 BizTalk Server 版本的電腦。 例如，在 BizTalk 管理主控台中，您無法將執行某版 BizTalk Server 的傳送埠繫結至執行不同版本 BizTalk Server 的接收位置。 
@@ -371,25 +371,25 @@ ms.locfileid: "25976372"
 
 - **BAM 入口網站**：在 64 位元電腦上，升級之後就無法存取 BAM 入口網站。 可能的解決方案：
 
-    1. 建立 `%BizTalkInstallDir%\BAMPortal\web.config` 的 web.config 檔案的備份副本。
+  1. 建立 `%BizTalkInstallDir%\BAMPortal\web.config` 的 web.config 檔案的備份副本。
 
-    2. 使用 BizTalk Server Tracking 資料夾中的 bm.exe，在命令提示字元中執行下列命令：`bm.exe get-config –FileName:<filepath> -Server:MyServer -Database:MyDB`
+  2. 使用 BizTalk Server Tracking 資料夾中的 bm.exe，在命令提示字元中執行下列命令：`bm.exe get-config –FileName:<filepath> -Server:MyServer -Database:MyDB`
 
-    從 Config XML 檔案中取得 *BAMVRoot* 的值 (xpath: BAMConfiguration\ GlobalProperty\Name="BAMVRoot")。
+     從 Config XML 檔案中取得 *BAMVRoot* 的值 (xpath: BAMConfiguration\ GlobalProperty\Name="BAMVRoot")。
 
-    3. 在列為 BAMVRoot 值的電腦上開啟 BizTalk Server 組態，並取消設定 BAM 入口網站。
+  3. 在列為 BAMVRoot 值的電腦上開啟 BizTalk Server 組態，並取消設定 BAM 入口網站。
 
-    4. 開啟 BizTalk Server 組態，並設定 BAM 入口網站。
+  4. 開啟 BizTalk Server 組態，並設定 BAM 入口網站。
 
-    5. 從步驟 (1) 提及的位置開啟新的 web.config 檔案。
+  5. 從步驟 (1) 提及的位置開啟新的 web.config 檔案。
 
-    6. 使用 web.config 檔案的備份副本，設定下列值 (在 `configuration\appSettings` 下)：
+  6. 使用 web.config 檔案的備份副本，設定下列值 (在 `configuration\appSettings` 下)：
 
-        - key="MainPageContentUrl"
-        - key="AlertNotificationOptions"
+      - key="MainPageContentUrl"
+      - key="AlertNotificationOptions"
 
-    > [!NOTE] 
-    > 在 64 位元電腦上，在您升級作業系統之後，我們建議您重新設定 BAM 入口網站。
+     > [!NOTE] 
+     > 在 64 位元電腦上，在您升級作業系統之後，我們建議您重新設定 BAM 入口網站。
 
 - **部署 EDI BAM 活動**：升級時，升級可能只有部分成功。 當您升級 SQL Server (已設定 EDI) 時可能發生這種情況。 可能未正確升級 EDI BAM 活動。 若要解決此問題，請在命令提示字元中，使用系統管理認證執行下列命令，以部署 BAM 活動：
 
@@ -407,20 +407,20 @@ ms.locfileid: "25976372"
 
     **重新整理 SSO 叢集中的 SSO 服務**：
 
-    1. 在叢集系統管理員中，將包含叢集化企業 SSO 服務資源的叢集群組**上線**。 這樣應該會啟動叢集群組中的所有資源。
+  1. 在叢集系統管理員中，將包含叢集化企業 SSO 服務資源的叢集群組**上線**。 這樣應該會啟動叢集群組中的所有資源。
 
-    2. [離線] 企業 SSO 服務的叢集執行個體。 然後，再讓它回到**線上**。
+  2. [離線] 企業 SSO 服務的叢集執行個體。 然後，再讓它回到**線上**。
 
-    3. [移動] 叢集群組。 這個步驟應該會將包含叢集企業 SSO 服務資源的叢集群組從第一個節點移動到第二個節點。
+  3. [移動] 叢集群組。 這個步驟應該會將包含叢集企業 SSO 服務資源的叢集群組從第一個節點移動到第二個節點。
 
-    4. [離線] 企業 SSO 服務的叢集執行個體。 然後，再讓它回到**線上**。
+  4. [離線] 企業 SSO 服務的叢集執行個體。 然後，再讓它回到**線上**。
 
-    **重新整理 BizTalk Server 執行階段叢集中的 SSO 服務**：
+     **重新整理 BizTalk Server 執行階段叢集中的 SSO 服務**：
 
-    1. 在叢集系統管理員中，將包含叢集化BizTalk Server 執行階段資源的叢集群組**上線**。 這樣應該會啟動叢集群組中的所有資源。
+  5. 在叢集系統管理員中，將包含叢集化BizTalk Server 執行階段資源的叢集群組**上線**。 這樣應該會啟動叢集群組中的所有資源。
 
-    2. [離線] 企業 SSO 服務的叢集執行個體。 然後，再讓它回到**線上**。
+  6. [離線] 企業 SSO 服務的叢集執行個體。 然後，再讓它回到**線上**。
 
-    3. [移動] 叢集群組。 這個步驟應該會將包含叢集 BizTalk Server 執行階段資源的叢集群組從第一個節點移動到第二個節點。
+  7. [移動] 叢集群組。 這個步驟應該會將包含叢集 BizTalk Server 執行階段資源的叢集群組從第一個節點移動到第二個節點。
 
-    4. [離線] 企業 SSO 服務的叢集執行個體。 然後，再讓它回到**線上**。
+  8. [離線] 企業 SSO 服務的叢集執行個體。 然後，再讓它回到**線上**。

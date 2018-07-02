@@ -1,5 +1,5 @@
 ---
-title: 對抗阻絕服務攻擊 |Microsoft 文件
+title: 對抗阻絕服務攻擊 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,18 +15,18 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 667b9d321f7703f770297b001ef2a99be2bf4902
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ab2aa48e126aafc7b2202547fd72806b5d471ef4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209702"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976919"
 ---
 # <a name="defending-against-denial-of-service-attacks"></a>對抗阻絕服務攻擊
-他人可能會對 RNIFReceive.aspx 接收頁面施加壓力，藉此對 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 的安裝發動阻絕服務攻擊。 他們只要傳送大量空白訊息至該頁面，便可進行拒絕服務攻擊。 若稍不留意，這類攻擊可能會使事件日誌充滿大量由 ASPX 接收頁面發出的事件。  
+有人可能會開始安裝 Microsoft® 阻絕服務攻擊[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]負荷過重的 RNIFReceive.aspx 接收頁面。 他們只要傳送大量空白訊息至該頁面，便可進行拒絕服務攻擊。 若稍不留意，這類攻擊可能會使事件日誌充滿大量由 ASPX 接收頁面發出的事件。  
   
 ## <a name="defending-against-an-attack"></a>對抗攻擊  
- 若要防護您的伺服器避免拒絕服務攻擊，建議您讓事件日誌保持合理的大小，並著手處理大量事件的情形。 您可以設定事件日誌大小的上限、選取覆寫事件的方式，或者使用 [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]® Management Instrumentation (WMI) 管理日誌的大小，以達到此目的。 如需詳細資訊，請參閱說明[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsWinSvrNoVersion](../../includes/btswinsvrnoversion-md.md)]™。  
+ 若要防護您的伺服器避免拒絕服務攻擊，建議您讓事件日誌保持合理的大小，並著手處理大量事件的情形。 您可以設定事件日誌大小的上限、選取覆寫事件的方式，或者使用 [!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]® Management Instrumentation (WMI) 管理日誌的大小，以達到此目的。 如需詳細資訊，請參閱 Microsoft 說明[!INCLUDE[btsWinSvrNoVersion](../../includes/btswinsvrnoversion-md.md)]™。  
   
 ## <a name="see-also"></a>另請參閱  
- [管理設定、 憑證、 資料庫和安全性](manage-configuration-certificates-databases-security.md)
+ [管理設定、憑證、資料庫和安全性](manage-configuration-certificates-databases-security.md)

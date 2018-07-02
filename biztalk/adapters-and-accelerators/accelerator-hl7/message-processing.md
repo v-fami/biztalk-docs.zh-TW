@@ -1,5 +1,5 @@
 ---
-title: 訊息處理 |Microsoft 文件
+title: 訊息處理 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,15 +15,15 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 468ccae57c4a96c9cfe54170d3434f792d72965e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ba35674614a755340a656c4389652276d83ae584
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22205982"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969431"
 ---
 # <a name="message-processing"></a>訊息處理
-本節提供有關資訊[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 引擎的執行階段元件。 訊息處理包括 HL7 訊息處理 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]2x 一般檔案) 的 XML 訊息處理 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]2XML)，批次處理和通知處理。  
+本節提供關於 Microsoft BizTalk Accelerator for HL7 的資訊 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 引擎執行階段元件。 訊息處理會包括處理 HL7 訊息 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]2x 一般檔案)、 XML 訊息的處理 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]2XML)、 批次處理和通知處理。  
   
 ## <a name="in-this-section"></a>本節內容  
   
@@ -35,4 +35,4 @@ ms.locfileid: "22205982"
   
 -   [批次訊息處理](../../adapters-and-accelerators/accelerator-hl7/batch-message-processing.md)  
   
--   [處理通知](../../adapters-and-accelerators/accelerator-hl7/acknowledgments-processing.md)
+-   [通知處理](../../adapters-and-accelerators/accelerator-hl7/acknowledgments-processing.md)

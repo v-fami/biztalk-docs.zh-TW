@@ -1,5 +1,5 @@
 ---
-title: SQLEXECUTE 操作訊息結構描述 |Microsoft 文件
+title: LEXECUTE 作業的訊息結構描述 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,28 +14,28 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d7c7efc6a59e9dd4c163388803763a7b90a13b31
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: f753d2dcbd5782f456b099174e0369e37cca2e6f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25961540"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981479"
 ---
-# <a name="message-schemas-for-the-sqlexecute-operation"></a>SQLEXECUTE 操作的訊息結構描述
-[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現強型別中繼資料的成品存在於 LOB 系統，並公開在這些成品的標準作業。 不過，有一些的案例，其中的應用程式可能需要執行任意的 SQL 陳述式由應用程式中的商務邏輯所驅動。 例如，您可能想要：  
+# <a name="message-schemas-for-the-sqlexecute-operation"></a>LEXECUTE 作業的訊息結構描述
+[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)] 呈現強型別 LOB 系統中的構件的中繼資料，並公開在這些成品的標準作業。 不過，有些，應用程式可能需要執行應用程式中的商務邏輯由任意 SQL 陳述式的情況。 例如，您可能想要：  
   
--   對資料庫成品，便不會顯示所執行作業[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]; 例如，取得 CURVAL 或 NEXTVAL 的 Oracle 序列。  
+- 對資料庫成品是不會顯示所執行作業[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]; 例如，取得 CURVAL 或 NEXTVAL 的 Oracle 序列。  
   
--   執行資料定義語言 」 作業。例如，建立資料表。  
+- 執行資料定義語言 」 作業;例如，建立資料表。  
   
--   在未出現在設計階段; 資料庫成品上執行作業比方說，更新您的商務邏輯所建立的暫存資料表中的記錄。  
+- 在設計階段; 沒有為資料庫成品上執行作業比方說，更新您的商務邏輯所建立的暫存資料表中的記錄。  
   
--   更複雜 DML 資料表上執行作業的作業由顯示比[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]; 若為範例執行的查詢包含聯結子句。  
+- 執行資料表上更複雜的 DML 作業，所呈現的作業比[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]; 的範例執行包含 JOIN 子句的查詢。  
   
- [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]呈現一個特殊稱為 SQLEXECUTE 操作以支援這種情況的作業。 藉由使用這項作業，您可以指定任意 SQL 陳述式[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]Oracle 資料庫上執行。 您也可以指定多個輸入參數的 SQL 陳述式區塊。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]執行每個參數集一次的 SQL 陳述式並傳回任何輸出做為泛型 （弱型別） 資料錄集。  
+  [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]呈現一種特殊的作業呼叫 SQLEXECUTE 作業，以支援這種情況。 藉由使用這項作業，您可以指定任意的 SQL 陳述式的[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]Oracle 資料庫上執行。 您也可以指定多個輸入參數的 SQL 陳述式區塊。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]執行每個參數集一次的 SQL 陳述式，並傳回泛型 （弱型別） 資料錄集的任何輸出。  
   
 > [!NOTE]
->  您可以傳遞 IN 與 IN OUT 參數的程序、 函數和 SQLEXECUTE 操作中的封裝。 叫用的成品將使用 Oracle 資料庫上提供的參數來執行不過，SQLEXECUTE 作業不會傳回的 OUT 值及 IN OUT 參數，用戶端。 如果您想要叫用程序、 函數或套件，Microsoft 建議您這麼做叫用的專用的作業，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]公開 （expose) 這些 Oracle 成品。  
+>  您可以傳遞中及在 OUT 參數，程序、 函數和 SQLEXECUTE 作業中的封裝。 叫用的成品將會執行以提供的 Oracle 資料庫中; 上的參數不過，在 SQLEXECUTE 作業不會傳回外的值和在 OUT 參數，用戶端。 如果您想要叫用程序、 函式或套件，Microsoft 建議您這麼做叫用專用的作業，[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]公開 （expose) 這些 Oracle 成品。  
   
  下列 XML 顯示 SQLEXECUTE 作業的結構：  
   
@@ -54,13 +54,13 @@ ms.locfileid: "25961540"
 </SQLEXECUTE>  
 ```  
   
- [陳述式] = 的 SQL 陳述式，才可執行，例如，「 選取 * 從 emp WHERE empno =: emp_no"。  
+ [陳述式] = SQL 陳述式執行;比方說，「 選取 * 從 emp WHERE empno =: emp_no"。  
   
- [PARAM_SPEC] = 在 SQL 陳述式和其資料類型，在參數清單例如，"emp_no 數字 」。  
+ [PARAM_SPEC] = 在 SQL 陳述式和其資料類型，在參數清單例如，"emp_no 數目 」。  
   
  [PARAM_VAL_1] = 第一個參數的值。  
   
- 每個\<PARAMETERDATA\>章節包含一組完整的\<參數\>符合結構描述中的項目\<PARAMETERSCHEMA\> > 一節。 \<PARAMETERSET\>可以包含多個\<PARAMETERDATA\>區段。 如果這種情況，SQL 陳述式會執行許多次，一次針對每個參數集。  
+ 每個\<PARAMETERDATA\>一節包含一組完整的\<參數\>符合結構描述中的項目\<PARAMETERSCHEMA\>一節。 \<PARAMETERSET\>可以包含多個\<PARAMETERDATA\>區段。 如果發生這種情況，SQL 陳述式執行多次，一次針對每個參數集。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [BizTalk Adapter for Oracle Database 的訊息和訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/messages-and-message-schemas-for-biztalk-adapter-for-oracle-database.md)

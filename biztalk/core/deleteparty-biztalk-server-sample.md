@@ -1,5 +1,5 @@
 ---
-title: DeleteParty （BizTalk Server 範例） |Microsoft 文件
+title: DeleteParty （BizTalk Server 範例） |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,12 +19,12 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 68016285a53a2655c56810028925a91c1f8d66b0
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: a6d6d488bf7431f805e8719e10fe17cef7d13fa4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25969220"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982959"
 ---
 # <a name="deleteparty-biztalk-server-sample"></a>DeleteParty （BizTalk Server 範例）
 DeleteParty 範例示範如何刪除指定的合作對象。  
@@ -33,16 +33,16 @@ DeleteParty 範例示範如何刪除指定的合作對象。
 >  如果在部署後不需要部署指令碼，就應該將其移除。 必須保留的系統管理指令碼和其他指令碼都應該由 ACL 保護，而且予以密切監控。  
   
 > [!NOTE]
->  您必須先建立合作對象，才可以將它刪除。 這是執行其中一種方式執行[PartyResolution （BizTalk Server 範例）](../core/partyresolution-biztalk-server-sample.md)範例。  
+>  您必須先建立合作對象，才可以將它刪除。 這是執行其中一種方式[PartyResolution （BizTalk Server 範例）](../core/partyresolution-biztalk-server-sample.md)範例。  
   
 ## <a name="prerequisites"></a>必要條件  
   
--   您必須擁有[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]在此範例中使用的系統管理物件的系統管理權限。  
+- 您必須擁有[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理權限才能在此範例中使用的系統管理物件。  
   
--   Windows PowerShell 指令碼需要 Windows PowerShell 執行原則以允許執行指令碼。 如需詳細資訊，請參閱：[檢查執行原則](http://go.microsoft.com/fwlink/?LinkId=128930)。  
+- Windows PowerShell 指令碼需要 Windows PowerShell 執行原則，以允許執行指令碼。 如需詳細資訊，請參閱：[檢查執行原則](http://go.microsoft.com/fwlink/?LinkId=128930)。  
   
 ## <a name="what-this-sample-does"></a>此範例的用途  
- 此範例中，撰寫 Microsoft Visual C# 中，使用 BizTalk 總管物件模型 (ExplorerOM)，物件會執行下列作業：  
+ 此範例中，在 Microsoft Visual C# 撰寫，使用物件，從 「 BizTalk 總管物件模型 (ExplorerOM)，執行下列作業：  
   
 -   查詢指定的合作對象。  
   
@@ -57,42 +57,42 @@ DeleteParty 範例示範如何刪除指定的合作對象。
   
  下表顯示此範例中的檔案，並描述其用途。  
   
-|檔案|Description|  
+|檔案|描述|  
 |---------------|-----------------|  
 |App.ico、AssemblyInfo.cs、DeleteParty.csproj、DeleteParty.sln、DeleteParty.cs|專案、方案和原始程式檔，用於建置 Visual C# 命令列應用程式，以移除指定的合作對象。|  
   
 ### <a name="to-build-and-initialize-this-sample"></a>若要建置並初始化這個範例  
   
-1.  在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中，開啟方案檔 DeleteParty.sln。  
+1. 在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中，開啟方案檔 DeleteParty.sln。  
   
-2.  按一下 [ **建置** ] 功能表上的 [ **建置方案**]。  
+2. 按一下 [ **建置** ] 功能表上的 [ **建置方案**]。  
   
 ### <a name="to-run-this-sample"></a>執行此範例  
   
-1.  在命令視窗中，瀏覽至下列資料夾：  
+1. 在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*\>\Admin\ExplorerOM\DeleteParty\bin\Debug\  
+    \<*範例路徑*\>\Admin\ExplorerOM\DeleteParty\bin\Debug\  
   
-2.  執行 DeleteParty.exe 檔案，它會傳遞下列兩個命令列引數：  
+2. 執行 DeleteParty.exe 檔案，它會傳遞下列兩個命令列引數：  
   
-    -   **\<** ***PartyName* \>。** 要刪除的合作對象的名稱。 如果合作對象名稱包含空格，請用引號括住該名稱。  
+   - **\<** ***PartyName* \>。** 要刪除的合作對象的名稱。 如果合作對象名稱包含空格，請用引號括住該名稱。  
   
-    -   **/?.** 顯示說明。  
+   - **/?.** 顯示說明。  
   
      例如：  
   
-    ```  
-    DeleteParty "My Party #3"  
-    ```  
+   ```  
+   DeleteParty "My Party #3"  
+   ```  
   
-     -或-  
+    -或-  
   
-    ```  
-    DeleteParty /?  
-    ```  
+   ```  
+   DeleteParty /?  
+   ```  
   
 ## <a name="windows-powershell-script-example"></a>Windows Powershell 指令碼範例  
- 下列 Windows PowerShell 指令碼片段可以用來示範的相同功能**ExplorerOM**類別：  
+ 下列 Windows PowerShell 指令碼片段，可以用來示範相同的功能**ExplorerOM**類別：  
   
 ```  
   
@@ -134,7 +134,7 @@ else
 }  
 ```  
   
- 指令碼範例需要單一合作對象名稱做為命令列引數傳遞。  它會依名稱尋找該合作對象，並嘗試將它刪除。  如果沒有命令列引數傳遞給它，指令碼會列出本機 Biztalk 伺服器上的所有合作對象。 以下是從指令碼的範例輸出：  
+ 指令碼範例需要單一合作對象名稱做為命令列引數傳遞。  它會依名稱尋找該合作對象，並嘗試將它刪除。  如果任何命令列引數不傳遞給它，指令碼會列出在本機的 Biztalk server 上的所有合作對象。 以下是從指令碼的範例輸出：  
   
 ```  
 PS C:\> .\DeletePart.ps1  
@@ -165,5 +165,5 @@ Name : Party2
   
 ```  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [Admin-ExplorerOM (BizTalk Server Samples 資料夾)](../core/admin-explorerom-biztalk-server-samples-folder.md)

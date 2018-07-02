@@ -1,5 +1,5 @@
 ---
-title: 疑難排解設定 |Microsoft 文件
+title: 設定進行疑難排解 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 37
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e523c5c992ea422e6fe81f3c0d948db7007bcdb1
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: f79f2d2ec9e87a22d07802f52b063f279d65ab8a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25975988"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36973191"
 ---
 # <a name="troubleshooting-configuration"></a>組態疑難排解
 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 組態程式會在執行 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 的一或多部電腦上建立資料庫、將 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 所使用的資料表、角色和預存程序填入資料庫中，然後將執行階段所使用的 .NET 組件部署到 BizTalk 管理資料庫。  
@@ -32,7 +32,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
  此組態記錄檔含有已執行之組態步驟的摘要，以及組態程序中可能發生之任何失敗的相關診斷資訊。 如果發生組態錯誤，請在文字編輯器 (如 [記事本]) 中開啟此組態記錄檔，然後檢查此記錄檔，找出錯誤的可能原因。  
   
 ## <a name="troubleshooting-tools"></a>疑難排解工具  
- 使用 SQL Server Profiler、Filemon 或 Regmon 可蒐集有關組態失敗的其他資訊。 如需有關這些工具的詳細資訊，請參閱[工具和公用程式，以供疑難排解使用](../core/tools-and-utilities-to-use-for-troubleshooting.md)。  
+ 使用 SQL Server Profiler、Filemon 或 Regmon 可蒐集有關組態失敗的其他資訊。 如需有關這些工具的詳細資訊，請參閱 <<c0> [ 工具和公用程式來使用，以進行疑難排解](../core/tools-and-utilities-to-use-for-troubleshooting.md)。  
   
 ## <a name="known-issues"></a>已知問題  
   
@@ -53,7 +53,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
  如果 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 和 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 安裝在不同電腦上，則會在「分散式交易協調器」(MSDTC) 交易的內容底下執行組態作業，而且這兩部電腦之間必須可透過網路使用 MSDTC 功能。 如果無法在執行 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 和 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 的電腦之間透過網路使用 MSDTC 功能，則可能會發生這個錯誤。  
   
 ##### <a name="resolution"></a>解決方案  
- 請依照[疑難排解 MSDTC 問題的](../core/troubleshooting-problems-with-msdtc.md)以確保能透過網路執行的電腦之間的 MSDTC 功能[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]和[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]。  
+ 請依照下列中的步驟[MSDTC 問題疑難排解](../core/troubleshooting-problems-with-msdtc.md)以確保透過網路執行的電腦之間的 MSDTC 功能[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]和[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]。  
   
 #### <a name="antivirus-software-interferes-with-configuration-and-causes-configuration-failures"></a>防毒軟體干擾組態，並造成組態失敗  
   
@@ -61,7 +61,7 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
  當防毒軟體錯誤判斷出組態程式為病毒時，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 組態會發生失敗。  
   
 ##### <a name="cause"></a>原因  
- 防毒軟體沒有更新成包含[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]組態程式當做合法 （非病毒） 程式。  
+ 防毒軟體尚未更新以包含[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]組態程式當做合法 （非病毒） 程式。  
   
 ##### <a name="resolution"></a>解決方案  
  設定此防毒程式，使其將 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 組態程式辨識為合法 (非病毒) 程式，或是在組態程式執行時，暫時停用此防毒軟體。  
@@ -75,11 +75,11 @@ Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernover
   
  BizTalk Server 2009\Microsoft.BizTalk.DefaultPipelines.dll。 [未指定]  
   
- 例外狀況： 檔案或組件名稱 FileName.dll，或其中一個它  
+ 例外狀況： 檔案或組件名稱 FileName.dll，或其中一個其  
   
  相依性，找不到。 檔案或組件名稱 FileName.dll，或  
   
- 其中一個相依性，找不到。 」  
+ 其中一個相依性，是找不到。 」  
   
 ##### <a name="cause"></a>原因  
  如果 Network Service 帳戶在執行 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的電腦上沒有暫存資料夾的寫入權限，可能會發生這個錯誤。 在組態進行期間，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 組態會使用 Windows Management Instrumentation (WMI)，將 .NET 組件部署到 BizTalk 管理資料庫。 WMI 在將這些組件部署到 BizTalk 管理資料庫時，會模擬 Network Service 帳戶，因此，Network Service 帳戶在執行 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的電腦上必須有暫存資料夾的寫入權限。  
@@ -100,7 +100,7 @@ echo %TEMP%
   
  Msg = 無法從網域讀取資訊的組態  
   
- 控制站，可能是因為該機器已無法使用，或存取有  
+ 控制站，可能是因為電腦無法使用，或具有存取權  
   
  已拒絕。;  
   
@@ -120,7 +120,7 @@ echo %TEMP%
   
  無法安裝 BAM 資料庫  
   
- 無法開啟登入 'BAMPrimaryImport' 中要求的資料庫  
+ 無法開啟登入 'BAMPrimaryImport' 所要求的資料庫  
   
  登入失敗。 使用者登入失敗 '*BizTalk\BizTalkUser*'  
   
@@ -137,7 +137,7 @@ echo %TEMP%
 #### <a name="configuration-fails-on-a-domain-controller-when-specifying-local-accounts"></a>指定本機帳戶時，網域控制站上的組態發生失敗  
   
 ##### <a name="problem"></a>問題  
- 當執行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]組態程式的網域控制站，如果您指定的 biztalkserverapplication 主控件或 BizTalkIsolatedHost 主機的本機群組 （例如，BizTalk 主控件使用者群組） 的組態會失敗。  
+ 當執行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]組態程式，在網域控制站，如果您指定的本機群組 （例如，BizTalk 主控件使用者群組） biztalkserverapplication 主控件或 BizTalkIsolatedHost 主應用程式的組態失敗。  
   
 ##### <a name="cause"></a>原因  
  網域控制站會自動將本機 Windows 群組視為網域 Windows 群組 (也就是說，網域控制站上不會有本機 Windows 群組)。 如果您在執行組態程式時，為主控件指定了本機 Windows 群組，則當您嘗試為此群組建立 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 登入時，組態會發生失敗。 當伺服器是網域控制站時，組態程式不會停用本機 Windows 群組選項。  
@@ -156,9 +156,9 @@ echo %TEMP%
   
  Error:  
   
- '\\\\< 機器名稱\>\MsOLAPRepository$\msmdrep.mdb' 不是有效的路徑。  
+ '\\\\< 電腦名稱\>\MsOLAPRepository$\msmdrep.mdb' 不是有效的路徑。  
   
- 請確定您正確拼寫的路徑名稱，而且是  
+ 請確定您正確拼寫的路徑名稱，而且您是  
   
  連接到檔案所在的伺服器。  
   
@@ -168,19 +168,19 @@ echo %TEMP%
 ##### <a name="resolution"></a>解決方案  
  請以手動方式執行以下步驟，將 Analysis Server 更新為新的電腦名稱：  
   
-1.  按一下**啟動**，指向 **所有程式**，指向  **Microsoft SQL Server**，指向  **Analysis Services**，然後按一下  **Analysis Manager**。  
+1.  按一下 **開始**，指向**所有程式**，指向**Microsoft SQL Server**，指向**Analysis Services**，然後按一下**分析管理員**。  
   
-2.  在**Analysis Manager**導覽面板中按兩下**Analysis Servers**節點來展開它。  
+2.  在**分析管理員**瀏覽窗格中，按兩下**Analysis Servers**節點來展開它。  
   
-3.  以滑鼠右鍵按一下您想要編輯，然後選取 儲存機制連線字串伺服器**編輯儲存機制連線字串**。  
+3.  以滑鼠右鍵按一下您想要編輯，然後選取的儲存機制連接字串伺服器**編輯儲存機制連線字串**。  
   
-4.  在**編輯儲存機制連線字串**對話方塊，確認伺服器名稱，這個字串中的，將其更新為新的電腦名稱是否正確。  
+4.  在 **編輯儲存機制連線字串**對話方塊，確認這個字串中的伺服器名稱，其更新為新的電腦名稱，如果密碼不正確。  
   
 5.  瀏覽至下列位置： \<*安裝目錄*\>\Program Files\Microsoft Analysis Services\Bin。  
   
-6.  以滑鼠右鍵按一下**Bin**資料夾，然後再按一下**共用和安全性**。 **Bin 屬性** 對話方塊隨即出現。  
+6.  以滑鼠右鍵按一下**筒**資料夾，然後再按一下**共用和安全性**。 **紙匣內容** 對話方塊隨即出現。  
   
-7.  在**Bin 屬性**對話方塊中，按一下 **共用**索引標籤，以確認所有的線上分析處理 (OLAP) 系統管理員具有完整權限，此資料夾。  
+7.  在 **紙匣內容** 對話方塊中，按一下**共用** 索引標籤，請確認所有的線上分析處理 (OLAP) 系統管理員具有此資料夾的完整權限。  
   
 #### <a name="artifacts-disappear-from-configuration-database-on-redeployment-of-assemblies-from-visual-studio"></a>從 Visual Studio 重新部署組件時，成品從組態資料庫中消失  
   
@@ -190,46 +190,46 @@ echo %TEMP%
 ##### <a name="cause"></a>原因  
  為了說明這個問題的原因，假設以下範例是根據範例 BizTalk Server 解決方案，而使用者想要在其中重新部署 Maps 專案。 請注意，編譯專案會產生個別的組件。 下圖指示使用者執行重新部署之前的解決方案狀態， 成品之間的關係如下：  
   
--   Orch1、Orch2、Maps、Pipelines 和 Schemas 都是專案。  
+- Orch1、Orch2、Maps、Pipelines 和 Schemas 都是專案。  
   
--   Orch1 參考 Maps，而 Maps 則參考 Schemas。  
+- Orch1 參考 Maps，而 Maps 則參考 Schemas。  
   
--   Orch2 參考 Schemas。  
+- Orch2 參考 Schemas。  
   
--   Pipelines 參考 Schemas。  
+- Pipelines 參考 Schemas。  
   
- ![](../core/media/bcd-existingbiztalkserversolutionc.gif "bcd_ExistingBizTalkServerSolutionc")  
+  ![](../core/media/bcd-existingbiztalkserversolutionc.gif "bcd_ExistingBizTalkServerSolutionc")  
   
- 如果使用者使用預設 Visual Studio 專案設定來重新部署 Maps 專案，則 Orch1、Orch2 和 Pipeline 成品會消失，如下圖所示。  
+  如果使用者使用預設 Visual Studio 專案設定來重新部署 Maps 專案，則 Orch1、Orch2 和 Pipeline 成品會消失，如下圖所示。  
   
- ![](../core/media/bcd-biztalksolutionwlostartifactsc.gif "bcd_BizTalkSolutionWLostArtifactsc")  
+  ![](../core/media/bcd-biztalksolutionwlostartifactsc.gif "bcd_BizTalkSolutionWLostArtifactsc")  
   
- 重新部署 Maps 是一個兩個步驟的程序，要先解除部署目前已部署的 Maps.dll 組件，然後部署新的 Maps.dll 檔案。 Visual Studio 重新部署程序的一部分，請以自動執行這些步驟。  
+  重新部署 Maps 是一個兩個步驟的程序，要先解除部署目前已部署的 Maps.dll 組件，然後部署新的 Maps.dll 檔案。 Visual Studio 重新部署程序的一部分，請以自動執行這些步驟。  
   
 > [!NOTE]
 >  上一個句子嚴格來說並不正確，因為 Visual Studio 一定會執行這些步驟，所以它不會意識到這是適當的作法。  
   
  關鍵的地方是，為了要解除部署 BizTalk Server 組件，[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 也必須解除部署相依於該組件 (已設定部署旗標) 的所有組件。 在這個範例中，若要執行重新部署的第一個解除部署步驟，BizTalk Server 需要解除部署 Orch1.dll (它相依於 Maps.dll)。 在解除部署 Maps.dll 時，[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 也會解除部署 Schemas.dll (假設它已設定部署旗標)。 為了要解除部署 Schemas.dll，Visual Studio 需要解除部署 Orch2.dll 和 Pipelines.dll (這兩者都相依於 Schemas.dll)。  
   
- 問題在於，[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]甲重新部署只有 Maps.dll 和它所依據的組件： 在此情況下，Schemas.dll。 讓使用者重新整理 BizTalk Server MMC 時，Orch1、 Orch2 和 Pipeline 組件似乎已消失，但是 Maps.dll 和 Schemas.dll 仍然可見。  
+ 問題在於，[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]重新部署只 Maps.dll 和它所相依的組件： 在此情況下，Schemas.dll。 因此當使用者重新整理 BizTalk Server MMC 時，Orch1、 Orch2 和管線的組件似乎消失了，但是 Maps.dll 和 Schemas.dll 仍然會顯示。  
   
 ##### <a name="resolution"></a>解決方案  
  如果是主要專案 (它會參考其他專案)，請執行以下作業：  
   
 1.  在 [方案總管] 中，以滑鼠右鍵按一下方案節點。  
   
-2.  按一下**屬性**開啟**方案屬性頁** 對話方塊。  
+2.  按一下 [**屬性**來開啟**方案屬性頁**] 對話方塊。  
   
-3.  按一下**組態屬性**，然後按一下 **組態**。  
+3.  按一下 **組態屬性**，然後按一下**組態**。  
   
 4.  清除**部署**參考之專案的核取方塊。  
   
-5.  在 [方案總管] 中，執行新的方案層級部署。 若要這樣做，以滑鼠右鍵按一下方案節點，然後按一下 **部署方案**。  
+5.  在 [方案總管] 中，執行新的方案層級部署。 若要這樣做，以滑鼠右鍵按一下方案節點，然後按一下**部署方案**。  
   
 #### <a name="supported-virtual-directory-types"></a>支援的虛擬目錄類型  
- 匯出作業時參考 Web 服務從協調流程，並嘗試進行 MSI 匯出，將會成功，相關聯的虛擬目錄為型別時，才**IIsWebVirtualDir**或**IIsWebDirectory**. **IIsWebVirtualDir**和**IIsWebDirectory**會出現在 IIS metabase 中的節點型別。 **IIsWebVirtualDir**是使用的虛擬目錄**路徑**指向絕對檔案資料夾的屬性。 **IIsWebDirectory**而不是虛擬目錄**路徑**屬性，因此是指相對檔案資料夾，通常是另一個子資料夾**IIsWebVirtualDir**或**IIsWebDirectory**節點。 在 Metabase 階層中，經常會看到用來描述資料夾的這兩個類型。  
+ 匯出作業時從協調流程和嘗試進行 MSI 匯出參考 Web 服務，將會成功，相關聯的虛擬目錄為型別時，才**IIsWebVirtualDir**或**IIsWebDirectory**. **IIsWebVirtualDir**並**IIsWebDirectory**會出現在 IIS metabase 中的節點型別。 **IIsWebVirtualDir**為虛擬目錄，並**路徑**指向絕對檔案資料夾的屬性。 **IIsWebDirectory**而不是虛擬目錄**路徑**屬性，並因此參考相對檔案資料夾，通常是另一個子資料夾**IIsWebVirtualDir**或**IIsWebDirectory**節點。 在 Metabase 階層中，經常會看到用來描述資料夾的這兩個類型。  
   
- 類型的虛擬目錄**IIsConfigObject**不支援 MSI 匯出會在此情況下失敗。 **IIsConfigObject**非預期的 metabase 節點類型可以是 BizTalk Server 未適當處理的有效節點類型，或未適當建立的 （並因此它是無效的） metabase 項目的指示。 在此情況下，BizTalk Server 將會顯示類似下列的錯誤訊息： 類型 IIsConfigObject 的未預期的目錄項目"Iis: //lm/w3svc/1/root/badvdir/"。  
+ 類型的虛擬目錄**IIsConfigObject**不支援 MSI 匯出會在此情況下失敗。 **IIsConfigObject**非預期的 metabase 節點類型是 BizTalk Server 未適當處理的其中一個有效的節點類型，或未適當建立 （並因此無效） metabase 項目表示。 在此情況下，BizTalk Server 將會顯示類似下列的錯誤訊息： 類型 IIsConfigObject 的未預期的目錄項目"IIS://LM/W3SVC/1/ROOT/BadVdir/"。  
   
 #### <a name="unable-to-view-group-information-after-removing-stale-logons"></a>在移除過時的登入之後，無法檢視群組資訊  
   
@@ -242,13 +242,13 @@ echo %TEMP%
 ##### <a name="resolution"></a>解決方案  
  刪除主控件 Windows 群組登入，然後再重新設定可能會有幫助。 如果仍然無法使用群組資訊，請連絡 Microsoft 產品支援中心。  
   
-##### <a name="cannot-change-computer-name-after-biztalk-server-is-installed"></a>BizTalk Server 安裝之後，無法變更電腦名稱  
+##### <a name="cannot-change-computer-name-after-biztalk-server-is-installed"></a>BizTalk Server 安裝之後無法變更電腦名稱  
   
 ###### <a name="problem"></a>問題  
- 當您變更執行的電腦上的電腦名稱[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，而且您重新啟動 （重新開機） 的電腦，錯誤訊息可能會發生。  
+ 當您變更執行的電腦上的電腦名稱[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，並重新啟動 （重新開機） 的電腦，錯誤訊息可能會發生。  
   
 ###### <a name="cause"></a>原因  
- SQL Server 不支援變更電腦名稱，因此[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]不支援一次變更電腦名稱[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安裝和設定。  
+ SQL Server 不支援變更電腦名稱，因此[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]不支援一次變更的電腦名稱[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]已安裝和設定。  
   
 ###### <a name="resolution"></a>解決方案  
  我們建議您不要變更電腦名稱之後您安裝 BizTalk Server。

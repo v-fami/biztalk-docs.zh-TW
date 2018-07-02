@@ -1,5 +1,5 @@
 ---
-title: CIDX 支援 |Microsoft 文件
+title: CIDX 支援 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -21,35 +21,35 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 224d2b50d132efa67e1cfc24dda2df77fa7d29e3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 57500dc25e719d7ef693975b74850cbc04289dec
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22210694"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36997807"
 ---
 # <a name="cidx-support"></a>CIDX 支援
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]支援 CIDX （化學產業資料交換） XML 訊息交換。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]支援 CIDX Chem eStandards 2.0 和 3.0，兩者都使用 RosettaNet 實作架構 (RNIF) 1.1 版。  
+Microsoft[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]支援 CIDX （化學產業資料交換） XML 訊息交換。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 支援 CIDX Chem eStandards 2.0 和 3.0，這兩者都使用 RosettaNet 實作架構 (RNIF) 1.1 版。  
   
  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 非同步簡單公開程序 (支援單向動作和雙向動作訊息) 會使用並傳送 CIDX 服務內容。  
   
  對於採用 CIDX PIP 的協議，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 將驗證訊息中的下列資訊：  
   
--   僅 RNIF 1.1 版本  
+- 僅 RNIF 1.1 版本  
   
--   無 0A1  
+- 無 0A1  
   
--   僅單向動作  
+- 僅單向動作  
   
- [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]不會防止您設定`Standard`屬性程序組態為 「 CIDX 」 之後您已經設定,`0A1 agreement`會使用該設定檔為 （這不支援對 CIDX） 的 「 0A1 」 協議屬性。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]不會執行可能阻止此欄位交互驗證。  
+  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 不會防止您設定`Standard`程序組態為 「 CIDX 」 之後您已設定, 的屬性`0A1 agreement`會使用該設定檔為 （這不支援對 CIDX） 的 「 0A1 」 協議屬性。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 不會執行可能阻止此欄位交互驗證。  
   
 ## <a name="applying-a-pip-to-a-cidx-implementation"></a>將 PIP 套用至 CIDX 實作  
- 若要將 PIP 套用至 CIDX 實作，將`Standard`程序組態設定檔中的屬性**CIDX**。 當您完成之後，您將能夠輸入訊息標準、 標準的版本，與承載繫結識別碼。 您可以在 CIDX Chem eStandards 的規格中找到這些值。  
+ 若要將 PIP 套用至 CIDX 實作，將`Standard`程序組態設定檔中的屬性**CIDX**。 完成之後，您將能夠輸入值的訊息標準 」、 「 標準版本 」 和 「 承載繫結識別碼。 您可以在 CIDX Chem eStandards 的規格中找到這些值。  
   
 ## <a name="connecting-to-the-elemica-network"></a>連線到 Elemica 網路  
- 您可以啟用安裝[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]以連線到 Elemica [!INCLUDE[btsExchangeSvrNoVersion](../../includes/btsexchangesvrnoversion-md.md)] Provider (ESP)。 您可以使用 CIDX 訊息交換，透過 Elemica 網路買賣化學工業產品及管理供應鏈。  
+ 您可以讓 Microsoft 安裝[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]以連線到 Elemica [!INCLUDE[btsExchangeSvrNoVersion](../../includes/btsexchangesvrnoversion-md.md)] Provider (ESP)。 您可以使用 CIDX 訊息交換，透過 Elemica 網路買賣化學工業產品及管理供應鏈。  
   
- 您可以使用 Elemica Connectivity Pack 中的專案檔，自訂 [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] 以連線到 Elemica。 您可以下載 Connectivity Pack 從[http://go.microsoft.com/fwlink/?LinkId=46195](http://go.microsoft.com/fwlink/?LinkId=46195)。 如需詳細資訊，請參閱 < 連接到 Elemica 網路利用 BizTalk Accelerator for RosettaNet 3.0 > 技術白皮書在 MSDN 上[http://go.microsoft.com/fwlink/?linkid=46539](http://go.microsoft.com/fwlink/?linkid=46539)。  
+ 您可以使用 Elemica Connectivity Pack 中的專案檔，自訂 [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] 以連線到 Elemica。 您可以下載從 Connectivity Pack [ http://go.microsoft.com/fwlink/?LinkId=46195 ](http://go.microsoft.com/fwlink/?LinkId=46195)。 詳細資訊，請參閱 MSDN 上的 < 連接到 Elemica 網路利用 BizTalk Accelerator for RosettaNet 3.0 > 技術白皮書[ http://go.microsoft.com/fwlink/?linkid=46539 ](http://go.microsoft.com/fwlink/?linkid=46539)。  
   
 > [!NOTE]
 >  《利用 BizTalk Accelerator for RosettaNet 3.0 連線至 Elemica 網路》白皮書 (英文) 中的資訊對 [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] 有效。  

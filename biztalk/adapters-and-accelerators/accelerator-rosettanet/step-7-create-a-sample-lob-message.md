@@ -1,5 +1,5 @@
 ---
-title: 步驟 7： 建立範例 LOB 訊息 |Microsoft 文件
+title: 步驟 7： 建立範例 LOB 訊息 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,37 +17,39 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7f4bb518217a3fac3f42b60daccbfedc51ee15c0
-ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
+ms.openlocfilehash: d2b8450f196a1619b55b08a0771508daafa421a4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "34855489"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36977999"
 ---
 # <a name="step-7-create-a-sample-lob-message"></a>步驟 7： 建立範例 LOB 訊息
 在此步驟中，您將使用 LOB 應用程式公用程式建立範例商務營運系統 (LOB) 訊息。  
-  
+
 ### <a name="to-create-a-sample-message-using-the-lob-application-utility"></a>若要使用 LOB 應用程式公用程式建立範例訊息  
-  
-1.  在[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管 中，移至\<*磁碟機*\>: \Program Files (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK 資料夾，然後再按兩下**LOBApplication.exe**。  
-  
-2.  在**LOB 應用程式**對話方塊方塊中，執行下列動作：  
-  
-    |**使用此選項**|**若要這樣做**|  
-    |------------------|--------------------|  
-    |**主要設定檔名稱**|型別**首頁**。|  
-    |**交易夥伴名稱**|型別**夥伴**。|  
-    |**PIP 名稱**|型別**0c1**。|  
-    |**PIP 版本**|型別**R01.02**。|  
-    |**檔案名稱**|按一下省略符號按鈕 (**...**)，並移至\<*磁碟機*:\>\Program Files (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances. 選取**0C1_Request.xml**從清單中的檔案，然後再按一下**開啟**。|  
-    |**訊息類別**|選取**動作**從下拉式清單。|  
-  
-3.  在**LOB 應用程式**對話方塊中，按一下 **提交訊息**。  
-  
- LOB 應用程式會針對 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 產生訊息，以模擬 LOB 應用程式所產生的原始訊息。 您可以在 [狀態] 視窗中檢視訊息的狀態。  
-  
+
+1. 在 [[!INCLUDE[btsWinNoVersion](../../includes/btswinnoversion-md.md)]總管] 中，移至\<*磁碟機*\>: \Program 檔案 (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK 資料夾，然後再按兩下**LOBApplication.exe**。  
+
+2. 在  **LOB 應用程式**對話方塊方塊中，執行下列動作：  
+
+
+   |       **使用此選項**       |                                                                                                                       **若要這樣做**                                                                                                                       |
+   |--------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+   |  **主要設定檔名稱**   |                                                                                                                       型別**首頁**。                                                                                                                       |
+   | **交易夥伴名稱** |                                                                                                                     型別**夥伴**。                                                                                                                      |
+   |       **PIP 名稱**       |                                                                                                                       型別**0c1**。                                                                                                                        |
+   |     **PIP 版本**      |                                                                                                                      型別**R01.02**。                                                                                                                      |
+   |      **檔案名稱**       | 按一下省略符號按鈕 (**...**)，並移至\<*磁碟機*:\>\Program 檔案 (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances. 選取  **0C1_Request.xml**從清單中的檔案，然後再按一下**開啟**。 |
+   |   **訊息類別**   |                                                                                                         選取 **動作**從下拉式清單。                                                                                                         |
+
+
+3. 在 [ **LOB 應用程式**] 對話方塊中，按一下**送出訊息**。  
+
+   LOB 應用程式會針對 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 產生訊息，以模擬 LOB 應用程式所產生的原始訊息。 您可以在 [狀態] 視窗中檢視訊息的狀態。  
+
 > [!NOTE]
 >  範例訊息假設「組織」和「交易夥伴」的「全球商務識別碼」(Global Business Identifier，GBI) 分別是 123456789 和 987654321。 若要使用不同的 GBI，您必須修改這些檔案的內容。  
-  
+
 ## <a name="see-also"></a>另請參閱  
  [步驟 8：檢視 BTARN 資料庫中的訊息](../../adapters-and-accelerators/accelerator-rosettanet/step-8-view-messages-in-the-btarn-databases.md)

@@ -1,5 +1,5 @@
 ---
-title: 如何指派訊息內容屬性 Values1 |Microsoft 文件
+title: 如何指派訊息內容屬性 Values1 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 39bb2a4c6520c1ff3a21889e7508bb2cf417b817
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4f9f5a42e208d81f8898ce85592402f675d1b361
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22247302"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979739"
 ---
 # <a name="how-to-assign-message-context-property-values"></a>如何指派訊息內容屬性值
 若要從 BizTalk 協調流程管理 JD Edwards EnterpriseOne 配接器連接工作階段，則必須在專案中加入對 Microsoft.BizTalk.Adapters.JDEProperties.dll 的參照。 這個組件位於 %SystemDrive%\Program Files\Common Files\Microsoft BizTalk Adapters for Enterprise Applications\bin。  
@@ -30,17 +30,17 @@ ms.locfileid: "22247302"
   
 ### <a name="to-assign-context-property-value"></a>若要指派內容屬性值  
   
-1.  建立新的訊息。  
+1. 建立新的訊息。  
   
-2.  設定訊息內容，例如，藉由指派現有的訊息。  
+2. 設定訊息內容，例如，藉由指派現有的訊息。  
   
-3.  設定屬性。  
+3. 設定屬性。  
   
- 若要為目的地為已繫結至 Microsoft BizTalk Adapter for JD Edwards EnterpriseOne 之傳送埠的訊息指派內容屬性，請使用訊息指派運算子。 然後在 JD Edwards EnterpriseOne 命名空間內指定其中一個可用的內容屬性。  
+   若要為目的地為已繫結至 Microsoft BizTalk Adapter for JD Edwards EnterpriseOne 之傳送埠的訊息指派內容屬性，請使用訊息指派運算子。 然後在 JD Edwards EnterpriseOne 命名空間內指定其中一個可用的內容屬性。  
   
- 語法如下：`Message(JDE.Property) = value;`  
+   語法是： `Message(JDE.Property) = value;`  
   
 ## <a name="see-also"></a>另請參閱  
  [使用訊息內容屬性](../core/using-message-context-properties1.md)   
  [關於工作階段管理](../core/about-session-management2.md)   
- [教學課程： 使用 BizTalk Adapter for JD Edwards EnterpriseOne](../core/tutorial-using-the-biztalk-adapter-for-jd-edwards-enterpriseone.md)
+ [教學課程：使用 BizTalk Adapter for JD Edwards EnterpriseOne](../core/tutorial-using-the-biztalk-adapter-for-jd-edwards-enterpriseone.md)

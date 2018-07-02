@@ -1,5 +1,5 @@
 ---
-title: 疑難排解： 問題與 Resolutions1 |Microsoft 文件
+title: 疑難排解： 問題與 Resolutions1 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,23 +15,23 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 07eacd1197b36a0f160f900e4442455876e86c87
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3a2b2f7cbbe2fb6f4ba67ce1268d9ebea4ff48e3
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22214550"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982919"
 ---
 # <a name="troubleshooting-issues-and-resolutions"></a>疑難排解： 問題與解決方式
-本主題說明與執行有關的問題[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]。 其特殊徵狀、 可能的原因和解決方案，將詳細說明每個問題。  
+本主題說明執行 Microsoft 相關的問題[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]。 其特殊徵狀、 可能的原因和解決方案，詳細說明每個問題。  
   
- 問題與解決方法分為下列區域：  
+ 問題和解決方式可分為下列領域：  
   
--   [安裝和設定疑難排解](../../adapters-and-accelerators/accelerator-swift/installation-and-configuration-troubleshooting.md)  
+-   [安裝和組態疑難排解](../../adapters-and-accelerators/accelerator-swift/installation-and-configuration-troubleshooting.md)  
   
--   [移轉和升級的疑難排解](../../adapters-and-accelerators/accelerator-swift/migration-and-upgrade-troubleshooting.md)  
+-   [移轉和升級疑難排解](../../adapters-and-accelerators/accelerator-swift/migration-and-upgrade-troubleshooting.md)  
   
--   [訊息修復和新送出疑難排解](../../adapters-and-accelerators/accelerator-swift/message-repair-and-new-submission-troubleshooting.md)  
+-   [Message Repair 和 New Submission 疑難排解](../../adapters-and-accelerators/accelerator-swift/message-repair-and-new-submission-troubleshooting.md)  
   
 -   [FIN 回應對帳疑難排解](../../adapters-and-accelerators/accelerator-swift/fin-response-reconciliation-troubleshooting.md)  
   

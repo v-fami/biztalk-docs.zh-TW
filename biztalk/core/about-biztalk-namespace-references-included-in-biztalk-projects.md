@@ -1,5 +1,5 @@
 ---
-title: 關於在 BizTalk 專案中包含的 BizTalk 命名空間參考 |Microsoft 文件
+title: 關於在 BizTalk 專案中包含的 BizTalk 命名空間參考 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -24,25 +24,25 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 820e15eb3524713dfd7d3f86311ca262fde191d5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 608f3ebf9a80553749fe5de558c2db05e3c7673d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22225174"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37016366"
 ---
 # <a name="about-biztalk-namespace-references-included-in-biztalk-projects"></a>關於在 BizTalk 專案中包含的 BizTalk 命名空間參考
 當您新增新的 BizTalk 專案時，預設會包含下列命名空間：  
   
--   **Microsoft.BizTalk.DefaultPipelines**  
+- **Microsoft.BizTalk.DefaultPipelines**  
   
--   **Microsoft.BizTalk.GlobalPropertySchemas**  
+- **Microsoft.BizTalk.GlobalPropertySchemas**  
   
--   **系統**  
+- **系統**  
   
--   **System.Xml**  
+- **System.Xml**  
   
- 您也可以將新的參考和 Web 參考新增到您的專案。 如需有關加入參考使用**專案**功能表上，請參閱[使用 Visual Studio](../core/using-visual-studio.md)。 如需新增 Web 參考資訊，請參閱[加入 Web 參考](../core/adding-web-references.md)。  
+  您也可以將新的參考和 Web 參考新增到您的專案。 如需新增參考使用**專案**功能表上，請參閱[使用 Visual Studio](../core/using-visual-studio.md)。 如需新增 Web 參考的資訊，請參閱[加入 Web 參考](../core/adding-web-references.md)。  
   
 > [!CAUTION]
 >  請勿移除預設參考。 如果您移除預設參考，您可能會在專案中參考 BizTalk 項目時遇到問題。 您可以在方案總管中還原預設參考。  

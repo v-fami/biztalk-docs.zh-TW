@@ -1,5 +1,5 @@
 ---
-title: Windows 帳戶的安全分散式的 BizTalk Server 部署 |Microsoft 文件
+title: 用於安全分散式的 BizTalk Server 部署的 Windows 帳戶 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -23,32 +23,32 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 04c7e6e28cc0deb83eaa7868c6c4ee17da8bc563
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: e05753c1693de75bbe6fa8422162a8c6e284bcff
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25974956"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36985695"
 ---
 # <a name="windows-accounts-for-a-secure-distributed-biztalk-server-deployment"></a>用於安全分散式 BizTalk Server 部署的 Windows 帳戶
-完成 BizTalk Server 部署的系統架構的詳細資訊，請參閱[範例 BizTalk Server 架構](../core/sample-biztalk-server-architectures.md)。  
+完成 BizTalk Server 部署的系統架構的詳細資訊，請參閱[BizTalk Server 架構範例](../core/sample-biztalk-server-architectures.md)。  
   
- 本節提供在分散式 BizTalk Server 環境中建立 Windows 群組與帳戶的建議。 群組與帳戶名稱是根據群組與帳戶的功能而建議的。 而您可以選擇這些群組與帳戶的名稱。 如需有關分散式 BizTalk Server 架構的詳細資訊，請參閱[大型分散式架構](../core/large-distributed-architecture.md)。  
+ 本節提供在分散式 BizTalk Server 環境中建立 Windows 群組與帳戶的建議。 群組與帳戶名稱是根據群組與帳戶的功能而建議的。 而您可以選擇這些群組與帳戶的名稱。 如需有關分散式 BizTalk Server 架構的詳細資訊，請參閱 <<c0> [ 大型分散式架構](../core/large-distributed-architecture.md)。  
   
 ## <a name="windows-groups-for-a-secure-distributed-biztalk-server-deployment"></a>用於安全分散式 BizTalk Server 部署的 Windows 群組  
  下列清單是建議網域系統管理員，應在資料層的網域控制站中建立的 Windows 群組。  
   
--   SSO 系統管理員  
+- SSO 系統管理員  
   
--   SSO 分支機構系統管理員  
+- SSO 分支機構系統管理員  
   
--   BizTalk Server 系統管理員  
+- BizTalk Server 系統管理員  
   
--   BizTalk Server 操作員  
+- BizTalk Server 操作員  
   
- 如需 BizTalk Server 使用的 Windows 群組的完整資訊，請參閱[Windows 群組和 BizTalk Server 中的使用者帳戶](../core/windows-groups-and-user-accounts-in-biztalk-server.md)。  
+  完成 BizTalk Server 使用的 Windows 群組的詳細資訊，請參閱[Windows 群組和 BizTalk Server 中的使用者帳戶](../core/windows-groups-and-user-accounts-in-biztalk-server.md)。  
   
- 除了先前的網域群組之外，下表列出在資料層的網域控制站中，為了保護網域的安全部署，系統管理員要建立的其他群組。  
+  除了先前的網域群組之外，下表列出在資料層的網域控制站中，為了保護網域的安全部署，系統管理員要建立的其他群組。  
   
 |群組名稱 (建議)|目的|  
 |------------------------------|-------------|  
@@ -76,7 +76,7 @@ ms.locfileid: "25974956"
 |BizTalk 系統管理員|使用者|BizTalk 系統管理員<br /><br /> SSO 分支機構系統管理員|  
 |BizTalk 操作員|使用者|BizTalk 操作員|  
 |BizTalk 處理 1|服務|BizTalk 處理主控件使用者 1|  
-|BizTalk 處理 2**附註：** 您可以針對每個處理主控件建立多個帳戶，您的環境中。|服務|BizTalk 處理主控件使用者 1|  
+|BizTalk 處理 2**附註：** 您可以為每個處理主控件建立多個帳戶，您的環境中。|服務|BizTalk 處理主控件使用者 1|  
 |BizTalk 追蹤|服務|BizTalk 追蹤主控件使用者|  
 |SOAP adapter (SOAP 配接器)|服務|BizTalk SOAP 使用者|  
 |HTTP 配接器|服務|BizTalk HTTP 使用者|  
@@ -93,7 +93,7 @@ ms.locfileid: "25974956"
 |SharePoint 系統管理員|使用者|  
 |SharePoint 網站認證|使用者|  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [大型分散式的架構](../core/large-distributed-architecture.md)   
  [最低安全性使用者權限](../core/minimum-security-user-rights.md)   
  [Windows 群組和 BizTalk Server 中的使用者帳戶](../core/windows-groups-and-user-accounts-in-biztalk-server.md)   

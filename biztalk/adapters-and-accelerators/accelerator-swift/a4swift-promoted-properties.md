@@ -1,5 +1,5 @@
 ---
-title: A4SWIFT_ * 升級 BizTalk Server 中的屬性 |Microsoft 文件
+title: A4SWIFT_ * 升級 BizTalk Server 中的屬性 |Microsoft Docs
 description: 列出 BizTalk Server 中 SWIFT 加速器的升級的屬性
 ms.custom: ''
 ms.date: 08/16/2017
@@ -13,17 +13,17 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b8e18c58001da3b5f7adc5deaf41f45c6b2644a6
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: f33d6714c58ec7197dd76e8891a1b74d170a7068
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22209062"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36984647"
 ---
 # <a name="a4swift-promoted-properties"></a>A4SWIFT_ * 升級屬性
 
 ## <a name="overview"></a>概觀
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] 定義 SWIFT 解譯器、 FIN 回應和重新調整，、 Message Repair 和 New Submission 功能使用，並將升級的自訂內容屬性。 使用者的解決方案可以使用這些屬性，處理和以內容為基礎的路由與篩選運算式。 A4SWIFT 升級屬性的宣告位於[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]。Solutions.A4SWIFT.Property 命名空間。  
+Microsoft[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]定義 SWIFT 解譯器、 FIN 回應對帳，、 Message Repair 和 New Submission 的功能，並使用升級的自訂內容屬性。 使用者解決方案可以使用這些屬性，處理和內容為基礎的路由與篩選運算式。 A4SWIFT 升級屬性的宣告位於 Microsoft。Solutions.A4SWIFT.Property 命名空間。  
 
 ## <a name="in-this-section"></a>本節內容 
   

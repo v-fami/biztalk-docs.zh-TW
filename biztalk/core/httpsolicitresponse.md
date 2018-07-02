@@ -1,5 +1,5 @@
 ---
-title: HTTPSolicitResponse |Microsoft 文件
+title: HTTPSolicitResponse |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,15 +15,15 @@ caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 500ec05df9a3a365a350571e8b3e66f5d584f92d
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: c5a68e24cee95b25596ad5162223c34a75139c13
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25973124"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981295"
 ---
 # <a name="httpsolicitresponse"></a>HTTPSolicitResponse
-HTTPSolicitResponse 範例會示範如何建立 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程，以運用 ASP.NET 應用程式協助處理協調流程資料。 在此範例中，協調流程會利用要求/回應埠，將訊息傳送至 ASP.NET 應用程式並擷取回應。 藉由使用 HTTP 配接器，便能整合 BizTalk Server 協調流程與 ASP.NET 應用程式。 如需詳細資訊，請參閱[HTTP 配接器](../core/http-adapter.md)。  
+HTTPSolicitResponse 範例會示範如何建立 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程，以運用 ASP.NET 應用程式協助處理協調流程資料。 在此範例中，協調流程會利用要求/回應埠，將訊息傳送至 ASP.NET 應用程式並擷取回應。 藉由使用 HTTP 配接器，便能整合 BizTalk Server 協調流程與 ASP.NET 應用程式。 如需詳細資訊，請參閱 < [HTTP 配接器](../core/http-adapter.md)。  
   
 ## <a name="what-this-sample-does"></a>此範例的用途  
  此範例由 BizTalk Server 協調流程組成，它會接收一個包含兩個要相乘之數字的要求，並透過下列步驟順序滿足該要求：  
@@ -41,7 +41,7 @@ HTTPSolicitResponse 範例會示範如何建立 Microsoft [!INCLUDE[btsBizTalkSe
   
  下表顯示此範例中的檔案，並描述其用途。  
   
-|檔案|Description|  
+|檔案|描述|  
 |---------------|-----------------|  
 |Cleanup.bat|從全域組件快取 (GAC) 解除部署並移除組件；移除傳送和接收埠；視需要移除 Microsoft Internet Information Services (IIS) 虛擬目錄。|  
 |HttpSolicitResponse.btproj、HttpSolicitResponse.sln|為包含協調流程 (會使用乘法運算器 ASP.NET 應用程式、相關結構描述等) 的 BizTalk 專案，提供專案和原始程式檔。|  
@@ -60,49 +60,49 @@ HTTPSolicitResponse 範例會示範如何建立 Microsoft [!INCLUDE[btsBizTalkSe
   
 #### <a name="to-build-and-initialize-the-sample"></a>建置和初始化範例  
   
-1.  在命令視窗中，瀏覽至下列資料夾：  
+1. 在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*\>\AdaptersUsage\HTTPSolicitResponse  
+    \<*範例路徑*\>\AdaptersUsage\HTTPSolicitResponse  
   
-2.  執行檔案 Setup.bat，這會執行下列動作：  
+2. 執行檔案 Setup.bat，這會執行下列動作：  
   
-    -   為此範例建立輸入和輸出資料夾：  
+   - 為此範例建立輸入和輸出資料夾：  
   
-         \<*範例路徑*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseInput  
+      \<*範例路徑*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseInput  
   
-         \<*範例路徑*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseOutput  
+      \<*範例路徑*\>\AdaptersUsage\HttpSolicitResponse\HttpSolicitResponseOutput  
   
-    -   編譯及設定此範例所使用的乘法運算器 ASP.NET 應用程式。  
+   - 編譯及設定此範例所使用的乘法運算器 ASP.NET 應用程式。  
   
-        > [!NOTE]
-        >  在 IIS 管理員中建立應用程式集區，設定**DefaultAppPool**以.NET Framework 版本 **.Net Framework v4.0**。  
+     > [!NOTE]
+     >  在建立應用程式集區在 [IIS 管理員] 中，設定**DefaultAppPool** .NET Framework 版本設 **.Net Framework v4.0**。  
   
-    -   編譯及部署此範例中所使用的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程。  
+   - 編譯及部署此範例中所使用的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 協調流程。  
   
-    -   建立並繫結必要的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 接收位置和連接埠。  
+   - 建立並繫結必要的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 接收位置和連接埠。  
   
-        > [!NOTE]
-        >  此範例會在建立和繫結連接埠時顯示下列警告：  
+     > [!NOTE]
+     >  此範例會在建立和繫結連接埠時顯示下列警告：  
   
-        > [!NOTE]
-        >  `Warning: Receive handler not specified for receive location "HttpSolicitResponseReceiveLocation"; updating with first receive handler with matching transport type.`  
+     > [!NOTE]
+     >  `Warning: Receive handler not specified for receive location "HttpSolicitResponseReceiveLocation"; updating with first receive handler with matching transport type.`  
   
-        > [!NOTE]
-        >  `Warning: Host not specified for orchestration "Microsoft.Samples.BizTalk.HttpSolicitResponse.MultiplyTwoIntegers"; updating with first available host.`  
+     > [!NOTE]
+     >  `Warning: Host not specified for orchestration "Microsoft.Samples.BizTalk.HttpSolicitResponse.MultiplyTwoIntegers"; updating with first available host.`  
   
-    -   啟用接收位置並啟動傳送埠。  
+   - 啟用接收位置並啟動傳送埠。  
   
-        > [!NOTE]
-        >  在這個範例中，協調流程會使用雙向連接埠透過 HTTP 與 ASP.NET 應用程式互動。  
+     > [!NOTE]
+     >  在這個範例中，協調流程會使用雙向連接埠透過 HTTP 與 ASP.NET 應用程式互動。  
   
-        > [!NOTE]
-        >  在嘗試執行此範例之前，您必須確認 BizTalk 沒有在建置和初始化的程序中報告任何錯誤。  
+     > [!NOTE]
+     >  在嘗試執行此範例之前，您必須確認 BizTalk 沒有在建置和初始化的程序中報告任何錯誤。  
   
-        > [!NOTE]
-        >  若您選擇不執行 Setup.bat 檔案就開啟和建置此範例中的專案，您必須先使用 .NET Framework Strong Name Utility (sn.exe) 建立強式名稱金鑰組。 使用此金鑰組簽署所產生的組件。  
+     > [!NOTE]
+     >  若您選擇不執行 Setup.bat 檔案就開啟和建置此範例中的專案，您必須先使用 .NET Framework Strong Name Utility (sn.exe) 建立強式名稱金鑰組。 使用此金鑰組簽署所產生的組件。  
   
-        > [!NOTE]
-        >  若要復原 Setup.bat 所進行的變更，請執行 Cleanup.bat。 您必須先執行 Cleanup.bat 才能再度執行 Setup.bat。  
+     > [!NOTE]
+     >  若要復原 Setup.bat 所進行的變更，請執行 Cleanup.bat。 您必須先執行 Cleanup.bat 才能再度執行 Setup.bat。  
   
 ## <a name="running-the-sample"></a>執行範例  
  請依照下列程序執行 HTTPSolicitResponse 範例。  
@@ -121,5 +121,5 @@ HTTPSolicitResponse 範例會示範如何建立 Microsoft [!INCLUDE[btsBizTalkSe
   
  MultiplyRequest.xsd 和 MultiplyResponse.xsd 檔案都是 XML 結構描述，會分別針對乘法運算器 ASP.NET 應用程式定義輸入和輸出資料。 協調流程會使用這些檔案來定義要求和回應訊息類型。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [HTTP 配接器範例](../core/http-adapter-samples.md)

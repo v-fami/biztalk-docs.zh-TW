@@ -1,6 +1,6 @@
 ---
-title: 在 BizTalk Server RosettaNet 加速器的已知問題 |Microsoft 文件
-description: 請參閱 < 已知的問題與失敗、 BAM、 安裝及設定，並在 BizTalk Server 中的 BTARN 更 0A1 通知的解決方式
+title: 在 BizTalk Server 中的 RosettaNet 加速器的已知問題 |Microsoft Docs
+description: 請參閱 < 已知的問題和解決方式 0A1 失敗、 BAM、 安裝和組態，並在 BizTalk Server 中的 BTARN 中的更多的通知
 caps.latest.revision: 11
 author: MandiOhlinger
 manager: anneta
@@ -13,15 +13,15 @@ ms.tgt_pltfrm: ''
 ms.topic: article
 ms.assetid: 335eb3c9-b565-470f-b69c-2a771ef8b476
 ms.author: mandia
-ms.openlocfilehash: bbb7ddc2028383f8ac346e7876459f322d2dd96b
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: a7c421f647a7e23ff23474af6c00cb6f06ec9c55
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26010775"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36974239"
 ---
 # <a name="known-issues"></a>已知問題
-本節包含的有用資訊，可幫助您避免 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 的錯誤。 已知的問題可分為以下各類：  
+此章節包含有用的資訊可協助您避免錯誤 Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]。 已知的問題可分為以下各類：  
   
 -   0A1 失敗通知  
   
@@ -50,7 +50,7 @@ ms.locfileid: "26010775"
  [!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)] 支援將群組加入至「BizTalk 應用程式使用者」群組或「BizTalk Server 系統管理員」群組， 但隸屬於「BizTalk 應用程式使用者」群組或「BizTalk Server 系統管理員」群組的個別使用者帳戶與群組，都必須位於同一個網域中才行。  
   
 ### <a name="uninstallation-of-btarn-fails-if-biztalk-server-is-removed-first"></a>如果 BizTalk Server 會先移除，就會失敗，解除安裝 BTARN  
- 如果您移除 BizTalk Server，然後再移除[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]、[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]移除程序失敗，而且未發生錯誤。 若要解決此問題，重新安裝並重新設定 BizTalk Server，然後再移除[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]。  
+ 如果您移除 BizTalk Server，然後再移除[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]，則[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]移除程序就會失敗，而且未發生錯誤。 若要解決此問題，重新安裝和重新設定 BizTalk Server，然後移除[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]。  
   
 ### <a name="distributed-deployment-requires-a-domain-controller"></a>分散式部署需要有網域控制站  
  在多伺服器環境中部署 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] (例如將 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 安裝在某一台伺服器上，並將設定組態所需的 [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] 資料庫安裝在另一台伺服器上) 時，就需要有網域控制站。  
@@ -73,16 +73,16 @@ ms.locfileid: "26010775"
  在單向動作同步實例中，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 都會等待接收信號，也會產生信號。 此行為與 RosettaNet 規格的定義不同。根據 RosettaNet 規格，在單向動作同步實例中，信號可以為必要或非必要。 若 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 為回應者，當 BTARN 收到來自啟動者的訊息後，一定會產生信號做為回應。 如果 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 是啟動者，則 BTARN 會一直等待回應者傳回信號。 如果 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 在程序組態設定的 `Time To Perform` 屬性中指定的時間內都沒有收到信號，就會視為逾期，並產生 0A1 訊息。  
   
 ### <a name="btarn-supports-utf-16-in-received-messages"></a>BTARN 可以接收 UTF-16 的訊息  
- [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]接收和處理 utf-16 字元集的訊息。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]傳送訊息的 utf-8 的字元集。  
+ [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 接收和處理 utf-16 字元集的訊息。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 傳送使用 utf-8 字元集的訊息。  
   
 ### <a name="namespaces-must-be-stripped-from-response-messages-mapped-from-request-messages"></a>從要求訊息對應的回應訊息中，其命名空間必須加以刪除  
- 若您在雙向動作實例的私用程序中使用 BizTalk 對應工具，BizTalk 對應工具將會在對應要求訊息的回應訊息執行個體中，新增命名空間至部分項目標記。 這些命名空間會導致傳送管線的失敗。 您必須移除這些命名空間。 請用 HeaderHelper 範例進行這項作業。 如需詳細資訊，請參閱[雙向動作 PIPAutomation 協調流程 &#91;RN3 &#93;](../../adapters-and-accelerators/accelerator-rosettanet/double-action-pipautomation-orchestration.md)和[步驟 4： 建立 HeaderHelper 專案 &#91;RN3 &#93;](../../adapters-and-accelerators/accelerator-rosettanet/step-4-creating-the-headerhelper-project.md).  
+ 若您在雙向動作實例的私用程序中使用 BizTalk 對應工具，BizTalk 對應工具將會在對應要求訊息的回應訊息執行個體中，新增命名空間至部分項目標記。 這些命名空間會導致傳送管線的失敗。 您必須移除這些命名空間。 請用 HeaderHelper 範例進行這項作業。 如需詳細資訊，請參閱 <<c0> [ 雙向動作 PIPAutomation 協調流程&#91;RN3&#93; ](../../adapters-and-accelerators/accelerator-rosettanet/double-action-pipautomation-orchestration.md)並[步驟 4： 建立 HeaderHelper 專案&#91;RN3&#93;](../../adapters-and-accelerators/accelerator-rosettanet/step-4-creating-the-headerhelper-project.md)。</c0>  
   
 ### <a name="changing-uri-settings-requires-iisreset"></a>變更 URI 設定需要使用 IISRESET  
  執行安裝程式時，您會設定接收與傳送 .aspx 頁面要使用的 URI 設定，以及接收配接器與傳送配接器的 URI 設定。 如果您變更了 .aspx 頁面或配接器所在電腦的電腦名稱，就必須變更這些設定。 您可以重新執行組態程序以變更這些設定，但是這麼做將需要重設所有的組態設定。 您也可以變更關聯的登錄機碼 (`AsyncReceivePortURI`、`RNIFSenderURI` 和 `SyncReceivePortURI`)，這樣就只會變更 URI 設定而已。 變更上述任何一項登錄機碼設定之後，您必須執行 IISRESET，變更才會生效。 這是因為 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 會快取設定以供本身使用。 執行 IISRESET 後，還必須重新啟動 BizTalk 服務。  
   
 ### <a name="btarn-does-not-enforce-restrictions-on-rnif-v11-enumerations"></a>BTARN 不會對 RNIF v1.1 列舉強制執行限制條件  
- RosettaNet 實作架構 (RNIF) 規格 v1.1 某些 RNIF 結構描述列舉型別上指定的限制。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]不會強制這些限制，並不會驗證符合這些限制。 這些限制不適用於 RNIF v2.01。  
+ RosettaNet 實作架構 (RNIF) 規格 v1.1 指定某些 RNIF 結構描述列舉型別限制。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 不會強制這些限制，並不會驗證符合這些限制條件。 這些限制不適用於 RNIF v2.01。  
   
  上述原則適用於下列服務標頭項目：  
   
@@ -99,25 +99,25 @@ ms.locfileid: "26010775"
 -   `VersionIdentifier`  
   
 ### <a name="performancecontrolrequest-parameters-will-not-override-default-process-configuration-settings"></a>PerformanceControlRequest 參數不會覆寫預設的程序組態設定  
- 內送訊息的服務標頭中可以含有 `PerformanceControlRequest` 參數。 這些參數包括在進行中的程序組態設定中所設定的通知 （接收） 和執行，時間的時間延遲參數值[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]管理主控台。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]不會以動態方式設定為基礎的時間延遲`PerformanceControlRequest`內送訊息中的參數。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]一律會在程序組態設定中設定之預設 PIP 值中的時間延遲。 這符合 RosettaNet 實作架構 (RNIF) 規格 v1.1。  
+ 內送訊息的服務標頭中可以含有 `PerformanceControlRequest` 參數。 這些參數包含在進行中的程序組態設定中所設定的通知 （接收） 和執行，時間的時間延遲參數值[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]管理主控台。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 不會以動態方式設定為基礎的時間延遲`PerformanceControlRequest`內送訊息中的參數。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 一律會在程序組態設定中設定之預設 PIP 值中的時間延遲。 這符合 RosettaNet 實作架構 (RNIF) 規格 v1.1。  
   
 ### <a name="the-pip-name-and-pip-version-of-double-action-messages-are-case-sensitive"></a>雙向動作訊息的 PIP 名稱與 PIP 版本有區分大小寫  
  若回應訊息的 PIP 名稱與 PIP 版本的大小寫，與原始雙向動作要求訊息中對應值的大小寫不同，則啟動者 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 會將回應訊息視為無效而拒絕，並產生例外狀況傳回給回應者。  
   
 ### <a name="btarn-does-not-support-changing-agreement-settings-while-there-are-active-processes"></a>當有作用中的程序時，BTARN 不支援變更協議設定。  
- 協議屬性變更會套用，當您按一下**套用**或**確定**接受條款。 在您更改了協議之後，只要牽涉到該協議的執行中程序或新程序，其中的所有新活動都會使用變更過的協議屬性。 在您變更協議的同時，如果有正在執行的程序，此程序可能已經對訊息使用了先前的協議屬性。 然而，這個程序的新訊息會使用新的協議設定，這樣將導致無法預測的後果。 建議您最好在沒有執行任何程序時，才對協議設定進行變更。  
+ 當您按一下，變更協議屬性會套用**套用**或**確定**要接受這些條款。 在您更改了協議之後，只要牽涉到該協議的執行中程序或新程序，其中的所有新活動都會使用變更過的協議屬性。 在您變更協議的同時，如果有正在執行的程序，此程序可能已經對訊息使用了先前的協議屬性。 然而，這個程序的新訊息會使用新的協議設定，這樣將導致無法預測的後果。 建議您最好在沒有執行任何程序時，才對協議設定進行變更。  
   
 ### <a name="btarn-will-not-perform-cross-field-validation-after-changes-to-a-process-configuration-profile"></a>變更了程序組態設定檔之後，BTARN 並不會執行跨欄位驗證  
  當您建立程序組態設定檔，然後建立協議時，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 會執行跨欄位驗證，以確保協議屬性與設定檔相容。 例如，若設定檔的「標準」屬性設為「CIDX」，BTARN 就會檢查協議的「0A1」協議屬性是否設為「No 0A1」。 不過，若您在建立協議之後才變更程序組態設定檔，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 就不會執行跨欄位驗證。 若將「標準」屬性從「RosettaNet」變更為「CIDX」，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 並不會驗證協議的「0A1」協議屬性是否設為「No 0A1」。  
   
 ### <a name="errors-will-result-if-all-orchestrations-are-not-started"></a>如果協調流程並未全部啟動，就會發生錯誤  
- [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 安裝程式安裝了九項協調流程。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 若要能成功地處理訊息，您必須在啟動處理作業之前，繫結、登錄與啟動這九項協調流程。 如需詳細資訊，請參閱在 BizTalk Server 說明中的 「 協調流程管理在 BizTalk 總管 」 或 「 管理協調流程 」 主題。  
+ [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 安裝程式安裝了九項協調流程。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 若要能成功地處理訊息，您必須在啟動處理作業之前，繫結、登錄與啟動這九項協調流程。 如需詳細資訊，請參閱 BizTalk Server 說明中的 「 協調流程管理在 BizTalk 總管 」 或 「 管理協調流程 」 的主題。  
   
 ### <a name="rnifreceiveaspx-does-not-remove-the-mime-bottom-boundary-from-a-message"></a>RNIFReceive.aspx 並未刪除訊息的 MIME 下界限  
  當 RNIFReceive.aspx 頁面從夥伴的 RNIFSend.aspx 頁面接收訊息時，該訊息中會含有 MIME 標頭與以及 MIME 上下界限 (base 64 數字)。 RNIFSend.aspx 會為 RNIF 傳輸，新增標頭與界限至訊息。 RNIFReceive.aspx 提交訊息至公開程序前，應移除訊息中的 MIME 標頭與界限。 RNIFReceive.aspx 會移除 MIME 標頭與上界限，但不會移除下界限。 遺留的下界限，並不會影響在公開程序中的訊息處理。  
   
 ### <a name="btarn-does-not-support-a-case-sensitive-configuration-of-sql-server-databases"></a>BTARN 不支援要區分大小寫的 SQL Server 資料庫組態  
- 如果您進行[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)][!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]資料庫與資料庫物件區分大小寫，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]管理主控台中找不到資料庫資源，而擲回例外狀況。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]資料庫與資料庫物件必須是不區分大小寫。  
+ 若要[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)][!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]資料庫與資料庫物件的區分大小寫，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]管理主控台中找不到資料庫資源，並會擲回例外狀況。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]資料庫與資料庫物件必須是不區分大小寫。  
   
 ### <a name="all-queries-in-database-maintenance-scripts-should-be-written-for-utc-time"></a>資料庫維護指令碼中的所有查詢都必須使用 UTC 時間  
  [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)] 資料庫使用 UTC (世界標準時間) 時間，因此為維護這些資料庫的其中一個資料庫而建立的任何查詢，也都必須使用 UTC 時間。 例如，如果您的維護指令碼要使用 `GetDate()` 命令，應將其變更為 `GetUTCDate()`。  
@@ -132,7 +132,7 @@ ms.locfileid: "26010775"
  要對接收管線進行偵錯，則必須建立裝載該管線的連接埠， 您無法使用 BizTalk Server 提供的 pipeline.exe 工具偵錯。  
   
 ### <a name="an-error-may-be-generated-for-a-retried-message-that-is-successfully-processed-after-the-orchestration-finishes"></a>可能因為重試訊息在協調流程完成後才成功處理完畢而產生錯誤  
- [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 使用協調流程代表處理流程。 在某些情況下，在其中幾個重試的訊息時重試，之前的重試的訊息抵達 BizTalk MessageBox 中,，可能會成功地完成協調流程。 這種狀況發生時，[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] 會產生對應的「完成但捨棄」錯誤訊息。 此時應該查看商務營運系統 (LOB) 應用程式，才能判斷該程序是否已經完成。 如果 LOB 應用程式表示程序已成功完成，您就可以忽略「完成但捨棄」訊息。  
+ [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 使用協調流程代表處理流程。 在某些情況下，在其中數個重試的訊息重試的再重試的訊息抵達 BizTalk MessageBox 中，可能會成功完成協調流程。 這種狀況發生時，[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)] 會產生對應的「完成但捨棄」錯誤訊息。 此時應該查看商務營運系統 (LOB) 應用程式，才能判斷該程序是否已經完成。 如果 LOB 應用程式表示程序已成功完成，您就可以忽略「完成但捨棄」訊息。  
   
 ### <a name="an-xml-file-exported-from-trackingxls-may-have-incorrect-fields"></a>從 tracking.xls 匯出的 XML 檔案可能含有不正確的欄位  
  當您在追蹤 XLS 檔案內定義新的追蹤檢視，並從這個追蹤 XLS 檔案匯出 XML 檔案時，某些欄位的名稱可能會被稍微修改。 請把您自訂的追蹤 XML 檔案中的這些欄位，和 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 安裝程式安裝的標準 tracking.xml 欄位比對，就可以找出並予以更正。  
@@ -203,5 +203,5 @@ string plainText = Encoding.UTF8.GetString(textBytes);
 txtOutput.Text = plainText;  
 ```  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
 [疑難排解和已知問題](troubleshooting-and-known-issues-in-rosettanet.md)

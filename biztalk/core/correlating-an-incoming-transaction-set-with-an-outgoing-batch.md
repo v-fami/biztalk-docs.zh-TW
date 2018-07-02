@@ -1,5 +1,5 @@
 ---
-title: 相互關聯的內送交易集與外寄批次 |Microsoft 文件
+title: 相互關聯的內送交易集與外寄批次 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,39 +12,39 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ddd5a1ec83db1177050711d82bfb465c2bcb7637
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b44f89133cbfb7f5925f975a723b84c715180c7a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22239406"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37013799"
 ---
 # <a name="correlating-an-incoming-transaction-set-with-an-outgoing-batch"></a>使內送交易集與外寄批次相互關聯
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 可讓您將提交至「批次處理協調流程」的 EDI 交易集與外寄批次相互關聯。 您可以透過讓提交至「批次處理協調流程」(BTSInterchangeID) 的狀態報告項目與協調流程 (ActivityID) 的狀態報告項目相互關聯，藉此完成這項操作。 此相互關聯是使用 BusinessMessageJournal BAM 活動中的項目執行。 這些項目是由「批次處理協調流程」在接收批次元素時建立。  
   
 > [!IMPORTANT]
->  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]EDI 狀態報告和交易集 」 追蹤已啟用協議時，才會建立在 BusinessMessageJournal 活動中的項目。  
+>  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI 狀態報告和交易集追蹤已啟用協議時，才會建立在 BusinessMessageJournal 活動中的項目。  
   
  下列章節會說明下列內容：  
   
--   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 如何儲存追蹤資料  
+- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 如何儲存追蹤資料  
   
--   如何建立自訂管線元件來啟用相互關聯  
+- 如何建立自訂管線元件來啟用相互關聯  
   
--   如何使內送交易集與外寄批次相互關聯  
+- 如何使內送交易集與外寄批次相互關聯  
   
--   如何在已知批次中所包含交易集的 BTSInterchangeID 時查詢 BusinessMessageJournal 活動以判斷批次的 BTSInterchangeID。  
+- 如何在已知批次中所包含交易集的 BTSInterchangeID 時查詢 BusinessMessageJournal 活動以判斷批次的 BTSInterchangeID。  
   
 ## <a name="prerequisites"></a>必要條件  
  您必須以「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 系統管理員」或「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] B2B 操作員」群組成員的身分來登入。  
   
 ## <a name="changes-to-the-activities"></a>活動的變更  
- 「批次處理協調流程」會在 BatchingActivity、TransactionSetActivity 和 BusinessMessageJournal BAM 活動中建立項目。 為交易集通過[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]會在交易集合與包含它的批次這些活動資料表中進行下列項目：  
+ 「批次處理協調流程」會在 BatchingActivity、TransactionSetActivity 和 BusinessMessageJournal BAM 活動中建立項目。 為交易集通過[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]交易集的批次包含這些活動資料表中將下列項目：  
   
 1.  當 EDI 解譯器處理內送 EDI 交換時，會在 InterchangeStatusActivity 和 TransactionSetActivity 資料表中建立項目。  
   
     > [!NOTE]
-    >  如需 BAM 活動的詳細資訊，請參閱[追蹤 EDI AS2 訊息的 BAM 活動建立](../core/bam-activities-created-to-track-edi-as2-messages.md)。  
+    >  如需有關 BAM 活動的詳細資訊，請參閱[來追蹤 EDI-AS2 訊息的 BAM 活動建立](../core/bam-activities-created-to-track-edi-as2-messages.md)。  
   
 2.  當「批次處理協調流程」產生時，協調流程就會在 BatchingActivity 中建立一個項目。 BAM 子系統會為 ActivityID 建立一個值。  
   
@@ -78,7 +78,7 @@ ms.locfileid: "22239406"
  如果交易集報告已啟用，而且您知道所收到交換的 BTSInterchangeID，則可以使用下列 [SQL 查詢] 找出包含提交至「批次處理協調流程」之交易集的批次 BTSInterchangeID。 您可以使用此程式碼建立自訂應用程式，以檢視批次中的訊息。  
   
 > [!IMPORTANT]
->  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]EDI 狀態報告和交易集 」 追蹤已啟用協議時，才會建立在 BusinessMessageJournal 活動中的項目。  
+>  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI 狀態報告和交易集追蹤已啟用協議時，才會建立在 BusinessMessageJournal 活動中的項目。  
   
 ```  
 Select MessageTrackingID  
@@ -91,5 +91,5 @@ Where MessageTrackingID = <MessageTrackingID from the previous query> and BTSInt
 ```  
   
 ## <a name="see-also"></a>另請參閱  
- [建立追蹤 EDI AS2 訊息的 BAM 活動](../core/bam-activities-created-to-track-edi-as2-messages.md)   
+ [建立用來追蹤 EDI-AS2 訊息的 BAM 活動](../core/bam-activities-created-to-track-edi-as2-messages.md)   
  [啟用 EDI 和 AS2 狀態報告](../core/enabling-edi-and-as2-status-reports.md)

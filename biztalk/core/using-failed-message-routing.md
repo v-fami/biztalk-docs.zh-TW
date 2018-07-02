@@ -1,5 +1,5 @@
 ---
-title: 使用失敗訊息路由 |Microsoft 文件
+title: 使用失敗訊息路由 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,12 +14,12 @@ caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: af6d006aeebd5e2a5f8625a994c8a6f9b0cb6f6a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d5c3f4fa3b978775c9f2c8fa91467b88cc74eae8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22289662"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976567"
 ---
 # <a name="using-failed-message-routing"></a>使用失敗訊息路由
 錯誤處理機制可讓設計師指定自動化的傳訊失敗處理方式，而不是依照傳統行為，將失敗的訊息放在已擱置佇列中 (現在的預設行為)。 此自動化處理將錯誤訊息路由至任何訂閱路由的目的地，像是傳送埠或協調流程。 錯誤訊息是原始訊息的複製，含有現在已降級之所有先前升級的屬性，以及已升級為訊息內容之與特定傳訊失敗相關的已選取屬性。  
@@ -30,11 +30,11 @@ ms.locfileid: "22289662"
 ## <a name="what-does-failed-message-routing-consist-of"></a>失敗訊息路由包含哪些內容？  
  啟用失敗訊息路由時，BizTalk Server 不會擱置訊息，而是以路由訊息取代。 在接收埠和傳送埠上皆可啟用失敗訊息路由，結果如下：  
   
--   若在接收埠上啟用失敗訊息路由，且訊息在接收管線中或在路由時發生失敗，則會產生失敗的訊息。 當錯誤發生在解譯階段中或解譯階段前，則錯誤訊息為原始交換的複製。  
+- 若在接收埠上啟用失敗訊息路由，且訊息在接收管線中或在路由時發生失敗，則會產生失敗的訊息。 當錯誤發生在解譯階段中或解譯階段前，則錯誤訊息為原始交換的複製。  
   
--   若在傳送埠上啟用失敗訊息路由，且訊息在傳送管線中發生失敗，則會產生失敗的訊息。  
+- 若在傳送埠上啟用失敗訊息路由，且訊息在傳送管線中發生失敗，則會產生失敗的訊息。  
   
- 當失敗的訊息產生時，BizTalk Server 會升級錯誤報告相關的訊息內容屬性，並在發佈失敗的訊息之前降級一般訊息內容屬性。 此行為與未啟用失敗訊息路由時的下列預設行為不同：失敗的訊息會擱置。  
+  當失敗的訊息產生時，BizTalk Server 會升級錯誤報告相關的訊息內容屬性，並在發佈失敗的訊息之前降級一般訊息內容屬性。 此行為與未啟用失敗訊息路由時的下列預設行為不同：失敗的訊息會擱置。  
   
 ## <a name="what-kinds-of-messaging-failures-trigger-an-error-message"></a>哪些傳訊失敗會觸發錯誤訊息？  
  若啟用失敗訊息路由，則任何發生在配接器處理、管線處理、對應或訊息路由中的失敗，會導致錯誤訊息。 當傳訊錯誤發生在協調流程從接收埠接收或是傳送至傳送埠時，產生的錯誤訊息會與協調流程繫結的傳訊連接埠關聯。  
@@ -45,14 +45,14 @@ ms.locfileid: "22289662"
 ## <a name="error-message-specification"></a>錯誤訊息規格  
  錯誤訊息是原始失敗訊息的複製，含有已降級之所有先前的升級屬性，以及一組已升級為訊息內容的錯誤特定屬性。 先前升級的屬性已降級，以避免非預期地傳遞給未被指定接收錯誤訊息的訂閱者。 錯誤訊息已發佈以供散佈給訂閱者 (協調流程、傳送埠以及傳送埠群組)。  
   
- 升級至所有落在錯誤訊息內容屬性**ErrorReport** BizTalk Server 中的命名空間。 這些屬性如下所示：  
+ 升級到的所有落在錯誤訊息內容屬性**ErrorReport** BizTalk Server 中的命名空間。 這些屬性如下所示：  
   
 |屬性名稱|資料類型|已升級|描述|  
 |-------------------|---------------|--------------|-----------------|  
 |[FailureCode]|System.String|是|錯誤碼。 報告在 [BizTalk Server 管理] 主控台中的一個十六進位值。|  
 |FailureCategory|System.Int32|是|不會使用此屬性。 未定義其值。|  
 |描述|System.String|否|錯誤描述。 與寫入有關此傳訊失敗的應用程式事件記錄檔中之診斷文字相同的診斷文字。|  
-|MessageType|System.String|是|若訊息類型未確定，則訊息類型為失敗的訊息或空白。<br /><br /> BizTalk Server 使用訊息類型為訊息與其 XML 結構描述建立關聯。 訊息類型是藉由串連結構描述命名空間與結構描述根節點所構成：http://mynamespace#rootnode。 **注意：** 其訊息類型決定之前失敗，並沒有這個屬性的訊息設定。|  
+|MessageType|System.String|是|若訊息類型未確定，則訊息類型為失敗的訊息或空白。<br /><br /> BizTalk Server 使用訊息類型為訊息與其 XML 結構描述建立關聯。 訊息類型由串連結構描述命名空間與結構描述根節點形成： http://mynamespace#rootnode。 **注意：** 其訊息類型決定之前失敗，並沒有這個屬性的訊息設定。|  
 |ReceivePortName|System.String|**[已升級]** ：若失敗發生在輸入處理期間 (在接收埠)<br /><br /> **[未升級]** ：若失敗發生在傳送埠。|失敗發生所在的接收埠名稱。|  
 |[InboundTransportLocation]|System.String|**[已升級]** ：若失敗發生在輸入處理期間 (在接收埠)<br /><br /> **[未升級]** ：若失敗發生在傳送埠。|失敗發生所在的接收位置 URI。|  
 |SendPortName|System.String|**[已升級]** ：若失敗發生在輸出處理期間 (在傳送埠)<br /><br /> **[未升級]** ：若失敗發生在接收埠。|失敗發生所在的傳送埠名稱。|  
@@ -93,7 +93,7 @@ ms.locfileid: "22289662"
   
 -   **由管線元件擱置的訊息。** BizTalk Server 會以提供訊息給失敗管線元件時的相同形式來擱置這種類型的訊息。 繼續訊息時，它會從相同管線的開頭進行管線處理。 這表示在原始失敗發生階段之前的管線階段中之管線元件，必須準備以不同於它在先前處理該訊息之原始形式的形式來處理「相同」訊息。  
   
--   **從 可復原的訊息交換反組譯碼中之後路由失敗。** BizTalk Server 會以發佈訊息的相同形式來擱置這種類型的訊息。 這是訊息在管線執行 **之後** 的形式。 繼續訊息時，它會略過管線處理並直接發佈到 MessageBox 資料庫。  
+-   **從 可復原的訊息交換之後路由失敗的反組譯碼。** BizTalk Server 會以發佈訊息的相同形式來擱置這種類型的訊息。 這是訊息在管線執行 **之後** 的形式。 繼續訊息時，它會略過管線處理並直接發佈到 MessageBox 資料庫。  
   
 ## <a name="scenarios-leading-to-suspended-non-resumable-messages"></a>產生已擱置 (不可繼續) 訊息的案例  
  雖然訊息比較常擱置為可繼續，但仍有一些會造成不可繼續訊息的案例：  

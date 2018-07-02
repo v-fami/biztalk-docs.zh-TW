@@ -1,5 +1,5 @@
 ---
-title: 找不到對應至批次的商務識別 |Microsoft 文件
+title: 找不到與批次對應的商務識別 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6f1027186e5b001d21e08bbabcfc100400a02d5f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3a5076bc5c4887e1819ab64a32bb987fb9b06248
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22237830"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36975823"
 ---
 # <a name="could-not-find-business-identities-corresponding-to-batch"></a>找不到和批次對應的商務識別
 ## <a name="details"></a>詳細資料  
   
-|||  
-|-|-|  
-|產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|產品版本|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|事件識別碼|-|  
-|事件來源|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]EDI|  
-|元件|EDI 引擎|  
-|符號名稱|IdentitiesNotFoundForBatch|  
-|訊息文字|找不到和批次 {0} 對應的商務識別。|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  產品名稱   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| 產品版本 |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    事件識別碼     |                                           -                                            |
+|  事件來源   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI |
+|    元件    |                                       將 EDI 引擎                                       |
+|  符號名稱  |                               IdentitiesNotFoundForBatch                               |
+|  訊息文字   |             找不到與批次對應的商務識別{0}。             |
   
 ## <a name="explanation"></a>說明  
  這個錯誤/警告/資訊事件表示，由於資料不足，因此 BizTalk Server 無法處理批次訊息。  

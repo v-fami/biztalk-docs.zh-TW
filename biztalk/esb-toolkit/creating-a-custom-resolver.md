@@ -1,5 +1,5 @@
 ---
-title: 建立自訂解決器 |Microsoft 文件
+title: 建立自訂解析程式 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 57fb0073437c32c8a8f064a4c77f267ee6806858
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: b3752348a5cc9273ad203b78b77b58bde33bd141
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25975900"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981711"
 ---
-# <a name="creating-a-custom-resolver"></a>建立自訂的解析程式
-中的解析器和配接器提供者架構實作[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]會使用名為發送器管線元件和名為 ItineraryReceive 和 ItinerarySend 的管線。  
+# <a name="creating-a-custom-resolver"></a>建立自訂解析程式
+中的解析程式和配接器提供者架構實作[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]會使用名為發送器的管線元件和名為 ItineraryReceive 和 ItinerarySend 的管線。  
   
- 發送器管線元件會有四個屬性：**驗證、 啟用、 端點、** 和**MapName**。 **端點**屬性可以包含解析程式的連接字串值，如下所示，其中**UDDI:\\ \\** 表示要使用 （根的解析度類型moniker)。  
+ 「 發送器 」 管線元件有四個屬性：**驗證、 已啟用、 端點**並**MapName**。 **端點**屬性可包含解析程式的連接字串值，如下所示，其中**UDDI:\\ \\** 表示解析型別，若要使用 （根moniker)。  
   
 ```  
 UDDI:\\serverUrl=http://localhost/uddi;serviceName=OrderPurchaseToOrderPost;serviceProvider=Microsoft.Practices.ESB  
 ```  
   
- 其他支援的 moniker 包含**XPATH:\\\\、 靜態：\\\\，** 和**BRE:\\\\**。 每個的 moniker 型別會使用特定類別可實作**IResolveProvider**介面。 您可以建立您自己的自訂解析程式適用於其他 moniker 類型，並用於動態解析系統註冊它們。  
+ 包含其他支援的 moniker **XPATH:\\\\靜態：\\\\，** 並**BRE:\\\\**。 每個 moniker 型別會使用特定類別可實作**IResolveProvider**介面。 您可以建立自己自訂的解析程式，其他的 moniker 類型，並用於登錄動態解析系統。  
   
- Moniker 等同的解析程式的連接字串。 個別的結構描述定義的參數和其根 moniker。 解析程式會在解析程式的連接字串，驗證，並使用結果查詢，並填入**字典**物件，可用於路由、 轉換、 路線的選取項目或其他用途的特定程式服務。  
+ Moniker 等於解析程式的連接字串。 個別的結構描述定義的參數和其根 moniker。 解析程式會在解析程式的連接字串，驗證，並使用結果，查詢並填入**字典**物件，可用於路由、 轉換、 路線的選取項目或其他用途的特定程式服務。  
   
 ## <a name="resolver-configuration"></a>解析程式組態  
- 您必須登錄所有的解析程式 Esb.config 組態檔中。 下列 XML 顯示組態檔案內容的範例。  
+ 您必須註冊所有的解析程式 Esb.config 組態檔中。 下列 XML 顯示組態檔內容的範例。  
   
 ```xml  
 <?xml version="1.0" encoding="utf-8"?>  
@@ -60,36 +60,36 @@ UDDI:\\serverUrl=http://localhost/uddi;serviceName=OrderPurchaseToOrderPost;serv
 </configuration>  
 ```  
   
- **ResolverConfig**解析程式的每個節點之下 區段可讓您設定您解決器可能需要在特定的環境中運作的其他屬性。 若要存取設定，請您解決器必須公開接受型別參數的建構函式**Microsoft.Practices.ESB.Configuration.Resolver**。 在解析程式實作中，組態屬性可以接著使用存取**ReadResolverConfigByKey**方法**ResolverConfigHelper**類別; 若要這樣做，傳遞參數原先傳遞至建構函式，並將傳遞值的名稱有問題。 如果沒有名稱 / 值組中指定則**resolverConfig**節點中，預設的無參數建構函式會用來具現化您的解析程式。  
+ **ResolverConfig** ] 區段的 [解析程式的每個節點可讓您設定您的解析程式可能需要在特定環境中運作的其他屬性。 若要存取設定，請將解決器必須公開 （expose) 中的型別參數的建構函式**Microsoft.Practices.ESB.Configuration.Resolver**。 在解析程式實作中，組態屬性可以接著使用來存取**ReadResolverConfigByKey**方法**ResolverConfigHelper**類別; 若要這樣做，傳遞參數原本傳遞至建構函式，並接著傳入值有問題。 如果沒有名稱 / 值組中指定**resolverConfig**節點中，預設的無參數建構函式會用來具現化您的解析程式。  
   
- 兩個通用描述、 探索與整合 (UDDI) 3 組態中已定義的解析程式： UDDI 3 和 UDDI 3 SOASOFTWARE。 這兩個這些解析程式使用相同的基礎組件，但它們會提供不同的組態支援不同的 UDDI 3.0 相容登錄與不同的統一資源識別元 (URI) 格式和安全性需求。 如果您需要設定 UDDI 3.0 相容的登錄，除了那些已經支援其他 moniker，可以使用下列組態屬性：  
+ 兩個通用描述、 探索與整合 (UDDI) 3 組態中已定義的解析程式： UDDI 3 和 UDDI 3 SOASOFTWARE。 這兩個這些解析程式使用相同的基礎組件，但可提供不同的組態，以支援不同的 UDDI 3.0 相容登錄與不同的統一資源識別元 (URI) 格式和安全性需求。 如果您需要設定 UDDI 3.0 相容的登錄，除了已經支援其他的 moniker，就可以使用下列的組態屬性：  
   
--   **cacheTimeoutValue**  
+- **cacheTimeoutValue**  
   
--   **cacheName**  
+- **cacheName**  
   
--   **publisherKey**  
+- **publisherKey**  
   
--   **useUddiAuth**  
+- **useUddiAuth**  
   
--   **baseUri**  
+- **baseUri**  
   
--   **inquireUriSuffix**  
+- **inquireUriSuffix**  
   
--   **securityUriSuffix**  
+- **securityUriSuffix**  
   
--   **securityMode**。 有效的值，請參閱列舉[System.ServiceModel.BasicHttpSecurityMode](http://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409) ([http://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409](http://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409))。 預設值是**TransportCredentialOnly**。  
+- **securityMode**。 如需有效的值，請參閱列舉[System.ServiceModel.BasicHttpSecurityMode](http://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409) ([http://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409](http://go.microsoft.com/fwlink/?LinkID=188284&clcid=0x409))。 預設值是**TransportCredentialOnly**。  
   
--   **credentialType**。 有效的值，請參閱列舉[System.ServiceModel.HttpClientCredentialType](http://go.microsoft.com/fwlink/?LinkId=188285) ([http://go.microsoft.com/fwlink/?LinkId=188285](http://go.microsoft.com/fwlink/?LinkId=188285))。 預設值是**Windows**。  
+- **credentialType**。 如需有效的值，請參閱列舉[System.ServiceModel.HttpClientCredentialType](http://go.microsoft.com/fwlink/?LinkId=188285) ([http://go.microsoft.com/fwlink/?LinkId=188285](http://go.microsoft.com/fwlink/?LinkId=188285))。 預設值是**Windows**。  
   
--   **使用者名稱**  
+- **username**  
   
--   **密碼**  
+- **password**  
   
- 如果您想要建立的解析程式所使用的 Unity 應用程式區塊的相依性插入功能，則需要其他組態。 如需詳細資訊，請參閱[與 Unity 容器中建立自訂解析程式](../esb-toolkit/creating-a-custom-resolver-with-a-unity-container.md)。  
+  如果您想要建立的解析程式依賴的 Unity Application Block 的相依性插入功能，則需要其他組態。 如需詳細資訊，請參閱 <<c0> [ 使用 Unity 容器建立自訂解析程式](../esb-toolkit/creating-a-custom-resolver-with-a-unity-container.md)。  
   
 ## <a name="the-iresolveprovider-interface"></a>IResolveProvider 介面  
- 所有的解析程式必須實作**IResolveProvider**介面。 **IResolveProvider**介面，在 Microsoft.Practices.ESB.Resolver 專案中，位於所組成的三個多載**解決**這個方法傳回的執行個體**字典**類別，其中包含解析事實提供具體的解析程式類別的執行個體。 下列程式碼範例示範這些方法多載的簽章。  
+ 所有的解析程式必須實作**IResolveProvider**介面。 **IResolveProvider**介面，在 Microsoft.Practices.ESB.Resolver 專案中，位於所組成的三個多載**解決**傳回的執行個體的方法**字典**類別，其中包含實體的解析程式類別的執行個體所提供的解析事實。 下列程式碼範例會示範這些方法多載的簽章。  
   
 ```csharp  
 // <summary>  
@@ -136,47 +136,47 @@ UDDI:\\serverUrl=http://localhost/uddi;serviceName=OrderPurchaseToOrderPost;serv
         Dictionary<string, string> Resolve(ResolverInfo resolverInfo, XLANGs.BaseTypes.XLANGMessage message);  
 ```  
   
- **解析**結構，位於 Microsoft.Practices.ESB.Resolver 專案，也會定義儲存在名稱/值組**字典**執行個體。 **解析**結構會公開一些屬性下, 表列出其中最相關。 **CreateResolverDictionary**方法**ResolutionHelper**類別可以用來產生解析程式字典，其中包含最常使用的索引鍵，以空字串值。 **字典**執行個體支援的自訂解決器名稱/值組的具體實作透過加入**解析程式**類別。  
+ **解析度**結構，位在 Microsoft.Practices.ESB.Resolver 專案中，也會定義儲存在名稱/值組**字典**執行個體。 **解析度**結構會公開一些屬性下, 表列出其中最相關。 **CreateResolverDictionary**方法**ResolutionHelper**類別可以用來產生包含最常使用的索引鍵，以空字串值的解析程式字典。 **字典**執行個體支援的自訂解決器名稱/值組，透過的具體實作加法**解析程式**類別。  
   
 |屬性|資料類型|資料類型|資料類型|  
 |--------------|---------------|---------------|---------------|  
-|**TransformType**|字串|**ActionField**|字串|  
-|**成功**|布林|**EpmRRCorrelationTokenField**|字串|  
-|**TransportNamespace**|字串|**InboundTransportLocationField**|字串|  
-|**TransportType**|字串|**InterchangeIDField**|字串|  
-|**TransportLocation**|字串|**ReceiveLocationNameField**|字串|  
-|**動作**|字串|**ReceivePortNameField**|字串|  
-|**MessageExchangePattern**|字串|**InboundTransportTypeField**|字串|  
-|**EndpointConfig**|字串|**IsRequestResponseField**|字串|  
-|**目標命名空間**|字串|**DocumentSpecStrongNameField**|字串|  
-|**FixJaxRPC**|布林|**DocumentSpecNameField**|字串|  
-|**WindowUserField**|字串|**MessageType**|字串|  
-|**CacheTimeout**|字串|**OutboundTransportCLSID**|字串|  
-|**MethodNameField**|字串|||  
+|**TransformType**|String|**ActionField**|String|  
+|**成功**|布林|**EpmRRCorrelationTokenField**|String|  
+|**TransportNamespace**|String|**InboundTransportLocationField**|String|  
+|**TransportType**|String|**InterchangeIDField**|String|  
+|**TransportLocation**|String|**ReceiveLocationNameField**|String|  
+|**動作**|String|**ReceivePortNameField**|String|  
+|**MessageExchangePattern**|String|**InboundTransportTypeField**|String|  
+|**EndpointConfig**|String|**IsRequestResponseField**|String|  
+|**目標命名空間**|String|**DocumentSpecStrongNameField**|String|  
+|**FixJaxRPC**|布林|**DocumentSpecNameField**|String|  
+|**WindowUserField**|String|**MessageType**|String|  
+|**CacheTimeout**|String|**OutboundTransportCLSID**|String|  
+|**MethodNameField**|String|||  
   
-## <a name="creating-a-custom-resolver"></a>建立自訂的解析程式  
- 在執行階段，管線擷取解析程式的連接字串，並呼叫解析程式管理員 (執行個體**ResolverMgr**類別)。 解析程式管理員會剖析、 填入，並驗證的解析程式的連接字串。 它會執行下列動作：  
+## <a name="creating-a-custom-resolver"></a>建立自訂解析程式  
+ 在執行階段，管線擷取的解析程式的連接字串，並呼叫解析程式管理員 (執行個體**ResolverMgr**類別)。 解析程式管理員會剖析、 填入，並驗證的解析程式的連接字串。 它會執行下列動作：  
   
--   它會剖析連接字串，來判斷哪一個**解析程式**載入的型別。  
+- 它會剖析連接字串，以判斷哪些**解析程式**来載入型別。  
   
--   它符合 moniker （索引鍵是根 moniker，例如 UDDI） 的組態檔中定義此型別。  
+- 它符合此類型定義 （索引鍵是根 moniker，例如 UDDI） 的組態檔中的 moniker。  
   
--   它會讀取這個 moniker 解析程式的組件名稱。  
+- 它會讀取這個 moniker 解析程式的組件名稱。  
   
--   它會載入指定的組件。  
+- 它會載入指定的組件。  
   
- 動態解析機制會快取載入的所有實作**IResolveProvider**介面，以避免重複的讀取組態資訊和數個內送訊息使用的相同時載入的組件解析程式。  
+  動態解析機制會快取載入的所有實作**IResolveProvider**介面，以避免重複的讀取組態資訊和數個內送訊息使用的相同時載入的組件解析程式。  
   
- 最後，解析程式管理員執行**解決**方法的具體**IResolveProvider**實作，並傳回已填入**字典**執行個體。  
+  最後，解析程式管理員會執行**解決**方法的具體**IResolveProvider**實作，並傳回已填入**字典**執行個體。  
   
- **若要建立自訂的解析程式**  
+  **若要建立自訂解析程式**  
   
-1.  建立組件實作的類別與**IResolveProvider**介面，並包含**解決**方法會傳回解析程式事實的執行個體形式**字典**類別。  
+1.  建立可實作類別的組件**IResolveProvider**介面，並包含**解決**方法會傳回執行個體的解析程式事實**字典**類別。  
   
-2.  註冊解決器將它加入 Esb.config 組態檔使用**\<解析程式\>** 元素包含做為根 moniker**名稱**屬性和完整限定組件名稱為**類型**屬性。  
+2.  註冊解析程式新增至 Esb.config 組態檔中使用**\<解析程式\>** 元素，其中包含做為根 moniker**名稱**屬性和完整限定的組件名稱為**型別**屬性。  
   
-3.  （選擇性）建立結構描述定義的根 moniker 和查詢參數，並再將它儲存在 ESB。Schemas.Resolvers 資料夾。 名稱應該遵循現有的 ESB 命名慣例。這表示它應使用的名稱加上"_Resolution.xsd"的根 moniker。  
+3.  （選擇性）建立結構描述中定義的根 moniker 和查詢參數，並再將它儲存在 ESB。Schemas.Resolvers 資料夾中。 名稱應該遵循現有的 ESB 命名慣例;這表示它應該使用的名稱加上"_Resolution.xsd"的根 moniker。  
   
-4.  （選擇性）從新的結構描述產生類別，並將它儲存在自訂解決器組件中。 這樣會公開自訂解析程式中的型別的參數。  
+4.  （選擇性）從新的結構描述產生類別，並將它儲存在自訂解析程式的組件。 這會公開自訂解析程式中的型別的參數。  
   
 5.  在全域組件快取中註冊新的組件。
