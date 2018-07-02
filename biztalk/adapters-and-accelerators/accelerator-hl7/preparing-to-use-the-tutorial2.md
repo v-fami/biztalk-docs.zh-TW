@@ -1,5 +1,5 @@
 ---
-title: 準備使用課程 2 |Microsoft 文件
+title: 準備使用 Tutorial2 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,36 +14,36 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c8688e84f7913dbc32a0629d21f29ed2578c43b1
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 1d790a53576c4f153265531fca974089eb5292a2
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25960332"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36978655"
 ---
-# <a name="preparing-to-use-the-tutorial"></a><span data-ttu-id="d70a6-102">準備使用本教學課程</span><span class="sxs-lookup"><span data-stu-id="d70a6-102">Preparing to Use the Tutorial</span></span>
-<span data-ttu-id="d70a6-103">使用本教學課程之前，您需要建立 ADT^A03.txt 檔案。</span><span class="sxs-lookup"><span data-stu-id="d70a6-103">Before you use the tutorial, you need to create an ADT^A03.txt file.</span></span>  
+# <a name="preparing-to-use-the-tutorial"></a><span data-ttu-id="7284f-102">準備使用教學課程</span><span class="sxs-lookup"><span data-stu-id="7284f-102">Preparing to Use the Tutorial</span></span>
+<span data-ttu-id="7284f-103">使用本教學課程之前，您需要建立 ADT^A03.txt 檔案。</span><span class="sxs-lookup"><span data-stu-id="7284f-103">Before you use the tutorial, you need to create an ADT^A03.txt file.</span></span>  
   
-### <a name="to-create-the-adta03txt-file"></a><span data-ttu-id="d70a6-104">若要建立 ADT^A03.txt 檔案</span><span class="sxs-lookup"><span data-stu-id="d70a6-104">To create the ADT^A03.txt file</span></span>  
+### <a name="to-create-the-adta03txt-file"></a><span data-ttu-id="7284f-104">若要建立 ADT^A03.txt 檔案</span><span class="sxs-lookup"><span data-stu-id="7284f-104">To create the ADT^A03.txt file</span></span>  
   
-1.  <span data-ttu-id="d70a6-105">開啟編輯器，例如 [記事本]，並將下列文字複製到編輯器：</span><span class="sxs-lookup"><span data-stu-id="d70a6-105">Open an editor such as Notepad and copy the following text into the editor:</span></span>  
+1. <span data-ttu-id="7284f-105">開啟 [記事本] 之類的編輯器，並將下列文字複製到編輯器：</span><span class="sxs-lookup"><span data-stu-id="7284f-105">Open an editor such as Notepad and copy the following text into the editor:</span></span>  
   
-    ```  
-    MSH|^~\&|Tutorial_ADTSystem|MCM|BTAHL7InterfaceEngine||199601121005||ADT^A03|000001|P|2.3.1  
-    EVN|A03|199601121005||01||199601121000  
-    PID|||191919^^^MYHOS^MR~123-45-6789^^^USSSA^SS|253763|SMITH^JOHN^Q||19560129|M|||  
-        123MAIN^^BUFFALO^NY^98052^""||(123)555-0100||S|M|10199925^^^MYHOS^AN|123-45-6789  
-    PD1|S|F|NormalString^A^+1^-1^ISO^simpletext&Test&HCD^GI^simpletext&NormalString&ISO^I|  
-       NormalString^Test&Test^Test^Test^Test^Test^AE^simpletext^simpletext&Test&ISO^P  
-       ^NormalString^M10^MC^simpletext&NormalString&HCD^A|N|simpletext|I|I|N|NormalString  
-       ^+1^M11^simpletext&NormalString&L,M,N^RRI^simpletext&NormalString&HCD|NOVALUE^NormalString  
-       ^Test^Test^NormalString^Test|N  
-    PV1|1|I|2000^2012^01^hey&test&DNS^test^test^test^test^test||||004777^MILLER^CONNIE^A.|||SUR||||2|A0  
-    ```  
+   ```  
+   MSH|^~\&|Tutorial_ADTSystem|MCM|BTAHL7InterfaceEngine||199601121005||ADT^A03|000001|P|2.3.1  
+   EVN|A03|199601121005||01||199601121000  
+   PID|||191919^^^MYHOS^MR~123-45-6789^^^USSSA^SS|253763|SMITH^JOHN^Q||19560129|M|||  
+       123MAIN^^BUFFALO^NY^98052^""||(123)555-0100||S|M|10199925^^^MYHOS^AN|123-45-6789  
+   PD1|S|F|NormalString^A^+1^-1^ISO^simpletext&Test&HCD^GI^simpletext&NormalString&ISO^I|  
+      NormalString^Test&Test^Test^Test^Test^Test^AE^simpletext^simpletext&Test&ISO^P  
+      ^NormalString^M10^MC^simpletext&NormalString&HCD^A|N|simpletext|I|I|N|NormalString  
+      ^+1^M11^simpletext&NormalString&L,M,N^RRI^simpletext&NormalString&HCD|NOVALUE^NormalString  
+      ^Test^Test^NormalString^Test|N  
+   PV1|1|I|2000^2012^01^hey&test&DNS^test^test^test^test^test||||004777^MILLER^CONNIE^A.|||SUR||||2|A0  
+   ```  
   
-    > [!NOTE]
-    >  <span data-ttu-id="d70a6-106">應該要有五行在.txt 檔案，其中每一個開頭為"MSH"、"EVN"、"PID"、"PD1 」 和 「 PV1"。</span><span class="sxs-lookup"><span data-stu-id="d70a6-106">There should be five lines in the .txt file, one each starting with "MSH", "EVN", "PID", "PD1", and "PV1".</span></span> <span data-ttu-id="d70a6-107">您必須移除"PID"線條與 「 PD1 」 內的空格。</span><span class="sxs-lookup"><span data-stu-id="d70a6-107">You will need to remove the spaces within the "PID" line and the "PD1" line.</span></span> <span data-ttu-id="d70a6-108">如果有必要，請關閉 [記事本] 中的自動換行。</span><span class="sxs-lookup"><span data-stu-id="d70a6-108">If necessary, turn off word wrap in Notepad.</span></span>  
+   > [!NOTE]
+   >  <span data-ttu-id="7284f-106">應該有五行在.txt 檔案，其中每個開頭為"MSH"、"EVN"、"PID"、"PD1 」 和 「 PV1"。</span><span class="sxs-lookup"><span data-stu-id="7284f-106">There should be five lines in the .txt file, one each starting with "MSH", "EVN", "PID", "PD1", and "PV1".</span></span> <span data-ttu-id="7284f-107">您必須移除"PID"線條與"PD1 」 內的空格。</span><span class="sxs-lookup"><span data-stu-id="7284f-107">You will need to remove the spaces within the "PID" line and the "PD1" line.</span></span> <span data-ttu-id="7284f-108">如有必要，請關閉 [記事本] 中的自動換行。</span><span class="sxs-lookup"><span data-stu-id="7284f-108">If necessary, turn off word wrap in Notepad.</span></span>  
   
-2.  <span data-ttu-id="d70a6-109">將檔案儲存為**ADT^A03.txt**中\<*磁碟機*\>: \Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk\<版本\>Accelerator for HL7\SDK\End 端對端教學課程的資料夾，然後關閉 [記事本]。</span><span class="sxs-lookup"><span data-stu-id="d70a6-109">Save the file as **ADT^A03.txt** in the \<*drive*\>:\Program Files\\[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial folder, and then close Notepad.</span></span>  
+2. <span data-ttu-id="7284f-109">將檔案儲存為**ADT^A03.txt**中\<*磁碟機*\>: \Program Files\\Microsoft BizTalk\<版本\>Accelerator forHL7\SDK\End 端對端教學課程的資料夾，然後關閉 [記事本]。</span><span class="sxs-lookup"><span data-stu-id="7284f-109">Save the file as **ADT^A03.txt** in the \<*drive*\>:\Program Files\\Microsoft BizTalk \<version\> Accelerator for HL7\SDK\End-to-End Tutorial folder, and then close Notepad.</span></span>  
   
- <span data-ttu-id="d70a6-110">若要繼續[步驟 1： 建立及部署標頭和通知結構描述](../../adapters-and-accelerators/accelerator-hl7/step-1-create-and-deploy-header-and-acknowledgment-schemas.md)。</span><span class="sxs-lookup"><span data-stu-id="d70a6-110">Proceed to [Step 1: Create and Deploy Header and Acknowledgment Schemas](../../adapters-and-accelerators/accelerator-hl7/step-1-create-and-deploy-header-and-acknowledgment-schemas.md).</span></span>
+   <span data-ttu-id="7284f-110">請繼續進行[步驟 1： 建立及部署標頭和通知結構描述](../../adapters-and-accelerators/accelerator-hl7/step-1-create-and-deploy-header-and-acknowledgment-schemas.md)。</span><span class="sxs-lookup"><span data-stu-id="7284f-110">Proceed to [Step 1: Create and Deploy Header and Acknowledgment Schemas](../../adapters-and-accelerators/accelerator-hl7/step-1-create-and-deploy-header-and-acknowledgment-schemas.md).</span></span>

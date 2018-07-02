@@ -1,5 +1,5 @@
 ---
-title: BizTalk Server MessageBox 資料庫檔案群組的 SQL 指令碼 |Microsoft 文件
+title: BizTalk Server MessageBox 資料庫檔案群組 SQL 指令碼 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,30 +12,30 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 54b8cc0164648eb22bd0ad3c9bb47a1a0828f91f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d80d5aeb35c27a04f637f4e5ca466996855f35fb
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22300542"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36973063"
 ---
-# <a name="biztalk-server-messagebox-database-filegroups-sql-script"></a><span data-ttu-id="54ae4-102">BizTalk Server MessageBox 資料庫檔案群組的 SQL 指令碼</span><span class="sxs-lookup"><span data-stu-id="54ae4-102">BizTalk Server MessageBox Database Filegroups SQL Script</span></span>
-<span data-ttu-id="54ae4-103">本主題提供可以在 BizTalk Server 環境來建立多個檔案和檔案群組的 BizTalk MessageBox 資料庫中的 SQL Server 執行個體執行的 SQL 指令碼。</span><span class="sxs-lookup"><span data-stu-id="54ae4-103">This topic provides a SQL script that can be run on the SQL Server instances in a BizTalk Server environment to create multiple files and filegroups for the BizTalk MessageBox databases.</span></span>  
+# <a name="biztalk-server-messagebox-database-filegroups-sql-script"></a><span data-ttu-id="027ee-102">BizTalk Server MessageBox 資料庫檔案群組 SQL 指令碼</span><span class="sxs-lookup"><span data-stu-id="027ee-102">BizTalk Server MessageBox Database Filegroups SQL Script</span></span>
+<span data-ttu-id="027ee-103">本主題提供可在 BizTalk Server 環境中建立多個檔案和檔案群組的 BizTalk MessageBox 資料庫中的 SQL Server 執行個體執行的 SQL 指令碼。</span><span class="sxs-lookup"><span data-stu-id="027ee-103">This topic provides a SQL script that can be run on the SQL Server instances in a BizTalk Server environment to create multiple files and filegroups for the BizTalk MessageBox databases.</span></span>  
   
-> [!IMPORTANT]  
->  <span data-ttu-id="54ae4-104">此指令碼為 「 現況，「 僅供示範或教育目的，且提供用於風險自負。</span><span class="sxs-lookup"><span data-stu-id="54ae4-104">This script is provided “as is,” is intended for demo or educational purposes only, and is to be used at your own risk.</span></span> <span data-ttu-id="54ae4-105">使用此指令碼不支援的 Microsoft，Microsoft 不會對不保證此指令碼的適用性。</span><span class="sxs-lookup"><span data-stu-id="54ae4-105">Use of this script is not supported by Microsoft, and Microsoft makes no guarantees about the suitability of this script.</span></span>  
+> [!IMPORTANT]
+>  <span data-ttu-id="027ee-104">此指令碼會提供 「 依現況，」 僅適用於示範或教育目的之用，並使用自行承擔風險。</span><span class="sxs-lookup"><span data-stu-id="027ee-104">This script is provided “as is,” is intended for demo or educational purposes only, and is to be used at your own risk.</span></span> <span data-ttu-id="027ee-105">Microsoft 不支援使用此指令碼，Microsoft 不保證此指令碼的適用性。</span><span class="sxs-lookup"><span data-stu-id="027ee-105">Use of this script is not supported by Microsoft, and Microsoft makes no guarantees about the suitability of this script.</span></span>  
+> 
+> [!IMPORTANT]
+>  <span data-ttu-id="027ee-106">若要建立多個檔案和檔案群組的 BizTalk MessageBox 資料庫中使用此 SQL 指令碼時，就會適用下列考量：</span><span class="sxs-lookup"><span data-stu-id="027ee-106">The following considerations apply when using this SQL script to create multiple files and filegroups for the BizTalk MessageBox databases:</span></span>  
+> 
+> 1. <span data-ttu-id="027ee-107">**重新執行 MessageBox 資料庫檔案群組 SQL 指令碼，在下列情況下：**</span><span class="sxs-lookup"><span data-stu-id="027ee-107">**Rerun the MessageBox database filegroups SQL script under the following conditions:**</span></span>  
+> 
+>    - <span data-ttu-id="027ee-108">如果您安裝執行 BizTalk Server hotfix 或 service pack **msgboxlogic.sql**，您必須再次執行 MessageBox 資料庫檔案群組 SQL 指令碼。</span><span class="sxs-lookup"><span data-stu-id="027ee-108">If you install a BizTalk Server hotfix or service pack that runs **msgboxlogic.sql**, you will need to run the MessageBox database filegroups SQL script again.</span></span> <span data-ttu-id="027ee-109">這是必要的因為 msgboxlogic.sql 還原 MessageBox 檔案群組和檔案為預設值，也就是使用主要檔案群組。</span><span class="sxs-lookup"><span data-stu-id="027ee-109">This is necessary because msgboxlogic.sql reverts the MessageBox filegroups and files to default settings, which is to use the PRIMARY filegroup.</span></span> <span data-ttu-id="027ee-110">若要判斷是否 hotfix 或 service pack，將會執行 msgboxlogic.sql，檢查**檔案資訊**hotfix KB 文章一節。</span><span class="sxs-lookup"><span data-stu-id="027ee-110">To determine if a hotfix or service pack runs msgboxlogic.sql, check the **File Information** section of the hotfix KB article.</span></span> <span data-ttu-id="027ee-111">或檢查所隨附的服務組件檔案中的 setup.xml 檔案。</span><span class="sxs-lookup"><span data-stu-id="027ee-111">Or check the setup.xml file that is included with the service pack files.</span></span>  
+>    - <span data-ttu-id="027ee-112">如果您加入新的主機，以 BizTalk Server 群組，您必須再次執行 MessageBox 資料庫檔案群組的 SQL 指令碼。</span><span class="sxs-lookup"><span data-stu-id="027ee-112">If you add a new host to the BizTalk Server group, you will need to run the MessageBox database filegroups SQL script again.</span></span> <span data-ttu-id="027ee-113">這是必要的因為會建立新主控件的預存程序會設定預設要使用的主要檔案群組的主機的資料表。</span><span class="sxs-lookup"><span data-stu-id="027ee-113">This is necessary because the stored procedure that creates new hosts configures the tables for the hosts to use the PRIMARY file group by default.</span></span>  
+>    - <span data-ttu-id="027ee-114">**套用在 MessageBox 資料庫檔案群組 SQL 指令碼中的多個 MessageBox 環境：** MessageBox 資料庫檔案群組的 SQL 指令碼雖然不是必要需求，可以針對每個 MessageBox 中的多個 Messagebox 環境來執行。</span><span class="sxs-lookup"><span data-stu-id="027ee-114">**Applying the MessageBox database filegroups SQL script in a multi-MessageBox environment:** Though not a requirement, the MessageBox database filegroups SQL script can be executed against each MessageBox in a multi-Messagebox environment.</span></span>  
   
-> [!IMPORTANT]  
->  <span data-ttu-id="54ae4-106">若要建立多個檔案和檔案群組的 BizTalk MessageBox 資料庫中使用此 SQL 指令碼時，就會適用下列考量：</span><span class="sxs-lookup"><span data-stu-id="54ae4-106">The following considerations apply when using this SQL script to create multiple files and filegroups for the BizTalk MessageBox databases:</span></span>  
->   
->  1.  <span data-ttu-id="54ae4-107">**重新執行 MessageBox 資料庫檔案群組 SQL 指令碼，在下列情況下：**</span><span class="sxs-lookup"><span data-stu-id="54ae4-107">**Rerun the MessageBox database filegroups SQL script under the following conditions:**</span></span>  
->   
->      -   <span data-ttu-id="54ae4-108">如果您安裝執行 BizTalk Server hotfix 或 service pack **msgboxlogic.sql**，您必須再次執行 MessageBox 資料庫檔案群組的 SQL 指令碼。</span><span class="sxs-lookup"><span data-stu-id="54ae4-108">If you install a BizTalk Server hotfix or service pack that runs **msgboxlogic.sql**, you will need to run the MessageBox database filegroups SQL script again.</span></span> <span data-ttu-id="54ae4-109">這是必要的因為 msgboxlogic.sql 還原 MessageBox 檔案群組和檔案，以預設設定，也就是使用主要檔案群組。</span><span class="sxs-lookup"><span data-stu-id="54ae4-109">This is necessary because msgboxlogic.sql reverts the MessageBox filegroups and files to default settings, which is to use the PRIMARY filegroup.</span></span> <span data-ttu-id="54ae4-110">若要判斷是否 hotfix 或 service pack 會執行 msgboxlogic.sql，檢查**檔案資訊**hotfix KB 文章一節。</span><span class="sxs-lookup"><span data-stu-id="54ae4-110">To determine if a hotfix or service pack runs msgboxlogic.sql, check the **File Information** section of the hotfix KB article.</span></span> <span data-ttu-id="54ae4-111">或檢查 setup.xml 檔案隨附的服務組件檔案。</span><span class="sxs-lookup"><span data-stu-id="54ae4-111">Or check the setup.xml file that is included with the service pack files.</span></span>  
->     -   <span data-ttu-id="54ae4-112">如果您新增至 BizTalk Server 群組的新主機，您必須再次執行 MessageBox 資料庫檔案群組的 SQL 指令碼。</span><span class="sxs-lookup"><span data-stu-id="54ae4-112">If you add a new host to the BizTalk Server group, you will need to run the MessageBox database filegroups SQL script again.</span></span> <span data-ttu-id="54ae4-113">這是必要的因為建立新主機的預存程序會設定主應用程式預設會使用主要檔案群組的資料表。</span><span class="sxs-lookup"><span data-stu-id="54ae4-113">This is necessary because the stored procedure that creates new hosts configures the tables for the hosts to use the PRIMARY file group by default.</span></span>  
-> 2.  <span data-ttu-id="54ae4-114">**套用 MessageBox 資料庫檔案群組的 SQL 指令碼中的多個 MessageBox 環境：** 雖然不一定可以針對每個 MessageBox 多 Messagebox 環境中執行 MessageBox 資料庫檔案群組的 SQL 指令碼。</span><span class="sxs-lookup"><span data-stu-id="54ae4-114">**Applying the MessageBox database filegroups SQL script in a multi-MessageBox environment:** Though not a requirement, the MessageBox database filegroups SQL script can be executed against each MessageBox in a multi-Messagebox environment.</span></span>  
-  
-## <a name="biztalk-messagebox-database-filegroups-sql-script"></a><span data-ttu-id="54ae4-115">BizTalk MessageBox 資料庫檔案群組的 SQL 指令碼</span><span class="sxs-lookup"><span data-stu-id="54ae4-115">BizTalk MessageBox database filegroups SQL script</span></span>  
- <span data-ttu-id="54ae4-116">下列 SQL 指令碼可用來建立多個檔案和檔案群組中的主題所述[Databases2 最佳化檔案群組](../technical-guides/optimizing-filegroups-for-the-databases2.md)。</span><span class="sxs-lookup"><span data-stu-id="54ae4-116">The following SQL script can be used to create multiple files and filegroups as described in the topic [Optimizing Filegroups for the Databases2](../technical-guides/optimizing-filegroups-for-the-databases2.md).</span></span>  
+## <a name="biztalk-messagebox-database-filegroups-sql-script"></a><span data-ttu-id="027ee-115">BizTalk MessageBox 資料庫檔案群組 SQL 指令碼</span><span class="sxs-lookup"><span data-stu-id="027ee-115">BizTalk MessageBox database filegroups SQL script</span></span>  
+ <span data-ttu-id="027ee-116">下列 SQL 指令碼可用來建立多個檔案和檔案群組，如本主題中所述[最佳化檔案群組的資料庫 2](../technical-guides/optimizing-filegroups-for-the-databases2.md)。</span><span class="sxs-lookup"><span data-stu-id="027ee-116">The following SQL script can be used to create multiple files and filegroups as described in the topic [Optimizing Filegroups for the Databases2](../technical-guides/optimizing-filegroups-for-the-databases2.md).</span></span>  
   
 ```  
 /************************************************************  
@@ -563,5 +563,5 @@ print '********Object to Filegroup Distribution Report Completed********'
 GO  
 ```  
   
-## <a name="see-also"></a><span data-ttu-id="54ae4-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="54ae4-117">See Also</span></span>  
- [<span data-ttu-id="54ae4-118">最佳化資料庫效能</span><span class="sxs-lookup"><span data-stu-id="54ae4-118">Optimizing Database Performance</span></span>](../technical-guides/optimizing-database-performance.md)
+## <a name="see-also"></a><span data-ttu-id="027ee-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="027ee-117">See Also</span></span>  
+ [<span data-ttu-id="027ee-118">最佳化資料庫效能</span><span class="sxs-lookup"><span data-stu-id="027ee-118">Optimizing Database Performance</span></span>](../technical-guides/optimizing-database-performance.md)

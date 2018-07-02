@@ -1,5 +1,5 @@
 ---
-title: 使用 HL7 2.XML 結構描述 |Microsoft 文件
+title: 使用 HL7 2.xml 結構描述 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,18 +16,18 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ff3af77874ed668bb73298662646c87206aacb31
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6758be134043c77138e37960641a54c0aff8455b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206294"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982031"
 ---
-# <a name="using-hl7-2xml-schemas"></a><span data-ttu-id="8167b-102">使用 HL7 2.XML 結構描述</span><span class="sxs-lookup"><span data-stu-id="8167b-102">Using HL7 2.XML Schemas</span></span>
-<span data-ttu-id="8167b-103">本節討論所支援的健全狀況層級七 (HL7) 標準的 2.XML 版本[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="8167b-103">This section discusses the 2.XML versions of the Health Level Seven (HL7) standard supported by [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].</span></span>  
+# <a name="using-hl7-2xml-schemas"></a><span data-ttu-id="4d85b-102">使用 HL7 2.xml 結構描述</span><span class="sxs-lookup"><span data-stu-id="4d85b-102">Using HL7 2.XML Schemas</span></span>
+<span data-ttu-id="4d85b-103">本章節將討論 Microsoft 支援的健全狀況層級 7 (HL7) 標準的 2.XML 版本[!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="4d85b-103">This section discusses the 2.XML versions of the Health Level Seven (HL7) standard supported by Microsoft [!INCLUDE[HL7_CurrentVersion_FirstRef](../../includes/hl7-currentversion-firstref-md.md)].</span></span>  
   
-## <a name="in-this-section"></a><span data-ttu-id="8167b-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="8167b-104">In This Section</span></span>  
+## <a name="in-this-section"></a><span data-ttu-id="4d85b-104">本節內容</span><span class="sxs-lookup"><span data-stu-id="4d85b-104">In This Section</span></span>  
   
--   [<span data-ttu-id="8167b-105">HL7 2.XML 子資料夾和事件</span><span class="sxs-lookup"><span data-stu-id="8167b-105">HL7 2.XML Subfolders and Events</span></span>](../../adapters-and-accelerators/accelerator-hl7/hl7-2-xml-subfolders-and-events.md)  
+-   [<span data-ttu-id="4d85b-105">HL7 2.XML 子資料夾和事件</span><span class="sxs-lookup"><span data-stu-id="4d85b-105">HL7 2.XML Subfolders and Events</span></span>](../../adapters-and-accelerators/accelerator-hl7/hl7-2-xml-subfolders-and-events.md)  
   
--   [<span data-ttu-id="8167b-106">修改 V2。使用 BizTalk 編輯器 中的 XML 結構描述</span><span class="sxs-lookup"><span data-stu-id="8167b-106">Modifying V2.XML Schemas to Work with BizTalk Editor</span></span>](../../adapters-and-accelerators/accelerator-hl7/modifying-2-xml-schemas-to-work-with-biztalk-editor.md)
+-   [<span data-ttu-id="4d85b-106">修改 V2。以 BizTalk 編輯器搭配運作的 XML 結構描述</span><span class="sxs-lookup"><span data-stu-id="4d85b-106">Modifying V2.XML Schemas to Work with BizTalk Editor</span></span>](../../adapters-and-accelerators/accelerator-hl7/modifying-2-xml-schemas-to-work-with-biztalk-editor.md)

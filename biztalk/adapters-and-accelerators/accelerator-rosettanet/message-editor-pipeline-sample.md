@@ -1,5 +1,5 @@
 ---
-title: 訊息編輯器管線範例 |Microsoft 文件
+title: 訊息編輯器管線範例 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,17 +12,17 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4bfe7187492652cc24a04527d64a0d4746858708
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ea5ce9c658b7fa0f5a641166cc3423c948a8e6d7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209214"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36974615"
 ---
-# <a name="message-editor-pipeline-sample"></a><span data-ttu-id="3e708-102">訊息編輯器管線範例</span><span class="sxs-lookup"><span data-stu-id="3e708-102">Message Editor Pipeline Sample</span></span>
-<span data-ttu-id="3e708-103">本範例示範如何新增自訂元件到接收管線，以修改內送訊息的內容。</span><span class="sxs-lookup"><span data-stu-id="3e708-103">This sample demonstrates how to modify the contents of an incoming message by adding a custom component to the receive pipeline.</span></span>  
+# <a name="message-editor-pipeline-sample"></a><span data-ttu-id="f5feb-102">訊息編輯器管線範例</span><span class="sxs-lookup"><span data-stu-id="f5feb-102">Message Editor Pipeline Sample</span></span>
+<span data-ttu-id="f5feb-103">本範例示範如何新增自訂元件到接收管線，以修改內送訊息的內容。</span><span class="sxs-lookup"><span data-stu-id="f5feb-103">This sample demonstrates how to modify the contents of an incoming message by adding a custom component to the receive pipeline.</span></span>  
   
- <span data-ttu-id="3e708-104">此範例可用於從[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)]網站，網址[http://go.microsoft.com/fwlink/?LinkId=37877](http://go.microsoft.com/fwlink/?LinkId=37467)。</span><span class="sxs-lookup"><span data-stu-id="3e708-104">This sample is available from the [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] Web site at [http://go.microsoft.com/fwlink/?LinkId=37877](http://go.microsoft.com/fwlink/?LinkId=37467).</span></span>  
+ <span data-ttu-id="f5feb-104">這個範例是使用 Microsoft[!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)]網站，網址[ http://go.microsoft.com/fwlink/?LinkId=37877 ](http://go.microsoft.com/fwlink/?LinkId=37467)。</span><span class="sxs-lookup"><span data-stu-id="f5feb-104">This sample is available from the Microsoft [!INCLUDE[btaBTARNNoVersion](../../includes/btabtarnnoversion-md.md)] Web site at [http://go.microsoft.com/fwlink/?LinkId=37877](http://go.microsoft.com/fwlink/?LinkId=37467).</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="3e708-105">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3e708-105">See Also</span></span>  
- [<span data-ttu-id="3e708-106">管線範例</span><span class="sxs-lookup"><span data-stu-id="3e708-106">Pipeline Samples</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/pipeline-samples.md)
+## <a name="see-also"></a><span data-ttu-id="f5feb-105">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f5feb-105">See Also</span></span>  
+ [<span data-ttu-id="f5feb-106">管線範例</span><span class="sxs-lookup"><span data-stu-id="f5feb-106">Pipeline Samples</span></span>](../../adapters-and-accelerators/accelerator-rosettanet/pipeline-samples.md)
