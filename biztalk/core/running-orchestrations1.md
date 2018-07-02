@@ -1,5 +1,5 @@
 ---
-title: 執行 Orchestrations1 |Microsoft 文件
+title: 執行 Orchestrations1 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,12 +18,12 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c215009d6b911831c74ac22b2c03ceae45e74a62
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: fe1645ecaff4cea4f153c988188fa7f47e94959c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25972732"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969119"
 ---
 # <a name="running-orchestrations"></a>執行協調流程
 下列程序說明如何建置、部署、繫結和啟動協調流程。  
@@ -32,58 +32,58 @@ ms.locfileid: "25972732"
   
 #### <a name="to-create-a-strong-name-key"></a>若要建立強式名稱金鑰  
   
-1.  啟動 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 命令提示字元。  
+1. 啟動 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 命令提示字元。  
   
-2.  例如，將目錄變更至現有的專案，\<磁碟機\>: \Adapter_Install\biztalk2010\my_project。  
+2. 例如，將目錄變更為現有的專案中，\<磁碟機\>: \Adapter_Install\biztalk2010\my_project。  
   
-3.  在命令提示字元中輸入下列文字，然後按 ENTER：  
+3. 在命令提示字元中輸入下列文字，然後按 ENTER：  
   
-     `sn -k SSOSchedule.snk`  
+    `sn -k SSOSchedule.snk`  
   
 ## <a name="compiling-and-deploying-an-orchestration"></a>編譯和部署協調流程  
   
 #### <a name="to-compile-and-deploy-an-orchestration"></a>若要編譯和部署協調流程  
   
-1.  在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]方案總管 中，以滑鼠右鍵按一下 SSOSchedule 專案，然後選取**屬性**。  
+1. 在 [[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]方案總管] 中，以滑鼠右鍵按一下 SSOSchedule 專案，然後選取**屬性**。  
   
-2.  按一下**通用屬性**，然後展開**組件**節點。  
+2. 按一下 **通用屬性**，展開**組件**節點。  
   
-3.  輸入的路徑中輸入 ssoschedule.snk**組件金鑰檔案**文字方塊。  
+3. 輸入的路徑中輸入 ssoschedule.snk**組件金鑰檔案**文字方塊。  
   
-4.  確認 Configuration properties\deployment\server 中包含點 （.） 或您的電腦名稱，然後按一下 **確定**。  
+4. 確認 Configuration properties\deployment\server 中包含點 （.） 或您的電腦名稱，然後按一下 **確定**。  
   
-5.  在 [方案總管] 中，以滑鼠右鍵按一下**SSOSchedule**，然後按一下**重建**。  
+5. 在 [方案總管] 中，以滑鼠右鍵按一下**SSOSchedule**，然後按一下**重建**。  
   
-6.  以滑鼠右鍵按一下**SSOSchedule**，然後按一下**部署**。  
+6. 以滑鼠右鍵按一下**SSOSchedule**，然後按一下**部署**。  
   
 ## <a name="starting-the-orchestration"></a>啟動協調流程  
   
 #### <a name="to-start-the-orchestration"></a>若要啟動協調流程  
   
-1.  在 BizTalk 管理主控台中，選取您想要啟動協調的流程。  
+1.  在 BizTalk 管理主控台中，選取您想要啟動的協調流程。  
   
-2.  以滑鼠右鍵按一下協調流程，然後按一下**啟動**。  
+2.  以滑鼠右鍵按一下協調流程，然後按一下 **啟動**。  
   
 ## <a name="stopping-and-restarting-a-host-instance"></a>停止並重新啟動主控件執行個體  
  部署範例之後，您必須重新啟動主控件執行個體。  
   
 #### <a name="to-stop-and-restart-a-host-instance"></a>若要停止並重新啟動主控件執行個體  
   
-1.  按一下**啟動**，指向**所有程式**，指向 [ **Microsoft**[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後選取**BizTalk Server 管理]。**  
+1. 按一下 [**開始**，指向**所有程式**，指向**Microsoft**[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]，然後選取**BizTalk Server 管理]。**  
   
-2.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，按兩下**Microsoft BizTalk Server （本機）**  節點，然後展開**主機**。  
+2. 在 [[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，按兩下**Microsoft BizTalk Server （本機）** ] 節點，展開**主機**。  
   
-3.  在左窗格中，選取**BizTalkServerApplication**。  
+3. 在左窗格中，選取**BizTalkServerApplication**。  
   
-4.  在右窗格中，以滑鼠右鍵按一下主控件執行個體 （例如，電腦名稱），然後按一下**停止**。  
+4. 在右窗格中，請以滑鼠右鍵按一下主控件執行個體 （例如，電腦名稱），然後按一下 **停止**。  
   
-     主控件執行個體狀態會變更為**已停止**。  
+    主控件執行個體狀態會變更為**已停止**。  
   
-5.  在右窗格中，以滑鼠右鍵按一下主控件執行個體，然後按一下**啟動**。  
+5. 在右窗格中，以滑鼠右鍵按一下主控件執行個體，然後按一下 **啟動**。  
   
-     主控件執行個體狀態會變更為**開始擱置**。  
+    主控件執行個體狀態會變更為**開始擱置**。  
   
-     若要將狀態變更為**執行**，按一下 **重新整理**，或以滑鼠右鍵按一下主控件執行個體，然後按一下**重新整理**。  
+    若要將狀態變更為**執行**，按一下**重新整理**，或以滑鼠右鍵按一下主控件執行個體，然後按一下**重新整理**。  
   
-## <a name="see-also"></a>請參閱  
- [在配接器的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)
+## <a name="see-also"></a>另請參閱  
+ [配接器中的安全性](../core/security-in-biztalk-adapter-for-jd-edwards-oneworld.md)

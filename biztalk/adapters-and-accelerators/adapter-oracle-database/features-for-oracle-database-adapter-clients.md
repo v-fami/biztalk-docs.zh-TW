@@ -1,5 +1,5 @@
 ---
-title: Oracle 資料庫配接器用戶端功能 |Microsoft 文件
+title: Oracle 資料庫配接器用戶端的功能 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -22,23 +22,23 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b120c948ef3d9821af0a79e91fd718e3a1f33137
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ce283c3fd63f72d67e31806e86bf9caa08555dd9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22214318"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976175"
 ---
 # <a name="features-for-oracle-database-adapter-clients"></a>Oracle 資料庫配接器用戶端的功能
-除了所有的主題所討論的功能[概觀的 BizTalk 配接器的 Oracle 資料庫](../../adapters-and-accelerators/adapter-oracle-database/overview-of-biztalk-adapter-for-oracle-database.md)、[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]也提供可用於配接器用戶端的下列功能：  
+除了的主題所討論的功能之外[概觀的 BizTalk 配接器用於 Oracle 資料庫](../../adapters-and-accelerators/adapter-oracle-database/overview-of-biztalk-adapter-for-oracle-database.md)，則[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]也提供適用於配接器用戶端的下列功能：  
   
--   **設定配接器使用的繫結屬性的支援**。 可以設定配接器用戶端[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]藉由指定特定繫結內容。 例如，用戶端可以設定配接器使用 ODP.NET 連接集區設定**UseOracleConnectionPool**繫結屬性。 如需詳細資訊，請參閱[Oracle 資料庫的設定繫結屬性](../../adapters-and-accelerators/adapter-oracle-database/configure-the-binding-properties-for-oracle-database.md)。  
+- **設定使用繫結屬性的配接器支援**。 配接器用戶端可以設定[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]藉由指定特定繫結屬性。 比方說，用戶端可以在其中設定配接器使用 ODP.NET 連接集區，只要**UseOracleConnectionPool**繫結屬性。 如需詳細資訊，請參閱 < [Oracle 資料庫設定的繫結屬性](../../adapters-and-accelerators/adapter-oracle-database/configure-the-binding-properties-for-oracle-database.md)。  
   
--   **作業參數的 null 值支援**。 配接器用戶端可以提供輸入 XML 中使用"nil"屬性的作業參數的 null 值。  
+- **作業參數的 null 值支援**。 配接器用戶端可以提供輸入 XML 中使用"nil"屬性的作業參數的 null 值。  
   
--   **支援動態連接埠，在 BizTalk**。 透過 BizTalk [!INCLUDE[wcfadapter_short](../../includes/wcfadapter-short-md.md)]、[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]支援動態連接埠，可讓您動態路由的訊息從[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]根據訊息內容屬性。 如需詳細資訊，請參閱[設定動態連接埠](../../adapters-and-accelerators/adapter-oracle-database/configure-dynamic-ports-in-the-oracle-database-adapter.md)。  
+- **支援在 BizTalk 中的動態連接埠**。 透過 BizTalk [!INCLUDE[wcfadapter_short](../../includes/wcfadapter-short-md.md)]，則[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]支援動態連接埠，可讓您動態路由的訊息從[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]根據訊息內容屬性。 如需詳細資訊，請參閱 <<c0> [ 設定動態連接埠](../../adapters-and-accelerators/adapter-oracle-database/configure-dynamic-ports-in-the-oracle-database-adapter.md)。  
   
--   **對效能計數器支援**。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]以供配接器用戶端支援以 WCF 為基礎的效能計數器。 如需有關效能計數器的詳細資訊，請參閱[效能計數器](../../core/performance-counters.md)。  
+- **對效能計數器支援**。 [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]支援配接器用戶端使用 wcf 效能計數器。 如需有關效能計數器的詳細資訊，請參閱 <<c0> [ 效能計數器](../../core/performance-counters.md)。  
   
 ## <a name="see-also"></a>另請參閱  
- [BizTalk Adapter for Oracle 資料庫的概觀](../../adapters-and-accelerators/adapter-oracle-database/overview-of-biztalk-adapter-for-oracle-database.md)
+ [BizTalk Adapter for Oracle Database 概觀](../../adapters-and-accelerators/adapter-oracle-database/overview-of-biztalk-adapter-for-oracle-database.md)

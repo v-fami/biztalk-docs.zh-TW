@@ -1,5 +1,5 @@
 ---
-title: 分割 HIPAA 子文件 |Microsoft 文件
+title: 分割 HIPAA 子文件 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 799cb5813b3c13339a0c477bf142a467a91b2c94
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 8cd5c202539a86479b397a7c8417b20aeea32542
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22278326"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36971479"
 ---
 # <a name="splitting-hipaa-subdocuments"></a>分割 HIPAA 子文件
 HIPAA 的 EDI 交換通常會在單一交易集中，使用由 ST/SE 標頭繫結的多重子 (child/sub) 文件。 EDI 接收管線，可支援從該等交易集建立不同的 HIPAA 子文件。 這種方式不同於「非 HIPAA EDI 交換」將單一交易集當作單一訊息來處理的方式。  
@@ -25,22 +25,22 @@ HIPAA 的 EDI 交換通常會在單一交易集中，使用由 ST/SE 標頭繫�
 ## <a name="subdocument-splitting-schemas"></a>子文件分割結構描述  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 支援透過原生結構描述分割下列 HIPAA 文件類型：  
   
--   HIPAA 4010 版文件︰ 834 Enrollment、 835 Claim Payment 與 837 Claim 的三種變化  
+- HIPAA 4010 版文件： 834 Enrollment、 enrollment、835 Claim Payment 與 837 Claim 的三種變化  
   
--   HIPAA 5010 版文件︰ 276/277 Claim Status – 要求和回應、 834 Enrollment 與 837 Claim 的三種變化  
+- HIPAA 5010 版文件： 276/277 Claim Status – 要求和回應、 834 Enrollment 與 837 Claim 的三種變化  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會針對上述三種文件類型分別提供兩種版本的結構描述。 對於每一種文件類型，支援分割的結構描述檔名會用 ‘Multiple’ 標記提供識別。 其他的結構描述則不支援子文件分割。  
+  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會針對上述三種文件類型分別提供兩種版本的結構描述。 對於每一種文件類型，支援分割的結構描述檔名會用 ‘Multiple’ 標記提供識別。 其他的結構描述則不支援子文件分割。  
   
- 有些實例可能同時需要使用分割和非分割類型的結構描述。 藉由針對其中一個結構描述的變化使用自訂的目標命名空間，就可以同時使用兩種結構描述。  
+  有些實例可能同時需要使用分割和非分割類型的結構描述。 藉由針對其中一個結構描述的變化使用自訂的目標命名空間，就可以同時使用兩種結構描述。  
   
 ## <a name="how-subdocument-splitting-is-enabled"></a>分割子文件的啟用方式  
- 分割 HIPAA 子文件的功能，是透過 HIPAA 結構描述中的三個註解項目啟用。 前兩個都必須設為應用程式資訊註解中的結構描述的項目 **是**:  
+ 分割 HIPAA 子文件的功能，是透過 HIPAA 結構描述中的三個註解項目啟用。 前兩個是在應用程式資訊註解，必須設定為結構描述的項目**是**:  
   
 ```  
 subdocument_break = "yes" Split_Without_Sibling_Data = "Yes"  
 ```  
   
- 第三個註解項目位在 HIPAA 結構描述內的適當記錄層級上。 這個屬性也必須設定為 **是**。  
+ 第三個註解項目位在 HIPAA 結構描述內的適當記錄層級上。 這個屬性也必須設定為**是**。  
   
 ```  
 subdocument_creation_break = "yes"  

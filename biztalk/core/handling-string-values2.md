@@ -1,5 +1,5 @@
 ---
-title: 處理字串 Values2 |Microsoft 文件
+title: 處理字串 Values2 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -21,12 +21,12 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 024663faa56d92361d861a61a0d64a4608839aa6
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 2c6b7fc4a1c8c7dfc4d3b43dedce7a5655097b60
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22246366"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36993095"
 ---
 # <a name="handling-string-values"></a>處理字串值
 此主題說明如何將一些字串引數設定為靠右對齊 (填補左方)。  
@@ -34,15 +34,15 @@ ms.locfileid: "22246366"
 ## <a name="types-of-string-values"></a>字串值的類型  
  JD Edwards EnterpriseOne 透過其互通性層來公開兩種字串值：  
   
--   char︰ 單一字元  
+- char： 單一字元  
   
--   最大長度字串  
+- 最大長度字串  
   
- JD Edwards EnterpriseOne 使用匈牙利標記法來命名商務功能中這些類型的引數。 例如，這些類型的引數會有下列開頭：  
+  JD Edwards EnterpriseOne 會使用匈牙利標記法來命名商務功能中這些類型的引數。 例如，這些類型的引數會有下列開頭：  
   
--   c  
+- c  
   
--   sz  
+- sz  
   
 ### <a name="left-justified-values"></a>靠左對齊的值  
  對於大多數 sz-type 引數 (最大文字長度或 char 陣列)，JD Edwards EnterpriseOne 需要一個靠左對齊的值。 例如，最大長度為 40 的街道地址行，JD Edwards EnterpriseOne 所需如下：  
@@ -56,7 +56,7 @@ ms.locfileid: "22246366"
   
  "           30"  
   
- 輸入會靠右對齊的值，您必須在稱為 jdearglist.txt 檔案中輸入參數。 當您產生結構描述，會讀取 jdearglist.txt。 此文字檔案中的任何值都會自動轉換成靠右對齊的值，並利用空白填補左方。  
+ 輸入會靠右對齊的值，您必須在稱為 jdearglist.txt 檔案中輸入參數。 會讀取 jdearglist.txt，當您產生結構描述。 此文字檔案中的任何值都會自動轉換成靠右對齊的值，並利用空白填補左方。  
   
  您必須使用文字編輯器建立 jdearglist.txt，在裡面建立描述這些參數的項目，然後將檔案儲存在下列資料夾中：  
   

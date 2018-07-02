@@ -1,5 +1,5 @@
 ---
-title: 向外延展資料庫 |Microsoft 文件
+title: 相應放大的資料庫 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -38,12 +38,12 @@ caps.latest.revision: 33
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0af465c1cd77bfb96cc44e1a3209757ee13129be
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 90223ca01ced62ab01016643568a39909385f716
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22272078"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36966927"
 ---
 # <a name="scaled-out-databases"></a>向外擴充的資料庫
 若要提供 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 資料庫的高可用性，請在 Windows 叢集中設定兩部執行 SQL Server 的電腦。 這些電腦可以主動/主動或主動/被動組態執行以做為備援，並將資料儲存在共用磁碟 (例如 RAID 1+0 SCSI 磁碟陣列) 或存放區域網路 (SAN) 上。  
@@ -51,7 +51,7 @@ ms.locfileid: "22272078"
  若 SQL Server 服務因故無法使用，資料庫叢集會將資源從主動電腦轉移到被動電腦。 在此容錯移轉程序期間，BizTalk Server 服務執行個體發生資料庫連接失敗並自動重新啟動以重新連接到資料庫。 正在運作的資料庫電腦 (先前為被動電腦) 會在容錯移轉期間獲得資源後，開始處理資料庫連接。  
   
 ## <a name="running-multiple-messagebox-databases"></a>執行多個 MessageBox 資料庫  
- 若要提升 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 資料庫的擴充性，您可以將 BizTalk Server 設定為跨多個 MessageBox 資料庫儲存資料。 當您執行「組態精靈」時，就會建立第一個 MessageBox 資料庫。 此 MessageBox 資料庫是主要 MessageBox 資料庫。 在 BizTalk Server 部署中有單一主要 MessageBox 資料庫。 主要 MessageBox 資料庫包含主要訂閱資訊，並將訊息路由至適當的 MessageBox 資料庫。 一般而言，您想要設定主要 MessageBox 僅供路由專用 (選取**停用新訊息發佈**)，並讓其他 MessageBox 資料庫執行處理。  
+ 若要提升 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 資料庫的擴充性，您可以將 BizTalk Server 設定為跨多個 MessageBox 資料庫儲存資料。 當您執行「組態精靈」時，就會建立第一個 MessageBox 資料庫。 此 MessageBox 資料庫是主要 MessageBox 資料庫。 在 BizTalk Server 部署中有單一主要 MessageBox 資料庫。 主要 MessageBox 資料庫包含主要訂閱資訊，並將訊息路由至適當的 MessageBox 資料庫。 一般而言，您想要指派主要 MessageBox 路由專用 (選取**停用新訊息發佈**)，並讓其他執行處理作業的 MessageBox 資料庫。  
   
  當主要 MessageBox 資料庫收到新啟動訊息時 (商務程序的全新執行個體或訂閱訊息)，主要 MessageBox 資料庫會將啟動訊息分散至下一個可用的 MessageBox 資料庫。 例如，若您有一個主要 MessageBox 資料庫以及兩個 MessageBox 資料庫，則主要 MessageBox 資料庫會將第一個啟動訊息路由至 MessageBox 資料庫 1，第二個啟動訊息路由至 MessageBox 資料庫 2，第三個啟動訊息路由至 MessageBox 資料庫 1，以此輪流模式循環。 主要 MessageBox 資料庫使用內建邏輯來平衡負載，不需要其他負載平衡機制。  
   
@@ -78,19 +78,19 @@ ms.locfileid: "22272078"
 ## <a name="providing-high-availability-for-the-bam-databases"></a>為 BAM 資料庫提供高可用性  
  商務活動監控 (BAM) 為獨立於 IT 實作之外或跨異質 IT 實作的商務程序提供可見性。 BAM SQL Server 資料庫 (BAM 星狀結構描述資料庫、BAM 主要匯入資料庫以及 BAM 封存資料庫) 與 BAM 分析資料庫會儲存異於操作監控資料的商務活動資料。 若要確定 BAM 基礎結構為高度可用，請執行下列動作：  
   
--   **叢集 BAM 主要匯入資料庫和 BAM 分析資料庫。** BAM 主要匯入資料庫是商務活動監控系統的中心。 因此，使用 Windows 叢集讓此資料庫高度可用，並依照接下來的兩個建議以避免此資料庫被填滿，就很重要。 BAM 分析資料庫是一種 Analysis Services 資料庫，它儲存了商務分析師用以建立活動彙總和 OLAP Cube 的資料，因此，此資料庫的任何停機都會影響其產能。 雖然您不必叢集 BAM 封存資料庫，不過仍建議您在執行「資料轉換服務」(DTS) 封裝時監控事件日誌是否有錯誤，以確定資料是否已成功傳輸，並監控資料庫的大小，以便在資料庫填滿前將它取代。  
+- **叢集 BAM 主要匯入資料庫和 BAM 分析資料庫。** BAM 主要匯入資料庫是商務活動監控系統的中心。 因此，使用 Windows 叢集讓此資料庫高度可用，並依照接下來的兩個建議以避免此資料庫被填滿，就很重要。 BAM 分析資料庫是一種 Analysis Services 資料庫，它儲存了商務分析師用以建立活動彙總和 OLAP Cube 的資料，因此，此資料庫的任何停機都會影響其產能。 雖然您不必叢集 BAM 封存資料庫，不過仍建議您在執行「資料轉換服務」(DTS) 封裝時監控事件日誌是否有錯誤，以確定資料是否已成功傳輸，並監控資料庫的大小，以便在資料庫填滿前將它取代。  
   
--   **定義線上視窗。** 為了允許更高的效能並避免停機，BAM 會將 BAM 主要匯入資料庫中的資料分割成以活動完成的時間戳記為基礎的資料表。 BAM 藉由定期將完成的資料表與另一個格式完全相同的空資料表交換來完成此項工作。 BAM 在執行此動作後，其他完成的活動就會存放在新分割上 (資料表)，而 BAM 也會保留線上視窗所定義時間的舊分割。 您必須定義線上視窗以確保 BAM 主要匯入資料庫中的分割數目不會成長得太大。 如需排程線上視窗的詳細資訊，請參閱 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 說明中的＜封存主要匯入資料庫資料＞。  
+- **定義線上視窗。** 為了允許更高的效能並避免停機，BAM 會將 BAM 主要匯入資料庫中的資料分割成以活動完成的時間戳記為基礎的資料表。 BAM 藉由定期將完成的資料表與另一個格式完全相同的空資料表交換來完成此項工作。 BAM 在執行此動作後，其他完成的活動就會存放在新分割上 (資料表)，而 BAM 也會保留線上視窗所定義時間的舊分割。 您必須定義線上視窗以確保 BAM 主要匯入資料庫中的分割數目不會成長得太大。 如需排程線上視窗的詳細資訊，請參閱 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 說明中的＜封存主要匯入資料庫資料＞。  
   
--   **排程定期執行的 DTS 封裝。** 定義線上視窗可確保 BAM 主要匯入資料庫不會填滿舊活動的分割。 您也必須排程定期執行的 DTS 封裝，以建立活動資料的新分割，並將資料從 BAM 主要匯入資料庫中的舊分割移至 BAM 封存資料庫。 如需排程 DTS 封裝的詳細資訊，請參閱 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 說明中的＜排程 DTS 封裝＞。  
+- **排程定期執行的 DTS 封裝。** 定義線上視窗可確保 BAM 主要匯入資料庫不會填滿舊活動的分割。 您也必須排程定期執行的 DTS 封裝，以建立活動資料的新分割，並將資料從 BAM 主要匯入資料庫中的舊分割移至 BAM 封存資料庫。 如需排程 DTS 封裝的詳細資訊，請參閱 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 說明中的＜排程 DTS 封裝＞。  
   
--   **請仔細選擇少量的資料項目 （檢查點），並避免包含不必要資料的項目，定義活動時。**  
+- **請仔細選擇少量資料的項目 （檢查點），並避免包含不必要資料的項目，定義活動時。**  
   
--   **了解排程和即時彙總設計彙總時之間的取捨。** 即時彙總會由 SQL Server 觸發程序自動維護且沒有延遲。 這對於某些關鍵的低延遲實例很適合，不過每當事件寫入 BAM 主要匯入資料庫時就會產生效能成本。 排程彙總依賴排程 Cube DTS 封裝以更新其彙總資料。 它的延遲等於或大於 DTS 排程間隔，不過整體而言，它對於 BAM 主要匯入資料庫的效能影響比較小。  
+- **了解排定和即時彙總設計彙總時之間的取捨。** 即時彙總會由 SQL Server 觸發程序自動維護且沒有延遲。 這對於某些關鍵的低延遲實例很適合，不過每當事件寫入 BAM 主要匯入資料庫時就會產生效能成本。 排程彙總依賴排程 Cube DTS 封裝以更新其彙總資料。 它的延遲等於或大於 DTS 排程間隔，不過整體而言，它對於 BAM 主要匯入資料庫的效能影響比較小。  
   
--   **如果您選擇排程彙總，請確定您排程 cube DTS 比封存 DTS 更頻繁地執行。** 這是因為封存 DTS 不會將已經為排程彙總處理的活動資料移至 BAM 封存資料庫。  
+- **如果您選擇排程彙總，請確定您排程 cube DTS 比封存 DTS 更頻繁地執行。** 這是因為封存 DTS 不會將已經為排程彙總處理的活動資料移至 BAM 封存資料庫。  
   
--   **啟用 BAM 事件匯流排服務在多部電腦若要取得容錯移轉功能。**  
+- **啟用 BAM 事件匯流排服務在多部電腦若要取得容錯移轉功能。**  
   
 ## <a name="providing-high-availability-for-the-other-biztalk-server-databases"></a>為其他 BizTalk 伺服器資料庫提供高可用性  
  若要提供其他 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 資料庫的高可用性，請在 Windows 叢集中設定兩部執行 SQL Server 的電腦。 這些電腦可以主動/主動或主動/被動組態執行以做為備援，並將資料儲存在共用磁碟 (例如 RAID 1+0 SCSI 磁碟陣列) 或存放區域網路 (SAN) 上。  
@@ -98,4 +98,4 @@ ms.locfileid: "22272078"
 ## <a name="see-also"></a>另請參閱  
  [為 BizTalk 主控件提供高可用性](../core/providing-high-availability-for-biztalk-hosts.md)   
  [為 BizTalk Server 資料庫提供高可用性](../core/providing-high-availability-for-biztalk-server-databases.md)   
- [BizTalk Server 高可用性實例範例](../core/sample-biztalk-server-high-availability-scenarios.md)
+ [BizTalk Server 高可用性案例範例](../core/sample-biztalk-server-high-availability-scenarios.md)

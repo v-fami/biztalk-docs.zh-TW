@@ -1,5 +1,5 @@
 ---
-title: 停止主控件執行個體 |Microsoft 文件
+title: 停止主控件執行個體 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,19 +12,19 @@ caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 837b08c30263b48ad481c7e03820cfba0b6c0ecc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9b66c89ccafa72c56de00aebd24091915643f44e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22255502"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972671"
 ---
 # <a name="stop-a-host-instance"></a>停止主控件執行個體
 
 ## <a name="overview"></a>概觀
 您可以使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台或 Windows Management Instrumentation (WMI)，來停止主控件執行個體。 您必須停止主控件執行個體，才能從電腦中刪除它或移除 BizTalk Server。 您可以停止已安裝與啟動的主控件執行個體。 如需主控件執行個體的詳細資訊，請參閱[主控件執行個體](../core/host-instances.md)。  
   
- 如需使用 WMI 來停止主控件執行個體資訊，請參閱**MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
+ 如需使用 WMI 來停止主控件執行個體的資訊，請參閱**MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
   
 ## <a name="prerequisites"></a>必要條件  
  若要執行此程序，您必須以「系統管理員」群組及「BizTalk Server 系統管理員」群組的成員身分登入。  
@@ -46,15 +46,15 @@ ms.locfileid: "22255502"
   
 ## <a name="steps"></a>步驟
   
-1.  按一下**啟動**，按一下 **所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。  
+1. 按一下 **開始**，按一下**所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下**BizTalk Server 管理**。  
   
-2.  在主控台樹狀目錄中，依序展開**BizTalk Server 管理**，展開 BizTalk 群組，按一下**平台設定**，然後按一下 **主控件執行個體**。  
+2. 在主控台樹狀目錄中，依序展開**BizTalk Server 管理]**、 [BizTalk 群組，按一下**平台設定**，然後按一下**主控件執行個體**。  
   
-3.  在詳細資料窗格中，以滑鼠右鍵按一下您想要停止]，然後按一下 [主控件執行個體**停止**。  
+3. 在 詳細資料 窗格中，以滑鼠右鍵按一下您要停止，然後按一下 主控件執行個體**停止**。  
   
-     主控件執行個體狀態會變更為**已停止**。  
+    主控件執行個體狀態會變更為**已停止**。  
   
- 在您停止主控件執行個體之後，您可以啟動、刪除它或從電腦中移除 BizTalk Server。 如需啟動主控件執行個體的相關資訊，請參閱[如何啟動主控件執行個體](../core/how-to-start-a-host-instance.md)。 如需刪除主控件執行個體的詳細資訊，請參閱[如何刪除主控件執行個體](../core/how-to-delete-a-host-instance.md)。  
+   在您停止主控件執行個體之後，您可以啟動、刪除它或從電腦中移除 BizTalk Server。 如需啟動主控件執行個體的相關資訊，請參閱 <<c0> [ 如何啟動主控件執行個體](../core/how-to-start-a-host-instance.md)。 如需刪除主控件執行個體的詳細資訊，請參閱 <<c0> [ 如何刪除主控件執行個體](../core/how-to-delete-a-host-instance.md)。  
   
 ## <a name="see-also"></a>另請參閱  
  [管理 BizTalk 主控件和主控件執行個體](../core/managing-biztalk-hosts-and-host-instances.md)   

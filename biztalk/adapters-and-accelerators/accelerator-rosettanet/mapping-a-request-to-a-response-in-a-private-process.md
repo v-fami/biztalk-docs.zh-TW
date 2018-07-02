@@ -1,5 +1,5 @@
 ---
-title: 將要求對應至私用程序中回應 |Microsoft 文件
+title: 將要求對應至私用程序中回應時間 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -22,15 +22,15 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 966ad6ad752c36be36b4013743eaba3af5434d0a
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: fb7cab4ba412a46f61df89daefd86df260454195
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26008367"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976223"
 ---
 # <a name="mapping-a-request-to-a-response-in-a-private-process"></a>將要求對應至私用程序中回應時間
-本主題描述如何將私用回應者程序所接收的要求訊息對應 — 從[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]公用回應者程序，來回應訊息傳送給[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]公用回應者程序。  
+本主題描述如何將私用回應者程序所接收的要求訊息對應 — 從 Microsoft[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]公用回應者程序，可以傳送至回應訊息[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]公用回應者程序。  
   
  當回應者收到要求訊息時，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 會藉由從公開程序協調流程到私用程序協調流程的方式，路由這個要求訊息至商務營運系統 (LOB) 程式。 這個回應者需要從 LOB 程式取得回應服務內容，並產生 RosettaNet 回應訊息傳回給啟動者。 回應訊息中的許多項目都是使用要求訊息的值加以填入。 因此，您可以在回應者私用程序協調流程中整合出一套對應方式，幫助 LOB 程式以所需的格式產生回應服務內容訊息。  
   
@@ -46,25 +46,25 @@ ms.locfileid: "26008367"
   
 ### <a name="to-create-the-map"></a>若要建立對應  
   
-1.  啟動**Microsoft Visual Studio 2012**。  
+1.  開始**Microsoft Visual Studio 2012**。  
   
-2.  在**檔案**功能表上，指向**開啟**，然後按一下 **專案**。  
+2.  在上**檔案**功能表上，指向**開放**，然後按一下**專案**。  
   
 3.  找到含有 BizTalk 專案的資料夾，這個資料夾需包含要將對應加入至其中的私用程序協調流程。  
   
 4.  在方案總管中，以滑鼠右鍵按一下專案，指向 [加入]，然後按一下 [新增項目]。  
   
-5.  在 [加入新項目] 視窗中**類別**] 窗格中，按一下 [**對應檔**。 在 [範本] 窗格中，按一下**對應**。 在**名稱**方塊、 輸入對應的名稱，然後按一下**開啟**。  
+5.  在 [加入新項目] 視窗中，在**分類**窗格中，按一下**對應檔**。 在 [範本] 窗格中，按一下**地圖**。 在 **名稱**方塊中，輸入對應的名稱，然後按一下**開啟**。  
   
 6.  在 [來源結構描述] 窗格中，按一下**開啟來源結構描述**。  
   
-7.  在 BizTalk 型別選擇器 視窗中，依序展開**結構描述**，選取您想要從，對應，然後按一下 要求訊息的 PIP 結構描述**確定**。  
+7.  在 BizTalk 型別選擇器 視窗中，依序展開**結構描述**，選取您想要從對應，然後按一下 要求訊息的 PIP 結構描述**確定**。  
   
 8.  在 [目的結構描述] 窗格中，按一下**開啟目的結構描述**。  
   
-9. 在 [BizTalk 型別選擇器] 視窗中，依序展開**參考**，依序展開**Microsoft.Solutions.BTARN.Schemas.RNPIPs**，依序展開**結構描述**，選取的 PIP 結構描述您想要對應，然後按一下的回應訊息**確定**。  
+9. 在 [BizTalk 型別選擇器] 視窗中，依序展開**參考**，展開**Microsoft.Solutions.BTARN.Schemas.RNPIPs**，展開**結構描述**，選取的 PIP 結構描述回應訊息，您想要對應，然後按一下**確定**。  
   
-10. 以滑鼠右鍵按一下\<*結構描述*\>節點來源結構描述，然後再按一下**展開樹狀結構節點**。  
+10. 以滑鼠右鍵按一下\<*結構描述*\>節點，然後按一下 來源結構描述，以及**展開樹狀結構節點**。  
   
 11. 重複步驟 10，完成目的結構描述的部分。  
   
@@ -72,7 +72,7 @@ ms.locfileid: "26008367"
   
 13. 重複步驟 12，將全部您要進行對應的欄位完成對應的動作。  
   
-14. 驗證並測試對應。 如需詳細資訊，請參閱 BizTalk Server 說明中的 「 編譯與測試對應 」 主題。  
+14. 驗證並測試對應。 如需詳細資訊，請參閱 BizTalk Server 說明中的 「 編譯與測試對應 > 主題。  
   
 ### <a name="to-add-the-map-to-the-orchestration"></a>將對應加入協調流程  
   
@@ -81,25 +81,25 @@ ms.locfileid: "26008367"
     > [!NOTE]
     >  請確認協調流程含有包括這個結構描述之組件的參考。  
   
-2.  在工具箱中，按一下 **轉換**圖形，並將它拖曳至協調流程，您不必將要求訊息轉換成回應訊息中的點。  
+2.  在 [工具箱] 中，按一下**轉換**圖形，並將它拖曳至協調流程，您不必將要求訊息轉換成回應訊息中的點。  
   
     > [!NOTE]
-    >  如需範例的位置的**轉換**圖形，請參閱 PIP3A4PrivateResponder.odx 協調流程。 它位於\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\PipAutomation\3A4\PR。 這個範例會將放**轉換**立即圖形下**IsActivityDoubleAction**圖形。 如需詳細資訊，請參閱[3A4 私用回應者協調流程使用商務規則](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md)。  
+    >  如需範例的位置**轉換**圖形，請參閱 PIP3A4PrivateResponder.odx 協調流程。 此檔案位於\<*磁碟機*\>: \Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\PipAutomation\3A4\PR。 此範例會將放**轉換**圖形下的 立即**IsActivityDoubleAction**圖形。 如需詳細資訊，請參閱 < [3A4 私用回應者協調流程使用商務規則](../../adapters-and-accelerators/accelerator-rosettanet/3a4-private-responder-orchestration-using-a-business-rule.md)。  
   
     > [!NOTE]
-    >  如需如何將多個對應合併多個 Pip 的範例，請參閱[雙向動作 PIPAutomation 協調流程](../../adapters-and-accelerators/accelerator-rosettanet/double-action-pipautomation-orchestration.md)。  
+    >  如需如何將多個對應，以及在多個 Pip 的範例，請參閱 <<c0> [ 雙向動作 PIPAutomation 協調流程](../../adapters-and-accelerators/accelerator-rosettanet/double-action-pipautomation-orchestration.md)。  
   
-3.  協調流程設計介面上，按一下  **ConstructMessage1**。 在 [屬性] 視窗中，輸入這個圖形的名稱，以及所要建構的訊息名稱。  
+3.  協調流程設計介面上，按一下**ConstructMessage1**。 在 [屬性] 視窗中，輸入這個圖形的名稱，以及所要建構的訊息名稱。  
   
-4.  協調流程設計介面上，按一下 **轉換**。 在 屬性 視窗中，按一下 省略符號按鈕 (**...**) 旁邊**對應名稱**。  
+4.  協調流程設計介面上，按一下**轉換**。 在 屬性 視窗中，按一下 省略符號按鈕 (**...**) 旁**對應名稱**。  
   
-5.  在 轉換組態 視窗中，按一下 **現有對應**，然後在**完整格式對應名稱**，按一下您剛才建立的對應。  
+5.  在 [轉換組態] 視窗中，按一下**現有的對應**，然後在**完整格式對應名稱**，按一下您剛才建立的對應。  
   
-6.  在下**轉換**，按一下 **來源**。 按一下變數下方的空白方塊，並從下拉式清單中選取要求訊息的名稱。  
+6.  底下**轉換**，按一下**來源**。 按一下變數下方的空白方塊，並從下拉式清單中選取要求訊息的名稱。  
   
-7.  在下**轉換**，按一下 **目的地**。 按一下變數下方的空白方塊，並從下拉式清單中選取回應訊息的名稱。  
+7.  底下**轉換**，按一下**目的地**。 按一下變數下方的空白方塊，並從下拉式清單中選取回應訊息的名稱。  
   
-8.  按一下 **[確定]**。  
+8.  按一下 [確定] 。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [程式設計指南](../../adapters-and-accelerators/accelerator-rosettanet/programming-guide2.md)

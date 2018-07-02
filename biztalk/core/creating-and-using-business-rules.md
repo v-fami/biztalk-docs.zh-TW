@@ -1,5 +1,5 @@
 ---
-title: 建立和使用商務規則 |Microsoft 文件
+title: 建立和使用商務規則 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 76a6b51c72f04d5c7918da637f4266567f92e8bc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c9d01e5eaf96c6490c68424fd09e297e0e60ef9d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22238238"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979391"
 ---
 # <a name="creating-and-using-business-rules"></a>建立和使用商務規則
 商務規則 (或商務原則) 會定義及控制組織的結構、作業和策略。 商務規則可能會正式定義在程序手冊、合約或協定中，也可能以知識或專業技術的形式來由員工呈現。 商務規則是動態的，會隨著時間而改變，而且可以在所有類型的應用程式中找到。 在商務規則所控管的許多商務領域中，金融保險、電子商務、運輸、電信、Web 服務和個人化只是其中的幾項。 每一個商務領域都需要傳達商業策略、原則和規章給資訊技術 (IT) 人員，將這些資訊加入到軟體應用程式中。  
@@ -29,22 +29,22 @@ ms.locfileid: "22238238"
   
  商務規則架構與 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 緊密整合在一起，而且開發人員可以使用下列功能來建置及管理商務規則：  
   
--   高效能的規則引擎，可實作推斷機制來評估商務規則。  
+- 高效能的規則引擎，可實作推斷機制來評估商務規則。  
   
--   一組豐富的應用程式發展介面 (API)，可用來開發以規則為基礎的應用程式。  
+- 一組豐富的應用程式發展介面 (API)，可用來開發以規則為基礎的應用程式。  
   
--   一個圖形化使用者介面 (商務規則編輯器)，開發人員、商務分析師及系統管理員可透過各種方式來使用此介面，以便有效率地開發及套用規則與原則。  
+- 一個圖形化使用者介面 (商務規則編輯器)，開發人員、商務分析師及系統管理員可透過各種方式來使用此介面，以便有效率地開發及套用規則與原則。  
   
--   與 BizTalk 協調流程緊密整合，可讓您從 BizTalk 協調流程叫用商務原則或一組商務規則。  
+- 與 BizTalk 協調流程緊密整合，可讓您從 BizTalk 協調流程叫用商務原則或一組商務規則。  
   
--   「規則引擎部署精靈」，可讓您快速地匯入或匯出商務規則或規則所使用的詞彙，以及部署或解除部署這些規則。  
+- 「規則引擎部署精靈」，可讓您快速地匯入或匯出商務規則或規則所使用的詞彙，以及部署或解除部署這些規則。  
   
- 您透過商務規則架構所建立的商務規則 (原則) 可用於協調的商務程序中，如下圖所示。  
+  您透過商務規則架構所建立的商務規則 (原則) 可用於協調的商務程序中，如下圖所示。  
   
- ![顯示處理序中的內含式商務原則的圖表。] (../core/media/ebiz-dev-busprcsi.gif "ebiz_dev_busprcsi")  
-商務原則  
+  ![此圖表顯示在程序中的內含式商務原則。] (../core/media/ebiz-dev-busprcsi.gif "ebiz_dev_busprcsi")  
+  商務原則  
   
- 本章節提供一些概念性資訊，讓您瞭解如何利用商務規則架構及使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 提供的工具來開發商務規則。  
+  本章節提供一些概念性資訊，讓您瞭解如何利用商務規則架構及使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 提供的工具來開發商務規則。  
   
 ## <a name="in-this-section"></a>本節內容  
   
@@ -54,4 +54,4 @@ ms.locfileid: "22238238"
   
 -   [使用商務規則架構設計程式](../core/programming-with-business-rules-framework.md)  
   
--   [規則引擎組態和調整參數](../core/rule-engine-configuration-and-tuning-parameters.md)
+-   [規則引擎設定和調整參數](../core/rule-engine-configuration-and-tuning-parameters.md)

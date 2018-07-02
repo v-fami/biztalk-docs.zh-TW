@@ -1,5 +1,5 @@
 ---
-title: MQSeries 內容屬性 |Microsoft 文件
+title: MQSeries 內容屬性 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -84,12 +84,12 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d27309379fac2c4821251f27fd2aa5a6e9d59418
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 684fad8e1a417e9faf7127a81a4e8f7d6f10e630
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22266622"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976591"
 ---
 # <a name="mqseries-context-properties"></a>MQSeries 內容屬性
 MQSeries 配接器提供一組 MQSeries 專用的內容屬性，可在應用程式中使用。 您可以在篩選運算式與協調流程中使用這些屬性。  
@@ -110,18 +110,18 @@ Message_2(MQSeries.MQMD_UserIdentifier) = "MeMyselfAndI";
   
  下表顯示一組完整、可用的「訊息描述元」(MQMD 結構)」屬性及其對應的類型與值。  
   
-|名稱|類型|長度|值|  
+|[屬性]|類型|長度|ReplTest1|  
 |----------|----------|------------|-----------|  
 |**MQMD_AccountingToken**|string|64|十六進位字串|  
 |**MQMD_ApplIdentityData**|string|32|十六進位字串|  
-|**MQMD_ApplOriginData**|string|4|字串<br /><br /> **預設值：** 空間|  
+|**MQMD_ApplOriginData**|string|4|String<br /><br /> **預設值：** 空間|  
 |**MQMD_BackoutCount**|不帶正負號的整數|4|Number<br /><br /> 唯讀<br /><br /> **預設值：** 0|  
 |**MQMD_CodedCharSetId**|不帶正負號的整數|4|Number<br /><br /> **預設值：** 0|  
 |**MQMD_CorrelId**|string|48|十六進位字串|  
 |**MQMD_Encoding**|不帶正負號的整數|4|Number<br /><br /> 使用標頭檔值。 **預設值：** 0|  
 |**MQMD_Expiry**|不帶正負號的整數|4|Number|  
 |**MQMD_Feedback**|不帶正負號的整數|4|Number<br /><br /> 使用標頭檔值。 **預設值：** 0|  
-|**MQMD_Format**|string|8|字串<br /><br /> 若設為 MQXMIT，請確定 MQXQH 屬性有值。|  
+|**MQMD_Format**|string|8|String<br /><br /> 若設為 MQXMIT，請確定 MQXQH 屬性有值。|  
 |**MQMD_GroupID**|string|48|十六進位字串|  
 |**MQMD_MsgFlags**|不帶正負號的整數|4|Number<br /><br /> 使用標頭檔值。 **預設值：** 0|  
 |**MQMD_MsgId**|string|48|十六進位字串|  
@@ -131,71 +131,71 @@ Message_2(MQSeries.MQMD_UserIdentifier) = "MeMyselfAndI";
 |**MQMD_OriginalLength**|不帶正負號的整數|4||  
 |**MQMD_Persistence**|不帶正負號的整數|4|Number<br /><br /> 使用標頭檔值。|  
 |**MQMD_Priority**|不帶正負號的整數|4|Number|  
-|**MQMD_PutApplName**|string|28|字串<br /><br /> **預設值：** 空間|  
+|**MQMD_PutApplName**|string|28|String<br /><br /> **預設值：** 空間|  
 |**MQMD_PutApplType**|不帶正負號的整數|4|Number<br /><br /> 使用標頭檔值。 **預設值：** 0|  
-|**MQMD_PutDate**|string|8|日期|  
+|**MQMD_PutDate**|string|8|date|  
 |**MQMD_PutTime**|string|8|Time|  
-|**MQMD_ReplyToQ**|string|48|字串<br /><br /> **預設值：** 空間|  
-|**MQMD_ReplyToQMgr**|string|48|字串<br /><br /> **預設值：** 空間|  
+|**MQMD_ReplyToQ**|string|48|String<br /><br /> **預設值：** 空間|  
+|**MQMD_ReplyToQMgr**|string|48|String<br /><br /> **預設值：** 空間|  
 |**MQMD_Report**|不帶正負號的整數|4|Number<br /><br /> 使用標頭檔值。|  
-|**MQMD_UserIdentifier**|string|12|字串<br /><br /> 當您使用包含使用者識別碼**SSOAffiliateApplication**屬性。|  
+|**MQMD_UserIdentifier**|string|12|String<br /><br /> 當您使用包含使用者識別碼**SSOAffiliateApplication**屬性。|  
   
- 直接從 MQSeries 傳輸佇列接收訊息時，MQSeries 配接器會將傳輸佇列標頭屬性 (MQXQH 資料結構) 格式化，然後放在對應的內容屬性中。 標頭屬性時直接傳送訊息至 MQSeries 傳輸佇列，來格式化和指派值給對應的內容屬性只有當從**MQMD_Format**屬性的值為 MQXMIT。 下表描述這些屬性。  
+ 直接從 MQSeries 傳輸佇列接收訊息時，MQSeries 配接器會將傳輸佇列標頭屬性 (MQXQH 資料結構) 格式化，然後放在對應的內容屬性中。 標頭屬性時直接傳送訊息至 MQSeries 傳輸佇列，格式化並指派值給從對應的內容屬性只有當**MQMD_Format**屬性的值為 MQXMIT。 下表描述這些屬性。  
   
-|名稱|類型|長度|值|  
+|[屬性]|類型|長度|ReplTest1|  
 |----------|----------|------------|-----------|  
 |**MQXQH_RemoteQMgrName**|string|48|string|  
 |**MQXQH_RemoteQName**|string|48|string|  
   
  此配接器會根據相同規則將本主題稍早所列的屬性一起填入下列「訊息描述元」值中。 此配接器會在這些屬性名稱之前加上 MQXQH_ 而不是 MQMD_，否則它們會直接對應至「訊息描述元」表格中所定義的那些屬性：  
   
--   **MQXQH_MsgDesc_AccountingToken**  
+- **MQXQH_MsgDesc_AccountingToken**  
   
--   **MQXQH_MsgDesc_ApplIdentityData**  
+- **MQXQH_MsgDesc_ApplIdentityData**  
   
--   **MQXQH_MsgDesc_ApplOriginData**  
+- **MQXQH_MsgDesc_ApplOriginData**  
   
--   **MQXQH_MsgDesc_BackoutCount**  
+- **MQXQH_MsgDesc_BackoutCount**  
   
--   **MQXQH_MsgDesc_CodedCharSetId**  
+- **MQXQH_MsgDesc_CodedCharSetId**  
   
--   **MQXQH_MsgDesc_CorrelId**  
+- **MQXQH_MsgDesc_CorrelId**  
   
--   **MQXQH_MsgDesc_Encoding**  
+- **MQXQH_MsgDesc_Encoding**  
   
--   **MQXQH_MsgDesc_Expiry**  
+- **MQXQH_MsgDesc_Expiry**  
   
--   **MQXQH_MsgDesc_Feedback**  
+- **MQXQH_MsgDesc_Feedback**  
   
--   **MQXQH_MsgDesc_Format**  
+- **MQXQH_MsgDesc_Format**  
   
--   **MQXQH_MsgDesc_MsgId**  
+- **MQXQH_MsgDesc_MsgId**  
   
--   **MQXQH_MsgDesc_MsgType**  
+- **MQXQH_MsgDesc_MsgType**  
   
--   **MQXQH_MsgDesc_Persistence**  
+- **MQXQH_MsgDesc_Persistence**  
   
--   **MQXQH_MsgDesc_Priority**  
+- **MQXQH_MsgDesc_Priority**  
   
--   **MQXQH_MsgDesc_PutApplName**  
+- **MQXQH_MsgDesc_PutApplName**  
   
--   **MQXQH_MsgDesc_PutApplType**  
+- **MQXQH_MsgDesc_PutApplType**  
   
--   **MQXQH_MsgDesc_PutDate**  
+- **MQXQH_MsgDesc_PutDate**  
   
--   **MQXQH_MsgDesc_PutTime**  
+- **MQXQH_MsgDesc_PutTime**  
   
--   **MQXQH_MsgDesc_ReplyToQ**  
+- **MQXQH_MsgDesc_ReplyToQ**  
   
--   **MQXQH_MsgDesc_ReplyToQMgr**  
+- **MQXQH_MsgDesc_ReplyToQMgr**  
   
--   **MQXQH_MsgDesc_Report**  
+- **MQXQH_MsgDesc_Report**  
   
--   **MQXQH_MsgDesc_UserIdentifier**  
+- **MQXQH_MsgDesc_UserIdentifier**  
   
- 在屬性結構描述中還包含其他與 MQSeries 相關的屬性，並可用於篩選運算式中。 下表列出這些屬性。  
+  在屬性結構描述中還包含其他與 MQSeries 相關的屬性，並可用於篩選運算式中。 下表列出這些屬性。  
   
-|名稱|類型|長度|值|  
+|[屬性]|類型|長度|ReplTest1|  
 |----------|----------|------------|-----------|  
 |**MQCIH_AbendCode**|string|4||  
 |**MQCIH_ADSDescriptor**|不帶正負號的整數|4||  

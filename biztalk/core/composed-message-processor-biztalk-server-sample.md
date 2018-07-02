@@ -1,5 +1,5 @@
 ---
-title: 撰寫訊息處理器 （BizTalk Server 範例） |Microsoft 文件
+title: 撰寫訊息處理器 （BizTalk Server 範例） |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,29 +17,29 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3097ef6a0da695c3b07cf68182a374eabed11b5e
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: d884fba7d19e26613c457ed5789f847a5c23babc
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25975276"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969207"
 ---
 # <a name="composed-message-processor-biztalk-server-sample"></a>撰寫訊息處理器 (BizTalk Server 範例)
 此範例的目的是建置撰寫訊息處理器應用程式，可處理來自彙總訊息的個別明細項目。  
   
  具體而言，我們建置的協調流程排程會：  
   
-1.  接收包含多筆訂單的批次交換訊息。  
+1. 接收包含多筆訂單的批次交換訊息。  
   
-2.  將交換訊息解譯為個別訂單文件。  
+2. 將交換訊息解譯為個別訂單文件。  
   
-3.  處理每份文件，將每筆訂單轉換為發票訊息。  
+3. 處理每份文件，將每筆訂單轉換為發票訊息。  
   
-4.  將所有發票訊息組合為一個批次交換。  
+4. 將所有發票訊息組合為一個批次交換。  
   
- 步驟 3 已經過簡化供範例使用。 例如，在更複雜的應用程式中，協調流程可能會將解譯的訂單傳送至不同的後端庫存系統，然後在收集所有回應後，再將它們彙總為一個批次發票訊息。  
+   步驟 3 已經過簡化供範例使用。 例如，在更複雜的應用程式中，協調流程可能會將解譯的訂單傳送至不同的後端庫存系統，然後在收集所有回應後，再將它們彙總為一個批次發票訊息。  
   
- 如需撰寫訊息處理器模式的詳細資訊，請參閱 [1]。  
+   如需撰寫訊息處理器模式的詳細資訊，請參閱 [1]。  
   
 ## <a name="what-this-sample-does"></a>此範例的用途  
  範例解決方案內有兩種專案，將在以下章節中詳細描述。  
@@ -135,15 +135,15 @@ BILLTO,US,Alice Smith,123 Maple Street,Mill Valley,CA,90952
   
  首先必須建立一般檔案結構描述，用於：  
   
--   訂單文件 (PO.xsd)  
+- 訂單文件 (PO.xsd)  
   
--   發票文件 (Invoice.xsd)  
+- 發票文件 (Invoice.xsd)  
   
--   訂單標頭 (POHeader.xsd)  
+- 訂單標頭 (POHeader.xsd)  
   
--   發票標頭 (InvoiceHeader.xsd)  
+- 發票標頭 (InvoiceHeader.xsd)  
   
- 針對這個範例，我們不會解釋建立一般文件結構描述的程序。 若要學習如何從文件執行個體建立一般文件結構描述，請參閱＜從文件執行個體建立一般檔案結構描述＞文件章節。  
+  針對這個範例，我們不會解釋建立一般文件結構描述的程序。 若要學習如何從文件執行個體建立一般文件結構描述，請參閱＜從文件執行個體建立一般檔案結構描述＞文件章節。  
   
 #### <a name="map-to-transform-purchase-order-document-into-invoice-document"></a>將訂單文件轉換為發票文件的對應  
  將訂單執行個體轉換為發票文件的對應 (PO2Invoice.btm)。  
@@ -153,31 +153,31 @@ BILLTO,US,Alice Smith,123 Maple Street,Mill Valley,CA,90952
   
  接收管線內一般檔案解譯器的設定如下所示：  
   
--   **文件結構描述：** PipelinesAndSchemas.PO  
+- **文件結構描述：** 屬於 PipelinesAndSchemas.PO  
   
--   **標頭結構描述：** PipelinesAndSchemas.POHeader  
+- **標頭結構描述：** PipelinesAndSchemas.POHeader  
   
--   **保留標頭：** False  
+- **保留標頭：** False  
   
--   **可復原交換：** False  
+- **可復原交換：** False  
   
--   **結尾結構描述：** （無）  
+- **結尾結構描述：** （無）  
   
--   **驗證文件結構：** False  
+- **驗證文件結構：** False  
   
- 傳送管線 (FFSendPipeline.btp) 包含用於建立彙總發票交換的一般檔案組合器元件。  
+  傳送管線 (FFSendPipeline.btp) 包含用於建立彙總發票交換的一般檔案組合器元件。  
   
- 傳送管線內一般檔案組合器的設定如下所示：  
+  傳送管線內一般檔案組合器的設定如下所示：  
   
--   **文件結構描述：** PipelinesandSchemas.Invoice  
+- **文件結構描述：** PipelinesandSchemas.Invoice  
   
--   **標頭結構描述：** PipelinesAndSchemas.InvoiceHeader  
+- **標頭結構描述：** PipelinesAndSchemas.InvoiceHeader  
   
--   **保留位元順序標記：** False  
+- **保留位元順序標記：** False  
   
--   **目標字元集：** （無）  
+- **目標字元集：** （無）  
   
--   **結尾結構描述：** （無）  
+- **結尾結構描述：** （無）  
   
 ### <a name="orchestration-schedule"></a>協調流程排程  
  協調流程排程 (CMP.odx) 就是所有主要處理發生的位置。 尤其會執行下列動作：  
@@ -196,13 +196,13 @@ BILLTO,US,Alice Smith,123 Maple Street,Mill Valley,CA,90952
 #### <a name="executing-receive-pipeline"></a>執行接收管線  
  下一步我們會新增邏輯，以便執行協調流程中所接收之訊息的接收管線。 若要執行這項操作，首先必須在範圍內宣告 Microsoft.XLANGs.Pipeline.ReceivePipelineOutputMessages 型別的變數 (稱為 RcvPipeOutput)。 此變數是允許我們循環接收管線輸出訊息的列舉值。 請注意，為了存取此型別及執行來自協調流程之管線的其他型別，必須新增對下列組件的參考：  
   
--   Microsoft.XLANGs.Pipeline.dll  
+- Microsoft.XLANGs.Pipeline.dll  
   
--   Microsoft.BizTalk.Pipeline.dll：  
+- Microsoft.BizTalk.Pipeline.dll：  
   
- 接收管線不一定都能成功執行。 有時候訊息可能格式不正確，導致管線處理失敗。 管線在協調流程執行失敗時，就有可攔截之擲回的例外狀況，且可執行錯誤處理邏輯。 為了攔截管線所擲回的例外狀況，我們必須以例外狀況處理在非不可部分完成範圍內執行管線。 執行管線的實際程式碼是該範圍內從「運算式」圖形叫用。  
+  接收管線不一定都能成功執行。 有時候訊息可能格式不正確，導致管線處理失敗。 管線在協調流程執行失敗時，就有可攔截之擲回的例外狀況，且可執行錯誤處理邏輯。 為了攔截管線所擲回的例外狀況，我們必須以例外狀況處理在非不可部分完成範圍內執行管線。 執行管線的實際程式碼是該範圍內從「運算式」圖形叫用。  
   
- 在 ExecuteRcvPipe「運算式」圖形內，寫入下列這行執行接收管線的程式碼：  
+  在 ExecuteRcvPipe「運算式」圖形內，寫入下列這行執行接收管線的程式碼：  
   
 ```  
 RcvPipeOutput = Microsoft.XLANGs.Pipeline.XLANGPipelineManager.ExecuteReceivePipeline(typeof(PipelinesAndSchemas.FFReceivePipeline), InputInterchange);  
@@ -265,7 +265,7 @@ Microsoft.XLANGs.Pipeline.XLANGPipelineManager.ExecuteSendPipeline(typeof(Pipeli
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
  下表列出此範例使用的檔案。  
   
-|檔案|Description|  
+|檔案|描述|  
 |---------------|-----------------|  
 |Cleanup.bat|用來解除部署組件，並將這些組件從全域組件快取 (GAC) 移除。<br /><br /> 移除傳送埠和接收埠。<br /><br /> 視需要移除 Microsoft Internet Information Services (IIS) 虛擬目錄。|  
 |ComposedMessageProcessor.sln|此範例的 Visual Studio 方案檔案。|  
@@ -328,5 +328,5 @@ Microsoft.XLANGs.Pipeline.XLANGPipelineManager.ExecuteSendPipeline(typeof(Pipeli
   
     2.  所有對應的訊息都會組合在一起，並轉換為一般檔案格式。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [管線 (BizTalk Server Samples 資料夾)](../core/pipelines-biztalk-server-samples-folder.md)

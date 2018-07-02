@@ -1,5 +1,5 @@
 ---
-title: 第 3 課： 測試 XML 執行個體 |Microsoft 文件
+title: 第 3 課： 測試 XML 執行個體 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,30 +15,30 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dcb9d5ada3054219b1387d92f4244475037c26ac
-ms.sourcegitcommit: 3371ffd8ceca02e2b3715d53a1e0c0a59045912e
+ms.openlocfilehash: 5660ab4e67545b1b98785aedeaeea6e123b6d008
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/07/2018
-ms.locfileid: "34848894"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36971895"
 ---
 # <a name="lesson-3-testing-an-xml-instance"></a>第 3 課： 測試 XML 執行個體
-在這一課，您可以提交有效 MT103，XML 格式檔案中的訊息接收在先前課程所建立的連接埠。 這個動作會測試您在前一個模組中建立的傳送管線。 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] 以一般檔案中將輸出寫入您選取的前一個模組中的傳送埠的輸出資料夾中。  
+在這一課，您可以提交有效的 MT103 訊息檔案的 XML 格式接收在先前的課程中建立的連接埠。 此動作會測試您在前一個模組中建立的傳送管線。 Microsoft[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]以一般檔案的輸出寫入您選取在前一個模組中的傳送埠的輸出資料夾。  
   
- 起始檔案接收配接器複製到輸入資料夾的 SWIFT XML 格式檔案。 這個動作會導致系統複製到輸出資料夾的有效 SWIFT 一般檔案。  
+ 起始檔案接收配接器藉由將 SWIFT XML 格式的檔案複製到輸入資料夾。 此動作會導致系統將有效的 SWIFT 一般檔案複製到輸出資料夾。  
   
 ### <a name="to-test-an-xml-instance"></a>若要測試 XML 執行個體  
   
-1.  在 Windows 檔案總管 中，開啟\<*磁碟機*\>: \Labs\Outbound。 請確認此資料夾包含您傳送至這個資料夾中的 {GUID}.xml 檔案[第 1 課： 送出範例一般檔案](../../adapters-and-accelerators/accelerator-swift/lesson-1-submitting-a-sample-flat-file.md)此模組。  
+1. 在 Windows 檔案總管中，開啟\<*磁碟機*\>: \Labs\Outbound。 請確認此資料夾包含您傳送到此資料夾中的 {GUID}.xml 檔案[第 1 課： 提交範例一般檔案](../../adapters-and-accelerators/accelerator-swift/lesson-1-submitting-a-sample-flat-file.md)此模組。  
   
-2.  複製 XML 檔案，並將它貼入\<*磁碟機*\>: \Labs\Inbound\XMLFile。 請注意，您所貼上這個檔案的時間。  
+2. 複製 XML 檔案，並將它貼至\<*磁碟機*\>: \Labs\Inbound\XMLFile。 請注意，您所貼上此檔案的時間。  
   
-3.  移至\<*磁碟機*\>: \Labs\Outbound。 請確認沒有在這個資料夾中，稱為 {GUID}.txt 的檔案，而且這個檔案修改日期資料行中的時間，對應至您所貼上檔案的時間\<*磁碟機*\>: \Labs\Inbound\XMLFile。  
+3. 移至\<*磁碟機*\>: \Labs\Outbound。 驗證是否在這個資料夾中，名為 {GUID}.txt 的檔案，以及此檔案修改日期資料行中的時間會對應到您所貼上檔案的時間\<*磁碟機*\>: \Labs\Inbound\XMLFile。  
   
-4.  在 [記事本] 開啟中的 MT103_Sample.txt \<*磁碟機*\>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Tutorial。  
+4. 在 記事本 開啟 在 MT103_Sample.txt \<*磁碟機*\>: \Program Files\Microsoft BizTalk Accelerator for SWIFT\SDK\Tutorial。  
   
-5.  在 記事本 的另一個執行個體，開啟 {GUID} 中的.txt \<*磁碟機*\>: \Labs\Inbound\XMLFile。  
+5. 在 記事本 的另一個執行個體，開啟 {GUID} 中的.txt \<*磁碟機*\>: \Labs\Inbound\XMLFile。  
   
-6.  請確認 [記事本] 中的兩個檔案都包含相同的內容。  
+6. 確認 [記事本] 中的兩個檔案包含相同的內容。  
   
- 若要繼續[單元 8： 修復無效的訊息](http://msdn.microsoft.com/fb531b22-ac7a-4620-b395-87aebf56077d)。
+   請繼續進行[單元 8： 修復無效的訊息](http://msdn.microsoft.com/fb531b22-ac7a-4620-b395-87aebf56077d)。

@@ -1,5 +1,5 @@
 ---
-title: 模組 7： 測試有效的一般檔案執行個體 |Microsoft 文件
+title: 模組 7： 測試有效一般檔案執行個體 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,24 +16,24 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 572df71fe479bc26e6b803cdbb95ff7a409c394a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2344e537fe2b66720e0df9296e22145d1c23bfa6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209814"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972247"
 ---
-# <a name="module-7-testing-a-valid-flat-file-instance"></a>模組 7： 測試有效的一般檔案執行個體
-此模組中，您送出有效的範例 MT103 檔案的一般檔案接收埠建立在先前的實驗室中。 這項工作中測試您在上一個實驗室中建立的接收管線。 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]以 XML 格式的輸出寫入輸出資料夾中上一課，您所選取的傳送埠[第 2 課： 加入 XML 傳送埠](../../adapters-and-accelerators/accelerator-swift/lesson-2-adding-an-xml-send-port.md)。  
+# <a name="module-7-testing-a-valid-flat-file-instance"></a>模組 7： 測試有效一般檔案執行個體
+在這個模組中，您可以提交有效的範例檔案的一般檔案接收在前一個實驗室中建立的連接埠的 MT103。 這項工作中測試您在上一個實驗室中建立的接收管線。 Microsoft[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]輸出 XML 格式寫入您在上一課中，選取傳送埠的輸出資料夾[第 2 課： 新增 XML 傳送埠](../../adapters-and-accelerators/accelerator-swift/lesson-2-adding-an-xml-send-port.md)。  
   
- 起始檔案接收配接器會將 SWIFT 一般格式的檔案複製到 [傳入] 資料夾。 這個動作會導致[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]路由傳送至輸出資料夾的有效 SWIFT XML 檔案。  
+ 起始檔案接收配接器藉由將 SWIFT 一般格式的檔案複製到輸入資料夾。 此動作會導致[!INCLUDE[btaA4SWIFT2.3abbrevnonumber](../../includes/btaa4swift2-3abbrevnonumber-md.md)]路由是有效的 SWIFT XML 檔案傳送至輸出資料夾。  
   
- 在這項工作，您也會提交 MT103 訊息無效。 您可以使用 「 事件解決錯誤。  
+ 在這個工作中，您也會提交無效的 MT103 訊息。 您可以使用事件來解決這個錯誤。  
   
  此部分包含：  
   
--   [第 1 課： 送出範例一般檔案](../../adapters-and-accelerators/accelerator-swift/lesson-1-submitting-a-sample-flat-file.md)  
+-   [課程 1：提交範例一般檔案](../../adapters-and-accelerators/accelerator-swift/lesson-1-submitting-a-sample-flat-file.md)  
   
--   [第 2 課： 送出不是有效的 MT103 訊息](../../adapters-and-accelerators/accelerator-swift/lesson-2-submitting-an-mt103-message-that-is-not-valid.md)  
+-   [課程 2：提交無效的 MT103 訊息](../../adapters-and-accelerators/accelerator-swift/lesson-2-submitting-an-mt103-message-that-is-not-valid.md)  
   
--   [第 3 課： 測試 XML 執行個體](../../adapters-and-accelerators/accelerator-swift/lesson-3-testing-an-xml-instance.md)
+-   [課程 3：測試 XML 執行個體](../../adapters-and-accelerators/accelerator-swift/lesson-3-testing-an-xml-instance.md)

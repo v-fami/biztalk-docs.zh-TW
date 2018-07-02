@@ -1,6 +1,6 @@
 ---
-title: 在 BizTalk Server 中使用此 SWIFT 加速器的疑難排解和已知問題 |Microsoft 文件
-description: SWIFT 錯誤碼、 常見的問題及 BizTalk Server 中 A4SWIFT 的解析度
+title: 在 BizTalk Server 中使用 SWIFT 加速器的疑難排解和已知問題 |Microsoft Docs
+description: SWIFT 錯誤碼、 常見問題和解決方案的 BizTalk Server 中 A4SWIFT
 ms.custom: ''
 ms.date: 08/16/2017
 ms.prod: biztalk-server
@@ -13,25 +13,25 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7f2dc861f7f8e670fc0ae83b787ff108cef904b1
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 5a275822f49fe84d76ab6bc764bc74e67770edd1
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25962836"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36971119"
 ---
 # <a name="troubleshooting-and-known-issues"></a>疑難排解和已知問題
-本章節提供疑難排解的相關資訊的集中式的位置[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]。  
+本章節提供疑難排解 Microsoft 的相關資訊的集中式的位置[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]。  
 
 ## <a name="readme"></a>讀我檔案
   
- 在位於讀我檔案中包含此 A4SWIFT 文件版本之後探索到的問題相關的補充資訊\<*磁碟機：*\>\Program Files\\ [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for SWIFT\Documentation 資料夾。  
+ 讀我檔案中包含此 A4SWIFT 文件版本後探索到的問題相關的補充資訊\<*磁碟機：*\>\Program Files\\Microsoft BizTalk Accelerator for SWIFT\Documentation 資料夾。  
 
 ## <a name="next-steps"></a>後續的步驟  
  此部分包含：  
 
 - [SWIFT 錯誤碼](swift-error-codes.md)
 
--   [疑難排解問題和解決](../../adapters-and-accelerators/accelerator-swift/troubleshooting-issues-and-resolutions1.md)  
+-   [疑難排解問題和解決方式](../../adapters-and-accelerators/accelerator-swift/troubleshooting-issues-and-resolutions1.md)  
   
 -   [已知問題](../../adapters-and-accelerators/accelerator-swift/known-issues5.md)

@@ -1,6 +1,6 @@
 ---
-title: 管理結構描述 |Microsoft 文件
-description: 使用在 BizTalk Server 中，包括顯示和隱藏屬性結構描述使用 BizTalk 管理 檢視的 XSD，啟用追蹤
+title: 管理結構描述 |Microsoft Docs
+description: 使用在 BizTalk Server 中，包括顯示和隱藏屬性結構描述中使用 BizTalk 管理、 檢視 XSD、 啟用追蹤
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -13,12 +13,12 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f0d7fe3eee97cf81c668ffe90fd9c0897af23cc1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 400d6946235c2137a389b22f639159c9f92d6f4a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22262598"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36973151"
 ---
 # <a name="manage-schemas"></a>管理結構描述
 
@@ -27,13 +27,13 @@ ms.locfileid: "22262598"
   
  結構描述是在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中建立，並編譯成 BizTalk 組件。 您不能將結構描述個別新增到應用程式中；結構描述會在下列情況中新增至應用程式：  
   
--   當您新增 BizTalk 組件包含應用程式，結構描述中所述[如何將 BizTalk 組件新增至應用程式](../core/how-to-add-a-biztalk-assembly-to-an-application.md)。  
+- 當您新增 BizTalk 組件包含應用程式，結構描述中所述[如何將 BizTalk 組件新增至應用程式](../core/how-to-add-a-biztalk-assembly-to-an-application.md)。  
   
--   當您匯入.msi 檔案包含結構描述，其中包含 BizTalk 組件中所述的應用程式[如何匯入 BizTalk 應用程式](../core/how-to-import-a-biztalk-application.md)。  
+- 當您匯入.msi 檔案包含 BizTalk 組件包含結構描述中所述的應用程式[如何匯入 BizTalk 應用程式](../core/how-to-import-a-biztalk-application.md)。  
   
--   當開發人員應用程式組件部署到包含從結構描述[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]中所述，[從到 BizTalk 應用程式的 Visual Studio 部署 BizTalk 組件](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)。  
+- 當開發人員應用程式組件部署到包含從結構描述[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]中所述[從 BizTalk 應用程式的 Visual Studio 部署 BizTalk 組件](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)。  
   
- 如需結構描述的背景資訊，請參閱[結構描述](../core/schemas.md)。 如需開發結構描述的詳細資訊，請參閱[建立結構描述使用 BizTalk 編輯器](../core/creating-schemas-using-biztalk-editor.md)。  
+  如需結構描述的背景資訊，請參閱[結構描述](../core/schemas.md)。 如需開發結構描述的詳細資訊，請參閱 <<c0> [ 建立結構描述使用 BizTalk 編輯器](../core/creating-schemas-using-biztalk-editor.md)。  
   
 > [!NOTE]
 >  您可以使用 Microsoft Windows Management Instrumentation (WMI) 物件模型，建立和執行會自動化系統管理工作的指令碼。 如需使用 WMI 的詳細資訊，請參閱**WMI 類別參考** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
@@ -42,8 +42,8 @@ ms.locfileid: "22262598"
   
 -   [顯示和隱藏屬性結構描述](../core/how-to-show-and-hide-property-schemas.md)  
   
--   [檢視結構描述定義 (XSD) 結構描述](../core/how-to-view-the-schema-definition-xsd-of-a-schema.md)  
+-   [檢視結構描述的結構描述定義 (XSD)](../core/how-to-view-the-schema-definition-xsd-of-a-schema.md)  
   
--   [設定追蹤之結構描述](../core/how-to-configure-tracking-for-a-schema.md)  
+-   [設定追蹤結構描述](../core/how-to-configure-tracking-for-a-schema.md)  
   
 -   [從應用程式移除結構描述](../core/how-to-remove-a-schema-from-an-application.md)

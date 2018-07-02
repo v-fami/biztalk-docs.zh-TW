@@ -1,5 +1,5 @@
 ---
-title: 步驟 7： 簽署和建置的專案 |Microsoft 文件
+title: 步驟 7： 簽署和建置的專案 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,19 +16,19 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f62a37da291bdc148369a28149cdfe29ed7fe446
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.openlocfilehash: b34ad40b7ee8e083f53e18c34e65fa3c8699d352
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
-ms.locfileid: "25961764"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36970119"
 ---
-# <a name="step-7-sign-and-build-the-projects"></a>步驟 7： 簽署和建置的專案
-在此步驟中，您指派強式名稱，並建置專案來產生組件，其中包含您在中建立的資源 （結構描述）[步驟 6： 驗證結構描述](../../adapters-and-accelerators/accelerator-hl7/step-6-validate-the-schemas.md)。 這也可確保您到目前為止完成的工作中沒有編譯錯誤。  
+# <a name="step-7-sign-and-build-the-projects"></a>步驟 7： 簽署和建置專案
+在此步驟中，您指派強式名稱，並建置專案以產生組件，其中包含您在中建立的資源 （結構描述）[步驟 6： 驗證結構描述](../../adapters-and-accelerators/accelerator-hl7/step-6-validate-the-schemas.md)。 這也可確保您到目前為止完成的工作中沒有任何編譯錯誤。  
   
 ### <a name="to-sign-the-btahl7-project"></a>BTAHL7 專案簽章  
   
-1.  在 方案總管 中，以滑鼠右鍵按一下**BTAHL7 專案**，然後按一下 **屬性**。  
+1.  在 [方案總管] 中，以滑鼠右鍵按一下**BTAHL7 專案**，然後按一下**屬性**。  
   
 2.  在 [BTAHL7 專案屬性頁] 對話方塊中，按一下**組件**。  
   
@@ -36,13 +36,13 @@ ms.locfileid: "25961764"
   
 4.  在 [組件金鑰檔案] 對話方塊中，瀏覽至 **\<*磁碟機*\>: \Tutorial\BTAHL7V22Common\key.snk** (在中建立[步驟 3： 指派強式名稱組件](../../adapters-and-accelerators/accelerator-hl7/step-3-assign-a-strong-name-to-the-assembly.md))，然後按一下 **開啟**。  
   
-5.  按一下**確定**以儲存變更。  
+5.  按一下 **確定**以儲存變更。  
   
 ### <a name="to-build-the-btahl7-project"></a>若要建置 BTAHL7 專案  
   
--   在 方案總管 中，以滑鼠右鍵按一下**BTAHL7 專案**，然後按一下 **部署**。 [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)]會編譯成 DLL 檔案的組件，並將儲存在\<*磁碟機*\>: \Tutorial\BTAHL7V22Common\Bin\Development 資料夾。  
+- 在 [方案總管] 中，以滑鼠右鍵按一下**BTAHL7 專案**，然後按一下**部署**。 [!INCLUDE[btsVStudio2008](../../includes/btsvstudio2008-md.md)] 編譯成 DLL 檔案的組件並儲存在\<*磁碟機*\>: \Tutorial\BTAHL7V22Common\Bin\Development 資料夾。  
   
- 若要繼續[步驟 8： 使用 BizTalk 對應工具建立對應](../../adapters-and-accelerators/accelerator-hl7/step-8-create-a-map-with-biztalk-mapper.md)。  
+  請繼續進行[步驟 8： 使用 BizTalk 對應工具建立對應](../../adapters-and-accelerators/accelerator-hl7/step-8-create-a-map-with-biztalk-mapper.md)。  
   
 ## <a name="see-also"></a>另請參閱  
  [訊息擴充教學課程](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

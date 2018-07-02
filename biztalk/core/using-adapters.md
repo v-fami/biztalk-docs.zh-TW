@@ -1,5 +1,5 @@
 ---
-title: 配接器清單 |Microsoft 文件
+title: 配接器清單 |Microsoft Docs
 description: ''
 ms.custom: ''
 ms.date: 11/16/2017
@@ -13,19 +13,19 @@ caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 700d14d45d33c54aac60b837dc33b553c447f686
-ms.sourcegitcommit: f65e8ed2b8c18cded26b9d60868fb6a56bcc1205
+ms.openlocfilehash: cbf2cd833a607efb98ee634774885ffaa1692f4a
+ms.sourcegitcommit: e7609c319b64ec20bf215d17aa5ac4f9dcae52ec
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/21/2017
-ms.locfileid: "25497783"
+ms.lasthandoff: 06/26/2018
+ms.locfileid: "36945553"
 ---
 # <a name="available-adapters-in-biztalk-server"></a>在 BizTalk Server 中的可用配接器
 
 ## <a name="overview"></a>概觀
 本節包含有關配接器的完整資訊。 描述如何在 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中使用配接器，以及如何為每個配接器設定配接器處理常式、傳送埠以及接收位置。 它提供的批次支援資訊可協助您瞭解與使用 BizTalk 解決方案中的原生配接器。  
   
- 使用配接器屬性頁的鍵盤快速鍵的相關資訊，請參閱[配接器屬性頁鍵盤快速鍵](../core/adapter-property-page-keyboard-shortcuts.md)。  
+ 如需使用配接器屬性頁的鍵盤快速鍵的資訊，請參閱[配接器屬性頁鍵盤快速鍵](../core/adapter-property-page-keyboard-shortcuts.md)。  
   
 ## <a name="adapters-list"></a>配接器清單
   
@@ -35,7 +35,7 @@ ms.locfileid: "25497783"
   
 -   [配接器的安全性考量](../core/security-considerations-for-adapters.md)  
 
--   [事件中心配接器](../core/event-hubs-adapter.md)
+-   [事件中樞配接器](../core/event-hubs-adapter.md)
   
 -   [SB Messaging 配接器](../core/sb-messaging-adapter.md)  
   
@@ -52,6 +52,8 @@ ms.locfileid: "25497783"
 -   [MQSeries 配接器](../core/mqseries-adapter.md)  
   
 -   [MSMQ 配接器](../core/msmq-adapter.md)  
+
+-   [Office 365 配接器](office365-adapters.md)
   
 -   [POP3 配接器](../core/pop3-adapter.md)  
   

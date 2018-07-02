@@ -1,5 +1,5 @@
 ---
-title: 訊息處理中 BTARN |Microsoft 文件
+title: 訊息在 BTARN 中的處理 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,15 +15,15 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 27d3448902c7a8957a80c6cf926ba78ce41d342d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f2833d0ae20462d5be84a45b49fc2e1fde44be4f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209622"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36967143"
 ---
 # <a name="message-processing-in-btarn"></a>BTARN 中的訊息處理
-本章節說明 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 的主要元件如何處理訊息。 本節中的主題會在適當時機說明訊息在元件中的流程。  
+本章節描述如何 Microsoft® 的主要元件[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]處理訊息。 本節中的主題會在適當時機說明訊息在元件中的流程。  
   
 ## <a name="in-this-section"></a>本節內容  
   
@@ -37,4 +37,4 @@ ms.locfileid: "22209622"
   
 -   [BTARN 中的 SQL 處理](../../adapters-and-accelerators/accelerator-rosettanet/sql-processing-in-btarn.md)  
   
--   [傳送和接收 ASPX 頁面](../../adapters-and-accelerators/accelerator-rosettanet/send-and-receive-aspx-pages.md)
+-   [ASPX 傳送頁面與接收頁面](../../adapters-and-accelerators/accelerator-rosettanet/send-and-receive-aspx-pages.md)

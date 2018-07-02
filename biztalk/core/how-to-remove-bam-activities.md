@@ -1,5 +1,5 @@
 ---
-title: 如何移除 BAM 活動 |Microsoft 文件
+title: 如何移除 BAM 活動 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,27 +17,27 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 67320d4d7d96f037e8d16132e0274b43feee8003
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: a45201791912e960976d2e7820ae5421ebefe411
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25973308"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972759"
 ---
 # <a name="how-to-remove-bam-activities"></a>如何移除 BAM 活動
-系統管理員使用**移除活動**命令，從 BAM 主要匯入資料庫移除指定的活動。  
+系統管理員可以使用**移除活動**命令，從 BAM 主要匯入資料庫移除指定的活動。  
   
 ### <a name="to-remove-a-bam-activity"></a>移除 BAM 活動  
   
-1.  開啟命令提示字元，如下所示： 按一下**啟動**，按一下**執行**，型別**cmd**，然後按一下 **確定**。  
+1. 開啟命令提示字元，如下所示： 按一下**開始**，按一下**執行**，型別**cmd**，然後按一下 **確定**。  
   
-2.  瀏覽至 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]。  
+2. 瀏覽至 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]。  
   
-3.  型別**bm 移除活動的名稱：\<活動名稱\>**。  
+3. 型別**bm 移除活動-名稱：\<活動名稱\>**。  
   
-4.  按 ENTER 鍵。  
+4. 按 ENTER 鍵。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   
  [BAM 安全性建議](../core/bam-security-recommendations.md)   
  [BAM 管理公用程式](../core/bam-management-utility.md)

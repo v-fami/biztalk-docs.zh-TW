@@ -1,5 +1,5 @@
 ---
-title: Sysprep BizTalk Server VHD （BizTalk Server 範例） |Microsoft 文件
+title: Sysprep 對 BizTalk Server VHD （BizTalk Server 範例） |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,23 +12,23 @@ caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cc6ec29ece503f324758cdc08a6ff1351c066af4
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: ef9152e9a95c9a6a6cec0cedb3e5fa5c60022bf9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26007767"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36974407"
 ---
-# <a name="sysprep-a-biztalk-server-vhd-biztalk-server-sample"></a>Sysprep BizTalk Server VHD （BizTalk Server 範例）
+# <a name="sysprep-a-biztalk-server-vhd-biztalk-server-sample"></a>Sysprep 對 BizTalk Server VHD （BizTalk Server 範例）
 Sysprep 會從已安裝 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的虛擬機器建立快照集，以便快速部署到其他虛擬機器上。  
   
 ## <a name="prerequisites"></a>必要條件  
- 之前使用 Sysprep，您應該先使用虛擬機器與 HYPER-V 的一些知識。 您也應該擁有乾淨、 一般安裝中的 BizTalk Server 及所有其必要條件的虛擬機器。  
+ 之前使用 Sysprep，您應該先使用 HYPER-V 的虛擬機器的一些知識。 您也應該具有 BizTalk Server 和其所有先決條件的全新一般安裝的虛擬機器。  
   
- Windows Server 2008 和 Windows Vista SP1 上執行 Sysprep。  
+ Sysprep 將 Windows Server 2008 和 Windows Vista SP1 上執行。  
   
 ## <a name="what-this-sample-does"></a>此範例的用途  
- Sysprep 會建立 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 安裝的 VHD (含作業系統和所有必要元件)，以便快速安裝到其他虛擬機器上。 建立使用 Sysprep 映像會選擇新的電腦名稱，才能加入網域的第一次啟動。 若要取得正確執行的 BizTalk Server，就必須更新儲存在登錄和資料庫中的電腦名稱的不同執行個體。  
+ Sysprep 會建立 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 安裝的 VHD (含作業系統和所有必要元件)，以便快速安裝到其他虛擬機器上。 建立使用 Sysprep 的映像將會選擇新的電腦名稱，以加入網域的第一次啟動。 若要取得正常執行的 BizTalk Server，就必須更新儲存在登錄和資料庫中的電腦名稱的不同執行個體。  
   
  本文件假設 BizTalk Server 設定為在單一電腦上執行，並示範如何使用新名稱更新的電腦名稱的其他執行個體。  
   
@@ -40,54 +40,54 @@ Sysprep 會從已安裝 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbizt
  下表顯示此範例中的檔案，並描述其用途。  
   
 > [!NOTE]
->  下表中的.vbs 和.cmd 檔案自動化 Sysprep 回應檔案 （Sysprep.xml、 SetupCompletecmd.txt） 中，此處僅供參照。 如果您需要手動執行這些指令碼，它們的順序執行它們出現在資料表中。  
+>  下表中的.vbs 和.cmd 的檔案自動化 （Sysprep.xml 和 SetupCompletecmd.txt），才會進行 Sysprep 回應檔案中，並僅供參考此處列出。 如果您需要手動執行這些指令碼，請在資料表中出現的順序執行它們。  
   
-|檔案|Description|  
+|檔案|描述|  
 |----------|-----------------|  
 |Sysprep.xml|回應檔案|  
 |SetupCompletecmd.txt|回應檔案|  
-|ReplaceMachineName.vbs|用途： 開啟檔案，並給定字串的所有執行個體，取代目前的電腦名稱。 準備其他指令碼和 xml 檔案，並更新 bm.exe.config 很有用。<br /><br /> 使用方式： ReplaceMachineName.vbs\<檔案以開啟\>\<来取代的字串\>|  
-|UpdateRegistry.vbs|用途： 更新 BizTalk 登錄設定中儲存的電腦名稱。<br /><br /> 使用方式： UpdateRegistry.vbs \<UpdateInfo.xml\>。 請務必取代 $(OLDCOMPUTERNAME) 和 $(NEWCOMPUTERNAME) 這個 xml 檔案中的所有執行個體。|  
+|ReplaceMachineName.vbs|用途： 開啟檔案，並取代目前的電腦名稱的指定字串的所有執行個體。 若要準備其他指令碼和 xml 檔案，並更新 bm.exe.config 很有用。<br /><br /> 使用方式： ReplaceMachineName.vbs\<檔案，以開啟\>\<来取代的字串\>|  
+|UpdateRegistry.vbs|用途： 更新儲存在 BizTalk 登錄設定中的電腦名稱。<br /><br /> 使用方式： UpdateRegistry.vbs \<UpdateInfo.xml\>。 請務必取代 $(OLDCOMPUTERNAME) 和 $(NEWCOMPUTERNAME) 這個 xml 檔案中的所有執行個體。|  
 |UpdateDatabase.vbs|用途： 更新儲存在 BizTalk 管理資料庫中的電腦名稱。<br /><br /> 使用方式： UpdateDatabase.vbs \<UpdateInfo.xml\>|  
 |UpdateBAMDb.vbs|用途： 更新儲存在 BAM 資料庫的電腦名稱。<br /><br /> 使用方式： UpdateBamDb.vbs \<UpdateInfo.xml\>|  
 |UpdateSSO.cmd|用途： 重新設定 「 企業單一登入 (SSO) 密碼伺服器。<br /><br /> 使用方式： sso.cmd \<UpdateInfo.xml\>|  
-|UpdateSqlServerAndInstanceName.cmd|用途： 重新設定 SQL，SQL Express、 重新啟動一系列相依的服務，並 reregisters BAMAlerts。<br /><br /> 使用方式： 編輯指令碼的 $(NEWCOMPUTERNAME)，所有執行個體並更新 serviceusername 和 servicepassword BAM 警示。 然後，執行 UpdateSqlServerAndInstanceName.cmd 傳遞做為第一個引數舊的電腦名稱。|  
+|UpdateSqlServerAndInstanceName.cmd|用途： 重新設定 SQL 和 SQL Express、 重新啟動一系列相依的服務，以及 reregisters BAMAlerts。<br /><br /> 使用方式： 編輯指令碼和取代的 $(NEWCOMPUTERNAME)，所有執行個體，並更新 serviceusername 和 servicepassword BAM 警示。 然後執行 UpdateSqlServerAndInstanceName.cmd 舊的電腦名稱作為第一個引數傳遞。|  
   
-## <a name="creating-the-answer-files-and-running-sysprep"></a>建立回應檔案和執行 Sysprep  
+## <a name="creating-the-answer-files-and-running-sysprep"></a>建立回應檔案，並執行 Sysprep  
   
 #### <a name="to-create-the-answer-files"></a>若要建立回應檔案  
   
-1.  安裝和設定 BizTalk Server 的虛擬機器上。 請務必使用預設安裝和設定選項，因為 Sysprep 不支援自訂的安裝。  
+1. 安裝和設定 BizTalk Server 的虛擬機器上。 請務必使用預設安裝和設定選項，因為 Sysprep 不支援自訂的安裝。  
   
-2.  包含 「 指令碼 」 資料夾的內容複製到 C:\Scripts，虛擬機器上。  
+2. 將包含 「 指令碼 」 資料夾的內容複製到 C:\Scripts 中，虛擬機器上。  
   
-3.  藉由修改下列行中 Sysprep.xml 準備 sysprep 回應檔案。 (注意： 這些線條會標記為"！" 之前。）您可以使用這些範本，或自行建立並透過複製\<FirstLogonCommands\> > 一節。  
+3. 藉由修改 Sysprep.xml 中的下列行準備 sysprep 回應檔案。 (注意： 這幾行會標有"！" 之前。）您可以使用這些做為範本，或建立您自己和複製\<FirstLogonCommands\>一節。  
   
-    -   $(OLDCOMPUTERNAME) 取代目前的虛擬機器的電腦名稱。  
+   - $(OLDCOMPUTERNAME) 取代目前的電腦名稱的虛擬機器。  
   
-    -   使用者帳戶  
+   - 使用者帳戶  
   
-    -   密碼  
+   - 密碼  
   
-    -   UpdateSqlServerAndInstance.cmd 和您 Sysprep.xml 中也應該更新任何公司詳細資料。  
+   - 也應該 UpdateSqlServerAndInstance.cmd 和您 Sysprep.xml 中更新任何公司詳細資料。  
   
-     或者，您可以從頭開始建立 Sysprep 回應檔案使用[自動化安裝套件 (AIK)](http://www.microsoft.com/downloads/details.aspx?FamilyID=94bb6e34-d890-4932-81a5-5b50c657de08&DisplayLang=en) Windows Server 2008 上。 請確認您\<FirstLogonCommands\>區段比對這些範例，因此 BizTalk 指令碼會執行第一次開機。  
+     或者，您可以從頭開始建立 Sysprep 回應檔案使用[自動化安裝套件 (AIK)](http://www.microsoft.com/downloads/details.aspx?FamilyID=94bb6e34-d890-4932-81a5-5b50c657de08&DisplayLang=en) Windows Server 2008 上。 請確認您\<FirstLogonCommands\>區段比對的範例，因此 BizTalk 指令碼會在首次開機。  
   
-#### <a name="to-run-sysprep"></a>若要執行 Sysprep  
+#### <a name="to-run-sysprep"></a>執行 Sysprep  
   
-1.  開啟命令提示字元，然後執行 Sysprep。 此命令看起來像這樣：  
+1. 開啟命令提示字元並執行 Sysprep。 此命令會看起來像：  
   
-    ```  
-    C:\windows\system32\sysprep\sysprep.exe /oobe /generalize /shutdown /unattend:c:\scripts\unattend_Win2K8x64.xml  
-    ```  
+   ```  
+   C:\windows\system32\sysprep\sysprep.exe /oobe /generalize /shutdown /unattend:c:\scripts\unattend_Win2K8x64.xml  
+   ```  
   
-2.  Sysprep 執行的時間約半小時。 當完成時，它會自動關閉虛擬機器。  
+2. Sysprep 需要約半小時，才能執行。 完成時，它會自動關閉虛擬機器。  
   
-3.  虛擬機器關機之後，會合併任何快照集，並將 VHD 檔案複製到安全的位置。  
+3. 虛擬機器已關閉之後，合併任何快照集，並將 VHD 檔案複製到安全的位置。  
   
-4.  您的 VHD 已經準備好要部署其他的虛擬機器上完成，但作業系統、 BizTalk Server 及所有的必要條件。  
+4. 現在可供其他虛擬機器上，完整的作業系統、 BizTalk Server 及所有必要條件部署您的 VHD。  
   
- **SetupCompletecmd.txt**  
+   **SetupCompletecmd.txt**  
   
 ```  
 del /Q /F c:\windows\system32\sysprep\sysprep.xml  
@@ -255,4 +255,4 @@ Known issues:
 ```  
   
 ## <a name="comments"></a>註解  
- 這些指令碼不會修改 Microsoft Office SharePoint Server。 如果您使用 Windows SharePoint Services 配接器，您可能必須重新設定 Microsoft Office SharePoint Server，然後更新 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\BizTalk Server\3.0\ SharePointAdapterManagementGroup 機碼TPM。
+ 這些指令碼不會修改 Microsoft Office SharePoint Server。 如果您使用的 Windows SharePoint Services 配接器，您可能必須重新設定 Microsoft Office SharePoint Server，然後更新 HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\BizTalk Server\3.0\ 的 SharePointAdapterManagementGroup 機碼TPM。

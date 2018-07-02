@@ -1,5 +1,5 @@
 ---
-title: BizTalk Accelerator for HL7 元件 |Microsoft 文件
+title: BizTalk Accelerator for HL7 元件 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,21 +15,21 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 63c6cbadac45bc0fb116f0f0046e4b87f61ffcd8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 97bc88b601e9b01f3ae119e868fce0b1f91b5cc6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22204390"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36973863"
 ---
 # <a name="biztalk-accelerator-for-hl7-components"></a>BizTalk Accelerator for HL7 元件
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 元件包括 HL7 和 XML 解譯器 HL7 和 XML 組合器，接收和傳送埠、 管線和批次協調流程。 這些元件放入[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]系統，以提供無縫式的醫療保健方案。  
+Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 元件包括 HL7 和 XML 解譯器、 HL7 和 XML 組合器，接收和傳送埠、 管線和批次協調流程。 這些元件納入 Microsoft[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]提供無縫式的醫療保健解決方案的系統。  
   
 ## <a name="in-this-section"></a>本節內容  
   
--   [HL7 解譯器和組合器](../../adapters-and-accelerators/accelerator-hl7/hl7-disassembler-and-assembler.md)  
+-   [HL7 反組譯工具和組譯工具](../../adapters-and-accelerators/accelerator-hl7/hl7-disassembler-and-assembler.md)  
   
--   [XML 解譯器和組合器](../../adapters-and-accelerators/accelerator-hl7/xml-disassembler-and-assembler.md)  
+-   [XML 反組譯工具和組譯工具](../../adapters-and-accelerators/accelerator-hl7/xml-disassembler-and-assembler.md)  
   
 -   [MLLP 接收和傳送元件](../../adapters-and-accelerators/accelerator-hl7/mllp-receive-and-send-components.md)  
   

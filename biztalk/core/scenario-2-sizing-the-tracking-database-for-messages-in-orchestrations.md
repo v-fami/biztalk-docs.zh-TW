@@ -1,5 +1,5 @@
 ---
-title: 案例 2： 在協調流程中的訊息調整追蹤資料庫 |Microsoft 文件
+title: 案例 2： 為協調流程中的訊息中調整追蹤資料庫的大小 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,12 +14,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 62ea6e463dfb3a44e2628f57b632634d7a9bd212
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9df587902f8b527e82d202221211b8c09cf2f418
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22269830"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976983"
 ---
 # <a name="scenario-2-sizing-the-tracking-database--for-messages-in-orchestrations"></a>實例 2：為協調流程中的訊息調整追蹤資料庫的大小
 讓我們看一個包括協調流程的範例。 下圖顯示整個商務程序。 在此實例中，一個訊息進入 BizTalk Server，透過協調流程傳送，在協調流程中變更，然後透過傳送埠傳送出去。  
@@ -30,29 +30,29 @@ ms.locfileid: "22269830"
   
  以下是與此實例相關的事實：  
   
--   訊息大小為 5K。  
+- 訊息大小為 5K。  
   
--   我們未升級任何屬性。  
+- 我們未升級任何屬性。  
   
--   我們一年內所接收的訊息數目為三百五十萬。  
+- 我們一年內所接收的訊息數目為三百五十萬。  
   
--   開啟所有事件的追蹤。 在此實例中有 6 個事件：  
+- 開啟所有事件的追蹤。 在此實例中有 6 個事件：  
   
-    -   收到訊息 M0  
+  -   收到訊息 M0  
   
-    -   接收埠輸出訊息 M1  
+  -   接收埠輸出訊息 M1  
   
-    -   協調流程收到訊息 M1  
+  -   協調流程收到訊息 M1  
   
-    -   協調流程輸出訊息 M2  
+  -   協調流程輸出訊息 M2  
   
-    -   傳送埠收到訊息 M2  
+  -   傳送埠收到訊息 M2  
   
-    -   傳送管線輸出訊息 M3  
+  -   傳送管線輸出訊息 M3  
   
--   在此實例中建立了三個額外的訊息。 訊息 M0 是內送訊息，因此並不是由 BizTalk Server 所建立。 訊息 M1 是來自接收埠的輸出訊息、M2 是來自協調流程的輸出訊息，而 M3 則是來自傳輸埠的輸出訊息。  
+- 在此實例中建立了三個額外的訊息。 訊息 M0 是內送訊息，因此並不是由 BizTalk Server 所建立。 訊息 M1 是來自接收埠的輸出訊息、M2 是來自協調流程的輸出訊息，而 M3 則是來自傳輸埠的輸出訊息。  
   
- 將此資訊套用至公式會產生下列結果：  
+  將此資訊套用至公式會產生下列結果：  
   
 ```  
 [(3*150 bytes) + (6*230 bytes) + (0*0(52 bytes + 0) * 3,500,000]/1024/1024  
@@ -81,5 +81,5 @@ ms.locfileid: "22269830"
  [使用訊息變數調整追蹤資料庫的大小](../core/using-message-variables-to-size-the-tracking-database.md)   
  [追蹤訊息內文追蹤資料庫設定大小](../core/sizing-the-tracking-database-to-track-message-bodies.md)   
  [案例 1： 針對簡單 BizTalk 訊息調整追蹤資料庫](../core/scenario-1-sizing-the-tracking-database-for-simple-biztalk-messages.md)   
- [案例 4： 所有訊息調整追蹤資料庫](../core/scenario-4-sizing-the-tracking-database-for-all-messages.md)   
- [案例 3： 調整追蹤資料庫外送到通訊群組清單之訊息的大小](../core/scenario-3-size-the-tracking-database-for-messages-sent-to-distribution-lists.md)
+ [案例 4： 針對所有訊息調整追蹤資料庫](../core/scenario-4-sizing-the-tracking-database-for-all-messages.md)   
+ [案例 3：為外送到通訊群組清單的訊息調整追蹤資料庫的大小](../core/scenario-3-size-the-tracking-database-for-messages-sent-to-distribution-lists.md)

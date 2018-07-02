@@ -1,5 +1,5 @@
 ---
-title: 產生外寄 MDN |Microsoft 文件
+title: 產生外寄 MDN |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a903cc72a41362f6843449a4d635878706f2ea1e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b9fdd5b5d52d5d741b71ec46be276b4926528a67
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22247950"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36984471"
 ---
 # <a name="generating-an-outgoing-mdn"></a>產生外寄 MDN
 AS2 接收管線會針對內送訊息產生 MDN (訊息處理通知) 回應。 這項工作是由 AS2EDIReceive 接收管線中的 EDI 解譯器 (回應 EDI 編碼的訊息) 或 AS2Receive 接收管線中的 AS2 解譯器 (回應非 EDI 編碼的訊息) 負責執行。  
@@ -25,25 +25,25 @@ AS2 接收管線會針對內送訊息產生 MDN (訊息處理通知) 回應。 �
 ## <a name="when-and-how-an-mdn-is-generated"></a>何時及如何產生 MDN  
  MDN 通常是根據原始 AS2 訊息中的 AS2 標頭而產生，如下所示：  
   
--   如果 AS2 訊息中出現 Disposition-Notification-To 標頭，將會傳送 MDN。  
+- 如果 AS2 訊息中出現 Disposition-Notification-To 標頭，將會傳送 MDN。  
   
--   如果訊息中出現 Disposition-Notification-To 標頭和 Receipt-Delivery-Option 標頭，則會以非同步的方式傳送 MDN。 它會透過與原始訊息不同的連線，傳送到 Receipt-Delivery-Option 標頭中的 URL。  
+- 如果訊息中出現 Disposition-Notification-To 標頭和 Receipt-Delivery-Option 標頭，則會以非同步的方式傳送 MDN。 它會透過與原始訊息不同的連線，傳送到 Receipt-Delivery-Option 標頭中的 URL。  
   
--   如果訊息中出現 Disposition-Notification-To 標頭，但是沒有 Receipt-Delivery-Option 標頭，則會以同步的方式，透過與原始訊息相同的連線傳送 MDN。  
+- 如果訊息中出現 Disposition-Notification-To 標頭，但是沒有 Receipt-Delivery-Option 標頭，則會以同步的方式，透過與原始訊息相同的連線傳送 MDN。  
   
- 解譯器會從收到的 AS2 訊息中的 AS2-To 標頭，在 MDN 中建立 AS2-From 標頭，並從收到的 AS2 訊息中的 AS2-From 標頭，在 MDN 中建立 AS2-To 標頭。  
+  解譯器會從收到的 AS2 訊息中的 AS2-To 標頭，在 MDN 中建立 AS2-From 標頭，並從收到的 AS2 訊息中的 AS2-From 標頭，在 MDN 中建立 AS2-To 標頭。  
   
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 可讓您覆寫這些設定，包括根據合作對象的 AS2 協議屬性，指定是否產生 MDN 及其產生方式。 您覆寫訊息中的 AS2 標頭設定**對驗證與 MDN 使用協議設定，而非訊息標頭**屬性的單向 AS2 協議索引標籤中**協議屬性** 對話方塊。 這個屬性可讓您傳送 MDN (即使 AS2 標頭未呼叫它也一樣)，或是在 AS2 標頭指定同步連線時非同步傳送 MDN。  
+  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 可讓您覆寫這些設定，包括根據合作對象的 AS2 協議屬性，指定是否產生 MDN 及其產生方式。 您覆寫訊息中的 AS2 標頭設定**使用協議設定進行驗證與 MDN 取代訊息標頭**屬性的單向 AS2 協議索引標籤**協議屬性** 對話方塊。 這個屬性可讓您傳送 MDN (即使 AS2 標頭未呼叫它也一樣)，或是在 AS2 標頭指定同步連線時非同步傳送 MDN。  
   
- 如果您設定**對驗證與 MDN 使用協議設定，而非訊息標頭**屬性中的值**要求 MDN**區段**傳送者 MDN 設定**頁面在單向 AS2 協議索引標籤的**協議屬性**對話方塊將會用於 MDN，如下所示：  
+  如果您設定**使用協議設定進行驗證與 MDN 取代訊息標頭**屬性中中的值**的 要求 MDN**一節**傳送者 MDN 設定**頁面在單向 AS2 協議索引標籤**協議屬性**對話方塊將會用於 MDN，如下所示：  
   
--   如果會傳送 MDN**要求 MDN**選取屬性。  
+- 如果會傳送 MDN**的 要求 MDN**選取屬性。  
   
--   如果**要求 MDN**選取屬性，而**要求非同步 MDN**屬性，將會以非同步方式傳送 MDN。 MDN 會傳送到的 URL，**回條傳遞選項 (URL)** 屬性設定為，透過與原始訊息不同的連線。  
+- 如果**的 要求 MDN**選取屬性，而**要求非同步 MDN**選取屬性，將會以非同步方式傳送 MDN。 MDN 會傳送至的 URL，**回條傳遞選項 (URL)** 屬性設定為，透過與原始訊息不同的連線。  
   
--   如果**要求 MDN**選取屬性，但**要求非同步 MDN**未選取屬性，將以同步方式傳送 MDN，透過與原始訊息相同的連線。  
+- 如果**的 要求 MDN**選取屬性，但**要求非同步 MDN**未選取屬性，將以同步方式傳送 MDN，透過與原始訊息相同的連線。  
   
- 如果**對驗證與 MDN 使用協議設定，而非訊息標頭**設定屬性，AS2-從訊息中的屬性標頭會用來產生 MDN，但是 AS2-若要將取自協議屬性中，並管線會簽署 MDN 根據**要求簽署的 MDN**屬性。 AS2 標頭會依照下列方式對應至協議屬性：  
+  如果**使用協議設定進行驗證與 MDN 取代訊息標頭**設定屬性，AS2-從訊息中的屬性會使用標頭產生 MDN，但 AS2-若要將取自協議屬性中，並管線會簽署根據 MDN**要求簽署的 MDN**屬性。 AS2 標頭會依照下列方式對應至協議屬性：  
   
 |協議屬性|訊息中的 AS2 標頭|  
 |------------------------|-------------------------------|  
@@ -53,24 +53,24 @@ AS2 接收管線會針對內送訊息產生 MDN (訊息處理通知) 回應。 �
   
  如果 MDN 已啟用，接收管線將會升級下列內容屬性：  
   
--   `EdiIntAS.DispositionMode`  
+- `EdiIntAS.DispositionMode`  
   
--   `EdiIntAS.DispositionType`  
+- `EdiIntAS.DispositionType`  
   
- 這兩個內容屬性都必須升級，才能產生 MDN。 如需有關這些內容屬性的詳細資訊，請參閱[AS2 內容屬性](../core/as2-context-properties.md)。  
+  這兩個內容屬性都必須升級，才能產生 MDN。 如需有關這些內容屬性的詳細資訊，請參閱 < [AS2 內容屬性](../core/as2-context-properties.md)。  
   
- 若組態設定和內送訊息的標頭不一致，管線就會產生負 MDN。  
+  若組態設定和內送訊息的標頭不一致，管線就會產生負 MDN。  
   
- 如果在協議屬性中要求 MDN，則即使 AS2 處理中發生錯誤，接收管線也會嘗試傳送 MDN。  
+  如果在協議屬性中要求 MDN，則即使 AS2 處理中發生錯誤，接收管線也會嘗試傳送 MDN。  
   
 ## <a name="how-the-receive-pipeline-processes-a-generated-mdn"></a>接收管線如何處理產生的 MDN  
- 如果 MDN 產生根據上述規則 AS2EDIReceive 或 AS2Receive 接收管線就會以下列方式處理 MDN:  
+ 如果 MDN 產生根據上述規則，也就是 AS2EDIReceive 或 AS2Receive 接收管線就會以下列方式處理 MDN:  
   
 -   如果已在單向 AS2 協議屬性中啟用，就複製 MDN (採用電傳格式) 並將它儲存在不可否認性資料庫中。  
   
 -   如果已在單向 AS2 協議屬性中啟用，則執行 MIME 處理，包括套用數位簽章。  
   
--   計算 AS2 訊息內容的 MIC (訊息完整性檢查)，並將它附加到 MDN 的 Received-content-MIC 延伸模組欄位。 要套用的 MIC 由內送訊息的簽署回條 micalg 標頭的演算法或**簽署演算法**屬性**傳送者 MDN 設定**頁面的單向協議索引標籤的**協議屬性**對話方塊 （當輸入的訊息屬性會覆寫）。 它可以是 SHA1 或 MD5。 演算法的值也會包括在 MDN 中。  
+-   計算 AS2 訊息內容的 MIC (訊息完整性檢查)，並將它附加到 MDN 的 Received-content-MIC 延伸模組欄位。 內送訊息的簽署回條 micalg 標頭的 MIC 是由決定套用至演算法或**簽署演算法**屬性上的**傳送者 MDN 設定**頁面的單向協議索引標籤**協議屬性**對話方塊 （當輸入的訊息屬性會覆寫）。 它可以是 SHA1 或 MD5。 演算法的值也會包括在 MDN 中。  
   
 -   在不可否認性的資料庫中建立相互關聯項目。  
   

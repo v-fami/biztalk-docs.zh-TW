@@ -1,5 +1,5 @@
 ---
-title: 使用通知 |Microsoft 文件
+title: 使用通知 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -34,12 +34,12 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0c3a5363ee70a67c5882088af9fa3d2f4b805823
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2fe568185bde471bea9396786e58c31ced960d23
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22288182"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36968183"
 ---
 # <a name="using-acknowledgments"></a>使用通知
 「BizTalk 傳訊引擎」會產生正值通知 (ACK) 和負值通知 (NACK)，以回應透過連接埠處理訊息期間發生的狀況。 BizTalk Server 發佈正值通知表示訊息傳輸成功，發佈負值通知表示訊息傳輸失敗與訊息擱置。  
@@ -47,26 +47,26 @@ ms.locfileid: "22288182"
 ## <a name="why-use-acknowledgments"></a>為什麼要使用通知？  
  正值和負值的通知提供強式回饋，您可以用來判斷訊息是否已送達目的地或在傳送途中發生一或多個問題。 例如在下列情況下，通知便非常有用：  
   
--   要監控新交易夥伴的接收埠之結構描述驗證和其他錯誤。  
+- 要監控新交易夥伴的接收埠之結構描述驗證和其他錯誤。  
   
--   若貸款要求已順利傳送給夥伴進行核准時，要將此要求已送出等待核准的狀態標示為「進行中」，或傳輸失敗時 (例如，夥伴的伺服器已停止) 要將狀態標示為「已失敗」。  
+- 若貸款要求已順利傳送給夥伴進行核准時，要將此要求已送出等待核准的狀態標示為「進行中」，或傳輸失敗時 (例如，夥伴的伺服器已停止) 要將狀態標示為「已失敗」。  
   
--   處理包含多個訂單的交換且要追蹤已傳輸或傳輸失敗的訂單數量。  
+- 處理包含多個訂單的交換且要追蹤已傳輸或傳輸失敗的訂單數量。  
   
- 您都可以使用通知和使用篩選的以內容為基礎之路由來完成這些情況。  
+  您都可以使用通知和使用篩選的以內容為基礎之路由來完成這些情況。  
   
 ## <a name="routing-acknowledgments"></a>路由通知  
- 發佈 ACK 或 NACK 時，引起 ACK/NACK 之訊息的所有訊息內容屬性都會被降級。 升級的任何屬性都不會流入通知。 路由通知，以建置篩選條件使用的下列屬性**BTS**命名空間：  
+ 發佈 ACK 或 NACK 時，引起 ACK/NACK 之訊息的所有訊息內容屬性都會被降級。 升級的任何屬性都不會流入通知。 路由傳送通知，建置使用的下列屬性篩選**BTS**命名空間：  
   
-|屬性名稱|資料類型|Description|  
+|屬性名稱|資料類型|描述|  
 |-------------------|---------------|-----------------|  
-|BTS.AckFailureCategory|xs:int|識別**ErrorCategory**，可讓和暫止的原因。|  
-|BTS.AckFailureCode|xs:string|識別**ErrorCode**，可讓和暫止的原因。|  
+|BTS.AckFailureCategory|xs:int|識別**ErrorCategory**，它提供位置和暫止原因。|  
+|BTS.AckFailureCode|xs:string|識別**ErrorCode**，它提供位置和暫止原因。|  
 |BTS.AckType|xs:string|正值通知的值為 ACK，負值通知的值為 NACK。|  
 |BTS.AckID|xs:string|識別**MessageID**原始訊息。|  
 |BTS.AckOwnerID|xs:string|識別原始訊息的執行個體識別碼。|  
 |BTS.CorrelationToken|xs:string|識別原始訊息的相互關聯 Token (若有的話)。|  
-|BTS.AckDescription|xs:string|識別**ErrorDescription**，可讓和暫止的原因。|  
+|BTS.AckDescription|xs:string|識別**ErrorDescription**，它提供位置和暫止原因。|  
 |BTS.AckSendPortID|xs:string|識別**SendPortID**原始訊息。|  
 |BTS.AckSendPortName|xs:string|識別**SendPortName**原始訊息。|  
 |BTS.AckOutboundTransportLocation|xs:string|識別**OutboundTransportLocation**原始訊息。|  

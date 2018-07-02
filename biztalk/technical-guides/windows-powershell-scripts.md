@@ -1,5 +1,5 @@
 ---
-title: Windows PowerShell 指令碼 |Microsoft 文件
+title: Windows PowerShell 指令碼 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,23 +12,23 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4248a81f918b674dcf72c930132b7743472241f3
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: b531fa3469139434f341fe9e413a49b4b021e86f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25976340"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979127"
 ---
 # <a name="windows-powershell-scripts"></a>Windows PowerShell 指令碼
 本主題包含可以套用本指南中所述的登錄設定 BizTalk Server 環境中的電腦執行的 Windows PowerShell 指令碼。  
   
-> [!IMPORTANT]  
->  這些指令碼應該只能在執行[!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)]、 不是在[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]。 這些指令碼會在成功執行時[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]、 實驗室測試，這些指令碼不會提供任何顯著的效能優勢上指出[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]。 這些指令碼應該只能在執行[!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)]之後要進行徹底測試和評估實際執行環境。  
+> [!IMPORTANT]
+>  只應該在執行這些指令碼[!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)]，不是在[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]。 雖然這些指令碼將會成功地在執行[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]、 實驗室測試已指出這些指令碼，並不提供任何顯著的效能優勢上[!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]。 這些指令碼應該只執行[!INCLUDE[btsWinSvr2k3](../includes/btswinsvr2k3-md.md)]徹底測試和評估後的生產環境。  
   
-## <a name="optimizing-operating-system-performance-through-registry-settings"></a>最佳化透過登錄設定的作業系統效能  
- 下列 Windows PowerShell 指令碼可用來套用所述的登錄設定[最佳化作業系統效能](../technical-guides/optimizing-operating-system-performance.md)。  
+## <a name="optimizing-operating-system-performance-through-registry-settings"></a>透過登錄設定的作業系統效能最佳化  
+ 下列 Windows PowerShell 指令碼可用來套用登錄設定中所述[最佳化作業系統效能](../technical-guides/optimizing-operating-system-performance.md)。  
   
- 將下列指令碼複製到 [記事本]，並儲存為組 OSRegSettings.ps1。 然後在每一部電腦上執行指令碼[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中的指示[最佳化作業系統效能](../technical-guides/optimizing-operating-system-performance.md):  
+ 將下列指令碼複製到 [記事本]，並將儲存為集 OSRegSettings.ps1。 然後在每部電腦上執行指令碼[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中的指示[最佳化作業系統效能](../technical-guides/optimizing-operating-system-performance.md):  
   
 ```  
 #Set-OSRegSettings.ps1  
@@ -121,10 +121,10 @@ SetProperty "HKLM:\System\CurrentControlSet\Services\LanmanServer\Parameters" "S
 SetProperty "HKLM:\System\CurrentControlSet\Control\Session Manager\Memory Management" "LargeSystemCache" 0          
 ```  
   
-## <a name="optimizing-network-performance-through-registry-settings"></a>透過登錄設定的網路效能最佳化  
- 下列 Windows PowerShell 指令碼可用來套用所述的登錄設定[最佳化網路效能](../technical-guides/optimizing-network-performance.md)。  
+## <a name="optimizing-network-performance-through-registry-settings"></a>透過登錄設定的最佳化網路效能  
+ 下列 Windows PowerShell 指令碼可用來套用登錄設定中所述[最佳化網路效能](../technical-guides/optimizing-network-performance.md)。  
   
- 將下列指令碼複製到 [記事本]，並儲存為組 NetworkRegSettings.ps1。 然後在每一部電腦上執行指令碼[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中的指示[最佳化網路效能](../technical-guides/optimizing-network-performance.md):  
+ 將下列指令碼複製到 [記事本]，並將儲存為集 NetworkRegSettings.ps1。 然後在每部電腦上執行指令碼[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中的指示[最佳化網路效能](../technical-guides/optimizing-network-performance.md):  
   
 ```  
 #Set-NetworkRegSettings.ps1  
@@ -213,5 +213,5 @@ SetProperty $path "DynamicBacklogGrowthDelta" 0x64 # DynamicBacklogGrowthDelta -
 #Disable NETBIOS on cluster private network, if configured  
 ```  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [最佳化效能](../technical-guides/optimizing-performance.md)

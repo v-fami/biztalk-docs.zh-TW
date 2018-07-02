@@ -1,5 +1,5 @@
 ---
-title: 標準 SSO 安裝選項 |Microsoft 文件
+title: 標準 SSO 安裝選項 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 26441ca5d63ebdb4cba807173f7e7068ff846bdf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a734114bb6d89c73b275e1060719c6b2cb638566
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22279150"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981719"
 ---
 # <a name="standard-sso-installation-options"></a>標準 SSO 安裝選項
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會利用「企業單一登入」(SSO) 功能安全地儲存認證，來啟用單一登入實例。  
@@ -32,21 +32,21 @@ ms.locfileid: "22279150"
 >   
 >  同時，也建議在任何執行「企業單一登入」的電腦上執行時間同步服務。 如此可讓電腦時間與系統的其他部分同步，這是讓 SSO 票證服務正常運作的必要動作。  
   
- **安裝選項的清單**： 執行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安裝程式。 選取**自訂安裝**，然後從下列清單中選取適當的選項：  
+ **安裝選項的清單**： 執行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安裝程式。 選取  **Custom Installation**，然後從下列清單中選取適當的選項：  
   
--   **企業單一登入管理 ―** 對應與連接到企業單一登入服務的系統管理和用戶端工具。  
+- **企業單一登入系統管理 ―** 對應與連接到企業單一登入服務的系統管理和用戶端工具。  
   
--   **企業單一登入主要密碼伺服器 ―** 做為主要密碼伺服器，SSO 系統中。 這是 SSO 系統中必須部署的第一台伺服器，可讓您建立 SSO 資料庫。  
+- **企業單一登入主要密碼伺服器 ―** SSO 系統中扮演主要密碼伺服器。 這是 SSO 系統中必須部署的第一台伺服器，可讓您建立 SSO 資料庫。  
   
- 您也可以等到安裝完成後，再使用 [新增或移除程式] 工具新增下列項目：  
+  您也可以等到安裝完成後，再使用 [新增或移除程式] 工具新增下列項目：  
   
--   **伺服器執行階段 ―** 核心服務，以啟用單一登入並安全地儲存/存取組態資料。  
+- **伺服器執行階段 ―** 核心服務以啟用單一登入並安全地儲存/存取組態資料。  
   
--   **企業單一登入管理 ―** 對應與連接到企業單一登入服務的系統管理和用戶端工具。  
+- **企業單一登入系統管理 ―** 對應與連接到企業單一登入服務的系統管理和用戶端工具。  
   
--   **企業單一登入服務的密碼同步化 ―** 服務以啟用 Enterprise SSO 系統中的密碼同步處理功能。 這些服務也和「Microsoft 密碼變更通知服務」整合。 安裝「企業單一登入」服務之後，您可以從 BizTalk Server 封裝啟動 \Platform\SSO\Setup.exe，然後選取「密碼同步」功能，來安裝「企業單一登入」的「密碼同步」功能。  
+- **企業單一登入服務與密碼同步處理 ―** 服務以啟用 Enterprise SSO 系統中的密碼同步處理功能。 這些服務也和「Microsoft 密碼變更通知服務」整合。 安裝「企業單一登入」服務之後，您可以從 BizTalk Server 封裝啟動 \Platform\SSO\Setup.exe，然後選取「密碼同步」功能，來安裝「企業單一登入」的「密碼同步」功能。  
   
--   **軟體開發套件**程式設計及參考資訊。  
+- **軟體開發套件**程式設計及參考資訊。  
   
 ## <a name="in-this-section"></a>本節內容  
   

@@ -1,5 +1,5 @@
 ---
-title: 設定 BizTalk 專案屬性 |Microsoft 文件
+title: 設定 BizTalk 專案屬性 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,31 +15,31 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1817f9d6bfa4cfbfa7dd34f58fa75b15dd89df7c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 81e35a06a17a7e623db87463c1af336e1e6a8fea
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22232254"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37009999"
 ---
 # <a name="configuring-biztalk-project-properties"></a>設定 BizTalk 專案屬性
 專案屬性可為您在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中所建立的專案設定全域設定。 BizTalk 專案共用許多其他 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 專案的專案屬性。 您可以在專案設計工具中，設定大部分這些屬性。  
   
 ### <a name="to-access-properties-with-the-project-designer"></a>利用專案設計工具存取屬性  
   
-1.  在 [方案總管] 中，選取一個專案。  
+1. 在 [方案總管] 中，選取一個專案。  
   
-2.  在**專案**功能表上，按一下 **屬性**存取 專案設計工具。  
+2. 在 **專案** 功能表中，按一下**屬性**存取 專案設計工具。  
   
-    > [!NOTE]
-    >  或者，您可以以滑鼠右鍵按一下專案，然後再按一下**屬性**。  
+   > [!NOTE]
+   >  或者，您可以在此專案，以滑鼠右鍵按一下，然後按一下**屬性**。  
   
-3.  按一下想要的屬性索引標籤，即可存取專案屬性。  
+3. 按一下想要的屬性索引標籤，即可存取專案屬性。  
   
- 屬性的所有共用的文件[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]專案可以找到參考個別專案設計工具屬性索引標籤的資訊從以下連結： [http://go.microsoft.com/fwlink/?LinkId=124727](http://go.microsoft.com/fwlink/?LinkId=124727)。  
+   所有通用屬性的文件[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]即可找到專案參考個別的專案設計工具屬性索引標籤資訊從下列連結： [ http://go.microsoft.com/fwlink/?LinkId=124727 ](http://go.microsoft.com/fwlink/?LinkId=124727)。  
   
 ## <a name="in-this-section"></a>本節內容  
   
--   [專案設計工具: [部署] 索引標籤](../core/project-designer-deployment-tab.md)  
+-   [專案設計工具：部署索引標籤](../core/project-designer-deployment-tab.md)  
   
--   [BizTalk 專案 [屬性] 視窗](../core/biztalk-project-properties-window.md)
+-   [BizTalk 專案屬性視窗](../core/biztalk-project-properties-window.md)

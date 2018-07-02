@@ -1,5 +1,5 @@
 ---
-title: 可重複的欄位區段 |Microsoft 文件
+title: 可重複的欄位區段 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,17 +19,17 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a801e39fac0e0bdf0cfb9ee88811703fd1c4373d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9651b8d3414f792b81633cafbe41dd66559df04c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206326"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981975"
 ---
 # <a name="repeatable-field-segments"></a>可重複的欄位區段
-HL7 Access 資料庫中的區段資料表包含資料行區段 （ADD、 RDT 和 QPD） 的最後一個欄位， [!INCLUDE[btsCoName](../../includes/btsconame-md.md)] BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 定義為可重複 (**Last_field_repeatable**  = **True**)。 [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]不支援新增。 不過，RDT 和 QPD 出現查詢資料表，並以資料表值的回應。 下列範例將示範如何[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]處理這些資料行。  
+HL7 Access 資料庫中的區段資料表包含資料行的區段 （ADD、 RDT 和 QPD） 和最後一個欄位，Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 會定義為可重複 (**Last_field_repeatable**  =  **，則為 true**)。 [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] 不支援新增。 不過，同時 RDT QPD 有查詢資料表並以資料表值的回應。 下列範例會示範如何[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]處理這些資料行。  
   
- 用戶端送出下列查詢，並指出用戶端想立即回應，藉由設定**RCP-1-回應優先順序**至 「**我**":  
+ 在用戶端提交下列查詢，與指出用戶端設定需要立即回應**RCP-1-回應的優先順序**到 「**我**」:  
   
 ```  
 MSH|^&~\|PCR|Gen Hosp|PIMS||199811201400-0800||QBP^Q42^QBP_Q13|ACK9901|P|2.4||||||||  
@@ -52,25 +52,25 @@ RDT|555444222111^^^MPI^MR|Everyman^Adam|RE|00172409660^BACLOFEN 10MG TABS^NDC |1
 RDT|555444222111^^^MPI^MR|Everyman^Adam|RE|00054384163^THEOPHYLLINE 80MG/15ML SOLN^NDC|199810121145-0700|10|99^Lister^Lenora^^^DR^MD  
 ```  
   
- 此範例中，從您看到 QPD 和 RDT 所定義的自訂/站台。 HL7 規格會定義 QPD 和 RDT 區段，如下所示。  
+ 從範例中，您會看到 QPD 和 RDT 所定義的自訂/站台。 HL7 規格會定義 QPD 和 RDT 區段，如下所示。  
   
 ## <a name="qpd---query-parameter-definition"></a>QPD-查詢參數定義  
  下表顯示如何 HL7 規格定義 QPD。  
   
 |SEQ|LEN|DT|選擇加入|RP / #|TBL #|項目 #|項目名稱|  
 |---------|---------|--------|---------|------------|-----------|------------|------------------|  
-|1|250|CE|R||0471|01375|訊息查詢名稱|  
-|2|32|ST|C|||00696|查詢標記|  
-|3-n|256|非固定||||01435|使用者在後續的欄位中的參數|  
+|@shouldalert|250|CE|R||0471|01375|訊息查詢名稱|  
+|2|32|ST|c|||00696|查詢標記|  
+|3-n|256|非固定||||01435|在後續的欄位中的使用者參數|  
   
-## <a name="rdt---table-row-data"></a>RDT-資料表的資料列資料  
+## <a name="rdt---table-row-data"></a>RDT-資料表資料列資料  
  下表顯示如何 HL7 規格定義 RDT。  
   
 |SEQ|LEN|DT|選擇加入|RP / #|TBL #|項目 #|項目名稱|  
 |---------|---------|--------|---------|------------|-----------|------------|------------------|  
 |1-n|變數|變數|R|||00703|資料行值|  
   
- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]解譯 QPD 和 RDT 做為可重複的站台定義值。 因為[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]不能解決問題的資料類型和其他詳細資料， [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] QPD.3 和 RDT.1 視為字串的結構描述中的資料類型。 您可能必須修改這些結構描述，依據您的站台的條件。  
+ [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] QPD 和 RDT 解譯可以重複的網站定義值。 由於[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]不能解決問題的資料類型和其他詳細資料， [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] QPD.3 和 RDT.1 視為字串的結構描述中的資料類型。 您可能要修改這些結構描述，根據您自己的站台條件。  
   
 ## <a name="see-also"></a>另請參閱  
  [使用 HL7 2.X 結構描述](../../adapters-and-accelerators/accelerator-hl7/using-hl7-2-x-schemas.md)

@@ -1,5 +1,5 @@
 ---
-title: 背景資訊的範例案例 |Microsoft 文件
+title: 背景資訊，如需範例案例 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,12 +16,12 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 13dbb247e42116d5b308170d5ef365ed9f20d793
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9424de9c530fb855b21df787f87e674e8a561f5e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22231734"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36978447"
 ---
 # <a name="background-information-for-sample-scenarios"></a>範例實例的背景資訊
 本主題包含本節中實例的背景資訊。  
@@ -58,19 +58,19 @@ ms.locfileid: "22231734"
 ### <a name="configuration-and-administration-model-for-each-component"></a>每個元件的組態與管理模型  
  **組態模型：**  
   
--   BizTalk Server 執行階段元件只安裝在 BizTalk Server 上。  
+- BizTalk Server 執行階段元件只安裝在 BizTalk Server 上。  
   
--   主要密碼伺服器沒有其他元件。  
+- 主要密碼伺服器沒有其他元件。  
   
--   SQL Server 包含所有 BizTalk Server 資料庫。  
+- SQL Server 包含所有 BizTalk Server 資料庫。  
   
--   周邊網路中的伺服器沒有任何 BizTalk Server 元件。  
+- 周邊網路中的伺服器沒有任何 BizTalk Server 元件。  
   
--   管理用戶端是用來管理電子商務網域中的所有伺服器。  
+- 管理用戶端是用來管理電子商務網域中的所有伺服器。  
   
- **系統管理模型：**  
+  **系統管理模型：**  
   
--   系統管理員從桌上型 (或膝上型) 電腦連接到擁有管理工具的電腦 (使用「終端服務」或「遠端桌面」連線)。 系統管理員連接到擁有管理工具的電腦之後，系統管理員便可使用 BizTalk 管理工具，來管理網域中所有的伺服器與應用程式。  
+- 系統管理員從桌上型 (或膝上型) 電腦連接到擁有管理工具的電腦 (使用「終端服務」或「遠端桌面」連線)。 系統管理員連接到擁有管理工具的電腦之後，系統管理員便可使用 BizTalk 管理工具，來管理網域中所有的伺服器與應用程式。  
   
 ### <a name="assumptions-about-other-components-and-applications"></a>其他元件與應用程式的相關假設  
  與 BizTalk Server 環境互動的所有其他應用程式與元件在電子商務網域以外的網域中 (例如在周邊網路)。 從那些應用程式與元件往返 BizTalk Server 環境的流量都會通過防火牆 2。  
@@ -87,30 +87,30 @@ ms.locfileid: "22231734"
 ## <a name="background-for-adapter-scenarios"></a>配接器實例的背景  
  在範例架構中，我們根據您可用的一些配接器來識別下列使用實例：  
   
--   HTTP 與 SOAP (Web 服務) 配接器實例  
+- HTTP 與 SOAP (Web 服務) 配接器實例  
   
--   BizTalk 訊息佇列配接器實例  
+- BizTalk 訊息佇列配接器實例  
   
--   FILE 配接器實例  
+- FILE 配接器實例  
   
--   FTP 配接器實例  
+- FTP 配接器實例  
   
- 對於每個實例，我們遵循下列步驟來完成威脅模型分析：  
+  對於每個實例，我們遵循下列步驟來完成威脅模型分析：  
   
--   收集背景資訊  
+- 收集背景資訊  
   
--   建立和分析威脅模型  
+- 建立和分析威脅模型  
   
--   檢視威脅  
+- 檢視威脅  
   
--   識別防護技巧與技術  
+- 識別防護技巧與技術  
   
- 對於每個實例，我們已經嘗試開發各種攻擊可能代表的一般威脅層級的評比等級。 不過，您所在的環境或經驗可能讓您覺得特定的威脅應該不同於我們所提供的評比等級。 至於所有的安全性實例，您自己所擁有的資料對於決定威脅層級是最可信的，所以建議您使用我們的分析與結果做為指南，進行自己的分析。  
+  對於每個實例，我們已經嘗試開發各種攻擊可能代表的一般威脅層級的評比等級。 不過，您所在的環境或經驗可能讓您覺得特定的威脅應該不同於我們所提供的評比等級。 至於所有的安全性實例，您自己所擁有的資料對於決定威脅層級是最可信的，所以建議您使用我們的分析與結果做為指南，進行自己的分析。  
   
- 背景資訊，除了資料流程圖 (DFD) 之外，也適用於所有使用實例。 下一節將顯示每個實例的 DFD。  
+  背景資訊，除了資料流程圖 (DFD) — 適用於所有使用實例。 下一節將顯示每個實例的 DFD。  
   
 ## <a name="see-also"></a>另請參閱  
  [威脅模型分析](../core/threat-model-analysis.md)   
  [威脅模型分析的範例案例](../core/sample-scenarios-for-threat-model-analysis.md)   
  [安全性規劃](../core/planning-for-security.md)   
- [小型與中型公司的範例架構](../core/sample-architectures-for-small-medium-sized-companies.md)
+ [中小型公司的架構範例](../core/sample-architectures-for-small-medium-sized-companies.md)

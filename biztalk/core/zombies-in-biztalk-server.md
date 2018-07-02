@@ -1,5 +1,5 @@
 ---
-title: BizTalk Server 中的 zombie |Microsoft 文件
+title: BizTalk Server 中的 zombie |Microsoft Docs
 description: BizTalk Server 中的 zombie 訊息的常見原因
 ms.custom: ''
 ms.date: 03/23/2016
@@ -13,12 +13,12 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9764522d2ff5265b6f28f2f125cb33b2982a7605
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e6a243e772fe5bc8408288167d3e8882a74e9a57
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22290542"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976583"
 ---
 # <a name="zombies-in-biztalk-server"></a>BizTalk Server 中的 Zombie
 
@@ -31,17 +31,17 @@ ms.locfileid: "22290542"
 ## <a name="typical-causes"></a>常見的原因
 發生 Zombie 的狀況通常分成以下類別：  
   
-1.  **終止控制訊息**– 協調流程引擎可讓您控制訊息來取消所有目前正在執行的工作特定的協調流程執行個體中使用。 由於控制訊息會立即停止執行中的協調流程，所以產生 Zombie 執行個體一點也不意外。 有許多與「人力工作流程」相關的設計經常使用這種機制，而其他某些設計也會採用。  
+1. **終止控制訊息**-協調流程引擎允許控制訊息來取消所有目前正在執行的工作特定的協調流程執行個體中使用。 由於控制訊息會立即停止執行中的協調流程，所以產生 Zombie 執行個體一點也不意外。 有許多與「人力工作流程」相關的設計經常使用這種機制，而其他某些設計也會採用。  
   
-2.  **平行待命接收**– 在此案例中服務執行個體會等待 n 個訊息的第 1 和當它收到特定訊息會執行一些工作，並終止。 如果正好於服務執行個體終止時，在平行分支上收到訊息，便會產生 Zombie。  
+2. **平行待命接收**– 在此案例中的服務執行個體等候 1 的 n 個訊息，並接收特定訊息時它會執行一些工作，並終止。 如果正好於服務執行個體終止時，在平行分支上收到訊息，便會產生 Zombie。  
   
-3.  **循序群組與不具決定性端點**– 在此案例中，主要協調流程排程設計用來處理特定類型的所有訊息，以便滿足特定類型的系統設計需求。 這些設計需求可能包括有序傳遞、資源分配程式和批次處理。 就此實例而言，比較傾向於定義環繞「待命」的 While 迴圈，而此待命帶有一個含「接收」的分支以及另一個帶有延遲圖形 (其後連接某個用來設定某變數以指示 While 迴圈停止的建構) 的分支。 因為這可能觸發延遲，所以是非決定性的，但卻仍然會傳遞該訊息。 像這樣的非決定性端點就很容產生 Zombie。  
+3. **循序群組與非決定性端點**– 在此案例中，主要協調流程排程的設計可處理特定類型的所有訊息，以便滿足特定類型的系統設計需求。 這些設計需求可能包括有序傳遞、資源分配程式和批次處理。 就此實例而言，比較傾向於定義環繞「待命」的 While 迴圈，而此待命帶有一個含「接收」的分支以及另一個帶有延遲圖形 (其後連接某個用來設定某變數以指示 While 迴圈停止的建構) 的分支。 因為這可能觸發延遲，所以是非決定性的，但卻仍然會傳遞該訊息。 像這樣的非決定性端點就很容產生 Zombie。  
   
- Zombie 服務執行個體暫停時，會產生下列錯誤訊息：  
+   Zombie 服務執行個體暫停時，會產生下列錯誤訊息：  
   
 `0xC0C01B4C The instance completed without consuming all of its messages. The instance and its unconsumed messages have been suspended.`  
   
- 您可以使用[BizTalk 結束字元](https://www.microsoft.com/download/details.aspx?id=2846)若要協助移除 zombie。  
+ 您可以使用[BizTalk 結束字元](https://www.microsoft.com/download/details.aspx?id=2846)來協助移除 zombie。  
   
 ## <a name="see-also"></a>另請參閱  
- **移除已擱置的服務執行個體**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+ **移除已擱置的服務執行個體** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

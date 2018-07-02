@@ -1,5 +1,5 @@
 ---
-title: 靜態設計階段配接器組態 |Microsoft 文件
+title: 靜態設計階段配接器組態 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 28
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f8337e4f53afe22ccbde0e1d1d2a6437d280011d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c865acca81228a18e027b5b65a7488965eeb7d46
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278894"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972503"
 ---
 # <a name="static-design-time-adapter-configuration"></a>靜態設計階段配接器組態
 配接器的設計階段部分必須負責定義所有可用屬性並驗證使用者輸入。 在靜態設計階段組態中，配接器使用預設使用者介面 (UI) 來顯示和編輯其屬性。  
@@ -27,21 +27,21 @@ ms.locfileid: "22278894"
 ## <a name="guidelines-for-the-static-development-process"></a>靜態開發程序的指導方針  
  下列清單提供將靜態設計階段功能建置到配接器中的建議。 在開發期間，您可能不需要進行所有這些步驟，也不需以固定的順序執行它們。  
   
-1.  建立配接器組態需求以及需要設定之組態參數的清單。 如果參數要讓所有接收位置和傳送埠在全域使用，請在處理常式結構描述組態檔中指定它們。 如果它們有特定的連接埠或位置，請在傳送埠和接收位置組態檔中予以設定。  
+1. 建立配接器組態需求以及需要設定之組態參數的清單。 如果參數要讓所有接收位置和傳送埠在全域使用，請在處理常式結構描述組態檔中指定它們。 如果它們有特定的連接埠或位置，請在傳送埠和接收位置組態檔中予以設定。  
   
-2.  修改配接器屬性頁以納入任何新的組態參數。 如需這個步驟的資訊，請參閱[配接器組態結構描述](../core/adapter-configuration-schemas.md)。  
+2. 修改配接器屬性頁以納入任何新的組態參數。 如需此步驟的詳細資訊，請參閱[配接器組態結構描述](../core/adapter-configuration-schemas.md)。  
   
-3.  使用 [新增配接器中繼資料精靈] 修改結構描述類別的樹狀檢視。 如需有關此步驟的詳細資訊，請參閱[新增配接器中繼資料精靈 中的結構描述類別](../core/schema-categories-in-the-add-adapter-metadata-wizard.md)  
+3. 使用 [新增配接器中繼資料精靈] 修改結構描述類別的樹狀檢視。 如需有關此步驟的詳細資訊，請參閱[新增配接器中繼資料精靈 中的結構描述類別](../core/schema-categories-in-the-add-adapter-metadata-wizard.md)  
   
-4.  修改範例程式碼，將結構描述傳回為 Web 服務描述語言 (WSDL) 檔案。 如需有關此步驟的詳細資訊，請參閱[靜態配接器 IStaticAdapterConfig 介面](../core/static-adapter-istaticadapterconfig-interface.md)。  
+4. 修改範例程式碼，將結構描述傳回為 Web 服務描述語言 (WSDL) 檔案。 如需有關此步驟的詳細資訊，請參閱 <<c0> [ 靜態配接器 IStaticAdapterConfig 介面](../core/static-adapter-istaticadapterconfig-interface.md)。  
   
-5.  修改現有的 WSDL 檔案或建立新的 WSDL 檔案。 如需有關此步驟的詳細資訊，請參閱[配接器 WSDL 檔案](../core/adapter-wsdl-files.md)。  
+5. 修改現有的 WSDL 檔案或建立新的 WSDL 檔案。 如需有關此步驟的詳細資訊，請參閱 <<c0> [ 配接器 WSDL 檔案](../core/adapter-wsdl-files.md)。  
   
-6.  修改範例程式碼，傳回配接器所需要卻未包含在 WSDL 檔案中的其他 XSD 檔案。 如需有關此步驟的詳細資訊，請參閱[配接器 GetSchema 方法](../core/adapter-getschema-method.md)。  
+6. 修改範例程式碼，傳回配接器所需要卻未包含在 WSDL 檔案中的其他 XSD 檔案。 如需有關此步驟的詳細資訊，請參閱 <<c0> [ 配接器 GetSchema 方法](../core/adapter-getschema-method.md)。  
   
-7.  修改配接器登錄機碼並執行配接器登錄檔。 如需有關此步驟的詳細資訊，請參閱[配接器登錄檔案](../core/adapter-registration-file.md)。  
+7. 修改配接器登錄機碼並執行配接器登錄檔。 如需有關此步驟的詳細資訊，請參閱 <<c0> [ 配接器登錄檔案](../core/adapter-registration-file.md)。  
   
-8.  將靜態配接器安裝到 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 如需有關此步驟的詳細資訊，請參閱[配接器安裝到 BizTalk Server](../core/install-the-adapter-into-biztalk-server.md)。  
+8. 將靜態配接器安裝到 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 如需有關此步驟的詳細資訊，請參閱 <<c0> [ 配接器安裝到 BizTalk Server](../core/install-the-adapter-into-biztalk-server.md)。  
   
 9. 測試對配接器屬性頁進行的變更。 重新建置配接器，測試出現在 [新增配接器中繼資料精靈] 中的 UI。 如需有關此步驟的詳細資訊，請參閱[建置和測試配接器專案](../core/build-and-test-the-adapter-project.md)  
   
@@ -49,4 +49,4 @@ ms.locfileid: "22278894"
   
 -   [靜態配接器 IStaticAdapterConfig 介面](../core/static-adapter-istaticadapterconfig-interface.md)  
   
--   [結構描述中的類別目錄新增配接器中繼資料精靈](../core/schema-categories-in-the-add-adapter-metadata-wizard.md)
+-   [新增配接器中繼資料精靈中的結構描述類別](../core/schema-categories-in-the-add-adapter-metadata-wizard.md)

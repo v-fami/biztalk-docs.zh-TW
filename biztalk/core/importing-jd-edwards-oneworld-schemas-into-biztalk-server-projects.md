@@ -1,5 +1,5 @@
 ---
-title: JD Edwards OneWorld 結構描述匯入至 BizTalk Server 專案 |Microsoft 文件
+title: JD Edwards OneWorld 結構描述匯入至 BizTalk Server 專案 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,18 +17,18 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cd8e20660a58b647388e7db2324abc5f9a7028e5
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 5954f92e55dac362387d66a8b65375e92fe187fa
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
-ms.locfileid: "24013821"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36966143"
 ---
 # <a name="importing-jd-edwards-oneworld-schemas-into-biztalk-server-projects"></a>將 JD Edwards OneWorld 結構描述匯入至 BizTalk Server 專案
 本主題討論瀏覽 JD Edwards OneWorld 伺服器，以及將結構描述匯入 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 專案。  
   
 > [!NOTE]
->  您必須確定您已設定引數清單。 在協調流程中產生結構描述之前，您必須先更新 jdearglist.txt。 如需詳細資訊，請參閱[處理字串值](../core/handling-string-values1.md)。  
+>  您必須確定您已設定引數清單。 在協調流程中產生結構描述之前，您必須先更新 jdearglist.txt。 如需詳細資訊，請參閱 <<c0> [ 處理字串值](../core/handling-string-values1.md)。  
   
 > [!NOTE]
 >  每次變更 jdearglist 時，都必須為該商務物件重新產生結構描述。  
@@ -37,35 +37,35 @@ ms.locfileid: "24013821"
   
 ### <a name="to-import-schemas"></a>若要匯入結構描述  
   
-1.  開啟 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
+1. 開啟 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]  
   
-2.  以滑鼠右鍵按一下[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]專案，指向**新增**，然後選取**新增產生的項目**。  
+2. 以滑鼠右鍵按一下[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]專案，指向**新增**，然後選取**加入產生的項目**。  
   
-3.  按一下**新增配接器**，然後選取**開啟**。  
+3. 按一下 **新增配接器**，然後選取**開啟**。  
   
-4.  選取配接器，然後按一下 **下一步**。  
+4. 選取配接器，然後按一下**下一步**。  
   
-     JD. Edwards OneWorld XE 系統就會顯示在瀏覽器中。  
+    JD. Edwards OneWorld XE 系統就會顯示在瀏覽器中。  
   
-     ![](../core/media/jdedadapter-04-jdebrowse.gif "JDEdAdapter_04_JDEBrowse")  
+    ![](../core/media/jdedadapter-04-jdebrowse.gif "JDEdAdapter_04_JDEBrowse")  
   
-     配接器精靈會顯示含有所有已定義系統的樹狀結構。 JD Edwards OneWorld 的模組太多，無法在一個長清單中顯示。 模組會依據名稱中的前三個字元分組。  
+    配接器精靈會顯示含有所有已定義系統的樹狀結構。 JD Edwards OneWorld 的模組太多，無法在一個長清單中顯示。 模組會依據名稱中的前三個字元分組。  
   
-    -   階層的第一層是模組名稱所有三個字元的首碼清單。  
+   - 階層的第一層是模組名稱所有三個字元的首碼清單。  
   
-    -   第二層列示共用相同的三個字元首碼的所有模組。  
+   - 第二層列示共用相同的三個字元首碼的所有模組。  
   
-    -   最後一層列示屬於模組的商務功能。 當您展開服務圖示時，就能檢視它的作業。  
+   - 最後一層列示屬於模組的商務功能。 當您展開服務圖示時，就能檢視它的作業。  
   
      展開作業會顯示輸入/輸出引數。  
   
      您可以展開輸入/輸出引數以檢視引數的資料類型。  
   
-    > [!NOTE]
-    >  如果伺服器物件定義變更，您必須重新產生結構描述以重新整理其中包含的資料。  
+   > [!NOTE]
+   >  如果伺服器物件定義變更，您必須重新產生結構描述以重新整理其中包含的資料。  
   
-    > [!NOTE]
-    >  如果您在產生結構描述後變更 jdearglist.txt，您必須重新產生結構描述以重新整理所包含的資料。 如需 jdearglist.txt 的相關資訊，請參閱[處理字串值](../core/handling-string-values1.md)。  
+   > [!NOTE]
+   >  如果您在產生結構描述後變更 jdearglist.txt，您必須重新產生結構描述以重新整理所包含的資料。 如需 jdearglist.txt 的相關資訊，請參閱[處理字串值](../core/handling-string-values1.md)。  
   
 ## <a name="generating-schemas"></a>產生結構描述  
  使用下列程序產生結構描述。  
@@ -76,7 +76,7 @@ ms.locfileid: "24013821"
   
 2.  按一下 （或拖曳） 將項目加入**傳輸**窗格 （針對 J.Edwards OneWorld 的輸入呼叫）。  
   
-3.  按一下 **[確定]**。  
+3.  按一下 [確定] 。  
   
      針對所選 JD Edwards OneWorld 項目產生的結構描述就會匯入 BizTalk Server 專案。  
   

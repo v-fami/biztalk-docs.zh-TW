@@ -1,5 +1,5 @@
 ---
-title: LOBApplication |Microsoft 文件
+title: LOBApplication |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,33 +19,33 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7bacce1a64f59d61b5175b10fc14cde1ca862635
-ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
+ms.openlocfilehash: dc9859e210036806cebcd76f63235d47ca972976
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "34855529"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36978575"
 ---
 # <a name="lobapplication"></a>LOBApplication
 您可使用 LOBApplication 公用程式將動作或回應訊息提交給交易夥伴，模擬實際的商務營運系統 (LOB) 桌面程式。  
   
- [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]會提供範例訊息中的\<*磁碟機*\>\Program Files (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances 資料夾。  
+ Microsoft®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]中提供範例訊息\<*磁碟機*\>\Program 檔案 (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\LOBApplication\SampleInstances 資料夾中。  
   
 ## <a name="location-in-sdk"></a>SDK 中的位置  
- \<*磁碟機*\>\Program Files (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\LOBApplication  
+ \<*磁碟機*\>\Program 檔案 (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\LOBApplication  
   
 ## <a name="running-lobapplication"></a>執行 LOBApplication  
   
 #### <a name="to-run-lobapplication"></a>若要執行 LOBApplication  
   
-1.  在 Windows 檔案總管 中，移至\<*磁碟機*\>\Program Files (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\\。  
+1.  在 Windows 檔案總管中，移至\<*磁碟機*\>\Program 檔案 (x86) \Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK\\。  
   
 2.  按兩下**LOBApplication.exe**，然後按 ENTER 鍵。  
   
      接下來的頁面會提示您輸入執行公用程式所需的資訊。  
   
 ## <a name="syntax-for-lobapplication"></a>LOBApplication 的語法  
- 使用**LOB Application Proxy**  頁面來指定主要及交易夥伴的名稱、 交易夥伴介面程序 (PIP) 屬性，以及 LOBApplication 公用程式所傳送之訊息的訊息屬性。  
+ 使用**LOB Application Proxy**頁面，即可指定主要和夥伴名稱 」、 「 交易夥伴介面程序 (PIP) 屬性和 「 LOBApplication 公用程式所傳送之訊息的訊息屬性。  
   
  下表描述如何使用每個欄位上**LOB Application Proxy**頁面。  
   
@@ -53,12 +53,12 @@ ms.locfileid: "34855529"
 |--------------|----------------|  
 |**主要設定檔名稱**|輸入主要組織 (來源合作對象) 的名稱。|  
 |**交易夥伴名稱**|輸入交易夥伴 (目的合作對象) 的名稱。|  
-|**PIP 名稱**|輸入 PIP，例如，類型的顯示代碼**3A2**。 此值區分大小寫。|  
-|**PIP 版本**|輸入 PIP 的版本，例如，類型**V02.00**。 此值區分大小寫。|  
-|**PIP 執行個體識別碼**（選擇性）|輸入的英數字元的執行個體識別碼的 PIP，例如，輸入**STD_3A2_V02.02**。 請避免使用特殊字元。 每個夥伴和 PIP 代碼的識別碼都應該是唯一的。 對於標示為動作訊息的訊息，如果執行個體識別碼是空的，LOBApplication 公用程式就會使用產生的 HUID 值做為 PIP 執行個體識別碼。 **注意：** 當您選取**回應**中**訊息類別**，您必須在此欄位中輸入 PIP 執行個體識別碼。|  
+|**PIP 名稱**|輸入 PIP，比方說，類型的顯示代碼**3A2**。 此值區分大小寫。|  
+|**PIP 版本**|輸入 PIP 的版本，例如，型別**V02.00**。 此值區分大小寫。|  
+|**PIP 執行個體識別碼**（選擇性）|輸入的英數字元的執行個體識別碼的 PIP，例如，輸入**STD_3A2_V02.02**。 請避免使用特殊字元。 每個夥伴和 PIP 代碼的識別碼都應該是唯一的。 對於標示為動作訊息的訊息，如果執行個體識別碼是空的，LOBApplication 公用程式就會使用產生的 HUID 值做為 PIP 執行個體識別碼。 **注意︰** 當您選取**回應**中**訊息類別**，您必須在此欄位中輸入 PIP 執行個體識別碼。|  
 |**檔案名稱**|按一下省略按鈕 (...)，移至包含 PIP 執行個體檔案的資料夾，然後按一下該 PIP 執行個體檔案。|  
-|**訊息類別**|選取訊息類型 (**動作**或**回應**)。|  
-|**附加檔案**|按一下**新增**，移至包含附件檔案的資料夾，然後按一下**開啟**。|  
+|**訊息類別**|選取訊息類型 (**動作**或是**回應**)。|  
+|**附加檔案**|按一下 **新增**，移至包含附件檔案的資料夾，然後按一下**開啟**。|  
 |**提交訊息**|按一下以傳送訊息。|  
 |**狀態**|讀取此欄位中動作的狀態。|  
   

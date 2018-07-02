@@ -1,5 +1,5 @@
 ---
-title: 步驟 16： 啟動協調流程 |Microsoft 文件
+title: 步驟 16： 啟動協調流程 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,26 +15,26 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5256d33dc6751db34d1d827624d2dbe2644639e5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3d2d1429d6b5d8df7facf55900683356200279b9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206174"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36992767"
 ---
 # <a name="step-16-start-the-orchestration"></a>步驟 16： 啟動協調流程
-在此步驟中，您可以登錄服務為了讓您在協調流程與協調流程將在其中執行的實體環境中設計的商務程序產生關聯。 此外，啟動協調流程的處理，以便您可以測試您的應用程式。  
+在此步驟中，您可以登錄服務才能讓您在協調流程與協調流程將在其中執行的實體環境中設計的商務程序。 此外，您啟動協調流程的處理，讓您能夠測試您的應用程式。  
   
 ### <a name="to-start-the-orchestration"></a>若要啟動協調流程  
   
-1.  在[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台的主控台樹狀目錄窗格中，在**協調流程**，以滑鼠右鍵按一下**BTAHL7_Project.Doorbell_Orchestration**，然後按一下 **登錄**.  
+1. 在 [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]管理主控台的主控台樹狀目錄窗格中，在**協調流程**，以滑鼠右鍵按一下**BTAHL7_Project.Doorbell_Orchestration**，然後按一下 **登錄**.  
   
-2.  以滑鼠右鍵按一下**BTAHL7_Project.Doorbell_Orchestration**，然後按一下 **啟動**。  
+2. 以滑鼠右鍵按一下**BTAHL7_Project.Doorbell_Orchestration**，然後按一下**開始**。  
   
-    > [!NOTE]
-    >  請確定您已經啟動**MLLPSendPort**傳送埠，然後啟用**WebService_BTAHL7_Project_Proxy/BTAHL7_Project_Doorbell_Orchestration_SOAPReceivePort**接收位置。  
+   > [!NOTE]
+   >  請確定您已經啟動**MLLPSendPort**傳送埠，然後啟用**WebService_BTAHL7_Project_Proxy/BTAHL7_Project_Doorbell_Orchestration_SOAPReceivePort**接收位置。  
   
- 若要繼續[步驟 17： 建立 WSClient 應用程式](../../adapters-and-accelerators/accelerator-hl7/step-17-create-the-wsclient-application.md)。  
+   請繼續進行[步驟 17： 建立 WSClient 應用程式](../../adapters-and-accelerators/accelerator-hl7/step-17-create-the-wsclient-application.md)。  
   
 ## <a name="see-also"></a>另請參閱  
  [訊息擴充教學課程](../../adapters-and-accelerators/accelerator-hl7/message-enrichment-tutorial.md)

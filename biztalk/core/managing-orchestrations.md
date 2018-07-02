@@ -1,6 +1,6 @@
 ---
-title: 管理協調流程 |Microsoft 文件
-description: 使用協調流程在 BizTalk Server 中，包括啟動、 停止、 繫結、 設定、 啟用追蹤、 暫止的連結等等
+title: 管理協調流程 |Microsoft Docs
+description: 若要使用協調流程在 BizTalk Server 中，包括啟動、 停止、 繫結、 設定、 啟用追蹤、 暫止的連結和其他
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -13,26 +13,26 @@ caps.latest.revision: 31
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 18cd12c202822c4d9ff849cc762b55e8f4880d80
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 16a989cb7853e63e1e603febf44db45288276ecd
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22262646"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36976479"
 ---
 # <a name="manage-orchestrations"></a>管理協調流程
 
 ## <a name="overview"></a>概觀
-本節中提供的指示，可讓您使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台來管理協調流程。 協調流程是可執行的商務程序。 如需協調流程的背景資訊，請參閱[協調流程](../core/orchestrations.md)。  
+本節中提供的指示，可讓您使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台來管理協調流程。 協調流程是可執行的商務程序。 如需協調流程的背景資訊，請參閱 <<c0> [ 協調流程](../core/orchestrations.md)。  
 
-## <a name="add-to-application"></a>加入至應用程式  
+## <a name="add-to-application"></a>新增至應用程式  
  協調流程內建於 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，並被編譯到 BizTalk 組件中。 您無法將協調流程個別新增到應用程式；請遵循下列步驟將協調流程新增到應用程式：  
   
--   當您將加入包含應用程式，協調流程的 BizTalk 組件中所述[如何將 BizTalk 組件新增至應用程式](../core/how-to-add-a-biztalk-assembly-to-an-application.md)。  
+- 當您新增 BizTalk 組件包含應用程式，協調流程中所述[如何將 BizTalk 組件新增至應用程式](../core/how-to-add-a-biztalk-assembly-to-an-application.md)。  
   
--   當您匯入.msi 檔案包含包含協調流程的 BizTalk 組件中所述的應用程式[如何匯入 BizTalk 應用程式](../core/how-to-import-a-biztalk-application.md)。  
+- 當您匯入.msi 檔案包含包含協調流程的 BizTalk 組件中所述的應用程式[如何匯入 BizTalk 應用程式](../core/how-to-import-a-biztalk-application.md)。  
   
--   當開發人員應用程式組件部署到包含從協調流程[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]中所述，[從到 BizTalk 應用程式的 Visual Studio 部署 BizTalk 組件](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)。  
+- 當開發人員部署至應用程式包含協調流程的組件[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]中所述[從 BizTalk 應用程式的 Visual Studio 部署 BizTalk 組件](../core/deploying-biztalk-assemblies-from-visual-studio-into-a-biztalk-application.md)。  
 
 ## <a name="biztalk-administration-tasks"></a>BizTalk 系統管理工作  
  您可以使用管理主控台來執行下列動作，如本節中的說明：  
@@ -49,7 +49,7 @@ ms.locfileid: "22262646"
   
 > [!NOTE]
 >  您可以使用 Microsoft Windows Management Instrumentation (WMI) 物件模型，建立和執行會自動化系統管理工作的指令碼。 如需使用 WMI 的詳細資訊，請參閱**WMI 類別參考** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。 
-  
+> 
 > [!NOTE]
 >  開發人員會使用來建立協調流程，協調流程設計師 」 中所述[協調流程使用協調流程設計師建立](../core/creating-orchestrations-using-orchestration-designer.md)。 開發人員也可以在開發程序中，藉由使用管理主控台 (如本節中的說明) 來管理協調流程。  
   
@@ -73,6 +73,6 @@ ms.locfileid: "22262646"
   
 -   [停止協調流程](../core/how-to-stop-an-orchestration.md)  
   
--   [擱置、 繼續和終止協調流程執行個體](../core/how-to-suspend-resume-and-terminate-orchestration-instances.md)  
+-   [擱置、繼續和終止協調流程執行個體](../core/how-to-suspend-resume-and-terminate-orchestration-instances.md)  
   
 -   [升級協調流程](../core/how-to-upgrade-an-orchestration.md)

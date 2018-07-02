@@ -1,5 +1,5 @@
 ---
-title: BAM 開發人員概念 |Microsoft 文件
+title: 開發人員適用的 BAM 概念 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9e407121e9f71707b45f95e77a8520ed30df3b33
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9fc6d74eb8b14479776febea1530e142e6897729
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22230806"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36967447"
 ---
 # <a name="bam-concepts-for-the-developer"></a>開發人員適用的 BAM 概念
 身為 BAM 開發人員，您必須熟悉重要的 BAM 概念，例如活動、接續和參考等。 您也應該瞭解追蹤和交易式處理兩者之間的差異。  
@@ -36,11 +36,11 @@ ms.locfileid: "22230806"
 ## <a name="what-is-a-continuation"></a>何謂接續？  
  接續提供有關下列資訊的 BAM 基礎結構指導：  
   
--   預期的事件發生順序  
+- 預期的事件發生順序  
   
--   處理唯一識別碼任何變更的方法，此識別碼與事件項目相互關聯  
+- 處理唯一識別碼任何變更的方法，此識別碼與事件項目相互關聯  
   
- 如需接續及其使用方式的詳細資訊，請參閱[Continuation 和 ContinuationID 節點](../core/continuation-and-continuationid-nodes.md)。  
+  如需接續及其使用方式的詳細資訊，請參閱[Continuation 和 ContinuationID 節點](../core/continuation-and-continuationid-nodes.md)。  
   
 ## <a name="what-is-a-reference"></a>何謂參考？  
  參考 (也稱為相關活動) 會指定活動與其他項目之間的關係。 相關項目的範例包括其他項目或文件位置。  
@@ -53,7 +53,7 @@ ms.locfileid: "22230806"
   
  下表說明在 BAM 中追蹤資料的模式。  
   
-|狀況|[描述]|  
+|狀況|說明|  
 |--------------|------------------|  
 |追蹤優先於處理|如果處理程序成功，則寫入追蹤資訊。<br /><br /> 如果處理程序失敗，則寫入有關失敗的資訊。|  
 |處理等同於追蹤|如果追蹤或處理失敗，則回復所有動作。|  

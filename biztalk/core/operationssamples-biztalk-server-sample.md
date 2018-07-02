@@ -1,5 +1,5 @@
 ---
-title: OperationsSamples （BizTalk Server 範例） |Microsoft 文件
+title: OperationsSamples （BizTalk Server 範例） |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2e42b17f19791eef9bd3f1b5d7d4554f61f08356
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: a2a871afd76d6dd46cb4aa5d72d1c23b332ad90e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26010247"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969495"
 ---
 # <a name="operationssamples-biztalk-server-sample"></a>OperationsSamples (BizTalk Server 範例)
 OperationsSamples 範例示範如何利用 Operations 物件模型來執行操作活動。  
@@ -25,15 +25,15 @@ OperationsSamples 範例示範如何利用 Operations 物件模型來執行操�
 ## <a name="what-this-sample-does"></a>此範例的用途  
  這個範例示範下列作業：  
   
--   如何使用追蹤設定檔，在協調流程加上活動註解。  
+- 如何使用追蹤設定檔，在協調流程加上活動註解。  
   
--   如何使用 BAM 追蹤資料庫尋找活動識別碼，並接著使用此識別碼尋找相關的協調流程執行個體。  
+- 如何使用 BAM 追蹤資料庫尋找活動識別碼，並接著使用此識別碼尋找相關的協調流程執行個體。  
   
--   如何尋找及使用訊息流程透過**MessageFlow**類別和其他作業物件模型類別和應用程式開發介面。  
+- 如何尋找及使用訊息流程，利用**MessageFlow**類別其他 Operations 物件模型類別和 Api。  
   
--   如何存取連接埠、 訊息，以及其他執行個體所使用的類別衍生自**執行個體**類別。  
+- 如何存取連接埠的訊息，和其他執行個體使用的類別衍生自**執行個體**類別。  
   
- 此範例包含許多可用來支援上述作業的協助程式類別和方法。 下節內容將討論這些範例程式碼和其他程式碼的重點。  
+  此範例包含許多可用來支援上述作業的協助程式類別和方法。 下節內容將討論這些範例程式碼和其他程式碼的重點。  
   
 ## <a name="how-this-sample-is-designed-and-why"></a>此範例的設計方式和原因  
  本範例是設計用來示範 Operations 物件模型中的幾個重要類別和方法，並會示範如何查詢公開的 BAM 追蹤資料庫。  
@@ -43,16 +43,16 @@ OperationsSamples 範例示範如何利用 Operations 物件模型來執行操�
 ### <a name="using-a-bam-activity-id"></a>使用 BAM 活動識別碼  
  本範例會示範如何與 BAM 互動，以及如何使用追蹤資料庫的公開檢視，以便透過使用商務資料來找出 MessageBox 中的即時訊息。 此範例會擷取對應於訂單編號的協調流程識別碼，完成此作業。 為了成功完成這項工作，此範例必須執行下列動作：  
   
-1.  使用商務資料 (訂單號碼) 尋找活動識別碼。 這個步驟會將商務資料對應到可用來尋找其他資訊的內部識別碼。  
+1. 使用商務資料 (訂單號碼) 尋找活動識別碼。 這個步驟會將商務資料對應到可用來尋找其他資訊的內部識別碼。  
   
-2.  擷取與活動識別碼相關的 BAM 參考。  
+2. 擷取與活動識別碼相關的 BAM 參考。  
   
-3.  尋找類型為 "BizTalkService" 且參考至特定協調流程的參考。 如果有找到符合的項目，便傳回其執行個體識別碼。  
+3. 尋找類型為 "BizTalkService" 且參考至特定協調流程的參考。 如果有找到符合的項目，便傳回其執行個體識別碼。  
   
- 這項功能由**BAMWebService.GetOrchestrationID**靜態方法和相關聯的 helper 方法，包括 BamManagementService.cs 原始程式檔中的類別和方法。  
+   此功能會由**BAMWebService.GetOrchestrationID**靜態方法，並包括 BamManagementService.cs 原始程式檔中的類別和方法的相關聯的 helper 方法。  
   
 ### <a name="suspending-terminating-and-resuming-an-instance"></a>擱置、終止與繼續執行個體  
- 範例程式中包含**Samples.OperateOnInstance**接受作業和執行個體的識別碼，並執行指定的作業的執行個體上的方法。 有效的作業會由**InstanceOperation**列舉型別，並包含 Suspend、 Terminate 和 Resume。 這些作業會直接對應到 BizTalkOperations 類別的方法-**SuspendInstance**， **TerminateInstance**，和**ResumeInstance**。  
+ 範例程式中包含**Samples.OperateOnInstance**接受作業和執行個體的識別碼，並執行指定的作業執行個體上的方法。 有效的作業由**InstanceOperation**列舉型別，而且包含 Suspend、 Terminate 和 Resume。 這些作業會直接對應到 BizTalkOperations 類別的方法 —**SuspendInstance**， **TerminateInstance**，並**ResumeInstance**。  
   
  請注意，此方法會處理 ArgumentException 和 SqlException 等例外狀況。 在使用 Operations 物件模型中的類別和方法時，您必須謹慎地預先考慮到包括 SqlException 的例外狀況。  
   
@@ -81,7 +81,7 @@ foreach (BizTalkMessage msg in messages)
   
  下表顯示此範例中的檔案，並描述其用途。  
   
-|檔案|Description|  
+|檔案|描述|  
 |---------------|-----------------|  
 |BamManagementService.cs|BAM Web 服務的 Web Proxy 類別。|  
 |Cleanup.bat|移除範例協調流程，並將 HelloWorld 範例還原成原始狀態。|  
@@ -136,11 +136,11 @@ foreach (BizTalkMessage msg in messages)
   
 #### <a name="to-compile-and-run-the-sample"></a>若要編譯及執行範例  
   
-1.  按一下**啟動**，選取**所有程式**，選取**Microsoft BizTalk Server**，然後選取**BizTalk Server 管理**。  
+1.  按一下 **開始**，選取**所有程式**，選取**Microsoft BizTalk Server**，然後選取**BizTalk Server 管理**。  
   
-2.  在 BizTalk Server 管理主控台中，展開  **BizTalk Server 管理**，依序展開**BizTalk 群組**，依序展開**平台設定**，然後展開  **主控件執行個體**。  
+2.  在 BizTalk Server 管理主控台中，依序展開**BizTalk Server 管理**，展開**BizTalk 群組**，展開**平台設定**，然後展開**主控件執行個體**。  
   
-3.  以滑鼠右鍵按一下**BizTalkServerApplication**，然後按一下 **重新啟動**。  
+3.  以滑鼠右鍵按一下**BizTalkServerApplication**，然後按一下**重新啟動**。  
   
     > [!NOTE]
     >  如果在設定產品之後尚未重新啟動該主控件執行個體，這時您可能需要重新啟動 BizTalkServerApplication 主控件執行個體，以設定 BAM 正確的工作資料庫。  
@@ -149,16 +149,16 @@ foreach (BizTalkMessage msg in messages)
   
      `<Samples Path>\Admin\OperationsOM\OperationSamples`  
   
-5.  按兩下 **[operationsom.sln]** 載入 Visual Studio 專案檔。  
+5.  按兩下 **[operationsom.sln]** 来載入到 Visual Studio 專案檔。  
   
 6.  按 F5 執行範例。  
   
      -或-  
   
-     在**建置**功能表上，按一下 **重建方案**。 當組建完成時，使用 Windows 檔案總管瀏覽至`<Samples Path>\Admin\OperationsOM\OperationSamples\bin\Debug,`，然後按兩下  **OperationsSamples.exe**。  
+     在 **建置**功能表上，按一下**重建方案**。 組建完成時，使用 瀏覽至 Windows 檔案總管`<Samples Path>\Admin\OperationsOM\OperationSamples\bin\Debug,`，然後按兩下**OperationsSamples.exe**。  
   
 ## <a name="classes-or-methods-used-in-this-sample"></a>在此範例中使用的類別或方法  
- [Microsoft.BizTalk.Operations.BizTalkOperations](http://msdn.microsoft.com/library/microsoft.biztalk.operations.biztalkoperations.aspx)&#124;[Microsoft.BizTalk.Operations.MessageFlow](http://msdn.microsoft.com/library/microsoft.biztalk.operations.messageflow.aspx)&#124;[Microsoft.BizTalk.Operations.SendPortInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.sendportinstance.aspx)&#124;[Microsoft.BizTalk.Operations.RoutingFailureInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.routingfailureinstance.aspx)&#124;[Microsoft.BizTalk.Operations.OrchestrationInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.orchestrationinstance.aspx)&#124;[Microsoft.BizTalk.Operations.MSMQtInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.msmqtinstance.aspx)&#124;[Microsoft.BizTalk.Operations.TrackedServiceInstance](http://msdn.microsoft.com/library/Microsoft.BizTalk.Operations.TrackedServiceInstance.aspx)  
+ [Microsoft.BizTalk.Operations.BizTalkOperations](http://msdn.microsoft.com/library/microsoft.biztalk.operations.biztalkoperations.aspx) &#124; [Microsoft.BizTalk.Operations.MessageFlow](http://msdn.microsoft.com/library/microsoft.biztalk.operations.messageflow.aspx) &#124; [Microsoft.BizTalk.Operations.SendPortInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.sendportinstance.aspx)&#124; [Microsoft.BizTalk.Operations.RoutingFailureInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.routingfailureinstance.aspx) &#124; [Microsoft.BizTalk.Operations.OrchestrationInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.orchestrationinstance.aspx) &#124; [Microsoft.BizTalk.Operations.MSMQtInstance](http://msdn.microsoft.com/library/microsoft.biztalk.operations.msmqtinstance.aspx) &#124; [Microsoft.BizTalk.Operations.TrackedServiceInstance](http://msdn.microsoft.com/library/Microsoft.BizTalk.Operations.TrackedServiceInstance.aspx)  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [Admin-OperationsOM (BizTalk Server Samples 資料夾)](../core/admin-operationsom-biztalk-server-samples-folder.md)

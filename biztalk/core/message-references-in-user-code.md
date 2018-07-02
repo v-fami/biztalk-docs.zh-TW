@@ -1,5 +1,5 @@
 ---
-title: 訊息中的使用者程式碼的參考 |Microsoft 文件
+title: 訊息中使用者程式碼的參考 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,27 +12,27 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 264f50da516f44d8fc87186614a79bb81aaf77ed
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 71e73eb9b953e514e48ae4e927ec3e4c104feb43
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22263246"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972495"
 ---
 # <a name="message-references-in-user-code"></a>使用者程式碼中的訊息參考
 在建構訊息時，訊息的某一表示法會儲存在 MessageBox 資料庫，另一個表示法則會儲存在電腦的記憶體。 如果您將訊息參考傳送至 .NET 物件或外部組件進行訊息指派，接著此 .NET 物件或外部組件修改電腦記憶體中的表示法，則 BizTalk 協調流程引擎不會知道此修改。  
   
  而且，協調流程引擎也不會使 MessageBox 資料庫中之表示法的訊息部分資料無效。 訊息部分資料有下列各種表示法：  
   
--   XmlDocument 表示法  
+- XmlDocument 表示法  
   
--   物件表示法  
+- 物件表示法  
   
--   資料流表示法  
+- 資料流表示法  
   
--   UnderlyingPart 表示法  
+- UnderlyingPart 表示法  
   
- 訊息部分資料在記憶體中的表示方式取決於訊息建構，以及類型為 .NET 類別還是 XML 結構描述定義語言 (XSD) 結構描述。 不過，UnderlyingPart 表示法永遠是指向 MessageBox 資料庫的資料流。 因為 BizTalk Server 中的訊息在 MessageBox 資料庫認可後即無法改變，所以協調流程引擎會使用 MessageBox 資料庫中的表示法來參考訊息部分資料。  
+  訊息部分資料在記憶體中的表示方式取決於訊息建構，以及類型為 .NET 類別還是 XML 結構描述定義語言 (XSD) 結構描述。 不過，UnderlyingPart 表示法永遠是指向 MessageBox 資料庫的資料流。 因為 BizTalk Server 中的訊息在 MessageBox 資料庫認可後即無法改變，所以協調流程引擎會使用 MessageBox 資料庫中的表示法來參考訊息部分資料。  
   
 > [!NOTE]
 >  如果您從已認可的訊息中指定某些部分，MessageBox 資料庫可能已有所建構之訊息的表示法。  

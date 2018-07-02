@@ -1,5 +1,5 @@
 ---
-title: BizTalk Accelerator for RosettaNet 新增至 BizTalk Server |Microsoft 文件
+title: BizTalk Accelerator for RosettaNet 新增至 BizTalk Server |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,17 +15,17 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 24c06f6a7709962c5d67f0dbda4e5d7117d35276
-ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
+ms.openlocfilehash: c73d8d8d75b704973cbd0998256dc5c324bee289
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "34855569"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979615"
 ---
 # <a name="what-biztalk-accelerator-for-rosettanet-adds-to-biztalk-server"></a>BizTalk Accelerator for RosettaNet 新增至 BizTalk Server
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 建置[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Server 整合的系統到 RosettaNet 相容的整合系統。 它新增了實作 RosettaNet 相容解決方案所需的全部項目。  
+Microsoft[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]會將 Microsoft BizTalk Server 的整合系統建置到 RosettaNet 相容的整合系統。 它新增了實作 RosettaNet 相容解決方案所需的全部項目。  
   
-您安裝[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]之上 BizTalk Server 和[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]將功能加入至 BizTalk Server 引擎的核心。 並在 BizTalk Server 提供的元件上加入功能、工具和公用程式。 此外，它也會在 BizTalk Server 軟體開發套件 (SDK) 提供的應用程式發展介面 (API) 中新增 API。  
+在您安裝[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]在 BizTalk Server 和[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]將功能加入至 BizTalk Server 引擎的核心。 並在 BizTalk Server 提供的元件上加入功能、工具和公用程式。 此外，它也會在 BizTalk Server 軟體開發套件 (SDK) 提供的應用程式發展介面 (API) 中新增 API。  
   
 ## <a name="in-this-section"></a>本節內容  
   

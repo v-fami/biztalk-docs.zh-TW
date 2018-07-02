@@ -1,5 +1,5 @@
 ---
-title: 如何複製、 剪下和貼上運算質 |Microsoft 文件
+title: 如何複製、 剪下和貼上運算質 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9af3662fb866eb09c1dcb2516279ca097cc998f6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5c99fc624ce76a9bdd8adc4addc4a8be5ab9d035
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22249526"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36965999"
 ---
 # <a name="how-to-copy-cut-and-paste-a-functoid"></a>如何複製、剪下與貼上運算質
 「BizTalk 對應工具」中的複製/剪下/貼上功能可讓人重複使用運算質。 在對應中，您可以將某個格線頁中的一或多個運算質複製、剪下及貼至另一個格線頁。 本主題提供執行這些作業的逐步指示。  
@@ -31,13 +31,13 @@ ms.locfileid: "22249526"
   
  您可以從下列位置複製/剪下運算質：  
   
--   同一個對應格線頁內  
+- 同一個對應格線頁內  
   
--   同一個對應中的不同格線頁之間  
+- 同一個對應中的不同格線頁之間  
   
--   兩個 Visual Studio 執行個體之間  
+- 兩個 Visual Studio 執行個體之間  
   
- 您可以復原或重做剪下與貼上作業。 如需詳細資訊，請參閱[如何復原或重做使用者作業](../core/how-to-undo-or-redo-user-operations.md)。  
+  您可以復原或重做剪下與貼上作業。 如需詳細資訊，請參閱 <<c0> [ 如何復原或重做使用者作業](../core/how-to-undo-or-redo-user-operations.md)。  
   
 ## <a name="prerequisites"></a>必要條件  
  這些指示需要執行中的 BizTalk 對應工具。  
@@ -49,16 +49,16 @@ ms.locfileid: "22249526"
 2.  選取您要複製的 運算質 。 若要選取多個運算質，請按其中一個運算質，按住 CTRL 鍵，然後按一下其餘運算質。  
   
     > [!NOTE]
-    >  您可以使用「功能區選取」作業來選取多個連結和 (或) 運算質。 如需詳細資訊，請參閱[如何選取多個連結和運算質](../core/how-to-select-multiple-links-and-functoids.md)。  
+    >  您可以使用「功能區選取」作業來選取多個連結和 (或) 運算質。 如需詳細資訊，請參閱 <<c0> [ 如何選取多個連結和運算質](../core/how-to-select-multiple-links-and-functoids.md)。  
   
 3.  選取範圍，以滑鼠右鍵按一下，然後按一下**複製**。 或者，您可以按一下**複製**從 Visual Studio**編輯**功能表或鍵盤上的按下 CTRL + C。  
   
     > [!NOTE]
-    >  如需鍵盤快速鍵的清單，請參閱[BizTalk 對應工具鍵盤快速鍵](../core/biztalk-mapper-keyboard-shortcuts.md)。  
+    >  如需鍵盤快速鍵的清單，請參閱 < [BizTalk 對應工具鍵盤快速鍵](../core/biztalk-mapper-keyboard-shortcuts.md)。  
   
 4.  將游標放在您想貼上運算質的位置。  
   
-5.  在格線頁中，按一下滑鼠右鍵，然後按一下**貼上**。 或者，您可以按一下**貼上**從 Visual Studio**編輯**功能表或鍵盤上的按 CTRL + V。 所 選取運算質或運算質群組的複本會出現在新的位置 。  
+5.  以滑鼠右鍵按一下格線頁，然後**貼上**。 或者，您可以按一下**貼上**從 Visual Studio**編輯**功能表或鍵盤上的按下 CTRL + V 鍵。 所 選取運算質或運算質群組的複本會出現在新的位置 。  
   
 ### <a name="to-cut-and-paste-a-functoid"></a>若要 剪下並貼上運算質  
   
@@ -69,11 +69,11 @@ ms.locfileid: "22249526"
 3.  選取範圍，以滑鼠右鍵按一下，然後按一下**剪下**。 或者，您可以按一下**剪下**從 Visual Studio**編輯**功能表或鍵盤上的按下 CTRL + X。  
   
     > [!NOTE]
-    >  如需鍵盤快速鍵的清單，請參閱[BizTalk 對應工具鍵盤快速鍵](../core/biztalk-mapper-keyboard-shortcuts.md)。  
+    >  如需鍵盤快速鍵的清單，請參閱 < [BizTalk 對應工具鍵盤快速鍵](../core/biztalk-mapper-keyboard-shortcuts.md)。  
   
 4.  將游標放在您想貼上運算質的位置。  
   
-5.  在格線頁中，按一下滑鼠右鍵，然後按一下**貼上**。 或者，您可以按一下**貼上**從 Visual Studio**編輯**功能表或鍵盤上的按 CTRL + V。 所 選取運算質或運算質群組會自現有位置刪除，並出現在新的位置 。  
+5.  以滑鼠右鍵按一下格線頁，然後**貼上**。 或者，您可以按一下**貼上**從 Visual Studio**編輯**功能表或鍵盤上的按下 CTRL + V 鍵。 所 選取運算質或運算質群組會自現有位置刪除，並出現在新的位置 。  
   
 ## <a name="see-also"></a>另請參閱  
- [使用運算質建立更複雜的對應](../core/using-functoids-to-create-more-complex-mappings.md)
+ [使用運算質建立更多複雜對應](../core/using-functoids-to-create-more-complex-mappings.md)

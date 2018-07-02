@@ -1,5 +1,5 @@
 ---
-title: 分隔符號不是唯一的是相同的欄位及區段分隔符號 |Microsoft 文件
+title: 不是唯一分隔符號，欄位及區段分隔符號相同 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 440ffb1213936fba4b08a8ee478f6c141eba38fc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ff43a9b86fc39589cd513c82c5d9bed9055f5902
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22238726"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969527"
 ---
 # <a name="delimiters-are-not-unique-field-and-segment-separator-are-the-same"></a>分隔符號不是唯一的，欄位及區段的分隔符號相同
 ## <a name="details"></a>詳細資料  
   
-|||  
-|-|-|  
-|產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|產品版本|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|事件識別碼|-|  
-|事件來源|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]EDI|  
-|元件|EDI 引擎|  
-|符號名稱|-|  
-|訊息文字|分隔符號不是唯一的，欄位及區段的分隔符號相同|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  產品名稱   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| 產品版本 |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    事件識別碼     |                                           -                                            |
+|  事件來源   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI |
+|    元件    |                                       將 EDI 引擎                                       |
+|  符號名稱  |                                           -                                            |
+|  訊息文字   |          分隔符號不是唯一的，欄位及區段的分隔符號相同           |
   
 ## <a name="explanation"></a>說明  
- 這個錯誤/警告/資訊事件表示 EDI 傳送管線無法處理外寄交換，因為資料元素與區段分隔符號值相同。 中的 X12 交換，資料元素分隔符號是 ISA 區段的第四個字元的位置中的字元，區段結束字元是最後一個字元位置的 ISA 區段中的字元。 在 EDIFACT 交換中，資料元素分隔符號是 UNA2 欄位中的字元，區段結束字元是 [UNA6] 欄位中的字元。 兩個具有相同值的分隔符號可能 （但會導致錯誤狀況） 中保留的批次的案例中，或交換是透過傳遞傳輸接收，然後挑選向上為 MessageBox 中 XML 檔案傳送埠。  
+ 這個錯誤/警告/資訊事件表示 EDI 傳送管線無法處理外寄交換，因為資料元素與區段分隔符號值相同。 在 X12 中資料元素分隔符號的交換，在 ISA 區段的第四個字元位置的字元而區段結束字元是最後一個字元位置的 ISA 區段中的字元。 在 EDIFACT 交換，資料元素分隔符號是 UNA2 欄位中的字元，區段結束字元是 [una6] 欄位中的字元。 具有相同值的兩個分隔符號可能會發生 （但會導致錯誤狀況） 在保留批次案例中，或如果交換是透過通過傳輸接收，然後挑選最多的傳送埠即 MessageBox 中的 XML 檔案。  
   
 ## <a name="user-action"></a>使用者動作  
- 若要解決這個錯誤，變更值的其中一個交換中的資料元素或區段分隔符號，並再重新送出交換。
+ 若要解決這個錯誤，請變更的值中的資料元素或區段分隔符號的交換，然後再重新送出交換。

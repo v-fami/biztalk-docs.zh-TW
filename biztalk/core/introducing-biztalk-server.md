@@ -1,5 +1,5 @@
 ---
-title: 導入 BizTalk Server |Microsoft 文件
+title: BizTalk Server 簡介 |Microsoft Docs
 ms.custom: ''
 ms.date: 01/30/2018
 ms.prod: biztalk-server
@@ -12,63 +12,63 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4de6778bef644dc7bbfa25b46c28b36e1741ba6f
-ms.sourcegitcommit: d0a1816a8dd8412906245d40c6479b08d7b3b20a
+ms.openlocfilehash: dac63beb5516e8db8aa5c0cafdbbe9c018ddb95a
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2018
-ms.locfileid: "28910102"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36977023"
 ---
-# <a name="introducing-biztalk-server"></a>介紹的 BizTalk Server
-繫結系統一起預期，而且範數。 조직이 서비스 지향 환경으로 발전해 나감에 따라, 개별 시스템을 하나의 일관된 전체로 통합하는 효율적인 비즈니스 프로세스를 만드는 진정한 목표를 달성할 수 있게 되었습니다.  
+# <a name="introducing-biztalk-server"></a>BizTalk Server 簡介
+將各系統彼此，而且已經成為家常便飯。 當組織走向服務導向的世界，真正的目標，建立各自獨立的系統到一體的有效商務程序 — 來自得以實現。  
   
- Microsoft BizTalk Server 可讓連接各種不同的軟體，然後以圖形方式建立和修改處理程序邏輯會使用該軟體。 BizTalk Server 也可讓資訊工作者監控執行中的處理程序、與企業合作夥伴互動並執行其他業務相關工作。  
+ 連接各種不同的軟體，然後以圖形方式建立和修改使用該軟體的程序邏輯，可讓 Microsoft BizTalk Server。 BizTalk Server 也可讓資訊工作者監控執行中的處理程序、與企業合作夥伴互動並執行其他業務相關工作。  
   
  BizTalk Server 中的主要新功能包括：  
   
--   응용 프로그램 배포, 모니터링 및 관리 지원 향상  
+-   提供部署、監控及管理應用程式方面更好的支援  
   
--   단순해진 설치  
+-   更為簡化的安裝  
   
--   BAM(비즈니스 활동 모니터링) 기능 향상  
+-   加強的商務活動監控 (BAM) 功能  
   
-BizTalk Server 也會使用其他 Microsoft 技術的最新版本。 建置於.NET Framework 中，並在 Microsoft Visual Studio 中裝載的開發人員工具。 針對儲存體，BizTalk Server 會使用 SQL Server。 BizTalk Server 可以在執行 64 位元 Windows 伺服器，利用較大的記憶體和其他硬體所提供的優點。  
+BizTalk Server 也會使用其他 Microsoft 技術的最新版本。 它建置在.NET Framework 中，並在 Microsoft Visual Studio 中裝載的開發人員工具。 針對儲存體，BizTalk Server 會使用 SQL Server。 BizTalk Server 可以執行 64 位元 Windows 伺服器上，利用較大的記憶體和其他硬體提供的權益。  
   
-## <a name="what-is-biztalk-server"></a>BizTalk Server란?  
- 여러 시스템을 효과적인 비즈니스 프로세스로 결합하는 것은 어려운 문제입니다. 따라서 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]에는 다양한 기술이 포함되어 있습니다. 아래 그림은 이 제품의 주요 구성 요소를 보여 줍니다.  
+## <a name="what-is-biztalk-server"></a>什麼是 BizTalk Server？  
+ 將不同的系統結合到有效的商務程序中是一項具有挑戰性的任務。 因此，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]包含數種技術。 下圖說明此產品的主要元件。  
   
  ![BizTalk Server 元件概觀](../core/media/d167608e-7c51-4d52-b8fa-9d4149242934.gif "d167608e-7c51-4d52-b8fa-9d4149242934")  
   
- 그림에서 볼 수 있듯이 이 제품의 핵심은 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 엔진입니다. 엔진은 다음 두 개의 주요 부분으로 이루어져 있습니다.  
+ 如圖所示，產品的核心是[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]引擎。 引擎有兩個主要部分：  
   
--   다양한 소프트웨어와 통신하는 기능을 제공하는 메시징 구성 요소. 여러 종류의 통신에 어댑터를 사용함으로써 엔진은 웹 서비스 등을 비롯한 다양한 프로토콜과 데이터 형식을 지원할 수 있습니다.  
+- 提供與不同系統溝通之能力的傳訊元件。 藉由依賴配接器來進行不同的通訊，引擎可以支援各種不同的通訊協定及資料格式，包含 Web 服務及其他等等。  
   
--   그래픽 방식으로 정의된 프로세스(오케스트레이션) 생성 및 실행 지원. 엔진의 메시징 구성 요소를 기반으로 하는 오케스트레이션은 비즈니스 프로세스 전체 또는 일부를 작동하는 논리를 구현합니다.  
+- 支援建立及執行圖形式定義程序，稱為協調流程。 協調流程建置在引擎的傳訊元件最上方，因此可實作驅動所有或部分商務程序的邏輯。  
   
- 다음을 비롯한 다른 여러 BizTalk 구성 요소를 엔진과 함께 사용할 수도 있습니다.  
+  數個其他的 BizTalk 元件也可用在搭配使用引擎，包括：  
   
--   복잡한 규칙 집합을 평가하는 비즈니스 규칙 엔진  
+- 評估複合規則集的商務規則引擎。  
   
--   개발자와 관리자가 엔진 및 엔진이 실행하는 오케스트레이션을 모니터링하고 관리할 수 있도록 하는 그룹 허브  
+- 群組中樞，可讓開發人員和系統管理員監控並管理引擎和協調流程會執行。  
   
--   Windows 시스템과 Windows가 아닌 시스템 간에 인증 정보 매핑 기능을 제공하는 Enterprise SSO(Single Sign-On) 기능  
+- 「企業單一登入」(SSO) 功能，提供對應 Windows 與非 Windows 系統間驗證資訊的能力。  
   
- 정보 근로자가 실행 중인 비즈니스 프로세스를 모니터링하는 데 사용하는 비즈니스 활동 모니터링은 이러한 토대를 기반으로 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]에 포함됩니다. 기술 용어 대신 비즈니스 정보가 표시되며 비즈니스 사용자가 표시되는 정보를 결정합니다.  
+  此基礎[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]包含商務活動監控 」，資訊工作者可用來監視執行中的商務處理。 資訊會以商務而非技術的形式來顯示，且商務使用者可判定所顯示的資訊為何。  
   
-## <a name="connecting-diverse-systems"></a>連接不同的系統  
- 오늘날 대부분의 비즈니스 프로세스는 부분적으로라도 소프트웨어를 사용합니다. 이러한 프로세스 중 일부는 하나의 응용 프로그램에서 지원되지만 다른 많은 프로세스는 다양한 소프트에어 시스템을 사용합니다. 대체로 이 소프트웨어는 서로 다른 시간과 플랫폼에서, 서로 다른 기술을 사용하여 만들어졌습니다. 이러한 비즈니스 프로세스를 자동화하려면 다양한 시스템을 연결해야 합니다.  
+## <a name="connecting-diverse-systems"></a>連線不同系統  
+ 目前大多數的商務程序至少有一部分都要仰賴軟體。 有些程序由單一應用程式支援，有些則依賴數個不同的軟體系統。 在許多情況中，這個軟體是已經在不同時間、使用不同技術、在不同平台上建立。 自動化這些商務程序需要連接不同的系統。  
   
- 解決這項挑戰有各種不同的名稱︰ 商務程序自動化 (BPA)、 商務程序管理 (BPM) 等等。 이름이 무엇이든 간에 응용 프로그램 통합에 가장 중요한 두 가지 시나리오가 있습니다. 한 시나리오는 단일 조직 내의 응용 프로그램을 연결하는 것으로, 흔히 EAI(엔터프라이즈 응용 프로그램 통합)이라고 합니다. B2B 통합이라는 다른 시나리오에서는 여러 조직의 응용 프로그램을 연결합니다.  
+ 解決這項挑戰有各種不同的名稱： 商務程序自動化 (BPA)、 商務程序管理 (BPM) 等等。 不管名稱為何，在應用程式整合上有兩個最重要的案例。 一個是連接單一組織內的應用程式，一般是指企業應用程式整合 (EAI)。 另一個是連接不同組織內的應用程式，稱為企業對企業 (B2B) 整合。  
   
- 아래 그림은 EAI 문제에 핵심 BizTalk Server 엔진을 적용한 간단한 예를 보여 줍니다. 이 시나리오에서는 IBM 메인프레임에서 실행 중인 재고 응용 프로그램이 항목 재고가 부족한 것을 발견하고 해당 항목을 더 주문하는 요청을 실행합니다. 이 요청은 BizTalk Server 오케스트레이션으로 전송되며(1단계), 그런 다음 오케스트레이션이 이 조직의 ERP 응용 프로그램에 구매 주문 요청을 실행합니다(2단계). Unix 시스템에서 실행 중인 ERP 응용 프로그램이 요청된 PO를 돌려보낸 다음(3단계), BizTalk Server 오케스트레이션이 .NET Framework를 사용하여 Windows에 빌드된 주문 처리 응용 프로그램에 항목을 주문해야 한다고 알립니다(4단계).  
+ 下圖顯示套用到 EAI 問題之核心 BizTalk Server 引擎的簡單範例。 在此案例中，庫存應用程式，也許在 IBM 大型主機上執行，注意到某一項目的庫存不足，然後發出要求訂購更多該項目。 此要求會傳送到 BizTalk Server 協調流程 (步驟 1)，然後發出要求給組織的 ERP 應用程式以要求訂單 (步驟 2)。 ERP 應用程式可能在 Unix 系統上執行，且會傳回要求的 PO (步驟 3)，而 BizTalk Server 協調流程則會通知履行應用程式 (可能使用 .NET Framework 建置在 Windows 上) 應該訂購該項目 (步驟 4)。  
   
- ![BizTalk 引擎中實作的 EAI。](../core/media/7d8558da-03cf-494b-8334-efe0ea15a6a7.gif "7d8558da-03cf-494b-8334-efe0ea15a6a7")  
+ ![BizTalk 引擎中實作的 EAI。] (../core/media/7d8558da-03cf-494b-8334-efe0ea15a6a7.gif "7d8558da-03cf-494b-8334-efe0ea15a6a7")  
   
- 이 예에서 각 응용 프로그램은 서로 다른 프로토콜을 사용하여 통신합니다. 따라서 BizTalk Server 엔진의 메시징 구성 요소가 기본 통신 스타일로 각 응용 프로그램과 통신할 수 있어야 합니다. 또한 어떠한 단일 응용 프로그램도 전체 비즈니스 프로세스를 인식하지 못합니다. 관련된 모든 소프트웨어를 조정하는 데 필요한 인텔리전스는 BizTalk Server 오케스트레이션에서 구현됩니다.  
+ 在此範例中，每一個應用程式都使用不同的通訊協定進行溝通。 因此，BizTalk Server 引擎的傳訊元件必須可以用原生通訊樣式與每一個應用程式溝通。 另外，注意不只單一應用程式知道完整的商務程序。 協調所有相關軟體所需的情報實作於 BizTalk Server 協調流程中。  
   
- 조직 내의 응용 프로그램 연결도 중요하지만 여러 조직에 걸쳐 있는 응용 프로그램 연결은 그 이상의 가치가 있습니다. 아래 그림은 이러한 종류의 B2B 통합에 대한 간단한 예를 보여 줍니다. 이 경우 그림 맨 위의 구매 조직은 두 개의 공급자 조직과 상호 작용하는 BizTalk Server 오케스트레이션을 실행합니다. 공급자 A도 BizTalk Server를 사용하여 공급 응용 프로그램에 대한 간접 액세스를 제공합니다. 공급자 B는 다른 공급업체의 통합 플랫폼을 사용하고 웹 서비스 등을 통해 구매 조직의 BizTalk Server 오케스트레이션에 연결합니다.  
+ 連線組織內的應用程式十分重要，但是連線跨越數個組織的應用程式，有時會有更多商務價值。 下圖顯示此種企業對企業 (B2B) 整合的簡單範例。 在此案例中，在圖示上方的採購組織執行 BizTalk Server 協調流程，該協調流程會與兩個供應組織互動。 供應商 A 也使用 BizTalk Server，提供其「供應」應用程式的間接存取。 供應商 B 則使用其他廠商的整合平台，並使用 Web 服務連線到採購組織的 BizTalk Server 協調流程。  
   
- ![企業對企業整合圖](../core/media/b1d8787d-e842-468e-96c5-b68875d9abc3.gif "b1d8787d-e842-468e-96c5-b68875d9abc3")  
+ ![企業對企業整合的圖表](../core/media/b1d8787d-e842-468e-96c5-b68875d9abc3.gif "b1d8787d-e842-468e-96c5-b68875d9abc3")  
   
 ## <a name="see-also"></a>另請參閱  
  [了解 BizTalk Server](../core/understanding-biztalk-server.md)

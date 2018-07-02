@@ -1,5 +1,5 @@
 ---
-title: 詞彙 |Microsoft 文件
+title: 詞彙 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,29 +15,29 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5c77247054914097131103fe33d86fc78551d8cc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 31e72b51e327581c0a17f18582b0511218b556a7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206654"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979031"
 ---
 # <a name="vocabulary"></a>詞彙
-HL7 版本 2 提供的自動程式碼項目，詞彙的部分支援，但大部分的情況下，提供傳輸繪製從程式碼撰寫的本機系統的程式碼的結構。  
+HL7 第 2 版提供詞彙的自動程式化項目，某些支援，但大部分的情況下，提供傳輸取自本機程式碼撰寫的系統程式碼的結構。  
   
- HL7 版本 2 在區段資料表連結自動程式化的所有欄位。 區段包含的欄位使用之資料表的識別項。 有三種類型的資料表： HL7 定義外部定義，以及使用者定義。 在某些情況下，標準提供使用者定義資料表的範例值。 您應該將這些視為與標準 HL7 標示為它們。  
+ HL7 版本 2，在分割資料表會連結所有硬式編碼的欄位。 區段表格中包含之資料表的欄位會使用的識別項。 有三種類型的資料表： HL7 定義外部定義，以及使用者定義。 在某些情況下，標準會提供使用者定義資料表的範例值。 您應該將這些視為與 HL7 標準標記它們。  
   
- 在新的版本中，您無法移除 HL7 定義資料表中的程式碼，但您可以加入新的代碼。 您可以變更在使用者定義的資料表。  
+ 在新的版本中，您無法移除 HL7 定義資料表中的程式碼，但您可以加入新的代碼。 您可以變更將會在使用者定義的資料表。  
   
- 下列函式的[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 支援這些需求：  
+ Microsoft BizTalk Accelerator for HL7 的下列函式 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 支援這些需求：  
   
 -   您可以使用所有 HL7 定義的資料表。  
   
--   您可以匯入和使用外部定義 LOINC ICD9 等程式碼集。  
+-   您可以匯入和使用外部定義 LOINC ICD9 等的程式碼集。  
   
--   您可以提供使用者定義資料表的值。  
+-   您可以在使用者定義資料表的提供值。  
   
--   在支援的系統組不同的程式碼的情況下，您可以設定允許不同的程式碼集交互操作的對應。 如有必要，您可以定義多個執行個體的單一使用者定義資料表，以便與中繼的對應。  
+-   在支援系統不同的程式碼的情況下，您可以設定允許不同的程式碼集互相的對應。 如有必要，您可以定義多個單一使用者定義資料表，來搭配中繼對應執行個體。  
   
 ## <a name="see-also"></a>另請參閱  
  [處理 HL7 訊息](../../adapters-and-accelerators/accelerator-hl7/processing-hl7-messages.md)   

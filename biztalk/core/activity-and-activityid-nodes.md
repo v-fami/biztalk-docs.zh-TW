@@ -1,5 +1,5 @@
 ---
-title: Activity 和 ActivityID 節點 |Microsoft 文件
+title: Activity 和 ActivityID 節點 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,12 +17,12 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d100c88eec5f5a05db2bb651968aa987e3ec4e33
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: dbe92c28a3ca84cdd94236c1069c9d340cc4630f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22224670"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36983559"
 ---
 # <a name="activity-and-activityid-nodes"></a>Activity 和 ActivityID 節點
 Activity 和 ActivityID 節點是用以包含和識別活動定義。 Activity 節點是活動定義中之項目的父資料夾。 所有的資料項目和商務事件節點都附屬和包含在關聯的活動節點中。 Activity 節點的命稱應該反映活動本身的名稱。  
@@ -34,25 +34,25 @@ Activity 和 ActivityID 節點是用以包含和識別活動定義。 Activity �
  在任一情況下，關係節點的目的都是為相關的活動提供識別碼。 例如，訂單和出貨可能有多對多的關係 (一張 PO 可能包含多次出貨；一次出貨所裝載的產品可能滿足許多 PO)。  每張訂單的活動記錄可能有多個相關之出貨的指標，每次出貨活動記錄可能指向一或多張訂單。  以資料庫的方式來說，關係節點的值就是資料表中另一個活動的外部索引鍵。  
   
 ## <a name="working-with-activity-id-nodes"></a>使用 Activity ID 節點  
- 例如，請考慮下列案例： EquityLoan 協調流程包含 LoanProcess 活動資料夾。 它參考下列商務事件：  
+ 例如，假設有以下狀況： EquityLoan 協調流程包含 LoanProcess 活動資料夾。 它參考下列商務事件：  
   
--   LoanApplicationReceived  
+- LoanApplicationReceived  
   
--   CHRequest  
+- CHRequest  
   
--   CHResponse  
+- CHResponse  
   
--   AppraisalRequest  
+- AppraisalRequest  
   
--   AppraisalResponse  
+- AppraisalResponse  
   
--   已核准  
+- 已核准  
   
--   拒絕  
+- 拒絕  
   
- ActivityID 節點可讓方案開發人員擷取唯一識別活動的資料，例如訂單編號或是訊息的 SSN 欄位 (在範本案例的情況中)。 如果您未將任何資料拖曳到 ActivityID 節點，自動產生的 GUID 就會識別商務活動。  
+  ActivityID 節點可讓方案開發人員擷取唯一識別活動的資料，例如訂單編號或是訊息的 SSN 欄位 (在範本案例的情況中)。 如果您未將任何資料拖曳到 ActivityID 節點，自動產生的 GUID 就會識別商務活動。  
   
- 若要定義不同協調流程中之商務事件或里程碑之間的關係，目標協調流程就必須參考 ActivityID。 如需如何使用 TPE 實作關係的詳細資訊，請參閱[關係節點](../core/relationship-nodes.md)。  
+  若要定義不同協調流程中之商務事件或里程碑之間的關係，目標協調流程就必須參考 ActivityID。 如需如何使用 TPE 實作關係的詳細資訊，請參閱[關係節點](../core/relationship-nodes.md)。  
   
 ## <a name="see-also"></a>另請參閱  
  [TPE 活動檢視節點](../core/tpe-activity-view-nodes.md)

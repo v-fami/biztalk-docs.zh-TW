@@ -1,5 +1,5 @@
 ---
-title: 使用管線設計師建立管線 |Microsoft 文件
+title: 使用管線設計師建立管線 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,29 +16,29 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 73842a24169f9e589fb1eecef80bca3d97cad262
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 51d7f15a50c5504468cc3da19293afd251dff312
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22238318"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969175"
 ---
 # <a name="creating-pipelines-with-pipeline-designer"></a>使用管線設計師建立管線
 本節說明如何：  
   
--   建立、開啟和儲存管線  
+- 建立、開啟和儲存管線  
   
--   新增元件至管線  
+- 新增元件至管線  
   
--   使用結構描述集合屬性編輯器  
+- 使用結構描述集合屬性編輯器  
   
--   使用工具箱  
+- 使用工具箱  
   
--   使用鍵盤巡覽  
+- 使用鍵盤巡覽  
   
--   搭配使用唯讀管線元件屬性。  
+- 搭配使用唯讀管線元件屬性。  
   
- 如需使用管線設計師 」 的資訊，請參閱[使用管線設計師](../core/using-pipeline-designer.md)。  
+  如需使用管線設計師的詳細資訊，請參閱[使用管線設計師](../core/using-pipeline-designer.md)。  
   
 ## <a name="in-this-section"></a>本節內容  
   
@@ -54,7 +54,7 @@ ms.locfileid: "22238318"
   
 -   [如何儲存管線](../core/how-to-save-a-pipeline.md)  
   
--   [如何使用 [工具箱]](../core/how-to-use-the-toolbox.md)  
+-   [如何使用工具箱](../core/how-to-use-the-toolbox.md)  
   
 -   [如何使用鍵盤巡覽](../core/how-to-navigate-with-the-keyboard.md)  
   

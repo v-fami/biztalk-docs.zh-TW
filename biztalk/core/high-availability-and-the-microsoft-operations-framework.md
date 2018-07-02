@@ -1,5 +1,5 @@
 ---
-title: 高可用性和 Microsoft Operations Framework |Microsoft 文件
+title: 高可用性和 Microsoft Operations Framework |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,34 +12,34 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1a06bdadb026617dc55ed40d03e0344584111a0c
-ms.sourcegitcommit: 32f380810b90b70e5df7be72a6a14988a747868e
+ms.openlocfilehash: 37cdfd9a98f035b306bed1db88f3256336c0d1d1
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/28/2018
-ms.locfileid: "29710441"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972783"
 ---
 # <a name="high-availability-and-the-microsoft-operations-framework"></a>高可用性與 Microsoft Operations Framework
-Microsoft Operations Framework (MOF) 處理序模型套用之規劃與實作高可用性的 Microsoft BizTalk Server 解決方案可以幫助您確定在發行生命週期的不同階段具有適當的程序。 藉由觀察所有出現高可用性的生命週期階段，您可以讓環境中的安裝、維護和疑難排解可用性問題更為容易。  
+將 Microsoft Operations Framework (MOF) 處理序模型套用至的規劃和實作高可用性的 Microsoft BizTalk Server 解決方案，可協助您確保在發行生命週期的不同階段具有適當的程序。 藉由觀察所有出現高可用性的生命週期階段，您可以讓環境中的安裝、維護和疑難排解可用性問題更為容易。  
   
  本節包含您必須考慮高可用性工作的 MOF 程序資訊。  
   
 ## <a name="microsoft-operations-framework-process-model"></a>Microsoft Operations Framework 程序模型  
- [Microsoft Operations Framework (MOF)](https://technet.microsoft.com/solutionaccelerators/dd320379.aspx)提供指引，讓組織達成關鍵任務系統可靠性、 可用性、 可支援性和管理性的 Microsoft 產品和技術. MOF 以下列方式提供操作指導：白皮書、作業指南、評估工具、最佳作法、案例研究、範本、支援工具以及服務。 此指導將討論與複雜、分散式和異質 IT 環境相關的人員、程序、技術和管理問題。 
+ [Microsoft Operations Framework (MOF)](https://technet.microsoft.com/solutionaccelerators/dd320379.aspx)提供能夠讓組織達成任務關鍵系統可靠性、 可用性、 支援性和管理性的 Microsoft 產品和技術的指引. MOF 以下列方式提供操作指導：白皮書、作業指南、評估工具、最佳作法、案例研究、範本、支援工具以及服務。 此指導將討論與複雜、分散式和異質 IT 環境相關的人員、程序、技術和管理問題。 
   
  MOF 程序模型可讓公司：  
   
--   促進整個服務方案一致的 IT 服務管理。  
+- 促進整個服務方案一致的 IT 服務管理。  
   
--   建立 IT 功能、處理程序，以及程序的結構。  
+- 建立 IT 功能、處理程序，以及程序的結構。  
   
--   代表生命週期的方法。  
+- 代表生命週期的方法。  
   
- MOF 程序模型的中央分為四個象限的操作處理和程序，稱為服務管理功能 (SMF)。 SMF 是操作和維護 IT 環境的基礎層級最佳作法和指示引導。  
+  MOF 程序模型的中央分為四個象限的操作處理和程序，稱為服務管理功能 (SMF)。 SMF 是操作和維護 IT 環境的基礎層級最佳作法和指示引導。  
   
- 下圖顯示您必須考慮高可用性的 MOF 程序。  
+  下圖顯示您必須考慮高可用性的 MOF 程序。  
   
- ![MOF 程序](../core/media/tdi-highava-mof.gif "TDI_HighAva_MOF")  
+  ![MOF 程序](../core/media/tdi-highava-mof.gif "TDI_HighAva_MOF")  
   
 ## <a name="changing-quadrant"></a>變動象限  
  變動象限包括服務管理功能 (SMF)，此功能用以識別、檢視、核准變更，並將變更併入受管理的 IT 環境中。 這包括軟體、硬體、文件、角色和責任的變更，也包括特定的程序變更。  
@@ -62,7 +62,7 @@ Microsoft Operations Framework (MOF) 處理序模型套用之規劃與實作高�
 ### <a name="configuration-management"></a>組態管理  
  組態管理負責在變更管理的控制下識別、控制和追蹤所有版本的軟體、硬體、文件、處理程序、程序以及 IT 環境中所有其他元件。  
   
- 組態管理程序期間，您必須建立要如何為 BizTalk Server 實作高可用性方案的詳細計劃。 您也必須記錄用以建立解決方案的步驟。 簡要說明這些步驟：  
+ 在組態管理過程中，您必須建立詳細的計劃要如何實作 BizTalk server 的高可用性解決方案。 您也必須記錄用以建立解決方案的步驟。 簡要說明這些步驟：  
   
 -   網域控制站建立將用於 BizTalk Server 環境的網域群組和帳戶。  
   
@@ -72,7 +72,7 @@ Microsoft Operations Framework (MOF) 處理序模型套用之規劃與實作高�
   
 -   BizTalk Server 系統管理員設定主要密碼伺服器叢集。  
   
--   BizTalk Server 系統管理員上安裝和設定 BizTalk Server 在處理、 接收和傳送伺服器。  
+-   BizTalk Server 系統管理員上安裝和設定 BizTalk Server 處理、 接收和傳送伺服器。  
   
 -   BizTalk Server 系統管理員建立主控件並在適當的伺服器上安裝主控件執行個體，以提供高可用性、增加容量，或兩者。  
   

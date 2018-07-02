@@ -1,5 +1,5 @@
 ---
-title: 安裝、 設定及部署中的已知問題 |Microsoft 文件
+title: 安裝、 設定及部署中的已知問題 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cda1bd5c8167bbf9f6049b3620c0c949950b1e89
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 067d579317f9f034c65fe0f23cbf2f2d7f7b77f6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22299830"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36982647"
 ---
 # <a name="known-issues-in-installation-configuration-and-deployment"></a>安裝、組態和部署中的已知問題
 ## <a name="some-biztalk-edias2-artifacts-are-still-active-after-unconfiguring"></a>有些 BizTalk EDI/AS2 成品在取消設定後依然在作用中  
@@ -52,11 +52,11 @@ ms.locfileid: "22299830"
   
 ### <a name="problem"></a>問題  
   
--   BizTalk Server 商務規則組態精靈失敗，並出現「一些元件的組態已經失敗，而且沒有套用任何設定到那些元件」錯誤。  
+- BizTalk Server 商務規則組態精靈失敗，並出現「一些元件的組態已經失敗，而且沒有套用任何設定到那些元件」錯誤。  
   
--   在已順利設定商務規則引擎的 BizTalk Server 電腦上，無法啟動並且無法手動啟動規則引擎更新服務。  
+- 在已順利設定商務規則引擎的 BizTalk Server 電腦上，無法啟動並且無法手動啟動規則引擎更新服務。  
   
- 發生這個問題時，BizTalk Server 電腦應用程式記錄檔中可能會產生與下例類似的錯誤：  
+  發生這個問題時，BizTalk Server 電腦應用程式記錄檔中可能會產生與下例類似的錯誤：  
   
 ```  
 Service could not be started. : System.Net.Sockets.SocketException (10061): No connection could be made because the target machine actively refused it ::1:3132  
@@ -76,7 +76,7 @@ Service could not be started. : System.Net.Sockets.SocketException (10061): No c
  HOSTS 檔案位於 %systemroot%\drivers\etc\ 目錄中。  
   
 > [!NOTE]
->  如需解決 SettingsModifier:Win32/PossibleHostsFileHijack 潛在威脅的 Microsoft 惡意程式碼防護中心簽章更新的詳細資訊，請瀏覽 [http://go.microsoft.com/fwlink/?LinkId=146221](http://go.microsoft.com/fwlink/?LinkId=146221)。  
+>  如需有關解決來自 Settingsmodifier:win32/possiblehostsfilehijack 的潛在威脅的 Microsoft 惡意程式碼防護中心簽章更新 / 潛在，請移至[ http://go.microsoft.com/fwlink/?LinkId=146221 ](http://go.microsoft.com/fwlink/?LinkId=146221)。  
   
 ## <a name="enlistment-of-an-orchestration-fails-if-referenced-assemblies-are-missing-from-the-gacmgmt-db"></a>如果 GAC/管理資料庫中的參考組件遺失，則登錄協調流程會失敗  
   

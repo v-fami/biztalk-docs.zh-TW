@@ -1,5 +1,5 @@
 ---
-title: 如何將伺服器從一個群組移至另一個 |Microsoft 文件
+title: 如何將伺服器從一個群組移到另一個 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,12 +19,12 @@ caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1c9e5dfdf266d2205283afa7cd9804c31fc93ff3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0492af242b742fa51b75ae36ac577cd0ff0b8714
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22254566"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36971767"
 ---
 # <a name="how-to-move-a-server-from-one-group-to-another"></a>如何將伺服器從一個群組移至另一個群組
 一部伺服器僅能與一個 BizTalk Server 群組關聯。 若要將伺服器從一個群組移至另一個群組，必須先取消設定此伺服器，從原始群組移除它，然後將它加入新群組中。  
@@ -34,42 +34,42 @@ ms.locfileid: "22254566"
   
 ### <a name="to-move-a-server-from-one-biztalk-group-to-another"></a>將伺服器從一個 BizTalk 群組移至另一個群組  
   
-1.  按一下您想要從 BizTalk 群組移至另一部電腦上**啟動**，按一下 **所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 組態**.  
+1. 您想要從 BizTalk 群組移到其他電腦，按一下 **開始**，按一下**所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 組態**.  
   
-2.  在功能表列上，按一下 **取消設定功能**。  
+2. 在功能表列上，按一下**取消設定功能**。  
   
-3.  在**取消設定功能**對話方塊中，選取**企業單一登入**，選取**群組**，然後按一下 **確定**。  
+3. 在**取消設定功能**對話方塊中，選取**企業單一登入**，選取**群組**，然後按一下**確定**。  
   
-    > [!CAUTION]
-    >  取消設定群組也會將該電腦上設定的所有相關功能取消設定。  
+   > [!CAUTION]
+   >  取消設定群組也會將該電腦上設定的所有相關功能取消設定。  
   
-4.  按一下 **[是]**。  
+4. 按一下 **[是]**。  
   
-5.  在**Microsoft BizTalk Server 組態**視窗中，按一下 **下一步**。  
+5. 在  **Microsoft BizTalk Server 組態** 視窗中，按一下**下一步**。  
   
-     會取消設定企業 SSO、群組以及它們相依的功能。  
+    會取消設定企業 SSO、群組以及它們相依的功能。  
   
-6.  按一下 **[完成]**。  
+6. 按一下 **[完成]**。  
   
-7.  在**Microsoft BizTalk Server 組態**視窗中，選取**自訂組態**。  
+7. 在  **Microsoft BizTalk Server 組態**視窗中，選取**自訂組態**。  
   
-8.  在**資料庫伺服器名稱**，輸入您要移動伺服器之 BizTalk 群組的 SQL server 名稱。  
+8. 在 **資料庫伺服器名稱**，輸入您要在其中移動伺服器之 BizTalk 群組的 SQL 伺服器的名稱。  
   
-9. 在**服務認證**，輸入適當的使用者名稱和密碼，服務會使用，然後按一下**設定**。  
+9. 在 **服務認證**，輸入適當的使用者名稱和密碼，服務會使用，然後按一下**設定**。  
   
-10. 在畫面左側的導覽樹狀目錄中，按一下 **企業單一登入**。  
+10. 在畫面左側的導覽樹狀目錄中，按一下**企業 SSO**。  
   
-11. 在**企業單一登入**頁面上，按一下**加入現有的 SSO 系統**。  
+11. 在 **企業單一登入**頁面上，按一下**加入現有的 SSO 系統**。  
   
      請確認伺服器名稱和資料庫名稱是指向您要移動伺服器之 BizTalk Server 群組的主要 SSO 資料庫伺服器。  
   
-12. 在畫面左側的導覽樹狀目錄中，按一下 **群組**。  
+12. 在畫面左側的導覽樹狀目錄中，按一下**群組**。  
   
-13. 在**群組**頁面上，按一下**加入現有的 BizTalk 群組**。  
+13. 在 **群組**頁面上，按一下**加入現有的 BizTalk 群組**。  
   
      請確認伺服器名稱和資料庫名稱是指向您要移動伺服器之 BizTalk Server 群組的資料庫。  
   
-14. 在功能表列上，按一下 **套用組態**設定這部電腦上的企業單一登入和群組。  
+14. 在功能表列上，按一下**套用組態**來設定 這台電腦上的 企業單一登入和群組。  
   
 ## <a name="see-also"></a>另請參閱  
  [管理群組](../core/managing-groups.md)   

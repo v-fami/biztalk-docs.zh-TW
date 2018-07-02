@@ -1,5 +1,5 @@
 ---
-title: 大量負載測試 |Microsoft 文件
+title: 大量負載測試 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,24 +16,24 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 74954d8b94207832ceee5bbb699a7de1a245f61b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e38329066075f1e1d3dcb6acf5715b22e64b5b6e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22246206"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969167"
 ---
 # <a name="floodgate-load-test"></a>大量負載測試
-本主題中的資訊是指中所說明的測試[測量引擎 MST 的測試案例](../core/test-scenarios-for-measuring-mst-of-the-engine.md)。  
+本主題中的資訊是指在所說明的測試[測量引擎 MST 的測試案例](../core/test-scenarios-for-measuring-mst-of-the-engine.md)。  
   
 ## <a name="what-causes-floodgate-events"></a>什麼造成了大量事件？  
  有許多案例僅少數高尖峰時段 (也稱為**大量事件**) 的訊息抵達系統每一天。 在這些尖峰期間，輸送量可能相當低。 這類實例的範例包含：  
   
--   例如，股市開始與結束時的股票交易  
+- 例如，股市開始與結束時的股票交易  
   
--   例如，每日交易結束期間進行對帳的銀行系統  
+- 例如，每日交易結束期間進行對帳的銀行系統  
   
- 其他的事件類型會造成與大量事件類似的積存行為。 例如，若夥伴傳送位址離線而必須重試和 (或) 擱置該位址的訊息，則會導致積存一直累積。 當夥伴重新上線時，可能就有大量的擱置訊息需要重送，而造成另一種類型的大量事件。 以下的系統測試會說明此行為。  
+  其他的事件類型會造成與大量事件類似的積存行為。 例如，若夥伴傳送位址離線而必須重試和 (或) 擱置該位址的訊息，則會導致積存一直累積。 當夥伴重新上線時，可能就有大量的擱置訊息需要重送，而造成另一種類型的大量事件。 以下的系統測試會說明此行為。  
   
 ## <a name="simulating-a-floodgate-event"></a>模擬大量事件  
  對於此測試，系統一開始的運作大約是可維持之輸送量上限的一半，所以當然是相當穩定。 接著，若模擬大量事件，負載產生工具會設定在短時間內，以 410 msgs/sec 進行傳送 (與加速測試一樣)。 以下所示的為測量每秒接收的訊息及多工緩衝處理深度而產生的負載設定檔。  

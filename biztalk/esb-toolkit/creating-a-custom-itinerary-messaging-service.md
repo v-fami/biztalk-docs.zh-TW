@@ -1,5 +1,5 @@
 ---
-title: 建立自訂的路線傳訊服務 |Microsoft 文件
+title: 建立自訂路線傳訊服務 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,35 +12,35 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5f08168e69e26d56cb39fb5c05cc53c3cbb51202
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: ecb6c6976493e05c9df747de4a358df7fff7809f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25973732"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36983919"
 ---
-# <a name="creating-a-custom-itinerary-messaging-service"></a>建立自訂的路線訊息處理服務
-屬於路線 framework[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]支援路線步驟使用實作類別的執行**IMessagingService**執行路線訊息服務的介面。 當您想要負責下列服務時，您可以實作自訂訊息處理服務：  
+# <a name="creating-a-custom-itinerary-messaging-service"></a>建立自訂路線傳訊服務
+路線的架構，屬於[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]支援的路線的步驟，使用實作的類別執行**IMessagingService**執行路線傳訊服務的介面。 當您想要負責下列服務時，您可以實作自訂傳訊服務：  
   
--   路線中設定的自訂訊息驗證  
+- 路線中設定的自訂訊息驗證  
   
--   在路線中設定的自訂訊息轉換  
+- 路線中設定的自訂訊息轉換  
   
--   自訂訊息處理  
+- 自訂訊息處理  
   
- 在這些情況下，您實作自訂路線服務做為攔截器，並由發送器管線元件呼叫。  
+  在這些情況下，您實作自訂路線服務做為攔截器，並由 「 發送器 」 管線元件呼叫。  
   
- 自訂訊息型路線服務或訊息的服務，所有實作**IMessagingService**介面。 此介面會公開**名稱**和**SupportsDisassemble**屬性和**Execute**和**ShouldAdvanceStep**方法。  
+  自訂訊息路線服務或傳訊服務，所有實作**IMessagingService**介面。 此介面會公開**名稱**並**SupportsDisassemble**屬性和**Execute**並**ShouldAdvanceStep**方法。  
   
- **名稱**屬性是服務的名稱，因為它會出現在路線。 它必須符合 Esb.config 檔案中的計劃的服務組態中設定的名稱。  
+  **名稱**屬性是它會顯示在路線服務的名稱。 它必須符合路線服務組態中的 Esb.config 檔案中設定的名稱。  
   
- **SupportsDisassemble**屬性會指出是否自訂的訊息處理服務，您要建立支援反組譯及多個的解析程式執行。  
+  **SupportsDisassemble**屬性會指出是否自訂的傳訊服務，您要建立支援反組譯及多個的解析程式執行。  
   
- **ShouldAdvanceStep**方法接受目前的路線步驟和目前的訊息，並傳回布林值，指出發送器是否應該在服務執行之後前進的路線。 在大多數情況下，此方法應傳回**true**。  
+  **ShouldAdvanceStep**方法會接受目前的路線步驟中和目前的訊息，並傳回布林值，指出服務執行之後，發送器是否應該前進的路線。 在幾乎所有的情況下，這個方法會傳回 **，則為 true**。  
   
- **Execute**方法是重要性最高的訊息處理服務，並包含將在執行階段執行的邏輯。 它會在管線內容、 訊息、 解析程式的字串，以及目前路線的步驟。它會傳回更新的訊息。  
+  **Execute**方法是將重要性最高的傳訊服務，並包含將於執行階段上執行的邏輯。 它會採用管線內容、 訊息、 解析程式的字串，以及目前的路線步驟;它會傳回更新的訊息。  
   
- 參考實作**Execute** ESB RoutingService.cs 檔案中找到方法。Itinerary.Services 專案，如下列程式碼所示。  
+  參考實作**Execute** ESB RoutingService.cs 檔案中找到方法。Itinerary.Services 專案，如下列程式碼所示。  
   
 ```csharp  
 public IBaseMessage ExecuteRoute(IPipelineContext context, IBaseMessage msg, string resolverString)  
@@ -75,10 +75,10 @@ public IBaseMessage ExecuteRoute(IPipelineContext context, IBaseMessage msg, str
         }  
 ```  
   
- **若要實作自訂路線服務的訊息**  
+ **若要實作自訂路線傳訊服務**  
   
-1.  建立組件的類別衍生自**IMessagingService;** 中**Execute**方法，包括可修改訊息或訊息內容 （如果有的話） 所需的所有邏輯。  
+1.  建立的組件的類別，衍生自**IMessagingService;** 中**Execute**方法，包含要修改訊息或訊息內容 （如果有的話），您所需的所有邏輯。  
   
-2.  新增項目中的**itineraryServices** Esb.config 檔案加入您的服務區段 **\<itineraryService\>** 項目以做為 GUID**識別碼**屬性，做為服務的名稱**名稱**屬性，做為類別的完整的名稱**類型**屬性**傳訊**為**範圍**屬性，並允許的階段 (例如， **OnRampReceive**， **OnRampSend**， **OffRampSend**， **OffRampReceive**， **AllSend**， **AllReceive**，或**所有**) 做為**階段**屬性。  
+2.  中新增項目**itineraryServices** Esb.config 檔案，為您的服務加上一節**\<itineraryService\>** GUID 做為項目**識別碼**屬性，做為服務名稱**名稱**屬性，做為類別的完整的名稱**類型**屬性， **Messaging**作為**範圍**屬性，而允許的階段 (例如**OnRampReceive**， **OnRampSend**， **OffRampSend**， **OffRampReceive**， **AllSend**， **AllReceive**，或**所有**) 做為**階段**屬性。  
   
 3.  在全域組件快取中註冊新的組件。

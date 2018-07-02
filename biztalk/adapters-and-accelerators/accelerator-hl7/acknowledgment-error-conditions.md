@@ -1,5 +1,5 @@
 ---
-title: 通知錯誤情況 |Microsoft 文件
+title: 通知錯誤狀況 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,33 +15,33 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 15b481f4cdb60822841021f7f708a6caea021b8b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 26bc0524e76521fcb673c6d5d3dc70f43cb12798
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22204582"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36970255"
 ---
 # <a name="acknowledgment-error-conditions"></a>通知錯誤狀況
-在下列情況會導致嚴重的錯誤條件時[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 會處理通知 (ACK) 訊息：  
+在下列情況會導致嚴重的錯誤條件時 Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 會處理通知 (ACK) 訊息：  
   
--   遺漏 MSH9 中必要的欄位  
+- MSH9 中缺少必要的欄位  
   
--   遺漏 MSH12 中必要的欄位  
+- MSH12 中缺少必要的欄位  
   
- 在下列情況會導致非嚴重錯誤的情況。 在此情況下，[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]會產生通知，但也會暫止的通知：  
+  下列情況會產生非嚴重錯誤條件。 在此情況下，[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]會產生通知，但也會暫止的通知：  
   
--   遺失必要的欄位中 MSH11  
+- 遺漏 MSH11 的必要的欄位  
   
--   遺漏 MSH10 值  
+- 遺漏 MSH10 值  
   
--   列舉型別為選擇性欄位標頭中的的錯誤。  
+- 標頭中的選擇性欄位的列舉型別錯誤。  
   
 > [!NOTE]
->  MSH 15 AL 或增，設定標頭中找到的列舉型別錯誤[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]會產生狀態為認可通知**MSA_1 = CR**。  
+>  MSH 15 設定為 AL 或 ER 時，標頭中找到的列舉型別錯誤[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]會產生狀態通知認可**MSA_1 = CR**。  
   
 ## <a name="see-also"></a>另請參閱  
  [建立及處理通知](../../adapters-and-accelerators/accelerator-hl7/creating-and-processing-acknowledgments.md)   
  [ACK 訊息結構描述類型](../../adapters-and-accelerators/accelerator-hl7/ack-message-schema-types.md)   
  [訊息通知區段](../../adapters-and-accelerators/accelerator-hl7/message-acknowledgment-segment.md)   
- [設定傳送埠來接收通知](../../adapters-and-accelerators/accelerator-hl7/setting-up-a-send-port-for-receiving-acks.md)
+ [設定傳送埠來接收 ACK](../../adapters-and-accelerators/accelerator-hl7/setting-up-a-send-port-for-receiving-acks.md)

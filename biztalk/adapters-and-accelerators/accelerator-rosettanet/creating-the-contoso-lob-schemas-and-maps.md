@@ -1,5 +1,5 @@
 ---
-title: 建立 Contoso LOB 結構描述與對應 |Microsoft 文件
+title: 建立 Contoso LOB 結構描述與對應 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,15 +18,15 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 45f9fd544b690031a14a53b829e5647890bf8e67
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 26b18dadecd4a2683dc90fcb74a499ead88d588c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26004335"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36984319"
 ---
 # <a name="creating-the-contoso-lob-schemas-and-maps"></a>建立 Contoso LOB 結構描述與對應
-在本節中，您將建立 Contoso 組織用於 ERP 系統的商務營運系統 (LOB) 結構描述。 您使用[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server 對應程式工具來建立內部 Contoso 訊息與輸入和輸出 RosettaNet 訊息類型之間轉換資料。  
+在本節中，您將建立 Contoso 組織用於 ERP 系統的商務營運系統 (LOB) 結構描述。 您可以使用 Microsoft® BizTalk Server 對應工具來建立內部 Contoso 訊息與輸入和輸出 RosettaNet 訊息類型之間的資料轉換。  
   
 ## <a name="in-this-section"></a>本節內容  
   

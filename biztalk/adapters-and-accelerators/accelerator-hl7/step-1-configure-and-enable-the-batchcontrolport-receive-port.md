@@ -1,5 +1,5 @@
 ---
-title: 步驟 1： 設定和啟用 BatchControlPort 接收連接埠 |Microsoft 文件
+title: 步驟 1： 設定和啟用 BatchControlPort 接收連接埠 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d50289924062268db078844f2b3d2eaaccda23a2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1fb11e0638a66fa7d22332d1cbca103a14490528
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206142"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36988247"
 ---
-# <a name="step-1-configure-and-enable-the-batchcontrolport-receive-port"></a>步驟 1： 設定和啟用 BatchControlPort 接收連接埠
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 安裝程式會建立接收埠、 批次控制連接埠，來處理訊息批次協調流程用來啟動、 停止，和時間的批次。 這些訊息包含批次啟動、 批次終止和批次計時器訊息。 在此步驟中，您會設定批次控制連接埠的接收管線，及啟用的通訊埠。  
+# <a name="step-1-configure-and-enable-the-batchcontrolport-receive-port"></a>步驟 1： 設定和啟用 BatchControlPort 接收埠
+Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 安裝程式會建立接收埠，批次控制項即通訊埠，處理的訊息批次協調流程用來啟動、 停止，和時間的批次。 這些訊息包含批次啟動批次終止，批次計時器訊息。 在此步驟中，您可以設定批次的控制連接埠，接收管線，並啟用連接埠。  
   
-### <a name="to-configure-and-enable-batchcontrolport"></a>若要設定並啟用 BatchControlPort  
+### <a name="to-configure-and-enable-batchcontrolport"></a>若要設定及啟用 BatchControlPort  
   
-1.  啟動**BizTalk Server 管理**。  
+1. 開始**BizTalk Server 管理**。  
   
-2.  在 BizTalk Server 管理主控台中，展開**BizTalk Server 管理**， **BizTalk 群組**，**應用程式**，和**BizTalk 應用程式1**。 按一下**接收位置**。  
+2. 在 [BizTalk Server 管理主控台中，展開**BizTalk Server 管理]**， **BizTalk 群組**，**應用程式**，和**BizTalk 應用程式1**。 按一下 **接收位置**。  
   
-3.  以滑鼠右鍵按一下**BatchControlLocation**，然後按一下 **停用**。  
+3. 以滑鼠右鍵按一下**BatchControlLocation**，然後按一下**停用**。  
   
-4.  以滑鼠右鍵按一下**BatchControlLocation**，然後按一下 **屬性**。  
+4. 以滑鼠右鍵按一下**BatchControlLocation**，然後按一下**屬性**。  
   
-5.  在 [接收位置屬性] 對話方塊的**接收管線**，選取**BTAHL72XPipelines.BTAHL72XReceivePipeline**。按一下**確定**。  
+5. 在 接收位置屬性 對話方塊中，如**接收管線**，選取**BTAHL72XPipelines.BTAHL72XReceivePipeline**。按一下 **確定**。  
   
-6.  在 BizTalk 管理主控台中，以滑鼠右鍵按一下**BatchControlLocation**，然後按一下 **啟用**。  
+6. 在 BizTalk 管理主控台中，以滑鼠右鍵按一下**BatchControlLocation**，然後按一下**啟用**。  
   
- 若要繼續[步驟 2： 啟用批次協調流程](../../adapters-and-accelerators/accelerator-hl7/step-2-enable-the-batch-orchestration.md)。
+   請繼續進行[步驟 2： 啟用批次協調流程](../../adapters-and-accelerators/accelerator-hl7/step-2-enable-the-batch-orchestration.md)。

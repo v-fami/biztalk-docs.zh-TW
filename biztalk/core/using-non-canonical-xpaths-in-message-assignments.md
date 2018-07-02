@@ -1,5 +1,5 @@
 ---
-title: 訊息指派中使用非標準 Xpath |Microsoft 文件
+title: 訊息指派中使用非標準 Xpath |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,32 +12,32 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 201d6f8b6bc910faf79b64ac0b4617530b20608a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f35d946ff595fa4d85427c7b3d6be81247cedf68
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22287622"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36977857"
 ---
 # <a name="using-non-canonical-xpaths-in-message-assignments"></a>在訊息指派中使用非標準 XPath
 如果您使用 .Net 訊息部分，您的程式碼可以使用 XML 序列化屬性加以附註，當伴隨著辨別欄位和/或屬性附註時，將產生相當複雜 XPath 運算式。 這些複雜的 XPath 運算式可能是非標準的運算式。 非標準 XPath 只能在直接繫結協調流程中使用，並且可能在邏輯或實際繫結協調流程中失敗。 直接繫結協調流程並不依賴管線來處理 XML 文件，因此整個 XML 文件會在處理之前載入記憶體。  
   
 ## <a name="canonical-and-non-canonical-xpath"></a>標準和非標準 XPath  
- 標準或簡短格式的 XPath 使用 XPath 規格的縮寫的語法 ([http://www.w3.org/TR/xpath](http://go.microsoft.com/fwlink/?LinkId=119567)) 指定的位置路徑。 部分標準 XPath 運算式的辨別屬性如下：  
+ 標準或簡短格式的 XPath 使用 XPath 規格的縮寫的語法 ([http://www.w3.org/TR/xpath](http://go.microsoft.com/fwlink/?LinkId=119567)) 來指定位置的路徑。 部分標準 XPath 運算式的辨別屬性如下：  
   
--   運算式的每個步驟預設採用 `child::` 座標軸  
+- 運算式的每個步驟預設採用 `child::` 座標軸  
   
--   `@` 是 `attribute::` 的簡式。  
+- `@` 是 `attribute::` 的簡式。  
   
--   `//` 是 `/descendant-or-self::node()/` 的簡式。  
+- `//` 是 `/descendant-or-self::node()/` 的簡式。  
   
--   `.` 是 `self::node()` 的簡式。  
+- `.` 是 `self::node()` 的簡式。  
   
--   `..` 是 `parent::node()` 的簡式。  
+- `..` 是 `parent::node()` 的簡式。  
   
- 標準 XPath 運算式是簡單的運算式，例如 `/*[local-name()='element-name' and namespaceURI()='http://MyUri.org']/*[local-name()='element-name']/@*[local-name='attribute-name']`。  
+  標準 XPath 運算式是簡單的運算式，例如 `/*[local-name()='element-name' and namespaceURI()='http://MyUri.org']/*[local-name()='element-name']/@*[local-name='attribute-name']`。  
   
- 您可以將此運算式對照 XPath 的非標準格式。 此表單就是所謂的 「 一般格式 」 或 「 任意 XPath 」，並區分由任意複雜且可結合多個軸的運算式： `//element-name//*[local-name()='element-name' and position()=2]`。  
+  您可以將此運算式對照 XPath 的非標準格式。 此表單就是所謂的 「 一般格式 」 或 「 任意 XPath 」，並區分由任意複雜且可結合多個軸的運算式： `//element-name//*[local-name()='element-name' and position()=2]`。  
   
 ## <a name="example"></a>範例  
  請考慮下列程式：  
