@@ -1,5 +1,5 @@
 ---
-title: 從 XML 檔案匯入協議屬性 |Microsoft 文件
+title: 從 XML 檔案匯入協議屬性 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,36 +12,36 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bc0bd397e49dcad670bb73e9dff9c164b9d0997a
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: cafd590f4f5936c1d12614e7a2021bc5427d49d0
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26006847"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36969143"
 ---
-# <a name="importing-agreement-properties-from-an-xml-file"></a><span data-ttu-id="eb47e-102">從 XML 檔案匯入協議屬性</span><span class="sxs-lookup"><span data-stu-id="eb47e-102">Importing Agreement Properties from an XML File</span></span>
-<span data-ttu-id="eb47e-103">本節提供如何從 XML 範本檔案匯入協議屬性的指示。</span><span class="sxs-lookup"><span data-stu-id="eb47e-103">This section provides instructions on how to import agreement properties from an XML template file.</span></span>  
+# <a name="importing-agreement-properties-from-an-xml-file"></a><span data-ttu-id="f5bc7-102">從 XML 檔案匯入協議屬性</span><span class="sxs-lookup"><span data-stu-id="f5bc7-102">Importing Agreement Properties from an XML File</span></span>
+<span data-ttu-id="f5bc7-103">本節提供如何從 XML 範本檔案匯入協議屬性的指示。</span><span class="sxs-lookup"><span data-stu-id="f5bc7-103">This section provides instructions on how to import agreement properties from an XML template file.</span></span>  
   
-## <a name="prerequisites"></a><span data-ttu-id="eb47e-104">必要條件</span><span class="sxs-lookup"><span data-stu-id="eb47e-104">Prerequisites</span></span>  
- <span data-ttu-id="eb47e-105">以下是執行此主題中之程序的必要條件：</span><span class="sxs-lookup"><span data-stu-id="eb47e-105">The following are prerequisites for performing the procedure in this topic:</span></span>  
+## <a name="prerequisites"></a><span data-ttu-id="f5bc7-104">必要條件</span><span class="sxs-lookup"><span data-stu-id="f5bc7-104">Prerequisites</span></span>  
+ <span data-ttu-id="f5bc7-105">以下是執行此主題中之程序的必要條件：</span><span class="sxs-lookup"><span data-stu-id="f5bc7-105">The following are prerequisites for performing the procedure in this topic:</span></span>  
   
--   <span data-ttu-id="eb47e-106">您必須以「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 系統管理員」或「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] B2B 操作員」群組成員的身分來登入。</span><span class="sxs-lookup"><span data-stu-id="eb47e-106">You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators or [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] B2B Operators group.</span></span>  
+- <span data-ttu-id="f5bc7-106">您必須以「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 系統管理員」或「[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] B2B 操作員」群組成員的身分來登入。</span><span class="sxs-lookup"><span data-stu-id="f5bc7-106">You must be logged on as a member of the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administrators or [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] B2B Operators group.</span></span>  
   
--   <span data-ttu-id="eb47e-107">您必須匯出協議至 XML 範本檔案中所述[將協議屬性匯出至 XML 檔案](../core/exporting-agreement-properties-to-an-xml-file.md)。</span><span class="sxs-lookup"><span data-stu-id="eb47e-107">You must have exported an agreement to an XML template file, as described in [Exporting Agreement Properties to an XML FIle](../core/exporting-agreement-properties-to-an-xml-file.md).</span></span>  
+- <span data-ttu-id="f5bc7-107">您必須匯出協議到 XML 範本檔案中所述[將協議屬性匯出至 XML 檔案](../core/exporting-agreement-properties-to-an-xml-file.md)。</span><span class="sxs-lookup"><span data-stu-id="f5bc7-107">You must have exported an agreement to an XML template file, as described in [Exporting Agreement Properties to an XML FIle](../core/exporting-agreement-properties-to-an-xml-file.md).</span></span>  
   
-### <a name="to-import-agreement-properties-from-an-xml-file"></a><span data-ttu-id="eb47e-108">若要從 XML 檔案匯入協議屬性</span><span class="sxs-lookup"><span data-stu-id="eb47e-108">To import agreement properties from an XML file</span></span>  
+### <a name="to-import-agreement-properties-from-an-xml-file"></a><span data-ttu-id="f5bc7-108">若要從 XML 檔案匯入協議屬性</span><span class="sxs-lookup"><span data-stu-id="f5bc7-108">To import agreement properties from an XML file</span></span>  
   
-1.  <span data-ttu-id="eb47e-109">在 BizTalk Server 管理主控台中，按一下 **合作對象**節點下的**BizTalk Server 管理**和**BizTalk 群組**節點。</span><span class="sxs-lookup"><span data-stu-id="eb47e-109">In the BizTalk Server Administration Console, click the **Parties** node under the **BizTalk Server Administration** and **BizTalk Group** nodes.</span></span> <span data-ttu-id="eb47e-110">在**合作對象與商務設定檔**頁面上，依照建立協議[設定一般設定 (X12)](../core/configuring-general-settings-x12.md)。</span><span class="sxs-lookup"><span data-stu-id="eb47e-110">In the **Parties and Business Profiles** page, create an agreement as described at [Configuring General Settings (X12)](../core/configuring-general-settings-x12.md).</span></span>  
+1.  <span data-ttu-id="f5bc7-109">在 BizTalk Server 管理主控台中，按一下 **合作對象**下方的節點**BizTalk Server 管理**並**BizTalk 群組**節點。</span><span class="sxs-lookup"><span data-stu-id="f5bc7-109">In the BizTalk Server Administration Console, click the **Parties** node under the **BizTalk Server Administration** and **BizTalk Group** nodes.</span></span> <span data-ttu-id="f5bc7-110">在 **合作對象與商務設定檔**頁面上，在所述，建立協議[設定的一般設定 (X12)](../core/configuring-general-settings-x12.md)。</span><span class="sxs-lookup"><span data-stu-id="f5bc7-110">In the **Parties and Business Profiles** page, create an agreement as described at [Configuring General Settings (X12)](../core/configuring-general-settings-x12.md).</span></span>  
   
-2.  <span data-ttu-id="eb47e-111">在**協議屬性**對話方塊中，按一下 **從範本載入**。</span><span class="sxs-lookup"><span data-stu-id="eb47e-111">In the **Agreement Properties** dialog box, click **Load From Template**.</span></span>  
+2.  <span data-ttu-id="f5bc7-111">在 [**協議屬性**] 對話方塊中，按一下**從範本載入**。</span><span class="sxs-lookup"><span data-stu-id="f5bc7-111">In the **Agreement Properties** dialog box, click **Load From Template**.</span></span>  
   
     > [!NOTE]
-    >  <span data-ttu-id="eb47e-112">**從範本載入**選取協議的通訊協定之後，才會啟用按鈕。</span><span class="sxs-lookup"><span data-stu-id="eb47e-112">The **Load From Template** button is enabled only after you select a protocol for the agreement.</span></span> <span data-ttu-id="eb47e-113">當您指定通訊協定時，您也同時隱含地宣告了您只能為匯入相同編碼通訊協定的協議。</span><span class="sxs-lookup"><span data-stu-id="eb47e-113">When you specify the protocol you also implicitly declare that you can only import an agreement for the same encoding protocol.</span></span>  
+    >  <span data-ttu-id="f5bc7-112">**從範本載入**只有在您選取協議通訊協定之後，才啟用按鈕。</span><span class="sxs-lookup"><span data-stu-id="f5bc7-112">The **Load From Template** button is enabled only after you select a protocol for the agreement.</span></span> <span data-ttu-id="f5bc7-113">當您指定通訊協定時，您也同時隱含地宣告了您只能為匯入相同編碼通訊協定的協議。</span><span class="sxs-lookup"><span data-stu-id="f5bc7-113">When you specify the protocol you also implicitly declare that you can only import an agreement for the same encoding protocol.</span></span>  
   
-3.  <span data-ttu-id="eb47e-114">在**開啟**對話方塊中，瀏覽至 XML 範本檔案的位置選取檔案，然後按一下 **開啟**。</span><span class="sxs-lookup"><span data-stu-id="eb47e-114">In the **Open** dialog box, browse to the location of the XML template file, select the file, and then click **Open**.</span></span>  
+3.  <span data-ttu-id="f5bc7-114">在 [**開放**] 對話方塊中，瀏覽至 XML 範本檔案的位置，選取檔案，然後按一下**開啟**。</span><span class="sxs-lookup"><span data-stu-id="f5bc7-114">In the **Open** dialog box, browse to the location of the XML template file, select the file, and then click **Open**.</span></span>  
   
-4.  <span data-ttu-id="eb47e-115">在**建立範本**方塊中，按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="eb47e-115">In the **Create Template** box, click **OK**.</span></span>  
+4.  <span data-ttu-id="f5bc7-115">在 **建立範本**方塊中，按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="f5bc7-115">In the **Create Template** box, click **OK**.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="eb47e-116">請參閱</span><span class="sxs-lookup"><span data-stu-id="eb47e-116">See Also</span></span>  
- <span data-ttu-id="eb47e-117">[重複使用另一個協議屬性](../core/reusing-properties-from-another-agreement.md) </span><span class="sxs-lookup"><span data-stu-id="eb47e-117">[Reusing Properties from Another Agreement](../core/reusing-properties-from-another-agreement.md) </span></span>  
- [<span data-ttu-id="eb47e-118">將協議屬性匯出至 XML 檔案</span><span class="sxs-lookup"><span data-stu-id="eb47e-118">Exporting Agreement Properties to an XML FIle</span></span>](../core/exporting-agreement-properties-to-an-xml-file.md)
+## <a name="see-also"></a><span data-ttu-id="f5bc7-116">另請參閱</span><span class="sxs-lookup"><span data-stu-id="f5bc7-116">See Also</span></span>  
+ <span data-ttu-id="f5bc7-117">[重複使用來自另一個協議屬性](../core/reusing-properties-from-another-agreement.md) </span><span class="sxs-lookup"><span data-stu-id="f5bc7-117">[Reusing Properties from Another Agreement](../core/reusing-properties-from-another-agreement.md) </span></span>  
+ [<span data-ttu-id="f5bc7-118">將協議屬性匯出至 XML 檔案</span><span class="sxs-lookup"><span data-stu-id="f5bc7-118">Exporting Agreement Properties to an XML FIle</span></span>](../core/exporting-agreement-properties-to-an-xml-file.md)

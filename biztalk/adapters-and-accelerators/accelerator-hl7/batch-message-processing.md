@@ -1,5 +1,5 @@
 ---
-title: 批次訊息處理 |Microsoft 文件
+title: 批次訊息處理 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,32 +16,32 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: aad80bb8fe9a59163ee17e7862bece728fdc52b3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 75cde12720ac67d74396c22282bddaf53e015960
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22204758"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972367"
 ---
-# <a name="batch-message-processing"></a><span data-ttu-id="8c7bc-102">批次訊息處理</span><span class="sxs-lookup"><span data-stu-id="8c7bc-102">Batch Message Processing</span></span>
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]<span data-ttu-id="8c7bc-103">BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 處理三種類型的 HL7 2.X 批次案例：</span><span class="sxs-lookup"><span data-stu-id="8c7bc-103"> BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) handles three types of HL7 2.X batch scenarios:</span></span>  
+# <a name="batch-message-processing"></a><span data-ttu-id="9c31e-102">批次訊息處理</span><span class="sxs-lookup"><span data-stu-id="9c31e-102">Batch Message Processing</span></span>
+<span data-ttu-id="9c31e-103">Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) 處理三種類型的 HL7 2.X 批次案例：</span><span class="sxs-lookup"><span data-stu-id="9c31e-103">Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]) handles three types of HL7 2.X batch scenarios:</span></span>  
   
--   <span data-ttu-id="8c7bc-104">分散的傳入批次的案例。</span><span class="sxs-lookup"><span data-stu-id="8c7bc-104">Fragmented inbound batch scenario.</span></span> [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="8c7bc-105">將這些批次剖析成不同的輸出訊息。</span><span class="sxs-lookup"><span data-stu-id="8c7bc-105"> parses these batches into separate output messages.</span></span> [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="8c7bc-106">傳送通知 (Ack) 的每個訊息，分散的批次中。</span><span class="sxs-lookup"><span data-stu-id="8c7bc-106"> sends acknowledgments (ACKs) for each message in a fragmented batch.</span></span>  
+- <span data-ttu-id="9c31e-104">片段化的輸入批次的案例。</span><span class="sxs-lookup"><span data-stu-id="9c31e-104">Fragmented inbound batch scenario.</span></span> [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="9c31e-105"> 將這些批次剖析不同的輸出訊息。</span><span class="sxs-lookup"><span data-stu-id="9c31e-105"> parses these batches into separate output messages.</span></span> [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]<span data-ttu-id="9c31e-106"> 片段化的批次中傳送的每個訊息的通知 (Ack)。</span><span class="sxs-lookup"><span data-stu-id="9c31e-106"> sends acknowledgments (ACKs) for each message in a fragmented batch.</span></span>  
   
--   <span data-ttu-id="8c7bc-107">在批次 / 批次出案例。</span><span class="sxs-lookup"><span data-stu-id="8c7bc-107">Batch in/batch out scenario.</span></span> <span data-ttu-id="8c7bc-108">這些是繫結批次[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]不分段但通過，並以保持不變的批次傳送。</span><span class="sxs-lookup"><span data-stu-id="8c7bc-108">These are in-bound batches that [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] does not fragment, but passes through and sends as an intact batch.</span></span> <span data-ttu-id="8c7bc-109">如果[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]傳送批次，ACK ACK 包含版本識別碼。</span><span class="sxs-lookup"><span data-stu-id="8c7bc-109">If [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] sends an ACK for the batch, the ACK includes a version ID.</span></span>  
+- <span data-ttu-id="9c31e-107">在批次 / 批次出案例。</span><span class="sxs-lookup"><span data-stu-id="9c31e-107">Batch in/batch out scenario.</span></span> <span data-ttu-id="9c31e-108">這些是傳入批次[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]不片段，但傳遞，且以不變的批次傳送。</span><span class="sxs-lookup"><span data-stu-id="9c31e-108">These are in-bound batches that [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] does not fragment, but passes through and sends as an intact batch.</span></span> <span data-ttu-id="9c31e-109">如果[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]傳送批次認可的認可包含版本識別碼。</span><span class="sxs-lookup"><span data-stu-id="9c31e-109">If [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] sends an ACK for the batch, the ACK includes a version ID.</span></span>  
   
--   <span data-ttu-id="8c7bc-110">建立批次的案例。</span><span class="sxs-lookup"><span data-stu-id="8c7bc-110">Create-batch scenario.</span></span> <span data-ttu-id="8c7bc-111">在此案例中，[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]結合分為輸出批次輸入的訊息。</span><span class="sxs-lookup"><span data-stu-id="8c7bc-111">In this scenario, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] combines separate input messages into an output batch.</span></span>  
+- <span data-ttu-id="9c31e-110">建立批次的案例。</span><span class="sxs-lookup"><span data-stu-id="9c31e-110">Create-batch scenario.</span></span> <span data-ttu-id="9c31e-111">在此案例中，[!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]結合個別輸入的訊息到輸出批次。</span><span class="sxs-lookup"><span data-stu-id="9c31e-111">In this scenario, [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] combines separate input messages into an output batch.</span></span>  
   
- <span data-ttu-id="8c7bc-112">您可以格式化批次中任一種方式：</span><span class="sxs-lookup"><span data-stu-id="8c7bc-112">You can format batches in either of two ways:</span></span>  
+  <span data-ttu-id="9c31e-112">您可以格式化批次中任一種方式：</span><span class="sxs-lookup"><span data-stu-id="9c31e-112">You can format batches in either of two ways:</span></span>  
   
--   <span data-ttu-id="8c7bc-113">檔案標頭和結尾 (FHS/FTS) 和批次標頭與結尾 (BHS/BTS)。</span><span class="sxs-lookup"><span data-stu-id="8c7bc-113">With a file header and trailer (FHS/FTS) and a batch header and trailer (BHS/BTS).</span></span>  
+- <span data-ttu-id="9c31e-113">檔案標頭和結尾 (FHS/FTS) 和批次標頭與結尾 (BHS/BTS)。</span><span class="sxs-lookup"><span data-stu-id="9c31e-113">With a file header and trailer (FHS/FTS) and a batch header and trailer (BHS/BTS).</span></span>  
   
--   <span data-ttu-id="8c7bc-114">使用沒有檔或批次標頭/結尾。</span><span class="sxs-lookup"><span data-stu-id="8c7bc-114">With no file or batch headers/trailers.</span></span>  
+- <span data-ttu-id="9c31e-114">使用任何檔案或批次標頭/結尾。</span><span class="sxs-lookup"><span data-stu-id="9c31e-114">With no file or batch headers/trailers.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="8c7bc-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8c7bc-115">See Also</span></span>  
- <span data-ttu-id="8c7bc-116">[訊息批次](../../adapters-and-accelerators/accelerator-hl7/message-batching.md) </span><span class="sxs-lookup"><span data-stu-id="8c7bc-116">[Message Batching](../../adapters-and-accelerators/accelerator-hl7/message-batching.md) </span></span>  
- <span data-ttu-id="8c7bc-117">[批次的教學課程](../../adapters-and-accelerators/accelerator-hl7/batching-tutorial.md) </span><span class="sxs-lookup"><span data-stu-id="8c7bc-117">[Batching Tutorial](../../adapters-and-accelerators/accelerator-hl7/batching-tutorial.md) </span></span>  
- <span data-ttu-id="8c7bc-118">[第 1 部分： 分散的傳入批次的案例](../../adapters-and-accelerators/accelerator-hl7/part-1-fragmented-inbound-batch-scenario.md) </span><span class="sxs-lookup"><span data-stu-id="8c7bc-118">[Part 1: Fragmented Inbound Batch Scenario](../../adapters-and-accelerators/accelerator-hl7/part-1-fragmented-inbound-batch-scenario.md) </span></span>  
- <span data-ttu-id="8c7bc-119">[第 2 部分： 中批次 / 批次出案例](../../adapters-and-accelerators/accelerator-hl7/part-2-batch-in-batch-out-scenario.md) </span><span class="sxs-lookup"><span data-stu-id="8c7bc-119">[Part 2: Batch In/Batch Out Scenario](../../adapters-and-accelerators/accelerator-hl7/part-2-batch-in-batch-out-scenario.md) </span></span>  
- <span data-ttu-id="8c7bc-120">[第 3 部分： 建立批次的案例](../../adapters-and-accelerators/accelerator-hl7/part-3-create-batch-scenario.md) </span><span class="sxs-lookup"><span data-stu-id="8c7bc-120">[Part 3: Create-Batch Scenario](../../adapters-and-accelerators/accelerator-hl7/part-3-create-batch-scenario.md) </span></span>  
- [<span data-ttu-id="8c7bc-121">訊息處理</span><span class="sxs-lookup"><span data-stu-id="8c7bc-121">Message Processing</span></span>](../../adapters-and-accelerators/accelerator-hl7/message-processing.md)
+## <a name="see-also"></a><span data-ttu-id="9c31e-115">另請參閱</span><span class="sxs-lookup"><span data-stu-id="9c31e-115">See Also</span></span>  
+ <span data-ttu-id="9c31e-116">[訊息批次處理](../../adapters-and-accelerators/accelerator-hl7/message-batching.md) </span><span class="sxs-lookup"><span data-stu-id="9c31e-116">[Message Batching](../../adapters-and-accelerators/accelerator-hl7/message-batching.md) </span></span>  
+ <span data-ttu-id="9c31e-117">[批次處理教學課程](../../adapters-and-accelerators/accelerator-hl7/batching-tutorial.md) </span><span class="sxs-lookup"><span data-stu-id="9c31e-117">[Batching Tutorial](../../adapters-and-accelerators/accelerator-hl7/batching-tutorial.md) </span></span>  
+ <span data-ttu-id="9c31e-118">[第 1 部分： 片段化的輸入批次案例](../../adapters-and-accelerators/accelerator-hl7/part-1-fragmented-inbound-batch-scenario.md) </span><span class="sxs-lookup"><span data-stu-id="9c31e-118">[Part 1: Fragmented Inbound Batch Scenario](../../adapters-and-accelerators/accelerator-hl7/part-1-fragmented-inbound-batch-scenario.md) </span></span>  
+ <span data-ttu-id="9c31e-119">[第 2 部分： 中批次 / 批次出案例](../../adapters-and-accelerators/accelerator-hl7/part-2-batch-in-batch-out-scenario.md) </span><span class="sxs-lookup"><span data-stu-id="9c31e-119">[Part 2: Batch In/Batch Out Scenario](../../adapters-and-accelerators/accelerator-hl7/part-2-batch-in-batch-out-scenario.md) </span></span>  
+ <span data-ttu-id="9c31e-120">[第 3 部分： 建立批次案例](../../adapters-and-accelerators/accelerator-hl7/part-3-create-batch-scenario.md) </span><span class="sxs-lookup"><span data-stu-id="9c31e-120">[Part 3: Create-Batch Scenario](../../adapters-and-accelerators/accelerator-hl7/part-3-create-batch-scenario.md) </span></span>  
+ [<span data-ttu-id="9c31e-121">訊息處理</span><span class="sxs-lookup"><span data-stu-id="9c31e-121">Message Processing</span></span>](../../adapters-and-accelerators/accelerator-hl7/message-processing.md)

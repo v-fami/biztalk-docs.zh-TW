@@ -1,5 +1,5 @@
 ---
-title: FlatFileReceive （BizTalk Server 範例） |Microsoft 文件
+title: FlatFileReceive （BizTalk Server 範例） |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,119 +12,121 @@ caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: db996437cce8cb6f89fb00b589fcbc95429e72f2
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: ae4cdace5a38d3b6a7058f16e894ca9bdbe912c8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25970164"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36975535"
 ---
-# <a name="flatfilereceive-biztalk-server-sample"></a><span data-ttu-id="75b67-102">FlatFileReceive （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="75b67-102">FlatFileReceive (BizTalk Server Sample)</span></span>
-<span data-ttu-id="75b67-103">FlatFileReceive 範例會示範如何使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 將一般檔案處理成相等的 .xml 檔案。</span><span class="sxs-lookup"><span data-stu-id="75b67-103">The FlatFileReceive sample demonstrates how you can use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to process a flat file into the equivalent .xml file.</span></span>  
-  
-## <a name="what-this-sample-does"></a><span data-ttu-id="75b67-104">此範例的用途</span><span class="sxs-lookup"><span data-stu-id="75b67-104">What This Sample Does</span></span>  
- <span data-ttu-id="75b67-105">此範例將 [FFInput] 資料夾設定為接收位置。</span><span class="sxs-lookup"><span data-stu-id="75b67-105">This sample configures the folder FFInput as a receive location.</span></span> <span data-ttu-id="75b67-106">當您將檔案 (例如範例檔案 FlatFileReceive_in.txt) 放置於此資料夾時，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會依序使用下列步驟處理此檔案內的訊息。</span><span class="sxs-lookup"><span data-stu-id="75b67-106">When you place a file, such as the sample file FlatFileReceive_in.txt, into this folder, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes the message in this file using the following sequence of steps:</span></span>  
-  
-1.  <span data-ttu-id="75b67-107">讀取接收位置內 [FFInput] 資料夾中輸入檔的訊息。</span><span class="sxs-lookup"><span data-stu-id="75b67-107">Reads the message from the input file in the receive location folder FFInput.</span></span>  
-  
-2.  <span data-ttu-id="75b67-108">在接收管線中，「一般檔案解譯器」元件會將訊息由一般檔案格式轉換為相等的 XML 訊息。</span><span class="sxs-lookup"><span data-stu-id="75b67-108">In the receive pipeline, the Flat File Disassembler component converts the message from flat file format to the equivalent XML message.</span></span>  
-  
-3.  <span data-ttu-id="75b67-109">在 MessageBox 資料庫中，訊息會路由至 FILE 傳送埠，該傳送埠會將 XML 訊息寫入傳送配接器檔案夾 FFOutput 內的檔案。</span><span class="sxs-lookup"><span data-stu-id="75b67-109">In the MessageBox database, the message is routed to a FILE send port that writes the XML message to a file in the send adapter folder FFOutput.</span></span>  
-  
-## <a name="how-this-sample-is-designed-and-why"></a><span data-ttu-id="75b67-110">此範例的設計方式和原因</span><span class="sxs-lookup"><span data-stu-id="75b67-110">How This Sample is Designed and Why</span></span>  
- <span data-ttu-id="75b67-111">範例訊息大致指出了此範例的基本設計。</span><span class="sxs-lookup"><span data-stu-id="75b67-111">The sample message dictates much of the basic design in this sample.</span></span> <span data-ttu-id="75b67-112">一般檔案訊息必須使用一般檔案解譯器和自訂接收管線內一般檔案結構描述進行反組譯。</span><span class="sxs-lookup"><span data-stu-id="75b67-112">Flat file messages must be disassembled using the Flat File Disassembler and a flat file schema within a custom receive pipeline.</span></span> <span data-ttu-id="75b67-113">這些和其他設計元素總結於下表中。</span><span class="sxs-lookup"><span data-stu-id="75b67-113">These and other design elements are summarized in the following table.</span></span>  
-  
-|<span data-ttu-id="75b67-114">設計元素</span><span class="sxs-lookup"><span data-stu-id="75b67-114">Design element</span></span>|<span data-ttu-id="75b67-115">已選取的原因</span><span class="sxs-lookup"><span data-stu-id="75b67-115">Reason(s) selected</span></span>|  
-|--------------------|--------------------------|  
-|<span data-ttu-id="75b67-116">自訂接收管線</span><span class="sxs-lookup"><span data-stu-id="75b67-116">Custom receive pipeline</span></span>|<span data-ttu-id="75b67-117">-自訂管線會使用一般檔案解譯器和一般檔案結構描述來轉譯內送訂單訊息。</span><span class="sxs-lookup"><span data-stu-id="75b67-117">-   The custom pipeline uses the Flat File Disassembler and a flat file schema to translate inbound purchase order messages.</span></span> <span data-ttu-id="75b67-118">「一般檔案解譯器」本身並非管線，在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台中設定接收管線時無法使用它。</span><span class="sxs-lookup"><span data-stu-id="75b67-118">The Flat File Disassembler is not itself a pipeline and cannot be used when configuring a receive pipeline in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management console.</span></span>|  
-|<span data-ttu-id="75b67-119">一般檔案結構描述</span><span class="sxs-lookup"><span data-stu-id="75b67-119">Flat file schema</span></span>|<span data-ttu-id="75b67-120">-定義的所有相同記錄與欄位特性 （包含結構） 的 XML 結構描述，並提供一個機制來定義一般檔案特性，將一般檔案執行個體訊息轉譯成相等的 XML 執行個體所需的所有訊息 （反之亦然）。</span><span class="sxs-lookup"><span data-stu-id="75b67-120">-   Define all of the same record and field characteristics (including structure) as an XML schema and provide a mechanism for defining all of the flat file characteristics that are required to translate a flat file instance message into an equivalent XML instance message (or vice versa).</span></span>|  
-|<span data-ttu-id="75b67-121">訂閱篩選器</span><span class="sxs-lookup"><span data-stu-id="75b67-121">Subscription filter</span></span>|<span data-ttu-id="75b67-122">-訂用帳戶篩選器會執行實際的路由擷取符合根據屬性欄位的一或多個準則的訊息。</span><span class="sxs-lookup"><span data-stu-id="75b67-122">-   The subscription filter performs the actual routing by capturing messages that meet one or more criteria based on property fields.</span></span>|  
-|<span data-ttu-id="75b67-123">XMLTransmit</span><span class="sxs-lookup"><span data-stu-id="75b67-123">XMLTransmit</span></span>|<span data-ttu-id="75b67-124">-執行基本組件外寄 XML 訊息所需。</span><span class="sxs-lookup"><span data-stu-id="75b67-124">-   Performs basic assembly of outgoing XML messages where needed.</span></span> <span data-ttu-id="75b67-125">PassThruTransmit 管線不會提供其他支援。</span><span class="sxs-lookup"><span data-stu-id="75b67-125">The PassThruTransmit pipeline provides no additional support.</span></span>|  
-  
- <span data-ttu-id="75b67-126">這些元素結合後產生的解決方案，可從接收位置接受一般檔案格式的訂單訊息，再將產生的 XML 表示法寫出至傳送位置。</span><span class="sxs-lookup"><span data-stu-id="75b67-126">These elements are combined to produce a solution that accepts purchase order messages in flat file format from the receive location and writes out the resulting XML representation to the send location.</span></span>  
-  
- <span data-ttu-id="75b67-127">下列考量適用於此範例的設計：</span><span class="sxs-lookup"><span data-stu-id="75b67-127">The following considerations apply to the design of this sample:</span></span>  
-  
--   <span data-ttu-id="75b67-128">一般檔案結構描述 (PO.xsd) 包含擴充註解，會說明採購訂單一般檔案的結構。</span><span class="sxs-lookup"><span data-stu-id="75b67-128">The flat file schema (PO.xsd) contains extended annotations describing the structure of the purchase order flat file.</span></span> <span data-ttu-id="75b67-129">這些檔案可以用手動方式建立，但有不少可以透過 [一般檔案精靈] 產生。</span><span class="sxs-lookup"><span data-stu-id="75b67-129">These files can be created by hand, but many can be generated by using the Flat File Wizard.</span></span>  
-  
--   <span data-ttu-id="75b67-130">一般檔案結構描述使用的是 Unqualified 的 elementFormDefault 值。</span><span class="sxs-lookup"><span data-stu-id="75b67-130">The flat file schema uses an elementFormDefault value of Unqualified.</span></span> <span data-ttu-id="75b67-131">雖然產生的結果正確無誤，但包含其他未預期的 XML 命名空間 (xmlns) 限定性條件。</span><span class="sxs-lookup"><span data-stu-id="75b67-131">This produces correct results but with additional and unexpected XML namespace (xmlns) qualifications.</span></span> <span data-ttu-id="75b67-132">使用值為 Qualified 的 elementFormDefault 即可避免這個問題。</span><span class="sxs-lookup"><span data-stu-id="75b67-132">Use an elementFormDefault of Qualified to avoid this issue.</span></span>  
-  
--   <span data-ttu-id="75b67-133">傳送管線會使用 XmlTransmit。</span><span class="sxs-lookup"><span data-stu-id="75b67-133">XmlTransmit is used as the send pipeline.</span></span> <span data-ttu-id="75b67-134">傳送埠不需要屬性降級或其他訊息的處理時，請使用 PassThruTransmit 管線。</span><span class="sxs-lookup"><span data-stu-id="75b67-134">Use the PassThruTransmit pipeline when property demotion or other messaging processing is not required in the send port.</span></span>  
-  
-## <a name="where-to-find-this-sample"></a><span data-ttu-id="75b67-135">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="75b67-135">Where to Find This Sample</span></span>  
- <span data-ttu-id="75b67-136">*\<範例路徑\>* \Pipelines\AssemblerDisassembler\FlatFileReceive\\</span><span class="sxs-lookup"><span data-stu-id="75b67-136">*\<Samples Path\>* \Pipelines\AssemblerDisassembler\FlatFileReceive\\</span></span>  
-  
- <span data-ttu-id="75b67-137">下表顯示此範例中的檔案，並描述其用途。</span><span class="sxs-lookup"><span data-stu-id="75b67-137">The following table shows the files in this sample and describes their purpose.</span></span>  
-  
-|<span data-ttu-id="75b67-138">檔案</span><span class="sxs-lookup"><span data-stu-id="75b67-138">File(s)</span></span>|<span data-ttu-id="75b67-139">Description</span><span class="sxs-lookup"><span data-stu-id="75b67-139">Description</span></span>|  
-|---------------|-----------------|  
-|<span data-ttu-id="75b67-140">Cleanup.bat</span><span class="sxs-lookup"><span data-stu-id="75b67-140">Cleanup.bat</span></span>|<span data-ttu-id="75b67-141">用來解除部署組件，以及將它從全域組件快取中移除。</span><span class="sxs-lookup"><span data-stu-id="75b67-141">Used to undeploy assemblies and remove them from the global assembly cache.</span></span> <span data-ttu-id="75b67-142">移除傳送埠和接收埠。</span><span class="sxs-lookup"><span data-stu-id="75b67-142">Removes send and receive ports.</span></span> <span data-ttu-id="75b67-143">視需要移除 Microsoft Internet Information Services (IIS) 虛擬目錄。</span><span class="sxs-lookup"><span data-stu-id="75b67-143">Removes Microsoft Internet Information Services (IIS) virtual directories as needed.</span></span>|  
-|<span data-ttu-id="75b67-144">FFReceivePipeline.btp</span><span class="sxs-lookup"><span data-stu-id="75b67-144">FFReceivePipeline.btp</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="75b67-145"> 接收管線檔案，含「一般檔案解譯器」元件。</span><span class="sxs-lookup"><span data-stu-id="75b67-145"> receive pipeline file with the Flat File Disassembler component.</span></span>|  
-|<span data-ttu-id="75b67-146">FlatFileReceive.btproj, FlatFileReceive.sln</span><span class="sxs-lookup"><span data-stu-id="75b67-146">FlatFileReceive.btproj, FlatFileReceive.sln</span></span>|<span data-ttu-id="75b67-147">這個範例的專案及解決方案檔案。</span><span class="sxs-lookup"><span data-stu-id="75b67-147">Project and solution files for this sample.</span></span>|  
-|<span data-ttu-id="75b67-148">FlatFileReceive_in.txt</span><span class="sxs-lookup"><span data-stu-id="75b67-148">FlatFileReceive_in.txt</span></span>|<span data-ttu-id="75b67-149">範例輸入檔案。</span><span class="sxs-lookup"><span data-stu-id="75b67-149">Sample input file.</span></span>|  
-|<span data-ttu-id="75b67-150">FlatFileReceiveBinding.xml</span><span class="sxs-lookup"><span data-stu-id="75b67-150">FlatFileReceiveBinding.xml</span></span>|<span data-ttu-id="75b67-151">用於自動化設定，例如連接埠繫結。</span><span class="sxs-lookup"><span data-stu-id="75b67-151">Used for automated setup such as port binding.</span></span>|  
-|<span data-ttu-id="75b67-152">PO.xsd</span><span class="sxs-lookup"><span data-stu-id="75b67-152">PO.xsd</span></span>|<span data-ttu-id="75b67-153">內送一般檔案的結構描述。</span><span class="sxs-lookup"><span data-stu-id="75b67-153">Schema for the inbound flat file.</span></span>|  
-|<span data-ttu-id="75b67-154">Setup.bat</span><span class="sxs-lookup"><span data-stu-id="75b67-154">Setup.bat</span></span>|<span data-ttu-id="75b67-155">用來建置和初始化此範例。</span><span class="sxs-lookup"><span data-stu-id="75b67-155">Used to build and initialize this sample.</span></span>|  
-  
-## <a name="how-to-use-this-sample"></a><span data-ttu-id="75b67-156">如何使用此範例</span><span class="sxs-lookup"><span data-stu-id="75b67-156">How to Use This Sample</span></span>  
- <span data-ttu-id="75b67-157">您可以使用此範例，做為自己的一般檔案處理解決方案基礎。</span><span class="sxs-lookup"><span data-stu-id="75b67-157">Use this sample as the basis for your own flat file processing solution.</span></span> <span data-ttu-id="75b67-158">您可以將本範例中所用的許多設計元素加以擴充，以符合自己的需求。</span><span class="sxs-lookup"><span data-stu-id="75b67-158">You can extend many of the design elements used in this sample to fit your own requirements.</span></span>  
-  
-## <a name="building-and-initializing-this-sample"></a><span data-ttu-id="75b67-159">建置和初始化此範例</span><span class="sxs-lookup"><span data-stu-id="75b67-159">Building and Initializing This Sample</span></span>  
-  
-1.  <span data-ttu-id="75b67-160">在命令視窗中，瀏覽至下列資料夾：</span><span class="sxs-lookup"><span data-stu-id="75b67-160">In a command window, navigate to the following folder:</span></span>  
-  
-     <span data-ttu-id="75b67-161">*\<範例路徑\>* \Pipelines\AssemblerDisassembler\FlatFileReceive</span><span class="sxs-lookup"><span data-stu-id="75b67-161">*\<Samples Path\>* \Pipelines\AssemblerDisassembler\FlatFileReceive</span></span>  
-  
-2.  <span data-ttu-id="75b67-162">執行檔案 Setup.bat，這會執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="75b67-162">Run the file Setup.bat, which performs the following actions:</span></span>  
-  
-    -   <span data-ttu-id="75b67-163">為資料夾內的這個範例建立輸入 (FFInput) 和輸出 (FFOutput) 資料夾。</span><span class="sxs-lookup"><span data-stu-id="75b67-163">Creates the input (FFInput) and output (FFOutput) folders for this sample in the folder:</span></span>  
-  
-         <span data-ttu-id="75b67-164">*\<範例路徑\>* \Pipelines\AssemblerDisassembler\FlatFileReceive</span><span class="sxs-lookup"><span data-stu-id="75b67-164">*\<Samples Path\>* \Pipelines\AssemblerDisassembler\FlatFileReceive</span></span>  
-  
-    -   <span data-ttu-id="75b67-165">為這個範例編譯和部署 Visual Studio 專案。</span><span class="sxs-lookup"><span data-stu-id="75b67-165">Compiles and deploys the Visual Studio project for this sample.</span></span>  
-  
-    -   <span data-ttu-id="75b67-166">建立並繫結 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 接收位置，以及傳送埠和接收埠。</span><span class="sxs-lookup"><span data-stu-id="75b67-166">Creates and binds the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive location, and the send and receive ports.</span></span>  
-  
-        > [!NOTE]
-        >  <span data-ttu-id="75b67-167">此範例會顯示下列警告時建立並繫結連接埠：`Warning: Receive handler not specified for receive location "FlatFileReceive_RL"; updating with first receive handler with matching transport type.`您可以放心忽略這些警告。</span><span class="sxs-lookup"><span data-stu-id="75b67-167">This sample displays the following warning when creating and binding ports: `Warning: Receive handler not specified for receive location "FlatFileReceive_RL"; updating with first receive handler with matching transport type.` You can safely ignore these warnings.</span></span> <span data-ttu-id="75b67-168">(繫結檔案已省略主控件名稱與接收處理常式，以配合使用者安裝中可能的命名差異)。</span><span class="sxs-lookup"><span data-stu-id="75b67-168">(To accommodate for possible naming differences in user installations, the host name and receive handler have been omitted from the binding file.)</span></span>  
-  
-    -   <span data-ttu-id="75b67-169">啟用接收位置並啟動傳送埠。</span><span class="sxs-lookup"><span data-stu-id="75b67-169">Enables the receive location, and starts the send port.</span></span>  
-  
+# <a name="flatfilereceive-biztalk-server-sample"></a><span data-ttu-id="ce2c5-102">FlatFileReceive （BizTalk Server 範例）</span><span class="sxs-lookup"><span data-stu-id="ce2c5-102">FlatFileReceive (BizTalk Server Sample)</span></span>
+<span data-ttu-id="ce2c5-103">FlatFileReceive 範例會示範如何使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 將一般檔案處理成相等的 .xml 檔案。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-103">The FlatFileReceive sample demonstrates how you can use [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] to process a flat file into the equivalent .xml file.</span></span>  
+
+## <a name="what-this-sample-does"></a><span data-ttu-id="ce2c5-104">此範例的用途</span><span class="sxs-lookup"><span data-stu-id="ce2c5-104">What This Sample Does</span></span>  
+ <span data-ttu-id="ce2c5-105">此範例將 [FFInput] 資料夾設定為接收位置。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-105">This sample configures the folder FFInput as a receive location.</span></span> <span data-ttu-id="ce2c5-106">當您將檔案 (例如範例檔案 FlatFileReceive_in.txt) 放置於此資料夾時，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會依序使用下列步驟處理此檔案內的訊息。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-106">When you place a file, such as the sample file FlatFileReceive_in.txt, into this folder, [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] processes the message in this file using the following sequence of steps:</span></span>  
+
+1.  <span data-ttu-id="ce2c5-107">讀取接收位置內 [FFInput] 資料夾中輸入檔的訊息。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-107">Reads the message from the input file in the receive location folder FFInput.</span></span>  
+
+2.  <span data-ttu-id="ce2c5-108">在接收管線中，「一般檔案解譯器」元件會將訊息由一般檔案格式轉換為相等的 XML 訊息。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-108">In the receive pipeline, the Flat File Disassembler component converts the message from flat file format to the equivalent XML message.</span></span>  
+
+3.  <span data-ttu-id="ce2c5-109">在 MessageBox 資料庫中，訊息會路由至 FILE 傳送埠，該傳送埠會將 XML 訊息寫入傳送配接器檔案夾 FFOutput 內的檔案。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-109">In the MessageBox database, the message is routed to a FILE send port that writes the XML message to a file in the send adapter folder FFOutput.</span></span>  
+
+## <a name="how-this-sample-is-designed-and-why"></a><span data-ttu-id="ce2c5-110">此範例的設計方式和原因</span><span class="sxs-lookup"><span data-stu-id="ce2c5-110">How This Sample is Designed and Why</span></span>  
+ <span data-ttu-id="ce2c5-111">範例訊息大致指出了此範例的基本設計。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-111">The sample message dictates much of the basic design in this sample.</span></span> <span data-ttu-id="ce2c5-112">必須要使用一般檔案解譯器和自訂接收管線內一般檔案結構描述來解譯一般檔案訊息。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-112">Flat file messages must be disassembled using the Flat File Disassembler and a flat file schema within a custom receive pipeline.</span></span> <span data-ttu-id="ce2c5-113">這些和其他設計元素總結於下表中。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-113">These and other design elements are summarized in the following table.</span></span>  
+
+
+|     <span data-ttu-id="ce2c5-114">設計元素</span><span class="sxs-lookup"><span data-stu-id="ce2c5-114">Design element</span></span>      |                                                                                                                                                                  <span data-ttu-id="ce2c5-115">已選取的原因</span><span class="sxs-lookup"><span data-stu-id="ce2c5-115">Reason(s) selected</span></span>                                                                                                                                                                   |
+|-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="ce2c5-116">自訂接收管線</span><span class="sxs-lookup"><span data-stu-id="ce2c5-116">Custom receive pipeline</span></span> | <span data-ttu-id="ce2c5-117">-自訂的管線會使用一般檔案解譯器和一般檔案結構描述來轉譯內送的訂單訊息。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-117">-   The custom pipeline uses the Flat File Disassembler and a flat file schema to translate inbound purchase order messages.</span></span> <span data-ttu-id="ce2c5-118">「一般檔案解譯器」本身並非管線，在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台中設定接收管線時無法使用它。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-118">The Flat File Disassembler is not itself a pipeline and cannot be used when configuring a receive pipeline in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Management console.</span></span> |
+|    <span data-ttu-id="ce2c5-119">一般檔案結構描述</span><span class="sxs-lookup"><span data-stu-id="ce2c5-119">Flat file schema</span></span>     |                           <span data-ttu-id="ce2c5-120">-定義所有相同記錄與欄位特性 （包含結構） 的 XML 結構描述，並提供機制來定義所有所需的一般檔案執行個體訊息轉譯為對等的 XML 執行個體的一般檔案特性訊息 （反之亦然）。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-120">-   Define all of the same record and field characteristics (including structure) as an XML schema and provide a mechanism for defining all of the flat file characteristics that are required to translate a flat file instance message into an equivalent XML instance message (or vice versa).</span></span>                           |
+|   <span data-ttu-id="ce2c5-121">訂閱篩選器</span><span class="sxs-lookup"><span data-stu-id="ce2c5-121">Subscription filter</span></span>   |                                                                                                        <span data-ttu-id="ce2c5-122">-訂用帳戶篩選器會執行實際的路由： 擷取符合根據屬性欄位的一或多個準則的訊息。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-122">-   The subscription filter performs the actual routing by capturing messages that meet one or more criteria based on property fields.</span></span>                                                                                                         |
+|       <span data-ttu-id="ce2c5-123">XMLTransmit</span><span class="sxs-lookup"><span data-stu-id="ce2c5-123">XMLTransmit</span></span>       |                                                                                                           <span data-ttu-id="ce2c5-124">-執行基本的組件外寄 XML 訊息在需要時。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-124">-   Performs basic assembly of outgoing XML messages where needed.</span></span> <span data-ttu-id="ce2c5-125">PassThruTransmit 管線不會提供其他支援。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-125">The PassThruTransmit pipeline provides no additional support.</span></span>                                                                                                            |
+
+ <span data-ttu-id="ce2c5-126">這些元素結合後產生的解決方案，可從接收位置接受一般檔案格式的訂單訊息，再將產生的 XML 表示法寫出至傳送位置。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-126">These elements are combined to produce a solution that accepts purchase order messages in flat file format from the receive location and writes out the resulting XML representation to the send location.</span></span>  
+
+ <span data-ttu-id="ce2c5-127">下列考量適用於此範例的設計：</span><span class="sxs-lookup"><span data-stu-id="ce2c5-127">The following considerations apply to the design of this sample:</span></span>  
+
+-   <span data-ttu-id="ce2c5-128">一般檔案結構描述 (PO.xsd) 包含擴充註解，會說明採購訂單一般檔案的結構。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-128">The flat file schema (PO.xsd) contains extended annotations describing the structure of the purchase order flat file.</span></span> <span data-ttu-id="ce2c5-129">這些檔案可以用手動方式建立，但有不少可以透過 [一般檔案精靈] 產生。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-129">These files can be created by hand, but many can be generated by using the Flat File Wizard.</span></span>  
+
+-   <span data-ttu-id="ce2c5-130">一般檔案結構描述使用的是 Unqualified 的 elementFormDefault 值。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-130">The flat file schema uses an elementFormDefault value of Unqualified.</span></span> <span data-ttu-id="ce2c5-131">雖然產生的結果正確無誤，但包含其他未預期的 XML 命名空間 (xmlns) 限定性條件。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-131">This produces correct results but with additional and unexpected XML namespace (xmlns) qualifications.</span></span> <span data-ttu-id="ce2c5-132">使用值為 Qualified 的 elementFormDefault 即可避免這個問題。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-132">Use an elementFormDefault of Qualified to avoid this issue.</span></span>  
+
+-   <span data-ttu-id="ce2c5-133">傳送管線會使用 XmlTransmit。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-133">XmlTransmit is used as the send pipeline.</span></span> <span data-ttu-id="ce2c5-134">傳送埠不需要屬性降級或其他訊息的處理時，請使用 PassThruTransmit 管線。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-134">Use the PassThruTransmit pipeline when property demotion or other messaging processing is not required in the send port.</span></span>  
+
+## <a name="where-to-find-this-sample"></a><span data-ttu-id="ce2c5-135">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="ce2c5-135">Where to Find This Sample</span></span>  
+ <span data-ttu-id="ce2c5-136">*\<範例路徑\>* \Pipelines\AssemblerDisassembler\FlatFileReceive\\</span><span class="sxs-lookup"><span data-stu-id="ce2c5-136">*\<Samples Path\>* \Pipelines\AssemblerDisassembler\FlatFileReceive\\</span></span>  
+
+ <span data-ttu-id="ce2c5-137">下表顯示此範例中的檔案，並描述其用途。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-137">The following table shows the files in this sample and describes their purpose.</span></span>  
+
+
+|                   <span data-ttu-id="ce2c5-138">檔案</span><span class="sxs-lookup"><span data-stu-id="ce2c5-138">File(s)</span></span>                   |                                                                                           <span data-ttu-id="ce2c5-139">描述</span><span class="sxs-lookup"><span data-stu-id="ce2c5-139">Description</span></span>                                                                                            |
+|---------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                 <span data-ttu-id="ce2c5-140">Cleanup.bat</span><span class="sxs-lookup"><span data-stu-id="ce2c5-140">Cleanup.bat</span></span>                 | <span data-ttu-id="ce2c5-141">用來解除部署組件，以及將它從全域組件快取中移除。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-141">Used to undeploy assemblies and remove them from the global assembly cache.</span></span> <span data-ttu-id="ce2c5-142">移除傳送埠和接收埠。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-142">Removes send and receive ports.</span></span> <span data-ttu-id="ce2c5-143">視需要移除 Microsoft Internet Information Services (IIS) 虛擬目錄。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-143">Removes Microsoft Internet Information Services (IIS) virtual directories as needed.</span></span> |
+|            <span data-ttu-id="ce2c5-144">FFReceivePipeline.btp</span><span class="sxs-lookup"><span data-stu-id="ce2c5-144">FFReceivePipeline.btp</span></span>            |                       [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="ce2c5-145"> 接收管線檔案，含「一般檔案解譯器」元件。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-145"> receive pipeline file with the Flat File Disassembler component.</span></span>                        |
+| <span data-ttu-id="ce2c5-146">FlatFileReceive.btproj, FlatFileReceive.sln</span><span class="sxs-lookup"><span data-stu-id="ce2c5-146">FlatFileReceive.btproj, FlatFileReceive.sln</span></span> |                                                                           <span data-ttu-id="ce2c5-147">這個範例的專案及解決方案檔案。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-147">Project and solution files for this sample.</span></span>                                                                            |
+|           <span data-ttu-id="ce2c5-148">FlatFileReceive_in.txt</span><span class="sxs-lookup"><span data-stu-id="ce2c5-148">FlatFileReceive_in.txt</span></span>            |                                                                                        <span data-ttu-id="ce2c5-149">範例輸入檔案。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-149">Sample input file.</span></span>                                                                                        |
+|         <span data-ttu-id="ce2c5-150">FlatFileReceiveBinding.xml</span><span class="sxs-lookup"><span data-stu-id="ce2c5-150">FlatFileReceiveBinding.xml</span></span>          |                                                                          <span data-ttu-id="ce2c5-151">用於自動化設定，例如連接埠繫結。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-151">Used for automated setup such as port binding.</span></span>                                                                          |
+|                   <span data-ttu-id="ce2c5-152">PO.xsd</span><span class="sxs-lookup"><span data-stu-id="ce2c5-152">PO.xsd</span></span>                    |                                                                                <span data-ttu-id="ce2c5-153">內送一般檔案的結構描述。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-153">Schema for the inbound flat file.</span></span>                                                                                 |
+|                  <span data-ttu-id="ce2c5-154">Setup.bat</span><span class="sxs-lookup"><span data-stu-id="ce2c5-154">Setup.bat</span></span>                  |                                                                            <span data-ttu-id="ce2c5-155">用來建置和初始化此範例。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-155">Used to build and initialize this sample.</span></span>                                                                             |
+
+## <a name="how-to-use-this-sample"></a><span data-ttu-id="ce2c5-156">如何使用此範例</span><span class="sxs-lookup"><span data-stu-id="ce2c5-156">How to Use This Sample</span></span>  
+ <span data-ttu-id="ce2c5-157">您可以使用此範例，做為自己的一般檔案處理解決方案基礎。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-157">Use this sample as the basis for your own flat file processing solution.</span></span> <span data-ttu-id="ce2c5-158">您可以將本範例中所用的許多設計元素加以擴充，以符合自己的需求。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-158">You can extend many of the design elements used in this sample to fit your own requirements.</span></span>  
+
+## <a name="building-and-initializing-this-sample"></a><span data-ttu-id="ce2c5-159">建置和初始化此範例</span><span class="sxs-lookup"><span data-stu-id="ce2c5-159">Building and Initializing This Sample</span></span>  
+
+1. <span data-ttu-id="ce2c5-160">在命令視窗中，瀏覽至下列資料夾：</span><span class="sxs-lookup"><span data-stu-id="ce2c5-160">In a command window, navigate to the following folder:</span></span>  
+
+    <span data-ttu-id="ce2c5-161">*\<範例路徑\>* \Pipelines\AssemblerDisassembler\FlatFileReceive</span><span class="sxs-lookup"><span data-stu-id="ce2c5-161">*\<Samples Path\>* \Pipelines\AssemblerDisassembler\FlatFileReceive</span></span>  
+
+2. <span data-ttu-id="ce2c5-162">執行檔案 Setup.bat，這會執行下列動作：</span><span class="sxs-lookup"><span data-stu-id="ce2c5-162">Run the file Setup.bat, which performs the following actions:</span></span>  
+
+   - <span data-ttu-id="ce2c5-163">為資料夾內的這個範例建立輸入 (FFInput) 和輸出 (FFOutput) 資料夾。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-163">Creates the input (FFInput) and output (FFOutput) folders for this sample in the folder:</span></span>  
+
+      <span data-ttu-id="ce2c5-164">*\<範例路徑\>* \Pipelines\AssemblerDisassembler\FlatFileReceive</span><span class="sxs-lookup"><span data-stu-id="ce2c5-164">*\<Samples Path\>* \Pipelines\AssemblerDisassembler\FlatFileReceive</span></span>  
+
+   - <span data-ttu-id="ce2c5-165">為這個範例編譯和部署 Visual Studio 專案。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-165">Compiles and deploys the Visual Studio project for this sample.</span></span>  
+
+   - <span data-ttu-id="ce2c5-166">建立並繫結 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 接收位置，以及傳送埠和接收埠。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-166">Creates and binds the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] receive location, and the send and receive ports.</span></span>  
+
+     > [!NOTE]
+     >  <span data-ttu-id="ce2c5-167">此範例會顯示下列警告時建立和繫結連接埠：`Warning: Receive handler not specified for receive location "FlatFileReceive_RL"; updating with first receive handler with matching transport type.`您可以放心地忽略這些警告。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-167">This sample displays the following warning when creating and binding ports: `Warning: Receive handler not specified for receive location "FlatFileReceive_RL"; updating with first receive handler with matching transport type.` You can safely ignore these warnings.</span></span> <span data-ttu-id="ce2c5-168">(繫結檔案已省略主控件名稱與接收處理常式，以配合使用者安裝中可能的命名差異)。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-168">(To accommodate for possible naming differences in user installations, the host name and receive handler have been omitted from the binding file.)</span></span>  
+
+   - <span data-ttu-id="ce2c5-169">啟用接收位置並啟動傳送埠。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-169">Enables the receive location, and starts the send port.</span></span>  
+
 > [!NOTE]
->  <span data-ttu-id="75b67-170">在嘗試執行此範例之前，您必須確認 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 沒有在建置和初始化的程序中報告任何錯誤。</span><span class="sxs-lookup"><span data-stu-id="75b67-170">You should confirm that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] did not report any errors during the build and initialization process before attempting to run this sample.</span></span>  
-  
+>  <span data-ttu-id="ce2c5-170">在嘗試執行此範例之前，您必須確認 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 沒有在建置和初始化的程序中報告任何錯誤。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-170">You should confirm that [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] did not report any errors during the build and initialization process before attempting to run this sample.</span></span>  
+> 
 > [!NOTE]
->  <span data-ttu-id="75b67-171">如果您選擇不執行 Setup.bat 就開啟和建置此範例中的專案，必須先使用 .NET Framework Strong Name Utility (sn.exe) 建立強式名稱金鑰組。</span><span class="sxs-lookup"><span data-stu-id="75b67-171">If you choose to open and build the project in this sample without running Setup.bat, you must first create a strong name key pair using the .NET Framework Strong Name utility (sn.exe).</span></span> <span data-ttu-id="75b67-172">請使用這個金鑰組來簽署產生的組件。</span><span class="sxs-lookup"><span data-stu-id="75b67-172">Use this key pair to sign the resulting assembly.</span></span>  
-  
+>  <span data-ttu-id="ce2c5-171">如果您選擇不執行 Setup.bat 就開啟和建置此範例中的專案，必須先使用 .NET Framework Strong Name Utility (sn.exe) 建立強式名稱金鑰組。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-171">If you choose to open and build the project in this sample without running Setup.bat, you must first create a strong name key pair using the .NET Framework Strong Name utility (sn.exe).</span></span> <span data-ttu-id="ce2c5-172">請使用這個金鑰組來簽署產生的組件。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-172">Use this key pair to sign the resulting assembly.</span></span>  
+> 
 > [!NOTE]
->  <span data-ttu-id="75b67-173">若要復原 Setup.bat 所進行的變更，請執行 Cleanup.bat。</span><span class="sxs-lookup"><span data-stu-id="75b67-173">To undo changes made by Setup.bat, run Cleanup.bat.</span></span> <span data-ttu-id="75b67-174">您必須先執行 Cleanup.bat 才能再度執行 Setup.bat。</span><span class="sxs-lookup"><span data-stu-id="75b67-174">You must run Cleanup.bat before running Setup.bat a second time.</span></span>  
-  
-## <a name="running-this-sample"></a><span data-ttu-id="75b67-175">執行此範例</span><span class="sxs-lookup"><span data-stu-id="75b67-175">Running This Sample</span></span>  
-  
-1.  <span data-ttu-id="75b67-176">請將 FlatFileReceive_in.txt 檔案的複本放在 [FFInput] 資料夾中。</span><span class="sxs-lookup"><span data-stu-id="75b67-176">Put a copy of the file FlatFileReceive_in.txt into the folder FFInput.</span></span>  
-  
-2.  <span data-ttu-id="75b67-177">觀察建立於 [FFOutput] 資料夾內的 .xml 檔案。</span><span class="sxs-lookup"><span data-stu-id="75b67-177">Observe the .xml file created in the folder FFOutput.</span></span> <span data-ttu-id="75b67-178">輸出檔的名稱的根據是訊息識別碼 GUID。</span><span class="sxs-lookup"><span data-stu-id="75b67-178">The name of the output file is based on the message ID GUID.</span></span> <span data-ttu-id="75b67-179">此檔案包含置於接收資料夾內與一般檔案相等的 XML。</span><span class="sxs-lookup"><span data-stu-id="75b67-179">This file contains XML equivalent of the flat file placed in the receive folder.</span></span>  
-  
-## <a name="classes-or-methods-used-in-this-sample"></a><span data-ttu-id="75b67-180">在此範例中使用的類別或方法</span><span class="sxs-lookup"><span data-stu-id="75b67-180">Classes or Methods Used in This Sample</span></span>  
- <span data-ttu-id="75b67-181">組態指令碼 Setup.bat 和 Cleanup.bat 依賴下列系統管理 Windows Management Instrumentation (WMI) 指令碼：</span><span class="sxs-lookup"><span data-stu-id="75b67-181">The configuration scripts Setup.bat and Cleanup.bat rely on the following administrative Windows Management Instrumentation (WMI) scripts:</span></span>  
-  
--   <span data-ttu-id="75b67-182">啟動傳送埠\StartSendPort.vbs</span><span class="sxs-lookup"><span data-stu-id="75b67-182">Start Send Port\StartSendPort.vbs</span></span>  
-  
--   <span data-ttu-id="75b67-183">啟用接收位置\EnableRecLoc</span><span class="sxs-lookup"><span data-stu-id="75b67-183">Enable Receive Location\EnableRecLoc</span></span>  
-  
--   <span data-ttu-id="75b67-184">移除傳送埠\RemoveSendPort</span><span class="sxs-lookup"><span data-stu-id="75b67-184">Remove Send Port\RemoveSendPort</span></span>  
-  
- <span data-ttu-id="75b67-185">安裝和清除批次檔使用的是下列 BTSTask：</span><span class="sxs-lookup"><span data-stu-id="75b67-185">The setup and cleanup batch files use BTSTask as follows:</span></span>  
-  
--   <span data-ttu-id="75b67-186">**BTSTask ImportBindings**套用繫結檔案，並建立應用程式、 連接埠和繫結</span><span class="sxs-lookup"><span data-stu-id="75b67-186">**BTSTask ImportBindings** to apply the binding file and create the application, ports, and bindings</span></span>  
-  
--   <span data-ttu-id="75b67-187">**BTSTask RemoveApp**用以移除 FlatFileReceiveApplication</span><span class="sxs-lookup"><span data-stu-id="75b67-187">**BTSTask RemoveApp** to remove the FlatFileReceiveApplication</span></span>  
-  
-## <a name="see-also"></a><span data-ttu-id="75b67-188">請參閱</span><span class="sxs-lookup"><span data-stu-id="75b67-188">See Also</span></span>  
--  [<span data-ttu-id="75b67-189">Pipelines-AssemblerDisassembler (BizTalk Server Samples 資料夾)</span><span class="sxs-lookup"><span data-stu-id="75b67-189">Pipelines-AssemblerDisassembler (BizTalk Server Samples Folder)</span></span>](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)   
--  [<span data-ttu-id="75b67-190">一般檔案解譯器管線元件</span><span class="sxs-lookup"><span data-stu-id="75b67-190">Flat File Disassembler Pipeline Component</span></span>](../core/flat-file-disassembler-pipeline-component.md)   
--  [<span data-ttu-id="75b67-191">一般檔案結構描述</span><span class="sxs-lookup"><span data-stu-id="75b67-191">Flat File Schemas</span></span>](../core/flat-file-schemas.md)   
--  [<span data-ttu-id="75b67-192">預設管線</span><span class="sxs-lookup"><span data-stu-id="75b67-192">Default Pipelines</span></span>](../core/default-pipelines.md)   
--  <span data-ttu-id="75b67-193">**WMI 指令碼範例**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]</span><span class="sxs-lookup"><span data-stu-id="75b67-193">**WMI Script Samples** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]</span></span>   
--  [<span data-ttu-id="75b67-194">BTSTask 命令列參考</span><span class="sxs-lookup"><span data-stu-id="75b67-194">BTSTask Command-Line Reference</span></span>](../core/btstask-command-line-reference.md)   
--  [<span data-ttu-id="75b67-195">FlatFileSend (BizTalk Server 範例)</span><span class="sxs-lookup"><span data-stu-id="75b67-195">FlatFileSend (BizTalk Server Sample)</span></span>](../core/flatfilesend-biztalk-server-sample.md)
+>  <span data-ttu-id="ce2c5-173">若要復原 Setup.bat 所進行的變更，請執行 Cleanup.bat。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-173">To undo changes made by Setup.bat, run Cleanup.bat.</span></span> <span data-ttu-id="ce2c5-174">您必須先執行 Cleanup.bat 才能再度執行 Setup.bat。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-174">You must run Cleanup.bat before running Setup.bat a second time.</span></span>  
+
+## <a name="running-this-sample"></a><span data-ttu-id="ce2c5-175">執行此範例</span><span class="sxs-lookup"><span data-stu-id="ce2c5-175">Running This Sample</span></span>  
+
+1.  <span data-ttu-id="ce2c5-176">請將 FlatFileReceive_in.txt 檔案的複本放在 [FFInput] 資料夾中。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-176">Put a copy of the file FlatFileReceive_in.txt into the folder FFInput.</span></span>  
+
+2.  <span data-ttu-id="ce2c5-177">觀察建立於 [FFOutput] 資料夾內的 .xml 檔案。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-177">Observe the .xml file created in the folder FFOutput.</span></span> <span data-ttu-id="ce2c5-178">輸出檔的名稱的根據是訊息識別碼 GUID。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-178">The name of the output file is based on the message ID GUID.</span></span> <span data-ttu-id="ce2c5-179">此檔案包含置於接收資料夾內與一般檔案相等的 XML。</span><span class="sxs-lookup"><span data-stu-id="ce2c5-179">This file contains XML equivalent of the flat file placed in the receive folder.</span></span>  
+
+## <a name="classes-or-methods-used-in-this-sample"></a><span data-ttu-id="ce2c5-180">在此範例中使用的類別或方法</span><span class="sxs-lookup"><span data-stu-id="ce2c5-180">Classes or Methods Used in This Sample</span></span>  
+ <span data-ttu-id="ce2c5-181">組態指令碼 Setup.bat 和 Cleanup.bat 依賴下列系統管理 Windows Management Instrumentation (WMI) 指令碼：</span><span class="sxs-lookup"><span data-stu-id="ce2c5-181">The configuration scripts Setup.bat and Cleanup.bat rely on the following administrative Windows Management Instrumentation (WMI) scripts:</span></span>  
+
+- <span data-ttu-id="ce2c5-182">啟動傳送埠\StartSendPort.vbs</span><span class="sxs-lookup"><span data-stu-id="ce2c5-182">Start Send Port\StartSendPort.vbs</span></span>  
+
+- <span data-ttu-id="ce2c5-183">啟用接收位置\EnableRecLoc</span><span class="sxs-lookup"><span data-stu-id="ce2c5-183">Enable Receive Location\EnableRecLoc</span></span>  
+
+- <span data-ttu-id="ce2c5-184">移除傳送埠\RemoveSendPort</span><span class="sxs-lookup"><span data-stu-id="ce2c5-184">Remove Send Port\RemoveSendPort</span></span>  
+
+  <span data-ttu-id="ce2c5-185">安裝和清除批次檔使用的是下列 BTSTask：</span><span class="sxs-lookup"><span data-stu-id="ce2c5-185">The setup and cleanup batch files use BTSTask as follows:</span></span>  
+
+- <span data-ttu-id="ce2c5-186">**BTSTask ImportBindings**套用繫結檔案，並建立應用程式、 連接埠和繫結</span><span class="sxs-lookup"><span data-stu-id="ce2c5-186">**BTSTask ImportBindings** to apply the binding file and create the application, ports, and bindings</span></span>  
+
+- <span data-ttu-id="ce2c5-187">**BTSTask RemoveApp**用以移除 FlatFileReceiveApplication</span><span class="sxs-lookup"><span data-stu-id="ce2c5-187">**BTSTask RemoveApp** to remove the FlatFileReceiveApplication</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="ce2c5-188">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ce2c5-188">See Also</span></span>  
+- [<span data-ttu-id="ce2c5-189">Pipelines-AssemblerDisassembler (BizTalk Server Samples 資料夾)</span><span class="sxs-lookup"><span data-stu-id="ce2c5-189">Pipelines-AssemblerDisassembler (BizTalk Server Samples Folder)</span></span>](../core/pipelines-assemblerdisassembler-biztalk-server-samples-folder.md)   
+- [<span data-ttu-id="ce2c5-190">一般檔案解譯器管線元件</span><span class="sxs-lookup"><span data-stu-id="ce2c5-190">Flat File Disassembler Pipeline Component</span></span>](../core/flat-file-disassembler-pipeline-component.md)   
+- [<span data-ttu-id="ce2c5-191">一般檔案結構描述</span><span class="sxs-lookup"><span data-stu-id="ce2c5-191">Flat File Schemas</span></span>](../core/flat-file-schemas.md)   
+- [<span data-ttu-id="ce2c5-192">預設管線</span><span class="sxs-lookup"><span data-stu-id="ce2c5-192">Default Pipelines</span></span>](../core/default-pipelines.md)   
+- <span data-ttu-id="ce2c5-193">**WMI 指令碼範例** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]</span><span class="sxs-lookup"><span data-stu-id="ce2c5-193">**WMI Script Samples** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]</span></span>   
+- [<span data-ttu-id="ce2c5-194">BTSTask 命令列參考</span><span class="sxs-lookup"><span data-stu-id="ce2c5-194">BTSTask Command-Line Reference</span></span>](../core/btstask-command-line-reference.md)   
+- [<span data-ttu-id="ce2c5-195">FlatFileSend (BizTalk Server 範例)</span><span class="sxs-lookup"><span data-stu-id="ce2c5-195">FlatFileSend (BizTalk Server Sample)</span></span>](../core/flatfilesend-biztalk-server-sample.md)

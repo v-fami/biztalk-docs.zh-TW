@@ -1,5 +1,5 @@
 ---
-title: 如何新增命名空間範例適用於 |Microsoft 文件
+title: 如何新增命名空間範例運作 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,57 +12,58 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 212364030353001cae0589d4d7562641db4b77e6
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 33fc168ff5461ffc4145e83efaf2192cbc785820
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22294382"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36975063"
 ---
-# <a name="how-the-add-namespace-sample-works"></a><span data-ttu-id="70f91-102">如何新增命名空間範例的運作方式</span><span class="sxs-lookup"><span data-stu-id="70f91-102">How the Add Namespace Sample Works</span></span>
-<span data-ttu-id="70f91-103">第二，第一個和第四個測試會使用**加入命名空間**元件位於 NamespaceSampleReceivePipeline 管線。</span><span class="sxs-lookup"><span data-stu-id="70f91-103">The first, second, and fourth tests use the **Add Namespace** component located in the NamespaceSampleReceivePipeline pipeline.</span></span> <span data-ttu-id="70f91-104">它會採用做為輸入的文件沒有命名空間的根節點上，如下所示：</span><span class="sxs-lookup"><span data-stu-id="70f91-104">It takes as input a document with no namespace on the root node, such as the following:</span></span>  
-  
+# <a name="how-the-add-namespace-sample-works"></a><span data-ttu-id="d20ae-102">如何新增命名空間範例運作</span><span class="sxs-lookup"><span data-stu-id="d20ae-102">How the Add Namespace Sample Works</span></span>
+<span data-ttu-id="d20ae-103">第二，第一個和第四個測試會使用**新增的命名空間**元件位於 NamespaceSampleReceivePipeline 管線。</span><span class="sxs-lookup"><span data-stu-id="d20ae-103">The first, second, and fourth tests use the **Add Namespace** component located in the NamespaceSampleReceivePipeline pipeline.</span></span> <span data-ttu-id="d20ae-104">它會作為輸入的文件，在沒有命名空間的根節點上，如下所示：</span><span class="sxs-lookup"><span data-stu-id="d20ae-104">It takes as input a document with no namespace on the root node, such as the following:</span></span>  
+
 ```  
 <CanonicalOrder OrderID="OrderID_0" OrderDate="OrderDate_1" Status="Status_2">  
 ```  
-  
- <span data-ttu-id="70f91-105">下表顯示設定的屬性值**加入命名空間**元件。</span><span class="sxs-lookup"><span data-stu-id="70f91-105">The following table shows the property values set for the **Add Namespace** component.</span></span>  
-  
-|<span data-ttu-id="70f91-106">屬性</span><span class="sxs-lookup"><span data-stu-id="70f91-106">Property</span></span>|<span data-ttu-id="70f91-107">型別</span><span class="sxs-lookup"><span data-stu-id="70f91-107">Type</span></span>|<span data-ttu-id="70f91-108">Value</span><span class="sxs-lookup"><span data-stu-id="70f91-108">Value</span></span>|  
-|--------------|----------|-----------|  
-|<span data-ttu-id="70f91-109">ExtractionNodeXPath</span><span class="sxs-lookup"><span data-stu-id="70f91-109">ExtractionNodeXPath</span></span>|<span data-ttu-id="70f91-110">靜態</span><span class="sxs-lookup"><span data-stu-id="70f91-110">Static</span></span>|<span data-ttu-id="70f91-111">(空的)</span><span class="sxs-lookup"><span data-stu-id="70f91-111">(empty)</span></span>|  
-|<span data-ttu-id="70f91-112">NamespaceBase</span><span class="sxs-lookup"><span data-stu-id="70f91-112">NamespaceBase</span></span>|<span data-ttu-id="70f91-113">靜態</span><span class="sxs-lookup"><span data-stu-id="70f91-113">Static</span></span>|http://schemas.microsoft.biztalk.esb.test.com/test|  
-|<span data-ttu-id="70f91-114">NamespacePrefix</span><span class="sxs-lookup"><span data-stu-id="70f91-114">NamespacePrefix</span></span>|<span data-ttu-id="70f91-115">靜態</span><span class="sxs-lookup"><span data-stu-id="70f91-115">Static</span></span>|<span data-ttu-id="70f91-116">esbTest</span><span class="sxs-lookup"><span data-stu-id="70f91-116">esbTest</span></span>|  
-|<span data-ttu-id="70f91-117">分隔符號</span><span class="sxs-lookup"><span data-stu-id="70f91-117">Separator</span></span>|<span data-ttu-id="70f91-118">靜態</span><span class="sxs-lookup"><span data-stu-id="70f91-118">Static</span></span>|/|  
-|<span data-ttu-id="70f91-119">XPath</span><span class="sxs-lookup"><span data-stu-id="70f91-119">XPaths</span></span>|<span data-ttu-id="70f91-120">動態</span><span class="sxs-lookup"><span data-stu-id="70f91-120">Dynamic</span></span>|<span data-ttu-id="70f91-121">/CanonicalOrder/@OrderID&#124;/CanonicalOrder/@OrderDate</span><span class="sxs-lookup"><span data-stu-id="70f91-121">/CanonicalOrder/@OrderID&#124;/CanonicalOrder/@OrderDate</span></span>|  
-  
- <span data-ttu-id="70f91-122">表所示的屬性設定會導致元件執行兩個 XPath 查詢來搜尋 XML 文件/CanonicalOrder/@OrderID和/CanonicalOrder/@OrderDate(兩個指定的查詢**Xpath**屬性，以 「 管道 」 分隔字元）。</span><span class="sxs-lookup"><span data-stu-id="70f91-122">The property settings shown in the table cause the component to search the XML document by executing the two XPath queries /CanonicalOrder/@OrderID and /CanonicalOrder/@OrderDate (the two queries specified for the **XPaths** property, separated by a "pipe" character).</span></span> <span data-ttu-id="70f91-123">這些查詢將傳回的值**OrderID**和**OrderDate**屬性的根節點的文件; 在此範例中，兩個值是"OrderID_0"和"OrderDate_1"。</span><span class="sxs-lookup"><span data-stu-id="70f91-123">These queries return the values of the **OrderID** and **OrderDate** attributes of the root node of the document; in this example, the two values are "OrderID_0" and "OrderDate_1".</span></span>  
-  
- <span data-ttu-id="70f91-124">元件會使用這些值，並在其他內容的值，建構新的根命名空間。</span><span class="sxs-lookup"><span data-stu-id="70f91-124">The component then uses these values, and the values of the other properties, to construct the new root namespace.</span></span> <span data-ttu-id="70f91-125">它結合了**NamespaceBase**、 **NamespacePrefix**、**分隔符號**，並以下列格式的兩個 XPath 查詢中的值：</span><span class="sxs-lookup"><span data-stu-id="70f91-125">It combines the **NamespaceBase**, the **NamespacePrefix**, the **Separator**, and the values from the two XPath queries in the following format:</span></span>  
-  
+
+ <span data-ttu-id="d20ae-105">下表顯示設定的屬性值**新增的命名空間**元件。</span><span class="sxs-lookup"><span data-stu-id="d20ae-105">The following table shows the property values set for the **Add Namespace** component.</span></span>  
+
+
+|      <span data-ttu-id="d20ae-106">屬性</span><span class="sxs-lookup"><span data-stu-id="d20ae-106">Property</span></span>       |  <span data-ttu-id="d20ae-107">類型</span><span class="sxs-lookup"><span data-stu-id="d20ae-107">Type</span></span>   |                          <span data-ttu-id="d20ae-108">ReplTest1</span><span class="sxs-lookup"><span data-stu-id="d20ae-108">Value</span></span>                           |
+|---------------------|---------|----------------------------------------------------------|
+| <span data-ttu-id="d20ae-109">ExtractionNodeXPath</span><span class="sxs-lookup"><span data-stu-id="d20ae-109">ExtractionNodeXPath</span></span> | <span data-ttu-id="d20ae-110">靜態</span><span class="sxs-lookup"><span data-stu-id="d20ae-110">Static</span></span>  |                         <span data-ttu-id="d20ae-111">(空的)</span><span class="sxs-lookup"><span data-stu-id="d20ae-111">(empty)</span></span>                          |
+|    <span data-ttu-id="d20ae-112">NamespaceBase</span><span class="sxs-lookup"><span data-stu-id="d20ae-112">NamespaceBase</span></span>    | <span data-ttu-id="d20ae-113">靜態</span><span class="sxs-lookup"><span data-stu-id="d20ae-113">Static</span></span>  |    http://schemas.microsoft.biztalk.esb.test.com/test    |
+|   <span data-ttu-id="d20ae-114">NamespacePrefix</span><span class="sxs-lookup"><span data-stu-id="d20ae-114">NamespacePrefix</span></span>   | <span data-ttu-id="d20ae-115">靜態</span><span class="sxs-lookup"><span data-stu-id="d20ae-115">Static</span></span>  |                         <span data-ttu-id="d20ae-116">esbTest</span><span class="sxs-lookup"><span data-stu-id="d20ae-116">esbTest</span></span>                          |
+|      <span data-ttu-id="d20ae-117">分隔符號</span><span class="sxs-lookup"><span data-stu-id="d20ae-117">Separator</span></span>      | <span data-ttu-id="d20ae-118">靜態</span><span class="sxs-lookup"><span data-stu-id="d20ae-118">Static</span></span>  |                            /                             |
+|       <span data-ttu-id="d20ae-119">XPath</span><span class="sxs-lookup"><span data-stu-id="d20ae-119">XPaths</span></span>        | <span data-ttu-id="d20ae-120">動態</span><span class="sxs-lookup"><span data-stu-id="d20ae-120">Dynamic</span></span> | <span data-ttu-id="d20ae-121">/CanonicalOrder/@OrderID&#124;/CanonicalOrder/@OrderDate</span><span class="sxs-lookup"><span data-stu-id="d20ae-121">/CanonicalOrder/@OrderID&#124;/CanonicalOrder/@OrderDate</span></span> |
+
+ <span data-ttu-id="d20ae-122">表所示的屬性設定會導致要執行兩個 XPath 查詢來搜尋 XML 文件的元件/CanonicalOrder/@OrderID並/CanonicalOrder/@OrderDate(針對指定的兩個查詢**Xpath**屬性，以分隔的 「 管道 」字元）。</span><span class="sxs-lookup"><span data-stu-id="d20ae-122">The property settings shown in the table cause the component to search the XML document by executing the two XPath queries /CanonicalOrder/@OrderID and /CanonicalOrder/@OrderDate (the two queries specified for the **XPaths** property, separated by a "pipe" character).</span></span> <span data-ttu-id="d20ae-123">這些查詢傳回的值**OrderID**並**OrderDate**屬性的根節點的文件; 在此範例中，兩個值會是"OrderID_0 」 和 「 OrderDate_1"。</span><span class="sxs-lookup"><span data-stu-id="d20ae-123">These queries return the values of the **OrderID** and **OrderDate** attributes of the root node of the document; in this example, the two values are "OrderID_0" and "OrderDate_1".</span></span>  
+
+ <span data-ttu-id="d20ae-124">此元件接著會使用這些值和其他內容中的值建構新的根命名空間。</span><span class="sxs-lookup"><span data-stu-id="d20ae-124">The component then uses these values, and the values of the other properties, to construct the new root namespace.</span></span> <span data-ttu-id="d20ae-125">它結合了**NamespaceBase**，則**NamespacePrefix**，則**分隔符號**，並以下列格式的兩個 XPath 查詢中的值：</span><span class="sxs-lookup"><span data-stu-id="d20ae-125">It combines the **NamespaceBase**, the **NamespacePrefix**, the **Separator**, and the values from the two XPath queries in the following format:</span></span>  
+
 ```  
 xmlns:{NamespacePrefix}="{NamespaceBase}{Separator}{XPaths[1]}{Seperator}  
                          {XPaths[2]}{Separator}...{XPaths[n]}"  
 ```  
-  
- <span data-ttu-id="70f91-126">這會產生新的命名空間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="70f91-126">This produces the new namespace, as shown here:</span></span>  
-  
+
+ <span data-ttu-id="d20ae-126">這會產生新的命名空間，如下所示：</span><span class="sxs-lookup"><span data-stu-id="d20ae-126">This produces the new namespace, as shown here:</span></span>  
+
 ```  
 xmlns:esbTest="http://schemas.microsoft.biztalk.esb.test.com/test  
                /OrderID_0/OrderDate_1"  
 ```  
-  
- <span data-ttu-id="70f91-127">因此，更新的文件處理後**NamespaceSampleReceivePipeline**管線如下所示：</span><span class="sxs-lookup"><span data-stu-id="70f91-127">Therefore, the updated document after processing by the **NamespaceSampleReceivePipeline** pipeline is the following:</span></span>  
-  
+
+ <span data-ttu-id="d20ae-127">因此，更新的文件處理後**NamespaceSampleReceivePipeline**管線如下：</span><span class="sxs-lookup"><span data-stu-id="d20ae-127">Therefore, the updated document after processing by the **NamespaceSampleReceivePipeline** pipeline is the following:</span></span>  
+
 ```  
 <esbTest:CanonicalOrder xmlns:esbTest=  
     "http://schemas.microsoft.biztalk.esb.test.com/test/OrderID_0  
     /OrderDate_1" OrderID="OrderID_0" OrderDate="OrderDate_1"   
     Status="Status_2">  
 ```  
-  
-## <a name="using-the-extractionnodexpath-property"></a><span data-ttu-id="70f91-128">使用 ExtractionNodeXPath 屬性</span><span class="sxs-lookup"><span data-stu-id="70f91-128">Using the ExtractionNodeXPath Property</span></span>  
- <span data-ttu-id="70f91-129">根據預設，**加入命名空間**加入命名空間和前置詞資訊時，元件會使用訊息內的 XML 文件的根項目。</span><span class="sxs-lookup"><span data-stu-id="70f91-129">By default, the **Add Namespace** component uses the root element of the XML document within the message when adding namespace and prefix information.</span></span> <span data-ttu-id="70f91-130">如果您想要使用的 XML 文件子集做為訊息主體 （在某些案例中信封或一部分的輸入文件具有相關性有用），您可以設定**ExtractionNodeXPath**強制屬性**加入命名空間**来搜尋指定的項目，用於產生訊息的元件。</span><span class="sxs-lookup"><span data-stu-id="70f91-130">If you want to use only a subset of the XML document as the message body (useful in certain envelope scenarios or when only a portion of an inbound document has relevance), you can set the **ExtractionNodeXPath** property to force the **Add Namespace** component to seek the specified element for use as the resultant message.</span></span> <span data-ttu-id="70f91-131">例如，如果您知道 CanonicalOrder 訊息將會有一個**OrderDetails**取用者，其包含此訊息相關的項目，您可以設定**ExtractionNodeXPath**屬性，以指定的路徑**OrderDetails**項目。</span><span class="sxs-lookup"><span data-stu-id="70f91-131">For example, if you know that a received CanonicalOrder message will have only one **OrderDetails** element that is relevant for consumers of this message contained within it, you can set the **ExtractionNodeXPath** property to specify the path to the **OrderDetails** element.</span></span> <span data-ttu-id="70f91-132">您可以查看加入透過擷取至通過測試稍早所述的程序的範例。</span><span class="sxs-lookup"><span data-stu-id="70f91-132">You can see an example of this process in the Add Via Extraction to Pass-through test described earlier.</span></span>  
-  
+
+## <a name="using-the-extractionnodexpath-property"></a><span data-ttu-id="d20ae-128">使用 ExtractionNodeXPath 屬性</span><span class="sxs-lookup"><span data-stu-id="d20ae-128">Using the ExtractionNodeXPath Property</span></span>  
+ <span data-ttu-id="d20ae-129">根據預設，**新增的命名空間**元件會新增命名空間和前置詞的資訊時，會使用訊息內的 XML 文件的根項目。</span><span class="sxs-lookup"><span data-stu-id="d20ae-129">By default, the **Add Namespace** component uses the root element of the XML document within the message when adding namespace and prefix information.</span></span> <span data-ttu-id="d20ae-130">如果您想要使用的 XML 文件子集做為訊息主體 （在某些信封的情況下，或只包含輸入文件的一部分有關聯性時，此項會很有用），您可以設定**ExtractionNodeXPath**強制的屬性**新增命名空間**来搜尋指定的項目，用於產生訊息的元件。</span><span class="sxs-lookup"><span data-stu-id="d20ae-130">If you want to use only a subset of the XML document as the message body (useful in certain envelope scenarios or when only a portion of an inbound document has relevance), you can set the **ExtractionNodeXPath** property to force the **Add Namespace** component to seek the specified element for use as the resultant message.</span></span> <span data-ttu-id="d20ae-131">例如，如果您知道已接收的 CanonicalOrder 訊息將會有一個**OrderDetails**其內所含此訊息的取用者相關的項目，您可以設定**ExtractionNodeXPath**屬性，以指定的路徑**OrderDetails**項目。</span><span class="sxs-lookup"><span data-stu-id="d20ae-131">For example, if you know that a received CanonicalOrder message will have only one **OrderDetails** element that is relevant for consumers of this message contained within it, you can set the **ExtractionNodeXPath** property to specify the path to the **OrderDetails** element.</span></span> <span data-ttu-id="d20ae-132">您可以看到此程序的新增透過擷取至稍早所述的傳遞測試的範例。</span><span class="sxs-lookup"><span data-stu-id="d20ae-132">You can see an example of this process in the Add Via Extraction to Pass-through test described earlier.</span></span>  
+
 > [!NOTE]
->  <span data-ttu-id="70f91-133">**ExtractionNodeXPath**屬性必須傳回只有一個元素的 XPath。</span><span class="sxs-lookup"><span data-stu-id="70f91-133">The **ExtractionNodeXPath** property must be an XPath that returns only one element.</span></span> <span data-ttu-id="70f91-134">元件將會引發例外狀況，如果結果不是元素或 XPath 查詢傳回多個項目。</span><span class="sxs-lookup"><span data-stu-id="70f91-134">The component will raise an exception if the result is not an element or if the XPath query returns more than one element.</span></span>
+>  <span data-ttu-id="d20ae-133">**ExtractionNodeXPath**屬性必須傳回只有一個元素的 XPath。</span><span class="sxs-lookup"><span data-stu-id="d20ae-133">The **ExtractionNodeXPath** property must be an XPath that returns only one element.</span></span> <span data-ttu-id="d20ae-134">此元件將會引發例外狀況，如果結果不是元素或 XPath 查詢傳回多個項目。</span><span class="sxs-lookup"><span data-stu-id="d20ae-134">The component will raise an exception if the result is not an element or if the XPath query returns more than one element.</span></span>

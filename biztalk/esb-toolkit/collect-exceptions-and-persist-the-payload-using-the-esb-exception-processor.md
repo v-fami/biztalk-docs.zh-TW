@@ -1,5 +1,5 @@
 ---
-title: 收集例外狀況，並將保存使用 ESB 例外狀況處理器裝載 |Microsoft 文件
+title: 收集例外狀況並保存使用 ESB 例外狀況處理器內容 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9dd0ec42ab60636202a8ff99fa8fab8d96a95a19
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: c43925006153ccfdcfa0c9700dd1ecf27fd3fd2f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26007015"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994815"
 ---
-# <a name="collecting-exceptions-and-persisting-the-payload-using-the-esb-exception-processor"></a><span data-ttu-id="8fe19-102">收集例外狀況，並將保存裝載使用 ESB 例外狀況處理器</span><span class="sxs-lookup"><span data-stu-id="8fe19-102">Collecting Exceptions and Persisting the Payload Using the ESB Exception Processor</span></span>
-<span data-ttu-id="8fe19-103">在此使用情況下，協調流程的例外狀況處理常式會發佈 ESB 錯誤訊息到 BizTalk Server 訊息方塊，或是 BizTalk 失敗訊息路由的機制會產生錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="8fe19-103">In this use case, either the exception handler for an orchestration publishes an ESB fault message to the BizTalk Server Message Box or the BizTalk Failed Message Routing mechanism generates a fault message.</span></span> <span data-ttu-id="8fe19-104">傳送埠，以 ESB 例外狀況編碼器管線元件，預先設定訂閱這兩個錯誤訊息類型。</span><span class="sxs-lookup"><span data-stu-id="8fe19-104">A send port, preconfigured with the ESB Exception Encoder pipeline component, subscribes to both of the fault message types.</span></span> <span data-ttu-id="8fe19-105">它會處理錯誤訊息，並再將它們保存為磁碟檔案，您可以檢視使用 InfoPath，如圖 1 所示。</span><span class="sxs-lookup"><span data-stu-id="8fe19-105">It processes the fault messages and then persists them as disk files that you can view using InfoPath, as illustrated in Figure 1.</span></span>  
+# <a name="collecting-exceptions-and-persisting-the-payload-using-the-esb-exception-processor"></a><span data-ttu-id="a50bc-102">收集例外狀況並保存使用 ESB 例外狀況處理器內容</span><span class="sxs-lookup"><span data-stu-id="a50bc-102">Collecting Exceptions and Persisting the Payload Using the ESB Exception Processor</span></span>
+<span data-ttu-id="a50bc-103">在此使用案例中，協調流程的例外狀況處理常式會發佈 ESB 錯誤訊息到 BizTalk Server 訊息方塊，或是 BizTalk 失敗訊息路由機制，會產生錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="a50bc-103">In this use case, either the exception handler for an orchestration publishes an ESB fault message to the BizTalk Server Message Box or the BizTalk Failed Message Routing mechanism generates a fault message.</span></span> <span data-ttu-id="a50bc-104">使用 ESB 例外狀況的編碼器管線元件中，預先設定的傳送埠會訂閱這兩個錯誤訊息類型。</span><span class="sxs-lookup"><span data-stu-id="a50bc-104">A send port, preconfigured with the ESB Exception Encoder pipeline component, subscribes to both of the fault message types.</span></span> <span data-ttu-id="a50bc-105">它會處理錯誤訊息，並再將它們保存為磁碟檔案，您可以檢視使用 InfoPath，如 圖 1 所示。</span><span class="sxs-lookup"><span data-stu-id="a50bc-105">It processes the fault messages and then persists them as disk files that you can view using InfoPath, as illustrated in Figure 1.</span></span>  
   
- <span data-ttu-id="8fe19-106">![收集例外狀況承載](../esb-toolkit/media/ch3-collectingexceptionspayload.gif "Ch3 CollectingExceptionsPayload")</span><span class="sxs-lookup"><span data-stu-id="8fe19-106">![Collecting Exceptions Payload](../esb-toolkit/media/ch3-collectingexceptionspayload.gif "Ch3-CollectingExceptionsPayload")</span></span>  
+ <span data-ttu-id="a50bc-106">![收集例外狀況承載](../esb-toolkit/media/ch3-collectingexceptionspayload.gif "Ch3 CollectingExceptionsPayload")</span><span class="sxs-lookup"><span data-stu-id="a50bc-106">![Collecting Exceptions Payload](../esb-toolkit/media/ch3-collectingexceptionspayload.gif "Ch3-CollectingExceptionsPayload")</span></span>  
   
- <span data-ttu-id="8fe19-107">**圖 1**</span><span class="sxs-lookup"><span data-stu-id="8fe19-107">**Figure 1**</span></span>  
+ <span data-ttu-id="a50bc-107">**圖 1**</span><span class="sxs-lookup"><span data-stu-id="a50bc-107">**Figure 1**</span></span>  
   
- <span data-ttu-id="8fe19-108">**擷取錯誤訊息，並將它保存到磁碟檔案**</span><span class="sxs-lookup"><span data-stu-id="8fe19-108">**Capturing a fault message and persisting it to a disk file**</span></span>  
+ <span data-ttu-id="a50bc-108">**擷取錯誤訊息，並將它保存到磁碟檔案**</span><span class="sxs-lookup"><span data-stu-id="a50bc-108">**Capturing a fault message and persisting it to a disk file**</span></span>  
   
- <span data-ttu-id="8fe19-109">[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]包括下列：</span><span class="sxs-lookup"><span data-stu-id="8fe19-109">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes the following:</span></span>  
+ <span data-ttu-id="a50bc-109">[!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]包括下列：</span><span class="sxs-lookup"><span data-stu-id="a50bc-109">The [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)] includes the following:</span></span>  
   
--   <span data-ttu-id="8fe19-110">**預先設定傳送埠會使用 ESB 錯誤處理器傳送管線。**</span><span class="sxs-lookup"><span data-stu-id="8fe19-110">**A preconfigured send port that uses the ESB Fault Processor send pipeline.**</span></span> <span data-ttu-id="8fe19-111">您可以根據特定的需求來設定此傳送埠。</span><span class="sxs-lookup"><span data-stu-id="8fe19-111">You can configure this send port according to your own specific requirements.</span></span>  
+- <span data-ttu-id="a50bc-110">**預先設定的傳送埠使用 ESB 錯誤處理器傳送管線。**</span><span class="sxs-lookup"><span data-stu-id="a50bc-110">**A preconfigured send port that uses the ESB Fault Processor send pipeline.**</span></span> <span data-ttu-id="a50bc-111">您可以根據特定的需求設定此傳送埠。</span><span class="sxs-lookup"><span data-stu-id="a50bc-111">You can configure this send port according to your own specific requirements.</span></span>  
   
--   <span data-ttu-id="8fe19-112">**訊息保存自訂例外狀況處理常式範例。**</span><span class="sxs-lookup"><span data-stu-id="8fe19-112">**The Message Persisting Custom Exception Handler sample.**</span></span> <span data-ttu-id="8fe19-113">這個範例示範鬆散偶合的泛型例外狀況處理常式可以接收錯誤訊息的方式擷取它們包含、 標準化及擴充訊息，並以磁碟檔案將訊息寫入檔案系統的 BizTalk Server 訊息。</span><span class="sxs-lookup"><span data-stu-id="8fe19-113">This sample shows how a loosely coupled generic exception handler can receive fault messages, extract the BizTalk Server messages they contain, normalize and enrich the messages, and write them as disk files to the file system.</span></span>  
+- <span data-ttu-id="a50bc-112">**訊息保存自訂例外狀況處理常式範例。**</span><span class="sxs-lookup"><span data-stu-id="a50bc-112">**The Message Persisting Custom Exception Handler sample.**</span></span> <span data-ttu-id="a50bc-113">這個範例會示範如何鬆散偶合的泛型例外狀況處理常式可以接收錯誤訊息擷取 BizTalk Server 訊息，它們包含、 標準化及擴充訊息，和將它們以磁碟檔案寫入至檔案系統。</span><span class="sxs-lookup"><span data-stu-id="a50bc-113">This sample shows how a loosely coupled generic exception handler can receive fault messages, extract the BizTalk Server messages they contain, normalize and enrich the messages, and write them as disk files to the file system.</span></span>  
   
--   <span data-ttu-id="8fe19-114">**「 BizTalk 失敗訊息路由 」 範例。**</span><span class="sxs-lookup"><span data-stu-id="8fe19-114">**The BizTalk Failed Message Routing sample.**</span></span> <span data-ttu-id="8fe19-115">這個範例會示範如何 ESB 例外狀況管理架構標準化並充實原生失敗訊息路由機制在 BizTalk Server 所產生的錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="8fe19-115">This sample shows how the ESB Exception Management Framework can normalize and enrich fault messages natively generated by the Failed Message Routing mechanism in BizTalk Server.</span></span>  
+- <span data-ttu-id="a50bc-114">**BizTalk 失敗訊息路由的範例。**</span><span class="sxs-lookup"><span data-stu-id="a50bc-114">**The BizTalk Failed Message Routing sample.**</span></span> <span data-ttu-id="a50bc-115">此範例示範如何將正規化 ESB 例外狀況管理架構和擴充原生 BizTalk Server 中的失敗訊息路由機制所產生的錯誤訊息。</span><span class="sxs-lookup"><span data-stu-id="a50bc-115">This sample shows how the ESB Exception Management Framework can normalize and enrich fault messages natively generated by the Failed Message Routing mechanism in BizTalk Server.</span></span>  
   
- <span data-ttu-id="8fe19-116">如需詳細資訊，請參閱[執行訊息保存自訂例外狀況處理常式範例](../esb-toolkit/running-the-message-persisting-custom-exception-handler-sample.md)和[執行 BizTalk 失敗訊息路由 ESB 處理範例](../esb-toolkit/running-the-biztalk-failed-message-routing-esb-processing-sample.md)。</span><span class="sxs-lookup"><span data-stu-id="8fe19-116">For more information, see [Running the Message Persisting Custom Exception Handler Sample](../esb-toolkit/running-the-message-persisting-custom-exception-handler-sample.md) and [Running the BizTalk Failed Message Routing ESB Processing Sample](../esb-toolkit/running-the-biztalk-failed-message-routing-esb-processing-sample.md).</span></span>
+  <span data-ttu-id="a50bc-116">如需詳細資訊，請參閱 <<c0> [ 執行訊息保存自訂例外狀況處理常式範例](../esb-toolkit/running-the-message-persisting-custom-exception-handler-sample.md)並[執行 BizTalk 失敗訊息路由 ESB 處理範例](../esb-toolkit/running-the-biztalk-failed-message-routing-esb-processing-sample.md)。</span><span class="sxs-lookup"><span data-stu-id="a50bc-116">For more information, see [Running the Message Persisting Custom Exception Handler Sample](../esb-toolkit/running-the-message-persisting-custom-exception-handler-sample.md) and [Running the BizTalk Failed Message Routing ESB Processing Sample](../esb-toolkit/running-the-biztalk-failed-message-routing-esb-processing-sample.md).</span></span>

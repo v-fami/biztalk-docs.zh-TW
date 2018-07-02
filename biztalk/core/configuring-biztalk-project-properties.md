@@ -1,5 +1,5 @@
 ---
-title: 設定 BizTalk 專案屬性 |Microsoft 文件
+title: 設定 BizTalk 專案屬性 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,31 +15,31 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1817f9d6bfa4cfbfa7dd34f58fa75b15dd89df7c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 81e35a06a17a7e623db87463c1af336e1e6a8fea
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22232254"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37009999"
 ---
-# <a name="configuring-biztalk-project-properties"></a><span data-ttu-id="523bc-102">設定 BizTalk 專案屬性</span><span class="sxs-lookup"><span data-stu-id="523bc-102">Configuring BizTalk Project Properties</span></span>
-<span data-ttu-id="523bc-103">專案屬性可為您在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中所建立的專案設定全域設定。</span><span class="sxs-lookup"><span data-stu-id="523bc-103">Project properties configure global settings for projects that you create in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span></span> <span data-ttu-id="523bc-104">BizTalk 專案共用許多其他 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 專案的專案屬性。</span><span class="sxs-lookup"><span data-stu-id="523bc-104">BizTalk projects share many of the project properties of other [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects.</span></span> <span data-ttu-id="523bc-105">您可以在專案設計工具中，設定大部分這些屬性。</span><span class="sxs-lookup"><span data-stu-id="523bc-105">You configure most of these properties in the Project Designer.</span></span>  
+# <a name="configuring-biztalk-project-properties"></a><span data-ttu-id="65827-102">設定 BizTalk 專案屬性</span><span class="sxs-lookup"><span data-stu-id="65827-102">Configuring BizTalk Project Properties</span></span>
+<span data-ttu-id="65827-103">專案屬性可為您在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中所建立的專案設定全域設定。</span><span class="sxs-lookup"><span data-stu-id="65827-103">Project properties configure global settings for projects that you create in [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)].</span></span> <span data-ttu-id="65827-104">BizTalk 專案共用許多其他 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 專案的專案屬性。</span><span class="sxs-lookup"><span data-stu-id="65827-104">BizTalk projects share many of the project properties of other [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects.</span></span> <span data-ttu-id="65827-105">您可以在專案設計工具中，設定大部分這些屬性。</span><span class="sxs-lookup"><span data-stu-id="65827-105">You configure most of these properties in the Project Designer.</span></span>  
   
-### <a name="to-access-properties-with-the-project-designer"></a><span data-ttu-id="523bc-106">利用專案設計工具存取屬性</span><span class="sxs-lookup"><span data-stu-id="523bc-106">To access properties with the Project Designer</span></span>  
+### <a name="to-access-properties-with-the-project-designer"></a><span data-ttu-id="65827-106">利用專案設計工具存取屬性</span><span class="sxs-lookup"><span data-stu-id="65827-106">To access properties with the Project Designer</span></span>  
   
-1.  <span data-ttu-id="523bc-107">在 [方案總管] 中，選取一個專案。</span><span class="sxs-lookup"><span data-stu-id="523bc-107">In Solution Explorer, select the project.</span></span>  
+1. <span data-ttu-id="65827-107">在 [方案總管] 中，選取一個專案。</span><span class="sxs-lookup"><span data-stu-id="65827-107">In Solution Explorer, select the project.</span></span>  
   
-2.  <span data-ttu-id="523bc-108">在**專案**功能表上，按一下 **屬性**存取 專案設計工具。</span><span class="sxs-lookup"><span data-stu-id="523bc-108">On the **Project** menu, click **Properties** to access the Project Designer.</span></span>  
+2. <span data-ttu-id="65827-108">在 **專案** 功能表中，按一下**屬性**存取 專案設計工具。</span><span class="sxs-lookup"><span data-stu-id="65827-108">On the **Project** menu, click **Properties** to access the Project Designer.</span></span>  
   
-    > [!NOTE]
-    >  <span data-ttu-id="523bc-109">或者，您可以以滑鼠右鍵按一下專案，然後再按一下**屬性**。</span><span class="sxs-lookup"><span data-stu-id="523bc-109">Alternatively, you can right-click the project, and then click **Properties**.</span></span>  
+   > [!NOTE]
+   >  <span data-ttu-id="65827-109">或者，您可以在此專案，以滑鼠右鍵按一下，然後按一下**屬性**。</span><span class="sxs-lookup"><span data-stu-id="65827-109">Alternatively, you can right-click the project, and then click **Properties**.</span></span>  
   
-3.  <span data-ttu-id="523bc-110">按一下想要的屬性索引標籤，即可存取專案屬性。</span><span class="sxs-lookup"><span data-stu-id="523bc-110">Click the desired property tab to access project properties.</span></span>  
+3. <span data-ttu-id="65827-110">按一下想要的屬性索引標籤，即可存取專案屬性。</span><span class="sxs-lookup"><span data-stu-id="65827-110">Click the desired property tab to access project properties.</span></span>  
   
- <span data-ttu-id="523bc-111">屬性的所有共用的文件[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]專案可以找到參考個別專案設計工具屬性索引標籤的資訊從以下連結： [http://go.microsoft.com/fwlink/?LinkId=124727](http://go.microsoft.com/fwlink/?LinkId=124727)。</span><span class="sxs-lookup"><span data-stu-id="523bc-111">Documentation for properties common to all [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects can be found by referencing the respective Project Designer property tab information from the following link: [http://go.microsoft.com/fwlink/?LinkId=124727](http://go.microsoft.com/fwlink/?LinkId=124727).</span></span>  
+   <span data-ttu-id="65827-111">所有通用屬性的文件[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]即可找到專案參考個別的專案設計工具屬性索引標籤資訊從下列連結： [ http://go.microsoft.com/fwlink/?LinkId=124727 ](http://go.microsoft.com/fwlink/?LinkId=124727)。</span><span class="sxs-lookup"><span data-stu-id="65827-111">Documentation for properties common to all [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] projects can be found by referencing the respective Project Designer property tab information from the following link: [http://go.microsoft.com/fwlink/?LinkId=124727](http://go.microsoft.com/fwlink/?LinkId=124727).</span></span>  
   
-## <a name="in-this-section"></a><span data-ttu-id="523bc-112">本節內容</span><span class="sxs-lookup"><span data-stu-id="523bc-112">In This Section</span></span>  
+## <a name="in-this-section"></a><span data-ttu-id="65827-112">本節內容</span><span class="sxs-lookup"><span data-stu-id="65827-112">In This Section</span></span>  
   
--   <span data-ttu-id="523bc-113">[專案設計工具: [部署] 索引標籤](../core/project-designer-deployment-tab.md)</span><span class="sxs-lookup"><span data-stu-id="523bc-113">[Project Designer: Deployment Tab](../core/project-designer-deployment-tab.md)</span></span>  
+-   [<span data-ttu-id="65827-113">專案設計工具：部署索引標籤</span><span class="sxs-lookup"><span data-stu-id="65827-113">Project Designer: Deployment Tab</span></span>](../core/project-designer-deployment-tab.md)  
   
--   <span data-ttu-id="523bc-114">[BizTalk 專案 [屬性] 視窗](../core/biztalk-project-properties-window.md)</span><span class="sxs-lookup"><span data-stu-id="523bc-114">[BizTalk Project Properties Window](../core/biztalk-project-properties-window.md)</span></span>
+-   [<span data-ttu-id="65827-114">BizTalk 專案屬性視窗</span><span class="sxs-lookup"><span data-stu-id="65827-114">BizTalk Project Properties Window</span></span>](../core/biztalk-project-properties-window.md)

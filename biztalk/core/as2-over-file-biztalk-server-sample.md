@@ -1,5 +1,5 @@
 ---
-title: AS2 over File （BizTalk Server 範例） |Microsoft 文件
+title: AS2 over File （BizTalk Server 範例） |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,139 +12,143 @@ caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 14d4c077cce861e94f6c2cdc0bfc6f4a14669340
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 0ad2254a4f6df5812d04823022a8ef3a66747530
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "25966788"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36967111"
 ---
-# <a name="as2-over-file-biztalk-server-sample"></a><span data-ttu-id="d71a1-102">AS2 Over File (BizTalk Server 範例)</span><span class="sxs-lookup"><span data-stu-id="d71a1-102">AS2 over File (BizTalk Server Sample)</span></span>
-<span data-ttu-id="d71a1-103">AS2 Over File 範例示範如何透過 FILE 接收位置接收 AS2 訊息。</span><span class="sxs-lookup"><span data-stu-id="d71a1-103">The AS2 Over File sample demonstrates how to receive an AS2 message over a FILE receive location.</span></span> <span data-ttu-id="d71a1-104">這可讓您使用 FILE 配接器來接收 AS2 訊息，而不是通常使用的 HTTP 配接器。</span><span class="sxs-lookup"><span data-stu-id="d71a1-104">This enables you to use a FILE adapter to receive the AS2 message, rather than an HTTP adapter, which is normally used.</span></span> <span data-ttu-id="d71a1-105">若要這樣做，此解決方案會在 AS2 解碼器要求時，將 AS2 訊息中的 HTTP 標頭寫入 InboundHTTPHeaders 內容屬性。</span><span class="sxs-lookup"><span data-stu-id="d71a1-105">To do so, this solution writes the HTTP headers in the AS2 message to the InboundHTTPHeaders context property, as required by the AS2 Decoder.</span></span>  
-  
-## <a name="what-this-sample-does"></a><span data-ttu-id="d71a1-106">此範例的用途</span><span class="sxs-lookup"><span data-stu-id="d71a1-106">What This Sample Does</span></span>  
- <span data-ttu-id="d71a1-107">本範例示範如何在沒有 HTTP 配接器的情況下處理 AS2 訊息中的 HTTP 標頭。</span><span class="sxs-lookup"><span data-stu-id="d71a1-107">This sample demonstrates how to process the HTTP headers in an AS2 message without having an HTTP adapter.</span></span> <span data-ttu-id="d71a1-108">具體來說，本範例執行下列工作：</span><span class="sxs-lookup"><span data-stu-id="d71a1-108">Specifically, this sample does the following:</span></span>  
-  
-1.  <span data-ttu-id="d71a1-109">當您將測試訊息拖曳到輸入資料夾時，FILE 接收位置會收取該訊息。</span><span class="sxs-lookup"><span data-stu-id="d71a1-109">When you drop the test message into an input folder, the FILE receive location picks it up.</span></span>  
-  
-2.  <span data-ttu-id="d71a1-110">自訂 AS2 接收管線中的自訂管線元件會處理訊息，將其 HTTP 標頭寫入 InboundHTTPHeaders 內容屬性。</span><span class="sxs-lookup"><span data-stu-id="d71a1-110">The custom pipeline component in the custom AS2 receive pipeline processes the message, writing its HTTP headers to the InboundHTTPHeaders context property.</span></span>  
-  
+# <a name="as2-over-file-biztalk-server-sample"></a><span data-ttu-id="1b1de-102">AS2 Over File (BizTalk Server 範例)</span><span class="sxs-lookup"><span data-stu-id="1b1de-102">AS2 over File (BizTalk Server Sample)</span></span>
+<span data-ttu-id="1b1de-103">AS2 Over File 範例示範如何透過 FILE 接收位置接收 AS2 訊息。</span><span class="sxs-lookup"><span data-stu-id="1b1de-103">The AS2 Over File sample demonstrates how to receive an AS2 message over a FILE receive location.</span></span> <span data-ttu-id="1b1de-104">這可讓您使用 FILE 配接器來接收 AS2 訊息，而不是通常使用的 HTTP 配接器。</span><span class="sxs-lookup"><span data-stu-id="1b1de-104">This enables you to use a FILE adapter to receive the AS2 message, rather than an HTTP adapter, which is normally used.</span></span> <span data-ttu-id="1b1de-105">若要這樣做，此解決方案會在 AS2 解碼器要求時，將 AS2 訊息中的 HTTP 標頭寫入 InboundHTTPHeaders 內容屬性。</span><span class="sxs-lookup"><span data-stu-id="1b1de-105">To do so, this solution writes the HTTP headers in the AS2 message to the InboundHTTPHeaders context property, as required by the AS2 Decoder.</span></span>  
+
+## <a name="what-this-sample-does"></a><span data-ttu-id="1b1de-106">此範例的用途</span><span class="sxs-lookup"><span data-stu-id="1b1de-106">What This Sample Does</span></span>  
+ <span data-ttu-id="1b1de-107">本範例示範如何在沒有 HTTP 配接器的情況下處理 AS2 訊息中的 HTTP 標頭。</span><span class="sxs-lookup"><span data-stu-id="1b1de-107">This sample demonstrates how to process the HTTP headers in an AS2 message without having an HTTP adapter.</span></span> <span data-ttu-id="1b1de-108">具體來說，本範例執行下列工作：</span><span class="sxs-lookup"><span data-stu-id="1b1de-108">Specifically, this sample does the following:</span></span>  
+
+1.  <span data-ttu-id="1b1de-109">當您將測試訊息拖曳到輸入資料夾時，FILE 接收位置會收取該訊息。</span><span class="sxs-lookup"><span data-stu-id="1b1de-109">When you drop the test message into an input folder, the FILE receive location picks it up.</span></span>  
+
+2.  <span data-ttu-id="1b1de-110">自訂 AS2 接收管線中的自訂管線元件會處理訊息，將其 HTTP 標頭寫入 InboundHTTPHeaders 內容屬性。</span><span class="sxs-lookup"><span data-stu-id="1b1de-110">The custom pipeline component in the custom AS2 receive pipeline processes the message, writing its HTTP headers to the InboundHTTPHeaders context property.</span></span>  
+
     > [!NOTE]
-    >  <span data-ttu-id="d71a1-111">如果處理訊息導致自訂管線元件的下游失敗，您可能無法繼續處理訊息，因為它已經轉換成 XML 編碼。</span><span class="sxs-lookup"><span data-stu-id="d71a1-111">If processing of the message fails downstream of the custom pipeline component, you may have difficulty resuming the processing of the message because it will have already been converted to XML encoding.</span></span>  
-  
-3.  <span data-ttu-id="d71a1-112">自訂接收管線中的 AS2 解碼器會處理訊息，讀取 InboundHTTPHeaders 內容屬性中的屬性來執行其處理。</span><span class="sxs-lookup"><span data-stu-id="d71a1-112">The AS2 Decoder in the custom receive pipeline processes the message, reading the properties in the InboundHTTPHeaders context property to do its processing.</span></span>  
-  
-4.  <span data-ttu-id="d71a1-113">傳送埠會訂閱接收管線所產生的 XML 訊息，藉由通過傳送管線傳遞該訊息，然後再將它放入輸出資料夾中。</span><span class="sxs-lookup"><span data-stu-id="d71a1-113">A send port subscribes to the XML message generated by the receive pipeline, passes it through a passthrough send pipeline, and drops it into an output folder.</span></span>  
-  
-## <a name="where-to-find-this-sample"></a><span data-ttu-id="d71a1-114">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="d71a1-114">Where to Find This Sample</span></span>  
- <span data-ttu-id="d71a1-115">此範例位於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安裝資料夾： [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File。</span><span class="sxs-lookup"><span data-stu-id="d71a1-115">This sample is located in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation folder: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File.</span></span>  
-  
- <span data-ttu-id="d71a1-116">下表顯示此範例中的檔案，並描述其用途。</span><span class="sxs-lookup"><span data-stu-id="d71a1-116">The following table shows the files in this sample and describes their purpose.</span></span>  
-  
-|<span data-ttu-id="d71a1-117">파일</span><span class="sxs-lookup"><span data-stu-id="d71a1-117">File(s)</span></span>|<span data-ttu-id="d71a1-118">Description</span><span class="sxs-lookup"><span data-stu-id="d71a1-118">Description</span></span>|  
+    >  <span data-ttu-id="1b1de-111">如果處理訊息導致自訂管線元件的下游失敗，您可能無法繼續處理訊息，因為它已經轉換成 XML 編碼。</span><span class="sxs-lookup"><span data-stu-id="1b1de-111">If processing of the message fails downstream of the custom pipeline component, you may have difficulty resuming the processing of the message because it will have already been converted to XML encoding.</span></span>  
+
+3.  <span data-ttu-id="1b1de-112">自訂接收管線中的 AS2 解碼器會處理訊息，讀取 InboundHTTPHeaders 內容屬性中的屬性來執行其處理。</span><span class="sxs-lookup"><span data-stu-id="1b1de-112">The AS2 Decoder in the custom receive pipeline processes the message, reading the properties in the InboundHTTPHeaders context property to do its processing.</span></span>  
+
+4.  <span data-ttu-id="1b1de-113">傳送埠會訂閱接收管線所產生的 XML 訊息，藉由通過傳送管線傳遞該訊息，然後再將它放入輸出資料夾中。</span><span class="sxs-lookup"><span data-stu-id="1b1de-113">A send port subscribes to the XML message generated by the receive pipeline, passes it through a passthrough send pipeline, and drops it into an output folder.</span></span>  
+
+## <a name="where-to-find-this-sample"></a><span data-ttu-id="1b1de-114">可在何處找到此範例</span><span class="sxs-lookup"><span data-stu-id="1b1de-114">Where to Find This Sample</span></span>  
+ <span data-ttu-id="1b1de-115">此範例位於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安裝資料夾： [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File。</span><span class="sxs-lookup"><span data-stu-id="1b1de-115">This sample is located in the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] installation folder: [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File.</span></span>  
+
+ <span data-ttu-id="1b1de-116">下表顯示此範例中的檔案，並描述其用途。</span><span class="sxs-lookup"><span data-stu-id="1b1de-116">The following table shows the files in this sample and describes their purpose.</span></span>  
+
+|<span data-ttu-id="1b1de-117">檔案</span><span class="sxs-lookup"><span data-stu-id="1b1de-117">File(s)</span></span>|<span data-ttu-id="1b1de-118">描述</span><span class="sxs-lookup"><span data-stu-id="1b1de-118">Description</span></span>|  
 |---------------|-----------------|  
-|<span data-ttu-id="d71a1-119">AS2OverFile.csproj</span><span class="sxs-lookup"><span data-stu-id="d71a1-119">AS2OverFile.csproj</span></span>|<span data-ttu-id="d71a1-120">包含自訂管線元件程式碼的專案。</span><span class="sxs-lookup"><span data-stu-id="d71a1-120">The project containing the custom pipeline component code.</span></span>|  
-|<span data-ttu-id="d71a1-121">AS2OverFile.sln</span><span class="sxs-lookup"><span data-stu-id="d71a1-121">AS2OverFile.sln</span></span>|<span data-ttu-id="d71a1-122">包含 AS2OverFile.btproj 專案的解決方案。</span><span class="sxs-lookup"><span data-stu-id="d71a1-122">The solution containing the AS2OverFile.btproj project.</span></span>|  
-|<span data-ttu-id="d71a1-123">Program.cs</span><span class="sxs-lookup"><span data-stu-id="d71a1-123">Program.cs</span></span>|<span data-ttu-id="d71a1-124">包含代表標頭資料類別。</span><span class="sxs-lookup"><span data-stu-id="d71a1-124">Includes classes representing headers data.</span></span>|  
-|<span data-ttu-id="d71a1-125">SampleMessage.txt</span><span class="sxs-lookup"><span data-stu-id="d71a1-125">SampleMessage.txt</span></span>|<span data-ttu-id="d71a1-126">包含 HTTP 標頭的範例訊息。</span><span class="sxs-lookup"><span data-stu-id="d71a1-126">The sample message containing HTTP headers.</span></span>|  
-  
-## <a name="implementing-and-running-this-sample"></a><span data-ttu-id="d71a1-127">實作及執行此範例</span><span class="sxs-lookup"><span data-stu-id="d71a1-127">Implementing and Running This Sample</span></span>  
- <span data-ttu-id="d71a1-128">若要實作 AS2 Over File 範例，您必須執行下列作業：</span><span class="sxs-lookup"><span data-stu-id="d71a1-128">To implement the AS2 Over File sample, you need to do the following:</span></span>  
-  
--   <span data-ttu-id="d71a1-129">建置及部署此範例的 BizTalk 專案，並建立自訂管線元件</span><span class="sxs-lookup"><span data-stu-id="d71a1-129">Build and deploy the BizTalk project for this sample, creating the custom pipeline component</span></span>  
-  
--   <span data-ttu-id="d71a1-130">建立使用自訂管線元件的自訂管線，並使用該自訂管線建置及部署專案</span><span class="sxs-lookup"><span data-stu-id="d71a1-130">Create a custom pipeline using the custom pipeline component, and build and deploy a project with that custom pipeline</span></span>  
-  
--   <span data-ttu-id="d71a1-131">建立輸入及輸出檔案資料夾</span><span class="sxs-lookup"><span data-stu-id="d71a1-131">Create input and output file folders</span></span>  
-  
--   <span data-ttu-id="d71a1-132">設定接收埠和位址，並啟用接收位置</span><span class="sxs-lookup"><span data-stu-id="d71a1-132">Configure a receive port and location, and enable the receive location</span></span>  
-  
--   <span data-ttu-id="d71a1-133">設定傳送埠及啟動傳送埠</span><span class="sxs-lookup"><span data-stu-id="d71a1-133">Configure a send port and start the send port</span></span>  
-  
--   <span data-ttu-id="d71a1-134">建立合作對象，以便傳送範例訊息</span><span class="sxs-lookup"><span data-stu-id="d71a1-134">Create a party for sending the sample message</span></span>  
-  
-#### <a name="to-build-a-custom-pipeline-with-the-as2-over-file-emulator-pipeline-component"></a><span data-ttu-id="d71a1-135">若要使用 AS2 Over File 模擬器管線元件建置自訂管線</span><span class="sxs-lookup"><span data-stu-id="d71a1-135">To build a custom pipeline with the AS2 Over File Emulator Pipeline Component</span></span>  
-  
-1.  <span data-ttu-id="d71a1-136">在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中，開啟 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File 資料夾中的 AS2OverFile 專案。</span><span class="sxs-lookup"><span data-stu-id="d71a1-136">In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the AS2OverFile project in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File folder.</span></span>  
-  
-2.  <span data-ttu-id="d71a1-137">建立強式名稱金鑰檔，開啟 AS2OverFile 專案的 [屬性] 對話方塊，然後將金鑰檔指派給專案。</span><span class="sxs-lookup"><span data-stu-id="d71a1-137">Create a strong name key file, open the Properties dialog box for the AS2OverFile project, and assign the key file to the project.</span></span>  
-  
-3.  <span data-ttu-id="d71a1-138">建置專案。</span><span class="sxs-lookup"><span data-stu-id="d71a1-138">Build the project.</span></span>  
-  
-4.  <span data-ttu-id="d71a1-139">在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中，建立名稱為 AS2OverFile_Pipeline 的新 BizTalk 專案。</span><span class="sxs-lookup"><span data-stu-id="d71a1-139">In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], create a new BizTalk Project named AS2OverFile_Pipeline.</span></span>  
-  
-5.  <span data-ttu-id="d71a1-140">以滑鼠右鍵按一下 AS2OverFile_Pipeline 專案，指向**新增**，然後按一下 **新項目**。</span><span class="sxs-lookup"><span data-stu-id="d71a1-140">Right-click the AS2OverFile_Pipeline project, point to **Add**, and then click **New Item**.</span></span>  
-  
-6.  <span data-ttu-id="d71a1-141">在**加入新項目**對話方塊中，選取**管線檔案**在左窗格中，選取**接收管線**在右側窗格中的名稱，管線 AS2OverFile_Receive.btp，然後再按一下**新增**。</span><span class="sxs-lookup"><span data-stu-id="d71a1-141">In the **Add New Item** dialog box, select **Pipeline Files** in the left-hand pane, select **Receive Pipeline** in the right-hand pane, name the pipeline AS2OverFile_Receive.btp, and then click **Add**.</span></span>  
-  
-7.  <span data-ttu-id="d71a1-142">按一下**檢視**在功能表列，然後按一下**工具箱**以顯示工具箱。</span><span class="sxs-lookup"><span data-stu-id="d71a1-142">Click **View** in the menu bar, and then click **Toolbox** to display the Toolbox.</span></span>  
-  
-8.  <span data-ttu-id="d71a1-143">在工具箱中，以滑鼠右鍵按一下**BizTalk 管線元件**，然後按一下 **選擇項目**。</span><span class="sxs-lookup"><span data-stu-id="d71a1-143">In the Toolbox, right-click **BizTalk Pipeline Components**, and then click **Choose Items**.</span></span>  
-  
-9. <span data-ttu-id="d71a1-144">在**選擇工具箱項目**對話方塊中，按一下  **BizTalk 管線元件** 索引標籤。按一下**AS2 Over File 模擬器**，然後按一下 **確定**。</span><span class="sxs-lookup"><span data-stu-id="d71a1-144">In the **Choose Toolbox Items** dialog box, click the **BizTalk Pipeline Components** tab. Click **AS2 Over File Emulator**, and then click **OK**.</span></span>  
-  
-10. <span data-ttu-id="d71a1-145">開啟 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 命令提示字元，並在 \AS2 Over File\obj\Debug 資料夾中的 Microsoft.BizTalk.Sdk.Components.AS2OverFile.dll 上執行 `gacutil /if "<file name and path>"` 命令，將 AS2OverFile.dll 檔案新增至全域組件快取。</span><span class="sxs-lookup"><span data-stu-id="d71a1-145">Add the AS2OverFile.dll file to the global assembly cache by opening a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Command Prompt, and executing the command `gacutil /if "<file name and path>"` on the Microsoft.BizTalk.Sdk.Components.AS2OverFile.dll in the \AS2 Over File\obj\Debug folder.</span></span>  
-  
-11. <span data-ttu-id="d71a1-146">在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，將 AS2 Over File 模擬器管線元件從工具箱拖曳到**解碼**自訂管線的階段。</span><span class="sxs-lookup"><span data-stu-id="d71a1-146">In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], drag the AS2 Over File Emulator pipeline component from the Toolbox into the **Decode** stage of the custom pipeline.</span></span>  
-  
-12. <span data-ttu-id="d71a1-147">拖曳至 AS2 解碼器元件**解碼**之後 AS2 Over File 元件的自訂管線的階段。</span><span class="sxs-lookup"><span data-stu-id="d71a1-147">Drag the AS2 decoder component into the **Decode** stage of the custom pipeline, after the AS2 Over File component.</span></span>  
-  
+|<span data-ttu-id="1b1de-119">AS2OverFile.csproj</span><span class="sxs-lookup"><span data-stu-id="1b1de-119">AS2OverFile.csproj</span></span>|<span data-ttu-id="1b1de-120">包含自訂管線元件程式碼的專案。</span><span class="sxs-lookup"><span data-stu-id="1b1de-120">The project containing the custom pipeline component code.</span></span>|  
+|<span data-ttu-id="1b1de-121">AS2OverFile.sln</span><span class="sxs-lookup"><span data-stu-id="1b1de-121">AS2OverFile.sln</span></span>|<span data-ttu-id="1b1de-122">包含 AS2OverFile.btproj 專案的解決方案。</span><span class="sxs-lookup"><span data-stu-id="1b1de-122">The solution containing the AS2OverFile.btproj project.</span></span>|  
+|<span data-ttu-id="1b1de-123">Program.cs</span><span class="sxs-lookup"><span data-stu-id="1b1de-123">Program.cs</span></span>|<span data-ttu-id="1b1de-124">包含類別，表示標頭的資料。</span><span class="sxs-lookup"><span data-stu-id="1b1de-124">Includes classes representing headers data.</span></span>|  
+|<span data-ttu-id="1b1de-125">SampleMessage.txt</span><span class="sxs-lookup"><span data-stu-id="1b1de-125">SampleMessage.txt</span></span>|<span data-ttu-id="1b1de-126">包含 HTTP 標頭的範例訊息。</span><span class="sxs-lookup"><span data-stu-id="1b1de-126">The sample message containing HTTP headers.</span></span>|  
+
+## <a name="implementing-and-running-this-sample"></a><span data-ttu-id="1b1de-127">實作及執行此範例</span><span class="sxs-lookup"><span data-stu-id="1b1de-127">Implementing and Running This Sample</span></span>  
+ <span data-ttu-id="1b1de-128">若要實作 AS2 Over File 範例，您必須執行下列作業：</span><span class="sxs-lookup"><span data-stu-id="1b1de-128">To implement the AS2 Over File sample, you need to do the following:</span></span>  
+
+-   <span data-ttu-id="1b1de-129">建置及部署此範例的 BizTalk 專案，並建立自訂管線元件</span><span class="sxs-lookup"><span data-stu-id="1b1de-129">Build and deploy the BizTalk project for this sample, creating the custom pipeline component</span></span>  
+
+-   <span data-ttu-id="1b1de-130">建立使用自訂管線元件的自訂管線，並使用該自訂管線建置及部署專案</span><span class="sxs-lookup"><span data-stu-id="1b1de-130">Create a custom pipeline using the custom pipeline component, and build and deploy a project with that custom pipeline</span></span>  
+
+-   <span data-ttu-id="1b1de-131">建立輸入及輸出檔案資料夾</span><span class="sxs-lookup"><span data-stu-id="1b1de-131">Create input and output file folders</span></span>  
+
+-   <span data-ttu-id="1b1de-132">設定接收埠和位址，並啟用接收位置</span><span class="sxs-lookup"><span data-stu-id="1b1de-132">Configure a receive port and location, and enable the receive location</span></span>  
+
+-   <span data-ttu-id="1b1de-133">設定傳送埠及啟動傳送埠</span><span class="sxs-lookup"><span data-stu-id="1b1de-133">Configure a send port and start the send port</span></span>  
+
+-   <span data-ttu-id="1b1de-134">建立合作對象傳送範例訊息</span><span class="sxs-lookup"><span data-stu-id="1b1de-134">Create a party for sending the sample message</span></span>  
+
+#### <a name="to-build-a-custom-pipeline-with-the-as2-over-file-emulator-pipeline-component"></a><span data-ttu-id="1b1de-135">若要使用 AS2 Over File 模擬器管線元件建置自訂管線</span><span class="sxs-lookup"><span data-stu-id="1b1de-135">To build a custom pipeline with the AS2 Over File Emulator Pipeline Component</span></span>  
+
+1. <span data-ttu-id="1b1de-136">在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中，開啟 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File 資料夾中的 AS2OverFile 專案。</span><span class="sxs-lookup"><span data-stu-id="1b1de-136">In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], open the AS2OverFile project in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File folder.</span></span>  
+
+2. <span data-ttu-id="1b1de-137">建立強式名稱金鑰檔，開啟 AS2OverFile 專案的 [屬性] 對話方塊，然後將金鑰檔指派給專案。</span><span class="sxs-lookup"><span data-stu-id="1b1de-137">Create a strong name key file, open the Properties dialog box for the AS2OverFile project, and assign the key file to the project.</span></span>  
+
+3. <span data-ttu-id="1b1de-138">建置專案。</span><span class="sxs-lookup"><span data-stu-id="1b1de-138">Build the project.</span></span>  
+
+4. <span data-ttu-id="1b1de-139">在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中，建立名稱為 AS2OverFile_Pipeline 的新 BizTalk 專案。</span><span class="sxs-lookup"><span data-stu-id="1b1de-139">In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], create a new BizTalk Project named AS2OverFile_Pipeline.</span></span>  
+
+5. <span data-ttu-id="1b1de-140">以滑鼠右鍵按一下 AS2OverFile_Pipeline 專案，指向**新增**，然後按一下**新項目**。</span><span class="sxs-lookup"><span data-stu-id="1b1de-140">Right-click the AS2OverFile_Pipeline project, point to **Add**, and then click **New Item**.</span></span>  
+
+6. <span data-ttu-id="1b1de-141">在 **加入新項目**對話方塊方塊中，選取**管線檔案**在左側窗格中，選取**接收管線**在右側窗格中的名稱，管線 AS2OverFile_Receive.btp，，然後按一下**新增**。</span><span class="sxs-lookup"><span data-stu-id="1b1de-141">In the **Add New Item** dialog box, select **Pipeline Files** in the left-hand pane, select **Receive Pipeline** in the right-hand pane, name the pipeline AS2OverFile_Receive.btp, and then click **Add**.</span></span>  
+
+7. <span data-ttu-id="1b1de-142">按一下 **檢視**在功能表列，然後按一下**工具箱**以顯示工具箱。</span><span class="sxs-lookup"><span data-stu-id="1b1de-142">Click **View** in the menu bar, and then click **Toolbox** to display the Toolbox.</span></span>  
+
+8. <span data-ttu-id="1b1de-143">在工具箱中，以滑鼠右鍵按一下**BizTalk 管線元件**，然後按一下**選擇項目**。</span><span class="sxs-lookup"><span data-stu-id="1b1de-143">In the Toolbox, right-click **BizTalk Pipeline Components**, and then click **Choose Items**.</span></span>  
+
+9. <span data-ttu-id="1b1de-144">在 [**選擇工具箱項目**] 對話方塊中，按一下**BizTalk 管線元件**] 索引標籤。按一下 [ **AS2 Over File 模擬器**，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="1b1de-144">In the **Choose Toolbox Items** dialog box, click the **BizTalk Pipeline Components** tab. Click **AS2 Over File Emulator**, and then click **OK**.</span></span>  
+
+10. <span data-ttu-id="1b1de-145">開啟 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 命令提示字元，並在 \AS2 Over File\obj\Debug 資料夾中的 Microsoft.BizTalk.Sdk.Components.AS2OverFile.dll 上執行 `gacutil /if "<file name and path>"` 命令，將 AS2OverFile.dll 檔案新增至全域組件快取。</span><span class="sxs-lookup"><span data-stu-id="1b1de-145">Add the AS2OverFile.dll file to the global assembly cache by opening a [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Command Prompt, and executing the command `gacutil /if "<file name and path>"` on the Microsoft.BizTalk.Sdk.Components.AS2OverFile.dll in the \AS2 Over File\obj\Debug folder.</span></span>  
+
+11. <span data-ttu-id="1b1de-146">在  [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，將 AS2 Over File 模擬器管線元件從工具箱拖曳到**解碼**自訂管線的階段。</span><span class="sxs-lookup"><span data-stu-id="1b1de-146">In [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)], drag the AS2 Over File Emulator pipeline component from the Toolbox into the **Decode** stage of the custom pipeline.</span></span>  
+
+12. <span data-ttu-id="1b1de-147">至 AS2 解碼器元件拖放**解碼**自訂管線的 AS2 Over File 元件之後的階段。</span><span class="sxs-lookup"><span data-stu-id="1b1de-147">Drag the AS2 decoder component into the **Decode** stage of the custom pipeline, after the AS2 Over File component.</span></span>  
+
     > [!NOTE]
-    >  <span data-ttu-id="d71a1-148">如果要產生 MDN，請將 AS2 解譯器新增到自訂管線的 [解譯] 階段中。</span><span class="sxs-lookup"><span data-stu-id="d71a1-148">If you want to generate an MDN, add an AS2 disassembler into the Disassemble stage of the custom pipeline.</span></span> <span data-ttu-id="d71a1-149">如果您不是要傳回 MDN，就不需要 AS2 解譯器。</span><span class="sxs-lookup"><span data-stu-id="d71a1-149">If you are not returning an MDN, the AS2 disassembler is not required.</span></span>  
-  
-13. <span data-ttu-id="d71a1-150">建立強式名稱金鑰檔，開啟 AS2OverFile_Pipeline 專案的 [屬性] 對話方塊，然後將金鑰檔指派給專案。</span><span class="sxs-lookup"><span data-stu-id="d71a1-150">Create a strong name key file, open the Properties dialog box for the AS2OverFile_Pipeline project, and assign the key file to the project.</span></span>  
-  
-14. <span data-ttu-id="d71a1-151">建置和部署自訂管線。</span><span class="sxs-lookup"><span data-stu-id="d71a1-151">Build and deploy the custom pipeline.</span></span>  
-  
-15. <span data-ttu-id="d71a1-152">在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，加入 [管線] 節點中的自訂管線，按一下 [管線] 節點，然後按一下**重新整理**。</span><span class="sxs-lookup"><span data-stu-id="d71a1-152">In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, add the custom pipeline to the Pipelines node by clicking the Pipelines node, and then clicking **Refresh**.</span></span>  
-  
-#### <a name="to-implement-the-solution-for-this-sample"></a><span data-ttu-id="d71a1-153">若要實作本範例的解決方案</span><span class="sxs-lookup"><span data-stu-id="d71a1-153">To implement the solution for this sample</span></span>  
-  
-1.  <span data-ttu-id="d71a1-154">在 [Windows 檔案總管] 中，在 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File 資料夾建立 In 輸入資料夾和 Out 輸出資料夾。</span><span class="sxs-lookup"><span data-stu-id="d71a1-154">In Windows Explorer, in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File folder, create an In input folder and an Out output folder.</span></span>  
-  
-2.  <span data-ttu-id="d71a1-155">在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台中，建立名稱為 AS2OverFile_Receive 的單向接收埠。</span><span class="sxs-lookup"><span data-stu-id="d71a1-155">In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, create a one-way receive port named AS2OverFile_Receive.</span></span> <span data-ttu-id="d71a1-156">在接收埠中，使用下列屬性來建立接收位置：</span><span class="sxs-lookup"><span data-stu-id="d71a1-156">In the receive port, create a receive location with the following properties:</span></span>  
-  
-    |<span data-ttu-id="d71a1-157">屬性</span><span class="sxs-lookup"><span data-stu-id="d71a1-157">Property</span></span>|<span data-ttu-id="d71a1-158">設定</span><span class="sxs-lookup"><span data-stu-id="d71a1-158">Setting</span></span>|  
-    |--------------|-------------|  
-    |<span data-ttu-id="d71a1-159">名稱</span><span class="sxs-lookup"><span data-stu-id="d71a1-159">Name</span></span>|<span data-ttu-id="d71a1-160">AS2OverFile_Receive</span><span class="sxs-lookup"><span data-stu-id="d71a1-160">AS2OverFile_Receive</span></span>|  
-    |<span data-ttu-id="d71a1-161">型別</span><span class="sxs-lookup"><span data-stu-id="d71a1-161">Type</span></span>|<span data-ttu-id="d71a1-162">FILE</span><span class="sxs-lookup"><span data-stu-id="d71a1-162">FILE</span></span>|  
-    |<span data-ttu-id="d71a1-163">接收資料夾</span><span class="sxs-lookup"><span data-stu-id="d71a1-163">Receive folder</span></span>|[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]<span data-ttu-id="d71a1-164">SDK\Samples\AS2\AS2 Over File/In</span><span class="sxs-lookup"><span data-stu-id="d71a1-164">SDK\Samples\AS2\AS2 Over File/In</span></span>|  
-    |<span data-ttu-id="d71a1-165">檔案遮罩</span><span class="sxs-lookup"><span data-stu-id="d71a1-165">File mask</span></span>|<span data-ttu-id="d71a1-166">\*.txt</span><span class="sxs-lookup"><span data-stu-id="d71a1-166">\*.txt</span></span>|  
-    |<span data-ttu-id="d71a1-167">接收管線</span><span class="sxs-lookup"><span data-stu-id="d71a1-167">Receive pipeline</span></span>|<span data-ttu-id="d71a1-168">AS2OverFile</span><span class="sxs-lookup"><span data-stu-id="d71a1-168">AS2OverFile</span></span>|  
-  
-3.  <span data-ttu-id="d71a1-169">在 接收位置 節點，以滑鼠右鍵按一下 as2overfile_receive 接收位置，然後按一下 **啟用**。</span><span class="sxs-lookup"><span data-stu-id="d71a1-169">In the Receive Locations node, right-click the AS2OverFile_Receive receive location, and then click **Enable**.</span></span>  
-  
-4.  <span data-ttu-id="d71a1-170">在 [傳送埠] 節點中，使用下列屬性建立靜態單向傳送埠：</span><span class="sxs-lookup"><span data-stu-id="d71a1-170">In the Send Ports node, create a Static On-way send port with the following properties:</span></span>  
-  
-    |<span data-ttu-id="d71a1-171">屬性</span><span class="sxs-lookup"><span data-stu-id="d71a1-171">Property</span></span>|<span data-ttu-id="d71a1-172">設定</span><span class="sxs-lookup"><span data-stu-id="d71a1-172">Setting</span></span>|  
-    |--------------|-------------|  
-    |<span data-ttu-id="d71a1-173">名稱</span><span class="sxs-lookup"><span data-stu-id="d71a1-173">Name</span></span>|<span data-ttu-id="d71a1-174">AS2OverFile_Send</span><span class="sxs-lookup"><span data-stu-id="d71a1-174">AS2OverFile_Send</span></span>|  
-    |<span data-ttu-id="d71a1-175">型別</span><span class="sxs-lookup"><span data-stu-id="d71a1-175">Type</span></span>|<span data-ttu-id="d71a1-176">FILE</span><span class="sxs-lookup"><span data-stu-id="d71a1-176">FILE</span></span>|  
-    |<span data-ttu-id="d71a1-177">接收資料夾</span><span class="sxs-lookup"><span data-stu-id="d71a1-177">Receive folder</span></span>|[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]<span data-ttu-id="d71a1-178">SDK\Samples\AS2\AS2 Over File/Out</span><span class="sxs-lookup"><span data-stu-id="d71a1-178">SDK\Samples\AS2\AS2 Over File/Out</span></span>|  
-    |<span data-ttu-id="d71a1-179">檔案遮罩</span><span class="sxs-lookup"><span data-stu-id="d71a1-179">File mask</span></span>|<span data-ttu-id="d71a1-180">%MessageID%.xml</span><span class="sxs-lookup"><span data-stu-id="d71a1-180">%MessageID%.xml</span></span>|  
-    |<span data-ttu-id="d71a1-181">傳送管線</span><span class="sxs-lookup"><span data-stu-id="d71a1-181">Send pipeline</span></span>|<span data-ttu-id="d71a1-182">Passthru</span><span class="sxs-lookup"><span data-stu-id="d71a1-182">Passthru</span></span>|  
-    |<span data-ttu-id="d71a1-183">篩選</span><span class="sxs-lookup"><span data-stu-id="d71a1-183">Filter</span></span>|<span data-ttu-id="d71a1-184">BTS.REceivePortName == AS2OverFile_Receive</span><span class="sxs-lookup"><span data-stu-id="d71a1-184">BTS.REceivePortName == AS2OverFile_Receive</span></span>|  
-  
-5.  <span data-ttu-id="d71a1-185">在傳送埠 節點中，as2overfile_send 傳送埠中，以滑鼠右鍵按一下，然後按一下**啟動**。</span><span class="sxs-lookup"><span data-stu-id="d71a1-185">In the Send Ports node, right-click the AS2OverFile_Send send port, and then click **Start**.</span></span>  
-  
-6.  <span data-ttu-id="d71a1-186">在 [合作對象] 節點中，建立名稱為 "Partner" 的合作對象。</span><span class="sxs-lookup"><span data-stu-id="d71a1-186">In the Parties node, create a party named "Partner".</span></span> <span data-ttu-id="d71a1-187">加入別名清單中，加入使用別名**名稱**的**ediint-as2 From 值**、**限定詞**的**AS2-從**，和**值**的**夥伴**。</span><span class="sxs-lookup"><span data-stu-id="d71a1-187">To the Aliases list, add an alias with a **name** of **EDIINT-AS2 From Value**, a **Qualifier** of **AS2-From**, and a **Value** of **Partner**.</span></span>  
-  
- <span data-ttu-id="d71a1-188">BizTalk Server 現在已準備就緒可使用此範例。</span><span class="sxs-lookup"><span data-stu-id="d71a1-188">BizTalk Server is now ready to work with this sample.</span></span>  
-  
-## <a name="running-this-sample"></a><span data-ttu-id="d71a1-189">執行此範例</span><span class="sxs-lookup"><span data-stu-id="d71a1-189">Running This Sample</span></span>  
- <span data-ttu-id="d71a1-190">請使用下列程序執行 AS2 Over File 範例。</span><span class="sxs-lookup"><span data-stu-id="d71a1-190">Use the following procedure to run the AS2 Over File sample.</span></span>  
-  
-#### <a name="to-run-this-sample"></a><span data-ttu-id="d71a1-191">執行此範例</span><span class="sxs-lookup"><span data-stu-id="d71a1-191">To run this sample</span></span>  
-  
-1.  <span data-ttu-id="d71a1-192">將 SampleMessage.txt file 從 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File 資料夾複製到 \AS2 Over File\In 資料夾。</span><span class="sxs-lookup"><span data-stu-id="d71a1-192">Copy the SampleMessage.txt file from the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File folder into the \AS2 Over File\In folder.</span></span>  
-  
-2.  <span data-ttu-id="d71a1-193">確認輸出 XML 訊息已放入 \AS2 Over File\Out 輸出資料夾。</span><span class="sxs-lookup"><span data-stu-id="d71a1-193">Verify that an output XML message is dropped into the \AS2 Over File\Out output folder.</span></span>  
-  
-3.  <span data-ttu-id="d71a1-194">在文字編輯器中，開啟輸入的訊息 SampleMessage.txt，並開啟輸出訊息\<GUID\>.xml 文字編輯器中的。</span><span class="sxs-lookup"><span data-stu-id="d71a1-194">Open the input message SampleMessage.txt in a text editor, and open the output message \<GUID\>.xml in a text editor.</span></span> <span data-ttu-id="d71a1-195">確認 SampleMessage.txt 輸入訊息有 HTTP (和 AS2) 標頭，而輸出訊息則沒有 HTTP 標頭。</span><span class="sxs-lookup"><span data-stu-id="d71a1-195">Verify that the SampleMessage.txt input message has HTTP (and AS2) headers and that the output message does not have HTTP headers.</span></span>  
-  
-## <a name="classes-or-methods-used-in-this-sample"></a><span data-ttu-id="d71a1-196">在此範例中使用的類別或方法</span><span class="sxs-lookup"><span data-stu-id="d71a1-196">Classes or Methods Used in This Sample</span></span>  
- <span data-ttu-id="d71a1-197">無</span><span class="sxs-lookup"><span data-stu-id="d71a1-197">None</span></span>  
-  
-## <a name="see-also"></a><span data-ttu-id="d71a1-198">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d71a1-198">See Also</span></span>  
- <span data-ttu-id="d71a1-199">[EDI 和 AS2 （BizTalk Server 範例資料夾）](../core/edi-and-as2-biztalk-server-samples-folder.md) </span><span class="sxs-lookup"><span data-stu-id="d71a1-199">[EDI and AS2 (BizTalk Server Samples Folder)](../core/edi-and-as2-biztalk-server-samples-folder.md) </span></span>  
- [<span data-ttu-id="d71a1-200">透過 FILE 傳送埠傳送 AS2 訊息</span><span class="sxs-lookup"><span data-stu-id="d71a1-200">Sending an AS2 Message over a FILE Send Port</span></span>](../core/sending-an-as2-message-over-a-file-send-port.md)
+    >  <span data-ttu-id="1b1de-148">如果要產生 MDN，請將 AS2 解譯器新增到自訂管線的 [解譯] 階段中。</span><span class="sxs-lookup"><span data-stu-id="1b1de-148">If you want to generate an MDN, add an AS2 disassembler into the Disassemble stage of the custom pipeline.</span></span> <span data-ttu-id="1b1de-149">如果您不是要傳回 MDN，就不需要 AS2 解譯器。</span><span class="sxs-lookup"><span data-stu-id="1b1de-149">If you are not returning an MDN, the AS2 disassembler is not required.</span></span>  
+
+13. <span data-ttu-id="1b1de-150">建立強式名稱金鑰檔，開啟 AS2OverFile_Pipeline 專案的 [屬性] 對話方塊，然後將金鑰檔指派給專案。</span><span class="sxs-lookup"><span data-stu-id="1b1de-150">Create a strong name key file, open the Properties dialog box for the AS2OverFile_Pipeline project, and assign the key file to the project.</span></span>  
+
+14. <span data-ttu-id="1b1de-151">建置和部署自訂管線。</span><span class="sxs-lookup"><span data-stu-id="1b1de-151">Build and deploy the custom pipeline.</span></span>  
+
+15. <span data-ttu-id="1b1de-152">在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，將自訂管線新增至 [管線] 節點中，按一下 [管線] 節點，然後按一下**重新整理**。</span><span class="sxs-lookup"><span data-stu-id="1b1de-152">In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, add the custom pipeline to the Pipelines node by clicking the Pipelines node, and then clicking **Refresh**.</span></span>  
+
+#### <a name="to-implement-the-solution-for-this-sample"></a><span data-ttu-id="1b1de-153">若要實作本範例的解決方案</span><span class="sxs-lookup"><span data-stu-id="1b1de-153">To implement the solution for this sample</span></span>  
+
+1. <span data-ttu-id="1b1de-154">在 [Windows 檔案總管] 中，在 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File 資料夾建立 In 輸入資料夾和 Out 輸出資料夾。</span><span class="sxs-lookup"><span data-stu-id="1b1de-154">In Windows Explorer, in the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File folder, create an In input folder and an Out output folder.</span></span>  
+
+2. <span data-ttu-id="1b1de-155">在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台中，建立名稱為 AS2OverFile_Receive 的單向接收埠。</span><span class="sxs-lookup"><span data-stu-id="1b1de-155">In the [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] Administration Console, create a one-way receive port named AS2OverFile_Receive.</span></span> <span data-ttu-id="1b1de-156">在接收埠中，使用下列屬性來建立接收位置：</span><span class="sxs-lookup"><span data-stu-id="1b1de-156">In the receive port, create a receive location with the following properties:</span></span>  
+
+
+   |     <span data-ttu-id="1b1de-157">屬性</span><span class="sxs-lookup"><span data-stu-id="1b1de-157">Property</span></span>     |                                                 <span data-ttu-id="1b1de-158">設定</span><span class="sxs-lookup"><span data-stu-id="1b1de-158">Setting</span></span>                                                  |
+   |------------------|----------------------------------------------------------------------------------------------------------|
+   |       <span data-ttu-id="1b1de-159">[屬性]</span><span class="sxs-lookup"><span data-stu-id="1b1de-159">Name</span></span>       |                                           <span data-ttu-id="1b1de-160">AS2OverFile_Receive</span><span class="sxs-lookup"><span data-stu-id="1b1de-160">AS2OverFile_Receive</span></span>                                            |
+   |       <span data-ttu-id="1b1de-161">類型</span><span class="sxs-lookup"><span data-stu-id="1b1de-161">Type</span></span>       |                                                   <span data-ttu-id="1b1de-162">FILE</span><span class="sxs-lookup"><span data-stu-id="1b1de-162">FILE</span></span>                                                   |
+   |  <span data-ttu-id="1b1de-163">接收資料夾</span><span class="sxs-lookup"><span data-stu-id="1b1de-163">Receive folder</span></span>  | [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]<span data-ttu-id="1b1de-164">SDK\Samples\AS2\AS2 Over File/In</span><span class="sxs-lookup"><span data-stu-id="1b1de-164">SDK\Samples\AS2\AS2 Over File/In</span></span> |
+   |    <span data-ttu-id="1b1de-165">檔案遮罩</span><span class="sxs-lookup"><span data-stu-id="1b1de-165">File mask</span></span>     |                                                  <span data-ttu-id="1b1de-166">\*.txt</span><span class="sxs-lookup"><span data-stu-id="1b1de-166">\*.txt</span></span>                                                  |
+   | <span data-ttu-id="1b1de-167">接收管線</span><span class="sxs-lookup"><span data-stu-id="1b1de-167">Receive pipeline</span></span> |                                               <span data-ttu-id="1b1de-168">AS2OverFile</span><span class="sxs-lookup"><span data-stu-id="1b1de-168">AS2OverFile</span></span>                                                |
+
+
+3. <span data-ttu-id="1b1de-169">在 [接收位置] 節點中，以滑鼠右鍵按一下 [as2overfile_receive] 接收位置，然後按一下**啟用**。</span><span class="sxs-lookup"><span data-stu-id="1b1de-169">In the Receive Locations node, right-click the AS2OverFile_Receive receive location, and then click **Enable**.</span></span>  
+
+4. <span data-ttu-id="1b1de-170">在 [傳送埠] 節點中，使用下列屬性建立靜態單向傳送埠：</span><span class="sxs-lookup"><span data-stu-id="1b1de-170">In the Send Ports node, create a Static On-way send port with the following properties:</span></span>  
+
+
+   |    <span data-ttu-id="1b1de-171">屬性</span><span class="sxs-lookup"><span data-stu-id="1b1de-171">Property</span></span>    |                                                  <span data-ttu-id="1b1de-172">設定</span><span class="sxs-lookup"><span data-stu-id="1b1de-172">Setting</span></span>                                                  |
+   |----------------|-----------------------------------------------------------------------------------------------------------|
+   |      <span data-ttu-id="1b1de-173">[屬性]</span><span class="sxs-lookup"><span data-stu-id="1b1de-173">Name</span></span>      |                                             <span data-ttu-id="1b1de-174">AS2OverFile_Send</span><span class="sxs-lookup"><span data-stu-id="1b1de-174">AS2OverFile_Send</span></span>                                              |
+   |      <span data-ttu-id="1b1de-175">類型</span><span class="sxs-lookup"><span data-stu-id="1b1de-175">Type</span></span>      |                                                   <span data-ttu-id="1b1de-176">FILE</span><span class="sxs-lookup"><span data-stu-id="1b1de-176">FILE</span></span>                                                    |
+   | <span data-ttu-id="1b1de-177">接收資料夾</span><span class="sxs-lookup"><span data-stu-id="1b1de-177">Receive folder</span></span> | [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]<span data-ttu-id="1b1de-178">SDK\Samples\AS2\AS2 Over File/Out</span><span class="sxs-lookup"><span data-stu-id="1b1de-178">SDK\Samples\AS2\AS2 Over File/Out</span></span> |
+   |   <span data-ttu-id="1b1de-179">檔案遮罩</span><span class="sxs-lookup"><span data-stu-id="1b1de-179">File mask</span></span>    |                                              <span data-ttu-id="1b1de-180">%MessageID%.xml</span><span class="sxs-lookup"><span data-stu-id="1b1de-180">%MessageID%.xml</span></span>                                              |
+   | <span data-ttu-id="1b1de-181">傳送管線</span><span class="sxs-lookup"><span data-stu-id="1b1de-181">Send pipeline</span></span>  |                                                 <span data-ttu-id="1b1de-182">Passthru</span><span class="sxs-lookup"><span data-stu-id="1b1de-182">Passthru</span></span>                                                  |
+   |     <span data-ttu-id="1b1de-183">篩選</span><span class="sxs-lookup"><span data-stu-id="1b1de-183">Filter</span></span>     |                                <span data-ttu-id="1b1de-184">BTS.REceivePortName == AS2OverFile_Receive</span><span class="sxs-lookup"><span data-stu-id="1b1de-184">BTS.REceivePortName == AS2OverFile_Receive</span></span>                                 |
+
+
+5. <span data-ttu-id="1b1de-185">在 傳送埠 節點中，as2overfile_send 傳送埠中，以滑鼠右鍵按一下，然後按一下**啟動**。</span><span class="sxs-lookup"><span data-stu-id="1b1de-185">In the Send Ports node, right-click the AS2OverFile_Send send port, and then click **Start**.</span></span>  
+
+6. <span data-ttu-id="1b1de-186">在 [合作對象] 節點中，建立名稱為 "Partner" 的合作對象。</span><span class="sxs-lookup"><span data-stu-id="1b1de-186">In the Parties node, create a party named "Partner".</span></span> <span data-ttu-id="1b1de-187">以 [別名] 清單中，新增與別名**名稱**的**EDIINT-AS2 From 值**，則**限定詞**的**AS2-從**，和**值**的**夥伴**。</span><span class="sxs-lookup"><span data-stu-id="1b1de-187">To the Aliases list, add an alias with a **name** of **EDIINT-AS2 From Value**, a **Qualifier** of **AS2-From**, and a **Value** of **Partner**.</span></span>  
+
+   <span data-ttu-id="1b1de-188">BizTalk Server 現在已準備就緒可使用此範例。</span><span class="sxs-lookup"><span data-stu-id="1b1de-188">BizTalk Server is now ready to work with this sample.</span></span>  
+
+## <a name="running-this-sample"></a><span data-ttu-id="1b1de-189">執行此範例</span><span class="sxs-lookup"><span data-stu-id="1b1de-189">Running This Sample</span></span>  
+ <span data-ttu-id="1b1de-190">請使用下列程序執行 AS2 Over File 範例。</span><span class="sxs-lookup"><span data-stu-id="1b1de-190">Use the following procedure to run the AS2 Over File sample.</span></span>  
+
+#### <a name="to-run-this-sample"></a><span data-ttu-id="1b1de-191">執行此範例</span><span class="sxs-lookup"><span data-stu-id="1b1de-191">To run this sample</span></span>  
+
+1. <span data-ttu-id="1b1de-192">將 SampleMessage.txt file 從 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File 資料夾複製到 \AS2 Over File\In 資料夾。</span><span class="sxs-lookup"><span data-stu-id="1b1de-192">Copy the SampleMessage.txt file from the [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\AS2\AS2 Over File folder into the \AS2 Over File\In folder.</span></span>  
+
+2. <span data-ttu-id="1b1de-193">確認輸出 XML 訊息已放入 \AS2 Over File\Out 輸出資料夾。</span><span class="sxs-lookup"><span data-stu-id="1b1de-193">Verify that an output XML message is dropped into the \AS2 Over File\Out output folder.</span></span>  
+
+3. <span data-ttu-id="1b1de-194">在文字編輯器中，開啟輸入的訊息 SampleMessage.txt，並開啟輸出訊息\<GUID\>在文字編輯器中的.xml。</span><span class="sxs-lookup"><span data-stu-id="1b1de-194">Open the input message SampleMessage.txt in a text editor, and open the output message \<GUID\>.xml in a text editor.</span></span> <span data-ttu-id="1b1de-195">確認 SampleMessage.txt 輸入訊息有 HTTP (和 AS2) 標頭，而輸出訊息則沒有 HTTP 標頭。</span><span class="sxs-lookup"><span data-stu-id="1b1de-195">Verify that the SampleMessage.txt input message has HTTP (and AS2) headers and that the output message does not have HTTP headers.</span></span>  
+
+## <a name="classes-or-methods-used-in-this-sample"></a><span data-ttu-id="1b1de-196">在此範例中使用的類別或方法</span><span class="sxs-lookup"><span data-stu-id="1b1de-196">Classes or Methods Used in This Sample</span></span>  
+ <span data-ttu-id="1b1de-197">無</span><span class="sxs-lookup"><span data-stu-id="1b1de-197">None</span></span>  
+
+## <a name="see-also"></a><span data-ttu-id="1b1de-198">另請參閱</span><span class="sxs-lookup"><span data-stu-id="1b1de-198">See Also</span></span>  
+ <span data-ttu-id="1b1de-199">[EDI 和 AS2 （BizTalk Server 範例資料夾）](../core/edi-and-as2-biztalk-server-samples-folder.md) </span><span class="sxs-lookup"><span data-stu-id="1b1de-199">[EDI and AS2 (BizTalk Server Samples Folder)](../core/edi-and-as2-biztalk-server-samples-folder.md) </span></span>  
+ [<span data-ttu-id="1b1de-200">透過 FILE 傳送埠傳送 AS2 訊息</span><span class="sxs-lookup"><span data-stu-id="1b1de-200">Sending an AS2 Message over a FILE Send Port</span></span>](../core/sending-an-as2-message-over-a-file-send-port.md)

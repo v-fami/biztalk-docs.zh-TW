@@ -1,5 +1,5 @@
 ---
-title: 步驟 3： 測試移轉應用程式使用 Siebel 配接器 |Microsoft 文件
+title: 步驟 3： 測試移轉應用程式與 Siebel 配接器 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,58 +12,58 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d72799af5221319db2f5f3243e09d984e13399c7
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: c1669ed459dffbd8746936ffa1ba8c23677173e5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25963100"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36989583"
 ---
-# <a name="step-3-test-the-migrated-application-with-the-siebel-adapter"></a><span data-ttu-id="2a00e-102">步驟 3： 測試移轉應用程式使用 Siebel 配接器</span><span class="sxs-lookup"><span data-stu-id="2a00e-102">Step 3: Test the Migrated Application with the Siebel adapter</span></span>
-<span data-ttu-id="2a00e-103">![步驟 3 之 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span><span class="sxs-lookup"><span data-stu-id="2a00e-103">![Step 3 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span></span>  
+# <a name="step-3-test-the-migrated-application-with-the-siebel-adapter"></a><span data-ttu-id="ac849-102">步驟 3： 測試移轉應用程式與 Siebel 配接器</span><span class="sxs-lookup"><span data-stu-id="ac849-102">Step 3: Test the Migrated Application with the Siebel adapter</span></span>
+<span data-ttu-id="ac849-103">![步驟 3 之 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span><span class="sxs-lookup"><span data-stu-id="ac849-103">![Step 3 of 3](../../adapters-and-accelerators/adapter-oracle-database/media/step-3of3.gif "Step_3of3")</span></span>  
   
- <span data-ttu-id="2a00e-104">**若要完成的時間：** 5 分鐘</span><span class="sxs-lookup"><span data-stu-id="2a00e-104">**Time to complete:** 5 minutes</span></span>  
+ <span data-ttu-id="ac849-104">**若要完成的時間：** 5 分鐘</span><span class="sxs-lookup"><span data-stu-id="ac849-104">**Time to complete:** 5 minutes</span></span>  
   
- <span data-ttu-id="2a00e-105">**目標：** 在此步驟中，您會測試已移轉的應用程式執行插入作業帳戶商務元件上的。</span><span class="sxs-lookup"><span data-stu-id="2a00e-105">**Objective:** In this step, you will test the migrated application by performing an Insert operation on the Account business component.</span></span> <span data-ttu-id="2a00e-106">若要這樣做，您卸除使用 vPrev Siebel 配接器所產生的結構描述的要求訊息。</span><span class="sxs-lookup"><span data-stu-id="2a00e-106">To do this, you drop a request message that conforms to the schema generated using the vPrev Siebel adapter.</span></span>  
+ <span data-ttu-id="ac849-105">**目標：** 在此步驟中，您將測試已移轉的應用程式執行插入作業帳戶商務元件上的。</span><span class="sxs-lookup"><span data-stu-id="ac849-105">**Objective:** In this step, you will test the migrated application by performing an Insert operation on the Account business component.</span></span> <span data-ttu-id="ac849-106">若要這樣做，您已卸除使用 vPrev Siebel 配接器所產生的結構描述的要求訊息。</span><span class="sxs-lookup"><span data-stu-id="ac849-106">To do this, you drop a request message that conforms to the schema generated using the vPrev Siebel adapter.</span></span>  
   
-## <a name="prerequisites"></a><span data-ttu-id="2a00e-107">必要條件</span><span class="sxs-lookup"><span data-stu-id="2a00e-107">Prerequisites</span></span>  
+## <a name="prerequisites"></a><span data-ttu-id="ac849-107">必要條件</span><span class="sxs-lookup"><span data-stu-id="ac849-107">Prerequisites</span></span>  
   
--   <span data-ttu-id="2a00e-108">將 BizTalk 協調流程中的邏輯連接埠對應至實體連接埠，BizTalk Server 管理主控台中設定的 BizTalk 應用程式。</span><span class="sxs-lookup"><span data-stu-id="2a00e-108">Configure the BizTalk application by mapping the logical ports in the BizTalk orchestration to physical ports in the BizTalk Server Administration console.</span></span>  
+- <span data-ttu-id="ac849-108">將 BizTalk 協調流程中的邏輯連接埠對應至 BizTalk Server 管理主控台中的實體連接埠，以設定 BizTalk 應用程式。</span><span class="sxs-lookup"><span data-stu-id="ac849-108">Configure the BizTalk application by mapping the logical ports in the BizTalk orchestration to physical ports in the BizTalk Server Administration console.</span></span>  
   
--   <span data-ttu-id="2a00e-109">設定要用於 Wcf-custom 傳送埠以 WCF 為基礎的 BizTalk 應用程式[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="2a00e-109">Configure the BizTalk application to use the WCF-Custom send port for the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span></span>  
+- <span data-ttu-id="ac849-109">設定要用於 Wcf-custom 傳送埠以 WCF 為基礎的 BizTalk 應用程式[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="ac849-109">Configure the BizTalk application to use the WCF-Custom send port for the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span></span>  
   
-### <a name="to-test-the-migrated-application"></a><span data-ttu-id="2a00e-110">若要測試已移轉的應用程式</span><span class="sxs-lookup"><span data-stu-id="2a00e-110">To test the migrated application</span></span>  
+### <a name="to-test-the-migrated-application"></a><span data-ttu-id="ac849-110">若要測試已移轉的應用程式</span><span class="sxs-lookup"><span data-stu-id="ac849-110">To test the migrated application</span></span>  
   
-1.  <span data-ttu-id="2a00e-111">從 [Siebel_BussComp_Migration] 資料夾中，複製 AccountInsert.xml 要求訊息。</span><span class="sxs-lookup"><span data-stu-id="2a00e-111">From the Siebel_BussComp_Migration folder, copy the AccountInsert.xml request message.</span></span> <span data-ttu-id="2a00e-112">此要求訊息符合 vPrev Siebel 配接器所產生的結構描述。</span><span class="sxs-lookup"><span data-stu-id="2a00e-112">This request message conforms to the schema generated by the vPrev Siebel adapter.</span></span> <span data-ttu-id="2a00e-113">使用 輸出對應，WCF 自訂傳送連接埠轉換以 WCF 為基礎的結構描述符合[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]並將它傳送至 Siebel 系統。</span><span class="sxs-lookup"><span data-stu-id="2a00e-113">Using the outbound map, the WCF-Custom send port converts this to conform to the schema for the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] and sends it to the Siebel system.</span></span>  
+1. <span data-ttu-id="ac849-111">從 [Siebel_BussComp_Migration] 資料夾中，複製 AccountInsert.xml 要求訊息。</span><span class="sxs-lookup"><span data-stu-id="ac849-111">From the Siebel_BussComp_Migration folder, copy the AccountInsert.xml request message.</span></span> <span data-ttu-id="ac849-112">此要求訊息符合 vPrev Siebel 配接器所產生的結構描述。</span><span class="sxs-lookup"><span data-stu-id="ac849-112">This request message conforms to the schema generated by the vPrev Siebel adapter.</span></span> <span data-ttu-id="ac849-113">使用輸出對應，WCF 自訂傳送連接埠將此選項以 WCF 為基礎的結構描述符合[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]並將它傳送至 Siebel 系統。</span><span class="sxs-lookup"><span data-stu-id="ac849-113">Using the outbound map, the WCF-Custom send port converts this to conform to the schema for the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)] and sends it to the Siebel system.</span></span>  
   
-    ```  
-    <Insert xmlns="http://schemas.microsoft.com/[Siebel://Business Objects/Account/Account]">  
-      <AccountInsertRecordSet>  
-        <AccountInsertRecord xmlns="http://schemas.microsoft.com/Business_Objects">  
-          <Currency_Code>USD</Currency_Code>  
-          <Customer_Account_Group>Sold-To-Party</Customer_Account_Group>  
-          <Location>Location_1</Location>  
-          <Main_Phone_Number>012345678</Main_Phone_Number>  
-          <Name>John_Smith</Name>  
-          <Party_Name>Party_Name_1</Party_Name>  
-          <Primary_Address_Id></Primary_Address_Id>  
-        </AccountInsertRecord>  
-      </AccountInsertRecordSet>  
-    </Insert>  
-    ```  
+   ```  
+   <Insert xmlns="http://schemas.microsoft.com/[Siebel://Business Objects/Account/Account]">  
+     <AccountInsertRecordSet>  
+       <AccountInsertRecord xmlns="http://schemas.microsoft.com/Business_Objects">  
+         <Currency_Code>USD</Currency_Code>  
+         <Customer_Account_Group>Sold-To-Party</Customer_Account_Group>  
+         <Location>Location_1</Location>  
+         <Main_Phone_Number>012345678</Main_Phone_Number>  
+         <Name>John_Smith</Name>  
+         <Party_Name>Party_Name_1</Party_Name>  
+         <Primary_Address_Id></Primary_Address_Id>  
+       </AccountInsertRecord>  
+     </AccountInsertRecordSet>  
+   </Insert>  
+   ```  
   
-2.  <span data-ttu-id="2a00e-114">貼上要對應至檔案的資料夾的要求訊息的接收位置。</span><span class="sxs-lookup"><span data-stu-id="2a00e-114">Paste the request message to the folder mapped to the file receive location.</span></span>  
+2. <span data-ttu-id="ac849-114">貼上要對應至檔案的資料夾的要求訊息的接收位置。</span><span class="sxs-lookup"><span data-stu-id="ac849-114">Paste the request message to the folder mapped to the file receive location.</span></span>  
   
-3.  <span data-ttu-id="2a00e-115">協調流程會使用要求訊息，並將它傳送至 Siebel 系統。</span><span class="sxs-lookup"><span data-stu-id="2a00e-115">The orchestration consumes the request message and sends it to the Siebel system.</span></span> <span data-ttu-id="2a00e-116">收到來自 Siebel 系統的回應結構描述中，並符合以 WCF 為基礎的結構描述[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="2a00e-116">The response from the Siebel system is received in the schema that conforms with the schema of the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span></span> <span data-ttu-id="2a00e-117">使用輸入的對應，WCF 自訂傳送連接埠轉換給 vPrev Siebel 配接器的結構描述。</span><span class="sxs-lookup"><span data-stu-id="2a00e-117">Using the inbound map, the WCF-Custom send port converts this to the schema for the vPrev Siebel adapter.</span></span> <span data-ttu-id="2a00e-118">來自 Siebel 系統的回應會儲存到其他的協調流程中定義的檔案位置。</span><span class="sxs-lookup"><span data-stu-id="2a00e-118">The response from the Siebel system is saved to the other file location defined as part of the orchestration.</span></span> <span data-ttu-id="2a00e-119">先前的要求訊息的回應是：</span><span class="sxs-lookup"><span data-stu-id="2a00e-119">The response for the preceding request message is:</span></span>  
+3. <span data-ttu-id="ac849-115">協調流程會使用要求訊息，並將它傳送至 Siebel 系統。</span><span class="sxs-lookup"><span data-stu-id="ac849-115">The orchestration consumes the request message and sends it to the Siebel system.</span></span> <span data-ttu-id="ac849-116">在接收到回應來自 Siebel 系統中的結構描述符合以 WCF 為基礎的結構描述[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="ac849-116">The response from the Siebel system is received in the schema that conforms with the schema of the WCF-based [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)].</span></span> <span data-ttu-id="ac849-117">使用輸入的對應，Wcf-custom 傳送埠將此 vPrev Siebel 配接器的結構描述。</span><span class="sxs-lookup"><span data-stu-id="ac849-117">Using the inbound map, the WCF-Custom send port converts this to the schema for the vPrev Siebel adapter.</span></span> <span data-ttu-id="ac849-118">來自 Siebel 系統的回應會儲存到其他的協調流程中定義的檔案位置。</span><span class="sxs-lookup"><span data-stu-id="ac849-118">The response from the Siebel system is saved to the other file location defined as part of the orchestration.</span></span> <span data-ttu-id="ac849-119">上述的要求訊息的回應是：</span><span class="sxs-lookup"><span data-stu-id="ac849-119">The response for the preceding request message is:</span></span>  
   
-    ```  
-    <?xml version="1.0" encoding="utf-8"?>  
-    <ns0:InsertResponse xmlns:ns0="http://schemas.microsoft.com/[Siebel://Business Objects/Account/Account]" xmlns:exposed="http://schemas.microsoft.com" xmlns:Business_Objects="http://schemas.microsoft.com/Business_Objects">  
-      <ns0:RowIDList>  
-        <exposed:String>1-8EWWZ</exposed:String>  
-      </ns0:RowIDList>  
-    </ns0:InsertResponse>  
-    ```  
+   ```  
+   <?xml version="1.0" encoding="utf-8"?>  
+   <ns0:InsertResponse xmlns:ns0="http://schemas.microsoft.com/[Siebel://Business Objects/Account/Account]" xmlns:exposed="http://schemas.microsoft.com" xmlns:Business_Objects="http://schemas.microsoft.com/Business_Objects">  
+     <ns0:RowIDList>  
+       <exposed:String>1-8EWWZ</exposed:String>  
+     </ns0:RowIDList>  
+   </ns0:InsertResponse>  
+   ```  
   
-## <a name="see-also"></a><span data-ttu-id="2a00e-120">請參閱</span><span class="sxs-lookup"><span data-stu-id="2a00e-120">See Also</span></span>  
- [<span data-ttu-id="2a00e-121">教學課程 2： 移轉 Siebel 中的 BizTalk 專案</span><span class="sxs-lookup"><span data-stu-id="2a00e-121">Tutorial 2: Migrating BizTalk Projects in Siebel</span></span>](../../adapters-and-accelerators/adapter-siebel/tutorial-2-migrating-biztalk-projects-in-siebel.md)
+## <a name="see-also"></a><span data-ttu-id="ac849-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="ac849-120">See Also</span></span>  
+ [<span data-ttu-id="ac849-121">教學課程 2： 移轉 BizTalk 專案中 Siebel</span><span class="sxs-lookup"><span data-stu-id="ac849-121">Tutorial 2: Migrating BizTalk Projects in Siebel</span></span>](../../adapters-and-accelerators/adapter-siebel/tutorial-2-migrating-biztalk-projects-in-siebel.md)

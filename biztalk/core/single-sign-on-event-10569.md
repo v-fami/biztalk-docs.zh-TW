@@ -1,5 +1,5 @@
 ---
-title: 單一登入： 事件 10569 |Microsoft 文件
+title: 單一登入： 事件 10569 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6f52fe91d7e7ce74d5bdf5766178c12f8c3531aa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 25665947921bb316a4d931228016eaf917b4a685
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22269390"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36987199"
 ---
-# <a name="single-sign-on-event-10569"></a><span data-ttu-id="9382b-102">單一登入： 事件 10569</span><span class="sxs-lookup"><span data-stu-id="9382b-102">Single Sign-On: Event 10569</span></span>
-## <a name="details"></a><span data-ttu-id="9382b-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="9382b-103">Details</span></span>  
+# <a name="single-sign-on-event-10569"></a><span data-ttu-id="e6dd6-102">單一登入： 事件 10569</span><span class="sxs-lookup"><span data-stu-id="e6dd6-102">Single Sign-On: Event 10569</span></span>
+## <a name="details"></a><span data-ttu-id="e6dd6-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="e6dd6-103">Details</span></span>  
   
-|||  
-|-|-|  
-|<span data-ttu-id="9382b-104">產品名稱</span><span class="sxs-lookup"><span data-stu-id="9382b-104">Product Name</span></span>|<span data-ttu-id="9382b-105">企業單一登入</span><span class="sxs-lookup"><span data-stu-id="9382b-105">Enterprise Single Sign-On</span></span>|  
-|<span data-ttu-id="9382b-106">產品版本</span><span class="sxs-lookup"><span data-stu-id="9382b-106">Product Version</span></span>|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|<span data-ttu-id="9382b-107">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="9382b-107">Event ID</span></span>|<span data-ttu-id="9382b-108">10569</span><span class="sxs-lookup"><span data-stu-id="9382b-108">10569</span></span>|  
-|<span data-ttu-id="9382b-109">事件來源</span><span class="sxs-lookup"><span data-stu-id="9382b-109">Event Source</span></span>|<span data-ttu-id="9382b-110">ENTSSO</span><span class="sxs-lookup"><span data-stu-id="9382b-110">ENTSSO</span></span>|  
-|<span data-ttu-id="9382b-111">元件</span><span class="sxs-lookup"><span data-stu-id="9382b-111">Component</span></span>|<span data-ttu-id="9382b-112">不適用</span><span class="sxs-lookup"><span data-stu-id="9382b-112">N/A</span></span>|  
-|<span data-ttu-id="9382b-113">符號名稱</span><span class="sxs-lookup"><span data-stu-id="9382b-113">Symbolic Name</span></span>|<span data-ttu-id="9382b-114">SSO_WARN_NO_UPDATE_BY_APP_ADMIN</span><span class="sxs-lookup"><span data-stu-id="9382b-114">SSO_WARN_NO_UPDATE_BY_APP_ADMIN</span></span>|  
-|<span data-ttu-id="9382b-115">訊息文字</span><span class="sxs-lookup"><span data-stu-id="9382b-115">Message Text</span></span>|<span data-ttu-id="9382b-116">無法變更應用程式 Administrator.%r 應用程式系統管理員帳戶</span><span class="sxs-lookup"><span data-stu-id="9382b-116">The Application Administrators account cannot be changed by an Application Administrator.%r</span></span><br /><br /> <span data-ttu-id="9382b-117">應用程式名稱: %1 %r</span><span class="sxs-lookup"><span data-stu-id="9382b-117">Application Name: %1%r</span></span><br /><br /> <span data-ttu-id="9382b-118">應用程式系統管理員: %2 %r</span><span class="sxs-lookup"><span data-stu-id="9382b-118">Application Administrators: %2%r</span></span><br /><br /> <span data-ttu-id="9382b-119">錯誤碼： %3</span><span class="sxs-lookup"><span data-stu-id="9382b-119">Error Code: %3</span></span>|  
+|                 |                                                                                                                                                                                                        |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <span data-ttu-id="e6dd6-104">產品名稱</span><span class="sxs-lookup"><span data-stu-id="e6dd6-104">Product Name</span></span>   |                                                                                       <span data-ttu-id="e6dd6-105">企業單一登入</span><span class="sxs-lookup"><span data-stu-id="e6dd6-105">Enterprise Single Sign-On</span></span>                                                                                        |
+| <span data-ttu-id="e6dd6-106">產品版本</span><span class="sxs-lookup"><span data-stu-id="e6dd6-106">Product Version</span></span> |                                                                       [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                                       |
+|    <span data-ttu-id="e6dd6-107">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="e6dd6-107">Event ID</span></span>     |                                                                                                 <span data-ttu-id="e6dd6-108">10569</span><span class="sxs-lookup"><span data-stu-id="e6dd6-108">10569</span></span>                                                                                                  |
+|  <span data-ttu-id="e6dd6-109">事件來源</span><span class="sxs-lookup"><span data-stu-id="e6dd6-109">Event Source</span></span>   |                                                                                                 <span data-ttu-id="e6dd6-110">ENTSSO</span><span class="sxs-lookup"><span data-stu-id="e6dd6-110">ENTSSO</span></span>                                                                                                 |
+|    <span data-ttu-id="e6dd6-111">元件</span><span class="sxs-lookup"><span data-stu-id="e6dd6-111">Component</span></span>    |                                                                                                  <span data-ttu-id="e6dd6-112">不適用</span><span class="sxs-lookup"><span data-stu-id="e6dd6-112">N/A</span></span>                                                                                                   |
+|  <span data-ttu-id="e6dd6-113">符號名稱</span><span class="sxs-lookup"><span data-stu-id="e6dd6-113">Symbolic Name</span></span>  |                                                                                    <span data-ttu-id="e6dd6-114">SSO_WARN_NO_UPDATE_BY_APP_ADMIN</span><span class="sxs-lookup"><span data-stu-id="e6dd6-114">SSO_WARN_NO_UPDATE_BY_APP_ADMIN</span></span>                                                                                     |
+|  <span data-ttu-id="e6dd6-115">訊息文字</span><span class="sxs-lookup"><span data-stu-id="e6dd6-115">Message Text</span></span>   | <span data-ttu-id="e6dd6-116">應用程式系統管理員帳戶無法變更應用程式 Administrator.%r</span><span class="sxs-lookup"><span data-stu-id="e6dd6-116">The Application Administrators account cannot be changed by an Application Administrator.%r</span></span><br /><br /> <span data-ttu-id="e6dd6-117">應用程式名稱: %1 %r</span><span class="sxs-lookup"><span data-stu-id="e6dd6-117">Application Name: %1%r</span></span><br /><br /> <span data-ttu-id="e6dd6-118">應用程式系統管理員: %2 %r</span><span class="sxs-lookup"><span data-stu-id="e6dd6-118">Application Administrators: %2%r</span></span><br /><br /> <span data-ttu-id="e6dd6-119">錯誤碼： %3</span><span class="sxs-lookup"><span data-stu-id="e6dd6-119">Error Code: %3</span></span> |
   
-## <a name="explanation"></a><span data-ttu-id="9382b-120">說明</span><span class="sxs-lookup"><span data-stu-id="9382b-120">Explanation</span></span>  
- <span data-ttu-id="9382b-121">由應用程式系統管理員無法變更應用程式系統管理員帳戶。</span><span class="sxs-lookup"><span data-stu-id="9382b-121">The Application Administrators account cannot be changed by an Application Administrator.</span></span>  
+## <a name="explanation"></a><span data-ttu-id="e6dd6-120">說明</span><span class="sxs-lookup"><span data-stu-id="e6dd6-120">Explanation</span></span>  
+ <span data-ttu-id="e6dd6-121">應用程式系統管理員帳戶無法變更由應用程式系統管理員。</span><span class="sxs-lookup"><span data-stu-id="e6dd6-121">The Application Administrators account cannot be changed by an Application Administrator.</span></span>  
   
-## <a name="user-action"></a><span data-ttu-id="9382b-122">使用者動作</span><span class="sxs-lookup"><span data-stu-id="9382b-122">User Action</span></span>  
- <span data-ttu-id="9382b-123">您必須是一個 SSO 分支機構應用程式系統管理員或更高的應用程式 Administratos 帳戶。</span><span class="sxs-lookup"><span data-stu-id="9382b-123">You must be an SSO Affiliate Application Administrator or higher to change the Application Administratos account.</span></span>
+## <a name="user-action"></a><span data-ttu-id="e6dd6-122">使用者動作</span><span class="sxs-lookup"><span data-stu-id="e6dd6-122">User Action</span></span>  
+ <span data-ttu-id="e6dd6-123">您必須是 SSO 分支機構應用程式系統管理員或更高版本以變更應用程式 Administratos 帳戶。</span><span class="sxs-lookup"><span data-stu-id="e6dd6-123">You must be an SSO Affiliate Application Administrator or higher to change the Application Administratos account.</span></span>
