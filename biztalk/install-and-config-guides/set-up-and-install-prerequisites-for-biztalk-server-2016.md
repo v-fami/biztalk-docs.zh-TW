@@ -1,6 +1,6 @@
 ---
-title: 設定並安裝 BizTalk Server 2016 的必要條件 |Microsoft 文件
-description: 安裝及設定必要的軟體和設定 BizTalk Server 2016 的逐步指示
+title: 設定和安裝 BizTalk Server 2016 的必要條件 |Microsoft Docs
+description: 安裝和設定必要的軟體和設定 BizTalk Server 2016 的逐步指示
 author: MandiOhlinger
 manager: anneta
 ms.prod: biztalk-server
@@ -13,12 +13,12 @@ ms.topic: article
 ms.assetid: aa70b621-903a-4cfa-9cb0-c6a82ed8f733
 caps.latest.revision: 11
 ms.author: mandia
-ms.openlocfilehash: 666cddaab4d23fa69b0ae488f665e2eda5182c05
-ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
+ms.openlocfilehash: aab7bb1fa22a249eb287f01b2050d10d9f0042ac
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31816962"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37018051"
 ---
 # <a name="set-up-and-install-prerequisites-for-biztalk-server-2016"></a>設定及安裝 BizTalk Server 2016 的必要元件
 設定伺服器，以及安裝與設定軟體必要條件。
@@ -34,8 +34,8 @@ ms.locfileid: "31816962"
 2.  展開 [本機使用者和群組]，然後選取 [群組]。
 3.  以滑鼠右鍵按一下**系統管理員**群組，並選取 [加入群組]。 [新增] 您的帳戶，然後選取 [確定] 儲存變更。 
 
-## <a name="change-the-computer-name-optional"></a>變更電腦名稱 （選用）
-如果您的電腦名稱長度超過 15 個字元，BizTalk Server 組態失敗。 若要變更電腦名稱不超過 15 個字元：
+## <a name="change-the-computer-name-optional"></a>變更電腦名稱 （選擇性）
+如果您的電腦名稱長度超過 15 個字元，BizTalk Server 組態失敗。 若要變更為不超過 15 個字元的電腦名稱：
 
 1.  在 [伺服器管理員] > [儀表板] 中，選取 [本機伺服器]。 
 2.  在 [內容] 中選取電腦名稱屬性予以變更。
@@ -58,7 +58,7 @@ ms.locfileid: "31816962"
     * 允許輸入
     * 允許輸出
     * 不需要驗證
-5. 選取 [確定]。 如果提示您重新啟動 MS DTC，請選取**是**。 
+5. 選取 [確定]。 如果系統提示重新啟動 MS DTC，請選取**是**。 
 
 如需可能需要的其他設定，請參閱 [MSDTC 問題疑難排解](../core/troubleshooting-problems-with-msdtc.md)。
 
@@ -115,36 +115,36 @@ IIS 是隨附於作業系統的**角色**或**功能**，視作業系統而定�
 2. 選取 [Internet Information Services] 或 [網頁伺服器 (IIS)]。 除了預設已核取的選項之外，另請選取下列項目： 
 
     **Windows 10**
-    - 在 **Web 管理工具**中亦請核取：  
-        - IIS 6 管理相容性
-        - IIS 6 管理主控台
-        - IIS 6 指令碼工具 (安裝 adsutil.vbs)
-        - IIS Metabase 及 IIS 6 設定相容性
-        - IIS 管理主控台
-    - 在 **World Wide Web 服務**中展開 [安全性] 再一併核取：
-        - 基本驗證
-        - Windows 驗證    
+   - 在 **Web 管理工具**中亦請核取：  
+       - IIS 6 管理相容性
+       - IIS 6 管理主控台
+       - IIS 6 指令碼工具 (安裝 adsutil.vbs)
+       - IIS Metabase 及 IIS 6 設定相容性
+       - IIS 管理主控台
+   - 在 **World Wide Web 服務**中展開 [安全性] 再一併核取：
+       - 基本驗證
+       - Windows 驗證    
 
-    **Windows Server**
-    - 在 [安全性] 中亦請核取︰ 
-        - 基本驗證
-        - Windows 驗證    
-    - 在 [管理工具] 中亦請核取：  
-        - IIS 管理主控台
-        - IIS 6 管理相容性
-        - IIS 6 Metabase 相容性
-        - IIS 6 管理主控台
-        - IIS 6 指令碼工具 (安裝 adsutil.vbs)
+     **Windows Server**
+   - 在 [安全性] 中亦請核取︰ 
+       - 基本驗證
+       - Windows 驗證    
+   - 在 [管理工具] 中亦請核取：  
+       - IIS 管理主控台
+       - IIS 6 管理相容性
+       - IIS 6 Metabase 相容性
+       - IIS 6 管理主控台
+       - IIS 6 指令碼工具 (安裝 adsutil.vbs)
 
 3. 繼續安裝作業，並在出現提示時重新啟動電腦。 
 
 **另請參閱**︰在 [Windows 8 或 Windows Server 2012 (英文)](http://www.iis.net/learn/get-started/whats-new-in-iis-8/installing-iis-8-on-windows-server-2012) 上安裝 IIS。
 
 
-## <a name="run-64-bit-bam-portal-optional"></a>執行 64 位元 BAM 入口網站 （選用）
-如果您不使用 BAM 入口網站，然後您可以略過本節。 
+## <a name="run-64-bit-bam-portal-optional"></a>執行 64 位元 BAM 入口網站 （選擇性）
+如果您未使用 BAM 入口網站，然後您可以略過本節。 
 
-BAM 入口網站在 32 位元模式中執行。 如果您在 64 位元環境中使用網際網路資訊服務 (IIS)，然後設定在 32 位元模式中執行的應用程式集區。 
+BAM 入口網站在 32 位元模式中執行。 如果您在 64 位元環境中使用 Internet Information Services (IIS)，則設定為以 32 位元模式執行的應用程式集區。 
 
 #### <a name="using-adsutilvbs"></a>使用 adsutil.vbs
 1.  以系統管理員身分開啟命令提示字元。 
@@ -160,7 +160,7 @@ BAM 入口網站在 32 位元模式中執行。 如果您在 64 位元環境中�
 5.  選取 [確定]。
 
 ## <a name="install-windows-identity-foundation-wif-optional"></a>安裝 Windows Identity Foundation (WIF) (選擇性)
-如果您使用 SharePoint Services 配接器，BizTalk Server 需要 WIF。 如果不使用 SharePoint Services 配接器，您可以略過本節。
+如果您使用 SharePoint Services 配接器時，BizTalk Server 需要 WIF。 如果不使用 SharePoint Services 配接器，您可以略過本節。
 
 Windows Identity Foundation 是隨附於作業系統的**功能**。
 
@@ -261,7 +261,7 @@ BizTalk Server 需要 Visual Studio 才能使用開發工具建立 BizTalk 專�
 > - 如果您是先安裝 Visual Studio 之後才安裝 BizTalk Server，則升級至 Visual Studio Team Explorer 時，可能需要修復 BizTalk Server 安裝。
 > - Visual Studio 會自動安裝 BizTalk Server 不使用的 Microsoft SQL Server Express。 解除安裝 Microsoft SQL Server Express。 您也可以解除安裝 Microsoft SQL Server Compact。  
 > - BizTalk Server 開發工具是以 Visual Studio 為基礎。 您至少要先安裝 Microsoft Visual C#® .NET 元件，再安裝 BizTalk Server 開發者工具與 SDK。
-> - BizTalk Server 執行階段需要 .NET Framework 4.6。 如果已安裝 Windows Communication Foundation (WCF) 配接器或 WCF 攔截器，.NET Framework 3.0 則需要
+> - BizTalk Server 執行階段需要 .NET Framework 4.6。 如果已安裝 Windows Communication Foundation (WCF) 配接器或 WCF 攔截器，則.NET Framework 3.0 是必要
 
 #### <a name="uninstall-sql-server-express"></a>解除安裝 SQL Server Express
 1. 在 [開始] 功能表中，開啟 [程式和功能]。 或者，開啟 [控制台]，選取 [解除安裝程式]。
@@ -281,22 +281,22 @@ BizTalk Server 需要 SQL Server。 SQL Server 和 BizTalk 可以安裝在同一
 > - 若要充分運用 BizTalk Server SDK 或從 Visual Studio 部署 BizTalk Server 應用程式，請安裝 SQL Server 開發工具。
 > - 除了二進位定序之外，BizTalk Server 支援所有區分大小寫及不區分大小寫的 SQL Server 定序。 不支援二進位定序。
 
-**如需特定安裝步驟，請參閱**[安裝 SQL Server 2016](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup)或[安裝 SQL Server 2014](https://msdn.microsoft.com/library/bb500469(v=sql.120).aspx)。
+**如需特定安裝步驟，請參閱**[安裝 SQL Server 2016](https://docs.microsoft.com/sql/database-engine/install-windows/install-sql-server-from-the-installation-wizard-setup)或是[安裝 SQL Server 2014](https://msdn.microsoft.com/library/bb500469(v=sql.120).aspx)。
 
 1. 啟動 SQL Server 安裝。 
 2. 在安裝功能時，選取下列選項：
-    - Database Engine 服務
-        - SQL Server 複寫
-        - R 服務 （資料庫） (**選擇性**; 在資訊[SQL Server R Services](https://docs.microsoft.com/sql/advanced-analytics/r/sql-server-r-services))
-        - 搜尋的全文檢索和語意擷取
-    - Analysis Services
-    - Reporting Services - 原生
-    - 共用功能
-        - 用戶端工具連接性
-        - Integration Services
+   - Database Engine 服務
+       - SQL Server 複寫
+       - R Services （資料庫） (**選擇性**; 在 info [SQL Server R Services](https://docs.microsoft.com/sql/advanced-analytics/r/sql-server-r-services))
+       - 搜尋的全文檢索和語意擷取
+   - Analysis Services
+   - Reporting Services - 原生
+   - 共用功能
+       - 用戶端工具連接性
+       - Integration Services
 
-    > [!NOTE]
-    > SQL Server 預設安裝不包含 **SQL Server Data Tools**。 它不是必要項目，但可以在下載[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt)。 下載適用於所有支援的 SQL Server 版本的 [**SQL Server Management Studio (SSMS)**](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)，包括 Azure SQL Database。 不過，若要連接至遠端 SSIS 使用 BAM 時，您需要安裝相同版本的 SSMS 做為目的地的 SSIS 伺服器。 例如，[安裝 SSMS 16。*x* ](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-changelog-ssms?view=sql-server-2017#previous-ssms-releases)安裝相關的驅動程式連接到 SQL 2016 SSIS。 SSMS 17。*x*無法連接到 SQL 2016 SSIS。 您可以有多個版本的安裝 SSMS。 
+     > [!NOTE]
+     > SQL Server 預設安裝不包含 **SQL Server Data Tools**。 它不是必要的但可以在下載[SQL Server Data Tools (SSDT)](https://docs.microsoft.com/sql/ssdt/download-sql-server-data-tools-ssdt)。 下載適用於所有支援的 SQL Server 版本的 [**SQL Server Management Studio (SSMS)**](https://docs.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms)，包括 Azure SQL Database。 不過，若要使用 BAM 時，請連線至遠端 SSIS，您必須安裝相同版本的 SSMS，做為目的地的 SSIS 伺服器。 例如，[安裝 SSMS 16。*x* ](https://docs.microsoft.com/sql/ssms/sql-server-management-studio-changelog-ssms?view=sql-server-2017#previous-ssms-releases)安裝相關的驅動程式連接到 SQL 2016 SSIS。 SSMS 17。*x*無法連接到 SQL 2016 SSIS。 您可以有多個版本的安裝 SSMS。 
 
 3. 繼續安裝作業，並在出現提示時重新啟動電腦。
 
@@ -305,13 +305,13 @@ BizTalk Server 需要 SQL Server。 SQL Server 和 BizTalk 可以安裝在同一
 1. 開啟 [SQL Server 組態管理員]。
 2. 在 「 SQL Server 組態管理員 」 中，展開**SQL Server 網路組態**，然後選取**MSSQLSERVER 的通訊協定**。
 3. 以滑鼠右鍵按一下 [共用記憶體]，然後選取 [停用]。
-4. 選取**SQL Server 服務**，以滑鼠右鍵按一下 SQL **Server (MSSQLSERVER)**，然後選取**停止**。 服務已停止之後，以滑鼠右鍵按一下**SQL Server (MSSQLSERVER)**，然後選取**啟動**。
+4. 選取  **SQL Server 服務**，以滑鼠右鍵按一下 SQL **Server (MSSQLSERVER)**，然後選取**停止**。 服務停止之後，以滑鼠右鍵按一下**SQL Server (MSSQLSERVER)**，然後選取**開始**。
 5. 關閉 [SQL Server 組態管理員]。
 
-一般而言，共用記憶體通訊協定只會影響與 SQL Server 在相同電腦安裝的用戶端 (BizTalk Server)。 某些壓力狀況下 （例如從同一部電腦存取 SQL Server 用戶端），SQL Server Shared Memory 通訊協定可能會降低執行 BizTalk Server 效能。 停用 Shared Memory 網路通訊協定會解決問題。
+一般而言，共用記憶體通訊協定只會影響 SQL Server 的同一部電腦安裝的用戶端 (BizTalk Server)。 某些壓力狀況下 （例如從在同一部電腦存取 SQL Server 用戶端），SQL Server 共用記憶體通訊協定可能會降低 BizTalk 伺服器的效能。 停用 Shared Memory 網路通訊協定會解決問題。
 
 > [!TIP]
-> SQL Server 代理程式無法停用 Shared Memory 之後, 啟動，然後確認[ODBC Driver 13.1 for SQL Server](https://www.microsoft.com/download/details.aspx?id=53339)安裝。
+> SQL Server 代理程式無法啟動之後停用共用記憶體，然後確認[ODBC Driver 13.1 for SQL Server](https://www.microsoft.com/download/details.aspx?id=53339)安裝。
 
 ## <a name="install-sql-xml-4"></a>安裝 SQL XML 4
 BizTalk Server 執行階段、系統管理工具和 BAM 的必要項目。 
@@ -327,7 +327,7 @@ BizTalk Server 執行階段、系統管理工具和 BAM 的必要項目。
 > - 您需要知道 SMTP 伺服器的伺服器名稱和 TCP 通訊埠編號。 如果 IIS 和 SMTP 伺服器都安裝在這部電腦上，您使用的是本機 SMTP 伺服器。 如果 SMTP 伺服器需要驗證，請準備好使用者名稱和密碼。
 > - BAM 入口網站和 BAM 警示是不同的功能。 如果使用 BAM 警示，則需要 SQL Server Database Mail。 如果不使用 BAM 警示，則不需要 SQL Server Database Mail。
 
-**針對特定的設定步驟，請參閱**： 設定[SQL Server 2016 Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/configure-database-mail)或[SQL Server 2014 Database Mail](https://msdn.microsoft.com/library/hh245116(v=sql.120).aspx)。
+**如需特定的組態步驟，請參閱**： 設定[SQL Server 2016 Database Mail](https://docs.microsoft.com/sql/relational-databases/database-mail/configure-database-mail)或是[SQL Server 2014 Database Mail](https://msdn.microsoft.com/library/hh245116(v=sql.120).aspx)。
 
    
 傳送測試電子郵件︰ 
@@ -337,7 +337,7 @@ BizTalk Server 執行階段、系統管理工具和 BAM 的必要項目。
 如果「收件者」收信人收到電子郵件，即表示已設定 Database Mail。 
 
 ## <a name="install-winscp-optional"></a>安裝 WinSCP （選擇性）
-所需的 FTP 配接器。 如果您不使用 FTP 配接器，然後略過本節。 
+所需的 FTP 配接器。 如果您未使用 FTP 配接器，然後略過本節。 
 
 下載並安裝[WinSCP](http://winscp.net)。 
 

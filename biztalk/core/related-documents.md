@@ -1,5 +1,5 @@
 ---
-title: 相關的文件 |Microsoft 文件
+title: 相關文件 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,12 +19,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5b87f0d31010a8bf80e09c59f05f2f9302a510e2
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 56338d268bac6568f8e175b6e70da202715fd7a8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25970068"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37006729"
 ---
 # <a name="related-documents"></a>相關文件
 查詢結果詳細資料的 [相關文件] 區域會顯示活動相關參考文件的清單。 文件可以是任何類型，包括 CAD 影像、.WAV 檔案或訂單。 例如，「訂單」活動通常以「訂單」做為基本的文件類型。 其清單中包含訂單的連結。  
@@ -32,13 +32,13 @@ ms.locfileid: "25970068"
 ## <a name="adding-document-references"></a>新增文件參考  
  相關文件的清單是由下列兩種方式之一產生：  
   
--   開發追蹤設定檔時，在活動樹狀結構中納入 Document Reference URL 節點，再將該節點從含有參考指標的來源對應到實際文件。  
+- 開發追蹤設定檔時，在活動樹狀結構中納入 Document Reference URL 節點，再將該節點從含有參考指標的來源對應到實際文件。  
   
--   整合開發人員以程式設計的方式，呼叫自訂應用程式以填入清單內容。  
+- 整合開發人員以程式設計的方式，呼叫自訂應用程式以填入清單內容。  
   
- 定義使用其中一種方法的文件參考中加入資料列\<activityname\>_References 資料表具有文件的位置。  
+  定義使用其中一種方法的文件參考中加入資料列\<activityname\>_References 資料表具有文件的位置。  
   
- 如果都沒有這些工作已執行，**相關文件**區域是空白。  
+  如果已執行任一這些工作，**相關文件**區域則為空白。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [追蹤設定檔編輯器](../core/tracking-profile-editor.md)

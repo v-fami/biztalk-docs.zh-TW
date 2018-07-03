@@ -1,5 +1,5 @@
 ---
-title: 單一登入： 事件 10843 |Microsoft 文件
+title: 單一登入： 事件 10843 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bd86a39d515858e1cda09317ba6139bc67c95ed4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 40b7e03f54d4c4ac2b7074d2aa13d771ce20a9e5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22276270"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37012999"
 ---
 # <a name="single-sign-on-event-10843"></a>單一登入： 事件 10843
 ## <a name="details"></a>詳細資料  
   
-|||  
-|-|-|  
-|產品名稱|企業單一登入|  
-|產品版本|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|事件識別碼|10843|  
-|事件來源|ENTSSO|  
-|元件|不適用|  
-|符號名稱|ENTSSO_E_NO_SECRET2|  
-|訊息文字|無法執行加密或解密，因為沒有可從主要密碼伺服器的密碼。 請參閱事件日誌 (在電腦 ‘%1’ 上) 中的相關錯誤。|  
+|                 |                                                                                                                                                                     |
+|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  產品名稱   |                                                                      企業單一登入                                                                      |
+| 產品版本 |                                                     [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]                                                      |
+|    事件識別碼     |                                                                                10843                                                                                |
+|  事件來源   |                                                                               ENTSSO                                                                                |
+|    元件    |                                                                                 不適用                                                                                 |
+|  符號名稱  |                                                                         ENTSSO_E_NO_SECRET2                                                                         |
+|  訊息文字   | 無法執行加密或解密，因為無法從主要密碼伺服器可用的祕密。 請參閱事件日誌 (在電腦 ‘%1’ 上) 中的相關錯誤。 |
   
 ## <a name="explanation"></a>說明  
  存取遭到拒絕。  
   
 ## <a name="user-action"></a>使用者動作  
- 主要密碼伺服器已離線，或是在主要密碼伺服器遺失必要的主要密碼。 指定電腦上為相關錯誤，請參閱事件記錄檔。
+ 主要密碼伺服器離線，或在主要密碼伺服器缺少必要的主要祕密。 在指定電腦的相關錯誤，請參閱事件記錄檔。

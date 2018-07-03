@@ -1,5 +1,5 @@
 ---
-title: 管理主機和服務帳戶 |Microsoft 文件
+title: 管理主機和服務帳戶 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -23,12 +23,12 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0099e683fba7c5f4e2400ad2f9ce005928b0a2aa
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f0f33a484d67981bb72908243b82e7835e0390e3
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22262382"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37016112"
 ---
 # <a name="managing-hosts-and-service-accounts"></a>管理主控件和服務帳戶
 在設定 BizTalk Server 之後，您必須管理 Windows 群組和使用者帳戶。 本節提供有關管理這些 BizTalk Server 帳戶的資訊。  
@@ -38,20 +38,20 @@ ms.locfileid: "22262382"
   
  您必須具備 Windows 系統管理員的身分，才能執行下列工作：  
   
--   建立主控件 Windows 群組  
+- 建立主控件 Windows 群組  
   
--   建立每個主控件執行個體的服務帳戶  
+- 建立每個主控件執行個體的服務帳戶  
   
--   將服務帳戶新增到主控件 Windows 群組  
+- 將服務帳戶新增到主控件 Windows 群組  
   
--   修改與主控件關聯的 Windows 群組  
+- 修改與主控件關聯的 Windows 群組  
   
- 如需完整清單和群組與在 BizTalk Server 及其附屬的使用者帳戶的描述，請參閱[Windows 群組和 BizTalk Server 中的使用者帳戶](../core/windows-groups-and-user-accounts-in-biztalk-server.md)。  
+  如需完整清單和群組和 BizTalk server 及其附屬的使用者帳戶的說明，請參閱[Windows 群組和 BizTalk Server 中的使用者帳戶](../core/windows-groups-and-user-accounts-in-biztalk-server.md)。  
   
- 如需系統管理工作的最小安全性使用者權限的詳細資訊，請參閱[最低安全性使用者權限](../core/minimum-security-user-rights.md)。  
+  最小安全性使用者權限的系統管理工作的詳細資訊，請參閱[最小安全性使用者權限](../core/minimum-security-user-rights.md)。  
   
 ## <a name="in-this-section"></a>本節內容  
   
--   [如何建立服務帳戶新主控件和主控件執行個體](../core/how-to-create-service-accounts-for-new-hosts-and-host-instances.md)  
+-   [如何建立服務帳戶的新主控件和主控件執行個體](../core/how-to-create-service-accounts-for-new-hosts-and-host-instances.md)  
   
 -   [如何變更服務帳戶和密碼](../core/how-to-change-service-accounts-and-passwords.md)

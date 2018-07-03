@@ -1,6 +1,6 @@
 ---
-title: JD Edwards EnterpriseOne 應用程式匯入 |Microsoft 文件
-description: 確認安裝、 匯入應用程式的繫結檔案，以及檢閱 JD Edwards EnterpriseOne 配接器在 BizTalk 的限制
+title: 匯入 JD Edwards EnterpriseOne 應用程式 |Microsoft Docs
+description: 確認設定，匯入應用程式繫結檔案，然後檢閱 JD Edwards EnterpriseOne 配接器在 BizTalk 中的限制
 ms.custom: ''
 ms.date: 10/18/2017
 ms.prod: biztalk-server
@@ -13,27 +13,27 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 55374c87192c993e26cc11cb496d89074d527868
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 708e9d3513c9d36e9a4aa28d607332e4c1aac077
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "25969668"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36989367"
 ---
-# <a name="import-the-jd-edwards-enterpriseone-application"></a>JD Edwards EnterpriseOne 應用程式匯入
+# <a name="import-the-jd-edwards-enterpriseone-application"></a>匯入 JD Edwards EnterpriseOne 應用程式
   
 ## <a name="overview"></a>概觀
-與[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，您可以複製連接埠和組件的目標電腦上。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 傳送埠/接收位置將組態匯出成 XML 檔案。  
+使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，您可以複製連接埠和組件的目標電腦上。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 傳送埠/接收位置將組態匯出到 XML 檔案。  
   
  您可以使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 執行下列工作：  
   
--   在 BizTalk 組態資料庫中部署或移除 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 組件  
+- 在 BizTalk 組態資料庫中部署或移除 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 組件  
   
--   在全域組件快取 (GAC) 中安裝或解除安裝組件  
+- 在全域組件快取 (GAC) 中安裝或解除安裝組件  
   
--   將 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 組件繫結資訊匯入到繫結檔案，或是將之從繫結檔案中匯出  
+- 將 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 組件繫結資訊匯入到繫結檔案，或是將之從繫結檔案中匯出  
   
-若要使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]部署連接埠和組件，請參閱[如何匯出 BizTalk 應用程式的繫結](../core/how-to-export-bindings-for-a-biztalk-application.md)。  
+若要使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]若要將連接埠和組件的部署，請參閱[如何匯出 BizTalk 應用程式的繫結](../core/how-to-export-bindings-for-a-biztalk-application.md)。  
   
 > [!NOTE]
 >  Microsoft BizTalk Adapter for JD Edwards EnterpriseOne 只要求來源 (程式開發) 電腦上必須有 Visual Studio； 實際執行電腦上不需要有 Visual Studio。  
@@ -45,7 +45,7 @@ ms.locfileid: "25969668"
   
 -   在新電腦上用於存放回應的資料夾存在且相同，否則請編輯繫結檔案。  
   
--   JD Edwards EnterpriseOne 系統密碼 (如果出現在組態中) 以 ***** 格式儲存在繫結檔案中。 如需詳細資訊，請參閱**限制**本主題中。
+-   JD Edwards EnterpriseOne 系統密碼 (如果出現在組態中) 以 ***** 格式儲存在繫結檔案中。 如需詳細資訊，請參閱 <<c0>  **限制**本主題中。
 
 ## <a name="clean-the-target-computer"></a>清除目標電腦
 當您在目標電腦上重新部署繫結檔案 (和組件)，傳送埠和接收位置會在重新匯入 XML 繫結檔案時，被取代為 XML 繫結檔案中的傳送埠和接收位置。  
@@ -76,4 +76,4 @@ cscript RemoveSendPort.vbs \<Send port name\>
 
 
 ## <a name="next-steps"></a>後續的步驟
-[在您的協調流程中使用 BizTalk Server 例外狀況處理](../core/using-biztalk-server-exception-handling3.md)
+[使用 協調流程中的 BizTalk Server 例外狀況處理](../core/using-biztalk-server-exception-handling3.md)

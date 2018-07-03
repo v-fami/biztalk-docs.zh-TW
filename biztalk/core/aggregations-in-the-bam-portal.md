@@ -1,5 +1,5 @@
 ---
-title: BAM 入口網站中的彙總 |Microsoft 文件
+title: BAM 入口網站中的彙總 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -22,12 +22,12 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 43ef0adfacea0a29ea47584ed545884ffb8fa8bf
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 14496535f12171be1d391ebe88312a9730c36953
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22230542"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36986943"
 ---
 # <a name="aggregations-in-the-bam-portal"></a>BAM 入口網站中的彙總
 彙總是預先計算好的資料表格，您可以搭配 OLAP Cube 進行分析處理。 彙總有助於提升多維度資料庫的查詢效率。 當您使用 Excel 的 BAM 增益集建立和部署觀察模型 (商務資料的高階定義) 時，便會建立彙總以利迅速評估與關鍵效能指標 (KPI) 相關的資料集合。  
@@ -45,11 +45,11 @@ ms.locfileid: "22230542"
   
  在 BAM 入口網站中使用 Office Web Components 修改樞紐分析表時，請記住下列重點：  
   
--   Excel 中的樞紐分析表包含 [頁面] 欄位，您可以在此放置時間配量維度。 BAM 入口網站所使用的 Office Web Components 則沒有 [頁面] 欄位。 如果 Excel 樞紐分析表對於任一維度都使用了 [頁面] 欄位，則 BAM 入口網站中的樞紐分析表便不會顯示該欄位的資料。  
+- Excel 中的樞紐分析表包含 [頁面] 欄位，您可以在此放置時間配量維度。 BAM 入口網站所使用的 Office Web Components 則沒有 [頁面] 欄位。 如果 Excel 樞紐分析表對於任一維度都使用了 [頁面] 欄位，則 BAM 入口網站中的樞紐分析表便不會顯示該欄位的資料。  
   
--   Office Web Components 會將資料顯示在 BAM 入口網站的內容框架中。 由於此框架有空間限制，從欄位清單將維度新增至欄區域可能導致樞紐分析表所顯示的維度名稱部分或全部超出檢視畫面。  
+- Office Web Components 會將資料顯示在 BAM 入口網站的內容框架中。 由於此框架有空間限制，從欄位清單將維度新增至欄區域可能導致樞紐分析表所顯示的維度名稱部分或全部超出檢視畫面。  
   
- 樞紐分析表的詳細資訊，請參閱 < 樞紐分析表詞彙釋疑 」，網址[http://go.microsoft.com/fwlink/?LinkId=55416](http://go.microsoft.com/fwlink/?LinkId=55416)。  
+  樞紐分析表的詳細資訊，請參閱 < 樞紐分析表詞彙釋疑 >，網址[ http://go.microsoft.com/fwlink/?LinkId=55416 ](http://go.microsoft.com/fwlink/?LinkId=55416)。  
   
 ## <a name="chart-view"></a>圖表檢視  
  [圖表檢視] 區域以圖形方式顯示彙總。 Office Web Components 可讓您透過圖表檢視操控彙總的詳細資料，以便視需要調整報告的資料。 從 [圖表欄位] 清單拖放資料項目來調整彙總時，彙總的樞紐分析表會自動更新以反映您的變更。 您可以鑽研樞紐分析表，進而在新的彙總檢視中建立警示。  
@@ -65,4 +65,4 @@ ms.locfileid: "22230542"
 -   [如何修改彙總](../core/how-to-modify-an-aggregation.md)  
   
 ## <a name="see-also"></a>另請參閱  
- [什麼是彙總？](../core/what-is-an-aggregation.md)
+ [何謂彙總？](../core/what-is-an-aggregation.md)

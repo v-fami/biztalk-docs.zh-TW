@@ -1,5 +1,5 @@
 ---
-title: 解決 SQL Server 權限問題的指導方針 |Microsoft 文件
+title: 解決 SQL Server 權限問題的指導方針 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,38 +12,38 @@ caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: db02fd2a981d3f1dc34924e680caf5926f67871a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 32561c19bf099b226dc5425edb35ebbaf0a8b3b1
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22246902"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36992383"
 ---
 # <a name="guidelines-for-resolving-sql-server-permissions-problems"></a>解決 SQL Server 權限問題的指導方針
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會密集使用 Microsoft [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 資料庫進行執行階段作業，因此正確設定 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 權限非常重要。 本主題包含一些一般指導方針，可用來排除大多數的 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 的權限問題，另外也包含疑難排解步驟，您可以遵循這些步驟，解決對 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 造成影響的 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 權限問題。  
   
 ## <a name="general-guidelines"></a>一般指導方針  
   
--   **使用 BizTalk Server 的多重電腦安裝的網域使用者和群組**  
+- **使用 BizTalk Server 的多重電腦安裝的網域使用者和群組**  
   
-     在設定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 以執行於多電腦實例時 (例如，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 和 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 安裝在不同電腦上)，您必須使用網域使用者群組和帳戶。 請勿嘗試設定或執行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]中*傳遞*藉此避免使用網域群組和帳戶的每一部電腦建立成對的使用者名稱和密碼的驗證案例。 在有些實例中這種通過實例可能會正常運作，但在其他實例中這會造成 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 失敗，因此是不受支援的組態。  
+   在設定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 以執行於多電腦實例時 (例如，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 和 [!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)] 安裝在不同電腦上)，您必須使用網域使用者群組和帳戶。 請勿嘗試設定或執行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]中*傳遞*藉此避免使用網域群組和帳戶的每一部電腦建立成對的使用者名稱和密碼的驗證案例。 在有些實例中這種通過實例可能會正常運作，但在其他實例中這會造成 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 失敗，因此是不受支援的組態。  
   
-     如需有關安裝和設定[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]在多重電腦組態中，下載安裝指南 》，網址[安裝指南相關的 BizTalk Server 2013](http://go.microsoft.com/fwlink/p/?LinkID=269582)。  
+   如需有關安裝和設定[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]在多重電腦組態中，下載安裝指南 》，網址[相關的安裝指南至 BizTalk Server 2013](http://go.microsoft.com/fwlink/p/?LinkID=269582)。  
   
--   **請確定適當的 Windows 使用者和群組已在適當的 SQL Server 角色定義**  
+- **請確定適當的 Windows 使用者和群組會定義在適當的 SQL Server 角色**  
   
-     請確認正確[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]主題中的資料表所列出的角色成員資格[Windows 群組和 BizTalk Server 中的使用者帳戶](../core/windows-groups-and-user-accounts-in-biztalk-server.md)。  
+   請確認正確[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]主題中的資料表所列出的角色成員資格[Windows 群組和 BizTalk Server 中的使用者帳戶](../core/windows-groups-and-user-accounts-in-biztalk-server.md)。  
   
--   **使用 SQL Server Profiler 診斷權限問題**  
+- **使用者的 SQL Server Profiler 診斷權限問題**  
   
-     設定[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]Profiler 追蹤來監視**稽核登入失敗事件**來收集有關權限失敗的詳細的資訊。 如需有關如何使用資訊[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]程式碼剖析工具，請參閱[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]文件。  
+   設定好[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]Profiler 追蹤來監視**稽核登入失敗事件**來收集有關權限失敗的詳細的資訊。 如需有關如何使用資訊[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]Profiler，請參閱[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]文件。  
   
 ## <a name="known-issues"></a>已知問題  
   
 #### <a name="the-sql-server-jobs-that-are-installed-with-biztalk-server-fail-to-execute"></a>與 BizTalk Server 一起安裝的 SQL Server 作業無法執行  
   
 ##### <a name="problem"></a>問題  
- 隨 SQL Server 工作[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]失敗，而且類似下列的錯誤會產生[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]應用程式記錄檔：  
+ 隨安裝的 SQL Server 作業[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]失敗，而且類似下列的錯誤會產生[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]應用程式記錄檔：  
   
  事件類型: 警告  
   
@@ -65,7 +65,7 @@ ms.locfileid: "22246902"
   
  SQL Server 排程作業 '備份 BizTalk Server'  
   
- (0x4AC7C44A48541443927A56C5C6699ECF)-狀態： 失敗-在上叫用： 2008年-6-29 13:45:01-訊息： 工作失敗。  工作由排程 305 (MarkAndBackupLogSched) 叫用。 要執行的最後一個步驟是步驟 1 (BackupFull)。  
+ (0x4AC7C44A48541443927A56C5C6699ECF)-狀態： 失敗-在上叫用： 2008年-6-29 13:45:01-訊息： 作業失敗。  工作由排程 305 (MarkAndBackupLogSched) 叫用。 要執行的最後一個步驟是步驟 1 (BackupFull)。  
   
  **-和-**  
   

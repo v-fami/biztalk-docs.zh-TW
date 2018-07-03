@@ -1,5 +1,5 @@
 ---
-title: 串流處理 Oracle 資料庫 LOB 資料類型使用 WCF 通道模型 |Microsoft 文件
+title: 串流處理使用 WCF 通道模型的 Oracle 資料庫 LOB 資料類型 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,32 +15,32 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: bf0ee2f8d1c90f69a206a3006398d52e67f819e5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: aa8a493c94761ce74d76885ee59fae1425c15523
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22215790"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37013839"
 ---
-# <a name="streaming-oracle-database-lob-data-types-using-the-wcf-channel-model"></a>資料流處理的 Oracle 資料庫 LOB 資料類型使用 WCF 通道模型
-[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]支援端對端的資料流的特定作業的 LOB 資料。 本主題中的各節說明如何實作 LOB 資料的資料流，當您使用 WCF 通道模型。  
+# <a name="streaming-oracle-database-lob-data-types-using-the-wcf-channel-model"></a>串流處理 Oracle 資料庫 LOB 資料類型使用 WCF 通道模型
+[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]支援端對端串流處理的特定作業的 LOB 資料。 本主題中的各節說明如何實作串流 LOB 資料，當您使用 WCF 通道模型。  
   
- 如需配接器支援 LOB 資料類型的資料流的背景資訊，請參閱[串流處理大型物件資料類型在 Oracle 資料庫配接器](../../adapters-and-accelerators/adapter-oracle-database/streaming-large-object-data-types-in-oracle-database-adapter.md)。 您應該閱讀本主題後再繼續。  
+ 如需配接器如何支援 LOB 資料類型的資料流的背景資訊，請參閱[串流大型物件資料類型在 Oracle 資料庫配接器](../../adapters-and-accelerators/adapter-oracle-database/streaming-large-object-data-types-in-oracle-database-adapter.md)。 您應該閱讀本主題後再繼續。  
   
- 位於 SDK 範例隨附的範例示範 LOB 資料流[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]。 如需詳細資訊，請參閱[SDK 中的範例](../../core/samples-in-the-sdk.md)。  
+ 隨附的 SDK 範例示範 LOB 資料流的範例有[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]。 如需詳細資訊，請參閱 < [SDK 中的範例](../../core/samples-in-the-sdk.md)。  
   
 ## <a name="streaming-outbound-messages-to-the-adapter"></a>資料流的輸出訊息，配接器  
- 配接器支援 UpdateLOB 作業的要求訊息的串流的端對端 LOB 資料。  
+ 配接器支援端對端的 LOB 資料串流 UpdateLOB 作業要求訊息。  
   
- 若要支援端對端的資料流上 UpdateLOB WCF 通道模型中的作業，您必須：  
+ 若要支援端對端串流 UpdateLOB WCF 通道模型中的作業，您必須：  
   
 1.  設定**UseAmbientTransaction**繫結屬性為 true。  
   
-2.  實作**System.ServiceModel.Channels.BodyWriter**能夠串流處理 LOB 資料 （執行 LOB 資料資料流處理的節點值）。  
+2.  實作**System.ServiceModel.Channels.BodyWriter**能夠串流 LOB 資料 （執行節點值上的 LOB 資料串流處理）。  
   
-3.  執行 UpdateLOB 作業在交易範圍內。  
+3.  UpdateLOB 內執行作業的異動範圍。  
   
-4.  建立**System.ServiceModel.Message**用來叫用作業，藉由提供與此訊息本文**BodyWriter**使用的適當多載**Message.Create**方法。  
+4.  建立**System.ServiceModel.Message**用來叫用作業，藉由提供訊息內文，以此方式**BodyWriter**使用的適當多載**Message.Create**方法。  
   
 ### <a name="setting-the-useambienttransaction-binding-property"></a>設定繫結屬性 UseAmbientTransaction  
  下列範例示範如何建立的繫結[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]並設定**UseAmbientTransaction**繫結屬性。  
@@ -125,8 +125,8 @@ class StreamingBodyWriter : BodyWriter, IDisposable
 }  
 ```  
   
-### <a name="perform-the-operations-within-a-transaction-scope"></a>執行的作業在交易範圍內  
- 下列範例會示範如何在交易範圍內執行作業。  
+### <a name="perform-the-operations-within-a-transaction-scope"></a>執行交易範圍內的作業  
+ 下列範例示範如何在交易範圍內執行作業。  
   
 ```  
 // Create a transaction scope  
@@ -166,27 +166,27 @@ using(TransactionScope tx = new TransactionScope())
 ```  
   
 ## <a name="streaming-inbound-messages-from-the-adapter"></a>資料流的輸入的訊息從配接器  
- 配接器支援下列的內送訊息的串流的端對端 LOB 資料：  
+ 配接器支援下列的輸入訊息串流的端對端 LOB 資料：  
   
--   具有跨函式的回應訊息，或在 OUT 參數包含 LOB 資料。 請注意，記錄型別參數可以包含 LOB 資料行。  
+- 回應訊息有外的函式或在 OUT 參數包含 LOB 資料。 請注意，記錄類型參數可以包含 LOB 資料行。  
   
--   使用 OUT REF CURSOR 參數 （或傳回值） 包含 LOB 資料的函式的回應訊息。 這包括在 OUT REF CURSOR 參數的輸出端。  
+- 使用 OUT REF CURSOR 參數 （或傳回值） 包含 LOB 資料的函式的回應訊息。 這包括在解 REF CURSOR 參數的輸出端。  
   
--   回應訊息中的程序或在 OUT 參數包含 LOB 資料。 請注意，記錄型別參數可以包含 LOB 資料行。  
+- 如需使用 IN 的程序的回應訊息或在 OUT 參數包含 LOB 資料。 請注意，記錄類型參數可以包含 LOB 資料行。  
   
--   具有包含 LOB 資料的 OUT REF CURSOR 參數的程序的回應訊息。 這包括在 OUT REF CURSOR 參數的輸出端  
+- 具有包含 LOB 資料的 OUT REF CURSOR 參數的程序的回應訊息。 這包括在解 REF CURSOR 參數的輸出端  
   
--   傳回包含 LOB 資料的結果集的 SQLEXECUTE 作業的回應訊息。  
+- 傳回包含 LOB 資料的結果集的 SQLEXECUTE 作業的回應訊息。  
   
--   設定資料表或檢視表傳回結果中的 LOB 資料的 Select 作業的回應訊息。  
+- 設定資料表或檢視表傳回結果中的 LOB 資料的 Select 作業的回應訊息。  
   
--   （輸入） 的 POLLINGSTMT 作業的要求訊息  
+- （輸入） 的 POLLINGSTMT 作業的要求訊息  
   
- 若要支援端對端的資料流中的 WCF 通道模型的輸入訊息上，您必須：  
+  若要支援端對端資料流中的 WCF 通道模型的輸入訊息上，您必須：  
   
-1.  實作**System.Xml.XmlDictionaryWriter**能夠串流處理 LOB 資料 （執行 LOB 資料資料流處理的節點值）。  
+1.  實作**System.Xml.XmlDictionaryWriter**能夠串流 LOB 資料 （執行節點值上的 LOB 資料串流處理）。  
   
-2.  取用**訊息**叫用**WriteBodyContents**方法與這個**XmlDictionaryWriter**。  
+2.  取用**訊息**藉由叫用**WriteBodyContents**方法，以此方式**XmlDictionaryWriter**。  
   
 ### <a name="implementing-an-xmldictionarywriter"></a>實作 XmlDictionaryWriter  
  下列範例示範實作**XmlDictionaryWriter**執行節點值的資料流。  
@@ -334,7 +334,7 @@ class FileXmlWriter : XmlDictionaryWriter
 ```  
   
 ### <a name="consuming-a-message-by-using-an-xmldictionarywriter"></a>使用 XmlDictionaryWriter 取用訊息  
- 下列範例示範如何使用 資料表選取回應訊息使用**FileXmlWriter**上述範例中實作。 ( **FileWriter**類別已由分為子類別建立**XmlDictionaryWriter**。)此範例會使用**IRequestChannel**通道來叫用選取的作業。 已省略的通道建立詳細資料。 選取要求訊息會從檔案讀取，並選取回應訊息寫入至檔案。  
+ 下列範例示範如何使用 資料表選取回應訊息使用**FileXmlWriter**在上述範例中實作。 ( **FileWriter**類別所建立分為子類別**XmlDictionaryWriter**。)此範例會使用**IRequestChannel**通道來叫用選取的作業。 建立通道的詳細資料已省略。 選取要求訊息從檔案讀取，並選取回應訊息寫入至檔案。  
   
 ```  
 // Read Select message body from a file  
@@ -354,7 +354,7 @@ fileXmlWriter.Close();
 OutputMsg.Close();  
 ```  
   
- 下列 XML 會說明在 Select 作業的要求訊息 （select.xml 檔案的內容）。 CUSTOMER 資料表中包含名為相片的 BLOB 資料行。  
+ 下列 XML 會顯示在選取作業的要求訊息 （select.xml 檔案的內容）。 CUSTOMER 資料表中包含名為 PHOTO 的 BLOB 資料行。  
   
 ```  
 <Select xmlns="http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/CUSTOMER">  
@@ -364,4 +364,4 @@ OutputMsg.Close();
 ```  
   
 ## <a name="see-also"></a>另請參閱  
- [開發 Oracle 資料庫應用程式使用 WCF 通道模型](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md)
+ [開發使用 WCF 通道模型的 Oracle 資料庫應用程式](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-channel-model.md)

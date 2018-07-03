@@ -1,5 +1,5 @@
 ---
-title: 活動接續 |Microsoft 文件
+title: 活動接續 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,32 +18,32 @@ caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c7568da0647ae9847c3de2d060d75a53466b9709
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 91eadd02e3b0a8792b9b27ea6c913b847b534456
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22224790"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981991"
 ---
 # <a name="activity-continuation"></a>活動接續
-BAM 活動 (也稱為商務活動) 可以跨越多個異質應用程式 (例如，從某個管線進入兩個協調流程，再到某個商務營運系統應用程式，然後到另一個管線)。 BAM 基礎結構可讓開發人員概念與多個應用程式的事件相互關聯 」*接續*，」 所示，如下圖。  
+BAM 活動 (也稱為商務活動) 可以跨越多個異質應用程式 (例如，從某個管線進入兩個協調流程，再到某個商務營運系統應用程式，然後到另一個管線)。 BAM 基礎結構可以相互關聯的稍加協助，為開發人員引進所謂的多個應用程式的事件 」*接續*，「 這會顯示在下圖中。  
   
  ![](../core/media/ebiz-prog-bam-fig4-app-scopes-cont-tokens.gif "ebiz_prog_bam_fig4_app_scopes_cont_tokens")  
 
 ## <a name="applications"></a>應用程式  
- 活動的第一個階段發生於 Sales (銷售) 應用程式，第二個階段則發生於 Packaging & Assembly (包裝和組裝) 應用程式，最後由 Shipping (送貨) 應用程式提供送貨進度。 每個應用程式使用不同的識別碼，目前的工作單位： 訂單號碼 (PO)、 銷售訂單號碼 (SO) 和送貨單號碼 (UPS)。 若要將兩個不同應用程式的事件相互關聯，您必須：  
+ 活動的第一個階段發生於 Sales (銷售) 應用程式，第二個階段則發生於 Packaging & Assembly (包裝和組裝) 應用程式，最後由 Shipping (送貨) 應用程式提供送貨進度。 每個應用程式目前的工作單位使用不同的識別碼： 購買訂單號碼 (PO)、 銷售訂單號碼 (SO) 和送貨單號碼 (UPS)。 若要將兩個不同應用程式的事件相互關聯，您必須：  
   
--   識別接續 Token，這是兩個應用程式都能使用的唯一資料片段 (例如，彼此交換的訊息部分)。  
+- 識別接續 Token，這是兩個應用程式都能使用的唯一資料片段 (例如，彼此交換的訊息部分)。  
   
--   在第一個應用程式中呼叫 EnableContinuation，並傳遞接續 Token 和目前的 ActivityID。  
+- 在第一個應用程式中呼叫 EnableContinuation，並傳遞接續 Token 和目前的 ActivityID。  
   
--   請勿在第二個應用程式中呼叫 BeginActivity。  
+- 請勿在第二個應用程式中呼叫 BeginActivity。  
   
--   在第二個應用程式中使用接續 Token 代替 ActivityID，引發所有後續事件。  
+- 在第二個應用程式中使用接續 Token 代替 ActivityID，引發所有後續事件。  
   
- 下列程式碼範例示範如何在三個應用程式之間使用活動接續：  
+  下列程式碼範例示範如何在三個應用程式之間使用活動接續：  
   
- **訂單應用程式**  
+  **訂單應用程式**  
   
 ```  
 string oID="PO#123";  
@@ -97,4 +97,4 @@ es.EndActivity("PurchaseOrder",upsID)
   
  [BAM 動態基礎結構](../core/bam-dynamic-infrastructure.md)   
  [BAM API （BizTalk Server 範例）](../core/bam-api-biztalk-server-sample.md)   
- [BAM 端對端 （BizTalk Server 範例）](../core/bam-end-to-end-biztalk-server-sample.md)
+ [BAM 端對端 (BizTalk Server 範例)](../core/bam-end-to-end-biztalk-server-sample.md)

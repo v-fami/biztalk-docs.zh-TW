@@ -1,5 +1,5 @@
 ---
-title: '範例 TMA: BizTalk 訊息佇列配接器 |Microsoft 文件'
+title: TMA 範例： BizTalk 訊息佇列配接器 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,24 +18,24 @@ caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 91f37c57c24bdd37c0f2cc0399a797050228aa54
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: ec34f90e57df67c8c8a4fc84b10cdd2df8836f1f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22272454"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994871"
 ---
-# <a name="sample-tma-biztalk-message-queuing-adapter"></a>範例 TMA: BizTalk 訊息佇列配接器
+# <a name="sample-tma-biztalk-message-queuing-adapter"></a>TMA 範例： BizTalk 訊息佇列配接器
 本主題呈現範例架構的 BizTalk 訊息佇列配接器實例之威脅模型分析 (TMA)。  
   
 ## <a name="step-1-collect-background-information-biztalk-message-queuing-adapter-scenario"></a>步驟 1： 收集背景資訊 （BizTalk 訊息佇列配接器實例）  
  本節提供範例架構的 BizTalk 訊息佇列配接器實例之資料流程圖 (DFD)。 下圖顯示 HTTP 與 SOAP 配接器實例的範例架構。  
   
- **圖 1 的 BizTalk 訊息佇列配接器實例的範例架構**  
+ **圖 1 BizTalk 訊息佇列配接器實例的範例架構**  
   
  ![BizTalk 訊息佇列的範例架構](../core/media/tdi-sec-refarch-msmq.gif "TDI_Sec_RefArch_MSMQ")  
   
- 所有其他背景資訊也適用於所有使用實例，並為先前所述[範例實例的背景資訊](../core/background-information-for-sample-scenarios.md)。  
+ 所有其他背景資訊是一樣的所有使用實例，而先前所述[如需範例案例的背景資訊](../core/background-information-for-sample-scenarios.md)。  
   
 ### <a name="data-flow-diagram"></a>資料流程圖  
  下圖顯示使用 BizTalk 訊息佇列配接器時範例架構的 DFD。  
@@ -57,13 +57,13 @@ ms.locfileid: "22272454"
 ## <a name="step-2-create-and-analyze-the-threat-model-biztalk-message-queuing-adapter-scenario"></a>步驟 2： 建立和分析威脅模型 （BizTalk 訊息佇列配接器實例）  
  本節提供我們為範例架構的 BizTalk 訊息佇列配接器所做的 TMA 結果。  
   
--   **識別進入點、 信任界限以及的資料流-** 請參閱稍早在步驟 1 中及中所述的背景資訊[範例實例的背景資訊](../core/background-information-for-sample-scenarios.md)。  
+- **識別進入點、 信任界限以及非固定格式的資料-** 請參閱稍早在步驟 1 中及中所述的背景資訊[如需範例案例的背景資訊](../core/background-information-for-sample-scenarios.md)。  
   
--   **建立一份識別的威脅-** 我們針對 dfd 的所有項目使用下列分類來識別潛在的威脅： **S**假冒識別， **T**ampering 取代資料， **R**epudiation，**我**若資訊洩漏、 **D**拒絕服務，以及**E**身分權限。 下表列出當您使用 BizTalk 訊息佇列配接器從 BizTalk Server 傳送和接收訊息時，我們所識別的威脅。  
+- **建立一份已識別的威脅-** 我們針對 dfd 的所有項目使用下列類別來識別潛在威脅的案例： **S**假冒識別，請**T**ampering使用資料時， **R**否認，**我**資訊洩漏**D**拒絕服務，和**E**權限的身分。 下表列出當您使用 BizTalk 訊息佇列配接器從 BizTalk Server 傳送和接收訊息時，我們所識別的威脅。  
   
- **表 1 已識別的威脅的清單**  
+  **資料表 1 的已識別的威脅清單**  
   
-|威脅|Description|資產|影響|  
+|威脅|描述|資產|影響|  
 |------------|-----------------|-----------|------------|  
 |傳送許多訊息至接收位置|惡意使用者可以傳送大量有效或無效的訊息，並灌爆應用程式。|BizTalk Server 環境|拒絕服務|  
 |訊息標頭在網路上無礙地傳遞|當訊息從佇列移至 BizTalk 訊息佇列接收配接器時，訊息標頭是在無危險狀態，但惡意使用者可能讀取和修改標頭。|訊息標頭|竄改資料<br /><br /> 資訊洩露|  
@@ -71,7 +71,7 @@ ms.locfileid: "22272454"
 |惡意使用者可以在 BizTalk Server 收到訊息之前竄改訊息|惡意使用者可以在訊息傳輸時攔截訊息，並加以修改。|訊息內文|竄改資料<br /><br /> 資訊洩露|  
   
 ## <a name="step-3-review-threats-biztalk-message-queuing-adapter-scenario"></a>步驟 3： 檢視威脅 （BizTalk 訊息佇列配接器實例）  
- 本節提供針對範例架構的 BizTalk 訊息佇列配接器實例已識別出的威脅，我們所執行的風險分析結果。 主要威脅模型會議之後，我們已複查威脅，並使用下列影響類別來識別每個威脅的風險： **D**損害潛在， **R**eproducibility， **E**xploitability， **A**受使用者和**D**iscoverability。  
+ 本節提供針對範例架構的 BizTalk 訊息佇列配接器實例已識別出的威脅，我們所執行的風險分析結果。 主要威脅模型會議之後，我們已複查威脅，並使用下列影響類別來識別每個威脅的風險： **D**損害， **R**eproducibility， **E**xploitability， **A**受使用者並**D**iscoverability。  
   
  下表列出當您使用 BizTalk 訊息佇列配接器從 BizTalk Server 傳送和接收訊息時，我們所識別的威脅之風險等級。  
   
@@ -89,16 +89,16 @@ ms.locfileid: "22272454"
   
  下表列出當您使用 BizTalk 訊息佇列配接器從 BizTalk Server 傳送和接收訊息時，我們所識別的威脅之防護技術。  
   
- **表 3 防護技術和技術**  
+ **表 3 防護技術及技術**  
   
 |威脅|影響|風險暴露程度|防護技術|  
 |------------|------------|-------------------|--------------------------------------------|  
-|傳送許多訊息至接收位置|拒絕服務|6.8|在需要驗證模式中使用 BizTalk 訊息佇列配接器。 設定**要求 MSMQ 驗證**接收位置上的旗標和**需要驗證 （捨棄訊息）** 接收埠上。<br /><br /> 設定 BizTalk 訊息佇列為需要認證驗證。 此行為發生於配接器層級，而且不同於 BizTalk 管線的「合作對象解析」元件。 若已設定，則內送訊息會包含公用憑證。 這是 BizTalk 訊息佇列唯一可用的用戶端驗證模式。 若要使用此用戶端驗證模式，您必須使用 Active Directory 整合模式安裝 BizTalk 訊息佇列。 當您使用這項功能時，請記得選取**需要驗證**核取方塊，在屬性對話方塊中，BizTalk 訊息佇列接收位置。|  
+|傳送許多訊息至接收位置|拒絕服務|6.8|在需要驗證模式中使用 BizTalk 訊息佇列配接器。 設定**要求 MSMQ 驗證**接收位置上的旗標並**驗證必要 （捨棄訊息）** 接收埠上。<br /><br /> 設定 BizTalk 訊息佇列為需要認證驗證。 此行為發生於配接器層級，而且不同於 BizTalk 管線的「合作對象解析」元件。 若已設定，則內送訊息會包含公用憑證。 這是 BizTalk 訊息佇列唯一可用的用戶端驗證模式。 若要使用此用戶端驗證模式，您必須使用 Active Directory 整合模式安裝 BizTalk 訊息佇列。 當您使用這項功能時，請記得選取**需要驗證**核取方塊，在 [屬性] 對話方塊，在 BizTalk 訊息佇列接收位置。|  
 |訊息標頭在網路上無礙地傳遞|竄改資料<br /><br /> 資訊洩露|6.8|使用網際網路通訊協定安全性 (IPsec) 協助保護在伺服器之間傳遞的訊息內文與訊息標頭。|  
-|未經授權的使用者可以透過網路連線到執行 BizTalk 訊息佇列主控件的 BizTalk Server|否認性<br /><br /> 竄改資料<br /><br /> 資訊洩露<br /><br /> 拒絕服務<br /><br /> 權限提高|9|建立擁有「合作對象解析」管線元件的自訂管線，然後設定「合作對象解析」元件使用「傳送者識別碼」(SID) 來解析合作對象。 設定**依憑證解析合作對象**屬性**False**，而**依 SID 解析合作對象**屬性**True**。 如需詳細資訊，請參閱[合作對象解析管線元件](../core/party-resolution-pipeline-component.md)。<br /><br /> 在 接收埠中，設定**驗證**屬性**必要 （捨棄訊息）**。|  
-|惡意使用者可以在 BizTalk Server 收到訊息之前竄改訊息|竄改資料<br /><br /> 資訊洩露|6|使用通訊協定層級的驗證來確定訊息在傳輸時未遭到修改。 若要使用通訊協定層級的驗證，您必須在電子商務網域中擁有訊息佇列路由器。 設定 BizTalk Server 如下：<br /><br /> -在**BizTalk 傳訊**頁面上的 Configuration Manager 中，提供路由器的名稱。<br />-若為接收埠中，設定**驗證**屬性**必要 （捨棄訊息）** 或**必要 （保留訊息）**。<br />-若為傳送處理常式上**一般**索引標籤的**MSMQ 路由器**名稱方塊中，輸入訊息佇列路由器的名稱。<br />-傳送埠，請選取**使用 MSMQ 驗證**。|  
+|未經授權的使用者可以透過網路連線到執行 BizTalk 訊息佇列主控件的 BizTalk Server|否認性<br /><br /> 竄改資料<br /><br /> 資訊洩露<br /><br /> 拒絕服務<br /><br /> 權限提高|9|建立擁有「合作對象解析」管線元件的自訂管線，然後設定「合作對象解析」元件使用「傳送者識別碼」(SID) 來解析合作對象。 設定**依憑證解析合作對象**屬性設**False**，和**依 SID 解析合作對象**屬性設**True**。 如需詳細資訊，請參閱 <<c0> [ 合作對象解析管線元件](../core/party-resolution-pipeline-component.md)。<br /><br /> 在 接收埠中，設定**驗證**屬性設**必要 （捨棄訊息）**。|  
+|惡意使用者可以在 BizTalk Server 收到訊息之前竄改訊息|竄改資料<br /><br /> 資訊洩露|6|使用通訊協定層級的驗證來確定訊息在傳輸時未遭到修改。 若要使用通訊協定層級的驗證，您必須在電子商務網域中擁有訊息佇列路由器。 設定 BizTalk Server 如下：<br /><br /> -在**BizTalk 傳訊**頁面上的 Configuration Manager 中，提供路由器的名稱。<br />-若為接收埠，請設定**驗證**屬性設**必要 （捨棄訊息）** 或是**必要 （保留訊息）**。<br />-若為傳送處理常式中，在**一般**索引標籤中，於**MSMQ 路由器**名稱方塊中，輸入訊息佇列路由器的名稱。<br />-若為傳送埠，請選取**使用 MSMQ 驗證**。|  
   
 ## <a name="see-also"></a>另請參閱  
  [威脅模型分析](../core/threat-model-analysis.md)   
  [威脅模型分析的範例案例](../core/sample-scenarios-for-threat-model-analysis.md)   
- [小型與中型公司的範例架構](../core/sample-architectures-for-small-medium-sized-companies.md)
+ [中小型公司的架構範例](../core/sample-architectures-for-small-medium-sized-companies.md)

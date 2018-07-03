@@ -1,5 +1,5 @@
 ---
-title: 步驟 5： 回應配接器實作的中繼資料搜尋處理常式 |Microsoft 文件
+title: 步驟 5： 實作 Echo 配接器中繼資料搜尋處理常式 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,24 +12,24 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8d241499e10a944eb1941b680bc73b97ce6ffd93
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 29768fa47fd26f32308d517f175d906ec088ff7b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22226398"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37004087"
 ---
-# <a name="step-5-implement-the-metadata-search-handler-for-the-echo-adapter"></a>步驟 5： 回應配接器實作的中繼資料搜尋處理常式
-![步驟 5 之 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-5of9.gif "Step_5of9")  
+# <a name="step-5-implement-the-metadata-search-handler-for-the-echo-adapter"></a>步驟 5： 實作 Echo 配接器中繼資料搜尋處理常式
+![步驟 5 的 9](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/step-5of9.gif "Step_5of9")  
   
  **若要完成的時間：** 30 分鐘  
   
- 在此步驟的教學課程中，您可以實作回應配接器的搜尋功能。 不同於瀏覽，搜尋是選擇性的。 根據[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]，若要支援搜尋功能，您必須實作`Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler`介面。 回應配接器，[!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)]自動產生一個稱為 EchoAdapterMetadataSearchHandler 的衍生的類別。  
+ 在此步驟的教學課程中，您可以實作 Echo 配接器的搜尋功能。 不同於瀏覽，搜尋是選擇性的。 根據[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]，若要支援搜尋功能，您必須實作`Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler`介面。 Echo 配接器，[!INCLUDE[afdevwizardnameshort](../../includes/afdevwizardnameshort-md.md)]會自動產生一個衍生的類別，稱為 EchoAdapterMetadataSearchHandler。  
   
- 您第一次更新 EchoAdapterMetadataSearchHandler 類別，以取得更深入了解如何實作這個介面，如何填入`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`物件，以及如何搜尋結果顯示在[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]工具。  
+ 您第一次更新 EchoAdapterMetadataSearchHandler 類別以進一步了解如何實作這個介面，如何以填入`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`物件，並搜尋結果會出現在[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]工具。  
   
 ## <a name="prerequisites"></a>必要條件  
- 在開始此步驟之前，請先完成[步驟 4： 實作回應配接器中繼資料瀏覽的處理常式](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-4-implement-the-metadata-browse-handler-for-the-echo-adapter.md)。 您也必須清楚了解有關的下列類別：  
+ 在開始此步驟之前，請先完成[步驟 4： 實作 Echo 配接器的中繼資料瀏覽處理常式](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-4-implement-the-metadata-browse-handler-for-the-echo-adapter.md)。 您也必須清楚了解關於下列類別：  
   
 -   `Microsoft.ServiceModel.Channels.MetadataRetrievalNode`
   
@@ -47,19 +47,19 @@ public interface IMetadataSearchHandler : IConnectionHandler, IDisposable
 }  
 ```  
   
- `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler.Search%2A`方法傳回的陣列`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`物件為基礎的搜尋準則。 下表中說明的搜尋方法的參數定義：  
+ `Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler.Search%2A`方法傳回的陣列`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`物件為基礎的搜尋準則。 下表中詳述的搜尋方法的參數定義：  
   
 |**參數**|**定義**|  
 |-------------------|--------------------|  
-|節點識別碼|若要開始搜尋的節點識別碼。 如果 null 或空字串 ("")，作業將會擷取從根節點 （"/"）。|  
-|searchCriteria|搜尋準則，是針對配接器。 如果未不指定任何搜尋準則，配接器應傳回的所有節點。|  
-|maxChildNodes|要傳回的結果節點數目上限。 您可以使用 Int32.Max 來擷取結果的所有節點。<br /><br /> 不支援回應配接器。|  
-|timeout|允許的作業完成的時間上限。<br /><br /> 不支援回應配接器。|  
+|nodeId|節點識別碼，做為搜尋起點。 如果 null 或空字串 ("")，作業將會擷取從根節點 （"/"）。|  
+|searchCriteria|搜尋準則，也就是配接器特有。 如果未不指定任何搜尋準則，則配接器應該傳回所有節點。|  
+|maxChildNodes|要傳回的結果節點的數目上限。 您可以使用 Int32.Max 來擷取結果的所有節點。<br /><br /> 不支援 Echo 配接器。|  
+|timeout|若要完成此作業所允許的時間上限。<br /><br /> 不支援 Echo 配接器。|  
   
- 搜尋結果，您的配接器可以選擇傳回分類節點或運算節點，或兩者。 最多的搜尋功能的類型是您的配接器支援。  
+ 搜尋結果中，您的配接器可以選擇傳回分類節點或運算節點，或這兩者。 是由搜尋功能的型別配接器支援。  
   
-## <a name="echo-adapter-metadata-search"></a>回應配接器中繼資料的搜尋  
- 根據目標系統的類別和作業，會有許多方法可建立的陣列`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`来傳回的物件。 回應配接器實作搜尋功能的方法是瀏覽每項作業，其下面清單中的節點識別碼：  
+## <a name="echo-adapter-metadata-search"></a>Echo 配接器中繼資料搜尋  
+ 根據目標系統的類別和作業，有許多種方法，來建置的陣列`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`来傳回的物件。 Echo 配接器實作搜尋功能的方式是瀏覽其節點識別碼，下列清單中的每一項作業：  
   
 ```  
 Echo/OnReceiveEcho, inbound operation  
@@ -68,44 +68,44 @@ Echo/EchoGreetings, outbound operation
 Echo/EchoGreetingFromFile, outbound operation  
 ```  
   
--   如果節點識別碼，然後符合搜尋準則，它會建立`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`物件使用的作業，節點識別碼，然後將指定的屬性值。 例如，  
+- 如果節點識別碼，然後在符合搜尋條件，它會建立`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`物件使用之作業中，節點識別碼，然後將指派值的屬性。 例如，  
   
-    ```  
-    MetadataRetrievalNode nodeInbound = new MetadataRetrievalNode("Echo/OnReceiveEcho"); //create the MetadataRetrievalNode using the operation's node ID.  
-    nodeInbound.DisplayName = "OnReceiveEcho"; //The Display Name shown in the Name column of the Add Adapter Service Reference Visual Studio Plug-in  
-    nodeInbound.Description = "This operation echoes the location and length of a file dropped in the specified file system.";  //The Description shown as the tool tip in the Add Adapter Service Visual Studio Plug-in  
-    nodeInbound.Direction = MetadataRetrievalNodeDirections.Inbound;    //It is an inbound operation  
-    nodeInbound.IsOperation = true;  //It is an operation, not category.  
-    ```  
+  ```  
+  MetadataRetrievalNode nodeInbound = new MetadataRetrievalNode("Echo/OnReceiveEcho"); //create the MetadataRetrievalNode using the operation's node ID.  
+  nodeInbound.DisplayName = "OnReceiveEcho"; //The Display Name shown in the Name column of the Add Adapter Service Reference Visual Studio Plug-in  
+  nodeInbound.Description = "This operation echoes the location and length of a file dropped in the specified file system.";  //The Description shown as the tool tip in the Add Adapter Service Visual Studio Plug-in  
+  nodeInbound.Direction = MetadataRetrievalNodeDirections.Inbound;    //It is an inbound operation  
+  nodeInbound.IsOperation = true;  //It is an operation, not category.  
+  ```  
   
--   然後將物件加入至集合的`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`s，例如，  
+- 然後將物件加入至集合的`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`s，比方說，  
   
-    ```  
-    resultList.Add(nodeInbound);  
-    ```  
+  ```  
+  resultList.Add(nodeInbound);  
+  ```  
   
--   最後傳回的集合陣列格式。  
+- 以陣列格式，最後傳回的集合。  
   
-    ```  
-    return resultList.ToArray();  
-    ```  
+  ```  
+  return resultList.ToArray();  
+  ```  
   
- 您可以使用[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]和[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]工具執行連線為基礎的搜尋可用的作業。 例如，如下圖所示的搜尋準則時將字串**問候語**，搜尋會傳回**EchoGreetings**和**EchoGreetingFromFile**作業。  
+  您可以使用[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]和[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]工具執行連接為基礎的搜尋可用的作業。 比方說下, 圖顯示的搜尋準則時將字串**問候語**，則搜尋會傳回**EchoGreetings**並**EchoGreetingFromFile**作業。  
   
- ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/874c046a-590f-4047-9b9c-bb8074664755.gif "874c046a-590f-4047-9b9c-bb8074664755")  
+  ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/874c046a-590f-4047-9b9c-bb8074664755.gif "874c046a-590f-4047-9b9c-bb8074664755")  
   
- 如果找到相符項目，其中任何一個工具就會傳回錯誤訊息，如下圖所示。  
+  如果找到相符項目，則任何一項工具會傳回如下圖所示的錯誤訊息。  
   
- ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/cb1f79a2-a63d-4828-9dce-905c026cd1dc.gif "cb1f79a2-a63d-4828-9dce-905c026cd1dc")  
+  ![](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/cb1f79a2-a63d-4828-9dce-905c026cd1dc.gif "cb1f79a2-a63d-4828-9dce-905c026cd1dc")  
   
 ## <a name="implementing-the-imetadatasearchhandler"></a>實作 IMetadataSearchHandler  
- 您將實作`Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler.Search%2A`方法`Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler`介面。 如果作業的顯示名稱符合搜尋準則，您將建立`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`物件該作業，並再將該物件加入至陣列`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`物件。  
+ 您將實作`Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler.Search%2A`方法的`Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler`介面。 如果作業的顯示名稱符合搜尋準則，您會建立`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`該作業中，物件，並再將該物件加入至陣列`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`物件。  
   
 #### <a name="to-update-the-echoadaptermetadatasearchhandler-class"></a>若要更新 EchoAdapterMetadataSearchHandler 類別  
   
 1.  在 [方案總管] 中，按兩下**EchoAdapterMetadataSearchHandler.cs**檔案。  
   
-2.  在 Visual Studio 編輯器中，內部**搜尋**方法，以下列取代現有的邏輯。 此邏輯會建立`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`Echo/OnReceiveEcho 是否符合指定的搜尋準則的物件。  
+2.  在 Visual Studio 編輯器中，內部**搜尋**方法，以下列內容取代現有的邏輯。 此邏輯會建立`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`Echo/OnReceiveEcho 是否符合指定的搜尋準則的物件。  
   
     ```csharp  
     List<MetadataRetrievalNode> resultList = new List<MetadataRetrievalNode>();  
@@ -148,7 +148,7 @@ Echo/EchoGreetingFromFile, outbound operation
         }  
     ```  
   
-5.  繼續加入下列程式碼，以建立`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`Echo/EchoGreetingFromFile 是否符合指定的搜尋準則的物件。  
+5.  繼續新增下列程式碼，以建立`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`Echo/EchoGreetingFromFile 是否符合指定的搜尋準則的物件。  
   
     ```csharp  
     if ("EchoCustomGreetingFromFile".ToLower().Contains(searchCriteria.ToLower()))  
@@ -162,26 +162,26 @@ Echo/EchoGreetingFromFile, outbound operation
     }  
     ```  
   
-6.  繼續加入下列程式碼，傳回的陣列`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`物件。  
+6.  繼續新增下列程式碼，傳回的陣列`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`物件。  
   
     ```csharp  
     return resultList.ToArray();  
     ```  
   
-7.  在 Visual Studio 中，在**檔案**功能表上，按一下 **全部儲存**。  
+7.  在 Visual Studio 中，在**檔案**功能表上，按一下**全部儲存**。  
   
-8.  按一下 [ **建置** ] 功能表上的 [ **建置方案**]。 您應該成功編譯專案。 如果沒有，請確定您已依照上述每個步驟。  
+8.  按一下 [ **建置** ] 功能表上的 [ **建置方案**]。 您應該已成功編譯專案。 如果沒有，請確定您已遵循上述每個步驟。  
   
     > [!NOTE]
-    >  您應該已經儲存您的工作結果。 您可以安全地關閉目前的 Visual Studio 或移至下一個步驟中，[步驟 6： 實作回應配接器中繼資料解析的處理常式](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-6-implement-the-metadata-resolve-handler-for-the-echo-adapter.md)。  
+    >  您應該已經儲存您的工作結果。 您可以安全地關閉目前的 Visual Studio，或移至下一個步驟中，[步驟 6： 實作 Echo 配接器的中繼資料解析處理常式](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-6-implement-the-metadata-resolve-handler-for-the-echo-adapter.md)。  
   
-## <a name="what-did-i-just-do"></a>我剛剛做什麼？  
- 您只實作搜尋功能的回應配接器，藉由實作的中繼資料`Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler.Search%2A`方法`Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler`介面。 具體來說，您建立`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`物件符合準則，則傳回陣列的每個作業`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`物件。  
+## <a name="what-did-i-just-do"></a>我剛剛做了什麼？  
+ 您只實作搜尋功能的 Echo 配接器，藉由實作的中繼資料`Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler.Search%2A`方法的`Microsoft.ServiceModel.Channels.Common.IMetadataSearchHandler`介面。 具體來說，您建立`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`針對每項作業符合準則，則傳回的陣列物件`Microsoft.ServiceModel.Channels.MetadataRetrievalNode`物件。  
   
 ## <a name="next-steps"></a>後續步驟  
- 您將實作中繼資料解析功能，以及在傳出和傳入的訊息交換功能。 最後，您將建置和部署回應配接器。  
+ 您會實作中繼資料解析功能，以及在傳出和傳入的訊息交換功能。 最後，您會建置並部署 Echo 配接器。  
   
 ## <a name="see-also"></a>另請參閱  
- [步驟 4： 回應配接器實作中繼資料瀏覽的處理常式](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-4-implement-the-metadata-browse-handler-for-the-echo-adapter.md)   
- [步驟 6： 實作回應配接器中繼資料解析處理常式](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-6-implement-the-metadata-resolve-handler-for-the-echo-adapter.md)   
- [教學課程 1： 在開發回應配接器](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)
+ [步驟 4： 實作 Echo 配接器中繼資料瀏覽處理常式](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-4-implement-the-metadata-browse-handler-for-the-echo-adapter.md)   
+ [步驟 6： 實作 Echo 配接器中繼資料解析處理常式](../../adapters-and-accelerators/wcf-lob-adapter-sdk/step-6-implement-the-metadata-resolve-handler-for-the-echo-adapter.md)   
+ [教學課程 1：開發 Echo 配接器](../../adapters-and-accelerators/wcf-lob-adapter-sdk/tutorial-1-develop-the-echo-adapter.md)

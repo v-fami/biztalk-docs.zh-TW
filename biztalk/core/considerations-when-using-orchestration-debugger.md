@@ -1,5 +1,5 @@
 ---
-title: 使用協調流程偵錯工具時的考量 |Microsoft 文件
+title: 使用協調流程偵錯工具時的考量 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -20,12 +20,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2815da55bc74d822cb5fe2540347855db75b3a8b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8e3e244691d61ef27c55f606414dd08857d58f14
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22237966"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36998151"
 ---
 # <a name="considerations-when-using-orchestration-debugger"></a>使用協調流程偵錯工具時的考量
 以下為使用協調流程偵錯工具時需考量的事項。  
@@ -33,11 +33,11 @@ ms.locfileid: "22237966"
 ## <a name="tracking-atomic-scopes"></a>追蹤不可部分完成的範圍  
  協調流程會包含不可部分完成的範圍，以包含對規則引擎的呼叫。 當您連接至協調流程偵錯工具中的執行個體時，協調流程執行個體中不可部分完成的範圍將會導致追蹤的事件清單中出現間距。 發生的原因有兩個：  
   
--   因為直到範圍認可之前，不可部分完成交易中圖形的事件都不會持續。  
+- 因為直到範圍認可之前，不可部分完成交易中圖形的事件都不會持續。  
   
--   偵錯工具會將事件重新載入至清單結尾，因此在即時工作階段，所有的間距都還沒有填滿。  
+- 偵錯工具會將事件重新載入至清單結尾，因此在即時工作階段，所有的間距都還沒有填滿。  
   
- 若您重新整理檢視即可消除間距。  
+  若您重新整理檢視即可消除間距。  
   
 > [!NOTE]
 >  您無法在不可部分完成範圍內的圖形上設定中斷點。  
@@ -61,10 +61,10 @@ ms.locfileid: "22237966"
   
 -   設定其他中斷點。  
   
--   選取**繼續服務**選項。  
+-   選取 **繼續服務**選項。  
   
 -   視需要重複任何步驟。  
   
 ## <a name="see-also"></a>另請參閱  
- [協調流程偵錯工具中的互動模式](../core/interactive-mode-in-orchestration-debugger.md)   
+ [在協調流程偵錯工具的互動模式](../core/interactive-mode-in-orchestration-debugger.md)   
  [偵錯協調流程](../core/debugging-an-orchestration.md)

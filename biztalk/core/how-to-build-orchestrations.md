@@ -1,5 +1,5 @@
 ---
-title: 如何建置協調流程 |Microsoft 文件
+title: 如何建置協調流程 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,12 +19,12 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 79e91ec6ecfa061aa4621effba9a1f868cad5d96
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9000c986e95270328d9c31ef4f5e3bda7f1576e5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22248142"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36987327"
 ---
 # <a name="how-to-build-orchestrations"></a>如何建置協調流程
 在您完成協調流程繪製後，就可以將 BizTalk 專案建置到封裝可執行協調流程的組件中。  
@@ -33,13 +33,13 @@ ms.locfileid: "22248142"
   
  在 Visual Studio 中建置時有數個選項可使用：  
   
--   您可以建置協調流程所在的整個解決方案。  
+- 您可以建置協調流程所在的整個解決方案。  
   
--   您可以在解決方案中建置單一專案。  
+- 您可以在解決方案中建置單一專案。  
   
--   您可以在建置專案或解決方案時略過協調流程。  
+- 您可以在建置專案或解決方案時略過協調流程。  
   
- 若您要建置其他元件 (包括其他協調流程)，但不想建置某個特定的協調流程，則您可以在協調流程的 .odx 檔案之檔案屬性中指示不想建置它，如此就會略過它。  
+  若您要建置其他元件 (包括其他協調流程)，但不想建置某個特定的協調流程，則您可以在協調流程的 .odx 檔案之檔案屬性中指示不想建置它，如此就會略過它。  
   
 ### <a name="to-build-an-orchestration"></a>建置協調流程  
   

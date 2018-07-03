@@ -1,5 +1,5 @@
 ---
-title: 在序列化期間發生錯誤。 Edifact 交換發生下列錯誤 |Microsoft 文件
+title: 序列化期間發生的錯誤。 Edifact 交換發生下列錯誤 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b4a84c70ee5db36c5482cac34c73ef0c9cad4620
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: eb97be1be3c623673d2429a20598c748a8d73de7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22240006"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37000823"
 ---
-# <a name="error-encountered-during-serialization-the-edifact-interchange-had-the-following-errors"></a>在序列化期間發生錯誤。 Edifact 交換發生下列錯誤
+# <a name="error-encountered-during-serialization-the-edifact-interchange-had-the-following-errors"></a>序列化期間發生的錯誤。 Edifact 交換發生下列錯誤
 ## <a name="details"></a>詳細資料  
   
-|||  
-|-|-|  
-|產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|產品版本|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|事件識別碼|-|  
-|事件來源|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]EDI|  
-|元件|EDI 引擎|  
-|符號名稱|EfactInterchangeSendError|  
-|訊息文字|在序列化期間發生錯誤。 寄件者識別碼 '{1}' 識別碼為 '{0}'，Edifact 交換接收者識別碼 '{2}' 發生下列錯誤：|  
+|                 |                                                                                                                                                  |
+|-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
+|  產品名稱   |                                [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                |
+| 產品版本 |                                            [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                            |
+|    事件識別碼     |                                                                        -                                                                         |
+|  事件來源   |                              [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                              |
+|    元件    |                                                                    將 EDI 引擎                                                                    |
+|  符號名稱  |                                                            EfactInterchangeSendError                                                             |
+|  訊息文字   | 序列化期間發生的錯誤。 Edifact 交換識別碼 '{0}'，寄件者識別碼為'{1}'，接收者識別碼 '{2}' 發生下列錯誤： |
   
 ## <a name="explanation"></a>說明  
- 這個錯誤/警告/資訊事件表示 EDI 傳送管線在外寄 EDIFACT 交換序列化因為識別的交換與敘述的錯誤時，會發生錯誤。  
+ 這個錯誤/警告/資訊事件表示 EDI 傳送管線在序列化傳出的 EDIFACT 交換因為識別的交換所述的錯誤時，會發生錯誤。  
   
 ## <a name="user-action"></a>使用者動作  
- 若要解決這個錯誤，找出交換中的錯誤，，然後決定產品說明中的問題解決方法需要使用錯誤訊息中的資訊。
+ 若要解決這個錯誤，找出交換中的錯誤訊息，並接著決定產品說明中的問題解決方法需要使用錯誤訊息中的資訊。

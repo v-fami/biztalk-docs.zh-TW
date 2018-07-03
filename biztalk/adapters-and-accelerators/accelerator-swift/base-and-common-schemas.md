@@ -1,5 +1,5 @@
 ---
-title: 基底和常見的結構描述 |Microsoft 文件
+title: 基底和通用結構描述 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,19 +17,19 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 88ca51abfcdbfe965bc3da8deeb97f72df736903
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6b7f8f86e4b74b84cef556ae95bc6255d8575237
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209174"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37012567"
 ---
-# <a name="base-and-common-schemas"></a>基底和常見的結構描述
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]已實作的記錄和組成個別的訊息結構描述不同的結構描述中的項目。 這個方法會提供單一位置，以提供更新的欄位和隔離這類變更的訊息結構描述的格式。  
+# <a name="base-and-common-schemas"></a>基底和通用結構描述
+Microsoft[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]已實作的記錄和組成個別的訊息結構描述不同的結構描述中的項目。 此方法提供單一位置來提供更新的欄位和隔絕這類變更的訊息結構描述的格式。  
   
- 基底結構描述 (**SWIFT 基底 Types.xsd**) 包含的訊息結構描述參考一般記錄和項目定義。 一般記錄和項目定義對應至 SWIFT FIN 訊息欄位。 您需要將這個結構描述加入至任何使用訊息結構描述的專案。 基底結構描述的規則和一般函數，涵蓋了，並定義 A4SWIFT 用來驗證適當的訊息執行個體的格式。 SWIFT 基底 Types.xsd 結構描述會定義 XSD **simpleType**和 SWIFT 欄位的複雜項目。 已定義 SWIFT **simpleType**元素的所有基底欄位的詳細資訊，例如金額、 速率、 價格以及等等，SWIFT 使用中的許多欄位。 SWIFT 基底 Types.xsd 結構描述也會定義可包含許多自訂的欄位，XSD 複雜的項目**simpleTypes**結構描述中定義。 例如， **BankIdentifierCode**銀行代碼、 國家/地區代碼、 區碼和分支程式碼，會使用複雜的項目。 使用者可以加入新**simpleTypes**和複雜的項目鏡像 SWIFT 的欄位，且可修改現有的類型。 您應該格外謹慎，不過，當您修改現有的型別，因為商務規則引擎 (BRE) 驗證 」 和 「 XML 驗證功能相依於這些定義的型別。  
+ 基底結構描述 (**SWIFT 基底 Types.xsd**) 包含訊息結構描述參考的通用記錄及項目定義。 常見的記錄] 和 [項目定義對應至 SWIFT FIN 訊息欄位。 您要使用的訊息結構描述的任何專案中加入此結構描述。 基底結構描述會涵蓋常見的函式，與規則，並定義 A4SWIFT 驗證適當的訊息執行個體所使用的格式。 SWIFT 基底 Types.xsd 結構描述會定義 XSD **simpleType**和 SWIFT 欄位的複雜元素。 已定義 SWIFT **simpleType**所有基底欄位的詳細資訊，例如數量、 速率、 價格以及等等，SWIFT 使用中的許多欄位的項目。 SWIFT 基底 Types.xsd 結構描述也會定義 XSD 包含許多自訂欄位的複雜項目**simpleTypes**結構描述中定義。 例如， **BankIdentifierCode**銀行代碼、 國家/地區代碼、 區碼和分支程式碼，會使用複雜的項目。 使用者可以加入新**simpleTypes**和複雜的項目鏡像 SWIFT 的欄位，且可修改現有的型別。 您應該要特別注意，不過，當您修改現有的型別，因為 商務規則引擎 (BRE) 驗證 和 XML 驗證功能必須依賴這些定義的類型。  
   
- 常見的結構描述 (**SWIFT 常見資料 Types.xsd**) 基底結構描述中定義適當的欄位的字元集。 SWIFT 定義中參考這些字元集， *SWIFT 使用者手冊*。 您也需要將通用的結構描述新增至您的結構描述專案。  
+ 常見的結構描述 (**SWIFT 常見資料 Types.xsd**) 基底結構描述中定義的適當欄位的字元集。 SWIFT 定義這些字元集中，依照*SWIFT 使用者手冊*。 您也需要將常見的結構描述新增至您的結構描述專案。  
   
 ## <a name="see-also"></a>另請參閱  
  [使用結構描述](../../adapters-and-accelerators/accelerator-swift/working-with-schemas.md)

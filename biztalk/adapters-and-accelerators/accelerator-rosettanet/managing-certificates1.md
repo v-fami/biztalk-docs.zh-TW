@@ -1,5 +1,5 @@
 ---
-title: 管理 Certificates1 |Microsoft 文件
+title: 管理 Certificates1 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,15 +15,15 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c3d74342d15d65082b6d94f252023c3df1d601dd
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2d9d326155ea788a77fe86c0c4eb126476d21ece
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209286"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36984999"
 ---
 # <a name="managing-certificates"></a>管理憑證
-RosettaNet 中的安全通訊需要用到憑證。 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 使用憑證來加密外寄訊息、簽署外寄訊息、解密內送訊息，以及驗證內送訊息中的簽章。  
+RosettaNet 中的安全通訊需要用到憑證。 Microsoft®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]使用憑證來加密外寄訊息、 簽署外寄訊息、 解密內送訊息，並確認內送訊息中的簽章。  
   
  若要使用憑證，您必須執行下列部分或全部步驟：  
   

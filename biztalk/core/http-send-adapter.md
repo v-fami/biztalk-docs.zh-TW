@@ -1,5 +1,5 @@
 ---
-title: HTTP 傳送配接器 |Microsoft 文件
+title: HTTP 傳送配接器 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ce8bfdfd380fac422f79ba175ae075a94f313dec
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f2ddd2a3fa4b8bb2f97e25809121fa11b1f473f1
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22257974"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36999639"
 ---
 # <a name="http-send-adapter"></a>HTTP 傳送配接器
 HTTP 傳送配接器會從 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 取得訊息，並在 HTTP POST 要求時，將它們傳送到目的地 URL。 HTTP 傳送配接器會從 BizTalk 訊息物件的內文部分取得訊息內容。 HTTP 傳送配接器會忽略 BizTalk 訊息物件中的所有其他部分。  
@@ -32,22 +32,22 @@ HTTP 傳送配接器會從 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsb
  HTTP 傳送配接器不支援批次作業。  
   
 ## <a name="chunked-encoding-support-for-the-http-send-adapter"></a>HTTP 傳送配接器的區塊編碼支援  
- 如果**啟用區塊編碼**已啟用組態選項，則 HTTP 傳送配接器傳送要求訊息使用區塊編碼，如果要求的大小超過 8 KB。 若已使用 HTTP Proxy 伺服器，則 HTTP 傳送配接器不會使用區塊編碼，並且永遠會在傳送之前處理資料。 **啟用區塊編碼**預設會啟用組態選項。  
+ 如果**啟用區塊編碼**啟用組態選項，則 HTTP 傳送配接器會傳送使用區塊編碼，如果要求的大小超過 8 KB 的要求訊息。 若已使用 HTTP Proxy 伺服器，則 HTTP 傳送配接器不會使用區塊編碼，並且永遠會在傳送之前處理資料。 **啟用區塊編碼**預設會啟用組態選項。  
   
  傳送配接器收到回應訊息時，可以接受有區塊編碼內文部分的回應訊息。  
   
 ## <a name="client-authentication-for-the-http-send-adapter"></a>HTTP 傳送配接器的用戶端驗證  
  HTTP 傳送配接器會使用下列其中一種驗證類型在目的地伺服器進行驗證：  
   
--   **匿名的。** HTTP 配接器不會傳送任何認證，連接到目的地伺服器時。 若目的地伺服器允許匿名驗證，則會使用在目的地伺服器上已設定之匿名帳戶的認證。  
+- **匿名的。** HTTP 配接器在連接到目的地伺服器時，不會傳送任何認證。 若目的地伺服器允許匿名驗證，則會使用在目的地伺服器上已設定之匿名帳戶的認證。  
   
--   **基本。** HTTP 配接器透過 HTTP 連線以純文字傳送使用者名稱與密碼。  
+- **基本的。** HTTP 配接器透過 HTTP 連線以純文字傳送使用者名稱與密碼。  
   
--   **摘要。** HTTP 配接器透過 HTTP 連線以加密格式傳送密碼。  
+- **摘要。** HTTP 配接器透過 HTTP 連線以加密格式傳送密碼。  
   
--   **Kerberos。** 不會透過 HTTP 連線傳送使用者名稱與密碼。 HTTP 配接器會使用 HTTP 傳送配接器在此程序之下執行此驗證類型的程序之認證。  
+- **Kerberos。** 不會透過 HTTP 連線傳送使用者名稱與密碼。 HTTP 配接器會使用 HTTP 傳送配接器在此程序之下執行此驗證類型的程序之認證。  
   
- 此外，HTTP 傳送配接器還可以在伺服器要求或接受用戶端「安全通訊端層」(SSL) 憑證時，提供此憑證給 Web 伺服器。  
+  此外，HTTP 傳送配接器還可以在伺服器要求或接受用戶端「安全通訊端層」(SSL) 憑證時，提供此憑證給 Web 伺服器。  
   
 ## <a name="client-certificates-for-the-http-send-adapter"></a>HTTP 傳送配接器的用戶端憑證  
  HTTP 傳送配接器可以與接受或要求用戶端憑證之伺服器建立安全連線。 若已指定用戶端憑證，則 HTTP 傳送配接器在與要求或接受用戶端憑證的伺服器連線時會使用憑證。 若未指定用戶端憑證，但目的地伺服器要求用戶端憑證，則 HTTP 傳送配接器無法傳送訊息並依照標準重試邏輯處理。  
@@ -59,9 +59,9 @@ HTTP 傳送配接器會從 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsb
   
  **單一登入 」 支援之 http 接收位置**  
   
- 當 Microsoft Internet Information Services (IIS) 從 Web 用戶端收到 HTTP 要求時，IIS 會驗證使用者。 Internet Server Application Programming Interface (ISAPI) 延伸模組會模擬 Microsoft Windows 使用者，然後呼叫 SSO 認證存放區以取得加密的票證。 此票證會儲存為**SSOTicket**中的訊息內容屬性。  
+ 當 Microsoft Internet Information Services (IIS) 從 Web 用戶端收到 HTTP 要求時，IIS 會驗證使用者。 Internet Server Application Programming Interface (ISAPI) 延伸模組會模擬 Microsoft Windows 使用者，然後呼叫 SSO 認證存放區以取得加密的票證。 此票證會儲存為**SSOTicket**訊息的內容中的屬性。  
   
- 在通過實例中，「BizTalk 傳訊引擎」會將訊息導向至 MessageBox 資料庫。 當配接器從 MessageBox 資料庫接收訊息時，HTTP 配接器呼叫**ISSOTicket.RedeemTicket 方法**具有加密票證及應用程式名稱，以擷取從後端認證SSO 存放區。 HTTP 配接器接著就會使用外部認證連接到後端系統並處理要求。 如需分支機構應用程式的詳細資訊，請參閱[SSO 分支機構應用程式](../core/sso-affiliate-applications.md)。  
+ 在通過實例中，「BizTalk 傳訊引擎」會將訊息導向至 MessageBox 資料庫。 當配接器從 MessageBox 資料庫收到訊息時，HTTP 配接器會呼叫**ISSOTicket.RedeemTicket 方法**具有加密票證及應用程式名稱，以擷取從後端認證SSO 存放區。 HTTP 配接器接著就會使用外部認證連接到後端系統並處理要求。 如需分支機構應用程式的詳細資訊，請參閱[SSO 分支機構應用程式](../core/sso-affiliate-applications.md)。  
   
  在協調流程叫用配接器的實例中，「BizTalk 傳訊引擎」會傳送此訊息至 MessageBox 資料庫。 協調流程應確保同時**SSOTicket**內容屬性和**Microsoft.BizTalk.XLANGs.BTXEngine.OriginatorSID**包含票證的訊息內容屬性維護。 當配接器從 MessageBox 資料庫收到這個訊息時，配接器會呼叫**RedeemTicket**具有加密票證從 SSO 存放區擷取後端認證。 設計排程的使用者應該特別將此屬性複製到訊息中。  
   
@@ -78,9 +78,9 @@ HTTP 傳送配接器會從 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsb
   
 -   必須在下列各處指定相同的使用者帳戶：  
   
-    -   IIS 虛擬目錄 (由 HTTP 接收配接器所監控) 之應用程式集區識別 (IIS 7.0) 或裝載 COM+ 應用程式識別。 如需有關設定 IIS 的 HTTP 接收位置，請參閱[如何設定 HTTP 接收位置的 IIS](../core/how-to-configure-iis-for-an-http-receive-location.md)。  
+    -   IIS 虛擬目錄 (由 HTTP 接收配接器所監控) 之應用程式集區識別 (IIS 7.0) 或裝載 COM+ 應用程式識別。 如需有關設定 IIS 的 HTTP 接收位置，請參閱[針對 HTTP 接收位置設定 IIS 如何](../core/how-to-configure-iis-for-an-http-receive-location.md)。  
   
-    -   HTTP 配接器正在執行中的外掛式主控的件執行個體所使用的登入認證。 如需如何設定主控件執行個體的登入認證資訊，請參閱[如何修改主控件執行個體屬性](../core/how-to-modify-host-instance-properties.md)。  
+    -   在中執行 HTTP 配接器的外掛式主控件執行個體所使用的登入認證。 如需如何設定主控件執行個體的登入認證的詳細資訊，請參閱[如何修改主控件執行個體內容](../core/how-to-modify-host-instance-properties.md)。  
   
 -   HTTP 配接器使用的外掛式主控件必須設定為 [信任的驗證]。 如需如何將主控件設定為信任的驗證資訊，請參閱[如何修改主機內容](../core/how-to-modify-host-properties.md)。  
   
@@ -121,36 +121,36 @@ HTTP 傳送配接器會從 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsb
   
  若要訂閱 NACK 訊息，可以執行下列其中一個動作：  
   
--   使用適當訊息內容屬性的篩選建立傳送埠。 請參閱**訊息內容屬性**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]如需系統訊息內容屬性的清單包括那些與訊息通知相關。  
+- 使用適當訊息內容屬性的篩選建立傳送埠。 請參閱**訊息內容屬性**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]如需系統訊息內容屬性的清單包括相關訊息通知。  
   
--   從標記為協調流程連接埠傳送**Delivery Notification = Transmitted**。 如果協調流程連接埠標示為**Delivery Notification = Transmitted**，協調流程會等候直到其接收到 ACK 或 NACK 傳輸訊息。 若產生的是 NACK，則會傳送到協調流程，且協調流程會擲回 DeliveryFailureException。 DeliveryFailureException 會從 NACK 訊息內文內包含的 SOAP 錯誤還原序列化。 若要從傳回協調流程的 SOAP 錯誤中擷取例外狀況訊息字串，請將 DeliveryFailureException 轉換為 SoapException，接著從 SOAP Detail 區段存取 InnerXml。 下列程式碼範例示範如何執行此操作：  
+- 從標記為協調流程連接埠傳送**Delivery Notification = Transmitted**。 如果協調流程連接埠會標示**Delivery Notification = Transmitted**，協調流程會等候，直到它收到 ACK 或 NACK 訊息傳輸。 若產生的是 NACK，則會傳送到協調流程，且協調流程會擲回 DeliveryFailureException。 DeliveryFailureException 會從 NACK 訊息內文內包含的 SOAP 錯誤還原序列化。 若要從傳回協調流程的 SOAP 錯誤中擷取例外狀況訊息字串，請將 DeliveryFailureException 轉換為 SoapException，接著從 SOAP Detail 區段存取 InnerXml。 下列程式碼範例示範如何執行此操作：  
   
-    ```  
-    // Cast the DeliveryFailureException to a SoapException…  
-    System.Web.Services.Protocols.SoapException se = (System.Web.Services.Protocols.SoapException)e.InnerException;  
-    System.Diagnostics.Trace.WriteLine(se.Detail.InnerXml);  
-    //e is an Microsoft.XLANGs.BaseTypes.DeliveryFailureException  
-    //object type created in an Exception handler  
+  ```  
+  // Cast the DeliveryFailureException to a SoapException…  
+  System.Web.Services.Protocols.SoapException se = (System.Web.Services.Protocols.SoapException)e.InnerException;  
+  System.Diagnostics.Trace.WriteLine(se.Detail.InnerXml);  
+  //e is an Microsoft.XLANGs.BaseTypes.DeliveryFailureException  
+  //object type created in an Exception handler  
   
-    ```  
+  ```  
   
-     上述程式碼範例傳回的 XML 片段應和下列類似：  
+   上述程式碼範例傳回的 XML 片段應和下列類似：  
   
-    ```  
-    <ns0:NACK Type="NACK" xmlns:ns0="http://schema.microsoft.com/BizTalk/2003/NACKMessage.xsd">  
-    <NAckID>{4E646707-03AA-4493-95C7-A64B09E2987D}</NAckID>  
-    <ErrorCode>0x80131600</ErrorCode>  
-    <ErrorCategory>0</ErrorCategory>  
-    <ErrorDescription>The remote server returned an error: (404) Not Found.</ErrorDescription>  
-    <ErrorDetail>  
-    <HttpErrorDetail xmlns="http://schema.microsoft.com/BizTalk/2006/HttpErrorDetails.xsd">  
-       <Headers>Server: Microsoft-IIS/5.1 Date: Wed, 21 Apr 2005 00:27:47 GMT X-Powered-By: ASP.NET Connection: close Content-Type: text/html Content-Length: 67 </Headers>  
-       <Body>We could not locate the page you requested. Please check the URL.</Body>  
-    </HttpErrorDetail>  
-    </ErrorDetail>  
-    </ns0:NACK>  
-    ```  
+  ```  
+  <ns0:NACK Type="NACK" xmlns:ns0="http://schema.microsoft.com/BizTalk/2003/NACKMessage.xsd">  
+  <NAckID>{4E646707-03AA-4493-95C7-A64B09E2987D}</NAckID>  
+  <ErrorCode>0x80131600</ErrorCode>  
+  <ErrorCategory>0</ErrorCategory>  
+  <ErrorDescription>The remote server returned an error: (404) Not Found.</ErrorDescription>  
+  <ErrorDetail>  
+  <HttpErrorDetail xmlns="http://schema.microsoft.com/BizTalk/2006/HttpErrorDetails.xsd">  
+     <Headers>Server: Microsoft-IIS/5.1 Date: Wed, 21 Apr 2005 00:27:47 GMT X-Powered-By: ASP.NET Connection: close Content-Type: text/html Content-Length: 67 </Headers>  
+     <Body>We could not locate the page you requested. Please check the URL.</Body>  
+  </HttpErrorDetail>  
+  </ErrorDetail>  
+  </ns0:NACK>  
+  ```  
   
 ## <a name="see-also"></a>另請參閱  
  [HTTP 配接器](../core/http-adapter.md)  
-**SSO COM 物件**[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]
+**SSO COM 物件** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]

@@ -1,5 +1,5 @@
 ---
-title: 建立前置或後置處理指令碼 |Microsoft 文件
+title: 建立前置或後置處理指令碼 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -20,12 +20,12 @@ caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 532c730d5a654512610a37c9dac783fbc6a76d6c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6993ab2786cc33e40f00bab7910353170e318db0
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22239294"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37006471"
 ---
 # <a name="creating-a-pre--or-post-processing-script"></a>建立前置或後置處理指令碼
 您可以在部署應用程式時建立指令碼來執行動作，然後定義該指定碼在部署階段的執行時機。 您可以利用環境變數來分隔程式碼，以便在同一個指令碼中同時包含安裝與清除程式碼。 您也可以將命令列引數傳送至指令碼中。  
@@ -38,17 +38,17 @@ ms.locfileid: "22239294"
   
  前置與後置處理指令碼執行時機如下：  
   
--   前置處理指令碼會在匯入或者安裝階段開始時執行。  
+- 前置處理指令碼會在匯入或者安裝階段開始時執行。  
   
--   後置處理指令碼會在匯入或者安裝階段結束時執行。  
+- 後置處理指令碼會在匯入或者安裝階段結束時執行。  
   
--   在解除安裝階段，所有的指令碼都會依據安裝時的程序順序倒退執行。 因此，後置處理指令碼會在開始解除安裝時執行，而前置處理指令碼則是在解除安裝結束時執行。  
+- 在解除安裝階段，所有的指令碼都會依據安裝時的程序順序倒退執行。 因此，後置處理指令碼會在開始解除安裝時執行，而前置處理指令碼則是在解除安裝結束時執行。  
   
--   如果安裝程序失敗，所有的指令碼將會按照適當的回復動作，進行反向呼叫。  
+- 如果安裝程序失敗，所有的指令碼將會按照適當的回復動作，進行反向呼叫。  
   
- 一旦叫用，前置或後置處理指令碼會決定哪些部署狀態 （安裝、 匯入、 刪除、 解除安裝、 匯入回復或安裝回復） 中執行檢查環境變數 BTAD_ChangeRequestAction、 BTAD_InstallMode與 BTAD_HostClass 中所述[如何環境變數指出部署狀態](../core/how-environment-variables-indicate-deployment-state.md)。 如需變數的參考資訊，請參閱[前置和後置處理指令碼環境變數](../core/pre-and-post-processing-script-environment-variables.md)。  
+  一旦叫用，前置或後置處理指令碼會判斷的部署狀態 （安裝、 匯入、 刪除、 解除安裝、 匯入回復或安裝回復） 在執行檢查環境變數 BTAD_ChangeRequestAction、 BTAD_InstallMode與 BTAD_HostClass 中所述[如何環境變數指出部署狀態](../core/how-environment-variables-indicate-deployment-state.md)。 如需變數的參考資訊，請參閱 <<c0> [ 前置和後置處理指令碼環境變數](../core/pre-and-post-processing-script-environment-variables.md)。  
   
- 如需應用程式中加入指令碼的指示，請參閱[如何新增前置或後置處理指令碼至應用程式](../core/how-to-add-a-pre-or-post-processing-script-to-an-application.md)。  
+  如需應用程式中加入指令碼的指示，請參閱 <<c0> [ 如何新增前置或後置處理指令碼至應用程式](../core/how-to-add-a-pre-or-post-processing-script-to-an-application.md)。  
   
 > [!NOTE]
 >  如果您想要將命令列引數包含在指令碼中，必須使用 AddResource 命令來新增指令碼，本文稍後將會討論。  
@@ -113,7 +113,7 @@ ms.locfileid: "22239294"
 ## <a name="passing-in-command-line-arguments"></a>傳送命令列引數  
  當您使用 BTSTask AddResource 命令將指令碼新增到應用程式時，可以指定下列參數將命令列引數傳送至指令碼中。 如果您這麼做，當叫用指令碼時，引數就會傳送至指令碼中。  
   
- **/Property:Args =**"*引數清單*"  
+ **/Property:Args =**」*引數清單*"  
   
 > [!NOTE]
 >  如果您的應用程式中有多個前置或後置處理指令碼，則這些指令碼沒有特定的執行順序。  
@@ -121,8 +121,8 @@ ms.locfileid: "22239294"
 > [!IMPORTANT]
 >  您應該避免在指令碼中使用 BTSTask 命令 (特別是那些會在匯入時執行的指令碼)，因為在同一個交易中，不同的指令碼不會被登記成匯入動作來處理。  
   
- 如需使用 AddResource 命令加入至應用程式的指令碼的指示，請參閱[AddResource 命令： 前置處理指令碼](../core/addresource-command-preprocessing-script.md)。 另請參閱[AddResource 命令： 後置處理指令碼](../core/addresource-command-postprocessing-script.md)  
+ 如需使用 AddResource 命令將指令碼新增至應用程式的指示，請參閱 < [AddResource 命令： 前置處理指令碼](../core/addresource-command-preprocessing-script.md)。 另請參閱[AddResource 命令： 後置處理指令碼](../core/addresource-command-postprocessing-script.md)  
   
 ## <a name="see-also"></a>另請參閱  
  [使用前置和後置處理指令碼自訂應用程式部署](../core/using-pre-and-post-processing-scripts-to-customize-application-deployment.md)   
- [範本 （應用程式部署範例）](../core/template-application-deployment-sample.md)
+ [Template (應用程式部署範例)](../core/template-application-deployment-sample.md)

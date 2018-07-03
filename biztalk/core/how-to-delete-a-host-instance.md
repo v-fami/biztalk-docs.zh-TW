@@ -1,5 +1,5 @@
 ---
-title: 刪除主控件執行個體 |Microsoft 文件
+title: 刪除主控件執行個體 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,17 +12,17 @@ caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 798ea341ef61b15729dd15742eef7701641e7547
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6ecc7999e807b4036f80e8fdd1941d447f7af163
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22249198"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37023580"
 ---
 # <a name="delete-a-host-instance"></a>刪除主控件執行個體
 
 ## <a name="overview"></a>概觀
-您可以使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台或 Windows Management Instrumentation (WMI) 刪除主控件執行個體。 如需主控件執行個體的詳細資訊，請參閱[主控件執行個體](../core/host-instances.md)。 如需使用 WMI 刪除主控件執行個體的詳細資訊，請參閱**MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
+您可以使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台或 Windows Management Instrumentation (WMI) 來刪除主控件執行個體。 如需主控件執行個體的詳細資訊，請參閱[主控件執行個體](../core/host-instances.md)。 如需使用 WMI 刪除主控件執行個體的資訊，請參閱**MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
   
  刪除主控件執行個體時，會從關聯的伺服器移除 BizTalk Server 執行階段的執行個體，且會更新 [BizTalk 管理] 資料庫，以從主控件移除該執行個體。  
   
@@ -48,16 +48,16 @@ ms.locfileid: "22249198"
   
 ## <a name="steps"></a>步驟
   
-1.  按一下**啟動**，按一下 **所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。  
+1. 按一下 **開始**，按一下**所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下**BizTalk Server 管理**。  
   
-2.  在主控台樹狀目錄中，依序展開**BizTalk Server 管理**，展開 BizTalk 群組，按一下**平台設定**，然後按一下 **主控件執行個體**。  
+2. 在主控台樹狀目錄中，依序展開**BizTalk Server 管理]**、 [BizTalk 群組，按一下**平台設定**，然後按一下**主控件執行個體**。  
   
-3.  在詳細資料窗格中，以滑鼠右鍵按一下您想要刪除，然後按一下 主控件執行個體**刪除**。  
+3. 在 詳細資料 窗格中，以滑鼠右鍵按一下您想要刪除此項目，然後按一下 主控件執行個體**刪除**。  
   
-4.  在**確認刪除主控件執行個體**對話方塊中，按一下 **是**。  
+4. 在 [**確認刪除主控件執行個體**] 對話方塊中，按一下**是**。  
   
-    > [!NOTE]
-    >  若 BizTalk Server 無法刪除主控件執行個體，則會顯示一個對話方塊，您可以在其中強制刪除主控件執行個體。 閱讀所提供的資訊之後, 按**是**刪除主控件執行個體。  
+   > [!NOTE]
+   >  若 BizTalk Server 無法刪除主控件執行個體，則會顯示一個對話方塊，您可以在其中強制刪除主控件執行個體。 閱讀後提供的資訊，請按一下**是**刪除主控件執行個體。  
   
 ## <a name="see-also"></a>另請參閱  
  [管理 BizTalk 主控件和主控件執行個體](../core/managing-biztalk-hosts-and-host-instances.md)   

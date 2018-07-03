@@ -1,5 +1,5 @@
 ---
-title: 如何刪除 MessageBox 資料庫 |Microsoft 文件
+title: 如何刪除 MessageBox 資料庫 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,12 +16,12 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2a12c74bfef8d6afec15b0c83f520eb4be43696c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2a025ea29e13ef938a39f9555785177f2c64e922
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22250062"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37023596"
 ---
 # <a name="how-to-delete-a-messagebox-database"></a>如何刪除 MessageBox 資料庫
 您可使用 BizTalk 管理主控台或 Windows Management Instrumentation (WMI) 從 BizTalk 群組移除 MessageBox 資料庫。 您可從 BizTalk 群組移除 MessageBox 資料庫，也可從 BizTalk Server 部署中整個移除此資料庫。  
@@ -44,9 +44,9 @@ ms.locfileid: "22250062"
   
 4.  重新啟動包含到 MessageBox 資料庫的快取連線的主控件執行個體。  
   
-     若執行階段引擎的快取資料庫連線是現用的，則從 SQL Server 實際刪除資料庫之前，必須重新啟動主控件執行個體。 如需啟動主控件執行個體的相關資訊，請參閱[如何啟動主控件執行個體](../core/how-to-start-a-host-instance.md)。  
+     若執行階段引擎的快取資料庫連線是現用的，則從 SQL Server 實際刪除資料庫之前，必須重新啟動主控件執行個體。 如需啟動主控件執行個體的相關資訊，請參閱 <<c0> [ 如何啟動主控件執行個體](../core/how-to-start-a-host-instance.md)。  
   
-5.  停止正在存取資料庫的所有主控件執行個體。 如需停止進行中的主控件執行個體的詳細資訊，請參閱[如何停止主控件執行個體](../core/how-to-stop-a-host-instance.md)。  
+5.  停止正在存取資料庫的所有主控件執行個體。 如需停止進行中主控件執行個體的詳細資訊，請參閱 <<c0> [ 如何停止主控件執行個體](../core/how-to-stop-a-host-instance.md)。  
   
      若您要移除非主要 MessageBox 資料庫，那麼在停止進行中的主控件執行個體前，必須先停用該 MessageBox 的新訊息發佈，並確認：  
   
@@ -79,23 +79,23 @@ ms.locfileid: "22250062"
   
 ### <a name="to-delete-a-messagebox-database-from-a-biztalk-group"></a>從 BizTalk 群組刪除 MessageBox 資料庫  
   
-1.  按一下**啟動**，按一下 **所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。  
+1. 按一下 **開始**，按一下**所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下**BizTalk Server 管理**。  
   
-2.  在主控台樹狀目錄中，依序展開[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，展開 BizTalk 群組，按一下**平台設定**，然後按一下 **訊息方塊**。  
+2. 在主控台樹狀目錄中，依序展開[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]、 BizTalk 群組，按一下**平台設定**，然後按一下**訊息方塊**。  
   
-3.  在詳細資料窗格中，以滑鼠右鍵按一下您想要移除，然後按一下訊息方塊資料庫**屬性**。  
+3. 在 詳細資料 窗格中，以滑鼠右鍵按一下您想要移除此項目，然後按一下 訊息方塊資料庫**屬性**。  
   
-4.  在**Messagebox 屬性**對話方塊中，選取**停用新訊息發佈**核取方塊。  
+4. 在 **訊息方塊內容**對話方塊中，選取**停用新訊息發佈**核取方塊。  
   
-5.  使用 BizTalk Server 管理主控台中的 [群組中樞] 頁面，確認您正要刪除的 MessageBox 資料庫上沒有凍結的或擱置的訊息執行個體。  
+5. 使用 BizTalk Server 管理主控台中的 [群組中樞] 頁面，確認您正要刪除的 MessageBox 資料庫上沒有凍結的或擱置的訊息執行個體。  
   
-6.  等待兩倍於 CacheRefreshInterval 的時間。 CacheRefreshInterval 的預設值為 60 秒。  
+6. 等待兩倍於 CacheRefreshInterval 的時間。 CacheRefreshInterval 的預設值為 60 秒。  
   
-7.  在詳細資料窗格中，以滑鼠右鍵按一下您想要刪除，然後按一下的 MessageBox 資料庫**刪除**。  
+7. 在詳細資料窗格中，以滑鼠右鍵按一下您想要刪除，然後按一下的 MessageBox 資料庫**刪除**。  
   
-8.  閱讀警告訊息之後, 按**確定**。  
+8. 閱讀警告訊息之後, 請按**確定**。  
   
-9. 在主控台樹狀目錄中，展開 BizTalk 群組中，按一下**平台設定**，然後按一下 **主控件執行個體**。  
+9. 在主控台樹狀目錄中，展開 BizTalk 群組中，按一下**平台設定**，然後按一下**主控件執行個體**。  
   
 10. 在詳細資料窗格中，使用滑鼠右鍵按一下所有執行中的主控件執行個體，然後停止並重新啟動每一個。  
   
@@ -105,6 +105,6 @@ ms.locfileid: "22250062"
   
 ## <a name="see-also"></a>另請參閱  
  [管理 MessageBox 資料庫](../core/managing-messagebox-databases.md)   
- [如何新增新的 MessageBox 資料庫](../core/how-to-add-a-new-messagebox-database.md)   
+ [如何加入新的 MessageBox 資料庫](../core/how-to-add-a-new-messagebox-database.md)   
  [如何停用新訊息發佈](../core/how-to-disable-new-message-publication.md)   
  [MessageBox 資料庫](../core/the-messagebox-database.md)

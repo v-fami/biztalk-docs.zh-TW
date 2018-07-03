@@ -1,5 +1,5 @@
 ---
-title: 醫療理賠處理和測試原則 （BizTalk Server 範例） |Microsoft 文件
+title: 醫療理賠處理和測試原則 （BizTalk Server 範例） |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 70cba6055c51371ddaaf99775bd5e7a60e7f3929
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 8e67b9a631764ed83659b05aa11f4c1570484f74
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26007983"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994863"
 ---
 # <a name="medical-claims-processing-and-testing-policies-biztalk-server-sample"></a>醫療理賠處理和測試原則 （BizTalk Server 範例）
 「醫療理賠處理和測試原則」範例示範如何建立一組規則集，其中多個規則會檢查衍生自資料庫資料表的事實和輸入文件，並使用 .NET 架構物件來記錄理賠處理的結果。  
@@ -50,14 +50,14 @@ ms.locfileid: "26007983"
   
  下表顯示此範例中的檔案，並描述其用途。  
   
-|檔案|Description|  
+|檔案|描述|  
 |---------------|-----------------|  
 |Cleanup.bat|用來解除部署組件，並將這些組件從全域組件快取 (GAC) 移除。 移除傳送埠和接收埠。 視需要移除 Microsoft Internet Information Services (IIS) 虛擬目錄。|  
 |Create_PolicyValidity_Table.sql|將新資料表 PolicyValidity 加入 Northwind 範例資料庫的 SQL 指令碼。|  
 |Setup.bat|用來建置和初始化此範例。|  
-|在 \Claims 資料夾中：<br /><br /> AssemblyInfo.cs、Claims.csproj、Claims.sln、Claims.cs|專案、 解決方案、 來源和相關的檔案，這個記錄理賠處理，結果的範例的一部分呼叫**然後**規則的一部分。|  
+|在 \Claims 資料夾中：<br /><br /> AssemblyInfo.cs、Claims.csproj、Claims.sln、Claims.cs|專案、 解決方案、 來源和相關的檔案，這個記錄理賠處理，結果的範例部分稱為**然後**規則的一部分。|  
 |在 \FactRetrieverForClaimsProcessing 資料夾中：<br /><br /> AssemblyInfo.cs、FactRetrieverForClaimsProcessing.cs、FactRetrieverForClaimsProcessing.csproj、FactRetrieverForClaimsProcessing.sln|這個範例所屬的專案、解決方案、來源和相關檔案，其提供長期事實擷取器 (會從這個範例所建立的 PolicyValidity 資料表擷取資訊)。|  
-|在 \RulesForMedicalClaims 資料夾中：<br /><br /> App.ico、AssemblyInfo.cs、RulesForMedicalClaims.cs、RulesForMedicalClaims.csproj、RulesForMedicalClaims.sln|專案、 解決方案、 來源和相關的檔案的一部分，其構成此範例 (RulesForMedicalClaims.exe)，以及哪些主要可執行檔以程式設計方式定義及儲存規則集，建構範例事實，然後執行規則集使用**PolicyTester**物件。|  
+|在 \RulesForMedicalClaims 資料夾中：<br /><br /> App.ico、AssemblyInfo.cs、RulesForMedicalClaims.cs、RulesForMedicalClaims.csproj、RulesForMedicalClaims.sln|專案、 解決方案、 來源和相關的檔案，這個範例所屬的構成主要可執行檔 (RulesForMedicalClaims.exe)，此範例和以程式設計方式定義及儲存規則集，建構範例事實，和接著執行使用設定的規則**PolicyTester**物件。|  
 |在 \RulesForMedicalClaims 資料夾中：<br /><br /> MedicalClaims.xsd|結構描述檔案，定義提交至此範例之範例醫療理賠申請的結構。|  
 |在 \RulesForMedicalClaims 資料夾中：<br /><br /> sampleClaim.xml|範例輸入檔，與 MedicalClaims.xsd 檔中定義的結構描述相符。|  
   
@@ -65,50 +65,50 @@ ms.locfileid: "26007983"
   
 #### <a name="to-build-and-initialize-the-medical-claims-processing-and-testing-policies-sample"></a>若要建置及初始化醫療理賠處理和測試原則範例  
   
-1.  確定您的電腦上已安裝 Northwind 資料庫。  
+1. 確定您的電腦上已安裝 Northwind 資料庫。  
   
-    > [!IMPORTANT]
-    >  若要執行此範例中，您必須具有 Northwind SQL Server 範例資料庫。 [下載](https://www.microsoft.com/download/details.aspx?id=23654)，並安裝。 
+   > [!IMPORTANT]
+   >  若要執行此範例中，您必須具有 Northwind SQL Server 範例資料庫。 [下載](https://www.microsoft.com/download/details.aspx?id=23654)，並安裝。 
   
-2.  在命令視窗中，瀏覽至下列資料夾：  
+2. 在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*\>\Business Rules\Medical 理賠處理和測試 Policies\  
+    \<*範例路徑*\>\Business Rules\Medical 理賠處理和測試 Policies\  
   
-3.  執行檔案 Setup.bat，這會執行下列動作：  
+3. 執行檔案 Setup.bat，這會執行下列動作：  
   
-    -   為這個範例編譯及部署 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 專案，包括 Claims.dll、FactRetrieverForClaimsProcessing.dll 和 RulesForMedicalClaims.dll。  
+   - 為這個範例編譯及部署 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 專案，包括 Claims.dll、FactRetrieverForClaimsProcessing.dll 和 RulesForMedicalClaims.dll。  
   
-    > [!NOTE]
-    >  在嘗試執行此範例之前，您必須確認 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 沒有在建置和初始化的程序中報告任何錯誤。  
+   > [!NOTE]
+   >  在嘗試執行此範例之前，您必須確認 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 沒有在建置和初始化的程序中報告任何錯誤。  
+   > 
+   > [!NOTE]
+   >  若您選擇不執行 Setup.bat 檔案就開啟和建置此範例中的專案，您必須先使用 .NET Framework Strong Name Utility (sn.exe) 建立強式名稱金鑰組。 使用此金鑰組簽署所產生的組件。  
   
-    > [!NOTE]
-    >  若您選擇不執行 Setup.bat 檔案就開啟和建置此範例中的專案，您必須先使用 .NET Framework Strong Name Utility (sn.exe) 建立強式名稱金鑰組。 使用此金鑰組簽署所產生的組件。  
+   - 使用 SQL Query Analyzer 執行所提供的 SQL 指令碼 Create_PolicyValidity_Table.sql。 此指令碼會使用 Northwind 範例資料庫中的兩個範例資料列來建立資料表 PolicyValidity。 此資料表有兩個資料行： ID 和 PolicyStatus。  
   
-    -   使用 SQL Query Analyzer 執行所提供的 SQL 指令碼 Create_PolicyValidity_Table.sql。 此指令碼會使用 Northwind 範例資料庫中的兩個範例資料列來建立資料表 PolicyValidity。 這個資料表有兩個資料行： ID 和 PolicyStatus。  
+   - 建立並繫結 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 傳送和接收埠。  
   
-    -   建立並繫結 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 傳送和接收埠。  
+   - 啟用接收位置並啟動傳送埠。  
   
-    -   啟用接收位置並啟動傳送埠。  
+   - 登錄和啟動協調流程。  
   
-    -   登錄和啟動協調流程。  
-  
-    > [!NOTE]
-    >  若要復原 Setup.bat 所進行的變更，請執行 Cleanup.bat。 您必須先執行 Cleanup.bat 才能再度執行 Setup.bat。  
+   > [!NOTE]
+   >  若要復原 Setup.bat 所進行的變更，請執行 Cleanup.bat。 您必須先執行 Cleanup.bat 才能再度執行 Setup.bat。  
   
 ## <a name="running-this-sample"></a>執行此範例  
   
 #### <a name="to-run-the-medical-claims-processing-and-testing-policies-sample"></a>若要執行醫療理賠處理和測試原則範例  
   
-1.  在命令視窗中，瀏覽至下列資料夾：  
+1. 在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*\>\Business Rules\Medical 理賠處理和測試 Policies\RulesForMedicalClaims\bin\Debug\  
+    \<*範例路徑*\>\Business Rules\Medical 理賠處理和測試 Policies\RulesForMedicalClaims\bin\Debug\  
   
-2.  在命令列上執行檔案 RulesForMedicalClaims.exe。  
+2. 在命令列上執行檔案 RulesForMedicalClaims.exe。  
   
-    > [!NOTE]
-    >  您可以變更範例理賠申請檔案 sampleClaim.xml 中的個別項目值，重複執行範例。 下列清單中會顯示不同項目值的預期輸出。  
+   > [!NOTE]
+   >  您可以變更範例理賠申請檔案 sampleClaim.xml 中的個別項目值，重複執行範例。 下列清單中會顯示不同項目值的預期輸出。  
   
- 根據所提交的範例理賠申請檔案中的各種組合值，輸出實例如下：  
+   根據所提交的範例理賠申請檔案中的各種組合值，輸出實例如下：  
   
 -   對於金額超過 $1000 的理賠申請，會取得下列輸出：  
   
@@ -131,7 +131,7 @@ ms.locfileid: "26007983"
     Reason:  Cannot submit claims for future dates!  
     ```  
   
--   對於原則識別碼不是有效的理賠申請 (例如，藉由變更**識別碼**有值為 2 的項目) 因為原則到期日，而取得下列輸出：  
+-   不是有效的原則識別碼的宣告 (例如，藉由變更**識別碼**有值為 2 的項目) 因為原則到期，取得下列輸出：  
   
     ```  
     Sending to Renewal Department for Customer Smir with Policy # 2  
@@ -152,21 +152,21 @@ ms.locfileid: "26007983"
 ## <a name="comments"></a>註解  
  評估規則集時，所使用的事實來源如下：  
   
--   長期事實擷取器。以網路為基礎的應用程式可實作**IFactReriever**介面、 建立資料夾 FactRetrieverForClaimsProcessing 中。 醫療理賠處理原則會使用它從 PolicyValidity 資料庫擷取資料 (資料集格式)，用於評估規則條件。  
+- 長期事實擷取器。以.NET 為基礎的應用程式可實作**IFactReriever**介面中，建立在資料夾 FactRetrieverForClaimsProcessing 中。 醫療理賠處理原則會使用它從 PolicyValidity 資料庫擷取資料 (資料集格式)，用於評估規則條件。  
   
--   宣告是 XML 文件包含下列資訊，儲存在同層級項目表單中： 名稱、 識別碼、 Amount、 Nights 和日期。  
+- 宣告是 XML 文件包含下列資訊，儲存在同層級項目表單中： 名稱、 識別碼、 數量、 Nights 和日期。  
   
--   A。以網路為基礎的類別庫 (Claims) 與**ClaimResults**類別用來記錄的狀態和原因使用屬性的宣告，以及傳送線索 （如果原則不是有效的） 叫用**SendLeads**具有識別碼和名稱做為參數的方法。  
+- 答:。以.NET 為基礎的類別庫 (Claims) 與**ClaimResults**類別用來記錄的狀態與原因使用屬性的宣告，並傳送線索 （如果原則不是有效的） 叫用**SendLeads**具有識別碼和名稱做為參數的方法。  
   
- 根據這些事實來源，您可以將針對此實例所定義的規則非正式地描述如下：  
+  根據這些事實來源，您可以將針對此實例所定義的規則非正式地描述如下：  
   
-1.  檢查輸入的理賠申請是否有效。 如果理賠申請金額超過允許的上限、如果原則已過期 (可檢查資料庫資料表來驗證)、如果住院天數超過允許的上限，而且如果理賠申請的日期是在未來，則理賠申請無效。 如果判斷理賠申請無效，則適當地設定理賠申請的 STATUS 和 REASON。  
+1. 檢查輸入的理賠申請是否有效。 如果理賠申請金額超過允許的上限、如果原則已過期 (可檢查資料庫資料表來驗證)、如果住院天數超過允許的上限，而且如果理賠申請的日期是在未來，則理賠申請無效。 如果判斷理賠申請無效，則適當地設定理賠申請的 STATUS 和 REASON。  
   
-2.  如果輸入的理賠申請的原則識別碼已過期，則傳送線索給原則更新部門 (並附上原則識別碼和客戶名稱)。  
+2. 如果輸入的理賠申請的原則識別碼已過期，則傳送線索給原則更新部門 (並附上原則識別碼和客戶名稱)。  
   
-3.  如果理賠申請有效，則適當地設定理賠申請的 STATUS 和 REASON。  
+3. 如果理賠申請有效，則適當地設定理賠申請的 STATUS 和 REASON。  
   
- 規則及其條件繫結的正式表示如下：  
+   規則及其條件繫結的正式表示如下：  
   
 -   **規則 1。數量檢查**  
   
@@ -228,7 +228,7 @@ ms.locfileid: "26007983"
   
     ```  
   
--   **規則 5。潛在客戶**  
+-   **規則 5。銷售潛在客戶**  
   
     ```  
     IF Claim.ClaimResults.Reason = "Policy invalid"  
@@ -248,5 +248,5 @@ ms.locfileid: "26007983"
   
     ```  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [商務規則 (BizTalk Server Samples 資料夾)](../core/business-rules-biztalk-server-samples-folder.md)

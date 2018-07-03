@@ -1,5 +1,5 @@
 ---
-title: 訊息豐富 」 範例 （BizTalk Server 範例） |Microsoft 文件
+title: 訊息豐富範例 （BizTalk Server 範例） |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f3413345c4e2d0a2ce4cd7ee1cb5ebda50b1dea7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 01fa66b344548654a4d2e2e2f2b8700b604ec0e7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22265206"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36998503"
 ---
 # <a name="message-enrichment-sample-biztalk-server-sample"></a>訊息豐富範例 (BizTalk Server 範例)
 「訊息豐富」範例會示範如何將交換標頭附加至 X12 和 EDIFACT 文件的交易集訊息。  
@@ -47,7 +47,7 @@ ms.locfileid: "22265206"
   
  下表顯示此範例中的檔案，並描述其用途。  
   
-|檔案|Description|  
+|檔案|描述|  
 |---------------|-----------------|  
 |Cleanup.bat|解除部署範例實例。 協調流程的執行個體不得為作用中才能成功。 否則會失敗。|  
 |MessageEnrichment.sln|包含 MessageEnrichment 和 MessageEnrichmentLibrary 專案。|  
@@ -64,7 +64,7 @@ ms.locfileid: "22265206"
 |Enriched_X12_00401_864.xsd|輸出訊息的 X12 結構描述。|  
 |Headers.xsd|加入至輸入訊息之標頭的結構描述。|  
 |MessageEnrichmentLibrary.csproj|包含 Headers.cs、OrchestrationUtilities.cs 和 ParseHeaders.cs 檔案的專案。|  
-|Headers.cs|包含代表標頭資料類別。|  
+|Headers.cs|包含類別，表示標頭的資料。|  
 |OrchestrationUtilities.cs|包含協調流程所使用的公用程式方法。|  
 |ParseHeaders.cs|包含新訊息中所使用之 UNA 的預設值。 這些值取自 ParseHeaders.cs 中的 SerializeEDIFACTHeaders 方法。|  
   
@@ -76,47 +76,47 @@ ms.locfileid: "22265206"
   
 #### <a name="to-build-and-deploy-the-biztalk-project-for-this-sample"></a>若要為此範例建置和部署 BizTalk 專案  
   
-1.  使用 Notepad.Exe 開啟[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\EDI\MessageEnrichment\  
-    MessageEnrichment\properties\AssemblyInfo.cs 然後在檔案最下方加入下行：  
+1. 使用 Notepad.Exe 開啟[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\EDI\MessageEnrichment\  
+   MessageEnrichment\properties\AssemblyInfo.cs，並在檔案底部新增下列這一行：  
   
-    ```  
-    [assembly: Microsoft.XLANGs.BaseTypes.BizTalkAssembly(typeof(Microsoft.BizTalk.XLANGs.BTXEngine.BTXService))]  
-    ```  
+   ```  
+   [assembly: Microsoft.XLANGs.BaseTypes.BizTalkAssembly(typeof(Microsoft.BizTalk.XLANGs.BTXEngine.BTXService))]  
+   ```  
   
-2.  儲存修改的 AssemblyInfo.cs 檔案，然後結束 [記事本]。  
+2. 儲存修改過的 AssemblyInfo.cs 檔案，然後結束 [記事本]。  
   
-3.  在命令視窗中，移動至下列資料夾：  
+3. 在命令視窗中，移動至下列資料夾：  
   
-     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\EDI\Message 擴充  
+    [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\Samples\EDI\Message 擴充  
   
-4.  執行**Setup.bat**，它會執行下列動作：  
+4. 執行**Setup.bat**，會執行下列動作：  
   
-    -   建立接收 (**中**) 和傳送 (**出**) \MessageEnrichment 資料夾中建立此範例的資料夾。  
+   -   建立接收 (**中**) 和傳送 (**出**) \MessageEnrichment 資料夾中建立此範例的資料夾。  
   
-    -   將金鑰組寫入 MessageEnrichmentLibrary\testkey.snk  
+   -   將金鑰組寫入 MessageEnrichmentLibrary\testkey.snk  
   
-    -   建置並部署 MessageEnrichmentLibrary.btproj 專案。  
+   -   建置並部署 MessageEnrichmentLibrary.btproj 專案。  
   
-    -   建置並部署 MessageEnrichment.btproj 專案。  
+   -   建置並部署 MessageEnrichment.btproj 專案。  
   
-    -   讀取 MessageEnrichmentBindings.xml 內的繫結資訊。  
+   -   讀取 MessageEnrichmentBindings.xml 內的繫結資訊。  
   
-        > [!NOTE]
-        >  這個專案的繫結需要的 BizTalk 主控件標示為信任的驗證。  若要使用此功能不受信任的主機，修改 MessageEnrichmentBindings.xml 以及如何變更 HostTrusted ="true"的項目，以 HostTrusted ="false"。  
+       > [!NOTE]
+       >  此專案的繫結需要的 BizTalk 主控件標示為信任的驗證。  若要使用此功能不受信任的主機，請在修改 MessageEnrichmentBindings.xml，並變更 HostTrusted ="true"的項目，以 HostTrusted ="false"。  
   
-    -   更新協調流程繫結。  
+   -   更新協調流程繫結。  
   
-    -   更新傳送埠、傳送埠群組和接收埠。  
+   -   更新傳送埠、傳送埠群組和接收埠。  
   
-    -   更新合作對象和登錄。  
+   -   更新合作對象和登錄。  
   
-    -   啟動傳送埠。  
+   -   啟動傳送埠。  
   
-    -   啟用接收位置。  
+   -   啟用接收位置。  
   
-    -   登錄並啟動協調流程。  
+   -   登錄並啟動協調流程。  
   
- BizTalk Server 現在已準備就緒可使用此範例。  
+   BizTalk Server 現在已準備就緒可使用此範例。  
   
 ## <a name="running-this-sample"></a>執行此範例  
  使用下列程序執行「訊息豐富」範例。  
@@ -137,4 +137,4 @@ ms.locfileid: "22265206"
  無  
   
 ## <a name="see-also"></a>另請參閱  
- [EDI 和 AS2 （BizTalk Server 範例資料夾）](../core/edi-and-as2-biztalk-server-samples-folder.md)
+ [EDI 和 AS2 (BizTalk Server Samples 資料夾)](../core/edi-and-as2-biztalk-server-samples-folder.md)

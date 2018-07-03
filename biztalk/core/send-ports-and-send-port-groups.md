@@ -1,5 +1,5 @@
 ---
-title: 傳送埠與傳送埠群組 |Microsoft 文件
+title: 傳送埠與傳送埠群組 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -20,12 +20,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e57e56d05cf3b1a98bba83d0df92d52f09c6eda5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bad7bc94bd1721dcdf55dbf94af3b9ccc0e750d8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22271822"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994807"
 ---
 # <a name="send-ports-and-send-port-groups"></a>傳送埠與傳送埠群組
 A*傳送埠*是 Microsoft BizTalk Server 傳送訊息的位置，或從中 BizTalk Server 接收訊息。 它也提供 BizTalk Server 用來實作通訊動作的技術。 連接埠的名稱可指出唯一的位置。  
@@ -48,13 +48,13 @@ A*傳送埠*是 Microsoft BizTalk Server 傳送訊息的位置，或從中 BizTa
 ## <a name="send-port-and-send-port-group-states"></a>傳送埠與傳送埠群組狀態  
  BizTalk 管理主控台會以下列其中一種狀態來顯示傳送埠與傳送埠群組：  
   
--   **繫結**。 使用 BizTalk Server 管理主控台，系統管理員可以將傳送埠或傳送埠群組繫結至協調流程。 在 BizTalk Server 將訊息路由至此傳送埠或傳送埠群組之前，系統管理員必須登錄並啟動繫結的傳送埠或傳送埠群組。  
+- **繫結**。 使用 BizTalk Server 管理主控台，系統管理員可以將傳送埠或傳送埠群組繫結至協調流程。 在 BizTalk Server 將訊息路由至此傳送埠或傳送埠群組之前，系統管理員必須登錄並啟動繫結的傳送埠或傳送埠群組。  
   
--   **啟動**。 此傳送埠或傳送埠群組的訂閱已存在或在作用中。 當傳送埠或傳送埠群組為已啟動狀態時，BizTalk Server 會將訊息傳遞至傳送埠或傳送埠群組，讓傳送埠或傳送埠群組處理這些訊息。 在您啟動傳送埠或傳送埠群組之前，系統管理員必須使用 BizTalk 管理主控台登錄繫結的傳送埠或傳送埠群組。  
+- **啟動**。 此傳送埠或傳送埠群組的訂閱已存在或在作用中。 當傳送埠或傳送埠群組為已啟動狀態時，BizTalk Server 會將訊息傳遞至傳送埠或傳送埠群組，讓傳送埠或傳送埠群組處理這些訊息。 在您啟動傳送埠或傳送埠群組之前，系統管理員必須使用 BizTalk 管理主控台登錄繫結的傳送埠或傳送埠群組。  
   
--   **停止**。 傳送埠或傳送埠群組目前並未執行。 如果您已啟動傳送埠或傳送埠群組，然後將它停止，會在工作佇列中繼續處理。 BizTalk Server 將路由至已停止的傳送埠或傳送埠群組的所有新訊息都傳送至執行傳送處理常式之主控件的擱置佇列。  
+- **停止**。 傳送埠或傳送埠群組目前並未執行。 如果您已啟動傳送埠或傳送埠群組，然後將它停止，會在工作佇列中繼續處理。 BizTalk Server 將路由至已停止的傳送埠或傳送埠群組的所有新訊息都傳送至執行傳送處理常式之主控件的擱置佇列。  
   
- 下表顯示每個狀態可用的動作及其結果。  
+  下表顯示每個狀態可用的動作及其結果。  
   
 ||繫結|Stopped|Started|  
 |------|-----------|-------------|-------------|  

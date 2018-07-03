@@ -1,5 +1,5 @@
 ---
-title: SAP 配接器用戶端功能 |Microsoft 文件
+title: SAP 配接器用戶端的功能 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -22,26 +22,26 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6516ff99f599d02cdf27aa7c0c07752747749021
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 411ae3a1b044b89a0ef5390a0f0ad26430909bcb
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22217110"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36984631"
 ---
 # <a name="features-for-sap-adapter-clients"></a>SAP 配接器用戶端的功能
-除了所有的主題所討論的功能[BizTalk adapter for mySAP Business Suite 的架構概觀](../../adapters-and-accelerators/adapter-sap/architecture-overview-of-the-biztalk-adapter-for-mysap-business-suite.md)、[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]也提供下列功能可用於配接器用戶端。  
+除了的主題所討論的功能之外[的 BizTalk Adapter for mySAP Business Suite 的架構概觀](../../adapters-and-accelerators/adapter-sap/architecture-overview-of-the-biztalk-adapter-for-mysap-business-suite.md)，則[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]也提供下列功能，可用於配接器用戶端。  
   
--   **設定配接器使用的繫結屬性的支援**。 可以設定配接器用戶端[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]藉由指定特定繫結內容。 例如，用戶端可以設定配接器至配接器的連接集區中指定最大連接數目，藉由指定的值**MaxConnectionsPerSystem**繫結屬性。 如需詳細資訊，請參閱[了解 BizTalk Adapter for mySAP Business Suite 繫結屬性](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md)。  
+- **設定使用繫結屬性的配接器支援**。 配接器用戶端可以設定[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]藉由指定特定繫結屬性。 例如，用戶端可以在其中設定配接器至配接器的連接集區中指定的連線數目上限，藉由指定的值**MaxConnectionsPerSystem**繫結屬性。 如需詳細資訊，請參閱 <<c0> [ 了解 BizTalk Adapter for mySAP Business Suite 繫結屬性](../../adapters-and-accelerators/adapter-sap/read-about-biztalk-adapter-for-mysap-business-suite-binding-properties.md)。  
   
--   **支援 BizTalk Server 中的動態連接埠**。 透過 BizTalk [!INCLUDE[wcfadapter_short](../../includes/wcfadapter-short-md.md)]、[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]支援動態連接埠，可讓您動態路由的訊息從[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]根據訊息內容屬性。 如需詳細資訊，請參閱[設定動態連接埠](../../adapters-and-accelerators/adapter-sap/configure-dynamic-ports-in-the-sap-adapter.md)。
+- **支援 BizTalk Server 中的動態連接埠**。 透過 BizTalk [!INCLUDE[wcfadapter_short](../../includes/wcfadapter-short-md.md)]，則[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]支援動態連接埠，可讓您動態路由的訊息從[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]根據訊息內容屬性。 如需詳細資訊，請參閱 <<c0> [ 設定動態連接埠](../../adapters-and-accelerators/adapter-sap/configure-dynamic-ports-in-the-sap-adapter.md)。
   
--   **訊息版本控制支援**。 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]啟用不同的訊息結構描述的未來版本中支援的版本控制，從而支援訊息[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。 如需詳細資訊，請參閱[訊息版本控制支援](../../adapters-and-accelerators/adapter-sap/message-versioning-support1.md)。  
+- **訊息版本控制支援**。 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]支援訊息版本控制，可啟用不同的訊息結構描述的未來版本中支援[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]。 如需詳細資訊，請參閱 <<c0> [ 訊息版本控制支援](../../adapters-and-accelerators/adapter-sap/message-versioning-support1.md)。  
   
-    > [!NOTE]
-    >  這項功能不提供與舊版配接器的回溯相容性。  
+  > [!NOTE]
+  >  這項功能不提供與舊版配接器的回溯相容性。  
   
--   **對效能計數器支援**。 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]以供配接器用戶端支援以 WCF 為基礎的效能計數器。 如需有關效能計數器的詳細資訊，請參閱[與 SAP 配接器使用效能計數器](../../adapters-and-accelerators/adapter-sap/use-performance-counters-with-the-sap-adapter.md)。  
+- **對效能計數器支援**。 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]支援配接器用戶端使用 wcf 效能計數器。 如需有關效能計數器的詳細資訊，請參閱 <<c0> [ 與 SAP 配接器的使用效能計數器](../../adapters-and-accelerators/adapter-sap/use-performance-counters-with-the-sap-adapter.md)。  
   
 ## <a name="see-also"></a>另請參閱  
  [BizTalk adapter for mySAP Business Suite 的架構概觀](../../adapters-and-accelerators/adapter-sap/architecture-overview-of-the-biztalk-adapter-for-mysap-business-suite.md)

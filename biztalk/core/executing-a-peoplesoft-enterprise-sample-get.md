@@ -1,5 +1,5 @@
 ---
-title: 執行 PeopleSoft Enterprise 範例 Get |Microsoft 文件
+title: 執行 PeopleSoft Enterprise Get 範例 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,218 +12,218 @@ caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 29cf6bba03e6a43bb3fdedf0742741e48ac22dd6
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 9b30627813b4790e5ab2e275d179773e0be41b6e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "25975292"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37001407"
 ---
-# <a name="execute-a-peoplesoft-enterprise-sample-get"></a>執行 PeopleSoft Enterprise 的 Get 範例
-您可以從 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 系統使用 PeopleSoft 配接器存取 PeopleSoft 系統。 此配接器隨附於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。
+# <a name="execute-a-peoplesoft-enterprise-sample-get"></a>執行 PeopleSoft Enterprise Get 範例
+您可以從 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 系統使用 PeopleSoft 配接器存取 PeopleSoft 系統。 此配接器隨附[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。
   
- 這是 PeopleSoft 實驗室工作的第二個部分。 在第一個部分 (實驗室 1) 中，您以手動方式存取及修改 PeopleSoft 系統的協助而資料[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]或其他 Microsoft 技術。 在這個部分 (實驗室 2) 中，您將建立 BizTalk 協調流程的一部分[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]BizTalk 專案。 您將設定此協調流程上的連接埠，以使用 PeopleSoft 配接器自 PeopleSoft 系統取得資料。  
+ 這是 PeopleSoft 實驗室工作的第二個部分。 在第一個部分 (實驗室 1) 中，您以手動方式存取和修改資料，而不需要的協助在 PeopleSoft 系統上[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]或其他 Microsoft 技術。 在這個部分 (實驗室 2) 中，您將建立 BizTalk 協調流程的一部分[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]BizTalk 專案。 您將設定此協調流程上的連接埠，以使用 PeopleSoft 配接器自 PeopleSoft 系統取得資料。  
   
 ## <a name="prerequisites"></a>必要條件  
   
--   Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]
+- Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]
   
--   Microsoft BizTalk Adapters for Enterprise Applications  
+- Microsoft BizTalk Adapters for Enterprise Applications  
   
--   Microsoft Visual Studio  
+- Microsoft Visual Studio  
   
--   Sun Systems Java Development Kit (JDK) 1.4 (含) 以上版本  
+- Sun Systems Java Development Kit (JDK) 1.4 (含) 以上版本  
   
 > [!NOTE]
->  請參閱[安裝和設定為企業應用程式配接器](../adapters-and-accelerators/install-configure-biztalk-adapters-enterprise-applications.md)JD Edwards、 PeopleSoft、 和 TIBCO 配接器的重要組態資訊。  
+>  請參閱[安裝及設定企業應用程式的介面卡](../adapters-and-accelerators/install-configure-biztalk-adapters-enterprise-applications.md)的 JD Edwards、 PeopleSoft 和 TIBCO 配接器的重要組態資訊。  
   
 ## <a name="lab-2---executing-a-peoplesoft-sample-get"></a>實驗室 2 - 執行 PeopleSoft 的 Get 範例  
  在這個實驗室中，您將針對 PeopleSoft 系統執行 **Get** 作業。 也就是說，您將執行下列工作：  
   
--   驗證 PeopleSoft 必要條件  
+- 驗證 PeopleSoft 必要條件  
   
--   設定中的 PeopleSoft 傳送埠 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
+- 在 PeopleSoft 傳送埠設定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
   
--   建立 BizTalk 協調流程專案  
+- 建立 BizTalk 協調流程專案  
   
--   建置和部署專案  
+- 建置和部署專案  
   
--   測試應用程式並檢視 XML 輸出  
+- 測試應用程式並檢視 XML 輸出  
   
 ## <a name="procedures-for-lab-2--executing-a-peoplesoft-sample-get"></a>實驗室 2 程序 - 執行 PeopleSoft 的 Get 範例  
- PeopleSoft 系統的適當介面存取需要兩個檔案：PSJOA.JAR 和 GET_CI_INFO.PC。 在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]電腦，PeopleSoft 配接器進行通訊與 PeopleSoft 系統使用 PeopleSoft Java 介面。 此介面是由 PSJOA.JAR 檔案所提供。 置入此檔案的副本[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]通常來自所存取之 PeopleSoft 伺服器系統的系統管理員。 在此實驗室中，一份 PSJOA。JAR 上的 C:\PSJars\Ver841\ 資料夾中有[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 此檔案的位置是在 PeopleSoft 配接器組態屬性中所指定。  
+ PeopleSoft 系統的適當介面存取需要兩個檔案：PSJOA.JAR 和 GET_CI_INFO.PC。 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]電腦上，PeopleSoft 配接器會與 PeopleSoft 系統通訊使用 PeopleSoft Java 介面。 此介面是由 PSJOA.JAR 檔案所提供。 置入此檔案的副本[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]通常來自所存取之 PeopleSoft 伺服器系統的系統管理員。 在此實驗室中，一份 PSJOA。JAR C:\PSJars\Ver841\ 資料夾中有上[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 此檔案的位置是在 PeopleSoft 配接器組態屬性中所指定。  
   
  PeopleSoft 系統本身必須安裝自訂元件介面 (CI)。 這可讓配接器在配接器組態期間瀏覽 PeopleSoft 物件。 呼叫自訂元件介面 (從 [新增產生的項目] 步驟中) 可取得可存取 PeopleSoft 物件的清單。 這些物件會判斷提供給用戶端系統的 PeopleSoft 公開功能。  
   
  特別是自訂元件 GET_CI_INFO，必須在初始安裝期間安裝於 PeopleSoft 系統上。 您可以修改這個檔案以限制 GET_CI_INFO 所公開的項目 (預設會公開 PeopleSoft 系統內的所有元件介面)。 其來源位於下列預設位置中的 GET_CI_INFO 文字檔：  
   
- **Enterprise Applications\PeopleSoft Enterprise(r) \Config 的 C:\Program Files\Microsoft BizTalk 配接器**  
+ **C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\PeopleSoft Enterprise(r) \Config**  
   
- 提供有關安裝至 PeopleSoft GET_CI_INFO 元件介面的一般指示[安裝和設定為企業應用程式配接器](../adapters-and-accelerators/install-configure-biztalk-adapters-enterprise-applications.md)。 這些指示適用於經驗豐富的 PeopleSoft 系統管理員。  
+ 提供一般指示 GET_CI_INFO 元件介面安裝至 PeopleSoft[安裝及設定企業應用程式的介面卡](../adapters-and-accelerators/install-configure-biztalk-adapters-enterprise-applications.md)。 這些指示適用於經驗豐富的 PeopleSoft 系統管理員。  
   
 ## <a name="step-1-confirm-the-peoplesoft-rerequisites"></a>步驟 1： 確認 PeopleSoft rerequisites  
  在您開始建立搭配 PeopleSoft 配接器使用的 BizTalk 專案之前，必須先確定所有事項都已正確設定，以便存取 PeopleSoft。  
   
-1.  確認 PSJOA。JAR 檔案存在於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]的 C:\psjars\ver841 資料夾中的電腦。 (這個檔案可以位於另一個位置[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 在下方提供的組態中，會假設檔案是在這個位置。)  
+1. 確認 PSJOA。JAR 檔案存在於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]的 C:\psjars\ver841 資料夾中的電腦。 (這個檔案可以位於不同的位置[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 在下方提供的組態中，會假設檔案是在這個位置。)  
   
-2.  確認 get_ci_info.pc 檔案位於 C:\Program Files\Microsoft BizTalk Adapters，enterprise \Config 資料夾。  
+2. 請確認 get_ci_info.pc 檔案位於 C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\PeopleSoft Enterprise(r) \Config 資料夾中。  
   
-3.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**主控台根目錄**，依序展開[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]**管理**，依序展開**BizTalk 群組**，展開**平台設定**，然後展開**配接器**。 請確定已安裝 PeopleSoft 配接器，並且出現在清單上。  
+3. 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，展開**主控台根目錄**，展開[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]**管理**，展開**BizTalk 群組**，展開**平台設定**，然後展開**配接器**。 請確定已安裝 PeopleSoft 配接器，並且出現在清單上。  
   
-     如果未安裝 PeopleSoft 配接器，請安裝 BizTalk Adapters for Enterprise Applications (請參閱稍早的＜必要條件＞一節)。 安裝配接器之後，用滑鼠右鍵按一下 [配接器]  ，然後按一下 [新增 - 配接器]  安裝 PeopleSoft 配接器。 重新啟動主控件執行個體，這個值才會生效。  
+    如果未安裝 PeopleSoft 配接器，請安裝 BizTalk Adapters for Enterprise Applications (請參閱稍早的＜必要條件＞一節)。 安裝配接器之後，用滑鼠右鍵按一下 [配接器]  ，然後按一下 [新增 - 配接器]  安裝 PeopleSoft 配接器。 重新啟動主控件執行個體，這個選項才會生效。  
   
-## <a name="step-2-create-a-send-port-for-peoplesoft"></a>步驟 2： 建立 peoplesoft 傳送埠  
- [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 必須有要用來與 PeopleSoft 系統通訊的傳送埠。 此傳送埠最終會繫結至協調流程的邏輯連接埠。  
+## <a name="step-2-create-a-send-port-for-peoplesoft"></a>步驟 2： 建立 PeopleSoft 傳送埠  
+ [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 必須具有要用於與 PeopleSoft 系統通訊的傳送埠。 此傳送埠最終會繫結至協調流程的邏輯連接埠。  
   
-1.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**主控台根目錄**，依序展開**BizTalk Server 管理**，依序展開**BizTalk 群組**，展開**應用程式**，然後展開**BizTalk.EnterpriseApplication。**  
+1. 在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，展開**主控台根目錄**，展開**BizTalk Server 管理**，依序展開**BizTalk 群組**，依序展開**應用程式**，然後展開**BizTalk.EnterpriseApplication。**  
   
-2.  用滑鼠右鍵按一下 [傳送埠] ，再按一下 [新增] ，然後選取 [靜態請求-回應傳送埠] 。 在 [傳送埠屬性]  對話方塊中輸入屬性的下列值：  
+2. 用滑鼠右鍵按一下 [傳送埠] ，再按一下 [新增] ，然後選取 [靜態請求-回應傳送埠] 。 在 [傳送埠屬性]  對話方塊中輸入屬性的下列值：  
   
-    1.  **名稱︰**  `PeopleSoftSamplePort`  
+   1.  **名稱：**  `PeopleSoftSamplePort`  
   
-    2.  **類型︰**  `PeopleSoft`  
+   2.  **類型：**  `PeopleSoft`  
   
-    3.  **傳送處理常式︰**  `BizTalkServerApplication`  
+   3.  **傳送處理常式：**  `BizTalkServerApplication`  
   
-    4.  **傳送管線︰**  `XMLTransmit`  
+   4.  **傳送管線︰**  `XMLTransmit`  
   
-    5.  **接收管線︰**  `XMLReceive`  
+   5.  **接收管線︰**  `XMLReceive`  
   
-3.  按一下 [設定] ，然後輸入下列屬性值：  
+3. 按一下 [設定] ，然後輸入下列屬性值：  
   
-    1.  **應用程式伺服器路徑**： **//Servername:9000**  
+   1. **應用程式伺服器路徑**： **//Servername:9000**  
   
-         Servername 是您的應用程式伺服器。 這是此 PeopleSoft 系統的特定伺服器名稱或 IP 位址以及連接埠號碼。  
+       Servername 是您的應用程式伺服器。 這是此 PeopleSoft 系統的特定伺服器名稱或 IP 位址以及連接埠號碼。  
   
-    2.  **JAVA_HOME**： **C:\J2SDK1.4.2_08**  
+   2. **JAVA_HOME**： **C:\J2SDK1.4.2_08**  
   
-         這個路徑是特定上的 Java SDK 安裝[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  
+       這個路徑是特定上的 Java SDK 安裝[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  
   
-    3.  **密碼**:\<輸入您的 PeopleSoft 密碼\>  
+   3. **密碼**:\<輸入您的 PeopleSoft 密碼\>  
   
-    4.  **PeopleSoft 8.x JAR 檔案**： **C:\PSJARS\VER841\PSJOA.JAR**  
+   4. **PeopleSoft 8.x JAR 檔案**： **C:\PSJARS\VER841\PSJOA.JAR**  
   
-    5.  **使用者名稱：** \<輸入您的 PeopleSoft Userid>\>  
+   5. **使用者名稱：** \<輸入您的 PeopleSoft Userid>\>  
   
-     ![](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif "7bf30707-c7c6-409f-af18-9c9dfeb0de58")  
+      ![](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif "7bf30707-c7c6-409f-af18-9c9dfeb0de58")  
   
-4.  按兩下 [確定]  關閉對話方塊。  
+4. 按兩下 [確定]  關閉對話方塊。  
   
 ## <a name="step-3-create-a-biztalk-orchestration-project"></a>步驟 3： 建立 BizTalk 協調流程專案  
- 現在您將建立 BizTalk 專案中的[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]和處理之間的通訊專案中設定協調流程[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]和 PeopleSoft 系統。 您將新增傳送和接收埠、建置專案，然後部署專案。  
+ 現在您將建立 BizTalk 專案中的[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]並設定要處理之間的通訊之專案中的協調流程[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]和 PeopleSoft 系統。 您將新增傳送和接收埠、建置專案，然後部署專案。  
   
-1.  開啟[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]並在 C:\LABS 資料夾中建立新的 BizTalk 專案。 在 [檔案]  功能表上，按一下 [新增] 。 [新增專案]  對話方塊隨即出現。 在 [傳送埠屬性]  區段下，選取 [空白 BizTalk Server 專案]  。輸入 `PS_Test` 做為唯一的專案名稱，然後按一下 [確定] 使用的八個企業營運系統 (LOB) 配接器之一。  
+1. 開啟[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，並在 C:\LABS 資料夾中建立新的 BizTalk 專案。 在 [檔案]  功能表上，按一下 [新增] 。 [新增專案]  對話方塊隨即出現。 在 [傳送埠屬性]  區段下，選取 [空白 BizTalk Server 專案]  請輸入`PS_Test`做為唯一的專案名稱，然後按一下 **[確定]**。  
   
-2.  在方案總管中，以滑鼠右鍵按一下專案，按一下 [新增] 及 [新增產生的項目] 。 在 [類別]  窗格中選取 [新增配接器中繼資料]  ，在 [範本]  側選取 [新增配接器中繼資料]  ，然後按一下 [新增] 。  
+2. 在方案總管中，以滑鼠右鍵按一下專案，按一下 [新增] 及 [新增產生的項目] 。 在 [類別]  窗格中選取 [新增配接器中繼資料]  ，在 [範本]  側選取 [新增配接器中繼資料]  ，然後按一下 [新增] 。  
   
-3.  在 [新增配接器精靈] 中，選取 [PeopleSoft Enterprise]  配接器，選取您在先前程序中所建立的 [PeopleSoftSamplePort]  傳送埠，然後按 [下一步] 。  
+3. 在 [新增配接器精靈] 中，選取 [PeopleSoft Enterprise]  配接器，選取您在先前程序中所建立的 [PeopleSoftSamplePort]  傳送埠，然後按 [下一步] 。  
   
-     ![](../core/media/ed0dedc5-a8fb-444c-b884-e310cf56462c.gif "ed0dedc5-a8fb-444c-b884-e310cf56462c")  
+    ![](../core/media/ed0dedc5-a8fb-444c-b884-e310cf56462c.gif "ed0dedc5-a8fb-444c-b884-e310cf56462c")  
   
-4.  在 [選取要匯入服務]  頁面上，展開 [PeopleSoft] ，然後展開 [CI] 。  
+4. 在 [選取要匯入服務]  頁面上，展開 [PeopleSoft] ，然後展開 [CI] 。  
   
-     PeopleSoft 系統是由使用瀏覽代理程式的配接器所查核。 當您展開 [CI] 時，BrowsingAgent.exe 處理序會啟動 (您可以將其視為在工作管理員中執行) 並傳回如下圖所示的服務。  
+    PeopleSoft 系統是由使用瀏覽代理程式的配接器所查核。 當您展開 [CI] 時，BrowsingAgent.exe 處理序會啟動 (您可以將其視為在工作管理員中執行) 並傳回如下圖所示的服務。  
   
-     ![](../core/media/6988104c-6483-4df2-a637-3301628ea665.gif "6988104c-6483-4df2-a637-3301628ea665")  
+    ![](../core/media/6988104c-6483-4df2-a637-3301628ea665.gif "6988104c-6483-4df2-a637-3301628ea665")  
   
-    > [!NOTE]
-    >  從您的 PeopleSoft 系統取得及顯示的 PeopleSoft 服務，可能與此處顯示的服務稍有不同。  
+   > [!NOTE]
+   >  從您的 PeopleSoft 系統取得及顯示的 PeopleSoft 服務，可能與此處顯示的服務稍有不同。  
   
-5.  向下捲動，選取 [位置] ，然後按一下 [完成] 。  
+5. 向下捲動，選取 [位置] ，然後按一下 [完成] 。  
   
-     ![](../core/media/0506affd-3caa-47cb-9c25-f49c8a0ad614.gif "0506affd-3caa-47cb-9c25-f49c8a0ad614")  
+    ![](../core/media/0506affd-3caa-47cb-9c25-f49c8a0ad614.gif "0506affd-3caa-47cb-9c25-f49c8a0ad614")  
   
-6.  在方案總管中，有新的 BizTalk 協調流程和兩個新的相關聯結構描述檔案。 這些檔案是由 [新增配接器精靈] 所建立。 按兩下 [BizTalk Orchestration.odx]  檔案開啟協調流程。  
+6. 在方案總管中，有新的 BizTalk 協調流程和兩個新的相關聯結構描述檔案。 這些檔案是由 [新增配接器精靈] 所建立。 按兩下 [BizTalk Orchestration.odx]  檔案開啟協調流程。  
   
-     ![](../core/media/825c5690-78eb-4048-9a47-cd3fc7310b7b.gif "825c5690-78eb-4048-9a47-cd3fc7310b7b")  
+    ![](../core/media/825c5690-78eb-4048-9a47-cd3fc7310b7b.gif "825c5690-78eb-4048-9a47-cd3fc7310b7b")  
   
- 此協調流程以輸入形式接受 XML 檔案格式針對 PeopleSoft **Get** 方法格式化，以及將 XML 檔案傳送至 PeopleSoft 系統。 **Get** 方法會從 PeopleSoft 系統擷取位置資訊，並將它傳回至 BizTalk 協調流程。 協調流程會使用連接埠來協助與配接器和 PeopleSoft 系統的通訊。 您將在此處設定的連接埠是用於接收和傳送 XML 檔案。 外寄的 XML 檔案會告知 PeopleSoft 系統這是 **Get** 作業。 內送的 XML 檔案會將位置資訊傳回至協調流程。  
+   此協調流程以輸入形式接受 XML 檔案格式針對 PeopleSoft **Get** 方法格式化，以及將 XML 檔案傳送至 PeopleSoft 系統。 **Get** 方法會從 PeopleSoft 系統擷取位置資訊，並將它傳回至 BizTalk 協調流程。 協調流程會使用連接埠來協助與配接器和 PeopleSoft 系統的通訊。 您將在此處設定的連接埠是用於接收和傳送 XML 檔案。 外寄的 XML 檔案會告知 PeopleSoft 系統這是 **Get** 作業。 內送的 XML 檔案會將位置資訊傳回至協調流程。  
   
- 若要完成協調流程，您需要建立及設定連接埠來接收和傳送 XML 檔案。 首先，設定可接受初始 XML 輸入檔案的新接收埠 (其中包含 **Get** 方法)，來啟動協調流程。  
+   若要完成協調流程，您需要建立及設定連接埠來接收和傳送 XML 檔案。 首先，設定可接受初始 XML 輸入檔案的新接收埠 (其中包含 **Get** 方法)，來啟動協調流程。  
   
 #### <a name="configure-a-receive-port"></a>設定接收埠  
   
-1.  在您上一個步驟中開啟的 BizTalk Orchestration.odx 檔案內，以滑鼠右鍵按一下左側連接埠介面，然後按一下 [新設定連接埠] 。 如此將啟動 [連接埠組態精靈]。 在 [歡迎使用連接埠組態精靈]  頁面上，按 [下一步] 。  
+1. 在您上一個步驟中開啟的 BizTalk Orchestration.odx 檔案內，以滑鼠右鍵按一下左側連接埠介面，然後按一下 [新設定連接埠] 。 如此將啟動 [連接埠組態精靈]。 在 [歡迎使用連接埠組態精靈]  頁面上，按 [下一步] 。  
   
-2.  在 **[連接埠屬性]** 頁面上的 `FileIn` 中輸入 **[FileIn]**，然後按一下 [BizTalk Server 管理] 使用的八個企業營運系統 (LOB) 配接器之一。  
+2. 上**連接埠內容**頁面上，輸入`FileIn`如**名稱**，然後按一下**下一步**。  
   
-3.  在 [選取連接埠類型]  頁面上，選取 [建立新的連接埠類型] ，然後輸入或選取下列屬性值：  
+3. 在 [選取連接埠類型]  頁面上，選取 [建立新的連接埠類型] ，然後輸入或選取下列屬性值：  
   
-     **連接埠類型名稱**: `FileInPort`  
+    **連接埠類型名稱**: `FileInPort`  
   
-     **通訊模式**： **單向**  
+    **通訊模式**： **單向**  
   
-     **存取限制**： **內部 - 限制於此專案**  
+    **存取限制**： **內部 - 限制於此專案**  
   
-4.  按 [下一步]  移至 [連接埠繫結]  頁面，然後選取下列屬性值：  
+4. 按 [下一步]  移至 [連接埠繫結]  頁面，然後選取下列屬性值：  
   
-     **連接埠通訊方向**： **我將總是在此連接埠接收訊息**  
+    **連接埠通訊方向**： **我將總是在此連接埠接收訊息**  
   
-     **連接埠繫結**： **稍後指定**  
+    **連接埠繫結**： **稍後指定**  
   
-5.  按 **[下一步]**，再按一下 **[完成]**。 您將使用 FILE 配接器，來接受此檔案為來自磁碟的輸入。  
+5. 按 **[下一步]**，再按一下 **[完成]**。 您將使用 FILE 配接器，來接受此檔案為來自磁碟的輸入。  
   
- 接下來，建立傳送埠以接受包含呼叫 PeopleSoft **Get** 方法所得位置的 XML 檔案。 協調流程會使用 FILE 配接器，經由此傳送埠將該 XML 檔案寫入磁碟。  
+   接下來，建立傳送埠以接受包含呼叫 PeopleSoft **Get** 方法所得位置的 XML 檔案。 協調流程會使用 FILE 配接器，經由此傳送埠將該 XML 檔案寫入磁碟。  
   
 #### <a name="configure-a-send-port"></a>設定傳送埠  
   
-1.  在 BizTalk Orchestration.odx 檔案內，以滑鼠右鍵按一下左側連接埠介面，然後按一下 [新設定連接埠] 。 如此將啟動 [連接埠組態精靈]。 在 [歡迎使用連接埠組態精靈]  頁面上，按 [下一步] 。  
+1. 在 BizTalk Orchestration.odx 檔案內，以滑鼠右鍵按一下左側連接埠介面，然後按一下 [新設定連接埠] 。 如此將啟動 [連接埠組態精靈]。 在 [歡迎使用連接埠組態精靈]  頁面上，按 [下一步] 。  
   
-2.  在 **[連接埠屬性]** 頁面上的 `FileOut` 中輸入 **[FileIn]**，然後按一下 [BizTalk Server 管理] 使用的八個企業營運系統 (LOB) 配接器之一。  
+2. 上**連接埠內容**頁面上，輸入`FileOut`如**名稱**，然後按一下**下一步**。  
   
-3.  在 [選取連接埠類型]  頁面上，選取 [建立新的連接埠類型] ，然後輸入或選取下列屬性值：  
+3. 在 [選取連接埠類型]  頁面上，選取 [建立新的連接埠類型] ，然後輸入或選取下列屬性值：  
   
-     **連接埠類型名稱**: `FileOutPort`  
+    **連接埠類型名稱**: `FileOutPort`  
   
-     **通訊模式**： **單向**  
+    **通訊模式**： **單向**  
   
-     **存取限制**： **內部 - 限制於此專案**  
+    **存取限制**： **內部 - 限制於此專案**  
   
-4.  按 [下一步]  移至 [連接埠繫結]  頁面，然後選取下列屬性值：  
+4. 按 [下一步]  移至 [連接埠繫結]  頁面，然後選取下列屬性值：  
   
-     **連接埠通訊方向**： **我將總是在此連接埠傳送訊息**  
+    **連接埠通訊方向**： **我將總是在此連接埠傳送訊息**  
   
-     **連接埠繫結**： **稍後指定**  
+    **連接埠繫結**： **稍後指定**  
   
-5.  按 **[下一步]**，再按一下 **[完成]**。  
+5. 按 **[下一步]**，再按一下 **[完成]**。  
   
- 最後，建立傳送/接收埠，以將包含 **Get** 方法的初始 XML 輸入檔案傳送至 PeopleSoft 系統。 此連接埠也會接收包含 PeopleSoft 系統上 **Get** 方法呼叫所得位置資訊的 XML 檔案。  
+   最後，建立傳送/接收埠，以將包含 **Get** 方法的初始 XML 輸入檔案傳送至 PeopleSoft 系統。 此連接埠也會接收包含 PeopleSoft 系統上 **Get** 方法呼叫所得位置資訊的 XML 檔案。  
   
 #### <a name="configure-a-sendreceive-port"></a>設定傳送/接收埠  
   
-1.  在 BizTalk Orchestration.odx 檔案內，以滑鼠右鍵按一下右側連接埠介面，然後按一下 [新設定連接埠] 。 如此將啟動 [連接埠組態精靈]。 在 [歡迎使用連接埠組態精靈]  頁面上，按 [下一步] 。  
+1. 在 BizTalk Orchestration.odx 檔案內，以滑鼠右鍵按一下右側連接埠介面，然後按一下 [新設定連接埠] 。 如此將啟動 [連接埠組態精靈]。 在 [歡迎使用連接埠組態精靈]  頁面上，按 [下一步] 。  
   
-2.  在 **[連接埠屬性]** 頁面上的 `PeopleSoft_Port` 中輸入 **[FileIn]**，然後按一下 [BizTalk Server 管理] 使用的八個企業營運系統 (LOB) 配接器之一。  
+2. 上**連接埠內容**頁面上，輸入`PeopleSoft_Port`如**名稱**，然後按一下**下一步**。  
   
-3.  在 **[選取連接埠類型]** 頁面上，選取 **[使用現有連接埠類型]**。 針對 [可用的連接埠類型] ，選取 [PS_Test.LOCATION] ，然後按 [下一步] 。  
+3. 在 **[選取連接埠類型]** 頁面上，選取 **[使用現有連接埠類型]**。 針對 [可用的連接埠類型] ，選取 [PS_Test.LOCATION] ，然後按 [下一步] 。  
   
-     ![](../core/media/d8b443ec-294d-4124-a29d-aeb42bbb107e.gif "d8b443ec-294d-4124-a29d-aeb42bbb107e")  
+    ![](../core/media/d8b443ec-294d-4124-a29d-aeb42bbb107e.gif "d8b443ec-294d-4124-a29d-aeb42bbb107e")  
   
-4.  按 [下一步]  移至 [連接埠繫結]  頁面，然後選取下列屬性值：  
+4. 按 [下一步]  移至 [連接埠繫結]  頁面，然後選取下列屬性值：  
   
-     **連接埠通訊方向**： **我將總是傳送要求並接收回應**  
+    **連接埠通訊方向**： **我將總是傳送要求並接收回應**  
   
-     **連接埠繫結**： **稍後指定**  
+    **連接埠繫結**： **稍後指定**  
   
-5.  按 **[下一步]**，再按一下 **[完成]**。  
+5. 按 **[下一步]**，再按一下 **[完成]**。  
   
- 在連接埠介面上顯示的是新的連接埠，以及 PeopleSoft 位置服務可用的方法。 稍後，您將會指定 PeopleSoft 配接器來傳送和接收來自 PeopleSoft 系統的檔案。  
+   在連接埠介面上顯示的是新的連接埠，以及 PeopleSoft 位置服務可用的方法。 稍後，您將會指定 PeopleSoft 配接器來傳送和接收來自 PeopleSoft 系統的檔案。  
   
- 現在將兩個 **傳送** 圖形與兩個 **接收** 圖形插入協調流程，以連結至您剛才建立的連接埠。  
+   現在將兩個 **傳送** 圖形與兩個 **接收** 圖形插入協調流程，以連結至您剛才建立的連接埠。  
   
 #### <a name="add-send-and-receive-shapes"></a>新增傳送和接收圖形  
   
-1.  從工具箱拖曳 **接收** 元件，緊解著將其放置於協調流程 (綠色圓形) 的開頭下方。 按一下 **接收** 圖形，然後在 [屬性] 視窗中針對 [名稱] `FromDisk` 輸入 **[FileIn]**，並將 [啟動]  設為 `true`使用的八個企業營運系統 (LOB) 配接器之一。 如此會在此接收埠收到內送文件時啟動協調流程。  
+1. 從工具箱拖曳 **接收** 元件，緊解著將其放置於協調流程 (綠色圓形) 的開頭下方。 按一下 **接收**圖形，然後在 屬性 視窗中，輸入`FromDisk`如**名稱**，並設定**啟動**至`true`。 如此會在此接收埠收到內送文件時啟動協調流程。  
   
-2.  拖放到 **傳送** 元件從工具箱拖曳，把它放在正下方 **FromDiskReceive** 圖形。 按一下新 **傳送** 圖形，然後在 [屬性] 視窗中，輸入 `ToPS` 的 **名稱**。  
+2. 拖曳**傳送**元件從 [工具箱] 中，把它放在正下方**FromDiskReceive**圖形。 按一下新**傳送**圖形，然後在 [屬性] 視窗中，輸入`ToPS`如**名稱**。  
   
-3.  拖放到 **接收** 元件從工具箱拖曳，把它放在正下方 **To_PS * * * 傳送** 圖形。 按一下  **接收** 圖形，然後在 屬性 視窗中，輸入 `FromPS` 的 **名稱**。  
+3. 拖曳**接收**元件從 [工具箱] 中，把它放在正下方**To_PS**<strong>傳送</strong>圖形。 按一下 **接收**圖形，然後在 屬性 視窗中，輸入`FromPS`如**名稱**。  
   
-4.  拖放到 **傳送** 元件從工具箱拖曳，把它放在正下方 **From_PSReceive** 圖形。 按一下新 **傳送** 圖形，然後在 [屬性] 視窗中，輸入 `ToDisk` 的 **名稱**。  
+4. 拖曳**傳送**元件從 [工具箱] 中，把它放在正下方**From_PSReceive**圖形。 按一下新**傳送**圖形，然後在 [屬性] 視窗中，輸入`ToDisk`如**名稱**。  
   
- 您必須先定義要處理的訊息類型，才可以將這些圖形連接至邏輯連接埠。 配接器同時需要內送 (**要求** 方法) 訊息和外寄 (**回應** 方法) 訊息。 每個方法的訊息都不同。  
+   您必須先定義要處理的訊息類型，才可以將這些圖形連接至邏輯連接埠。 配接器同時需要內送 (**要求** 方法) 訊息和外寄 (**回應** 方法) 訊息。 每個方法的訊息都不同。  
   
- 在此協調流程中，您只會使用 **Get-Request** 和 **Get-Response** 訊息。 如果協調流程在更新資料，假設其使用 **UpdateEx** 方法，便會需要不同的要求/回應訊息。  
+   在此協調流程中，您只會使用 **Get-Request** 和 **Get-Response** 訊息。 如果協調流程在更新資料，假設其使用 **UpdateEx** 方法，便會需要不同的要求/回應訊息。  
   
 #### <a name="define-and-assign-messages-to-ports"></a>定義和指派訊息到連接埠  
   
@@ -237,7 +237,7 @@ ms.locfileid: "25975292"
   
 4.  選取 [FileOut]  連接埠，並將其內送反向接收箭頭拖曳至 **ToDisk** 圖形上的外寄傳送箭頭。  
   
-5.  將現有的泛型訊息名稱重新命名為更具描述性的名稱，以遵守良好的應用程式設計原則。 在方案總管中，按一下 [協調流程檢視]  索引標籤。在下**訊息**，變更的識別項**Message_1**至**PS_Msg**。 將 **Message_2** 的識別項變更為 [PS_Resp] 。  
+5.  將現有的泛型訊息名稱重新命名為更具描述性的名稱，以遵守良好的應用程式設計原則。 在方案總管中，按一下 協調流程檢視  索引標籤。底下**訊息**，變更的識別項**Message_1**來**為 PS_Msg**。 將 **Message_2** 的識別項變更為 [PS_Resp] 。  
   
      ![](../core/media/5ec92b81-4a55-4d44-a360-78a6aaa64255.gif "5ec92b81-4a55-4d44-a360-78a6aaa64255")  
   
@@ -253,8 +253,8 @@ ms.locfileid: "25975292"
   
      ![](../core/media/d16e02bc-954c-4aa2-99d6-3fee1222c730.gif "d16e02bc-954c-4aa2-99d6-3fee1222c730")  
   
-## <a name="step-4-build-and-deploy-the-project"></a>步驟 4： 建立和部署專案  
- 現在 BizTalk 專案已完成，而且您可以建置並部署在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
+## <a name="step-4-build-and-deploy-the-project"></a>步驟 4： 建置並部署專案  
+ 現在 BizTalk 專案已完成，然後您可以建置並部署在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
   
 1.  在 Visual Studio 中，指向**Visual Studio Tools**，然後選取 Visual Studio 命令提示字元 * *。  
   
@@ -272,13 +272,13 @@ ms.locfileid: "25975292"
   
 7.  按一下 [專案設計工具] 中的 **[部署]** 索引標籤。  
   
-8.  將 **應用程式名稱** 設為 `PS_Test`使用的八個企業營運系統 (LOB) 配接器之一。  
+8.  設定**應用程式名稱**至`PS_Test`。  
   
 9. 在方案總管中，以滑鼠右鍵按一下 []  專案，然後按一下 [建置]   
   
 10. 順利完成建置後，以滑鼠右鍵按一下 [PS_Test]  專案，然後按一下 [部署] 。  
   
-## <a name="step-5-test-the-application-and-viewing-the-xml-output"></a>步驟 5： 測試應用程式並檢視 XML 輸出  
+## <a name="step-5-test-the-application-and-viewing-the-xml-output"></a>步驟 5： 測試應用程式，並檢視 XML 輸出  
  現在您將測試所建立和部署的應用程式。 您會建立啟動協調流程處理序的 XML 檔案，然後設定在應用程式內接收和傳送 XML 檔案的資料夾。 設定應用程式之後，您將會執行它並檢視協調流程所傳回的 XML 檔案。  
   
 #### <a name="generate-the-xml-file-for-the-query"></a>產生查詢的 XML 檔案  
@@ -289,49 +289,49 @@ ms.locfileid: "25975292"
   
      `C:\LABS\PS_TEST\SAMPLEQUERY.XML`  
   
-3.  按一下 **[確定]**。 在 [屬性] 視窗中，選取**\<結構描述\>** 並設定**根參考： 取得**。  
+3.  按一下 **[確定].** 在 [屬性] 視窗中，選取**\<結構描述\>** 並設定**根參考： 取得**。  
   
 4.  以滑鼠右鍵按一下 [LOCATIONService_LOCATION_x5d.xsd]  ，再按一下 [產生執行個體] 。 這會產生 **SampleQuery.xml** 檔案。 這個檔案將做為配接器的輸入，放置在接收位置以啟動協調流程處理序。  
   
      ![](../core/media/ef65a96c-2daa-44db-ab95-d18b1fda934e.gif "ef65a96c-2daa-44db-ab95-d18b1fda934e")  
   
-#### <a name="configure-and-start-the-biztalk-application"></a>設定和啟動 BizTalk 應用程式  
+#### <a name="configure-and-start-the-biztalk-application"></a>設定並啟動 BizTalk 應用程式  
   
-1.  設定用於接收內送檔案及傳送外寄檔案的資料夾。 移至 **C:\LABS\PS_TEST** ，然後建立名為 `FileIn` 和 `FileOut`使用的八個企業營運系統 (LOB) 配接器之一。  
+1. 設定用於接收內送檔案及傳送外寄檔案的資料夾。 移至**C:\LABS\PS_TEST**並建立兩個新的子資料夾，名為`FileIn`和`FileOut`。  
   
-2.  在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]系統管理主控台中，展開**主控台根目錄**，依序展開**[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理**，依序展開**BizTalk 群組**，展開**應用程式**，以滑鼠右鍵按一下**PS_Test** ，然後按一下 **設定**。  
+2. 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，展開**主控台根目錄**，展開**[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理**，展開**BizTalk 群組**，展開**應用程式**，以滑鼠右鍵按一下**PS_Test** ，然後按一下**設定**。  
   
-     ![](../core/media/e45f4c8b-fc8a-492a-9824-5232eb728d95.gif "e45f4c8b-fc8a-492a-9824-5232eb728d95")  
+    ![](../core/media/e45f4c8b-fc8a-492a-9824-5232eb728d95.gif "e45f4c8b-fc8a-492a-9824-5232eb728d95")  
   
-3.  選取 [Orchestration_1]  ，並按一下 [主機]  下拉式方塊。 選取 **[BizTalkServerApplication]**。  
+3. 選取 [Orchestration_1]  ，並按一下 [主機]  下拉式方塊。 選取 **[BizTalkServerApplication]**。  
   
-4.  在下**接收埠**，按一下  **\<無\>**。 在下拉式清單中選取 [新增接收埠] 。  
+4. 底下**接收連接埠**，按一下 **\<None\>**。 在下拉式清單中選取 [新增接收埠] 。  
   
-5.  For **[FileIn]** 輸入 `FileInPort`，然後按一下 [BizTalk Server 管理] 使用的八個企業營運系統 (LOB) 配接器之一。 訊息方塊會出現，指出您需要指定接收位置。 按一下 [確定] 及 [新增] 。  
+5. 針對**名稱**，型別`FileInPort`，然後按一下**確定**。 訊息方塊會出現，指出您需要指定接收位置。 按一下 [確定] 及 [新增] 。  
   
-     ![](../core/media/298638b6-0eb8-49c4-8a2e-485571d070cf.gif "298638b6-0eb8-49c4-8a2e-485571d070cf")  
+    ![](../core/media/298638b6-0eb8-49c4-8a2e-485571d070cf.gif "298638b6-0eb8-49c4-8a2e-485571d070cf")  
   
-6.  輸入或選取屬性的下列值：  
+6. 輸入或選取屬性的下列值：  
   
-     **名稱**: `FileInLoc`  
+    **名稱**：`FileInLoc`  
   
-     **類型**： **檔案**  
+    **類型**： **檔案**  
   
-     **接收處理常式**： **BizTalkServerApplication**  
+    **接收處理常式**： **BizTalkServerApplication**  
   
-     **接收管線**： **XMLReceive**  
+    **接收管線**： **XMLReceive**  
   
-     ![](../core/media/613a5dbc-effe-4827-a72b-d16eef8d0e8a.gif "613a5dbc-effe-4827-a72b-d16eef8d0e8a")  
+    ![](../core/media/613a5dbc-effe-4827-a72b-d16eef8d0e8a.gif "613a5dbc-effe-4827-a72b-d16eef8d0e8a")  
   
-7.  按一下 [開始]  ，針對 [接收資料夾] `C:\LABS\PS_TEST\FILEIN` 中輸入 **C:\LABS\PS_TEST\FILEIN**，然後按一下 [BizTalk Server 管理]  。  
+7. 按一下 [開始]  ，針對 [接收資料夾] `C:\LABS\PS_TEST\FILEIN` 中輸入 **C:\LABS\PS_TEST\FILEIN**，然後按一下 [BizTalk Server 管理]  。  
   
-     ![](../core/media/513eebb0-58ca-4aaa-a33b-31700f9cf7a8.gif "513eebb0-58ca-4aaa-a33b-31700f9cf7a8")  
+    ![](../core/media/513eebb0-58ca-4aaa-a33b-31700f9cf7a8.gif "513eebb0-58ca-4aaa-a33b-31700f9cf7a8")  
   
-8.  按一下**\<無\>** 如**PeopleSoft_Port**下拉式清單中。  
+8. 按一下  **\<無\>** for **PeopleSoft_Port**下拉式清單中。  
   
 9. 選取 [新增傳送埠]  ，然後選取或輸入下列屬性值。  
   
-     **名稱**: `PS_Test_Port`  
+     **名稱**：`PS_Test_Port`  
   
      **類型**： **PeopleSoft**  
   
@@ -341,27 +341,27 @@ ms.locfileid: "25975292"
   
 10. 按一下 [設定] ，然後輸入下列屬性值：  
   
-    1.  **應用程式伺服器路徑**： **//Servername:9000**  
+    1. **應用程式伺服器路徑**： **//Servername:9000**  
   
-         Servername 是您的應用程式伺服器。 這是此 PeopleSoft 系統的特定伺服器名稱或 IP 位址以及連接埠號碼。  
+        Servername 是您的應用程式伺服器。 這是此 PeopleSoft 系統的特定伺服器名稱或 IP 位址以及連接埠號碼。  
   
-    2.  **JAVA_HOME**： **C:\J2SDK1.4.2_08**  
+    2. **JAVA_HOME**： **C:\J2SDK1.4.2_08**  
   
-         這個路徑是特定上的 Java SDK 安裝[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  
+        這個路徑是特定上的 Java SDK 安裝[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。  
   
-    3.  **密碼**:\<輸入您的 PeopleSoft 密碼\>  
+    3. **密碼**:\<輸入您的 PeopleSoft 密碼\>  
   
-    4.  **PeopleSoft 8.x JAR 檔案**： **C:\PSJARS\VER841\PSJOA.JAR**  
+    4. **PeopleSoft 8.x JAR 檔案**： **C:\PSJARS\VER841\PSJOA.JAR**  
   
-     **使用者名稱：** \<輸入您的 PeopleSoft Userid>\>  
+       **使用者名稱：** \<輸入您的 PeopleSoft Userid>\>  
   
 11. 按兩下 [確定]  關閉對話方塊。  
   
-12. 在 設定 Applicationwindow 中，按一下  **\<無\>** 如**FileOut**下拉式清單中。  
+12. 在 設定 Applicationwindow 中，按一下**\<無\>** for **FileOut**下拉式清單中。  
   
 13. 選取 [新增傳送埠]  ，然後選取或輸入下列屬性值：  
   
-     **名稱**: `FileOutPort`  
+     **名稱**：`FileOutPort`  
   
      **類型**： **檔案**  
   
@@ -369,11 +369,11 @@ ms.locfileid: "25975292"
   
      **傳送管線**： **XMLTransmit**  
   
-14. 按一下  **設定** 和型別`C:\Labs\PS_Test\FileOut` 的 **目的地資料夾。** 保留 **%MessageID%.xml** 的 **檔案名稱** 因為這會產生唯一的檔案，為每個訊息。  
+14. 按一下 **設定**並輸入`C:\Labs\PS_Test\FileOut`如**目的地資料夾。** 保持 **%MessageID%.xml** for**檔案名稱**因為這會導致每個訊息的唯一檔案。  
   
 15. 按三下 [確定]  關閉對話方塊。  
   
-16. 在[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，按一下滑鼠右鍵**PS_Test**應用程式，然後按一下**啟動**。  
+16. 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，按一下滑鼠右鍵**PS_Test**應用程式，然後按一下**啟動**。  
   
      ![](../core/media/7bf30707-c7c6-409f-af18-9c9dfeb0de58.gif "7bf30707-c7c6-409f-af18-9c9dfeb0de58")  
   
@@ -398,9 +398,9 @@ ms.locfileid: "25975292"
   
      ![](../core/media/1320ea3c-b2bc-4717-b200-c3c550079ccb.gif "1320ea3c-b2bc-4717-b200-c3c550079ccb")  
   
-     這份傳回的記錄資料應符合針對 PeopleSoft 實驗室 1 中 PeopleSoft 系統的查詢所傳回的內容。 藉由比較值取得在實驗室 1 中，特別是**Address1**和**address2 一起顯示**到這裡所顯示的線條**\<位置： ADDRESS1\>** 和**\<位置： address2 一起顯示\>** 欄位，您可以確認**取得**方法運作正常。  
+     這份傳回的記錄資料應符合針對 PeopleSoft 實驗室 1 中 PeopleSoft 系統的查詢所傳回的內容。 比較您在實驗室 1 取得，特別**Address1**並**address2 一起顯示**行，以在這裡顯示**\<位置： ADDRESS1\>** 並**\<位置： address2 一起顯示\>** 欄位中，您可以確認**取得**方法運作正常。  
   
 ## <a name="summary"></a>摘要  
  在此實驗室中，您先確認了已正確設定必要條件，以便存取 PeopleSoft 系統。 之後，使用[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]來建立新的 BizTalk 專案包含協調流程。 您設定了此協調流程，以使用 PeopleSoft 配接器自 PeopleSoft 系統取得資料。 為了設定協調流程，您建立了傳送、接收與傳送/接收埠。 您將這些連接埠繫結至 PeopleSoft 配接器，並指派訊息到適當的連接埠。  
   
- 當您完成 BizTalk 專案之後，您使用[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]建置和部署它。 然後設定了新的應用程式並加以執行，以從 PeopleSoft 系統取得資料。 為了確定應用程式正確運作，您將其輸出 XML 檔與在實驗室 1 中接收自 PeopleSoft 系統的檔案做比較。
+ 完成 BizTalk 專案之後，您會使用[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]建置，並將它部署。 然後設定了新的應用程式並加以執行，以從 PeopleSoft 系統取得資料。 為了確定應用程式正確運作，您將其輸出 XML 檔與在實驗室 1 中接收自 PeopleSoft 系統的檔案做比較。

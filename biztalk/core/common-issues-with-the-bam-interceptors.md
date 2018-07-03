@@ -1,5 +1,5 @@
 ---
-title: BAM 攔截器的一般問題 |Microsoft 文件
+title: BAM 攔截器的常見問題 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 312bcd2ea1eaedcf44f02e2d3b702989095969d1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5e6217a96bfbbe0a9dfddef6e8cec5a82cb93254
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22231494"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37004071"
 ---
 # <a name="common-issues-with-the-bam-interceptors"></a>BAM 攔截器的常見問題
 這個主題討論以下使用 BAM 攔截器時可能常發生的問題：  
@@ -27,17 +27,17 @@ ms.locfileid: "22231494"
 ## <a name="you-receive-a-sql-exception-concerning-a-completed-distributed-transaction-or-a-transaction-descriptor"></a>您收到已完成之分散式交易或交易描述項相關的 SQL 例外狀況  
  執行 BAM Windows Communication Framework (WCF) 攔截器時，可能出現下列其中一個例外狀況：  
   
--   分散式交易完成。 請在新的交易或是 NULL 交易中編列這個工作階段。  
+- 分散式交易完成。 請在新的交易或是 NULL 交易中編列這個工作階段。  
   
--   不允許啟動新要求，因為要求應該具備有效的交易描述項。  
+- 不允許啟動新要求，因為要求應該具備有效的交易描述項。  
   
- 疑難排解此問題的建議如下：  
+  疑難排解此問題的建議如下：  
   
--   啟用 BAM 追蹤。 此追蹤會包括包含錯誤根本原因的所有相關訊息。 如需有關 BAM 追蹤的詳細資訊，請參閱[如何在 BAM 中啟用的追蹤](../core/how-to-enable-tracing-in-bam.md)。  
+- 啟用 BAM 追蹤。 此追蹤會包括包含錯誤根本原因的所有相關訊息。 如需有關 BAM 追蹤的詳細資訊，請參閱 <<c0> [ 如何在 BAM 中啟用的追蹤](../core/how-to-enable-tracing-in-bam.md)。  
   
--   看見此分散式交易協調器 (DTC) 例外狀況時，請嘗試在沒有交易的情況下重新執行完全相同的實例。  
+- 看見此分散式交易協調器 (DTC) 例外狀況時，請嘗試在沒有交易的情況下重新執行完全相同的實例。  
   
--   使用 SQL Server Profiler，並尋找追蹤內可能導致交易被中止的錯誤。  
+- 使用 SQL Server Profiler，並尋找追蹤內可能導致交易被中止的錯誤。  
   
 ## <a name="you-receive-an-error-similar-to-interceptor-configuration-polling-interval-0-must-be-at-least-5-seconds-when-using-the-wcf-interceptor"></a>使用 WCF 攔截器時，您收到類似「攔截器組態輪詢間隔 '0' 必須至少為 '5' 秒」的錯誤。  
  您並未在應用程式組態檔內明確提供攔截器組態輪詢間隔值，或您提供的值小於必要的最小值 5 秒時，就可能發生這個錯誤。  

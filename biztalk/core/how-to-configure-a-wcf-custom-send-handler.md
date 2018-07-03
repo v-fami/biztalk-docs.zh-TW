@@ -1,5 +1,5 @@
 ---
-title: 如何設定 Wcf-custom 傳送處理常式 |Microsoft 文件
+title: 如何設定 Wcf-custom 傳送處理常式 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 723b28fca87171fa1cfd7ec18b57a4119f2343b0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a80ec79dd839c4a7e82d17e3b559abf6cba89a6f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22249334"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36996831"
 ---
 # <a name="how-to-configure-a-wcf-custom-send-handler"></a>如何設定 WCF-Custom 傳送處理常式
 如果您希望 [!INCLUDE[wcfadapter_short](../includes/wcfadapter-short-md.md)] 向 machine.config 以外的位置查詢自訂行為延伸模組，您必須設定傳送處理常式屬性。  
@@ -43,19 +43,19 @@ ms.locfileid: "22249334"
   
 #### <a name="to-configure-the-adapter-handler-properties"></a>若要設定配接器處理常式屬性  
   
-1.  在 BizTalk 管理主控台中，展開[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]**管理**，依序展開**BizTalk 群組**，依序展開**平台設定**，然後展開  **配接器**。  
+1. 在 BizTalk 管理主控台中，依序展開[!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **Administration**，展開**BizTalk 群組**，依序展開**平台設定**，然後展開**配接器**。  
   
-2.  在展開的配接器清單中，按一下  **Wcf-custom**，在右窗格，以滑鼠右鍵按一下您想要設定的傳送處理常式，然後按一下**屬性**。  
+2. 在展開的配接器清單中，按一下**Wcf-custom**，在右窗格以滑鼠右鍵按一下您想要設定的傳送處理常式，然後按一下**屬性**。  
   
-3.  在**配接器處理常式屬性**對話方塊**一般**索引標籤的**主機名稱**清單中，選取主控件與傳送處理常式將會產生關聯，然後按一下**屬性**。  
+3. 在 **配接器處理常式屬性**對話方塊的 **一般**索引標籤**主機名稱**清單中，選取主控件與傳送處理常式將會產生關聯，然後按一下**屬性**。  
   
-4.  在**Wcf-custom 傳輸屬性**對話方塊**WCF 延伸模組**索引標籤上，執行下列動作：  
+4. 在  **Wcf-custom 傳輸屬性**對話方塊的  **WCF 延伸模組**索引標籤上，執行下列動作：  
   
-    |使用|動作|  
-    |--------------|----------------|  
-    |**匯入**|匯入含有 WCF 自訂行為延伸模組的 WCF 組態檔。 按一下此按鈕會開啟**匯入 WCF 組態**對話方塊，即可瀏覽並尋找 WCF 組態檔。 請注意，此檔案應為有效的 WCF 組態檔。 如需 WCF 組態結構描述的詳細資訊，請參閱 「 Windows Communication Foundation 組態結構描述 」 在[http://go.microsoft.com/fwlink/?LinkId=163953](http://go.microsoft.com/fwlink/?LinkId=163953)。|  
-    |**匯出**|將 WCF 自訂行為延伸模組匯出到 WCF 組態檔。 按一下此按鈕會開啟**匯出 WCF 組態**對話方塊，即可瀏覽與儲存 WCF 組態檔。|  
-    |**Clear**|從配接器處理常式屬性中清除現有的 WCF 自訂行為延伸模組。|  
+   |使用|以進行此動作|  
+   |--------------|----------------|  
+   |**匯入**|匯入含有 WCF 自訂行為延伸模組的 WCF 組態檔。 按一下此按鈕會開啟**匯入 WCF 組態**對話方塊，即可瀏覽並尋找 WCF 組態檔。 請注意，此檔案應為有效的 WCF 組態檔。 WCF 組態結構描述的詳細資訊，請參閱 「 Windows Communication Foundation 組態結構描述 >，網址[ http://go.microsoft.com/fwlink/?LinkId=163953 ](http://go.microsoft.com/fwlink/?LinkId=163953)。|  
+   |**匯出**|將 WCF 自訂行為延伸模組匯出到 WCF 組態檔。 按一下此按鈕會開啟**匯出 WCF 組態**對話方塊，即可瀏覽與儲存 WCF 組態檔。|  
+   |**Clear**|從配接器處理常式屬性中清除現有的 WCF 自訂行為延伸模組。|  
   
 ## <a name="see-also"></a>另請參閱  
- [設定 WCF 自訂配接器](../core/configuring-the-wcf-custom-adapter.md)
+ [設定 WCF-Custom 配接器](../core/configuring-the-wcf-custom-adapter.md)

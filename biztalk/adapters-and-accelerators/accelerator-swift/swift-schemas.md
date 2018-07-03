@@ -1,5 +1,5 @@
 ---
-title: SWIFT 的結構描述 |Microsoft 文件
+title: SWIFT 結構描述 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,33 +17,33 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1b4bac26d99fb3282650c20381bbc18237f8908a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f749a06c694007008f3d8138b2b087b77b2c4f03
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22214918"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36996111"
 ---
-# <a name="swift-schemas"></a>SWIFT 的結構描述
-[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]傳送和接收 SWIFT 財務 (FIN) 訊息當做個別的一般檔案 SWIFT 網路上。 每個個別的訊息是由一組標頭區塊的一組預先定義的加上標籤的欄位和位置，或已排序的子欄位和一組的結尾區塊的結尾組成的文字區塊所組成。 文字區塊的內容會因訊息類型。  
+# <a name="swift-schemas"></a>SWIFT 結構描述
+[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)] 傳送和接收 SWIFT 財務 (FIN) 訊息以個別的一般檔案的 SWIFT 網路移轉。 每個個別的訊息是由一組的標頭區塊的一組預先定義的加上標籤的欄位和位置，或已排序的子欄位，並在結尾區塊的結尾的一組所組成的文字區塊所組成。 文字區塊的內容是根據訊息類型而異。  
   
- 另外還有許多應用程式，交換 SWIFT 財務 (FIN) 訊息的批次： 一組包含單一檔案中的訊息。 檔案可能透過本機傳遞，或可能透過 FileAct 傳輸 (透過 SWIFT IP 網路 — SIPN)，或透過 FTP。  
+ 另外還有許多應用程式，交換的 SWIFT 的財務 (FIN) 訊息的批次-一組包含單一檔案中的訊息。 檔案可能會在本機傳遞，或可能透過 FileAct 傳輸 (透過 SWIFT IP 網路 — SIPN)，或透過 FTP。  
   
- 若要簡化這些訊息，不論它們是批次還是個別送出相關聯的資料操作[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]提供 XSD 結構描述中定義每個訊息類型。 此結構描述升級訊息類型，讓訊息可以自動與適當的結構描述和相關聯，並自動與 XML 的 SWIFT 網路所使用的外部的一般檔案表示法之間進行轉換。  
+ 若要簡化資料的操作相關聯這些訊息，不論它們是在批次還是個別提交 Microsoft[!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]提供 XSD 結構描述中定義每個訊息類型。 此結構描述，讓訊息可以自動與適當的結構描述，產生關聯，並自動轉換與 XML 的 SWIFT 網路所使用的外部的一般檔案表示法之間，會升級訊息類型。  
   
- 結構描述包含的所有區塊包含標頭、 文字和結尾。 此結構描述，交換結構描述，因為它是完整的 SWIFT 網路使用 FIN 訊息層級通訊協定，透過傳送訊息，並包含所有透過 SWIFT 網路接收的訊息相關聯的資訊。  
+ 結構描述包含的所有區塊，包括標頭、 文字和結尾。 此結構描述，交換結構描述，因為它是完整透過使用 FIN 訊息層級通訊協定的 SWIFT 網路來傳送訊息，並包含所有透過 SWIFT 網路接收之訊息相關聯的資訊。  
   
- 每個訊息類型的結構描述定義的整體格式和該訊息類型的內容。 A4SWIFT 定義每個區塊。 每個區塊內的欄位和子欄位配置。視需要的欄位和子欄位是根據一般基底或複雜類型，在不同的結構描述中定義。 結構描述層級的驗證包括格式、 字元集，設定值、 範圍、 必要/選用，重複性、 位置和長度，視需要。 商務規則執行跨欄位驗證和其他邏輯檢查。  
+ 每個訊息類型的結構描述會定義整體的格式和內容，該訊息類型。 A4SWIFT 定義每個區塊。 每個區塊中，欄位和子配置。視需要的欄位和子欄位所建置的通用基底或複雜類型，在不同的結構描述中定義。 結構描述層級的驗證包括格式、 字元集，設定值、 範圍、 必要/選用，重複性、 位置和長度，視需要。 商務規則執行跨欄位驗證和其他邏輯檢查。  
   
  此部分包含：  
   
--   [範例訊息簡報](../../adapters-and-accelerators/accelerator-swift/sample-message-presentation.md)  
+-   [範例訊息呈現](../../adapters-and-accelerators/accelerator-swift/sample-message-presentation.md)  
   
--   [範例結構描述簡報](../../adapters-and-accelerators/accelerator-swift/sample-schema-presentation.md)  
+-   [範例結構描述呈現](../../adapters-and-accelerators/accelerator-swift/sample-schema-presentation.md)  
   
--   [SWIFT 的標頭](../../adapters-and-accelerators/accelerator-swift/swift-headers.md)  
+-   [SWIFT 標頭](../../adapters-and-accelerators/accelerator-swift/swift-headers.md)  
   
--   [SWIFT 的文字](../../adapters-and-accelerators/accelerator-swift/swift-text.md)  
+-   [SWIFT 文字](../../adapters-and-accelerators/accelerator-swift/swift-text.md)  
   
 -   [SWIFT 結尾](../../adapters-and-accelerators/accelerator-swift/swift-trailers.md)  
   

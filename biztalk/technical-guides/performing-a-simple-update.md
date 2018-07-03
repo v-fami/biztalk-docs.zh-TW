@@ -1,5 +1,5 @@
 ---
-title: 執行簡單更新 |Microsoft 文件
+title: 執行簡單的更新 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3a0c90d2694aa374f5c66230764024830d39dc1d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8861f04d4c154800216c0f7f81533c0077bc13ee
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22299382"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36991519"
 ---
 # <a name="performing-a-simple-update"></a>執行簡單的更新
-BizTalk 應用程式或成品的簡單更新需要不需要停機時間，不需要程式碼變更，而且可以由 IT 專業人員或商務分析師 singlehandedly 執行。 這些類型的變更是通常只要新增其他的傳送埠至傳送埠群組、 新增額外的傳送埠使用適當的訂用帳戶篩選、 變更的傳送埠，URI 或更新 BRE 中的規則。 如需詳細資訊，請參閱[建立和使用商務規則](http://go.microsoft.com/fwlink/?LinkId=155136)(http://go.microsoft.com/fwlink/?LinkId=155136) 中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]幫助。
+簡單的更新 BizTalk 應用程式或成品需要停機，需要變更任何程式碼，而且可以由 IT 專業人員或業務分析師 singlehandedly。 這些類型的變更是通常只要新增其他的傳送埠至傳送埠群組、 使用適當的訂用帳戶篩選器新增額外的傳送埠、 變更的傳送埠，URI 或更新 [BRE] 中的規則。 如需詳細資訊，請參閱 <<c0> [ 建立和使用商務規則](http://go.microsoft.com/fwlink/?LinkId=155136)(<http://go.microsoft.com/fwlink/?LinkId=155136>) 中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]幫助。

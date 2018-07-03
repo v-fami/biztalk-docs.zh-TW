@@ -1,5 +1,5 @@
 ---
-title: 單一登入： 事件 10782 |Microsoft 文件
+title: 單一登入： 事件 10782 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7dbb219394f153a806e14de3784b2a1d00bf12da
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5864f02742746bf48b41651279bf5cb6ddd93920
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22277230"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36980303"
 ---
 # <a name="single-sign-on-event-10782"></a>單一登入： 事件 10782
 ## <a name="details"></a>詳細資料  
   
-|||  
-|-|-|  
-|產品名稱|企業單一登入|  
-|產品版本|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|事件識別碼|10782|  
-|事件來源|ENTSSO|  
-|元件|不適用|  
-|符號名稱|ENTSSO_E_INVALID_FLAGS|  
-|訊息文字|指定的旗標無效或互不相容。|  
+|                 |                                                                        |
+|-----------------|------------------------------------------------------------------------|
+|  產品名稱   |                       企業單一登入                        |
+| 產品版本 |       [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]       |
+|    事件識別碼     |                                 10782                                  |
+|  事件來源   |                                 ENTSSO                                 |
+|    元件    |                                  不適用                                   |
+|  符號名稱  |                         ENTSSO_E_INVALID_FLAGS                         |
+|  訊息文字   | 指定的旗標無效或互不相容。 |
   
 ## <a name="explanation"></a>說明  
  指定的旗標無效或互不相容。  
   
 ## <a name="user-action"></a>使用者動作  
- 請檢查事件記錄檔以查看此應用程式的有效和無效的旗標，和相關的錯誤。
+ 檢查事件記錄檔，以查看此應用程式的有效和無效旗標，以及相關的錯誤。

@@ -1,5 +1,5 @@
 ---
-title: 使用 MATH_NUMERIC Type2 |Microsoft 文件
+title: 使用 MATH_NUMERIC 類型 2 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,25 +17,25 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ac6c96c32244acdcfaf81e8747e381bebd455598
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 13de687f158bc18f4fa6a036ab239a25774d02ba
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22288414"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36998903"
 ---
 # <a name="using-the-mathnumeric-type"></a>使用 MATH_NUMERIC 類型
 本主題說明 MATH_NUMERIC 型別及其指數處理方式、最大位數與最大小數位數等相關細節， 並包含下列內容的討論：  
   
--   指數  
+- 指數  
   
--   無效值  
+- 無效值  
   
--   運算精確度  
+- 運算精確度  
   
--   貨幣  
+- CURRENCY  
   
- MATH_NUMERIC 型別是數值字串型別。 若要使用，請輸入下列格式的參數值：  
+  MATH_NUMERIC 型別是數值字串型別。 若要使用，請輸入下列格式的參數值：  
   
 ```  
 <OptionalSign><IntegerAndFractionalPart><OptionalExponentPart>  
@@ -43,21 +43,21 @@ ms.locfileid: "22288414"
   
  位置  
   
--   `<OptionalSign>`可以是`+`或`-`。 `+`預設值。  
+- `<OptionalSign>` 可以是`+`或`-`。 `+` 預設值。  
   
--   `<IntegerAndFractionalPart>` 最多可有 32 個有效位數，不計入小數點符號。 JD Edwards OneWorld 安裝中的小數點符號需依據地區設定而定，一般是使用句點 (.) 或逗點 (,)。 數字可以是全部整數、全部小數或是部分整數部分小數，但是不得超過 32 個位數。  
+- `<IntegerAndFractionalPart>` 最多可有 32 個有效位數，不計入小數點符號。 JD Edwards OneWorld 安裝中的小數點符號需依據地區設定而定，一般是使用句點 (.) 或逗點 (,)。 數字可以是全部整數、全部小數或是部分整數部分小數，但是不得超過 32 個位數。  
   
--   `<OptionalExponentPart>` 等於：  
+- `<OptionalExponentPart>` 等於：  
   
-    ```  
-    'e' <OptionalSign><ExponentDigits>  
-    ```  
+  ```  
+  'e' <OptionalSign><ExponentDigits>  
+  ```  
   
- 位置  
+  位置  
   
--   `<OptionalSign>`可以是`+`或-。 `+`預設值。  
+- `<OptionalSign>` 可以是`+`或-。 `+` 預設值。  
   
--   `<ExponentDigits>` 最多可有兩位數。 您可以使用 63 到 -63 之間的值 (0 除外)。  
+- `<ExponentDigits>` 最多可有兩位數。 您可以使用 63 到 -63 之間的值 (0 除外)。  
   
 ## <a name="valid-values"></a>有效的值  
  有效的 MATH_NUMERIC 值範例：  
@@ -87,13 +87,13 @@ ms.locfileid: "22288414"
   
  無效的 MATH_NUMERIC 值範例：  
   
--   1034.00000000000000000000000000001023 - 有效位數過多  
+- 1034.00000000000000000000000000001023 - 有效位數過多  
   
--   1.023e-64 - 指數太小  
+- 1.023e-64 - 指數太小  
   
--   0.00317e64 - 指數太大  
+- 0.00317e64 - 指數太大  
   
- 除正負號與小數符號外的所有其他非數值字元都會造成無效值。  
+  除正負號與小數符號外的所有其他非數值字元都會造成無效值。  
   
 ## <a name="exponents"></a>指數  
  為方便輸入值，JD Edwards OneWorld MATH_NUMERIC 特地提供指數功能。 不過，大多數的傳回值不會包含指數 (32 個有效位數全部顯示出來)。  
@@ -111,8 +111,8 @@ ms.locfileid: "22288414"
   
  大多數的商務案例都不會超過這些範圍。  
   
-## <a name="currency"></a>貨幣  
+## <a name="currency"></a>CURRENCY  
  當某個 JD Edwards OneWorld 商務功能預期收到貨幣值時，該商務功能一律會另外使用一個參數來代表四個字元的貨幣代碼。 除非您使用的貨幣與 JD Edwards OneWorld 系統預設的不同，否則通常不需要傳入此代碼。  
   
 ## <a name="see-also"></a>另請參閱  
- [附錄 a： 資料類型](../core/appendix-a-data-types.md)
+ [附錄 A：資料類型](../core/appendix-a-data-types.md)

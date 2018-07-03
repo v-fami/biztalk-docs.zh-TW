@@ -1,5 +1,5 @@
 ---
-title: BizTalk Accelerator for HL7 的新功能 |Microsoft 文件
+title: BizTalk Accelerator for HL7 的新功能 |Microsoft Docs
 description: 變更與更新具有不同版本的 BizTalk Server 中的 HL7 加速器
 ms.custom: ''
 ms.date: 11/22/2017
@@ -13,50 +13,50 @@ caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d3cdb992f749633bd517d6cad7f1acce926157c1
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: d224bc09d97ea0471e0aefe41c02721c24baaafc
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25962340"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37010935"
 ---
-# <a name="whats-new-in-biztalk-accelerator-for-hl7"></a>BizTalk accelerator for HL7 最新消息
-變更與更新與[!INCLUDE[HL7_CurrentVersion_FirstRef_md](../../includes/hl7-currentversion-firstref-md.md)]。 
+# <a name="whats-new-in-biztalk-accelerator-for-hl7"></a>什麼是 BizTalk Accelerator for HL7 的新功能
+變更，並更新[!INCLUDE[HL7_CurrentVersion_FirstRef_md](../../includes/hl7-currentversion-firstref-md.md)]。 
 
 ## <a name="biztalk-server-2016"></a>BizTalk Server 2016
 
-|功能|Description|  
-|---|---| 
-| **啟動連線到 LOB** | 使用 MLLP 配接器，[!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)]可以啟動或起始遠端的企業營運 (LOB) 的伺服器系統的連線。 LOB 等候連接，然後再將傳送訊息至[!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)]使用 MLLP 配接器。 有一些 MLLP 中的新屬性的接收位置設定此選項。 請參閱： <br/><ul><li>[端對端教學課程中的步驟 4](../../adapters-and-accelerators/accelerator-hl7/step-4-create-receive-port-to-accept-adt^a03-messages-from-adt-using-mllp.md)</li><li>[步驟 4 中 interrogative 教學課程](../../adapters-and-accelerators/accelerator-hl7/step-4-create-the-receive-port-for-accepting-adt-query-messages.md)</li><li>[Interrogative 教學課程中的步驟 5](../../adapters-and-accelerators/accelerator-hl7/step-5-create-the-receive-port-for-accepting-his-messages.md)</li><li>[在批次的教學課程步驟 4](../../adapters-and-accelerators/accelerator-hl7/step-4-create-a-receive-port-for-accepting-the-batch-message.md)</li></ul>在[!INCLUDE[bts2013r2_md](../../includes/bts2013r2-md.md)]較舊版本中，HL7 MLLP 的接收配接器等候遠端 LOB 伺服器連線到 MLLP 配接器和 LOB 然後傳送訊息。 <br/><br/>請參閱[BTAHL7 將訊息路由](../../adapters-and-accelerators/accelerator-hl7/how-btahl7-routes-messages.md)如需詳細資訊。|
+|               功能               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+|-------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **啟動連線到 LOB** | 使用 MLLP 配接器，[!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)]可以啟動或起始遠端的企業營運伺服器 (LOB) 系統的連線。 LOB 會等候進行連接，並接著會傳送訊息至[!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)]使用 MLLP 配接器。 有一些新的屬性，在 MLLP 接收設定此選項的位置。 請參閱： <br/><ul><li>[端對端教學課程中的步驟 4](../../adapters-and-accelerators/accelerator-hl7/step-4-create-receive-port-to-accept-adt^a03-messages-from-adt-using-mllp.md)</li><li>[在詢問式教學課程步驟 4](../../adapters-and-accelerators/accelerator-hl7/step-4-create-the-receive-port-for-accepting-adt-query-messages.md)</li><li>[詢問式教學課程中的步驟 5](../../adapters-and-accelerators/accelerator-hl7/step-5-create-the-receive-port-for-accepting-his-messages.md)</li><li>[批次處理教學課程中的步驟 4](../../adapters-and-accelerators/accelerator-hl7/step-4-create-a-receive-port-for-accepting-the-batch-message.md)</li></ul>在 [!INCLUDE[bts2013r2_md](../../includes/bts2013r2-md.md)]和較舊版本中，HL7 MLLP 接收配接器會等候遠端 LOB 伺服器連線到 MLLP 配接器和 LOB 然後傳送訊息。 <br/><br/>請參閱[BTAHL7 如何路由傳送訊息](../../adapters-and-accelerators/accelerator-hl7/how-btahl7-routes-messages.md)如需詳細資訊。 |
 
 ## <a name="biztalk-server-2013-r2"></a>BizTalk Server 2013 R2  
   
-|功能|Description|  
-|-------------|-----------------|  
-|**64 位元支援**|MLLP 配接器與 HL7 管線可以在執行這兩個 32 位元和 64 位元的主控件執行個體。<br /><br /> [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)]安裝包括 32 位元安裝封裝和 64 位元安裝封裝。 在 32 位元的電腦上，請只安裝 32 位元封裝。 在 64 位元電腦上安裝 32 位元**或**64 位元封裝。 <br/><br/>**重要事項：** 若要使用 64 位元支援，請僅安裝 64 位元封裝。 64 位元封裝可讓配接器和管線在 32 位元和 64 位元模式中都能執行。|  
-|**v2.6 結構描述支援**|支援包括：<br /><br /> -   **BTAHL7V26Common**專案： v2.6 結構描述。<br />-   **BTAHL7Common**專案： 包含 v2.6 結構描述和 ACK_26_GLO_DEF 通知結構描述則會產生 v2.6 訊息通知。<br />-   **MSH_25_GLO_DEF**結構描述： 處理新訊息標頭欄位，隨附於 v2.6 結構描述，並且會繼續支援所有 v2。*x*結構描述。|  
-|**動態 MLLP 配接器支援**|屬性可以設定在執行階段使用單向或雙向 （要求-回應） 的配接器傳送埠。 請參閱[動態 MLLP 配接器](../../adapters-and-accelerators/accelerator-hl7/dynamic-mllp-adapter.md)。|  
-|**「 FreeText 」 支援**|如果欄位或區段定義為 「 FreeText"，無法剖析欄位/區段中的字元資料。 請參閱[編碼的字元，使用任意文字](../../adapters-and-accelerators/accelerator-hl7/encoding-characters-using-free-text.md)。|  
-|**具有無效的 MSH 郵件會傳送 ACK 或 NACK**|使用**ReturnErrorForInvalidMSH3**登錄機碼，負認可 (NACK) 會傳送至合作對象如果發生下列情況：<br /><br /> -無效的 MSH3 （合作對象中未定義 HL7 組態總管） <br />    **AND**<br />-MSH15 和 MSH16 訊息中的值是 null 或空白<br /><br /> 若要傳送 NACK，下列的登錄機碼設為 1，然後重新啟動主控件執行個體：<br /><br /> 32 位元主控件：`HKLM\SOFTWARE\Microsoft\BizTalk Accelerator for HL7`<br /><br /> 64 位元主控件：`HKLM\ SOFTWARE\Wow6432Node\Microsoft\BizTalk Accelerator for HL7` <br/><br/>**提示：** 連接埠可以訂閱失敗訊息： <ul><li>使用**BTAHL7Schemas.ParseError = True**篩選條件。</li><li>使用**Pass Through**管線。</li></ul>|  
-|**ACK 訊息執行個體保持作用中**|如果沒有連接到上游系統失敗，傳送到上游系統通知 (ACK) 會維持在作用中狀態。<br /><br /> 新的行為： 如果沒有連接到上游系統失敗，則通知會擱置訊息。|  
-|**不要傳送\<SB\>**|這個屬性會新增至接收配接器連接埠組態屬性。 若要啟用此屬性，設定**UseMLLPTransACK**值：<br /><br /> -當設定為**False** （預設值），配接器傳送訊息如果資料是以開頭\<SB\>。 例如，會傳送下列訊息：<br /> `<SB\>DataData<CR\>DataData<CR\>…`<br/><br />-當設定為**True**，配接器傳送訊息，如果資料遺漏\<SB\>開始。 例如，會傳送下列訊息：<br /> `DataData<CR\>DataData<CR\>…` <br/><br/>**重要事項：** 如果兩個方式傳送連接埠有**不要傳送\<SB\>** 設為 True，則不會傳送 SB 訊息至下游系統。 同時它可以與 SB 遺漏下游系統接收通知。|  
-|**接受遺漏\<SB\>**|這個屬性會加入至傳送配接器連接埠組態屬性。 若要啟用此屬性，設定**UseMLLPTransACK**值：<br /><br /> -當設定為**False** （預設值），配接器時傳回錯誤的資料已遺失\<SB\>開始。 例如，下列訊息會傳回錯誤：<br /> `DataData<CR\>DataData<CR\>…`<br/><br />-當設定為**True**，配接器可以接收訊息，如果資料遺漏\<SB\>開始。 例如，收到下列訊息：<br /> `<SB\>DataData<CR\>DataData<CR\>…` <br />`DataData<CR\>DataData<CR\>…` <br/><br/>**重要事項：** 雙向接收埠是否**接受遺漏\<SB\>** 設為 True，則它會接受來自上游系統訊息中的遺失 SB。 同時它不會傳送 SB 上游的系統。|  
+|                        功能                        |                                                                                                                                                                                                                                                                                                                                                                                                                       描述                                                                                                                                                                                                                                                                                                                                                                                                                       |
+|-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                  **64 位元支援**                   |                                                                                                                            MLLP 配接器與 HL7 管線可以在執行這兩個 32 位元和 64 位元的主控件執行個體。<br /><br /> [!INCLUDE[HL7_CurrentVersion_abbrev_md](../../includes/hl7-currentversion-abbrev-md.md)]安裝包含 32 位元安裝封裝和 64 位元安裝封裝。 在 32 位元的電腦上，請只安裝 32 位元封裝。 在 64 位元電腦上安裝 32 位元**或**64 位元封裝。 <br/><br/>**重要事項：** 若要使用 64 位元支援，只安裝 64 位元封裝。 64 位元封裝可讓配接器和管線在 32 位元和 64 位元模式中都能執行。                                                                                                                            |
+|                **v2.6 結構描述支援**                |                                                                                                                                                                                                                 支援包括：<br /><br /> -   **BTAHL7V26Common**專案： v2.6 結構描述。<br />-   **BTAHL7Common**專案： 包含 v2.6 結構描述和 ACK_26_GLO_DEF 通知結構描述; 它會產生 v2.6 訊息的確認。<br />-   **MSH_25_GLO_DEF**結構描述： 處理新訊息會包含與 v2.6 結構描述，而且會繼續支援所有的 v2 的標頭欄位。*x*結構描述。                                                                                                                                                                                                                  |
+|           **動態 MLLP 配接器支援**            |                                                                                                                                                                                                                                                                                                                    屬性可以設定在執行階段使用單向或雙向 （要求-回應） 的配接器傳送埠。 請參閱[動態 MLLP 配接器](../../adapters-and-accelerators/accelerator-hl7/dynamic-mllp-adapter.md)。                                                                                                                                                                                                                                                                                                                    |
+|                **「 FreeText 」 支援**                 |                                                                                                                                                                                                                                                                                                        如果欄位或線段定義為 「 FreeText"，無法剖析欄位/區段中的字元資料。 請參閱[編碼的字元，使用任意文字](../../adapters-and-accelerators/accelerator-hl7/encoding-characters-using-free-text.md)。                                                                                                                                                                                                                                                                                                        |
+| **具有無效的 MSH 郵件會傳送 ACK 或 NACK** |                                 使用**ReturnErrorForInvalidMSH3**登錄機碼，負值通知 (NACK) 會傳送合作對象，如果發生下列情況：<br /><br /> -Invalid MSH3 （HL7 組態總管 中不會定義合作對象） <br />    **AND**<br />-MSH15 和 MSH16 訊息中的值是 null 或空白<br /><br /> 若要傳送 NACK，下列登錄機碼設為 1，並再重新啟動主控件執行個體：<br /><br /> 32 位元主控件： `HKLM\SOFTWARE\Microsoft\BizTalk Accelerator for HL7`<br /><br /> 64 位元主控件： `HKLM\ SOFTWARE\Wow6432Node\Microsoft\BizTalk Accelerator for HL7` <br/><br/>**提示：** 連接埠可以訂閱失敗訊息： <ul><li>使用**BTAHL7Schemas.ParseError = True**篩選條件。</li><li>使用**Pass Through**管線。</li></ul>                                  |
+|        **ACK 訊息執行個體保持作用中**        |                                                                                                                                                                                                                                                                                                如果沒有連接到上游系統失敗，傳送到上游系統通知 (ACK) 仍然處於作用中狀態。<br /><br /> 新的行為： 如果沒有連接到上游系統失敗，則通知會擱置訊息。                                                                                                                                                                                                                                                                                                 |
+|                **不要傳送\<SB\>**                 |                               這個屬性會新增至接收配接器連接埠組態屬性。 若要啟用此屬性，將**UseMLLPTransACK**值：<br /><br /> -設定為**假**（預設值），配接器傳送訊息如果資料是以開頭\<SB\>。 比方說，會傳送下列訊息：<br /> `<SB\>DataData<CR\>DataData<CR\>…`<br/><br />-設定為 **，則為 True**，配接器傳送訊息，如果資料是遺失\<SB\>開始。 比方說，會傳送下列訊息：<br /> `DataData<CR\>DataData<CR\>…` <br/><br/>**重要事項︰** 兩個方式傳送連接埠是否**不會傳送\<SB\>** 設為 True，則不會傳送 SB 訊息至下游系統。 同時它可以與下游系統中遺失 SB 接收通知。                               |
+|               **接受遺失\<SB\>**               | 這個屬性會新增至傳送配接器連接埠組態屬性。 若要啟用此屬性，將**UseMLLPTransACK**值：<br /><br /> -設定為**假**（預設值），配接器會傳回錯誤資料是否遺漏\<SB\>開始。 例如，下列訊息會傳回錯誤：<br /> `DataData<CR\>DataData<CR\>…`<br/><br />-設定為 **，則為 True**，配接器可以接收訊息，如果資料是遺失\<SB\>開始。 例如，收到下列訊息：<br /> `<SB\>DataData<CR\>DataData<CR\>…` <br />`DataData<CR\>DataData<CR\>…` <br/><br/>**重要事項︰** 雙向接收埠是否**接受遺失\<SB\>** 設為 True，則它會接受來自上游系統訊息中的遺漏 SB。 同時它不會傳送 SB 上游的系統。 |
   
 ## <a name="biztalk-server-2013"></a>BizTalk Server 2013  
   
- 之前的版本中包含下列增強功能：  
+ 在先前的版本包含下列增強功能：  
   
--   可復原交換支援 HL7 管線中批次中的批次出實例。  
+- 可復原交換支援 HL7 管線中的批次中批次出案例。  
   
- 在舊版中，已移除下列功能：  
+  在舊版中，已移除下列功能：  
   
--   健全狀況的活動追蹤功能會從 BizTalk Server 移除因此從 BTAHL7 移除稽核功能，但記錄會維持不變。  
+- 健全狀況的活動追蹤功能會從 BizTalk Server 移除因此稽核功能會從 BTAHL7 移除，但記錄會維持不變。  
   
- 在先前的版本修改下列功能：  
+  在先前的版本修改下列功能：  
   
--   「 稽核和記錄服務 」 已重新命名為 「 HL7 記錄服務 」。  
+- 「 稽核和記錄服務 」 會重新命名為 「 HL7 記錄服務 」。  
 
 ## <a name="see-also"></a>另請參閱
 
 [BizTalk Server 2016 的新功能](../../install-and-config-guides/what-s-new-in-biztalk-server-2016.md)  
-[BizTalk Server 2013 R2 和 2013年中最新消息](../../install-and-config-guides/what-s-new-in-biztalk-server-2013-and-2013-r2.md)
+[在 BizTalk Server 2013 R2 和 2013年中最新消息](../../install-and-config-guides/what-s-new-in-biztalk-server-2013-and-2013-r2.md)

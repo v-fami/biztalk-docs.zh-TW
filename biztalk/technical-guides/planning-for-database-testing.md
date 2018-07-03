@@ -1,5 +1,5 @@
 ---
-title: 資料庫測試規劃 |Microsoft 文件
+title: 規劃資料庫測試 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3849b68af9fdd4e457a8e1e492134a87dc1655bd
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: bce48244f67fd757fae5c2657634274625677850
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26010135"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36996615"
 ---
 # <a name="planning-for-database-testing"></a>規劃資料庫測試
-徹底的壓力負載測試 BizTalk 解決方案中的最後成功或失敗方案圖以突顯的方式。 因為[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]效能非常依賴的效能[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫、 測試和最佳化的 BizTalk 解決方案經常將著重在測試和最佳化執行之電腦[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]，存放[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫。  
+完整的壓力負載測試 BizTalk 解決方案 ultimate 的成功或失敗的方案中以突顯的方式判斷。 由於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]效能非常依賴的效能[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫、 測試和最佳化的 BizTalk 解決方案常見問題的焦點在於測試和最佳化執行的電腦[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]除此之外[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]資料庫。  
   
-## <a name="considerations-when-planning-for-database-testing"></a>規劃資料庫的測試時的考量  
- 資料庫測試計劃時，請考慮下列：  
+## <a name="considerations-when-planning-for-database-testing"></a>規劃資料庫測試時的考量  
+ 規劃資料庫測試時，請考慮下列：  
   
-1.  **確保測試環境，儘可能密集地符合實際執行環境。** 使用單元測試的虛擬環境，例如 Microsoft HYPER-V Server 2008 是完全可以接受;不過，所有負載/壓力測試應該都執行對儘可能密集地符合最後的實際執行環境的硬體。  
+1. **請確定測試環境盡可能符合生產環境。** 使用虛擬環境，例如 Microsoft HYPER-V Server 2008 進行單元測試是完全可以接受;不過，所有的載入/壓力測試應執行針對儘可能密集地符合最後一個生產環境的硬體。  
   
-2.  **計劃來測量最大持續輸送量和 BizTalk Server 系統的最大持續性追蹤輸送量**。 在生產環境中 BizTalk Server 系統可無限處理的訊息流量的最高負載會以最大持續輸送量。 請依照下列 BizTalk Server 說明中的下列主題中的步驟：  
+2. **計劃測量最大持續輸送量和 BizTalk Server 系統的最大持續性追蹤輸送量**。 最大持續輸送量會以 BizTalk Server 系統在生產環境中可無限處理的訊息流量最高的負載。 請依照下列 BizTalk Server 說明中的下列主題中的步驟：  
   
-    -   [測量最大持續性引擎輸送量](http://go.microsoft.com/fwlink/?LinkID=154388)(http://go.microsoft.com/fwlink/?LinkID=154388)。  
+   - [測量最大持續性引擎輸送量](http://go.microsoft.com/fwlink/?LinkID=154388)(http://go.microsoft.com/fwlink/?LinkID=154388)。  
   
-    -   [測量最大持續性追蹤輸送量](http://go.microsoft.com/fwlink/?LinkID=153815)(http://go.microsoft.com/fwlink/?LinkID=153815)。  
+   - [測量最大持續性追蹤輸送量](http://go.microsoft.com/fwlink/?LinkID=153815)(http://go.microsoft.com/fwlink/?LinkID=153815)。  
   
-     這些主題會說明產生負載的系統、 要測量的參數和測試 MST 時所應遵循的一般建議的方法。  
+     這些主題說明的方法來產生負載與針對系統、 要測量的參數和測試 MST 時要遵循的一般建議。  
   
-3.  **了解如何影響 BizTalk Server**  
-     **實作主控件節流。** [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]主控件節流演算法會嘗試進行中等程度的工作負載[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]主控件執行個體，以確保工作負載不超過主控件執行個體的容量，或任何下游主控件執行個體。 節流機制會自行調整而且適用於大部分的預設組態選項[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]處理實例。 您應，不過，深入了解實作/壓力的負載測試之前的節流機制。 如需詳細資訊，請參閱[最佳化資源使用量透過主控件節流](http://go.microsoft.com/fwlink/?LinkId=155770)(http://go.microsoft.com/fwlink/?LinkId=155770) 在 BizTalk Server 說明中。
+3. **了解如何影響 BizTalk Server**  
+    **實作主控件節流。** [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]主控件節流演算法會嘗試中度的工作負載[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]主控件執行個體，以確保工作負載不超過主控件執行個體的容量，或任何下游主控件執行個體。 節流機制會自行調整而且預設的設定選項適用於大部分的[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]處理案例。 您應，不過，有的節流機制實作負載/壓力測試之前先深入了解。 如需詳細資訊，請參閱 <<c0> [ 最佳化資源使用狀況透過主控件節流](http://go.microsoft.com/fwlink/?LinkId=155770)(<http://go.microsoft.com/fwlink/?LinkId=155770>) 在 BizTalk Server 說明中。

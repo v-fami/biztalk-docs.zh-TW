@@ -1,5 +1,5 @@
 ---
-title: 如何移動 BAM 主要匯入 Database1 |Microsoft 文件
+title: 如何移動 BAM 主要匯入 Database1 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6a63c556bfb95f4b22a3256540d3ecb336a17f7f
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: ff5caa9120be64e919ab4b6050f8df0c62fa33a6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25972660"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37010607"
 ---
 # <a name="how-to-move-the-bam-primary-import-database"></a>如何移動 BAM 主要匯入資料庫
 您可以使用這個程序，將 BAM 主要匯入資料庫移動到其他伺服器。  
@@ -30,31 +30,31 @@ ms.locfileid: "25972660"
   
 ### <a name="to-move-the-bam-primary-import-database"></a>移動 BAM 主要匯入資料庫  
   
-1.  停止所有 BizTalk Server 服務。 如需詳細資訊，請參閱[如何啟動、 停止、 暫停、 繼續或重新啟動 BizTalk Server 服務](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md)。  
+1. 停止所有 BizTalk Server 服務。 如需詳細資訊，請參閱 <<c0> [ 如何啟動、 停止、 暫停、 繼續或重新啟動 BizTalk Server Services](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md)。  
   
-2.  停止 IIS 服務。  
+2. 停止 IIS 服務。  
   
-3.  停止 BAM 警示 Notification Service：  
+3. 停止 BAM 警示 Notification Service：  
   
-    1.  按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
+   1.  按一下 **開始**，按一下**執行**，型別**cmd**，然後按一下 **確定**。  
   
-    2.  在命令提示字元中，輸入：  
+   2.  在命令提示字元中，輸入：  
   
-        ```  
-        Net stop NS$BamAlerts  
-        ```  
+       ```  
+       Net stop NS$BamAlerts  
+       ```  
   
-4.  依照 SQL Server 線上叢書 》 中的指示，將舊的伺服器上備份 BAM 主要匯入資料庫。  
+4. 依照 SQL Server 線上叢書 》 中的指示，備份舊伺服器上的 BAM 主要匯入資料庫。  
   
-5.  將 BAM 主要匯入資料庫複製到新的 SQL Server。  
+5. 將 BAM 主要匯入資料庫複製到新的 SQL Server。  
   
-6.  依照 SQL Server 線上叢書 》 中的指示來還原 BAM 主要匯入資料庫，新的伺服器上。  
+6. 依照 SQL Server 線上叢書 》 中的指示，將 BAM 主要匯入資料庫，新的伺服器上還原。  
   
-7.  在執行 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的電腦中，瀏覽至下列資料夾：  
+7. 在執行 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的電腦中，瀏覽至下列資料夾：  
   
-     [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Schema\Restore  
+    [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Schema\Restore  
   
-8.  以滑鼠右鍵按一下**SampleUpdateInfo.xml**，然後按一下 **編輯**。  
+8. 以滑鼠右鍵按一下**SampleUpdateInfo.xml**，然後按一下**編輯**。  
   
 9. 在主要匯入資料庫區段中的檔案，取代 **"SourceServer"** 然後取代與來源系統的名稱取代 **"DestinationServer"** 目的系統的名稱。  
   
@@ -105,7 +105,7 @@ ms.locfileid: "25972660"
   
 11. 完成檔案的編輯後，請加以儲存並結束。  
   
-12. 按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
+12. 按一下 **開始**，按一下**執行**，型別**cmd**，然後按一下 **確定**。  
   
 13. 在命令提示字元中，瀏覽至下列目錄：  
   
@@ -119,11 +119,11 @@ ms.locfileid: "25972660"
   
     1.  開啟 Excel 即時資料檔案。 此檔案名稱是以 _LiveData.xls 結尾。  
   
-    2.  在**BAM**功能表上，按一下  **BAM DB 連線**。  
+    2.  在  **BAM**功能表上，按一下**BAM DB 連線**。  
   
-    3.  在**選取 BAM 資料庫**對話方塊中，輸入 SQL Server 和 BAMPrimaryImport 資料庫，然後按一下**確定**。  
+    3.  在 [**選取 BAM 資料庫**] 對話方塊中，輸入 SQL Server 和 BAMPrimaryImport 資料庫，然後按一下**確定**。  
   
-    4.  在**檔案**功能表上，按一下 **關閉並返回 Microsoft Excel**。  
+    4.  在 **檔案**功能表上，按一下**關閉並返回 Microsoft Excel**。  
   
     5.  在 [檔案] 功能表上，按一下 [儲存]。  
   
@@ -135,9 +135,9 @@ ms.locfileid: "25972660"
   
     3.  開啟**本機封裝**資料夾，然後開啟 DTS 封裝。  
   
-    4.  在**封裝**功能表上，按一下 **屬性**。  
+    4.  在 **封裝**功能表上，按一下**屬性**。  
   
-    5.  在**全域變數**索引標籤上，更新主要匯入伺服器和資料庫的值。  
+    5.  在 **全域變數**索引標籤上，更新主要匯入伺服器和資料庫的值。  
   
     6.  變更下列幾行以符合新的伺服器和資料庫：  
   
@@ -145,13 +145,13 @@ ms.locfileid: "25972660"
   
          PrimaryImportDatabase ="*\<DatabaseName\>*"  
   
-17. 啟動所有的 BizTalk Server 服務。 如需詳細資訊，請參閱[如何啟動、 停止、 暫停、 繼續或重新啟動 BizTalk Server 服務](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md)。  
+17. 啟動所有的 BizTalk Server 服務。 如需詳細資訊，請參閱 <<c0> [ 如何啟動、 停止、 暫停、 繼續或重新啟動 BizTalk Server Services](../core/how-to-start-stop-pause-resume-or-restart-biztalk-server-services.md)。  
   
 18. 啟動 IIS 服務。  
   
 19. 啟動 BAM 警示 Notification Service：  
   
-    1.  按一下**啟動**，按一下 **執行**，型別**cmd**，然後按一下**確定**。  
+    1.  按一下 **開始**，按一下**執行**，型別**cmd**，然後按一下 **確定**。  
   
     2.  在命令提示字元中，輸入：  
   
@@ -159,5 +159,5 @@ ms.locfileid: "25972660"
         Net start NS$BamAlerts  
         ```  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [移動 BizTalk Server 資料庫](../core/moving-biztalk-server-databases.md)

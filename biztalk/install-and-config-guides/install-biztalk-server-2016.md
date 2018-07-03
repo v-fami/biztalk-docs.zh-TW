@@ -1,5 +1,5 @@
 ---
-title: 安裝 BizTalk Server 2016 |Microsoft 文件
+title: 安裝 BizTalk Server 2016 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f89aa7599040a2cc6c50f11b70c2751fcf2df1ab
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9f6c6868302554aa14d80c296955e657c9f171d6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22299974"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37003735"
 ---
 # <a name="install-biztalk-server-2016"></a>安裝 BizTalk Server 2016
 在單一電腦上安裝 BizTalk Server。
@@ -43,7 +43,7 @@ ms.locfileid: "22299974"
 ## <a name="install-biztalk-server"></a>安裝 BizTalk Server
 1. 關閉所有開啟的程式。 以系統管理員身分執行 BizTalk Server 安裝程式。
 2. 選取 [安裝 Microsoft BizTalk Server 2016]。
-3. 輸入您的 [使用者名稱]、[組織] 和產品金鑰。 選取 [下一步]。
+3. 輸入您的 [使用者名稱]、[組織] 和產品金鑰。 選取 **[下一步]**。
 4. 接受授權合約，然後選取 [下一步]。
 5. 選擇參與「客戶經驗改進計畫」，然後選取 [下一步]。
 6. 選擇您想要安裝的元件：
@@ -54,23 +54,23 @@ ms.locfileid: "22299974"
   
     ![bts2016install_additional](../install-and-config-guides/media/bts2016install-additional.gif)
 
-    選取 [下一步]。   
+    選取 **[下一步]**。   
   
- 7. 根據您選擇的元件，可能有一些額外的必要條件，例如 ADOMD.NET。 安裝程式會自動為您安裝所有必要的可轉散發套件。 選項包含：
-* **手動安裝必要的可轉散發套件**：系統會關閉安裝精靈，以便您手動安裝遺漏的必要條件。
-* **從 Web 自動安裝必要的可轉散發套件**：預設值。 需要存取網際網路。
-* **下載必要的可轉散發套件封包檔**：下載封包檔，以便稍後安裝。
-* **從封包檔自動安裝必要的可轉散發套件**：如果您已下載封包檔，即可選取此選項來使用這些封包檔。 
+   7. 根據您選擇的元件，可能有一些額外的必要條件，例如 ADOMD.NET。 安裝程式會自動為您安裝所有必要的可轉散發套件。 選項包含：
+7. **手動安裝必要的可轉散發套件**：系統會關閉安裝精靈，以便您手動安裝遺漏的必要條件。
+8. **從 Web 自動安裝必要的可轉散發套件**：預設值。 需要存取網際網路。
+9. **下載必要的可轉散發套件封包檔**：下載封包檔，以便稍後安裝。
+10. **從封包檔自動安裝必要的可轉散發套件**：如果您已下載封包檔，即可選取此選項來使用這些封包檔。 
 
-  選取 [下一步]。
+    選取 **[下一步]**。
   
-8. 檢閱摘要頁面。 若要進行任何變更，請選取 [上一步] 以選取或取消選取任何元件。 
+11. 檢閱摘要頁面。 若要進行任何變更，請選取 [上一步] 以選取或取消選取任何元件。 
 
-     若要啟用在系統重新開機之後自動登入的功能，請選取 [設定] 並輸入登入資訊。 這只會在 BizTalk 安裝期間啟用。 安裝程式完成時，即會停用此設定。 
+      若要啟用在系統重新開機之後自動登入的功能，請選取 [設定] 並輸入登入資訊。 這只會在 BizTalk 安裝期間啟用。 安裝程式完成時，即會停用此設定。 
 
-    選取 [安裝]。
+     選取 [安裝]。
   
-9. 若要立即設定 BizTalk，請選取 [啟動 BizTalk Server 組態]。 如果您不想立即設定 BizTalk，請取消選取這個選項，並選取 [完成] 以關閉安裝精靈。 
+12. 若要立即設定 BizTalk，請選取 [啟動 BizTalk Server 組態]。 如果您不想立即設定 BizTalk，請取消選取這個選項，並選取 [完成] 以關閉安裝精靈。 
 
 暫存資料夾中即會產生安裝程式記錄檔，其類似於 `C:\Users\*username*\AppData\Local\Setup(011217 xxxxxx).htm`
   

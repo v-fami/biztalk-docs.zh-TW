@@ -1,5 +1,5 @@
 ---
-title: 無法從資料庫讀取 Batchdescriptions |Microsoft 文件
+title: 無法從資料庫讀取 Batchdescriptions |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 66a9049c9f3964b231d7c1370784bccd78fd0836
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f7e539cbc4a8a7227815c7d836b61b028bcee2f5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22268654"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36990623"
 ---
 # <a name="reading-batch-descriptions-from-database-failed"></a>從資料庫讀取 BatchDescriptions 失敗
 ## <a name="details"></a>詳細資料  
   
-|||  
-|-|-|  
-|產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|產品版本|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|事件識別碼|-|  
-|事件來源|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]EDI|  
-|元件|EDI 引擎|  
-|符號名稱|LoadBatchFiltersFailed|  
-|訊息文字|從資料庫讀取 BatchDescriptions 失敗。 錯誤：{0}。 堆疊追蹤： {1}。|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  產品名稱   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| 產品版本 |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    事件識別碼     |                                           -                                            |
+|  事件來源   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI |
+|    元件    |                                       將 EDI 引擎                                       |
+|  符號名稱  |                                 LoadBatchFiltersFailed                                 |
+|  訊息文字   |     從資料庫讀取 BatchDescriptions 失敗。 錯誤： {0}。 堆疊追蹤： {1}。      |
   
 ## <a name="explanation"></a>說明  
- 這個錯誤/警告/資訊事件表示 BizTalk Server 無法載入指定的比較連入訊息內容屬性設定的批次篩選條件。  
+ 這個錯誤/警告/資訊事件表示 BizTalk Server 無法載入指定的比較內送訊息的內容屬性已設定的批次篩選條件。  
   
 ## <a name="user-action"></a>使用者動作  
  若要解決這個錯誤，請確定 「 管理 」 資料庫已啟動，且可以連線。

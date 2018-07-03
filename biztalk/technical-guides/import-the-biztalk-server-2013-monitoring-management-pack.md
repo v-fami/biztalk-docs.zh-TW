@@ -1,5 +1,5 @@
 ---
-title: 匯入監視管理組件的 BizTalk Server 2013 |Microsoft 文件
+title: 匯入 BizTalk Server 2013 監視管理組件 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,19 +12,19 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3c6dff55cce17d9b9159a8eca754f91373621929
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7756a6ca4301f7536a0e4964117f11cb92eb2fcd
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22298630"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36993783"
 ---
-# <a name="import-the-biztalk-server-2013-monitoring-management-pack"></a>匯入監視管理組件的 BizTalk Server 2013
-如需如何匯入管理組件的指示，請參閱 「 如何匯入管理組件[Operations Manager 2007 R2/2012年](http://go.microsoft.com/fwlink/?LinkId=142351)(http://go.microsoft.com/fwlink/?LinkId=142351)。 之後[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]匯入管理組件，請遵循這些程序來完成初始設定：  
+# <a name="import-the-biztalk-server-2013-monitoring-management-pack"></a>匯入 BizTalk Server 2013 監視管理組件
+如需如何匯入管理組件的指示，請參閱 「 如何匯入管理組件中[Operations Manager 2007 R2/2012年](http://go.microsoft.com/fwlink/?LinkId=142351)(<http://go.microsoft.com/fwlink/?LinkId=142351>)。 之後[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]匯入管理組件，請遵循下列程序來完成初始設定：  
   
 ### <a name="to-configure-the-management-pack"></a>若要設定的管理組件  
   
-1.  建立新的管理組件儲存覆寫和其他自訂。  
+1.  建立新的管理組件儲存覆寫和其他自訂項目。  
   
 2.  若要啟用代理程式 Proxy 設定，請遵循下列步驟：  
   

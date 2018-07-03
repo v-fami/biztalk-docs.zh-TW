@@ -1,5 +1,5 @@
 ---
-title: 回條傳遞選項值無效 |Microsoft 文件
+title: 回條傳遞選項的值無效 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6f14541cd9c296e6a4527e7c2958123e072be8c6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8966e3d95e89aff023300a9834ab1bca2915421f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22268406"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994847"
 ---
-# <a name="receipt-delivery-option-value-is-invalid"></a>回條傳遞選項值無效
+# <a name="receipt-delivery-option-value-is-invalid"></a>回條傳遞選項的值無效
 ## <a name="details"></a>詳細資料  
   
-|||  
-|-|-|  
-|產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|產品版本|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|事件識別碼|-|  
-|事件來源|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]EDI|  
-|元件|AS2 引擎|  
-|符號名稱|InvalidReceiptDeliveryOptionError|  
-|訊息文字|回條傳遞選項的值:"{0}"無效。  {1}|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  產品名稱   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| 產品版本 |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    事件識別碼     |                                           -                                            |
+|  事件來源   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI |
+|    元件    |                                       AS2 引擎                                       |
+|  符號名稱  |                           InvalidReceiptDeliveryOptionError                            |
+|  訊息文字   |                 回條傳遞選項值:"{0}"無效。  {1}                  |
   
 ## <a name="explanation"></a>說明  
- 這個錯誤/警告/資訊事件表示接收傳遞選項中收到的 AS2 訊息不是有效的 URL，而且不符合 AS2 RFC 4130 中的規格。  
+ 這個錯誤/警告/資訊事件表示回條傳遞選項中收到的 AS2 訊息不是有效的 URL，且不符合 AS2 RFC 4130 中的規格。  
   
 ## <a name="user-action"></a>使用者動作  
  若要解決這個錯誤，請變更為包含有效的 URL 和符合 AS2 RFC 4130 7.3 節中的規格，然後重新傳送 AS2 訊息的 AS2 訊息中有回條傳遞選項。

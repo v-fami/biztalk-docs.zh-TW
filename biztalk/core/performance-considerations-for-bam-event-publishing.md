@@ -1,5 +1,5 @@
 ---
-title: BAM 事件發佈的效能考量 |Microsoft 文件
+title: BAM 事件發佈的效能考量 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,26 +19,26 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ebab873c94c0ae17abf9938883662ca8777cef36
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c031f9a3325eda9cbcf865eaf72d1d9e100616c7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22264422"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36997535"
 ---
 # <a name="performance-considerations-for-bam-event-publishing"></a>BAM 事件發佈的效能考量
 BAM 支援兩種發佈商務事件的型式：  
   
--   同步的  
+- 同步的  
   
--   非同步的  
+- 非同步的  
   
- 下圖說明這兩種模型。  
+  下圖說明這兩種模型。  
   
- ![](../core/media/bam-topologies.gif "bam_topologies")  
-BAM 拓樸  
+  ![](../core/media/bam-topologies.gif "bam_topologies")  
+  BAM 拓樸  
   
- 同步方式簡化了程式碼的管理與使用，非同步方式則可獲致更好的執行效能。  
+  同步方式簡化了程式碼的管理與使用，非同步方式則可獲致更好的執行效能。  
   
 ## <a name="in-this-section"></a>本節內容  
   

@@ -1,5 +1,5 @@
 ---
-title: 註冊配接器 |Microsoft 文件
+title: 註冊配接器 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,23 +12,23 @@ caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2cc195a55b38a232880ed04108d5a533afd1a311
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6ff8395a6ea80494e5fe21c7b05ebc25e6ed8c44
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22270262"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36985783"
 ---
 # <a name="registering-an-adapter"></a>登錄配接器
-如果您正在開發自訂配接器，您可以使用 BizTalk Server 註冊修改和執行其中一種隨附於軟體開發套件 (SDK) 中範例 file 配接器的登錄檔案。 或者，您可以使用配接器登錄精靈來建立登錄檔案。 此精靈位於 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Utilities\AdapterRegistryWizard 資料夾中。  
+如果您正在開發自訂配接器，您可以使用 BizTalk Server 註冊修改並執行其中一種軟體開發套件 (SDK) 中的範例 file 配接器隨附的登錄檔。 或者，您可以使用配接器登錄精靈 」 來建立登錄檔。 此精靈位於 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Utilities\AdapterRegistryWizard 資料夾中。  
   
 > [!IMPORTANT]
->  -   32 位元電腦上，必須從命令提示字元執行配接器登錄精靈所產生的登錄 (.reg) 檔案。  
-> -   64 位元電腦上，配接器登錄精靈所產生的登錄 (.reg) 檔案必須執行從 32 位元和 64 位元命令提示字元。  
+> - 在 32 位元電腦上，您必須從命令提示字元，執行配接器登錄精靈所產生的登錄 (.reg) 檔。  
+>   -   在 64 位元電腦上，配接器登錄精靈所產生的登錄 (.reg) 檔必須執行從 32 位元和 64 位元命令提示字元。  
   
  建立登錄項目之後，您可以在 BizTalk Server 管理主控台中新增配接器，或是使用 Windows Management Instrumentation (WMI) 方法，以程式設計的方式完成新增動作。 本主題討論每一個登錄項目，並說明自訂配接器之現有登錄檔的修改位置和修改方式。  
   
- 如需使用配接器登錄精靈的指示，請參閱[配接器登錄精靈](../core/adapter-registry-wizard.md)。 如需修改 SDK 隨附之範例登錄檔的指示，請參閱[配接器登錄檔案](../core/adapter-registration-file.md)。  
+ 如需有關使用配接器登錄精靈的指示，請參閱[配接器登錄精靈](../core/adapter-registry-wizard.md)。 如需修改 SDK 隨附之範例登錄檔的指示，請參閱[配接器登錄檔案](../core/adapter-registration-file.md)。  
   
 ## <a name="registry-keys"></a>登錄機碼  
  您必須建立下列登錄項目才能部署配接器：  
@@ -41,7 +41,7 @@ ms.locfileid: "22270262"
   
 ```  
   
- **型別名稱**  
+ **類型名稱**  
   
  配接器類型名稱可識別 BizTalk Server 電腦中配接器的類型。 任何配接器都必須有這個機碼。  
   
@@ -62,9 +62,9 @@ ms.locfileid: "22270262"
   
  描述配接卡功能的值可以是下表所示值的組合。  
   
-|值|十六進位值|旗標|Description|  
+|ReplTest1|十六進位值|旗標|描述|  
 |-----------|---------------|----------|-----------------|  
-|1|0x0001|eProtocolSupportsReceive|配接器可支援接收作業。|  
+|@shouldalert|0x0001|eProtocolSupportsReceive|配接器可支援接收作業。|  
 |2|0x0002|eProtocolSupportsTransmit|配接器可支援傳送作業。|  
 |8|0x0008|eProtocolReceiveIsCreatable|配接器的接收處理常式採用內含式的主控架構。|  
 |128|0x0080|eProtocolSupportsRequestResponse|配接器可支援要求-回應作業。|  
@@ -116,7 +116,7 @@ ms.locfileid: "22270262"
  配接卡可透過指定執行階段元件的類別 ID (適用於 COM 和 .NET)、類型名稱，以及接收和傳送執行階段的組件路徑，以登錄其執行階段元件。  
   
 > [!NOTE]
->  所有**OutboundEngineCLSID**和**InboundEngineCLSID**必須是唯一的索引鍵。 在資料庫中，單一資料列**OutboundEngineCLSID**和**InboundEngineCLSID**可能不同。  
+>  所有**OutboundEngineCLSID**並**InboundEngineCLSID**必須是唯一的索引鍵。 在資料庫中，單一資料列**OutboundEngineCLSID**並**InboundEngineCLSID**可能會相同。  
   
 ```  
 "OutboundEngineCLSID"="{%CLSID of outbound transport%}"  
@@ -143,7 +143,7 @@ SendLocationPropertiesXML
  這些值包含的定義 (結構描述) 是配接器相關之對應實體所容許屬性的定義，可以儲存在組態存放區中。 這些定義以 XML 字串保存，該字串係由內含屬性類型但不含值的屬性包進行還原序列化。 屬性項目若非空白值，表示該屬性已遮罩 (已遮罩代表它是唯讀屬性，而且在系統管理模式下呼叫時，安全存放區 API 並不會傳回該屬性；對於這種屬性，安全存放區 API 會傳回 VT_NULL)。  
   
 ### <a name="example"></a>範例  
- HTTP 配接器會藉由定義登錄其屬性的 HTTP 傳送埠**SendLocationPropertiesXML**登錄機碼包含下列值：  
+ HTTP 配接器登錄其 HTTP 傳送埠的屬性定義**SendLocationPropertiesXML**登錄機碼包含下列值：  
   
 ```  
 <CustomProps><Username vt="8"/><Password vt="8">Encrypted</Password><Certificate vt="8"/><RequestTimeout vt="3"/><MaxRedirects vt="3"/><ContentType vt="8"/><UseProxy vt="11"/><ProxyName vt="8"/><ProxyPort vt="3"/><ProxyUsername vt="8"/><ProxyPassword vt="8">Encrypted</ProxyPassword><UseHandlerSetting vt="11"/><AuthenticationScheme vt="8"/><UseSSO vt="11"/><AffiliateApplicationName vt="8"/></CustomProps>  

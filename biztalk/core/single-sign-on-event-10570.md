@@ -1,5 +1,5 @@
 ---
-title: 單一登入： 事件 10570 |Microsoft 文件
+title: 單一登入： 事件 10570 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0b002e3ce3c887a088346b3832568aacdd5fd43f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: c104ec3087f0e75feb3e21551ae880b2237c7946
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22270230"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022815"
 ---
 # <a name="single-sign-on-event-10570"></a>單一登入： 事件 10570
 ## <a name="details"></a>詳細資料  
   
-|||  
-|-|-|  
-|產品名稱|企業單一登入|  
-|產品版本|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|事件識別碼|10570|  
-|事件來源|ENTSSO|  
-|元件|不適用|  
-|符號名稱|SSO_WARN_SSO_DISABLED_FOR_CHANGE_SSO_ADMIN|  
-|訊息文字|若要更新的 SSO 系統管理員帳戶名稱，您必須先停用 SSO.%r|  
+|                 |                                                                             |
+|-----------------|-----------------------------------------------------------------------------|
+|  產品名稱   |                          企業單一登入                          |
+| 產品版本 |         [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]          |
+|    事件識別碼     |                                    10570                                    |
+|  事件來源   |                                   ENTSSO                                    |
+|    元件    |                                     不適用                                     |
+|  符號名稱  |                 SSO_WARN_SSO_DISABLED_FOR_CHANGE_SSO_ADMIN                  |
+|  訊息文字   | 若要更新的 SSO 系統管理員帳戶名稱，您必須先停用 SSO.%r |
   
 ## <a name="explanation"></a>說明  
  若要更新的 SSO 系統管理員帳戶名稱，您必須先停用 SSO。  
   
 ## <a name="user-action"></a>使用者動作  
- 如需停用 SSO 資訊，請參閱[如何停用 SSO](../core/how-to-disable-sso.md)。
+ 如需有關停用 SSO，請參閱[如何停用 SSO](../core/how-to-disable-sso.md)。

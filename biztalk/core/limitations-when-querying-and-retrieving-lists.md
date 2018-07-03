@@ -1,5 +1,5 @@
 ---
-title: 限制查詢及擷取清單 |Microsoft 文件
+title: 當查詢和擷取清單時的限制 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0f2e0f813a793aa05756ef52925081375203f2f0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 27880dc3f603f39c9cb9f71207edc1926df4df7f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22262334"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37002823"
 ---
 # <a name="limitations-when-querying-and-retrieving-lists"></a>查詢及擷取清單的限制
 JD Edwards OneWorld 通訊架構是單一訊息、單一回應的架構。 您不能傳回訊息清單或陣列。 基底程式碼是 C++，它會以單一結構的指標呼叫、在結構中進行變更，然後再結束。  
@@ -39,21 +39,21 @@ JD Edwards OneWorld 通訊架構是單一訊息、單一回應的架構。 您�
   
  以下列出用來控制反覆項目的技術：  
   
--   在 JD Edwards OneWorld 端，將結果集寫入暫存儲存檔案，這個檔案會傳回可在後續呼叫中提供的 ID (例如檔案名稱或工作號碼)，以及用來放置資料指標的記錄編號。 任何後續呼叫都會依據傳入的記錄編號放入清單內。  
+- 在 JD Edwards OneWorld 端，將結果集寫入暫存儲存檔案，這個檔案會傳回可在後續呼叫中提供的 ID (例如檔案名稱或工作號碼)，以及用來放置資料指標的記錄編號。 任何後續呼叫都會依據傳入的記錄編號放入清單內。  
   
-    > [!NOTE]
-    >  透過 BizTalk Adapter for JD Edwards OneWorld 呼叫可以保持負載平衡；不過，這些呼叫最後會由單一應用程式伺服器根據認證和呼叫的商務功能來處理。 因此，如果呼叫在伺服器上建立了暫存儲存檔案，其他呼叫都會由相同的伺服器處理。 如需詳細資訊，請參閱《JD Edwards OneWorld CNC 指南》(JD Edwards OneWorld CNC Guides) 中的＜物件組態對應＞(Object Configuration Mapping)。  
+  > [!NOTE]
+  >  透過 BizTalk Adapter for JD Edwards OneWorld 呼叫可以保持負載平衡；不過，這些呼叫最後會由單一應用程式伺服器根據認證和呼叫的商務功能來處理。 因此，如果呼叫在伺服器上建立了暫存儲存檔案，其他呼叫都會由相同的伺服器處理。 如需詳細資訊，請參閱《JD Edwards OneWorld CNC 指南》(JD Edwards OneWorld CNC Guides) 中的＜物件組態對應＞(Object Configuration Mapping)。  
   
--   位置資訊 (例如主索引鍵值) 可在第二個和後續的呼叫中傳回，而且查詢可以根據索引鍵重新發出，做為額外的參數。 這個方法可用於 BizTalk Adapter for JD Edwards OneWorld 的儲存機制瀏覽程式碼。  
+- 位置資訊 (例如主索引鍵值) 可在第二個和後續的呼叫中傳回，而且查詢可以根據索引鍵重新發出，做為額外的參數。 這個方法可用於 BizTalk Adapter for JD Edwards OneWorld 的儲存機制瀏覽程式碼。  
   
-    > [!NOTE]
-    >  在前兩項技術中，建議的方法是使用主索引鍵值並重新發出查詢。 這種方法需要最少量的程式碼，而且會對資料庫造成最佳化和快取負荷。  
+  > [!NOTE]
+  >  在前兩項技術中，建議的方法是使用主索引鍵值並重新發出查詢。 這種方法需要最少量的程式碼，而且會對資料庫造成最佳化和快取負荷。  
   
--   呼叫端應用程式可以儲存一份主索引鍵 (例如交互參照).的清單。 例如，如果客戶關係管理 (CRM) 系統建立了客戶記錄，然後使用商務功能呼叫將它加入到 JD Edwards OneWorld 中，則加入客戶記錄的商務功能將會設定 AN8 欄位 (簡短的位址編號) 的值，並顯示在傳回緩衝區中。 接著這個編號就可以寫入原始客戶記錄上的參考欄位，或是儲存在自訂的交互參照資料表中。  
+- 呼叫端應用程式可以儲存一份主索引鍵 (例如交互參照).的清單。 例如，如果客戶關係管理 (CRM) 系統建立了客戶記錄，然後使用商務功能呼叫將它加入到 JD Edwards OneWorld 中，則加入客戶記錄的商務功能將會設定 AN8 欄位 (簡短的位址編號) 的值，並顯示在傳回緩衝區中。 接著這個編號就可以寫入原始客戶記錄上的參考欄位，或是儲存在自訂的交互參照資料表中。  
   
--   JD Edwards OneWorld 中的所有主要記錄大部分都有尋查或替代索引鍵的概念。 這個索引鍵可以用來儲存呼叫端系統的索引鍵資訊。 商務功能可以在 JD Edwards OneWorld 端執行尋查作業。 將參數傳遞到商務功能以建立客戶記錄時，將會設定完整的索引鍵值。  
+- JD Edwards OneWorld 中的所有主要記錄大部分都有尋查或替代索引鍵的概念。 這個索引鍵可以用來儲存呼叫端系統的索引鍵資訊。 商務功能可以在 JD Edwards OneWorld 端執行尋查作業。 將參數傳遞到商務功能以建立客戶記錄時，將會設定完整的索引鍵值。  
   
- 如需這些概念的詳細資訊，請參閱 JD Edwards OneWorld 說明系統中的＜互通性＞(Interoperability) 主題。  
+  如需這些概念的詳細資訊，請參閱 JD Edwards OneWorld 說明系統中的＜互通性＞(Interoperability) 主題。  
   
 ## <a name="see-also"></a>另請參閱  
- [規劃與架構](../core/planning-and-architecture17.md)
+ [規劃和架構](../core/planning-and-architecture17.md)

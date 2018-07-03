@@ -1,5 +1,5 @@
 ---
-title: XML 訊息信封 |Microsoft 文件
+title: XML 訊息信封 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,21 +12,21 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3adb33866a3e6fdaee387934d2edededaab08aac
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2f4b60dfbc128baead6b0a1ad38d319ba7b6e8fc
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22290110"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36972407"
 ---
 # <a name="xml-message-envelopes"></a>XML 訊息信封
 XML 信封在 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 所傳送和接收的 XML 執行個體訊息中有兩個目的：  
   
--   XML 信封可以包含補充 XML 文件內資料的資料。 XML 解譯器可將此資料升級至訊息內容，以提供更容易從各種 BizTalk Server 元件存取的能力。 就輸出 XML 執行個體訊息而言，XML 組合器可以將值從訊息內容降級至信封，以供其包含在執行個體訊息傳輸中。  
+- XML 信封可以包含補充 XML 文件內資料的資料。 XML 解譯器可將此資料升級至訊息內容，以提供更容易從各種 BizTalk Server 元件存取的能力。 就輸出 XML 執行個體訊息而言，XML 組合器可以將值從訊息內容降級至信封，以供其包含在執行個體訊息傳輸中。  
   
--   XML 信封可用來結合多個 XML 文件為單一、有效的 XML 執行個體訊息。 若沒有信封包裝單一根標記中的多個文件，則包含多個文件的 XML 執行個體訊息將不符合格式正確的 XML。  
+- XML 信封可用來結合多個 XML 文件為單一、有效的 XML 執行個體訊息。 若沒有信封包裝單一根標記中的多個文件，則包含多個文件的 XML 執行個體訊息將不符合格式正確的 XML。  
   
- 一般的 XML 信封 (以粗體顯示) 包含資料以及用來分隔一或多個它所包含的 XML 文件 (以一般字型顯示) 之標記。  
+  一般的 XML 信封 (以粗體顯示) 包含資料以及用來分隔一或多個它所包含的 XML 文件 (以一般字型顯示) 之標記。  
   
 ```  
   

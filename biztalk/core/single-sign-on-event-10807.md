@@ -1,5 +1,5 @@
 ---
-title: 單一登入： 事件 10807 |Microsoft 文件
+title: 單一登入： 事件 10807 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4e269b22bc8ea2fec013123d515ac04bd3f60d46
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d9e23aefbb950160f29b6145e64bfaa1784dc3f1
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22277694"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36985407"
 ---
 # <a name="single-sign-on-event-10807"></a>單一登入： 事件 10807
 ## <a name="details"></a>詳細資料  
   
-|||  
-|-|-|  
-|產品名稱|企業單一登入|  
-|產品版本|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|事件識別碼|10807|  
-|事件來源|ENTSSO|  
-|元件|不適用|  
-|符號名稱|ENTSSO_E_TOO_MANY_UNCONFIRMED_NOTIFICATIONS|  
-|訊息文字|太多未確認的通知。|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  產品名稱   |                 企業單一登入                  |
+| 產品版本 | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    事件識別碼     |                           10807                            |
+|  事件來源   |                           ENTSSO                           |
+|    元件    |                            不適用                             |
+|  符號名稱  |        ENTSSO_E_TOO_MANY_UNCONFIRMED_NOTIFICATIONS         |
+|  訊息文字   |            太多未確認的通知。             |
   
 ## <a name="explanation"></a>說明  
- 每次密碼變更通知會傳送，會收到確認訊息。 在此情況下，已超過此限制，但不用確認的通知。  
+ 傳送密碼變更通知每次，但在收到確認訊息。 在此情況下，已超過此限制，而不需要確認的通知。  
   
 ## <a name="user-action"></a>使用者動作  
- 請檢查密碼同步配接器。
+ 檢查 「 密碼同步配接器。

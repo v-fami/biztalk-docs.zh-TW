@@ -1,5 +1,5 @@
 ---
-title: BizTalk Accelerator for RosettaNet 的運作方式 |Microsoft 文件
+title: BizTalk Accelerator for RosettaNet 的運作方式 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,15 +14,15 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ba18d702d0324443313c6a8fc756693085815637
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a4932b276250bb9b43b45b7957fb2a8dfc597e92
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209398"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981999"
 ---
 # <a name="how-biztalk-accelerator-for-rosettanet-works"></a>BizTalk Accelerator for RosettaNet 的運作方式
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]建置來提供高科技製造解決方案[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。 它支援 RosettaNet 實作架構 (RNIF) 與「交易夥伴介面程序」(PIP)，並在高科技製造應用程式新增可自訂訊息處理的元件。  
+Microsoft®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]提供的高科技製造解決方案藉由在 Microsoft 建置[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。 它支援 RosettaNet 實作架構 (RNIF) 與「交易夥伴介面程序」(PIP)，並在高科技製造應用程式新增可自訂訊息處理的元件。  
   
 ## <a name="in-this-section"></a>本節內容  
   

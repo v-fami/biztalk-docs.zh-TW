@@ -1,5 +1,5 @@
 ---
-title: 如何安裝及設定憑證與 WCF 配接器 |Microsoft 文件
+title: 如何安裝和設定 WCF 配接器的憑證 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,15 +12,15 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1dbb67c1bf6547aa72c5bc877ee6acb7d895a7ac
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: d32b96dedce766ab0383b70d561fa4bae2c70262
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22298654"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36970431"
 ---
-# <a name="how-to-install-and-configure-certificates-with-a-wcf-adapter"></a>如何安裝及設定 WCF 配接器使用的憑證
-如需安裝及設定 WCF 配接器使用的憑證資訊，請參閱[安裝 WCF 配接器的憑證](http://go.microsoft.com/fwlink/?LinkId=155204)(http://go.microsoft.com/fwlink/?LinkId=155204) 中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]幫助。  
+# <a name="how-to-install-and-configure-certificates-with-a-wcf-adapter"></a>如何安裝和設定 WCF 配接器的憑證
+如需安裝和使用 WCF 配接器設定憑證的詳細資訊，請參閱[安裝 WCF 配接器的憑證](http://go.microsoft.com/fwlink/?LinkId=155204)(<http://go.microsoft.com/fwlink/?LinkId=155204>) 中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]幫助。  
   
 ## <a name="see-also"></a>另請參閱  
  [如何設定 Wcf-basichttp 傳送埠](http://go.microsoft.com/fwlink/?LinkId=155206)   

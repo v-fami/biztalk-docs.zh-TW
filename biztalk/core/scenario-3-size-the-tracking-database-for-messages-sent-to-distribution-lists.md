@@ -1,5 +1,5 @@
 ---
-title: 案例 3： 調整追蹤資料庫大小的訊息傳送至通訊群組清單的 Out |Microsoft 文件
+title: 案例 3： 調整追蹤資料庫大小的訊息傳送至通訊群組清單的外 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,41 +14,41 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dca1722e24e0c76c85699ea00fcf6ffc120b2e14
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bb9a5992865ffbf09a493a480ecbcb61e9c0f034
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22271102"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36996215"
 ---
 # <a name="scenario-3-sizing-the-tracking-database--for-messages-sent-out-to-distribution-lists"></a>實例 3：為外送到通訊群組清單之訊息的追蹤資料庫設定大小
 在下圖中，有一個透過協調流程繼續的訊息在協調流程中變更了，而且已透過通訊群組清單傳送到數個不同的傳送埠。  
   
- ![透過多個連接埠至協調流程訊息](../core/media/biztalk-server-message-orch-multiple-ports.gif "BizTalk_Server_message_orch_multiple_ports")  
+ ![透過多個連接埠到協調流程的訊息](../core/media/biztalk-server-message-orch-multiple-ports.gif "BizTalk_Server_message_orch_multiple_ports")  
   
- **透過協調流程，並且在送出至數個不同的連接埠的 BizTalk Server 訊息**  
+ **協調流程，並且會外送到數個不同的連接埠的 BizTalk Server 訊息**  
   
  以下是與此實例相關的事實：  
   
--   訊息大小是 10 K。  
+- 訊息大小是 10 K。  
   
--   您未升級任何屬性。  
+- 您未升級任何屬性。  
   
--   您一年內所接收的訊息數目為三百五十萬。  
+- 您一年內所接收的訊息數目為三百五十萬。  
   
--   開啟所有事件的追蹤。 在此實例中有 5 個事件：  
+- 開啟所有事件的追蹤。 在此實例中有 5 個事件：  
   
-    -   收到訊息 M0  
+  -   收到訊息 M0  
   
-    -   接收埠輸出訊息 M1  
+  -   接收埠輸出訊息 M1  
   
-    -   傳送埠輸出訊息 M3  
+  -   傳送埠輸出訊息 M3  
   
-    -   傳送埠輸出訊息 M4  
+  -   傳送埠輸出訊息 M4  
   
-    -   傳送埠輸出訊息 M5  
+  -   傳送埠輸出訊息 M5  
   
- 將此資訊套用至方程式會產生下列結果：  
+  將此資訊套用至方程式會產生下列結果：  
   
 ```  
 [(5*252 bytes) + (10*182 bytes) + (0*5(40 bytes + 0) * 3,500,000]/1024/1024  
@@ -83,4 +83,4 @@ ms.locfileid: "22271102"
  [追蹤訊息內文追蹤資料庫設定大小](../core/sizing-the-tracking-database-to-track-message-bodies.md)   
  [案例 1： 針對簡單 BizTalk 訊息調整追蹤資料庫](../core/scenario-1-sizing-the-tracking-database-for-simple-biztalk-messages.md)   
  [案例 2： 在協調流程中的訊息調整追蹤資料庫](../core/scenario-2-sizing-the-tracking-database-for-messages-in-orchestrations.md)   
- [案例 4： 所有訊息調整追蹤資料庫](../core/scenario-4-sizing-the-tracking-database-for-all-messages.md)
+ [案例 4：為所有訊息調整追蹤資料庫的大小](../core/scenario-4-sizing-the-tracking-database-for-all-messages.md)

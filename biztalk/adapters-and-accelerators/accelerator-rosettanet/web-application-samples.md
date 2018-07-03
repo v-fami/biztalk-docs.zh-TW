@@ -1,5 +1,5 @@
 ---
-title: Web 應用程式範例 |Microsoft 文件
+title: Web 應用程式範例 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,17 +16,17 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 64ed05203fa3eeb2c71641a53589d4affae20e6a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7a61b07d34a27d7ceebd5b8d8e0b5171d1659e22
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22207014"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37014175"
 ---
 # <a name="web-application-samples"></a>Web 應用程式範例
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 軟體開發套件 (SDK) 包含 RNIFSend.aspx 範例與 RNIFReceive.aspx 範例。 這些 ASPX 頁面會將來自啟動者的 RNIF 訊息傳送給回應者，或是在回應者處接收 RNIF 訊息。  
+The Microsoft®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]軟體開發套件 (SDK) 包含 RNIFSend.aspx 範例與 RNIFReceive.aspx 範例。 這些 ASPX 頁面會將來自啟動者的 RNIF 訊息傳送給回應者，或是在回應者處接收 RNIF 訊息。  
   
- ASPX 頁面的功能的相關資訊，請參閱[傳送和接收 ASPX 頁面](../../adapters-and-accelerators/accelerator-rosettanet/send-and-receive-aspx-pages.md)。 本節提供可用來建置和執行範例的指示。  
+ 如需詳細的 ASPX 頁面功能的相關資訊，請參閱[傳送和接收的 ASPX 頁面](../../adapters-and-accelerators/accelerator-rosettanet/send-and-receive-aspx-pages.md)。 本節提供可用來建置和執行範例的指示。  
   
 ## <a name="in-this-section"></a>本節內容  
   

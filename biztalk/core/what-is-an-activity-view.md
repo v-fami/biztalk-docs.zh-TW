@@ -17,12 +17,12 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1fd27a4de6b2ac86f94b105aabe679df3c88c06d
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 48cbf2419f1d3ab0939ed1607df7c17e1ea3f8d1
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22290382"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36997943"
 ---
 # <a name="what-is-an-activity-view"></a>何謂活動檢視？
 活動檢視含有匯入的 BAM 活動定義，這是您使用 Excel 的 BAM 增益集所建立的。 BAM 活動定義是對於商務程序之追蹤需求的抽象概念。 活動可以跨越多個協調流程與連接埠。 您可以匯入一次活動定義，然後將活動定義對應至每個符合部分定義的協調流程或傳訊成品。  
@@ -32,26 +32,26 @@ ms.locfileid: "22290382"
 ## <a name="activity-view-elements"></a>活動檢視項目  
  活動檢視會以樹狀檢視顯示追蹤設定檔的整體結構，並且包含下列項目：  
   
--   里程碑  
+- 里程碑  
   
--   活動的資料項目  
+- 活動的資料項目  
   
--   事件來源  
+- 事件來源  
   
--   資料來源  
+- 資料來源  
   
- **里程碑**： 里程碑是指定的處理序中定義某個點的物件。 可以用下列其中一種方式來存取：  
+  **里程碑**： 里程碑是指定的處理序中定義某個點的物件。 可以用下列其中一種方式來存取：  
   
--   您可以從協調流程排程拖曳圖形，並且該圖形的執行結束時間會由 BAM 回報做為里程碑的值。  
+- 您可以從協調流程排程拖曳圖形，並且該圖形的執行結束時間會由 BAM 回報做為里程碑的值。  
   
--   您可以從右側結構描述表示法拖曳傳訊屬性至目標里程碑。  
+- 您可以從右側結構描述表示法拖曳傳訊屬性至目標里程碑。  
   
--   您可以拖曳含有里程碑值的訊息內容結構描述節點。  
+- 您可以拖曳含有里程碑值的訊息內容結構描述節點。  
   
-    > [!NOTE]
-    >  DATETIME ONLY 類型結構描述節點是在執行階段評估的。 執行階段發生的任何轉換問題 (Conversion 或 Casting) 都會造成事件日誌中出現追蹤錯誤。  
+  > [!NOTE]
+  >  DATETIME ONLY 類型結構描述節點是在執行階段評估的。 執行階段發生的任何轉換問題 (Conversion 或 Casting) 都會造成事件日誌中出現追蹤錯誤。  
   
- **資料項目**： 資料項目會定義特定項目的訊息執行個體、 系統或升級的屬性的 XML 結構描述的物件。 展開結構描述，找出並選取您想要的項目，然後將該項目拖曳到正確的資料項目類型資料夾，即可存取資料項目。 關於資料項目 (例如 XPath) 的詳細資訊會儲存在設定檔中。  
+  **資料項目**： 資料的項目會定義特定訊息執行個體、 系統或升級的屬性的 XML 結構描述項目的物件。 展開結構描述，找出並選取您想要的項目，然後將該項目拖曳到正確的資料項目類型資料夾，即可存取資料項目。 關於資料項目 (例如 XPath) 的詳細資訊會儲存在設定檔中。  
   
 > [!NOTE]
 >  TPE 僅支援擁有零對一表示法的資料項目，其表示法如特定資料欄位的訊息結構描述中所定義。 如果有一對多表示法的資料項目，協調流程追蹤可能會發生錯誤。 在這些情況中，不會將任何資料儲存在 BAM 主要匯入資料庫中。 如果沒有發生錯誤，也無法確保追蹤的是哪個資料項目。  
@@ -68,16 +68,16 @@ ms.locfileid: "22290382"
   
  以滑鼠右鍵按一下活動檢視樹狀結構中的節點，即可在該視窗中看到節點的快顯功能表。 下列畫面顯示活動檢視的根節點。 下表說明活動檢視中不同節點快顯功能表中的項目。  
   
- **活動定義樹狀目錄根節點**  
+ **活動定義樹狀結構根節點**  
   
  ![](../core/media/activityviewcontextmenu.gif "activityviewcontextmenu")  
   
 |功能表項目|使用方式|  
 |---------------|-----------|  
-|新接續|在 [活動] 樹狀結構中插入新的 [Continuation] 資料夾。 您對應此資料夾從接續的來源區段的值。<br /><br /> 與 [ContinuationID] 資料夾搭配使用，提供一種方式讓填入相同活動的多個元件彼此互相轉手處理工作。 BizTalk 協調流程、連接埠、BufferedEventStreams 和 DirectEventStreams 都是這些元件的例子。 **注意：** 接續資料夾名稱可以包含最多 127 個字元。|  
-|新 ContinuationID|在 [活動] 樹狀結構中插入 [ContinuationID] 資料夾。 您可以將這個資料夾對應到接續的 continued-to 區段。 例如，如果協調流程 A 接續到協調流程 B，這個資料夾就必須對應到協調流程 B 中的項目。<br /><br /> 與 [Continuation] 資料夾搭配使用，提供一種方式讓填入相同活動的多個元件彼此互相轉手處理工作。 BizTalk 協調流程、連接埠、BufferedEventStreams 和 DirectEventStreams 都是這些元件的例子。 **注意：** continuationid 資料夾可以包含最多 127 個字元。|  
-|新增關聯性|在 [活動] 樹狀結構中插入新的關係資料夾。 用於發佈組成檢視之各個活動之間的關係。 **注意：** 關係資料夾名稱可以包含最多 128 個字元。 這包括了伺服器名稱和 BizTalk 管理資料庫名稱。|  
-|新 Document Reference URL|在 [活動] 樹狀結構中插入新的 [Document Reference URL] 資料夾。 用於將參考 URL 設定為含有此活動相關文件的位置。 **注意：** Document Reference URL 資料夾名稱可以包含最多 128 個字元。|  
+|新接續|在 [活動] 樹狀結構中插入新的 [Continuation] 資料夾。 您對應此資料夾從接續的來源區段的值。<br /><br /> 與 [ContinuationID] 資料夾搭配使用，提供一種方式讓填入相同活動的多個元件彼此互相轉手處理工作。 BizTalk 協調流程、連接埠、BufferedEventStreams 和 DirectEventStreams 都是這些元件的例子。 **注意：** continuation 資料夾可以包含 127 個字元的最大值。|  
+|新 ContinuationID|在 [活動] 樹狀結構中插入 [ContinuationID] 資料夾。 您可以將這個資料夾對應到接續的 continued-to 區段。 例如，如果協調流程 A 接續到協調流程 B，這個資料夾就必須對應到協調流程 B 中的項目。<br /><br /> 與 [Continuation] 資料夾搭配使用，提供一種方式讓填入相同活動的多個元件彼此互相轉手處理工作。 BizTalk 協調流程、連接埠、BufferedEventStreams 和 DirectEventStreams 都是這些元件的例子。 **注意：** continuationid 資料夾可以包含 127 個字元的最大值。|  
+|新增關聯性|在 [活動] 樹狀結構中插入新的關係資料夾。 用於發佈組成檢視之各個活動之間的關係。 **注意：** 關聯性的資料夾名稱可以包含最多 128 個字元。 這包括了伺服器名稱和 BizTalk 管理資料庫名稱。|  
+|新 Document Reference URL|在 [活動] 樹狀結構中插入新的 [Document Reference URL] 資料夾。 用於將參考 URL 設定為含有此活動相關文件的位置。 **注意：** Document Reference URL 的資料夾名稱可以包含最多 128 個字元。|  
   
  **屬性節點**  
   

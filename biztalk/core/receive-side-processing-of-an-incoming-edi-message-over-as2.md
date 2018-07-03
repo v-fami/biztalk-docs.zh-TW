@@ -1,5 +1,5 @@
 ---
-title: 接收端處理透過 AS2 內送的 EDI 訊息 |Microsoft 文件
+title: 接收端處理內送 EDI 訊息，透過 AS2 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 1fc9069dddf8a8b58ad439ed915fc9afa539c2a8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b6c17e3f9fd0950d27d2d86568e08726d4886b2f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22270062"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36983415"
 ---
 # <a name="receive-side-processing-of-an-incoming-edi-message-over-as2"></a>透過 AS2 從接收端處理內送 EDI 訊息
 透過 AS2 從接收端處理 EDI 訊息的作業包括接收 AS2 訊息、傳送 MDN、處理 EDI 內容，以及傳送 EDI 通知 (若已啟用)。  
@@ -37,30 +37,30 @@ ms.locfileid: "22270062"
 ## <a name="processing-the-received-as2-message"></a>處理收到的 AS2 訊息  
  AS2EdiReceive 接收管線中的 AS2 解碼器會處理內送的 AS2 訊息。 這個 AS2 解碼器執行這項作業的方式是使用 `InboundHTTPHeaders` 內容屬性，也就是 HTTP 配接器從 AS2 訊息中 HTTP 標頭所建立的內容屬性。 這些標頭包括下列 AS2 標頭：  
   
--   AS2-To  
+- AS2-To  
   
--   AS2-From  
+- AS2-From  
   
--   AS2-Version  
+- AS2-Version  
   
--   MessageID  
+- MessageID  
   
--   OriginalMessageID (僅適用於 MDN)  
+- OriginalMessageID (僅適用於 MDN)  
   
--   Disposition-Notification-To (如果有要求 MDN)  
+- Disposition-Notification-To (如果有要求 MDN)  
   
--   Receipt-Delivery-Option (如果有要求 MDN)  
+- Receipt-Delivery-Option (如果有要求 MDN)  
   
--   Signed-Receipt-MICalg (如果有要求 MDN)  
+- Signed-Receipt-MICalg (如果有要求 MDN)  
   
- AS2 解碼器會將這些標頭升級至訊息的內容， 然後再執行下列作業：  
+  AS2 解碼器會將這些標頭升級至訊息的內容， 然後再執行下列作業：  
   
--   執行協議解析，以便判斷用來處理內送訊息的屬性。 如需詳細資訊，請參閱[在內送 AS2 訊息的協議解析](../core/agreement-resolution-for-incoming-as2-messages.md)。  
+- 執行協議解析，以便判斷用來處理內送訊息的屬性。 如需詳細資訊，請參閱 <<c0> [ 在內送 AS2 訊息的協議解析](../core/agreement-resolution-for-incoming-as2-messages.md)。  
   
--   驗證傳送者使用**AS2-從**屬性。  
+- 驗證寄件者使用**AS2-從**屬性。  
   
-    > [!NOTE]
-    >  如需有關處理 AS2 接收管線執行內送 AS2 訊息，請參閱[處理內送 AS2 訊息](../core/processing-an-incoming-as2-message.md)。  
+  > [!NOTE]
+  >  如需有關處理 AS2 接收管線執行內送 AS2 訊息，請參閱[處理內送 AS2 訊息](../core/processing-an-incoming-as2-message.md)。  
   
 ## <a name="sending-an-mdn"></a>傳送 MDN  
  如果已啟用 MDN，AS2EdiReceive 管線便會產生 MDN，並將它放入 MessageBox 中。  
@@ -83,7 +83,7 @@ ms.locfileid: "22270062"
  如果 BizTalk 透過 HTTP/HTTPS 傳輸 EDIINT/AS2 編碼訊息，但是 EDI 編碼內容的處理作業失敗，原始訊息的傳送者將會同時收到 MDN 和 EDI 通知，前者指出 AS2 處理成功，後者則指出 EDI 處理失敗。 系統將會擱置 EDI 編碼內容，而且會發佈錯誤。  
   
 ## <a name="processing-the-received-edi-payload"></a>處理收到的 EDI 內容  
- 如果**輸入批次處理選項**EDI 協議設定為 **將交換分割**，AS2EdiReceive 接收管線相關聯，與雙向要求回應接收位置的剖析EDI 訊息轉換成個別的 XML 訊息，針對每個 EDI 交易集。 如果**輸入批次處理選項**設**保留交換**，接收管線就不會剖析 EDI 訊息。  
+ 如果**輸入批次處理選項**edi 協議設定為**將交換分割**，AS2EdiReceive 接收管線相關聯，與雙向要求回應接收位置的剖析EDI 訊息成個別的 XML 訊息，每個 EDI 交易集。 如果**輸入批次處理選項**設為**保留交換**，接收管線就不會剖析 EDI 訊息。  
   
  接收管線會將 XML 交易集或保留的 EDI 交換傳送到 BizTalk MessageBox。  
   
@@ -95,9 +95,9 @@ ms.locfileid: "22270062"
 ## <a name="sending-the-edi-acknowledgment"></a>傳送 EDI 通知  
  如果啟用 EDI 通知，AS2EdiReceive 接收管線中的 EDI 解譯器將會產生 EDI 通知 (若已啟用)。 EDI 通知必須由 AS2EdiSend 傳送管線在個別的單向傳送埠中傳送。  
   
- 如果您設定雙向要求-回應接收埠同步的 MDN 或 HTTP 回應 （如果是非同步的 MDN)，傳回的 EDI/AS2 訊息的**通知的路由設定為傳送管線在要求-回應接收埠**屬性 (在中設定**本機主機設定**中單向 EDI 協議頁面**協議屬性**對話方塊) 將會被忽略。 即使核取了這個屬性，傳送管線還是會傳回同步的 MDN 或 HTTP 回應，而不會傳回 EDI 通知。  
+ 如果您設定雙向要求-回應接收埠，EDI/AS2 訊息，以傳回同步的 MDN 或 HTTP 回應 （如果是非同步的 MDN)，讓**通知的路由設定為傳送管線在要求-回應接收埠**屬性 (中設定**本機主機設定**頁面中，單向 EDI 協議**協議屬性**對話方塊) 會被忽略。 即使核取了這個屬性，傳送管線還是會傳回同步的 MDN 或 HTTP 回應，而不會傳回 EDI 通知。  
   
- 如需詳細資訊，請參閱[傳送 EDI 通知](../core/sending-an-edi-acknowledgment.md)。  
+ 如需詳細資訊，請參閱 <<c0> [ 傳送 EDI 通知](../core/sending-an-edi-acknowledgment.md)。  
   
 ## <a name="see-also"></a>另請參閱  
  [BizTalk Server 如何接收 AS2 訊息](../core/how-biztalk-server-receives-as2-messages.md)

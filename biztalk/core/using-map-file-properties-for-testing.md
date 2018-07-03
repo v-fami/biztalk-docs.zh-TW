@@ -1,5 +1,5 @@
 ---
-title: 使用對應檔屬性進行測試 |Microsoft 文件
+title: 使用對應檔案屬性進行測試 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5fdec5e58a324c057e11613d7883055faac771b4
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 45c494a1239d215c24ef2cb3394f5bb202a50955
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22287078"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36985271"
 ---
 # <a name="using-map-file-properties-for-testing"></a>使用對應檔案屬性進行測試
 
 ## <a name="overview"></a>概觀
 使用滑鼠右鍵按一下 [方案總管] 中的對應，即可存取對應屬性，其中控制測試期間的許多重要行為：  
   
--   針對來源與目的結構描述驗證輸入和輸出執行個體  
+- 針對來源與目的結構描述驗證輸入和輸出執行個體  
   
--   選擇要建立輸入執行個體，還是使用現有的執行個體  
+- 選擇要建立輸入執行個體，還是使用現有的執行個體  
   
--   輸入和輸出測試執行個體的格式  
+- 輸入和輸出測試執行個體的格式  
   
- 對應屬性的詳細資訊，請參閱**對應屬性參考** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
+  對應屬性的詳細資訊，請參閱**對應屬性參考** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
   
 ## <a name="see-also"></a>另請參閱  
  [測試對應](../core/testing-maps.md)

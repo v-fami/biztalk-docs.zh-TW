@@ -1,5 +1,5 @@
 ---
-title: 單一登入： 事件 10537 |Microsoft 文件
+title: 單一登入： 事件 10537 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,36 +12,36 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4263ec33134bf2959b418e1d9cfb631848808ab3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1945c419af7cc1cc8555224c25642a243c45edcf
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22270622"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37004543"
 ---
 # <a name="single-sign-on-event-10537"></a>單一登入： 事件 10537
 ## <a name="details"></a>詳細資料  
-  
-|||  
-|-|-|  
-|產品名稱|企業單一登入|  
-|產品版本|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|事件識別碼|10537|  
-|事件來源|ENTSSO|  
-|元件|CO|  
-|符號名稱|SSO_WARN_SSO_DISABLED|  
-|訊息文字|SSO 系統目前已停用。|  
-  
+
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  產品名稱   |                 企業單一登入                  |
+| 產品版本 | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    事件識別碼     |                           10537                            |
+|  事件來源   |                           ENTSSO                           |
+|    元件    |                             CO                             |
+|  符號名稱  |                   SSO_WARN_SSO_DISABLED                    |
+|  訊息文字   |           SSO 系統目前已停用。            |
+
 ## <a name="explanation"></a>說明  
  這個警告事件表示，SSO 系統已經停用由 SSO 系統管理員。  
-  
+
 ## <a name="user-action"></a>使用者動作  
  若要解決這個警告，執行下列作業：  
-  
--   請連絡您的 SSO 系統管理員，才能啟用 SSO 系統。 啟用 SSO，才可以使用 SSO 管理工具 （GUI 或命令列）。  
-  
- 如需詳細資訊，請參閱中的下列資源[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]協助：  
-  
--   [如何啟用 SSO](../core/how-to-enable-sso.md)  
-  
--   [如何停用 SSO](../core/how-to-disable-sso.md)
+
+- 請連絡您的 SSO 系統管理員，若要啟用 SSO 系統。 啟用 SSO 可以使用 SSO 管理工具 （GUI 或命令列）。  
+
+  如需詳細資訊，請參閱中的下列資源[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]幫助：  
+
+- [如何啟用 SSO](../core/how-to-enable-sso.md)  
+
+- [如何停用 SSO](../core/how-to-disable-sso.md)

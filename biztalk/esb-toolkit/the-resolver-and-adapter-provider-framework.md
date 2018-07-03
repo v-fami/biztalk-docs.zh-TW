@@ -1,5 +1,5 @@
 ---
-title: ESB 解析器和配接器提供者架構 |Microsoft 文件
+title: ESB 解析程式和配接器提供者架構 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,146 +12,146 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a350ac19ac1fa95ffb8eb6782380bda78a457b75
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: 95134a1f806398f14a5596149eb605e2de20cac2
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31008433"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37002799"
 ---
-# <a name="the-resolver-and-adapter-provider-framework"></a>解析器和配接器提供者架構
-解析器和配接器提供者架構支援路線、 轉換和端點解析和路由。 架構可以動態地解決端點，並設定輸出配接器屬性。 之後的解析程式元件會解析端點 （例如，傳出的 Web 服務端點上使用通用描述、 探索與整合 [UDDI] 來尋找），配接器提供者元件設定的已註冊的 BizTalk Server 的特定屬性配接器。 例如，Wcf-basichttp 配接器提供者負責設定 BizTalk 特定訊息的端點 URI，將會使用特定的 BizTalk 配接器; 內容屬性FTP 配接器提供者會負責設定 FTP 配接器的特定屬性。  
+# <a name="the-resolver-and-adapter-provider-framework"></a>解析程式和配接器提供者架構
+解析程式和配接器提供者架構支援路線、 轉換和端點解析和路由。 架構可以動態地解析端點，並設定輸出配接器屬性。 之後的解析程式元件會解析端點 （例如，使用通用描述、 探索與整合 [UDDI] 來查看輸出的 Web 服務端點），配接器提供者元件會設定已註冊的 BizTalk Server 的特定屬性配接器。 比方說，Wcf-basichttp 配接器提供者負責設定 BizTalk 特定訊息的端點 URI，將會使用特定的 BizTalk 配接器; 的內容屬性FTP 配接器提供者會負責設定的 FTP 配接器的特定屬性。  
   
- 解析器和配接器提供者架構的其中一個目標是以支援解析度和路由在任一個訊息層級，而不需使用 BizTalk 協調流程，或在協調流程層級。 在這兩種情況下，可插式架構會提供簡易的開發、 部署和註冊新的解析程式和配接器提供者。 所有的解析程式和配接器提供者實作妥善定義之介面，並視需要載入執行階段時透過組態檔中註冊。  
+ 解析程式和配接器提供者架構的其中一個目標是支援解析和路由在任一個傳訊層級，而不需使用 BizTalk 協調流程，或在協調流程層級。 在這兩種情況下，隨插即用的架構會提供簡易的開發、 部署和註冊新的解析程式和配接器提供者。 所有的解析程式和配接器提供者實作定義完善的介面，並會在執行階段透過組態檔中註冊的需求載入。  
   
- ESB 發送器和 ESB 發送器解譯管線元件會使用傳遞的連接字串從路線 SOAP 標頭或管線組態至解析程式管理員解析器和配接器提供者架構。  
+ ESB 發送器和 ESB 發送器解譯管線元件使用的解析程式和配接器提供者架構，藉由傳遞路線 SOAP 標頭或管線組態到解析程式管理員的連接字串。  
   
- [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]組態包含的所有已註冊的解析程式和配接器提供者的詳細資料。 在執行的階段，解析程式管理員和配接器管理員從組態檔讀取的已註冊的解析程式和配接器提供者的詳細資料，載入適當的組件，並將其儲存在 BizTalk 主控件層級快取中。 此快取技術移除重複的組態檔的讀取和載入的組件的每一個提交訊息的需求。  
+ [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]組態包含的所有已註冊的解析程式和配接器提供者的詳細資料。 在執行的階段、 解析程式管理員和配接器管理員讀取組態檔中的已註冊的解析程式和配接器提供者的詳細資料的內容，載入適當的組件，並將它們儲存在 BizTalk 主控件層級快取檔案。 此快取技術中移除重複的組態檔的讀取和載入之組件的每個已提交之訊息的需求。  
   
- 如需有關如何解析器和配接器提供者架構的運作方式以及如何擴充它藉由建立自訂的解析程式和配接器提供者，請參閱[修改和擴充 BizTalk ESB Toolkit](../esb-toolkit/modifying-and-extending-the-biztalk-esb-toolkit.md)。  
+ 如需有關如何解析器和配接器提供者架構的運作方式以及如何擴充它藉由建立自訂解析程式和配接器提供者，請參閱[修改和擴充 BizTalk ESB Toolkit](../esb-toolkit/modifying-and-extending-the-biztalk-esb-toolkit.md)。  
   
 ## <a name="supported-resolution-mechanisms-resolvers"></a>支援的解析機制 （解析程式）  
- BizTalk ESB Toolkit 包含下列解析程式：**靜態、 UDDI、 UDDI3、 XPATH，BRE BRI、 路線，路線靜態**和**LDAP**。  
+ BizTalk ESB 工具組包含下列的解析程式：**靜態、 UDDI、 UDDI3、 XPATH，BRE、 BRI、 路線，路線靜態**並**LDAP**。  
   
- 解析程式的連接字串一律組成**moniker** (例如**BRE**) 後面接著":\\\\」 和連接或處理程序的詳細資料。 Moniker 符合相關聯的解析程式組態檔中的定義。 每個連接字串相關聯的屬性是唯一的而且並非所有的屬性不需要。 每個 「 解決者 」 的結構描述位於 ESB。Resolvers.Schemas 專案。  
+ 永遠包含解析程式的連接字串**moniker** (例如**BRE**) 後面接著":\\\\」 和連接或處理程序的詳細資料。 Moniker 會比對相關聯的解析程式組態檔中的定義。 每個連接字串相關聯的屬性是唯一的而且需要不是所有屬性。 解析程式的每個結構描述位於 ESB。Resolvers.Schemas 專案。  
   
  連接字串的範例如下：  
   
--   **靜態**  
+- **靜態**  
   
-     STATIC:\\\TransportType=;  
+   STATIC:\\\TransportType=;  
   
-     TransportLocation =http://localhost/ESB.CanadianServices/SubmitPOService.asmx;  
+   TransportLocation =<http://localhost/ESB.CanadianServices/SubmitPOService.asmx>;  
   
-     Action=;  
+   Action=;  
   
-     EndPointConfig=;  
+   EndPointConfig=;  
   
-     JaxRpcResponse=false;  
+   JaxRpcResponse=false;  
   
-     MessageExchangePattern=;  
+   MessageExchangePattern=;  
   
-     TargetNamespace=http://globalbank.esb.dynamicresolution.com/canadianservices/;  
+   TargetNamespace=<http://globalbank.esb.dynamicresolution.com/canadianservices/>;  
   
-     TransformType=;  
+   TransformType=;  
   
--   **UDDI**  
+- **UDDI**  
   
-     UDDI:\\\serverUrl=http://localhost:9901/rmengine;  
+   UDDI:\\\serverUrl=<http://localhost:9901/rmengine>;  
   
-     serviceName=OrderPurchaseWebService;  
+   serviceName=OrderPurchaseWebService;  
   
-     serviceProvider=Microsoft Practices ESB  
+   serviceProvider=Microsoft Practices ESB  
   
--   **XPATH**  
+- **XPATH**  
   
-     XPATH:\\\TransportType=;  
+   XPATH:\\\TransportType=;  
   
-     `TransportLocation=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='ID' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];`  
+   `TransportLocation=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='ID' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];`  
   
-     Action=;  
+   Action=;  
   
-     EndPointConfig=;  
+   EndPointConfig=;  
   
-     JaxRpcResponse=;  
+   JaxRpcResponse=;  
   
-     MessageExchangePattern=;  
+   MessageExchangePattern=;  
   
-     `TargetNamespace=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='customerName' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];`  
+   `TargetNamespace=/*[local-name()='OrderDoc' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/']/*[local-name()='customerName' and namespace-uri()='http://globalbank.esb.dynamicresolution.com/northamericanservices/'];`  
   
-     TransformType=;  
+   TransformType=;  
 
--   **BRE**  
+- **BRE**  
   
-     BRE:\\\policy=GetCanadaEndPoint;  
+   BRE:\\\policy=GetCanadaEndPoint;  
   
-     version=;  
+   version=;  
   
-     useMsg=;  
+   useMsg=;  
   
--   **BRI**  
+- **BRI**  
   
-     BRI:\\\policy=ResolveItinerary;  
+   BRI:\\\policy=ResolveItinerary;  
   
-     version=;  
+   version=;  
   
-     useMsg=;  
+   useMsg=;  
   
--   **路線**  
+- **路線**  
   
-     ITINERARY:\\\name=TwoWayTestItinerary;  
+   ITINERARY:\\\name=TwoWayTestItinerary;  
   
-     version=;  
+   version=;  
   
--   **行程靜態**  
+- **路線-靜態**  
   
-     行程靜態：\\\name=TwoWayTestItinerary;  
+   路線靜態：\\\name=TwoWayTestItinerary;  
   
-     version=;  
+   version=;  
   
--   **LDAP**  
+- **LDAP**  
   
-     LDAP:\\\TransportType=SMTP;  
+   LDAP:\\\TransportType=SMTP;  
   
-     TransportLocation={mail}  
+   TransportLocation={mail}  
   
-     篩選 = (&(objectClass=User) (| (userPrincipalName =yourname@domain.com)));  
+   篩選 = (&(objectClass=User) (| (userPrincipalName =yourname@domain.com)));  
   
-     SearchRoot=;  
+   SearchRoot=;  
   
-     SearchScope=Subtree;  
+   SearchScope=Subtree;  
   
-     EndpointConfig = Subject = {mail} 行程測試訊息 （& s) 
+   EndpointConfig = Subject = {郵件} 路線測試訊息 （& s) 
   
-     SMTPAuthenticate = 0 （& s)
+   SMTPAuthenticate = 0 （& s)
   
-     SMTPHost = 127.0.0.1 （& s)
+   SMTPHost = 127.0.0.1 （& s)
   
-     從 =test@globalbank.com（& s)
+   From =test@globalbank.com（& s)
   
-     DeliveryReceipt = false （& s)
+   DeliveryReceipt = false （& s)
   
-     MessagePartsAttachments = 0 （& s)
+   MessagePartsAttachments = 0 （& s)
   
-     ReadReceipt=false;  
+   ReadReceipt=false;  
   
-     ThrowErrorIfNotFound=false;  
+   ThrowErrorIfNotFound=false;  
   
-     Action=;  
+   Action=;  
   
-     JaxRpcResponse=false;  
+   JaxRpcResponse=false;  
   
-     MessageExchangePattern=;  
+   MessageExchangePattern=;  
   
-     TargetNamespace=;  
+   TargetNamespace=;  
   
-     TransformType=;  
+   TransformType=;  
   
- 並非所有的連接字串中的屬性是必要項。 此外， **EndPointConfig**是可以填入任何解析程式，並將傳回的特殊屬性。 （選擇性） 在解析程式可以儲存對應至特定的 BizTalk 配接器內容屬性，則亦可以寫入至 BizTalk 訊息內容的名稱/值組。  
+  並非所有的連接字串中的屬性是必要項目。 颾魤 ㄛ **EndPointConfig**是特殊的屬性，可以填入任何解析程式，並將其傳回。 （選擇性） 在解析程式可以儲存對應至特定的 BizTalk 配接器內容屬性，它反而可以寫入 BizTalk 訊息內容的名稱/值組。  
   
- 在此情況下， **ResolverDictionary**包含已解決的所有屬性的執行個體所傳回的解析程序則會傳遞配接器管理員。 配接器管理員會將字典傳遞給特定配接器提供者，將會設定所有配接器與端點特定 BizTalk 內容訊息屬性。 解析程式尋找**EndPointConfig**屬性，擷取對應到其各自的配接器 屬性的名稱/值組，並接著在訊息上設定這些值。  
+  在此情況下， **ResolverDictionary**包含已解析的所有屬性的執行個體解析程序然後傳遞回到配接器管理員。 配接器管理員會將字典傳遞至會設定所有配接器與端點特定 BizTalk 內容訊息屬性的特定配接器提供者。 解析程式尋找**EndPointConfig**屬性，擷取對應到其各自的配接器 屬性的名稱/值組，並接著在訊息上設定這些值。  
   
 ## <a name="supported-adapter-providers"></a>支援的配接器提供者  
- [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]包含下列內建配接器提供者：**檔案、 FTP、 SMTP、 MQSeries、 Wcf-basichttp、 Wcf-wshttp**和**Wcf-custom**。 每個配接器提供者的名稱是與 BizTalk Server 中的關聯配接器 （傳輸類型） 的名稱相同。  
+ [!INCLUDE[esbToolkit](../includes/esbtoolkit-md.md)]包括下列的內建配接器提供者：**檔案、 FTP、 SMTP、 MQSeries、 Wcf-basichttp、 Wcf-wshttp**並**Wcf-custom**。 每個配接器提供者的名稱完全相同的 BizTalk Server 中的相關聯配接器 （傳輸類型） 的名稱。  
   
- 解析器和配接器提供者架構的主要優點是您可以透過建立並註冊您自己的自訂解析程式來解析端點資訊和自訂配接器提供者設定的已註冊的 BizTalk 配接器的特定屬性擴充它。 如需詳細資訊，請參閱[修改和擴充 BizTalk ESB Toolkit](../esb-toolkit/modifying-and-extending-the-biztalk-esb-toolkit.md)。
+ 解析程式和配接器提供者架構的主要優點是您可以藉由建立並註冊您自己自訂的解析程式，以解析端點資訊和設定的已註冊的 BizTalk 配接器的特定屬性的自訂配接器提供者擴充它。 如需詳細資訊，請參閱 <<c0> [ 修改和擴充 BizTalk ESB Toolkit](../esb-toolkit/modifying-and-extending-the-biztalk-esb-toolkit.md)。

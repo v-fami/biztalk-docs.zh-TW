@@ -1,5 +1,5 @@
 ---
-title: 擷取和訊息修復擴充解決方案 |Microsoft 文件
+title: 延伸 Capture 和 Message Repair 的解決方案 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,19 +18,19 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2bb2f5fb1960a149c96a179ba596c67c9f402016
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bc2b4436906b1df913deec8b525143773dd43e4e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209086"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36979639"
 ---
-# <a name="extending-the-solution-for-capture-and-message-repair"></a>擷取和訊息修復擴充解決方案
+# <a name="extending-the-solution-for-capture-and-message-repair"></a>延伸 Capture 和 Message Repair 的解決方案
 在此說明中的 MT103 端對端教學課程會示範如何建構 BizTalk 協調流程訂閱失敗 SWIFT 的訊息。  
   
- MT103 端對端教學課程中的協調流程會使用協助程式類別的靜態方法**ErrorExtractor**，以從訊息中的錯誤部分和主體擷取為字串。 協調流程接著會寫入至不同的檔案部分。  
+ MT103 端對端教學課程中的協調流程會使用協助程式類別的靜態方法**ErrorExtractor**，以從訊息擷取錯誤的組件和本文為字串。 協調流程接著會寫入至不同的檔案部分。  
   
- 因為錯誤部份的失敗訊息的序列化**ErrorCollection**管線元件所建構，您可以還原序列化集合並用它來自動化多個錯誤報告和處理。 下列[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)]程式碼片段說明如何還原序列化失敗訊息的錯誤訊息部分，並逐一查看集合中的剖析錯誤。 程式碼片段會省略命名空間限定性條件來提高可讀性：  
+ 因為錯誤部份的失敗訊息的序列化**ErrorCollection**建構管線元件，您可以還原序列化集合並用它來更多的錯誤報告和處理自動化。 下列 Microsoft[!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)]程式碼片段說明如何還原序列化失敗的訊息的錯誤訊息部分，並逐一查看集合中的剖析錯誤。 程式碼片段省略以提高可讀性的命名空間限定項目：  
   
 ```  
 // instantiate an appropriate XmlTextReader  
@@ -51,7 +51,7 @@ while(pEnum.MoveNext())
   
 ```  
   
- **ErrorCollection**包含方法，用於逐一查看依類型以及來反覆查看集合中的錯誤的所有錯誤。 如需有關**ErrorCollection**，請參閱 ErrorCollection 成員。  
+ **ErrorCollection**包含用於逐一查看依類型以及逐一查看集合中的錯誤的所有錯誤的方法。 如需詳細資訊**ErrorCollection**，請參閱 ErrorCollection 成員。  
   
 ## <a name="see-also"></a>另請參閱  
  [失敗的訊息和 ErrorCollection 物件](../../adapters-and-accelerators/accelerator-swift/failed-messages-and-errorcollection-objects.md)

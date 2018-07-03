@@ -1,5 +1,5 @@
 ---
-title: ImportBindings 命令 |Microsoft 文件
+title: ImportBindings 命令 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,33 +12,33 @@ caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 576f9055e7b70ab43cc150f208f8c55789f28da8
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: 6ca33b2370bcf45b37349769ce50f2e2c9164c34
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/20/2018
-ms.locfileid: "22257998"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37002687"
 ---
 # <a name="importbindings-command"></a>ImportBindings 命令
-從 XML 格式的繫結檔案匯入繫結至 BizTalk 應用程式或群組。 繫結可能已從匯出的組件、 應用程式或群組中所述[匯出繫結](../core/exporting-bindings6.md)。 根據繫結是從何處匯出而定，ApplicationName 和 GroupLevel 參數的影響將有所不同。 如需詳細資訊，請參閱此主題稍後的「備註」。  
+從 XML 格式的繫結檔案匯入繫結至 BizTalk 應用程式或群組。 繫結可能已是從匯出的組件、 應用程式或群組，如中所述[匯出的繫結](../core/exporting-bindings6.md)。 根據繫結是從何處匯出而定，ApplicationName 和 GroupLevel 參數的影響將有所不同。 如需詳細資訊，請參閱此主題稍後的「備註」。  
   
 > [!NOTE]
 >  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 中產生的繫結檔案均未指定應用程式。 這些檔案將匯入到預設的應用程式。  
   
 ## <a name="usage"></a>使用方式  
- **BTSTask ImportBindings-來源**:*值* [**-GroupLevel** & #124; **-ApplicationName**:*值*] [**-伺服器**:*值*] [**-資料庫**:*值*] [**-ImportTrackingSettings**:*值*] [**-ExcludeParties**]
+ **BTSTask ImportBindings-來源**:*值*[**-GroupLevel** &#124; **-ApplicationName**:*值*] [**-伺服器**:*值*] [**-資料庫**:*值*] [**-ImportTrackingSettings**:*值*] [**-ExcludeParties**]
   
 ## <a name="parameters"></a>參數  
   
-|參數|必要項|Value|  
-|---------------|--------------|-----------|  
-|**-來源** (或 **-所以**, ，請參閱 < 備註 >)|必要項|要匯入的繫結檔案完整路徑 (包含檔案名稱)。 路徑如果包含空格，必須括在引號 (") 中。|  
-|**-GroupLevel** (或 **-G**, ，請參閱 < 備註 >)|選擇性|此選項指定將繫結檔案匯入到目前的群組。 如果指定此參數，就不能指定 /ApplicationName。|  
-|**-ApplicationName** (或 **-**, ，請參閱 < 備註 >)|選擇性|要匯入繫結的 BizTalk 應用程式名稱。 如果名稱包含空格，您必須將它括在雙引號 (") 中。 應用程式必須存在，否則匯入作業將會失敗。 如果沒有指定這個參數，將會使用預設的 BizTalk 應用程式。 如果指定此參數，就不能指定 /GroupLevel。|  
-|**伺服器** (或 **-Se**, ，請參閱 < 備註 >)|選擇性|裝載 BizTalk 管理資料庫之 SQL Server 執行個體的名稱，其格式為：伺服器名稱\執行個體名稱,連接埠。<br /><br /> 只有在執行個體名稱和伺服器名稱不同時，才需要執行個體名稱。 只有在 SQL Server 使用預設值 (1433) 以外的連接埠編號時，才需要連接埠。<br /><br /> 範例:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> 如果不提供，將會使用在本機電腦上執行的 SQL Server 執行個體的名稱。|  
-|**-資料庫** (或 **-D**, ，請參閱 < 備註 >)|選擇性|BizTalk 管理資料庫的名稱。 如果沒有指定，將會使用在 SQL Server 本機執行個體中執行的 BizTalk 管理資料庫。|  
-| **-ImportTrackingSettings** | 選擇性 | 新開頭[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]。 <br /><br />這會覆寫全域追蹤設定匯入選項。 "True"值表示允許追蹤設定匯的入。 False 不允許追蹤設定匯入。 |
-| **-ExcludeParties** | 選擇性 | 新開頭[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]。 <br /><br />如果指定，就會從繫結檔案中排除的合作對象資訊。 |
+|                   參數                   | 必要項 |                                                                                                                                                                                                                                                         ReplTest1                                                                                                                                                                                                                                                          |
+|-----------------------------------------------|----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     **-來源**(或 **-因此**，請參閱 < 備註 >)     | 必要項 |                                                                                                                                                                                          要匯入的繫結檔案完整路徑 (包含檔案名稱)。 路徑如果包含空格，必須括在引號 (") 中。                                                                                                                                                                                          |
+|   **-GroupLevel** (或**password-G**，請參閱 < 備註 >)    | 選擇性 |                                                                                                                                                                                               此選項指定將繫結檔案匯入到目前的群組。 如果指定此參數，就不能指定 /ApplicationName。                                                                                                                                                                                                |
+| **-ApplicationName** (或 **-**，請參閱 < 備註 >) | 選擇性 |                                                                          要匯入繫結的 BizTalk 應用程式名稱。 如果名稱包含空格，您必須將它括在雙引號 (") 中。 應用程式必須存在，否則匯入作業將會失敗。 如果沒有指定這個參數，將會使用預設的 BizTalk 應用程式。 如果指定此參數，就不能指定 /GroupLevel。                                                                           |
+|     **-Server** (或 **-Se**，請參閱 < 備註 >)     | 選擇性 | 裝載 BizTalk 管理資料庫之 SQL Server 執行個體的名稱，其格式為：伺服器名稱\執行個體名稱,連接埠。<br /><br /> 只有在執行個體名稱和伺服器名稱不同時，才需要執行個體名稱。 只有在 SQL Server 使用預設值 (1433) 以外的連接埠編號時，才需要連接埠。<br /><br /> 範例:<br /><br /> Server=MyServer<br /><br /> Server=MyServer\MySQLServer,1533<br /><br /> 如果不提供，將會使用在本機電腦上執行的 SQL Server 執行個體的名稱。 |
+|    **-資料庫**(或 **-D**，請參閱 < 備註 >)     | 選擇性 |                                                                                                                                                                                    BizTalk 管理資料庫的名稱。 如果沒有指定，將會使用在 SQL Server 本機執行個體中執行的 BizTalk 管理資料庫。                                                                                                                                                                                     |
+|          **-ImportTrackingSettings**          | 選擇性 |                                                                                                                                           新開始[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]。 <br /><br />這會覆寫全域追蹤設定匯入選項。 "True"值允許匯入追蹤設定。 False 不允許匯入追蹤設定。                                                                                                                                           |
+|              **-ExcludeParties**              | 選擇性 |                                                                                                                                                                                 新開始[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]。 <br /><br />如果指定，它會排除合作對象資訊從繫結檔案。                                                                                                                                                                                  |
   
 ## <a name="sample"></a>範例  
  下列命令將繫結匯入到預設的 BizTalk 群組中名為 MyApplication 的應用程式。  

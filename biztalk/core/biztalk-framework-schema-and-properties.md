@@ -1,5 +1,5 @@
 ---
-title: BizTalk Framework 結構描述和屬性 |Microsoft 文件
+title: BizTalk Framework 結構描述和屬性 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,18 +12,19 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 992f0fb9c66ee00cf425609db4231a57bf5782c4
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 75bbb67410f320cc566871f987f58ec3bae216b4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/23/2018
-ms.locfileid: "22232718"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37013055"
 ---
 # <a name="biztalk-framework-schema-and-properties"></a>BizTalk Framework 結構描述和屬性
 **http://schemas.microsoft.com/BizTalk/2003/btf2-properties**命名空間包含可用來設定 BizTalk Framework 解譯器管線元件的訊息和部分內容屬性的屬性。 「BizTalk Framework 解譯器」管線元件使用這些屬性在建立的訊息中產生適當的標頭。 下表描述 BizTalk Framework 屬性。  
 
 ## <a name="properties-list"></a>屬性清單  
-|名稱|型別|Description|  
+
+|[屬性]|類型|描述|  
 |----------|----------|-----------------|  
 |**IsReliable**|xs:boolean|指示 BizTalk Framework 訊息是否應重新傳送直到從目的接收到通知為止。 此屬性由 BizTalk Framework 元件在內部設定，並由引擎使用。 請勿從程式碼變更此屬性中的值。|  
 |**PassAckThrough**|xs:boolean|指示通知訊息是否應通過「BizTalk Framework 解譯器」管線元件，而不是被取用。|  
@@ -48,7 +49,7 @@ ms.locfileid: "22232718"
 |**commitmentRct_decidedAt**|xs:string|指定此回條所通知的文件之處理決策時間戳記。|  
 |**commitmentRct_decision**|xs:string|指定實際決策，其可能值為正數或負數。|  
 |**commitmentRct_commitmentCode**|xs:QName|指定完整格式名稱 (以 XSD 格式)，此名稱指定有關處理決策更加特定的狀態。|  
-  
+
 ## <a name="see-also"></a>另請參閱  
--  **訊息內容屬性** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]   
--  [設定原生管線元件](../core/configuring-native-pipeline-components.md)
+- **訊息內容屬性** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]   
+- [設定原生管線元件](../core/configuring-native-pipeline-components.md)

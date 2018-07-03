@@ -1,5 +1,5 @@
 ---
-title: 如何建立和描述應用程式單一登入 |Microsoft 文件
+title: 如何建立和描述來單一登入應用程式 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 423439795d9a3822427edbee2e062c3c0aa6bb80
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 874f3c0235d4a0a84d98905796de6db8b544b1bd
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22249086"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36990255"
 ---
 # <a name="how-to-create-and-describe-an-application-to-single-sign-on"></a>如何建立和描述應用程式單一登入
 您需要執行的常見管理工作是將分支機構應用程式新增至「企業單一登入」(SSO) 資料庫。 新增分支機構應用程式到「企業 SSO」資料庫可讓您將使用者和認證與分支機構應用程式建立關聯。  
@@ -27,23 +27,23 @@ ms.locfileid: "22249086"
   
 ### <a name="to-create-and-describe-an-application-in-the-sso-database"></a>在 SSO 資料庫中建立和描述應用程式  
   
-1.  建立新的 `ISSOAdmin` 物件。  
+1. 建立新的 `ISSOAdmin` 物件。  
   
-2.  使用對 `ISSOAdmin.CreateApplication` 的呼叫建立新的應用程式。  
+2. 使用對 `ISSOAdmin.CreateApplication` 的呼叫建立新的應用程式。  
   
-3.  使用對 `ISSOAdmin.CreateFieldInfo` 的呼叫，新增描述應用程式的相關欄位。  
+3. 使用對 `ISSOAdmin.CreateFieldInfo` 的呼叫，新增描述應用程式的相關欄位。  
   
-     在此步驟中，您需要告訴資料庫應用程式具有使用者與關聯的密碼。  
+    在此步驟中，您需要告訴資料庫應用程式具有使用者與關聯的密碼。  
   
-4.  使用對 `ISSOAdmin.UpdateApplication` 或 `ISSOAdmin2.UpdateApplication2` 的呼叫，將新建的描述推出至伺服器。  
+4. 使用對 `ISSOAdmin.UpdateApplication` 或 `ISSOAdmin2.UpdateApplication2` 的呼叫，將新建的描述推出至伺服器。  
   
-     這兩個方法的差異在於 `UpdateApplication2` 是使用 `IPropertyBag` 做為描述應用程式更新的方式，而 `UpdateApplication` 則是具有多個參數。  
+    這兩個方法的差異在於 `UpdateApplication2` 是使用 `IPropertyBag` 做為描述應用程式更新的方式，而 `UpdateApplication` 則是具有多個參數。  
   
-5.  藉由呼叫 `ISSOAdmin.PurgeCacheForApplication`，清除變更過的本機快取。  
+5. 藉由呼叫 `ISSOAdmin.PurgeCacheForApplication`，清除變更過的本機快取。  
   
-     清理本機快取為一項安全措施，可避免在步驟 3 中描述的名稱及密碼存在一個不安全的位置中。  
+    清理本機快取為一項安全措施，可避免在步驟 3 中描述的名稱及密碼存在一個不安全的位置中。  
   
- 下列範例說明如何建立應用程式以及新增欄位資訊。  
+   下列範例說明如何建立應用程式以及新增欄位資訊。  
   
 ```  
 public static bool AddApplication(string name, string admins, string users)  
@@ -70,4 +70,4 @@ public static bool AddApplication(string name, string admins, string users)
 ```  
   
 ## <a name="see-also"></a>另請參閱  
- [使用企業單一登入進行程式設計](../core/programming-with-enterprise-single-sign-on.md)
+ [企業單一登入程式設計](../core/programming-with-enterprise-single-sign-on.md)

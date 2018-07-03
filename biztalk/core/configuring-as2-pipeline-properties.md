@@ -1,5 +1,5 @@
 ---
-title: 設定 AS2 管線屬性 |Microsoft 文件
+title: 設定 AS2 管線屬性 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,12 +14,12 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4e41afd99e7af1441e2d3d8cc936c04cd9321779
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0d2bb679e4e150382cd8ff3e80c838d269ba908f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22233318"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36988871"
 ---
 # <a name="configuring-as2-pipeline-properties"></a>設定 AS2 管線屬性
 管線屬性可在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 無法判斷會解析為所傳送或所接收交換的協議時，用來處理內送或外寄 AS2 訊息。  
@@ -36,11 +36,11 @@ ms.locfileid: "22233318"
   
 ### <a name="to-set-a-pipeline-property"></a>若要設定管線屬性  
   
-1.  在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台中，以滑鼠右鍵按一下使用您要設定屬性之管線的接收位置或傳送埠。 按一下 **[屬性]**。  
+1. 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台中，以滑鼠右鍵按一下使用您要設定屬性之管線的接收位置或傳送埠。 按一下 **[屬性]**。  
   
-2.  按一下要設定屬性之管線旁邊的省略符號按鈕 (?。  
+2. 按一下要設定屬性之管線旁邊的省略符號按鈕 (?。  
   
-3.  輸入值的屬性，然後按一下**確定**。  
+3. 輸入屬性的值，然後按一下**確定**。  
   
 ## <a name="see-also"></a>另請參閱  
  [開發和設定 BizTalk Server AS2 解決方案](../core/developing-and-configuring-biztalk-server-as2-solutions.md)

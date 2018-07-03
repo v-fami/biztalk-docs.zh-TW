@@ -1,5 +1,5 @@
 ---
-title: 在剖析期間發生錯誤。 在交換的 Edifact 功能群組發生下列錯誤 |Microsoft 文件
+title: 剖析期間發生的錯誤。 交換中的 Edifact 功能群組發生下列錯誤 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6af00ae6500419fcb3ed687da89415e7594f1adc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: f5be4d7270aeac605c1e476db4089ea3089296bf
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22241054"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37004495"
 ---
-# <a name="error-encountered-during-parsing-the-edifact-functional-group-in-interchange-had-the-following-errors"></a>在剖析期間發生錯誤。 交換中的 Edifact 功能群組發生下列錯誤
+# <a name="error-encountered-during-parsing-the-edifact-functional-group-in-interchange-had-the-following-errors"></a>剖析期間發生的錯誤。 交換中的 Edifact 功能群組發生下列錯誤
 ## <a name="details"></a>詳細資料  
   
-|||  
-|-|-|  
-|產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|產品版本|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|事件識別碼|-|  
-|事件來源|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]EDI|  
-|元件|EDI 引擎|  
-|符號名稱|EfactFunctionalGroupReceiveError|  
-|訊息文字|在剖析期間發生錯誤。 Edifact 功能群組識別碼為 '{0}'，識別碼 '{1}' 交換中寄件者識別碼 '{2}'，接收者識別碼 '{3}' 發生下列錯誤：|  
+|                 |                                                                                                                                                                               |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  產品名稱   |                                              [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                               |
+| 產品版本 |                                                          [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                           |
+|    事件識別碼     |                                                                                       -                                                                                       |
+|  事件來源   |                                            [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI                                             |
+|    元件    |                                                                                  將 EDI 引擎                                                                                   |
+|  符號名稱  |                                                                       EfactFunctionalGroupReceiveError                                                                        |
+|  訊息文字   | 剖析期間發生的錯誤。 Edifact 功能群組識別碼 '{0}'，在交換識別碼'{1}'，寄件者識別碼為 '{2}'，接收者識別碼'{3}' 發生下列錯誤： |
   
 ## <a name="explanation"></a>說明  
  這個錯誤/警告/資訊事件表示因為識別的功能群組之敘述的錯誤，EDI 接收管線在剖析內送 EDIFACT 交換時遇到錯誤。  

@@ -1,5 +1,5 @@
 ---
-title: 維護 BTARN 資料庫 |Microsoft 文件
+title: 維護 BTARN 資料庫 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,15 +15,15 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2ba898931c4fe295c90d6eb94cad60b69d0910d3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 496e83311c4ede6446bad8893fbe37b22cf8420d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209758"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37000767"
 ---
 # <a name="maintaining-btarn-databases"></a>維護 BTARN 資料庫
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 資料庫可以擴充到很大的程度，以致於可能影響系統效能。 這可能是由資料表中留下未使用的項目 (例如孤立的附件或未使用的摘要) 等特定情況所引起的， 也可能是因為未刪除資料表中的舊項目。 請依照本章節的程序來維護您的 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 資料庫，以免影響效能。  
+Microsoft®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]資料庫可成長太大，其大小會影響系統效能。 這可能是由資料表中留下未使用的項目 (例如孤立的附件或未使用的摘要) 等特定情況所引起的， 也可能是因為未刪除資料表中的舊項目。 請依照本章節的程序來維護您的 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 資料庫，以免影響效能。  
   
 ## <a name="in-this-section"></a>本節內容  
   

@@ -1,5 +1,5 @@
 ---
-title: 執行動態解析範例 |Microsoft 文件
+title: 執行動態解析範例 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,18 +12,18 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e613934c44db03cf29edbf3fff4ef34d6b946577
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 66a61262bab3c3abeb7a4eb7113f09d8d3f7e8db
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22300046"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36983127"
 ---
 # <a name="running-the-dynamic-resolution-sample"></a>執行動態解析範例
-若要執行其中一個使用案例範例，您將適當的 Microsoft BizTalk 繫結檔案匯入 GlobalBank.ESB BizTalk 應用程式然後放置範例輸入資料夾的適當的訊息或呼叫範例 Web 服務。 動態解析範例支援兩種主要案例：  
+若要執行其中一個使用案例範例，您適當的 Microsoft BizTalk 繫結檔案匯入 GlobalBank.ESB BizTalk 應用程式，然後將適當的訊息放入範例輸入資料夾，或呼叫的範例 Web 服務。 動態解析範例支援兩個主要案例：  
   
--   [動態解析範例單向傳訊案例](../esb-toolkit/one-way-messaging-scenarios-for-the-dynamic-resolution-sample.md)。 動態解析範例支援此案例中使用與發行集的檔案放置資料夾會指向 Microsoft BizTalk。  
+- [動態解析範例的單向傳訊案例](../esb-toolkit/one-way-messaging-scenarios-for-the-dynamic-resolution-sample.md)。 此案例中使用與發行集的檔案放置資料夾移到 Microsoft BizTalk 動態解析範例的支援。  
   
--   [動態解析範例的雙向傳訊案例](../esb-toolkit/two-way-messaging-scenarios-for-the-dynamic-resolution-sample.md)。 動態解析範例支援此案例中使用位於與發行集的 http://localhost/ESB.NorthAmericanServices/CustomerOrder.asmx NorthAmerican Web 服務點至 BizTalk。  
+- [動態解析範例的雙向傳訊案例](../esb-toolkit/two-way-messaging-scenarios-for-the-dynamic-resolution-sample.md)。 動態解析範例支援此案例中使用 NorthAmerican Web 服務位於http://localhost/ESB.NorthAmericanServices/CustomerOrder.asmx與發行集點到 BizTalk。  
   
- 若要了解此範例會使用 「 ESB 發送器和 ESB 發送器解譯器管線元件，請參閱[動態解析範例的運作方式](../esb-toolkit/how-the-dynamic-resolution-sample-works.md)。
+  若要了解此範例會使用 ESB 發送器和 ESB 發送器解譯器管線元件，請參閱[動態解析範例運作方式](../esb-toolkit/how-the-dynamic-resolution-sample-works.md)。

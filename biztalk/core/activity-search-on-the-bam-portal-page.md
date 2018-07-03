@@ -1,5 +1,5 @@
 ---
-title: BAM 入口網站上的活動搜尋頁面 |Microsoft 文件
+title: BAM 入口網站上的活動搜尋頁面 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,12 +16,12 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 670d73cb33d9e3cc3aa1a9162cf929382a4dd58a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6b01e85495f0cf673c5c781e3accaaf1fc340025
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22225118"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994119"
 ---
 # <a name="activity-search-on-the-bam-portal-page"></a>BAM 入口網站頁面上的活動搜尋
 商務使用者、開發人員和商務分析師可以使用 BAM 入口網站頁面，視需要針對 BAM 資料執行搜尋以尋找特定程序的特定案例。 這些程序定義為 BAM 活動。 BAM 活動代表商務中的工作單位，例如訂單或貸款申請。  
@@ -36,15 +36,15 @@ ms.locfileid: "22225118"
 ## <a name="the-activity-search-page"></a>活動搜尋頁面  
  [活動搜尋] 頁面在 [內容] 框架中分成三個主要區段：  
   
--   **查詢**： 這個區段可讓使用者以搜尋活動建立搜尋子句，根據特定的追蹤的資料的項目。 使用者可視需要新增和移除子句。  
+- **查詢**： 此區段可讓使用者能夠建立搜尋子句，根據特定的追蹤的資料的項目搜尋活動。 使用者可視需要新增和移除子句。  
   
--   **資料行選擇器**： 這個區段可讓使用者指定的資料，從那些哪些項目可用在該檢視中，以傳回有任何記錄符合搜尋準則。  
+- **資料行選擇器**： 此區段可讓使用者指定的資料，從這些項目可用在該檢視中，以傳回若有任何記錄符合搜尋準則。  
   
--   **結果**： 此區段顯示查詢的結果。  
+- **結果**： 此區段顯示查詢的結果。  
   
- 如需活動搜尋和 [活動搜尋] 頁面的詳細資訊，請參閱[BAM 入口網站中的活動搜尋](../core/activity-searches-in-the-bam-portal.md)。  
+  如需活動搜尋和 [活動搜尋] 頁面的詳細資訊，請參閱[BAM 入口網站中的活動搜尋](../core/activity-searches-in-the-bam-portal.md)。  
   
 ## <a name="see-also"></a>另請參閱  
  [BAM 入口網站](../core/bam-portal.md)   
  [使用事件資料流實作 BAM 活動](../core/implementing-bam-activities-with-event-streams.md)   
- [BAM 入口網站上的警示管理員頁面](../core/alert-manager-on-the-bam-portal-page.md)
+ [BAM 入口網站頁面上的警示管理員](../core/alert-manager-on-the-bam-portal-page.md)

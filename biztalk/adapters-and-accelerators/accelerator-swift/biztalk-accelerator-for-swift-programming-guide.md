@@ -1,5 +1,5 @@
 ---
-title: BizTalk Accelerator for SWIFT 程式設計指南 |Microsoft 文件
+title: BizTalk Accelerator for SWIFT 程式設計指南 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,23 +15,23 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ac316a8eec53f9323c54f2025f25f5f4d9e93512
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6495aea00b8a0d06f112cf6592bc9f15b5a4073e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22209022"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36985623"
 ---
 # <a name="biztalk-accelerator-for-swift-programming-guide"></a>BizTalk Accelerator for SWIFT 程式設計指南
-本章節將說明概念和程序的開發人員撰寫的程式碼與[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]。 使用本指南搭配[!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)]文件。  
+本章節說明概念和程序適用於開發人員撰寫程式碼與 Microsoft [!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]。 使用本指南搭配[!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)]文件。  
   
 > [!NOTE]
->  閱讀本指南之前, 您應該熟悉[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)]程式開發， [!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)]，和[執行階段中，訊息修復、 FIN 回應和傳訊](../../adapters-and-accelerators/accelerator-swift/runtime-message-repair-fin-response-and-messaging.md)。  
+>  之前先閱讀本指南，您應該熟悉 Microsoft[!INCLUDE[btsVCSharp](../../includes/btsvcsharp-md.md)]開發[!INCLUDE[btsBizTalkServerNoVersion_md](../../includes/btsbiztalkservernoversion-md.md)]，並[執行階段中，訊息修復、 FIN 回應和傳訊](../../adapters-and-accelerators/accelerator-swift/runtime-message-repair-fin-response-and-messaging.md)。  
   
  此部分包含：  
   
 -   [使用結構描述](../../adapters-and-accelerators/accelerator-swift/working-with-schemas.md)  
   
--   [SWIFT 解譯器和組合器](../../adapters-and-accelerators/accelerator-swift/working-with-the-swift-disassembler-and-assembler.md)  
+-   [使用 SWIFT 解譯器和組合器](../../adapters-and-accelerators/accelerator-swift/working-with-the-swift-disassembler-and-assembler.md)  
   
--   [使用失敗的訊息的訂閱](../../adapters-and-accelerators/accelerator-swift/working-with-failed-message-subscriptions.md)
+-   [使用失敗的訊息訂閱](../../adapters-and-accelerators/accelerator-swift/working-with-failed-message-subscriptions.md)

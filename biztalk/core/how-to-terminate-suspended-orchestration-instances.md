@@ -1,5 +1,5 @@
 ---
-title: 如何終止擱置的協調流程執行個體 |Microsoft 文件
+title: 如何終止擱置的協調流程執行個體 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,12 +19,12 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5dc0160be5aeeef43b9595953893b4ea1af82c62
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 37de5e1153e9d361b76900ca206351e8b9549dc3
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22255238"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36991967"
 ---
 # <a name="how-to-terminate-suspended-orchestration-instances"></a>如何終止擱置的協調流程執行個體
 您可以從 BizTalk Server 管理主控台中的 [查詢結果] 或 [預覽] 窗格，終止任何擱置的協調流程執行個體或連接埠。  
@@ -37,23 +37,23 @@ ms.locfileid: "22255238"
   
 ### <a name="to-terminate-suspended-orchestration-instances"></a>終止擱置的協調流程執行個體  
   
-1.  按一下**啟動**，按一下 **程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。  
+1. 按一下 **開始**，按一下**程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下**BizTalk Server 管理**。  
   
-2.  在主控台樹狀目錄中展開 [[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]]，然後按一下 BizTalk 群組。  
+2. 在主控台樹狀目錄中展開 [[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]]，然後按一下 BizTalk 群組。  
   
-3.  在詳細資料窗格中，按一下 [ **新查詢** ] 索引標籤。  
+3. 在 詳細資料 窗格中，按一下**新的查詢** 索引標籤。  
   
-4.  在 **查詢運算式** 群組 **值** 欄中，選取 **已擱置服務執行個體** 從下拉式清單方塊。  
+4. 在 **查詢運算式**群組中**值**欄中，選取**已擱置服務執行個體**從下拉式清單方塊。  
   
-5.  執行下列其中之一：  
+5. 執行下列其中之一：  
   
-    -   若要終止單一執行個體， **欄位名稱** 欄中的空白下拉式清單方塊旁邊的星號 (**\***)，請選取 **服務名稱** 篩選器，然後在 **值** 資料行中，指定服務名稱。  
+   - 若要終止單一執行個體，**欄位名**星號旁邊的空白下拉式清單方塊中的資料行 (**\\**<em>)，選取 **服務名稱</em>* 篩選器，然後在**值** 欄中，指定服務名稱。  
   
-    -   若要終止大量執行個體， **欄位名稱** 欄中的空白下拉式清單方塊旁邊的星號 (**\***)，請選取 **群組結果依據** ，然後在 **值** 資料行中，指定服務名稱。  
+   - 若要終止大量執行個體，**欄位名**星號旁邊的空白下拉式清單方塊中的資料行 (**\\**<em>)，選取 **群組結果依據</em>* ，然後在**值** 欄中，指定服務名稱。  
   
-6.  按一下  **執行查詢**。  
+6. 按一下 **執行查詢**。  
   
-7.  在查詢結果清單中，以滑鼠右鍵按一下您想要終止，然後按一下 執行個體群組的協調流程執行個體 **終止執行個體** 或 **終止執行個體**。  
+7. 在查詢結果清單中，以滑鼠右鍵按一下您想要終止，然後按一下 執行個體群組的協調流程執行個體**終止執行個體**或是**終止執行個體**。  
   
 ## <a name="see-also"></a>另請參閱  
  [調查協調流程、連接埠和訊息失敗](../core/investigating-orchestration-port-and-message-failures.md)

@@ -1,5 +1,5 @@
 ---
-title: 建立和設定 BizTalk 連接埠 contoso |Microsoft 文件
+title: 建立和設定 BizTalk 連接埠以供 Contoso |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,15 +19,15 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7264d2eaa5c3ce249bc1077f7754d93eecdd786a
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 4e7453fb35758aaca4eea3d8b05be4a7a7584085
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26004455"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36996503"
 ---
-# <a name="creating-and-configuring-biztalk-ports-for-contoso"></a>建立和設定 BizTalk 連接埠 contoso
-本節中，您將整合到您目前的解決方案[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® BizTalk Server。 在那之前，您必須先在全域組件快取 (GAC) 中安裝您的組件，然後在組態資料庫中設定該組件。 接著，您使用 SQL 配接器和 HTTP 配接器建立與設定傳送埠。  
+# <a name="creating-and-configuring-biztalk-ports-for-contoso"></a>建立和設定 BizTalk 連接埠以供 Contoso
+在本節中，您需要將目前的解決方案整合到 Microsoft® BizTalk Server 上。 在那之前，您必須先在全域組件快取 (GAC) 中安裝您的組件，然後在組態資料庫中設定該組件。 接著，您使用 SQL 配接器和 HTTP 配接器建立與設定傳送埠。  
   
 ## <a name="in-this-section"></a>本節內容  
   

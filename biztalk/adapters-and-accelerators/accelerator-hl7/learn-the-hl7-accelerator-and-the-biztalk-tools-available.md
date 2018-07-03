@@ -1,5 +1,5 @@
 ---
-title: 了解 HL7 加速器以及可用的 BizTalk 工具 |Microsoft 文件
+title: 了解 HL7 加速器以及可用的 BizTalk 工具 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,17 +16,17 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 579b715a8cf11e09c39e5ef805e59628590a3e06
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 73456b8938faa52403149e3d20523eb1e1de8f57
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22205030"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37003679"
 ---
 # <a name="learn-the-hl7-accelerator-and-the-biztalk-tools-available"></a>了解 HL7 加速器以及可用的 BizTalk 工具
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)]高多功能且健全狀況層級七 (HL7) 標準為基礎的高效能完整醫療保健的解決方案醫療保健電腦應用程式之間的資料交換。  
+Microsoft[!INCLUDE[btaBTAHL7NoNumber](../../includes/btabtahl7nonumber-md.md)]高度靈活和健全狀況層級 7 (HL7) 標準為基礎的高效能完整醫療保健解決方案的醫療保健電腦應用程式之間的資料交換。  
   
- 使用此文件集以熟悉下列服務、 功能以及 BTAHL7 的功能。  
+ 使用熟悉的下列服務、 功能和功能 BTAHL7 設定這個文件。  
   
 ## <a name="in-this-section"></a>本節內容  
   
@@ -38,4 +38,4 @@ ms.locfileid: "22205030"
   
 -   [工具和功能](../../adapters-and-accelerators/accelerator-hl7/tools-and-features.md)  
   
--   [HL7 訊息](../../adapters-and-accelerators/accelerator-hl7/hl7-messaging.md)
+-   [HL7 傳訊](../../adapters-and-accelerators/accelerator-hl7/hl7-messaging.md)
