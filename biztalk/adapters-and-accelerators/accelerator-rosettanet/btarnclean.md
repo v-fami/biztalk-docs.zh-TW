@@ -1,5 +1,5 @@
 ---
-title: BtarnClean |Microsoft 文件
+title: BtarnClean |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -21,21 +21,21 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dc3759d13498b6582eeb87fe162d287d64550044
-ms.sourcegitcommit: 436ebffd959a9c4bdaafd4da9a5843c59a018eb7
+ms.openlocfilehash: f94c69552a59cf8cae8a12e056502ae405638e69
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/08/2018
-ms.locfileid: "34855553"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36992839"
 ---
 # <a name="btarnclean"></a>BtarnClean
-您可使用 BtarnClean 公用程式清除電腦的 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 成品。 這包含下列動作：  
+您使用 BtarnClean 公用程式清除 Microsoft®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]成品關閉電腦。 這包含下列動作：  
   
--   停止和取消登錄所有的 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 協調流程  
+- 停止和取消登錄所有的 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 協調流程  
   
--   停止和刪除所有關聯的連接埠  
+- 停止和刪除所有關聯的連接埠  
   
--   解除部署所有的 [!INCLUDE[btsCoName](../../includes/btsconame-md.md)].Solutions.BTARN.* 組件  
+- 解除部署所有 Microsoft.Solutions.btarn 組件  
   
 ## <a name="location-in-sdk"></a>SDK 中的位置  
  \<*磁碟機*\>\Program Files (x86) \ Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK  
