@@ -1,5 +1,5 @@
 ---
-title: 辨別的欄位在解譯器管線元件 |Microsoft 文件
+title: 辨別的欄位的解譯器管線元件 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,23 +17,23 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 20a9c79050b4489238ed94444eaebf8c3dac79d9
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: b08a5c3dd6b88351e67f678524a03052e8435439
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31008441"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37012287"
 ---
-# <a name="distinguished-fields-in-disassembler-pipeline-components"></a><span data-ttu-id="25901-102">辨別的欄位在解譯器管線元件</span><span class="sxs-lookup"><span data-stu-id="25901-102">Distinguished Fields in Disassembler Pipeline Components</span></span>
-<span data-ttu-id="25901-103">結構描述中定義的辨別欄位會由「XML 解譯器」、「BizTalk Framework 解譯器」或「一般檔案解譯器」管線元件以下列格式寫入訊息內容：</span><span class="sxs-lookup"><span data-stu-id="25901-103">Distinguished fields defined in a schema are written to the message context by the XML Disassembler, BizTalk Framework Disassembler, or Flat File Disassembler pipeline components in the following format:</span></span>  
+# <a name="distinguished-fields-in-disassembler-pipeline-components"></a><span data-ttu-id="62c52-102">辨別的欄位的解譯器管線元件</span><span class="sxs-lookup"><span data-stu-id="62c52-102">Distinguished Fields in Disassembler Pipeline Components</span></span>
+<span data-ttu-id="62c52-103">結構描述中定義的辨別欄位會由「XML 解譯器」、「BizTalk Framework 解譯器」或「一般檔案解譯器」管線元件以下列格式寫入訊息內容：</span><span class="sxs-lookup"><span data-stu-id="62c52-103">Distinguished fields defined in a schema are written to the message context by the XML Disassembler, BizTalk Framework Disassembler, or Flat File Disassembler pipeline components in the following format:</span></span>  
   
- <span data-ttu-id="25901-104">*使用名稱* 是 XPath 中的辨別的欄位</span><span class="sxs-lookup"><span data-stu-id="25901-104">*name used* is the distinguished field in XPath</span></span>  
+ <span data-ttu-id="62c52-104">*使用名稱*是辨別的欄位 xpath</span><span class="sxs-lookup"><span data-stu-id="62c52-104">*name used* is the distinguished field in XPath</span></span>  
   
- <span data-ttu-id="25901-105">*命名空間 URI*是 「http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields"</span><span class="sxs-lookup"><span data-stu-id="25901-105">*namespace URI* is "http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields"</span></span>  
+ <span data-ttu-id="62c52-105">*命名空間 URI*是 「<http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields>"</span><span class="sxs-lookup"><span data-stu-id="62c52-105">*namespace URI* is "<http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields>"</span></span>  
   
- <span data-ttu-id="25901-106">屬性的值是 **System.String** 指定 XPath 擷取自 XML 文件使用的值。</span><span class="sxs-lookup"><span data-stu-id="25901-106">The value of the property is the **System.String** value extracted from the XML document using specified XPath.</span></span>  
+ <span data-ttu-id="62c52-106">屬性的值是**System.String**指定 XPath 擷取自 XML 文件使用的值。</span><span class="sxs-lookup"><span data-stu-id="62c52-106">The value of the property is the **System.String** value extracted from the XML document using specified XPath.</span></span>  
   
- <span data-ttu-id="25901-107">以下範例結構描述具有辨別欄位 Price。</span><span class="sxs-lookup"><span data-stu-id="25901-107">The following example schema has a distinguished field Price.</span></span>  
+ <span data-ttu-id="62c52-107">以下範例結構描述具有辨別欄位 Price。</span><span class="sxs-lookup"><span data-stu-id="62c52-107">The following example schema has a distinguished field Price.</span></span>  
   
 ```  
 <?xml version="1.0" encoding="utf-16" ?>   
@@ -57,7 +57,7 @@ ms.locfileid: "31008441"
 </xs:schema>  
 ```  
   
- <span data-ttu-id="25901-108">對於文件執行個體</span><span class="sxs-lookup"><span data-stu-id="25901-108">For the document instance</span></span>  
+ <span data-ttu-id="62c52-108">對於文件執行個體</span><span class="sxs-lookup"><span data-stu-id="62c52-108">For the document instance</span></span>  
   
 ```  
 <PO>  
@@ -66,17 +66,17 @@ ms.locfileid: "31008441"
 <PO>  
 ```  
   
- <span data-ttu-id="25901-109">XML 解譯器在訊息內容寫入辨別欄位，如下所示：</span><span class="sxs-lookup"><span data-stu-id="25901-109">the XML Disassembler writes a distinguished field on a message context as follows:</span></span>  
+ <span data-ttu-id="62c52-109">XML 解譯器在訊息內容寫入辨別欄位，如下所示：</span><span class="sxs-lookup"><span data-stu-id="62c52-109">the XML Disassembler writes a distinguished field on a message context as follows:</span></span>  
   
- <span data-ttu-id="25901-110">在內容上的屬性名稱： `"/*[local-name()='PO' and namespace-uri()='http://SendHtmlMessage.PO']/\*[local-name()='Price' and namespace-uri()='']"`</span><span class="sxs-lookup"><span data-stu-id="25901-110">Name of the property on the context: `"/*[local-name()='PO' and namespace-uri()='http://SendHtmlMessage.PO']/\*[local-name()='Price' and namespace-uri()='']"`</span></span>  
+ <span data-ttu-id="62c52-110">在內容上的屬性名稱： `"/*[local-name()='PO' and namespace-uri()='http://SendHtmlMessage.PO']/\*[local-name()='Price' and namespace-uri()='']"`</span><span class="sxs-lookup"><span data-stu-id="62c52-110">Name of the property on the context: `"/*[local-name()='PO' and namespace-uri()='http://SendHtmlMessage.PO']/\*[local-name()='Price' and namespace-uri()='']"`</span></span>  
   
- <span data-ttu-id="25901-111">屬性的命名空間： http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields</span><span class="sxs-lookup"><span data-stu-id="25901-111">Namespace of the property: http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields</span></span>  
+ <span data-ttu-id="62c52-111">屬性的命名空間： http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields</span><span class="sxs-lookup"><span data-stu-id="62c52-111">Namespace of the property: http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields</span></span>  
   
- <span data-ttu-id="25901-112">屬性的值︰ 10</span><span class="sxs-lookup"><span data-stu-id="25901-112">Value of the property: 10</span></span>  
+ <span data-ttu-id="62c52-112">屬性的值： 10</span><span class="sxs-lookup"><span data-stu-id="62c52-112">Value of the property: 10</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="25901-113">若任何 XML 文件項目值的大小超過 85KB，則處理這些文件時可能會發生效能降低的狀況。</span><span class="sxs-lookup"><span data-stu-id="25901-113">If the size of any XML document element values exceeds 85KB, a degradation in the performance of processing those documents may occur.</span></span>  
+>  <span data-ttu-id="62c52-113">若任何 XML 文件項目值的大小超過 85KB，則處理這些文件時可能會發生效能降低的狀況。</span><span class="sxs-lookup"><span data-stu-id="62c52-113">If the size of any XML document element values exceeds 85KB, a degradation in the performance of processing those documents may occur.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="25901-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="25901-114">See Also</span></span>  
- <span data-ttu-id="25901-115">[一般檔案解譯器管線元件](../core/flat-file-disassembler-pipeline-component.md) </span><span class="sxs-lookup"><span data-stu-id="25901-115">[Flat File Disassembler Pipeline Component](../core/flat-file-disassembler-pipeline-component.md) </span></span>  
- [<span data-ttu-id="25901-116">如何設定一般檔案解譯器管線元件</span><span class="sxs-lookup"><span data-stu-id="25901-116">How to Configure the Flat File Disassembler Pipeline Component</span></span>](../core/how-to-configure-the-flat-file-disassembler-pipeline-component.md)
+## <a name="see-also"></a><span data-ttu-id="62c52-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="62c52-114">See Also</span></span>  
+ <span data-ttu-id="62c52-115">[一般檔案解譯器管線元件](../core/flat-file-disassembler-pipeline-component.md) </span><span class="sxs-lookup"><span data-stu-id="62c52-115">[Flat File Disassembler Pipeline Component](../core/flat-file-disassembler-pipeline-component.md) </span></span>  
+ [<span data-ttu-id="62c52-116">如何設定一般檔案解譯器管線元件</span><span class="sxs-lookup"><span data-stu-id="62c52-116">How to Configure the Flat File Disassembler Pipeline Component</span></span>](../core/how-to-configure-the-flat-file-disassembler-pipeline-component.md)

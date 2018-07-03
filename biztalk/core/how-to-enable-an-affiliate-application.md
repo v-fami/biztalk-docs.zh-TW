@@ -1,5 +1,5 @@
 ---
-title: 如何啟用分支機構應用程式 |Microsoft 文件
+title: 如何啟用分支機構應用程式 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,37 +16,37 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 2a0e4776b60b81256552552c60aa1abb8abdcde8
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: fb36c7c8d083cb72cd92cc90c088c7d8a35a9731
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "25971196"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37004191"
 ---
-# <a name="how-to-enable-an-affiliate-application"></a><span data-ttu-id="108c2-102">如何啟用分支機構應用程式</span><span class="sxs-lookup"><span data-stu-id="108c2-102">How to Enable an Affiliate Application</span></span>
-<span data-ttu-id="108c2-103">您可以使用 MMC 嵌入式管理單元或命令列，啟用指定的分支機構應用程式。</span><span class="sxs-lookup"><span data-stu-id="108c2-103">You can use the MMC Snap-In or the command line to enable the specified affiliate application.</span></span>  
+# <a name="how-to-enable-an-affiliate-application"></a><span data-ttu-id="8fa9a-102">如何啟用分支機構應用程式</span><span class="sxs-lookup"><span data-stu-id="8fa9a-102">How to Enable an Affiliate Application</span></span>
+<span data-ttu-id="8fa9a-103">您可以使用 MMC 嵌入式管理單元或命令列，啟用指定的分支機構應用程式。</span><span class="sxs-lookup"><span data-stu-id="8fa9a-103">You can use the MMC Snap-In or the command line to enable the specified affiliate application.</span></span>  
   
-### <a name="to-enable-an-affiliate-application-using-the-mmc-snap-in"></a><span data-ttu-id="108c2-104">若要使用 MMC 嵌入式管理單元啟用分支機構應用程式</span><span class="sxs-lookup"><span data-stu-id="108c2-104">To enable an affiliate application using the MMC Snap-In</span></span>  
+### <a name="to-enable-an-affiliate-application-using-the-mmc-snap-in"></a><span data-ttu-id="8fa9a-104">若要使用 MMC 嵌入式管理單元啟用分支機構應用程式</span><span class="sxs-lookup"><span data-stu-id="8fa9a-104">To enable an affiliate application using the MMC Snap-In</span></span>  
   
-1.  <span data-ttu-id="108c2-105">在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="108c2-105">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
+1.  <span data-ttu-id="8fa9a-105">在 **[開始]** 功能表上，依序按一下 **[所有程式]** 及 **[Microsoft 企業單一登入]**，然後按一下 **[SSO 管理]**。</span><span class="sxs-lookup"><span data-stu-id="8fa9a-105">On the **Start** menu, click **All Programs**, click **Microsoft Enterprise Single Sign-On**, and then click **SSO Administration**.</span></span>  
   
-2.  <span data-ttu-id="108c2-106">在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。</span><span class="sxs-lookup"><span data-stu-id="108c2-106">In the scope pane of the ENTSSO MMC Snap-In, expand the **Enterprise Single Sign-On** node.</span></span>  
+2.  <span data-ttu-id="8fa9a-106">在 ENTSSO MMC 嵌入式管理單元的範圍窗格中，展開 **[企業單一登入]** 節點。</span><span class="sxs-lookup"><span data-stu-id="8fa9a-106">In the scope pane of the ENTSSO MMC Snap-In, expand the **Enterprise Single Sign-On** node.</span></span>  
   
-3.  <span data-ttu-id="108c2-107">以滑鼠右鍵按一下分支機構應用程式，然後按一下 **啟用**。</span><span class="sxs-lookup"><span data-stu-id="108c2-107">Right-click the affililate application, and then click **Enable**.</span></span>  
+3.  <span data-ttu-id="8fa9a-107">以滑鼠右鍵按一下分支機構應用程式，然後按一下**啟用**。</span><span class="sxs-lookup"><span data-stu-id="8fa9a-107">Right-click the affililate application, and then click **Enable**.</span></span>  
   
-### <a name="to-enable-an-affiliate-application-using-the-command-line"></a><span data-ttu-id="108c2-108">若要啟用分支機構應用程式使用命令列</span><span class="sxs-lookup"><span data-stu-id="108c2-108">To enable an affiliate application using the command line</span></span>  
+### <a name="to-enable-an-affiliate-application-using-the-command-line"></a><span data-ttu-id="8fa9a-108">若要啟用分支機構應用程式使用命令列</span><span class="sxs-lookup"><span data-stu-id="8fa9a-108">To enable an affiliate application using the command line</span></span>  
   
-1.  <span data-ttu-id="108c2-109">在 **啟動** ] 功能表上，按一下 [ **執行**, ，然後輸入 **cmd**。</span><span class="sxs-lookup"><span data-stu-id="108c2-109">On the **Start** menu, click **run**, and then type **cmd**.</span></span>  
+1. <span data-ttu-id="8fa9a-109">在上**開始**功能表上，按一下**執行**，然後輸入**cmd**。</span><span class="sxs-lookup"><span data-stu-id="8fa9a-109">On the **Start** menu, click **run**, and then type **cmd**.</span></span>  
   
-2.  <span data-ttu-id="108c2-110">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="108c2-110">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="108c2-111">預設安裝目錄是\<*磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="108c2-111">The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
+2. <span data-ttu-id="8fa9a-110">在命令列，移至「企業單一登入」安裝目錄。</span><span class="sxs-lookup"><span data-stu-id="8fa9a-110">At the command line, go to the Enterprise Single Sign-On installation directory.</span></span> <span data-ttu-id="8fa9a-111">預設的安裝目錄\<*磁碟機*\>: \Program Files\Common Files\Enterprise Single Sign-on。</span><span class="sxs-lookup"><span data-stu-id="8fa9a-111">The default installation directory is \<*drive*\>:\Program Files\Common Files\Enterprise Single Sign-On.</span></span>  
   
-3.  <span data-ttu-id="108c2-112">型別 **ssomanage-enableapp *\<應用程式名稱\>* * *，其中\<* 應用程式名稱*\>是您想要的分支機構應用程式的名稱若要啟用。</span><span class="sxs-lookup"><span data-stu-id="108c2-112">Type **ssomanage –enableapp *\<application name\>***, where \<* application name*\> is the name of the affiliate application you want to enable.</span></span>  
+3. <span data-ttu-id="8fa9a-112">型別<strong>ssomanage-enableapp *\<應用程式名稱\></strong><em>，其中\<</em>應用程式名稱*\>的名稱您想要啟用分支機構應用程式。</span><span class="sxs-lookup"><span data-stu-id="8fa9a-112">Type <strong>ssomanage –enableapp *\<application name\></strong><em>, where \<</em>application name*\> is the name of the affiliate application you want to enable.</span></span>  
   
-    > [!NOTE]
-    >  <span data-ttu-id="108c2-113">在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。</span><span class="sxs-lookup"><span data-stu-id="108c2-113">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
+   > [!NOTE]
+   >  <span data-ttu-id="8fa9a-113">在支援 [使用者帳戶控制] \(UAC) 的系統上，您必須以系統管理權限執行此工具。</span><span class="sxs-lookup"><span data-stu-id="8fa9a-113">On a system that supports User Account Control (UAC), you may need to run the tool with Administrative privileges.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="108c2-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="108c2-114">See Also</span></span>  
- <span data-ttu-id="108c2-115">[SSO 分支機構應用程式](../core/sso-affiliate-applications.md) </span><span class="sxs-lookup"><span data-stu-id="108c2-115">[SSO Affiliate Applications](../core/sso-affiliate-applications.md) </span></span>  
- <span data-ttu-id="108c2-116">[如何建立分支機構應用程式](../core/how-to-create-an-affiliate-application.md) </span><span class="sxs-lookup"><span data-stu-id="108c2-116">[How to Create an Affiliate Application](../core/how-to-create-an-affiliate-application.md) </span></span>  
- <span data-ttu-id="108c2-117">[管理使用者對應](../core/managing-user-mappings.md) </span><span class="sxs-lookup"><span data-stu-id="108c2-117">[Managing User Mappings](../core/managing-user-mappings.md) </span></span>  
- [<span data-ttu-id="108c2-118">管理分支機構應用程式</span><span class="sxs-lookup"><span data-stu-id="108c2-118">Managing Affiliate Applications</span></span>](../core/managing-affiliate-applications.md)
+## <a name="see-also"></a><span data-ttu-id="8fa9a-114">另請參閱</span><span class="sxs-lookup"><span data-stu-id="8fa9a-114">See Also</span></span>  
+ <span data-ttu-id="8fa9a-115">[SSO 分支機構應用程式](../core/sso-affiliate-applications.md) </span><span class="sxs-lookup"><span data-stu-id="8fa9a-115">[SSO Affiliate Applications](../core/sso-affiliate-applications.md) </span></span>  
+ <span data-ttu-id="8fa9a-116">[如何建立分支機構應用程式](../core/how-to-create-an-affiliate-application.md) </span><span class="sxs-lookup"><span data-stu-id="8fa9a-116">[How to Create an Affiliate Application](../core/how-to-create-an-affiliate-application.md) </span></span>  
+ <span data-ttu-id="8fa9a-117">[管理使用者對應](../core/managing-user-mappings.md) </span><span class="sxs-lookup"><span data-stu-id="8fa9a-117">[Managing User Mappings](../core/managing-user-mappings.md) </span></span>  
+ [<span data-ttu-id="8fa9a-118">管理分支機構應用程式</span><span class="sxs-lookup"><span data-stu-id="8fa9a-118">Managing Affiliate Applications</span></span>](../core/managing-affiliate-applications.md)

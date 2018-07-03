@@ -1,5 +1,5 @@
 ---
-title: 如何取代結構描述 |Microsoft 文件
+title: 如何取代結構描述 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,41 +12,41 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: df444b8169d75408fe6e412135029ae2b051a6d2
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: f8aaca705c54866ec6323d7c26a5fe7b731129e7
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "25972628"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022524"
 ---
-# <a name="how-to-replace-schemas"></a><span data-ttu-id="56ec7-102">如何取代結構描述</span><span class="sxs-lookup"><span data-stu-id="56ec7-102">How to Replace Schemas</span></span>
-<span data-ttu-id="56ec7-103">您有時候可能想要取代現有對應中的來源或目的結構描述，例如當您收到來自交易夥伴的已更新結構描述時。</span><span class="sxs-lookup"><span data-stu-id="56ec7-103">There may be times when you want to replace either the source or destination schema in an existing map, such as when you receive an updated schema from a trading partner.</span></span>  
+# <a name="how-to-replace-schemas"></a><span data-ttu-id="6a5f1-102">如何取代結構描述</span><span class="sxs-lookup"><span data-stu-id="6a5f1-102">How to Replace Schemas</span></span>
+<span data-ttu-id="6a5f1-103">您有時候可能想要取代現有對應中的來源或目的結構描述，例如當您收到來自交易夥伴的已更新結構描述時。</span><span class="sxs-lookup"><span data-stu-id="6a5f1-103">There may be times when you want to replace either the source or destination schema in an existing map, such as when you receive an updated schema from a trading partner.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="56ec7-104">「BizTalk 對應工具」會嘗試維護已保留結構描述和已取代結構描述之間的所有現有連結。</span><span class="sxs-lookup"><span data-stu-id="56ec7-104">The BizTalk Mapper attempts to maintain all existing links between the retained schema and the replaced schema.</span></span>  
+>  <span data-ttu-id="6a5f1-104">「BizTalk 對應工具」會嘗試維護已保留結構描述和已取代結構描述之間的所有現有連結。</span><span class="sxs-lookup"><span data-stu-id="6a5f1-104">The BizTalk Mapper attempts to maintain all existing links between the retained schema and the replaced schema.</span></span>  
   
-## <a name="replace-a-source-or-destination-schema"></a><span data-ttu-id="56ec7-105">取代來源或目的結構描述</span><span class="sxs-lookup"><span data-stu-id="56ec7-105">Replace a source or destination schema</span></span>  
+## <a name="replace-a-source-or-destination-schema"></a><span data-ttu-id="6a5f1-105">取代來源或目的結構描述</span><span class="sxs-lookup"><span data-stu-id="6a5f1-105">Replace a source or destination schema</span></span>  
   
-1.  <span data-ttu-id="56ec7-106">來源或目的結構描述樹狀檢視中，以滑鼠右鍵按一下，然後選取 **取代結構描述**。</span><span class="sxs-lookup"><span data-stu-id="56ec7-106">Right-click either the source or destination schema tree view, and then select **Replace Schema**.</span></span>  
+1. <span data-ttu-id="6a5f1-106">以滑鼠右鍵按一下來源或目的結構描述樹狀檢視，然後按**取代結構描述**。</span><span class="sxs-lookup"><span data-stu-id="6a5f1-106">Right-click either the source or destination schema tree view, and then select **Replace Schema**.</span></span>  
   
-    > [!NOTE]
-    >  <span data-ttu-id="56ec7-107">或者，您也可以按下鍵盤的 CTRL+M、CTRL+S。</span><span class="sxs-lookup"><span data-stu-id="56ec7-107">Alternatively, you can also press CTRL+M, CTRL+S from the keyboard.</span></span> <span data-ttu-id="56ec7-108">如需對應工具鍵盤快速鍵的完整清單，請參閱[BizTalk 對應工具鍵盤快速鍵](../core/biztalk-mapper-keyboard-shortcuts.md)。</span><span class="sxs-lookup"><span data-stu-id="56ec7-108">For a complete list of Mapper keyboard shortcuts, see [BizTalk Mapper Keyboard Shortcuts](../core/biztalk-mapper-keyboard-shortcuts.md).</span></span>  
+   > [!NOTE]
+   >  <span data-ttu-id="6a5f1-107">或者，您也可以按下鍵盤的 CTRL+M、CTRL+S。</span><span class="sxs-lookup"><span data-stu-id="6a5f1-107">Alternatively, you can also press CTRL+M, CTRL+S from the keyboard.</span></span> <span data-ttu-id="6a5f1-108">如需對應工具鍵盤快速鍵的完整清單，請參閱 < [BizTalk 對應工具鍵盤快速鍵](../core/biztalk-mapper-keyboard-shortcuts.md)。</span><span class="sxs-lookup"><span data-stu-id="6a5f1-108">For a complete list of Mapper keyboard shortcuts, see [BizTalk Mapper Keyboard Shortcuts](../core/biztalk-mapper-keyboard-shortcuts.md).</span></span>  
   
-2.  <span data-ttu-id="56ec7-109">在 **BizTalk 型別選擇器** 對話方塊方塊中，展開 **結構描述** 節點在樹狀目錄中，選取適當的結構描述，然後選取 **確定**。</span><span class="sxs-lookup"><span data-stu-id="56ec7-109">In the **BizTalk Type Picker** dialog box, expand the **Schemas** node in the tree, select the appropriate schema, and then select **OK**.</span></span>  
+2. <span data-ttu-id="6a5f1-109">在  **BizTalk 型別選擇器**對話方塊方塊中，展開**結構描述**節點在樹狀目錄中，選取適當的結構描述，然後選取**確定**。</span><span class="sxs-lookup"><span data-stu-id="6a5f1-109">In the **BizTalk Type Picker** dialog box, expand the **Schemas** node in the tree, select the appropriate schema, and then select **OK**.</span></span>  
   
-     <span data-ttu-id="56ec7-110">![選取的結構描述](../core/media/biztalk-typepicker.gif "BizTalk_TypePicker")</span><span class="sxs-lookup"><span data-stu-id="56ec7-110">![Select the Schema](../core/media/biztalk-typepicker.gif "BizTalk_TypePicker")</span></span>  
+    <span data-ttu-id="6a5f1-110">![選取的結構描述](../core/media/biztalk-typepicker.gif "BizTalk_TypePicker")</span><span class="sxs-lookup"><span data-stu-id="6a5f1-110">![Select the Schema](../core/media/biztalk-typepicker.gif "BizTalk_TypePicker")</span></span>  
 
-    > [!TIP] 
-    > <span data-ttu-id="56ec7-111">**從開始[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]** ，您可以調整 [型別選擇器] 視窗，請參閱您的結構描述的完整名稱。</span><span class="sxs-lookup"><span data-stu-id="56ec7-111">**Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]**, you can resize the Type Picker window to see the full name of your schema.</span></span>
+   > [!TIP]
+   > <span data-ttu-id="6a5f1-111">**開頭[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]** ，您可以調整大小的型別選擇器視窗，以查看您的結構描述的完整名稱。</span><span class="sxs-lookup"><span data-stu-id="6a5f1-111">**Starting with [!INCLUDE[bts2016_md](../includes/bts2016-md.md)]**, you can resize the Type Picker window to see the full name of your schema.</span></span>
       
-     <span data-ttu-id="56ec7-112">如果只有單一根節點中取代結構描述或根節點，已建立的取代結構描述使用 **根參考** 屬性 **結構描述** 節點，則取代結構描述會在相關窗格中，開啟，您不需要執行步驟 3。</span><span class="sxs-lookup"><span data-stu-id="56ec7-112">If only a single root exists in the replacement schema, or a root node has been established for the replacement schema using the **Root Reference** property of the **Schema** node, the replacement schema opens in the relevant pane, and you will not need to perform step 3.</span></span>  
+    <span data-ttu-id="6a5f1-112">如果只有單一根節點存在於取代結構描述，或已建立取代結構描述使用根節點**根參考**屬性**結構描述**] 節點，開啟 [取代結構描述在相關窗格中，您將不需要執行步驟 3。</span><span class="sxs-lookup"><span data-stu-id="6a5f1-112">If only a single root exists in the replacement schema, or a root node has been established for the replacement schema using the **Root Reference** property of the **Schema** node, the replacement schema opens in the relevant pane, and you will not need to perform step 3.</span></span>  
   
-3.  <span data-ttu-id="56ec7-113">如果多個根節點存在於目的地結構描述，而且沒有根節點，已建立的目的地結構描述使用**根參考**屬性**結構描述**節點，請在**根節點\<*來源/目標*\>結構描述**對話方塊中，選取適當的根節點，然後選取**確定**。</span><span class="sxs-lookup"><span data-stu-id="56ec7-113">If multiple root nodes exist in the destination schema, and no root node has been established for the destination schema using the **Root Reference** property of the **Schema** node, in the **Root Node for \<*Source/Target*\> Schema** dialog box, select the appropriate root node, and then select **OK**.</span></span>  
+3. <span data-ttu-id="6a5f1-113">如果多個根節點存在於目的地結構描述，並已建立目的地結構描述使用沒有根節點**根參考**屬性**結構描述**節點，請在**根節點\<*來源/目標*\>結構描述** 對話方塊中，選取適當的根節點，然後按**確定**。</span><span class="sxs-lookup"><span data-stu-id="6a5f1-113">If multiple root nodes exist in the destination schema, and no root node has been established for the destination schema using the **Root Reference** property of the **Schema** node, in the **Root Node for \<*Source/Target*\> Schema** dialog box, select the appropriate root node, and then select **OK**.</span></span>  
   
-     <span data-ttu-id="56ec7-114">取代結構描述會在相關窗格中開啟。</span><span class="sxs-lookup"><span data-stu-id="56ec7-114">The replacement schema opens in the relevant pane.</span></span>  
+    <span data-ttu-id="6a5f1-114">取代結構描述會在相關窗格中開啟。</span><span class="sxs-lookup"><span data-stu-id="6a5f1-114">The replacement schema opens in the relevant pane.</span></span>  
   
-    > [!NOTE]
-    >  <span data-ttu-id="56ec7-115">如果取代結構描述時找不到相關的記錄/欄位，某些連結可能會遺失。</span><span class="sxs-lookup"><span data-stu-id="56ec7-115">While replacing schema, if relevant records/fields are not found, some links may get lost.</span></span> <span data-ttu-id="56ec7-116">只有當您選取時，會取代結構描述 **是** 上 **確認**  對話方塊。</span><span class="sxs-lookup"><span data-stu-id="56ec7-116">The schema is replaced only when you select **Yes** on the **Confirmation**  dialog box.</span></span>  
+   > [!NOTE]
+   >  <span data-ttu-id="6a5f1-115">如果取代結構描述時找不到相關的記錄/欄位，某些連結可能會遺失。</span><span class="sxs-lookup"><span data-stu-id="6a5f1-115">While replacing schema, if relevant records/fields are not found, some links may get lost.</span></span> <span data-ttu-id="6a5f1-116">只有當您選取時，會取代結構描述**是**上**確認** 對話方塊。</span><span class="sxs-lookup"><span data-stu-id="6a5f1-116">The schema is replaced only when you select **Yes** on the **Confirmation**  dialog box.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="56ec7-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="56ec7-117">See Also</span></span>  
- [<span data-ttu-id="56ec7-118">管理專案中的對應</span><span class="sxs-lookup"><span data-stu-id="56ec7-118">Managing Maps Within Projects</span></span>](../core/managing-maps-within-projects.md)
+## <a name="see-also"></a><span data-ttu-id="6a5f1-117">另請參閱</span><span class="sxs-lookup"><span data-stu-id="6a5f1-117">See Also</span></span>  
+ [<span data-ttu-id="6a5f1-118">管理專案中的對應</span><span class="sxs-lookup"><span data-stu-id="6a5f1-118">Managing Maps Within Projects</span></span>](../core/managing-maps-within-projects.md)

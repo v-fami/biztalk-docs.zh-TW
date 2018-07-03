@@ -1,5 +1,5 @@
 ---
-title: 叫用中使用 WCF 服務模型的 SAP tRFCs |Microsoft 文件
+title: 叫用中使用 WCF 服務模型的 SAP 的 Trfc |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,34 +15,34 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5f23ee3e863318c9d75be9136e7b7fc0fa37b921
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8d28e3cc47a213f122f30c2599063897e0485816
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22216654"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37002375"
 ---
-# <a name="invoke-trfcs-in-sap-using-the-wcf-service-model"></a><span data-ttu-id="cf233-102">叫用 tRFCs SAP 使用 WCF 服務模型中</span><span class="sxs-lookup"><span data-stu-id="cf233-102">Invoke tRFCs in SAP using the WCF Service Model</span></span>
-<span data-ttu-id="cf233-103">交易式遠端函式呼叫 (tRFCs) 保證*單次*RFC，SAP 系統上執行。</span><span class="sxs-lookup"><span data-stu-id="cf233-103">Transactional Remote Function Calls (tRFCs) guarantee a *one-time* execution of an RFC on an SAP system.</span></span> <span data-ttu-id="cf233-104">您可以叫用任何由顯示 Rfc [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] tRFC 為。</span><span class="sxs-lookup"><span data-stu-id="cf233-104">You can invoke any of the RFCs surfaced by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] as a tRFC.</span></span> <span data-ttu-id="cf233-105">叫用 WCF 服務模型中的 tRFC 是類似於叫用的 RFC 具有下列差異：</span><span class="sxs-lookup"><span data-stu-id="cf233-105">Invoking a tRFC in the WCF service model is similar to invoking an RFC with the following differences:</span></span>  
+# <a name="invoke-trfcs-in-sap-using-the-wcf-service-model"></a><span data-ttu-id="243a2-102">叫用 Trfc SAP 使用 WCF 服務模型中</span><span class="sxs-lookup"><span data-stu-id="243a2-102">Invoke tRFCs in SAP using the WCF Service Model</span></span>
+<span data-ttu-id="243a2-103">交易式遠端函式呼叫 (Trfc) 保證*單次*RFC，SAP 系統上執行。</span><span class="sxs-lookup"><span data-stu-id="243a2-103">Transactional Remote Function Calls (tRFCs) guarantee a *one-time* execution of an RFC on an SAP system.</span></span> <span data-ttu-id="243a2-104">您可以叫用任何呈現的 Rfc[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]為 tRFC。</span><span class="sxs-lookup"><span data-stu-id="243a2-104">You can invoke any of the RFCs surfaced by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] as a tRFC.</span></span> <span data-ttu-id="243a2-105">叫用 WCF 服務模型中的 tRFC 大致叫用 RFC 具有下列差異：</span><span class="sxs-lookup"><span data-stu-id="243a2-105">Invoking a tRFC in the WCF service model is similar to invoking an RFC with the following differences:</span></span>  
   
--   <span data-ttu-id="cf233-106">[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]呈現 tRFCs 的不同節點下 (TRFC) 比 Rfc 建議 (RFC)。</span><span class="sxs-lookup"><span data-stu-id="cf233-106">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces tRFCs under a different node (TRFC) than RFCs (RFC).</span></span>  
+- <span data-ttu-id="243a2-106">[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]呈現不同的節點 (TRFC) 比 Rfc (RFC) 下的 Trfc。</span><span class="sxs-lookup"><span data-stu-id="243a2-106">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces tRFCs under a different node (TRFC) than RFCs (RFC).</span></span>  
   
--   <span data-ttu-id="cf233-107">tRFC 用戶端呼叫不會傳回 SAP 匯出並變更參數的值。</span><span class="sxs-lookup"><span data-stu-id="cf233-107">tRFC client calls do not return values for SAP export and changing parameters.</span></span>  
+- <span data-ttu-id="243a2-107">tRFC 用戶端呼叫不會傳回 SAP 匯出和變更參數的值。</span><span class="sxs-lookup"><span data-stu-id="243a2-107">tRFC client calls do not return values for SAP export and changing parameters.</span></span>  
   
--   <span data-ttu-id="cf233-108">tRFC 作業包括對應至 SAP 交易識別碼 (TID) 的 GUID 參數的由 tRFC [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="cf233-108">tRFC operations include a GUID parameter that is mapped to the SAP transaction ID (TID) for the tRFC by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].</span></span>  
+- <span data-ttu-id="243a2-108">tRFC 作業包含對應至 SAP 交易識別碼 (TID) 的 GUID 參數的 tRFC 的[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="243a2-108">tRFC operations include a GUID parameter that is mapped to the SAP transaction ID (TID) for the tRFC by the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].</span></span>  
   
--   <span data-ttu-id="cf233-109">您叫用 tRFC 之後，您必須叫用確認 （認可） 上的 SAP 系統 tRFC RfcConfirmTransID 操作。</span><span class="sxs-lookup"><span data-stu-id="cf233-109">After you invoke a tRFC, you must invoke the RfcConfirmTransID operation to confirm (commit) the tRFC on the SAP system.</span></span> <span data-ttu-id="cf233-110">這項作業會直接在 TRFC 節點下顯示。</span><span class="sxs-lookup"><span data-stu-id="cf233-110">This operation is surfaced directly under the TRFC node.</span></span>  
+- <span data-ttu-id="243a2-109">叫用 tRFC 之後，您必須叫用確認 （認可） 上的 SAP 系統 tRFC RfcConfirmTransID 作業。</span><span class="sxs-lookup"><span data-stu-id="243a2-109">After you invoke a tRFC, you must invoke the RfcConfirmTransID operation to confirm (commit) the tRFC on the SAP system.</span></span> <span data-ttu-id="243a2-110">這項作業會直接位於 TRFC 節點下顯示。</span><span class="sxs-lookup"><span data-stu-id="243a2-110">This operation is surfaced directly under the TRFC node.</span></span>  
   
- <span data-ttu-id="cf233-111">如需 tRFC 作業和 RfcConfirmTransID 作業的詳細資訊，請參閱[tRFCs SAP 中的作業](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md)。</span><span class="sxs-lookup"><span data-stu-id="cf233-111">For more information about tRFC operations and the RfcConfirmTransID operation, see [Operations on tRFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md).</span></span>  
+  <span data-ttu-id="243a2-111">如需有關 tRFC 作業和 RfcConfirmTransID 作業的詳細資訊，請參閱[對 sap 的 Trfc 的作業](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md)。</span><span class="sxs-lookup"><span data-stu-id="243a2-111">For more information about tRFC operations and the RfcConfirmTransID operation, see [Operations on tRFCs in SAP](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md).</span></span>  
   
- <span data-ttu-id="cf233-112">下列章節將示範如何使用叫用 SAP 系統上的 tRFCs [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="cf233-112">The following sections show you how to invoke tRFCs on the SAP system by using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].</span></span>  
+  <span data-ttu-id="243a2-112">下列各節會說明如何使用叫用 Trfc SAP 系統上的[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。</span><span class="sxs-lookup"><span data-stu-id="243a2-112">The following sections show you how to invoke tRFCs on the SAP system by using the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)].</span></span>  
   
-## <a name="the-wcf-client-class"></a><span data-ttu-id="cf233-113">WCF 用戶端類別</span><span class="sxs-lookup"><span data-stu-id="cf233-113">The WCF Client Class</span></span>  
- <span data-ttu-id="cf233-114">[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]呈現所有 tRFC 作業的單一服務合約，"Trfc"。</span><span class="sxs-lookup"><span data-stu-id="cf233-114">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces all tRFC operations under a single service contract, "Trfc".</span></span> <span data-ttu-id="cf233-115">這表示單一的 WCF 用戶端類別， **TrfcClient**，建立所有您想要叫用的 tRFC 作業。</span><span class="sxs-lookup"><span data-stu-id="cf233-115">This means that a single WCF client class, **TrfcClient**, is created for all of the tRFC operations that you want to invoke.</span></span> <span data-ttu-id="cf233-116">每個目標 tRFC 被以這個類別的方法。</span><span class="sxs-lookup"><span data-stu-id="cf233-116">Each target tRFC is represented as a method of this class.</span></span> <span data-ttu-id="cf233-117">每個方法：</span><span class="sxs-lookup"><span data-stu-id="cf233-117">For each method:</span></span>  
+## <a name="the-wcf-client-class"></a><span data-ttu-id="243a2-113">WCF 用戶端類別</span><span class="sxs-lookup"><span data-stu-id="243a2-113">The WCF Client Class</span></span>  
+ <span data-ttu-id="243a2-114">[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]呈現所有 tRFC 作業的單一服務合約，而 「 Trfc"。</span><span class="sxs-lookup"><span data-stu-id="243a2-114">The [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] surfaces all tRFC operations under a single service contract, "Trfc".</span></span> <span data-ttu-id="243a2-115">這表示單一的 WCF 用戶端類別， **TrfcClient**，系統會為所有您想要叫用 tRFC 作業。</span><span class="sxs-lookup"><span data-stu-id="243a2-115">This means that a single WCF client class, **TrfcClient**, is created for all of the tRFC operations that you want to invoke.</span></span> <span data-ttu-id="243a2-116">每個目標 tRFC 會表示為這個類別的方法。</span><span class="sxs-lookup"><span data-stu-id="243a2-116">Each target tRFC is represented as a method of this class.</span></span> <span data-ttu-id="243a2-117">針對每個方法：</span><span class="sxs-lookup"><span data-stu-id="243a2-117">For each method:</span></span>  
   
--   <span data-ttu-id="cf233-118">複雜的 SAP 類型，例如結構顯示為.NET 類別有屬性對應至 SAP 類型的欄位。</span><span class="sxs-lookup"><span data-stu-id="cf233-118">Complex SAP types such as structures are surfaced as .NET classes with properties that correspond to the fields of the SAP type.</span></span> <span data-ttu-id="cf233-119">這些類別會定義下列命名空間中： **microsoft.lobservices.sap._2007._03.Types.Rfc**。</span><span class="sxs-lookup"><span data-stu-id="cf233-119">These classes are defined in the following namespace: **microsoft.lobservices.sap._2007._03.Types.Rfc**.</span></span>  
+- <span data-ttu-id="243a2-118">複雜的 SAP 類型，例如結構顯示為.NET 類別，其屬性會對應到 SAP 類型的欄位。</span><span class="sxs-lookup"><span data-stu-id="243a2-118">Complex SAP types such as structures are surfaced as .NET classes with properties that correspond to the fields of the SAP type.</span></span> <span data-ttu-id="243a2-119">這些類別定義在下列命名空間： **microsoft.lobservices.sap._2007._03.Types.Rfc**。</span><span class="sxs-lookup"><span data-stu-id="243a2-119">These classes are defined in the following namespace: **microsoft.lobservices.sap._2007._03.Types.Rfc**.</span></span>  
   
- <span data-ttu-id="cf233-120">下列程式碼顯示部分**TrfcClient**類別和 SAP 系統叫用 BAPI_SALESORDER_CREATEFROMDAT2 （做為 tRFC) 的方法。</span><span class="sxs-lookup"><span data-stu-id="cf233-120">The following code shows part of the **TrfcClient** class and the method that invokes BAPI_SALESORDER_CREATEFROMDAT2 (as a tRFC) on the SAP system.</span></span> <span data-ttu-id="cf233-121">**TransactionalRfcOperationIdentifier**參數會包含對應至 SAP TID 的 GUID。</span><span class="sxs-lookup"><span data-stu-id="cf233-121">The **TransactionalRfcOperationIdentifier** parameter contains the GUID that is mapped to the SAP TID.</span></span> <span data-ttu-id="cf233-122">不是所有方法的參數都會顯示。</span><span class="sxs-lookup"><span data-stu-id="cf233-122">Not all of the parameters to the method are shown.</span></span>  
+  <span data-ttu-id="243a2-120">下列程式碼顯示的部分**TrfcClient**類別和 SAP 系統叫用 （如 tRFC) BAPI_SALESORDER_CREATEFROMDAT2 方法。</span><span class="sxs-lookup"><span data-stu-id="243a2-120">The following code shows part of the **TrfcClient** class and the method that invokes BAPI_SALESORDER_CREATEFROMDAT2 (as a tRFC) on the SAP system.</span></span> <span data-ttu-id="243a2-121">**TransactionalRfcOperationIdentifier**參數會包含對應至 SAP TID 的 GUID。</span><span class="sxs-lookup"><span data-stu-id="243a2-121">The **TransactionalRfcOperationIdentifier** parameter contains the GUID that is mapped to the SAP TID.</span></span> <span data-ttu-id="243a2-122">並非所有方法的參數會顯示。</span><span class="sxs-lookup"><span data-stu-id="243a2-122">Not all of the parameters to the method are shown.</span></span>  
   
 ```  
 [System.Diagnostics.DebuggerStepThroughAttribute()]  
@@ -68,70 +68,70 @@ public partial class TrfcClient : System.ServiceModel.ClientBase<Trfc>, Trfc {
 }  
 ```  
   
- <span data-ttu-id="cf233-123">下列程式碼會示範 RfcConfirmTransID 作業所產生的方法。</span><span class="sxs-lookup"><span data-stu-id="cf233-123">The following code shows the method that is generated for the RfcConfirmTransID operation.</span></span> <span data-ttu-id="cf233-124">您必須確定此方法會產生一部分**TrfcClient**。</span><span class="sxs-lookup"><span data-stu-id="cf233-124">You must ensure that this method is generated as part of the **TrfcClient**.</span></span> <span data-ttu-id="cf233-125">RfcConfirmTransID 作業會直接在 TRFC 節點下顯示。</span><span class="sxs-lookup"><span data-stu-id="cf233-125">The RfcConfirmTransID operation is surfaced directly under the TRFC node.</span></span>  
+ <span data-ttu-id="243a2-123">下列程式碼顯示 RfcConfirmTransID 作業所產生的方法。</span><span class="sxs-lookup"><span data-stu-id="243a2-123">The following code shows the method that is generated for the RfcConfirmTransID operation.</span></span> <span data-ttu-id="243a2-124">您必須確定此方法會產生做為一部分**TrfcClient**。</span><span class="sxs-lookup"><span data-stu-id="243a2-124">You must ensure that this method is generated as part of the **TrfcClient**.</span></span> <span data-ttu-id="243a2-125">RfcConfirmTransID 作業是直接在 TRFC 節點下顯示。</span><span class="sxs-lookup"><span data-stu-id="243a2-125">The RfcConfirmTransID operation is surfaced directly under the TRFC node.</span></span>  
   
 ```  
 public void RfcConfirmTransID(System.Guid TransactionalRfcOperationIdentifier) {…}  
 ```  
   
-## <a name="how-to-create-a-trfc-client-application"></a><span data-ttu-id="cf233-126">如何建立 tRFC 用戶端應用程式</span><span class="sxs-lookup"><span data-stu-id="cf233-126">How to Create a tRFC Client Application</span></span>  
- <span data-ttu-id="cf233-127">建立會叫用 tRFCs 的應用程式的步驟如下的步驟類似您遵循下列的例外狀況以叫用 Rfc，：</span><span class="sxs-lookup"><span data-stu-id="cf233-127">The steps to create an application that invokes tRFCs are similar to the steps you follow to invoke RFCs, with the following exceptions:</span></span>  
+## <a name="how-to-create-a-trfc-client-application"></a><span data-ttu-id="243a2-126">如何建立 tRFC 用戶端應用程式</span><span class="sxs-lookup"><span data-stu-id="243a2-126">How to Create a tRFC Client Application</span></span>  
+ <span data-ttu-id="243a2-127">建立會叫用 Trfc 的應用程式的步驟很類似的步驟您要以下列例外狀況叫用 Rfc，請遵循：</span><span class="sxs-lookup"><span data-stu-id="243a2-127">The steps to create an application that invokes tRFCs are similar to the steps you follow to invoke RFCs, with the following exceptions:</span></span>  
   
--   <span data-ttu-id="cf233-128">您必須擷取 TRFC 節點下的目標作業。</span><span class="sxs-lookup"><span data-stu-id="cf233-128">You must retrieve the target operations under the TRFC node.</span></span>  
+-   <span data-ttu-id="243a2-128">您必須擷取 TRFC 節點下的目標作業。</span><span class="sxs-lookup"><span data-stu-id="243a2-128">You must retrieve the target operations under the TRFC node.</span></span>  
   
--   <span data-ttu-id="cf233-129">您必須擷取 RfcConfirmTransID 作業。</span><span class="sxs-lookup"><span data-stu-id="cf233-129">You must retrieve the RfcConfirmTransID operation.</span></span> <span data-ttu-id="cf233-130">這會顯示一個 TRFC 節點正下方。</span><span class="sxs-lookup"><span data-stu-id="cf233-130">This is surfaced directly under the TRFC node.</span></span>  
+-   <span data-ttu-id="243a2-129">您必須擷取 RfcConfirmTransID 作業。</span><span class="sxs-lookup"><span data-stu-id="243a2-129">You must retrieve the RfcConfirmTransID operation.</span></span> <span data-ttu-id="243a2-130">這會顯示正下方的 TRFC 節點。</span><span class="sxs-lookup"><span data-stu-id="243a2-130">This is surfaced directly under the TRFC node.</span></span>  
   
--   <span data-ttu-id="cf233-131">若要確認 （認可） 上的 SAP 系統的 tRFC 作業，您必須叫用該 tRFC 作業傳回的 GUID RfcConfirmTransID 操作。</span><span class="sxs-lookup"><span data-stu-id="cf233-131">To confirm (commit) a tRFC operation on the SAP system, you must invoke the RfcConfirmTransID operation with the GUID that was returned for that tRFC operation.</span></span>  
+-   <span data-ttu-id="243a2-131">若要確認 （認可） 上的 SAP 系統的 tRFC 作業，您必須叫用該 RfcConfirmTransID 」 作業，並傳回該 tRFC 作業的 GUID。</span><span class="sxs-lookup"><span data-stu-id="243a2-131">To confirm (commit) a tRFC operation on the SAP system, you must invoke the RfcConfirmTransID operation with the GUID that was returned for that tRFC operation.</span></span>  
   
-#### <a name="to-create-a-trfc-client-application"></a><span data-ttu-id="cf233-132">若要建立一個 tRFC 用戶端應用程式</span><span class="sxs-lookup"><span data-stu-id="cf233-132">To create a tRFC client application</span></span>  
+#### <a name="to-create-a-trfc-client-application"></a><span data-ttu-id="243a2-132">若要建立的 tRFC 用戶端應用程式</span><span class="sxs-lookup"><span data-stu-id="243a2-132">To create a tRFC client application</span></span>  
   
-1.  <span data-ttu-id="cf233-133">產生**TrfcClient**類別。</span><span class="sxs-lookup"><span data-stu-id="cf233-133">Generate a **TrfcClient** class.</span></span> <span data-ttu-id="cf233-134">使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]或 ServiceModel Metadata Utility Tool (svcutil.exe) 來產生**TrfcClient**為目標的 Rfc，您要使用的類別。</span><span class="sxs-lookup"><span data-stu-id="cf233-134">Use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a **TrfcClient** class that targets the RFCs with which you want to work.</span></span> <span data-ttu-id="cf233-135">如需如何產生 WCF 用戶端的詳細資訊，請參閱[產生 WCF 用戶端或 WCF 服務合約為 SAP 方案成品](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md)。</span><span class="sxs-lookup"><span data-stu-id="cf233-135">For more information about how to generate a WCF client, see [Generate a WCF Client or a WCF Service Contract for SAP solution Artifacts](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md).</span></span> <span data-ttu-id="cf233-136">請確定 RfcConfirmTransID 作業是否包含在**TrfcClient**類別。</span><span class="sxs-lookup"><span data-stu-id="cf233-136">Ensure that the RfcConfirmTransID operation is included in the **TrfcClient** class.</span></span>  
+1. <span data-ttu-id="243a2-133">產生**TrfcClient**類別。</span><span class="sxs-lookup"><span data-stu-id="243a2-133">Generate a **TrfcClient** class.</span></span> <span data-ttu-id="243a2-134">使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]或 ServiceModel Metadata Utility Tool (svcutil.exe) 來產生**TrfcClient**為目標的 Rfc，您想要使用的類別。</span><span class="sxs-lookup"><span data-stu-id="243a2-134">Use the [!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)] or the ServiceModel Metadata Utility Tool (svcutil.exe) to generate a **TrfcClient** class that targets the RFCs with which you want to work.</span></span> <span data-ttu-id="243a2-135">如需如何產生 WCF 用戶端的詳細資訊，請參閱[產生 WCF 用戶端或 SAP 解決方案成品的 WCF 服務合約](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md)。</span><span class="sxs-lookup"><span data-stu-id="243a2-135">For more information about how to generate a WCF client, see [Generate a WCF Client or a WCF Service Contract for SAP solution Artifacts](../../adapters-and-accelerators/adapter-sap/generate-a-wcf-client-or-a-wcf-service-contract-for-sap-solution-artifacts.md).</span></span> <span data-ttu-id="243a2-136">請確定 RfcConfirmTransID 作業，會包含在**TrfcClient**類別。</span><span class="sxs-lookup"><span data-stu-id="243a2-136">Ensure that the RfcConfirmTransID operation is included in the **TrfcClient** class.</span></span>  
   
-2.  <span data-ttu-id="cf233-137">建立的執行個體**TrfcClient**步驟 1 中所產生類別，並指定用戶端繫結。</span><span class="sxs-lookup"><span data-stu-id="cf233-137">Create an instance of the **TrfcClient** class generated in step 1 and specify a client binding.</span></span> <span data-ttu-id="cf233-138">指定用戶端繫結牽涉到指定的繫結和端點位址， **TrfcClient**將會使用。</span><span class="sxs-lookup"><span data-stu-id="cf233-138">Specifying a client binding involves specifying the binding and endpoint address that the **TrfcClient** will use.</span></span> <span data-ttu-id="cf233-139">您可以在程式碼中以命令方式或是宣告式組態。</span><span class="sxs-lookup"><span data-stu-id="cf233-139">You can do this either imperatively in code or declaratively in configuration.</span></span> <span data-ttu-id="cf233-140">如需如何指定用戶端繫結的詳細資訊，請參閱[SAP 系統設定用戶端繫結](../../adapters-and-accelerators/adapter-sap/configure-a-client-binding-for-the-sap-system.md)。</span><span class="sxs-lookup"><span data-stu-id="cf233-140">For more information about how to specify a client binding, see [Configure a Client Binding for the SAP System](../../adapters-and-accelerators/adapter-sap/configure-a-client-binding-for-the-sap-system.md).</span></span> <span data-ttu-id="cf233-141">下列程式碼會初始化**TrfcClient**來自組態和集合 SAP 系統的認證。</span><span class="sxs-lookup"><span data-stu-id="cf233-141">The following code initializes the **TrfcClient** from configuration and sets the credentials for the SAP system.</span></span>  
+2. <span data-ttu-id="243a2-137">建立的執行個體**TrfcClient**步驟 1 中所產生類別，並指定用戶端繫結。</span><span class="sxs-lookup"><span data-stu-id="243a2-137">Create an instance of the **TrfcClient** class generated in step 1 and specify a client binding.</span></span> <span data-ttu-id="243a2-138">指定用戶端繫結牽涉到指定的繫結和端點位址**TrfcClient**會使用。</span><span class="sxs-lookup"><span data-stu-id="243a2-138">Specifying a client binding involves specifying the binding and endpoint address that the **TrfcClient** will use.</span></span> <span data-ttu-id="243a2-139">以命令方式在程式碼或是宣告式組態中，您可以這麼做。</span><span class="sxs-lookup"><span data-stu-id="243a2-139">You can do this either imperatively in code or declaratively in configuration.</span></span> <span data-ttu-id="243a2-140">如需如何指定用戶端繫結的詳細資訊，請參閱[SAP 系統的設定用戶端繫結](../../adapters-and-accelerators/adapter-sap/configure-a-client-binding-for-the-sap-system.md)。</span><span class="sxs-lookup"><span data-stu-id="243a2-140">For more information about how to specify a client binding, see [Configure a Client Binding for the SAP System](../../adapters-and-accelerators/adapter-sap/configure-a-client-binding-for-the-sap-system.md).</span></span> <span data-ttu-id="243a2-141">下列程式碼會初始化**TrfcClient**組態和設定 SAP 系統的認證。</span><span class="sxs-lookup"><span data-stu-id="243a2-141">The following code initializes the **TrfcClient** from configuration and sets the credentials for the SAP system.</span></span>  
   
-    ```  
-    TrfcClient trfcClient = new TrfcClient("SAPBinding_Rfc");  
+   ```  
+   TrfcClient trfcClient = new TrfcClient("SAPBinding_Rfc");  
   
-    trfcClient.ClientCredentials.UserName.UserName = "YourUserName";  
-    trfcClient.ClientCredentials.UserName.Password = "YourPassword";  
-    ```  
+   trfcClient.ClientCredentials.UserName.UserName = "YourUserName";  
+   trfcClient.ClientCredentials.UserName.Password = "YourPassword";  
+   ```  
   
-3.  <span data-ttu-id="cf233-142">開啟**TrfcClient**。</span><span class="sxs-lookup"><span data-stu-id="cf233-142">Open the **TrfcClient**.</span></span>  
+3. <span data-ttu-id="243a2-142">開啟**TrfcClient**。</span><span class="sxs-lookup"><span data-stu-id="243a2-142">Open the **TrfcClient**.</span></span>  
   
-    ```  
-    trfcClient.Open();  
-    ```  
+   ```  
+   trfcClient.Open();  
+   ```  
   
-4.  <span data-ttu-id="cf233-143">在上叫用適當的方法**TrfcClient**在步驟 2 來叫用目標 tRFC SAP 系統上的建立。</span><span class="sxs-lookup"><span data-stu-id="cf233-143">Invoke the appropriate method on the **TrfcClient** created in step 2 to invoke the target tRFC on the SAP system.</span></span> <span data-ttu-id="cf233-144">您可以將傳遞的變數，其中包含一個 GUID，或包含空的 GUID **TransactionalRrcOperationIdentifier**參數。</span><span class="sxs-lookup"><span data-stu-id="cf233-144">You can pass a variable that contains a GUID or that contains an empty GUID for the **TransactionalRrcOperationIdentifier** parameter.</span></span> <span data-ttu-id="cf233-145">如果您要傳入空的 GUID，[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]會為您產生一個。</span><span class="sxs-lookup"><span data-stu-id="cf233-145">If you pass an empty GUID, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] generates one for you.</span></span> <span data-ttu-id="cf233-146">下列程式碼中，會叫用 BAPI_SALESORDER_CREATEFROMDAT2 為 tRFC （顯示並非所有方法的參數） 的 SAP 系統上。</span><span class="sxs-lookup"><span data-stu-id="cf233-146">The following code invokes BAPI_SALESORDER_CREATEFROMDAT2 as a tRFC on the SAP system (not all parameters to the method are shown).</span></span> <span data-ttu-id="cf233-147">指定的 GUID。</span><span class="sxs-lookup"><span data-stu-id="cf233-147">A GUID is specified.</span></span>  
+4. <span data-ttu-id="243a2-143">在上叫用適當的方法**TrfcClient**在步驟 2 來叫用目標 tRFC，SAP 系統上的建立。</span><span class="sxs-lookup"><span data-stu-id="243a2-143">Invoke the appropriate method on the **TrfcClient** created in step 2 to invoke the target tRFC on the SAP system.</span></span> <span data-ttu-id="243a2-144">您可以將傳遞的變數，其中包含的 GUID，或者包含空的 GUID **TransactionalRrcOperationIdentifier**參數。</span><span class="sxs-lookup"><span data-stu-id="243a2-144">You can pass a variable that contains a GUID or that contains an empty GUID for the **TransactionalRrcOperationIdentifier** parameter.</span></span> <span data-ttu-id="243a2-145">如果您傳遞空的 GUID，[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]會為您產生一個。</span><span class="sxs-lookup"><span data-stu-id="243a2-145">If you pass an empty GUID, the [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] generates one for you.</span></span> <span data-ttu-id="243a2-146">下列程式碼中，會叫用 BAPI_SALESORDER_CREATEFROMDAT2 為 SAP 系統 （並非所有方法的參數會顯示） 上的 tRFC。</span><span class="sxs-lookup"><span data-stu-id="243a2-146">The following code invokes BAPI_SALESORDER_CREATEFROMDAT2 as a tRFC on the SAP system (not all parameters to the method are shown).</span></span> <span data-ttu-id="243a2-147">指定 GUID。</span><span class="sxs-lookup"><span data-stu-id="243a2-147">A GUID is specified.</span></span>  
   
-    ```  
-    transactionalRfcOperationIdentifier = Guid.NewGuid();  
+   ```  
+   transactionalRfcOperationIdentifier = Guid.NewGuid();  
   
-    //invoke RFC_CUSTOMER_GET as a tRFC  
-    trfcClient.BAPI_SALESORDER_CREATEFROMDAT2(  
-                                    request.BEHAVE_WHEN_ERROR,  
-                                    request.BINARY_RELATIONSHIPTYPE,  
-                                    request.CONVERT,  
+   //invoke RFC_CUSTOMER_GET as a tRFC  
+   trfcClient.BAPI_SALESORDER_CREATEFROMDAT2(  
+                                   request.BEHAVE_WHEN_ERROR,  
+                                   request.BINARY_RELATIONSHIPTYPE,  
+                                   request.CONVERT,  
   
-                                    ...  
+                                   ...  
   
-                                    ref transactionalRfcOperationIdentifier);  
-    ```  
+                                   ref transactionalRfcOperationIdentifier);  
+   ```  
   
-5.  <span data-ttu-id="cf233-148">若要確認 TID 與 SAP 系統上 tRFC 相關聯，叫用**RfcConfirmTransID**方法**TrfcClient**。</span><span class="sxs-lookup"><span data-stu-id="cf233-148">To confirm the TID associated with the tRFC on the SAP system, invoke the **RfcConfirmTransID** method on the **TrfcClient**.</span></span> <span data-ttu-id="cf233-149">指定步驟 4 中傳回 GUID **TransactionRfcOperationIdentifier**參數。</span><span class="sxs-lookup"><span data-stu-id="cf233-149">Specify the GUID returned in step 4 for the **TransactionRfcOperationIdentifier**parameter.</span></span>  
+5. <span data-ttu-id="243a2-148">若要確認 TID 與 SAP 系統上 tRFC 相關聯，請叫用**RfcConfirmTransID**方法**TrfcClient**。</span><span class="sxs-lookup"><span data-stu-id="243a2-148">To confirm the TID associated with the tRFC on the SAP system, invoke the **RfcConfirmTransID** method on the **TrfcClient**.</span></span> <span data-ttu-id="243a2-149">指定在步驟 4 中傳回的 GUID **TransactionRfcOperationIdentifier**參數。</span><span class="sxs-lookup"><span data-stu-id="243a2-149">Specify the GUID returned in step 4 for the **TransactionRfcOperationIdentifier**parameter.</span></span>  
   
-    ```  
-    trfcClient.RfcConfirmTransID(transactionalRfcOperationIdentifier);  
-    ```  
+   ```  
+   trfcClient.RfcConfirmTransID(transactionalRfcOperationIdentifier);  
+   ```  
   
-6.  <span data-ttu-id="cf233-150">關閉**TrfcClient**完成時 （您完成後，叫用所有 tRFCs） 使用它。</span><span class="sxs-lookup"><span data-stu-id="cf233-150">Close the **TrfcClient** when you are done using it (after you have finished invoking all tRFCs).</span></span>  
+6. <span data-ttu-id="243a2-150">關閉**TrfcClient**完成時 （在您完成所有的 Trfc 的叫用時） 之後，請使用它。</span><span class="sxs-lookup"><span data-stu-id="243a2-150">Close the **TrfcClient** when you are done using it (after you have finished invoking all tRFCs).</span></span>  
   
-    ```  
-    trfcClient.Close();   
-    ```  
+   ```  
+   trfcClient.Close();   
+   ```  
   
-### <a name="example"></a><span data-ttu-id="cf233-151">範例</span><span class="sxs-lookup"><span data-stu-id="cf233-151">Example</span></span>  
- <span data-ttu-id="cf233-152">下列範例會示範如何叫用為 tRFC BAPI_SALESORDER_CREATE。</span><span class="sxs-lookup"><span data-stu-id="cf233-152">The following example shows how to invoke BAPI_SALESORDER_CREATE as a tRFC.</span></span>  
+### <a name="example"></a><span data-ttu-id="243a2-151">範例</span><span class="sxs-lookup"><span data-stu-id="243a2-151">Example</span></span>  
+ <span data-ttu-id="243a2-152">下列範例示範如何叫用 tRFC 為 BAPI_SALESORDER_CREATE。</span><span class="sxs-lookup"><span data-stu-id="243a2-152">The following example shows how to invoke BAPI_SALESORDER_CREATE as a tRFC.</span></span>  
   
 ```  
 using System;  
@@ -304,6 +304,6 @@ namespace SapTrfcClientSM
 }  
 ```  
   
-## <a name="see-also"></a><span data-ttu-id="cf233-153">另請參閱</span><span class="sxs-lookup"><span data-stu-id="cf233-153">See Also</span></span>  
-<span data-ttu-id="cf233-154">[開發應用程式使用 WCF 服務模型](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-service-model.md) </span><span class="sxs-lookup"><span data-stu-id="cf233-154">[Develop applications using the WCF Service Model](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-service-model.md) </span></span>  
- [<span data-ttu-id="cf233-155">TRFCs SAP 中的作業</span><span class="sxs-lookup"><span data-stu-id="cf233-155">Operations on tRFCs in SAP</span></span>](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md)
+## <a name="see-also"></a><span data-ttu-id="243a2-153">另請參閱</span><span class="sxs-lookup"><span data-stu-id="243a2-153">See Also</span></span>  
+<span data-ttu-id="243a2-154">[使用 WCF 服務模型開發應用程式](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-service-model.md) </span><span class="sxs-lookup"><span data-stu-id="243a2-154">[Develop applications using the WCF Service Model](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-service-model.md) </span></span>  
+ [<span data-ttu-id="243a2-155">對 sap 的 Trfc 的作業</span><span class="sxs-lookup"><span data-stu-id="243a2-155">Operations on tRFCs in SAP</span></span>](../../adapters-and-accelerators/adapter-sap/operations-on-trfcs-in-sap.md)
