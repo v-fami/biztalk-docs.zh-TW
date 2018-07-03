@@ -1,5 +1,5 @@
 ---
-title: BizTalk Server 使用的憑證加密的訊息 |Microsoft 文件
+title: BizTalk Server 所使用的憑證加密的訊息 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,51 +16,51 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7f2dbd51506da7b505f66b3001b8bdc6fa0a58ac
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 5e5ead0a3ba839106e94eb40a82d7968e5545273
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25966364"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36986559"
 ---
-# <a name="certificates-that-biztalk-server-uses-for-encrypted-messages"></a><span data-ttu-id="875fb-102">BizTalk Server 會使用加密訊息的憑證</span><span class="sxs-lookup"><span data-stu-id="875fb-102">Certificates that BizTalk Server Uses for Encrypted Messages</span></span>
-[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="875fb-103"> 以「安全多用途網際網路郵件延伸」(Secure Multipurpose Internet Mail Extension，S/MIME) 為基礎，支援輸出訊息的公開金鑰加密以及輸入訊息的解密。</span><span class="sxs-lookup"><span data-stu-id="875fb-103"> supports public key encryption of outbound messages and decryption of inbound messages based on Secure Multipurpose Internet Mail Extensions (S/MIME).</span></span> <span data-ttu-id="875fb-104">BizTalk Server 在輸出訊息加密中使用 S/MIME 第 3 版，而在輸入訊息解密方面使用 S/MIME 第 2 和 3 版。</span><span class="sxs-lookup"><span data-stu-id="875fb-104">BizTalk Server uses S/MIME version 3 for encryption of outbound messages, and S/MIME versions 2 and 3 for decryption of inbound messages.</span></span>  
+# <a name="certificates-that-biztalk-server-uses-for-encrypted-messages"></a><span data-ttu-id="d6bbf-102">BizTalk Server 用於加密訊息的憑證</span><span class="sxs-lookup"><span data-stu-id="d6bbf-102">Certificates that BizTalk Server Uses for Encrypted Messages</span></span>
+[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="d6bbf-103"> 以「安全多用途網際網路郵件延伸」(Secure Multipurpose Internet Mail Extension，S/MIME) 為基礎，支援輸出訊息的公開金鑰加密以及輸入訊息的解密。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-103"> supports public key encryption of outbound messages and decryption of inbound messages based on Secure Multipurpose Internet Mail Extensions (S/MIME).</span></span> <span data-ttu-id="d6bbf-104">BizTalk Server 在輸出訊息加密中使用 S/MIME 第 3 版，而在輸入訊息解密方面使用 S/MIME 第 2 和 3 版。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-104">BizTalk Server uses S/MIME version 3 for encryption of outbound messages, and S/MIME versions 2 and 3 for decryption of inbound messages.</span></span>  
   
--   <span data-ttu-id="875fb-105">BizTalk Server 支援 RSA 和 Diffie Hellman 加密憑證。</span><span class="sxs-lookup"><span data-stu-id="875fb-105">BizTalk Server supports RSA and Diffie Hellman encryption certificates.</span></span>  
+- <span data-ttu-id="d6bbf-105">BizTalk Server 支援 RSA 和 Diffie Hellman 加密憑證。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-105">BizTalk Server supports RSA and Diffie Hellman encryption certificates.</span></span>  
   
--   <span data-ttu-id="875fb-106">BizTalk Server 支援「資料加密標準」(Data Encryption Standard，DES)、3DES 和 RC2 加密演算法。</span><span class="sxs-lookup"><span data-stu-id="875fb-106">BizTalk Server supports Data Encryption Standard (DES), 3DES, and RC2 encryption algorithms.</span></span>  
+- <span data-ttu-id="d6bbf-106">BizTalk Server 支援「資料加密標準」(Data Encryption Standard，DES)、3DES 和 RC2 加密演算法。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-106">BizTalk Server supports Data Encryption Standard (DES), 3DES, and RC2 encryption algorithms.</span></span>  
   
- <span data-ttu-id="875fb-107">下圖顯示 BizTalk Server 接收加密訊息時的訊息流程。</span><span class="sxs-lookup"><span data-stu-id="875fb-107">The following figure shows the message flow when BizTalk Server receives an encrypted message.</span></span>  
+  <span data-ttu-id="d6bbf-107">下圖顯示 BizTalk Server 接收加密訊息時的訊息流程。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-107">The following figure shows the message flow when BizTalk Server receives an encrypted message.</span></span>  
   
- <span data-ttu-id="875fb-108">![當接收加密的訊息時，訊息流程](../core/media/bpi-sp-msgsec-inboundencryption.gif "BPI_SP_MSGSEC_InboundEncryption")</span><span class="sxs-lookup"><span data-stu-id="875fb-108">![Message flow when receiving an encrypted message](../core/media/bpi-sp-msgsec-inboundencryption.gif "BPI_SP_MSGSEC_InboundEncryption")</span></span>  
+  <span data-ttu-id="d6bbf-108">![當接收加密的訊息時，訊息流程](../core/media/bpi-sp-msgsec-inboundencryption.gif "BPI_SP_MSGSEC_InboundEncryption")</span><span class="sxs-lookup"><span data-stu-id="d6bbf-108">![Message flow when receiving an encrypted message](../core/media/bpi-sp-msgsec-inboundencryption.gif "BPI_SP_MSGSEC_InboundEncryption")</span></span>  
   
- <span data-ttu-id="875fb-109">BizTalk Server 接收加密訊息時的訊息流程如下：</span><span class="sxs-lookup"><span data-stu-id="875fb-109">The message flow when BizTalk Server receives an encrypted message is as follows:</span></span>  
+  <span data-ttu-id="d6bbf-109">BizTalk Server 接收加密訊息時的訊息流程如下：</span><span class="sxs-lookup"><span data-stu-id="d6bbf-109">The message flow when BizTalk Server receives an encrypted message is as follows:</span></span>  
   
-1.  <span data-ttu-id="875fb-110">夥伴傳送訊息給 BizTalk Server。</span><span class="sxs-lookup"><span data-stu-id="875fb-110">A partner sends a message to BizTalk Server.</span></span> <span data-ttu-id="875fb-111">夥伴使用 BizTalk Server 公開金鑰來加密訊息。</span><span class="sxs-lookup"><span data-stu-id="875fb-111">The partner encrypts the message with the BizTalk Server public key.</span></span>  
+1. <span data-ttu-id="d6bbf-110">夥伴傳送訊息給 BizTalk Server。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-110">A partner sends a message to BizTalk Server.</span></span> <span data-ttu-id="d6bbf-111">夥伴使用 BizTalk Server 公開金鑰來加密訊息。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-111">The partner encrypts the message with the BizTalk Server public key.</span></span>  
   
-2.  <span data-ttu-id="875fb-112">適當的 BizTalk Server 接收處理常式會接收訊息。</span><span class="sxs-lookup"><span data-stu-id="875fb-112">The appropriate BizTalk Server receive handler receives the message.</span></span>  
+2. <span data-ttu-id="d6bbf-112">適當的 BizTalk Server 接收處理常式會接收訊息。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-112">The appropriate BizTalk Server receive handler receives the message.</span></span>  
   
-3.  <span data-ttu-id="875fb-113">在接收管線執行期間，MIME/SMIME 解碼器管線元件會使用 BizTalk Server 私密金鑰來解密訊息。</span><span class="sxs-lookup"><span data-stu-id="875fb-113">During the receive pipeline execution, the MIME/SMIME Decoder pipeline component decrypts the message by using the BizTalk Server private key.</span></span>  
+3. <span data-ttu-id="d6bbf-113">在接收管線執行期間，MIME/SMIME 解碼器管線元件會使用 BizTalk Server 私密金鑰來解密訊息。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-113">During the receive pipeline execution, the MIME/SMIME Decoder pipeline component decrypts the message by using the BizTalk Server private key.</span></span>  
   
-    > [!NOTE]
-    >  <span data-ttu-id="875fb-114">IIS 7.0 電腦上成功解密管線，請對 IIS 應用程式集區帳戶和相關聯的接收處理常式的主控件執行個體所使用的帳戶都相同，而且此帳戶的成員\<machineName\>\IIS_WPG 群組。</span><span class="sxs-lookup"><span data-stu-id="875fb-114">For pipeline decryption to succeed on an IIS 7.0 computer, ensure that the account for the IIS application pool and the account used by the host instance associated with the receive handler are the same and that this account is a member of the \<machineName\>\IIS_WPG group.</span></span> <span data-ttu-id="875fb-115">如需有關設定 IIS 處理序識別，如 IIS 7.0，請參閱的[解決 IIS 權限問題的指導方針](../core/guidelines-for-resolving-iis-permissions-problems.md)。</span><span class="sxs-lookup"><span data-stu-id="875fb-115">For more information on setting IIS process identity for IIS 7.0 see [Guidelines for Resolving IIS Permissions Problems](../core/guidelines-for-resolving-iis-permissions-problems.md).</span></span> <span data-ttu-id="875fb-116">這些處理序必須在相同的帳戶下執行，以確保可載入帳戶設定檔，而這樣會載入在管線中執行解密所需的登錄機碼。</span><span class="sxs-lookup"><span data-stu-id="875fb-116">These processes must run under the same account to ensure that the account profile is loaded which in turns loads the registry keys required to perform decryption in the pipeline.</span></span> <span data-ttu-id="875fb-117">基於效能考量，IIS 7.0 時並未載入帳戶設定檔啟動關聯的 w3wp.exe 處理序，因此必須使用相同的帳戶設定 BizTalk 主控件執行個體，以便讓 BizTalk 載入帳戶設定檔和登錄機碼。</span><span class="sxs-lookup"><span data-stu-id="875fb-117">For performance reasons, IIS 7.0 does not load the account profile when starting the associated w3wp.exe process so the BizTalk host instance must be configured with the same account so that BizTalk will load the account profile and registry keys.</span></span>  
+   > [!NOTE]
+   >  <span data-ttu-id="d6bbf-114">若要在 IIS 7.0 電腦上成功解密管線，請確定 IIS 應用程式集區的帳戶和相關聯的接收處理常式的主控件執行個體所使用的帳戶都相同，而且此帳戶的成員\<machineName\>\IIS_WPG 群組。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-114">For pipeline decryption to succeed on an IIS 7.0 computer, ensure that the account for the IIS application pool and the account used by the host instance associated with the receive handler are the same and that this account is a member of the \<machineName\>\IIS_WPG group.</span></span> <span data-ttu-id="d6bbf-115">如需有關設定 IIS 處理序，請參閱 IIS 7.0 的身分識別[解決 IIS 權限問題的指導方針](../core/guidelines-for-resolving-iis-permissions-problems.md)。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-115">For more information on setting IIS process identity for IIS 7.0 see [Guidelines for Resolving IIS Permissions Problems](../core/guidelines-for-resolving-iis-permissions-problems.md).</span></span> <span data-ttu-id="d6bbf-116">這些處理序必須在相同的帳戶下執行，以確保可載入帳戶設定檔，而這樣會載入在管線中執行解密所需的登錄機碼。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-116">These processes must run under the same account to ensure that the account profile is loaded which in turns loads the registry keys required to perform decryption in the pipeline.</span></span> <span data-ttu-id="d6bbf-117">基於效能考量，IIS 7.0 時無法載入帳戶設定檔啟動關聯的 w3wp.exe 處理序，因此必須使用相同的帳戶設定 BizTalk 主控件執行個體，以便讓 BizTalk 載入帳戶設定檔和登錄機碼。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-117">For performance reasons, IIS 7.0 does not load the account profile when starting the associated w3wp.exe process so the BizTalk host instance must be configured with the same account so that BizTalk will load the account profile and registry keys.</span></span>  
   
-4.  <span data-ttu-id="875fb-118">進行其他處理。</span><span class="sxs-lookup"><span data-stu-id="875fb-118">Additional processing occurs.</span></span>  
+4. <span data-ttu-id="d6bbf-118">進行其他處理。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-118">Additional processing occurs.</span></span>  
   
- <span data-ttu-id="875fb-119">下圖顯示 BizTalk Server 傳送加密訊息時的訊息流程。</span><span class="sxs-lookup"><span data-stu-id="875fb-119">The following figure shows the message flow when BizTalk Server sends an encrypted message.</span></span>  
+   <span data-ttu-id="d6bbf-119">下圖顯示 BizTalk Server 傳送加密訊息時的訊息流程。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-119">The following figure shows the message flow when BizTalk Server sends an encrypted message.</span></span>  
   
- <span data-ttu-id="875fb-120">![傳送加密的訊息時，訊息流程](../core/media/bpi-sp-msgsec-outboundencryption.gif "BPI_SP_MSGSEC_OutboundEncryption")</span><span class="sxs-lookup"><span data-stu-id="875fb-120">![Message flow when sending an encrypted message](../core/media/bpi-sp-msgsec-outboundencryption.gif "BPI_SP_MSGSEC_OutboundEncryption")</span></span>  
+   <span data-ttu-id="d6bbf-120">![傳送加密的訊息時，訊息流程](../core/media/bpi-sp-msgsec-outboundencryption.gif "BPI_SP_MSGSEC_OutboundEncryption")</span><span class="sxs-lookup"><span data-stu-id="d6bbf-120">![Message flow when sending an encrypted message](../core/media/bpi-sp-msgsec-outboundencryption.gif "BPI_SP_MSGSEC_OutboundEncryption")</span></span>  
   
- <span data-ttu-id="875fb-121">BizTalk Server 傳送加密訊息給夥伴的訊息流程如下：</span><span class="sxs-lookup"><span data-stu-id="875fb-121">The message flow when BizTalk Server sends an encrypted message to a partner is as follows:</span></span>  
+   <span data-ttu-id="d6bbf-121">BizTalk Server 傳送加密訊息給夥伴的訊息流程如下：</span><span class="sxs-lookup"><span data-stu-id="d6bbf-121">The message flow when BizTalk Server sends an encrypted message to a partner is as follows:</span></span>  
   
-1.  <span data-ttu-id="875fb-122">適當的 BizTalk Server 傳送處理常式將訊息傳送給夥伴。</span><span class="sxs-lookup"><span data-stu-id="875fb-122">The appropriate BizTalk Server send handler sends a message to the partner.</span></span>  
+5. <span data-ttu-id="d6bbf-122">適當的 BizTalk Server 傳送處理常式將訊息傳送給夥伴。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-122">The appropriate BizTalk Server send handler sends a message to the partner.</span></span>  
   
-2.  <span data-ttu-id="875fb-123">在傳送管線執行期間，MIME/SMIME 編碼器管線元件會使用夥伴的公開金鑰來加密訊息。</span><span class="sxs-lookup"><span data-stu-id="875fb-123">During the send pipeline execution, the MIME/SMIME Encoder pipeline component encrypts the message by using the partner's public key.</span></span>  
+6. <span data-ttu-id="d6bbf-123">在傳送管線執行期間，MIME/SMIME 編碼器管線元件會使用夥伴的公開金鑰來加密訊息。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-123">During the send pipeline execution, the MIME/SMIME Encoder pipeline component encrypts the message by using the partner's public key.</span></span>  
   
-3.  <span data-ttu-id="875fb-124">夥伴從 BizTalk Server 接收訊息。</span><span class="sxs-lookup"><span data-stu-id="875fb-124">The partner receives the message from BizTalk Server.</span></span> <span data-ttu-id="875fb-125">夥伴使用自己的私密金鑰來解密訊息。</span><span class="sxs-lookup"><span data-stu-id="875fb-125">The partner uses its private key to decrypt the message.</span></span>  
+7. <span data-ttu-id="d6bbf-124">夥伴從 BizTalk Server 接收訊息。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-124">The partner receives the message from BizTalk Server.</span></span> <span data-ttu-id="d6bbf-125">夥伴使用自己的私密金鑰來解密訊息。</span><span class="sxs-lookup"><span data-stu-id="d6bbf-125">The partner uses its private key to decrypt the message.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="875fb-126">請參閱</span><span class="sxs-lookup"><span data-stu-id="875fb-126">See Also</span></span>  
- <span data-ttu-id="875fb-127">[BizTalk Server 用於簽章訊息的憑證](../core/certificates-that-biztalk-server-uses-for-signed-messages.md) </span><span class="sxs-lookup"><span data-stu-id="875fb-127">[Certificates that BizTalk Server Uses for Signed Messages](../core/certificates-that-biztalk-server-uses-for-signed-messages.md) </span></span>  
- <span data-ttu-id="875fb-128">[BizTalk Server 使用的憑證存放區](../core/certificate-stores-that-biztalk-server-uses.md) </span><span class="sxs-lookup"><span data-stu-id="875fb-128">[Certificate Stores that BizTalk Server Uses](../core/certificate-stores-that-biztalk-server-uses.md) </span></span>  
- <span data-ttu-id="875fb-129">[加密和簽章憑證](../core/encryption-and-signing-certificates.md) </span><span class="sxs-lookup"><span data-stu-id="875fb-129">[Encryption and Signing Certificates](../core/encryption-and-signing-certificates.md) </span></span>  
- [<span data-ttu-id="875fb-130">傳送和接收加密訊息</span><span class="sxs-lookup"><span data-stu-id="875fb-130">Sending and Receiving Encrypted Messages</span></span>](../core/sending-and-receiving-encrypted-messages.md)
+## <a name="see-also"></a><span data-ttu-id="d6bbf-126">另請參閱</span><span class="sxs-lookup"><span data-stu-id="d6bbf-126">See Also</span></span>  
+ <span data-ttu-id="d6bbf-127">[BizTalk Server 用於簽章訊息的憑證](../core/certificates-that-biztalk-server-uses-for-signed-messages.md) </span><span class="sxs-lookup"><span data-stu-id="d6bbf-127">[Certificates that BizTalk Server Uses for Signed Messages](../core/certificates-that-biztalk-server-uses-for-signed-messages.md) </span></span>  
+ <span data-ttu-id="d6bbf-128">[BizTalk Server 使用的憑證存放區](../core/certificate-stores-that-biztalk-server-uses.md) </span><span class="sxs-lookup"><span data-stu-id="d6bbf-128">[Certificate Stores that BizTalk Server Uses](../core/certificate-stores-that-biztalk-server-uses.md) </span></span>  
+ <span data-ttu-id="d6bbf-129">[加密和簽署憑證](../core/encryption-and-signing-certificates.md) </span><span class="sxs-lookup"><span data-stu-id="d6bbf-129">[Encryption and Signing Certificates](../core/encryption-and-signing-certificates.md) </span></span>  
+ [<span data-ttu-id="d6bbf-130">傳送和接收加密訊息</span><span class="sxs-lookup"><span data-stu-id="d6bbf-130">Sending and Receiving Encrypted Messages</span></span>](../core/sending-and-receiving-encrypted-messages.md)

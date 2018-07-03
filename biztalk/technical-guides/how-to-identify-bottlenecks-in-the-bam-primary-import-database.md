@@ -1,5 +1,5 @@
 ---
-title: 如何識別 BAM 主要匯入資料庫中的瓶頸 |Microsoft 文件
+title: 如何識別 BAM 主要匯入資料庫中的瓶頸 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,37 +12,37 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5780c8fcc893126997b37f687f010c5eb62e74c9
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 613bfa623110a4792894da71365c1a40d7856c15
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25976556"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37003623"
 ---
-# <a name="how-to-identify-bottlenecks-in-the-bam-primary-import-database"></a><span data-ttu-id="c3691-102">如何識別 BAM 主要匯入資料庫中的瓶頸</span><span class="sxs-lookup"><span data-stu-id="c3691-102">How to Identify Bottlenecks in the BAM Primary Import Database</span></span>
-<span data-ttu-id="c3691-103">若要識別商務活動監控 (BAM) 資料庫中的瓶頸，請執行下列步驟：</span><span class="sxs-lookup"><span data-stu-id="c3691-103">To identify bottlenecks in the Business Activity Monitoring (BAM) database, perform the following steps:</span></span>  
+# <a name="how-to-identify-bottlenecks-in-the-bam-primary-import-database"></a><span data-ttu-id="2eed5-102">如何識別 BAM 主要匯入資料庫中的瓶頸</span><span class="sxs-lookup"><span data-stu-id="2eed5-102">How to Identify Bottlenecks in the BAM Primary Import Database</span></span>
+<span data-ttu-id="2eed5-103">若要識別商務活動監控 (BAM) 資料庫中的瓶頸，請執行下列步驟：</span><span class="sxs-lookup"><span data-stu-id="2eed5-103">To identify bottlenecks in the Business Activity Monitoring (BAM) database, perform the following steps:</span></span>  
   
-1.  <span data-ttu-id="c3691-104">確定作用中執行個體的計數未上升。</span><span class="sxs-lookup"><span data-stu-id="c3691-104">Ensure that the Active Instances count is not climbing.</span></span>  
+1. <span data-ttu-id="2eed5-104">確定作用中執行個體的計數未上升。</span><span class="sxs-lookup"><span data-stu-id="2eed5-104">Ensure that the Active Instances count is not climbing.</span></span>  
   
-2.  <span data-ttu-id="c3691-105">確認 SQL-Agent 服務正在執行。</span><span class="sxs-lookup"><span data-stu-id="c3691-105">Ensure that the SQL-Agent Service is running.</span></span>  
+2. <span data-ttu-id="2eed5-105">確認 SQL-Agent 服務正在執行。</span><span class="sxs-lookup"><span data-stu-id="2eed5-105">Ensure that the SQL-Agent Service is running.</span></span>  
   
-3.  <span data-ttu-id="c3691-106">如果已設定 OLAP 分析，請確定 BAM_AN_\<activityname\>定期執行作業。</span><span class="sxs-lookup"><span data-stu-id="c3691-106">If OLAP Analysis is configured, ensure that the BAM_AN_\<activityname\> job is running at periodic intervals.</span></span>  
+3. <span data-ttu-id="2eed5-106">如果已設定 OLAP 分析，確定 BAM_AN_\<activityname\>作業以定期間隔執行。</span><span class="sxs-lookup"><span data-stu-id="2eed5-106">If OLAP Analysis is configured, ensure that the BAM_AN_\<activityname\> job is running at periodic intervals.</span></span>  
   
-4.  <span data-ttu-id="c3691-107">請確定該 BAM_DM_\<activityname\> (Data Maintenance) 工作排定在定期間隔執行。</span><span class="sxs-lookup"><span data-stu-id="c3691-107">Ensure that BAM_DM_\<activityname\> (Data Maintenance) job is scheduled to run at periodic intervals.</span></span>  
+4. <span data-ttu-id="2eed5-107">請確定該 BAM_DM_\<activityname\> (Data Maintenance) 工作排定在定期間隔執行。</span><span class="sxs-lookup"><span data-stu-id="2eed5-107">Ensure that BAM_DM_\<activityname\> (Data Maintenance) job is scheduled to run at periodic intervals.</span></span>  
   
-    > [!NOTE]  
-    >  <span data-ttu-id="c3691-108">在高使用率案例 BAM 資料庫活動可能會影響到其他 BizTalk Server 資料庫，將會影響 BizTalk Server 的整體效能的效能。</span><span class="sxs-lookup"><span data-stu-id="c3691-108">In high usage scenarios BAM database activity can impact the performance of other BizTalk Server databases, which will affect overall BizTalk Server performance.</span></span> <span data-ttu-id="c3691-109">在此情況下，請考慮採取下列動作：</span><span class="sxs-lookup"><span data-stu-id="c3691-109">In this case consider taking the following actions:</span></span>  
-    >   
-    >  -   <span data-ttu-id="c3691-110">請考慮減少從預設值 （6 個月） 的所有 BAM 活動的持續時間為 1 個月或更小。</span><span class="sxs-lookup"><span data-stu-id="c3691-110">Consider decreasing the duration of all BAM activities from the default value (6 months) to 1 month or less.</span></span> <span data-ttu-id="c3691-111">這會降低其 BAM 資料會保留在 BAMPrimaryImport 資料庫封存之前的時間週期。</span><span class="sxs-lookup"><span data-stu-id="c3691-111">This will reduce the time period for which BAM data is maintained in the BAMPrimaryImport database before being archived.</span></span> <span data-ttu-id="c3691-112">使用 BAM 管理公用程式`set-activitywindow`命令來修改 BAM 活動的持續時間。</span><span class="sxs-lookup"><span data-stu-id="c3691-112">Use the BAM Management Utility `set-activitywindow` command to modify the duration of BAM activities.</span></span> <span data-ttu-id="c3691-113">如需 BAM 管理公用程式的活動管理命令查看[活動管理命令](http://go.microsoft.com/fwlink/?LinkId=210417)(http://go.microsoft.com/fwlink/?LinkId=210417)。</span><span class="sxs-lookup"><span data-stu-id="c3691-113">For more information about the BAM Management Utility activity management commands see [Activity Management Commands](http://go.microsoft.com/fwlink/?LinkId=210417) (http://go.microsoft.com/fwlink/?LinkId=210417).</span></span>  
-    > -   <span data-ttu-id="c3691-114">將 BAM 封存資料庫移至未裝載任何 BizTalk MessageBox 資料庫的 SQL Server 執行個體。</span><span class="sxs-lookup"><span data-stu-id="c3691-114">Move the BAM Archive database to an instance of SQL Server that does not host any BizTalk MessageBox databases.</span></span> <span data-ttu-id="c3691-115">這將會競用資源時，防止這些資料庫，並改善整體效能。</span><span class="sxs-lookup"><span data-stu-id="c3691-115">This will prevent these databases from competing for resources and improve overall performance.</span></span>  
+   > [!NOTE]
+   >  <span data-ttu-id="2eed5-108">在高使用率案例 BAM 資料庫的活動可能會影響到其他 BizTalk Server 資料庫，將會影響 BizTalk Server 的整體效能的效能。</span><span class="sxs-lookup"><span data-stu-id="2eed5-108">In high usage scenarios BAM database activity can impact the performance of other BizTalk Server databases, which will affect overall BizTalk Server performance.</span></span> <span data-ttu-id="2eed5-109">在此情況下，請考慮採取下列動作：</span><span class="sxs-lookup"><span data-stu-id="2eed5-109">In this case consider taking the following actions:</span></span>  
+   > 
+   > - <span data-ttu-id="2eed5-110">請考慮減少從預設值 （6 個月） 的所有 BAM 活動的持續時間為 1 個月或更小。</span><span class="sxs-lookup"><span data-stu-id="2eed5-110">Consider decreasing the duration of all BAM activities from the default value (6 months) to 1 month or less.</span></span> <span data-ttu-id="2eed5-111">這會減少的 BAM 資料會保留在 BAMPrimaryImport 資料庫之前先封存的時間週期。</span><span class="sxs-lookup"><span data-stu-id="2eed5-111">This will reduce the time period for which BAM data is maintained in the BAMPrimaryImport database before being archived.</span></span> <span data-ttu-id="2eed5-112">使用 BAM 管理公用程式`set-activitywindow`命令來修改 BAM 活動的持續時間。</span><span class="sxs-lookup"><span data-stu-id="2eed5-112">Use the BAM Management Utility `set-activitywindow` command to modify the duration of BAM activities.</span></span> <span data-ttu-id="2eed5-113">如需 BAM 管理公用程式的活動管理命令查看[活動管理命令](http://go.microsoft.com/fwlink/?LinkId=210417)(http://go.microsoft.com/fwlink/?LinkId=210417)。</span><span class="sxs-lookup"><span data-stu-id="2eed5-113">For more information about the BAM Management Utility activity management commands see [Activity Management Commands](http://go.microsoft.com/fwlink/?LinkId=210417) (http://go.microsoft.com/fwlink/?LinkId=210417).</span></span>  
+   >   -   <span data-ttu-id="2eed5-114">移動 BAM 封存資料庫未裝載任何 BizTalk MessageBox 資料庫的 SQL Server 執行個體。</span><span class="sxs-lookup"><span data-stu-id="2eed5-114">Move the BAM Archive database to an instance of SQL Server that does not host any BizTalk MessageBox databases.</span></span> <span data-ttu-id="2eed5-115">這會防止這些資料庫競用資源，並改善整體效能。</span><span class="sxs-lookup"><span data-stu-id="2eed5-115">This will prevent these databases from competing for resources and improve overall performance.</span></span>  
   
-5.  <span data-ttu-id="c3691-116">用於追蹤專用的主機，並測量在負載下的主控件佇列長度效能計數器。</span><span class="sxs-lookup"><span data-stu-id="c3691-116">Use a dedicated host for tracking and measure the Host Queue Length performance counter when under load.</span></span>  
+5. <span data-ttu-id="2eed5-116">用於追蹤專用的主機，並測量在負載下的主控件佇列長度效能計數器。</span><span class="sxs-lookup"><span data-stu-id="2eed5-116">Use a dedicated host for tracking and measure the Host Queue Length performance counter when under load.</span></span>  
   
-6.  <span data-ttu-id="c3691-117">經過一段時間檢查遞增趨勢的多工緩衝處理表格大小效能計數器。</span><span class="sxs-lookup"><span data-stu-id="c3691-117">Check the Spool Table size performance counter for an increasing trend over time.</span></span>  
+6. <span data-ttu-id="2eed5-117">經過一段時間檢查遞增趨勢的多工緩衝處理表格 size 效能計數器。</span><span class="sxs-lookup"><span data-stu-id="2eed5-117">Check the Spool Table size performance counter for an increasing trend over time.</span></span>  
   
-7.  <span data-ttu-id="c3691-118">請檢查長時間執行的封存/清除作業執行持續時間。</span><span class="sxs-lookup"><span data-stu-id="c3691-118">Check the Archive/Purge job execution duration for long execution times.</span></span>  
+7. <span data-ttu-id="2eed5-118">檢查長時間執行的封存/清除作業執行持續時間。</span><span class="sxs-lookup"><span data-stu-id="2eed5-118">Check the Archive/Purge job execution duration for long execution times.</span></span>  
   
-8.  <span data-ttu-id="c3691-119">在裝載 「 BizTalk 追蹤資料庫的磁碟，請檢查磁碟回應性 （讀/寫效能計數器每次磁碟秒數）。</span><span class="sxs-lookup"><span data-stu-id="c3691-119">Check disk responsiveness (Disk Seconds per Read/Write performance counter) on the disk hosting the BizTalk Tracking database.</span></span>  
+8. <span data-ttu-id="2eed5-119">在裝載 「 BizTalk 追蹤資料庫的磁碟，請檢查磁碟回應性 （Read/Write 效能計數器每次磁碟秒）。</span><span class="sxs-lookup"><span data-stu-id="2eed5-119">Check disk responsiveness (Disk Seconds per Read/Write performance counter) on the disk hosting the BizTalk Tracking database.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="c3691-120">請參閱</span><span class="sxs-lookup"><span data-stu-id="c3691-120">See Also</span></span>  
- [<span data-ttu-id="c3691-121">資料庫層中的瓶頸</span><span class="sxs-lookup"><span data-stu-id="c3691-121">Bottlenecks in the Database Tier</span></span>](../technical-guides/bottlenecks-in-the-database-tier.md)
+## <a name="see-also"></a><span data-ttu-id="2eed5-120">另請參閱</span><span class="sxs-lookup"><span data-stu-id="2eed5-120">See Also</span></span>  
+ [<span data-ttu-id="2eed5-121">資料庫層中的瓶頸</span><span class="sxs-lookup"><span data-stu-id="2eed5-121">Bottlenecks in the Database Tier</span></span>](../technical-guides/bottlenecks-in-the-database-tier.md)

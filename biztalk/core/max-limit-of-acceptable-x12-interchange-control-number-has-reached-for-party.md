@@ -1,5 +1,5 @@
 ---
-title: 可接受的 X12 交換控制編號已達到合作對象的最高上限 |Microsoft 文件
+title: 交換控制編號已達到合作對象的 X12 可接受的最高上限 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,34 +12,34 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fba803260af4879e4e2a286c0f7864af7ccf2747
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: de22f059a720fdec999f495f38a6b21009469158
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22262478"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36986303"
 ---
-# <a name="max-limit-of-acceptable-x12-interchange-control-number-has-reached-for-party"></a><span data-ttu-id="c52a7-102">可接受的 X12 交換控制編號已達到合作對象的最大限制</span><span class="sxs-lookup"><span data-stu-id="c52a7-102">Max limit of acceptable X12 interchange control number has reached for party</span></span>
-## <a name="details"></a><span data-ttu-id="c52a7-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="c52a7-103">Details</span></span>  
+# <a name="max-limit-of-acceptable-x12-interchange-control-number-has-reached-for-party"></a><span data-ttu-id="d4aef-102">交換控制編號已達到合作對象的 X12 可接受的最大限制</span><span class="sxs-lookup"><span data-stu-id="d4aef-102">Max limit of acceptable X12 interchange control number has reached for party</span></span>
+## <a name="details"></a><span data-ttu-id="d4aef-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="d4aef-103">Details</span></span>  
   
-|||  
-|-|-|  
-|<span data-ttu-id="c52a7-104">產品名稱</span><span class="sxs-lookup"><span data-stu-id="c52a7-104">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|<span data-ttu-id="c52a7-105">產品版本</span><span class="sxs-lookup"><span data-stu-id="c52a7-105">Product Version</span></span>|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|<span data-ttu-id="c52a7-106">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="c52a7-106">Event ID</span></span>|-|  
-|<span data-ttu-id="c52a7-107">事件來源</span><span class="sxs-lookup"><span data-stu-id="c52a7-107">Event Source</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="c52a7-108">EDI</span><span class="sxs-lookup"><span data-stu-id="c52a7-108"> EDI</span></span>|  
-|<span data-ttu-id="c52a7-109">元件</span><span class="sxs-lookup"><span data-stu-id="c52a7-109">Component</span></span>|<span data-ttu-id="c52a7-110">EDI 引擎</span><span class="sxs-lookup"><span data-stu-id="c52a7-110">EDI Engine</span></span>|  
-|<span data-ttu-id="c52a7-111">符號名稱</span><span class="sxs-lookup"><span data-stu-id="c52a7-111">Symbolic Name</span></span>|<span data-ttu-id="c52a7-112">PartyX12IsaNumberError</span><span class="sxs-lookup"><span data-stu-id="c52a7-112">PartyX12IsaNumberError</span></span>|  
-|<span data-ttu-id="c52a7-113">訊息文字</span><span class="sxs-lookup"><span data-stu-id="c52a7-113">Message Text</span></span>|<span data-ttu-id="c52a7-114">可接受的 X12 交換控制編號已達到合作對象 {0} 的最高上限。</span><span class="sxs-lookup"><span data-stu-id="c52a7-114">Max limit of acceptable X12 interchange control number has reached for party {0}.</span></span> <span data-ttu-id="c52a7-115">瀏覽至合作對象中接收者角色畫面，欄位 ISA 13 在夥伴協議管理員 中，重設計數器</span><span class="sxs-lookup"><span data-stu-id="c52a7-115">Reset counter by navigating to Party in receiver role screen, field ISA 13 in Partner Agreement manager</span></span>|  
+|                 |                                                                                                                                                                                           |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <span data-ttu-id="d4aef-104">產品名稱</span><span class="sxs-lookup"><span data-stu-id="d4aef-104">Product Name</span></span>   |                                                    [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                     |
+| <span data-ttu-id="d4aef-105">產品版本</span><span class="sxs-lookup"><span data-stu-id="d4aef-105">Product Version</span></span> |                                                                [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                                 |
+|    <span data-ttu-id="d4aef-106">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="d4aef-106">Event ID</span></span>     |                                                                                             -                                                                                             |
+|  <span data-ttu-id="d4aef-107">事件來源</span><span class="sxs-lookup"><span data-stu-id="d4aef-107">Event Source</span></span>   |                                                  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="d4aef-108"> EDI</span><span class="sxs-lookup"><span data-stu-id="d4aef-108"> EDI</span></span>                                                   |
+|    <span data-ttu-id="d4aef-109">元件</span><span class="sxs-lookup"><span data-stu-id="d4aef-109">Component</span></span>    |                                                                                        <span data-ttu-id="d4aef-110">將 EDI 引擎</span><span class="sxs-lookup"><span data-stu-id="d4aef-110">EDI Engine</span></span>                                                                                         |
+|  <span data-ttu-id="d4aef-111">符號名稱</span><span class="sxs-lookup"><span data-stu-id="d4aef-111">Symbolic Name</span></span>  |                                                                                  <span data-ttu-id="d4aef-112">PartyX12IsaNumberError</span><span class="sxs-lookup"><span data-stu-id="d4aef-112">PartyX12IsaNumberError</span></span>                                                                                   |
+|  <span data-ttu-id="d4aef-113">訊息文字</span><span class="sxs-lookup"><span data-stu-id="d4aef-113">Message Text</span></span>   | <span data-ttu-id="d4aef-114">交換控制編號已達到合作對象的 X12 可接受的最高上限{0}。</span><span class="sxs-lookup"><span data-stu-id="d4aef-114">Max limit of acceptable X12 interchange control number has reached for party {0}.</span></span> <span data-ttu-id="d4aef-115">瀏覽至合作對象中接收者角色畫面，夥伴協議 管理員中的欄位 ISA 13，重設計數器</span><span class="sxs-lookup"><span data-stu-id="d4aef-115">Reset counter by navigating to Party in receiver role screen, field ISA 13 in Partner Agreement manager</span></span> |
   
-## <a name="explanation"></a><span data-ttu-id="c52a7-116">說明</span><span class="sxs-lookup"><span data-stu-id="c52a7-116">Explanation</span></span>  
- <span data-ttu-id="c52a7-117">這個錯誤/警告/資訊事件表示傳送管線無法處理外寄 X12 交換，因為合作對象設定中指定 [ISA13] 欄位中的交換控制編號大於允許的最大值。</span><span class="sxs-lookup"><span data-stu-id="c52a7-117">This Error/Warning/Information event indicates that the send pipeline could not process the outgoing X12 interchange because the interchange control number in the ISA13 field specified in the party settings was greater than the maximum allowable value.</span></span> <span data-ttu-id="c52a7-118">交換控制編號的字元數目上限是 9。</span><span class="sxs-lookup"><span data-stu-id="c52a7-118">The maximum number of characters for the interchange control number is nine.</span></span>  
+## <a name="explanation"></a><span data-ttu-id="d4aef-116">說明</span><span class="sxs-lookup"><span data-stu-id="d4aef-116">Explanation</span></span>  
+ <span data-ttu-id="d4aef-117">這個錯誤/警告/資訊事件表示傳送管線無法處理外寄 X12 交換，因為合作對象設定中指定的 [ISA13] 欄位中的交換控制編號大於允許的最大值。</span><span class="sxs-lookup"><span data-stu-id="d4aef-117">This Error/Warning/Information event indicates that the send pipeline could not process the outgoing X12 interchange because the interchange control number in the ISA13 field specified in the party settings was greater than the maximum allowable value.</span></span> <span data-ttu-id="d4aef-118">交換控制編號的字元數目上限是 9 個。</span><span class="sxs-lookup"><span data-stu-id="d4aef-118">The maximum number of characters for the interchange control number is nine.</span></span>  
   
-## <a name="user-action"></a><span data-ttu-id="c52a7-119">使用者動作</span><span class="sxs-lookup"><span data-stu-id="c52a7-119">User Action</span></span>  
- <span data-ttu-id="c52a7-120">若要解決這個錯誤，重設交換控制編號，如下所示：</span><span class="sxs-lookup"><span data-stu-id="c52a7-120">To resolve this error, reset the interchange control number, as follows:</span></span>  
+## <a name="user-action"></a><span data-ttu-id="d4aef-119">使用者動作</span><span class="sxs-lookup"><span data-stu-id="d4aef-119">User Action</span></span>  
+ <span data-ttu-id="d4aef-120">若要解決這個錯誤，重設交換控制編號，如下所示：</span><span class="sxs-lookup"><span data-stu-id="d4aef-120">To resolve this error, reset the interchange control number, as follows:</span></span>  
   
-1.  <span data-ttu-id="c52a7-121">在 EDI 屬性 對話方塊中的 合作對象的交換解析，開啟做為交換接收者的合作對象的 ISA 區段定義 頁面。</span><span class="sxs-lookup"><span data-stu-id="c52a7-121">In the EDI Properties dialog box for the party resolved for the interchange, open the ISA Segment Definition page for the party as interchange receiver.</span></span>  
+1.  <span data-ttu-id="d4aef-121">在 EDI 屬性 對話方塊中的 合作對象的交換解析，開啟做為交換接收者的合作對象的 ISA 區段定義 頁面。</span><span class="sxs-lookup"><span data-stu-id="d4aef-121">In the EDI Properties dialog box for the party resolved for the interchange, open the ISA Segment Definition page for the party as interchange receiver.</span></span>  
   
-2.  <span data-ttu-id="c52a7-122">按一下 [ISA13] 欄位相關聯的編輯欄位。</span><span class="sxs-lookup"><span data-stu-id="c52a7-122">Click the Edit field associated with the ISA13 field.</span></span>  
+2.  <span data-ttu-id="d4aef-122">按一下 [ISA13] 欄位相關聯的編輯欄位。</span><span class="sxs-lookup"><span data-stu-id="d4aef-122">Click the Edit field associated with the ISA13 field.</span></span>  
   
-3.  <span data-ttu-id="c52a7-123">設定為新值，欄位具有可接受的數量的數字的交換控制編號。</span><span class="sxs-lookup"><span data-stu-id="c52a7-123">Set the interchange control number to a new value such that the field has an acceptable number of digits.</span></span>
+3.  <span data-ttu-id="d4aef-123">使欄位具有一個可接受的數字，則您可以設為新值的交換控制編號。</span><span class="sxs-lookup"><span data-stu-id="d4aef-123">Set the interchange control number to a new value such that the field has an acceptable number of digits.</span></span>

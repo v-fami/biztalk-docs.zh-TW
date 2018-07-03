@@ -1,5 +1,5 @@
 ---
-title: 執行個體驗證 |Microsoft 文件
+title: 執行個體驗證 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3db1903030bbde96f2587ac14b5d168345b31823
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0f4e4901d11bda5fb6633c00dd72899ee1b72db4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22257374"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37012871"
 ---
-# <a name="instance-validation"></a><span data-ttu-id="79b94-102">執行個體驗證</span><span class="sxs-lookup"><span data-stu-id="79b94-102">Instance Validation</span></span>
-<span data-ttu-id="79b94-103">BizTalk 編輯器會叫用**IInstanceValidator.ValidateInstance**符合下列條件時的擴充方法：</span><span class="sxs-lookup"><span data-stu-id="79b94-103">BizTalk Editor invokes the **IInstanceValidator.ValidateInstance** method of an extension when the following conditions are met:</span></span>  
+# <a name="instance-validation"></a><span data-ttu-id="3be80-102">執行個體驗證</span><span class="sxs-lookup"><span data-stu-id="3be80-102">Instance Validation</span></span>
+<span data-ttu-id="3be80-103">BizTalk 編輯器會叫用**IInstanceValidator.ValidateInstance**符合下列條件時，擴充功能的方法：</span><span class="sxs-lookup"><span data-stu-id="3be80-103">BizTalk Editor invokes the **IInstanceValidator.ValidateInstance** method of an extension when the following conditions are met:</span></span>  
   
--   <span data-ttu-id="79b94-104">擴充功能，會使用設定為標準**標準**屬性**結構描述**節點。</span><span class="sxs-lookup"><span data-stu-id="79b94-104">The extension is set as standard by using the **Standard** property of the **Schema** node.</span></span>  
+- <span data-ttu-id="3be80-104">延伸模組，會使用設定為標準**標準**屬性**結構描述**節點。</span><span class="sxs-lookup"><span data-stu-id="3be80-104">The extension is set as standard by using the **Standard** property of the **Schema** node.</span></span>  
   
--   <span data-ttu-id="79b94-105">在**屬性頁**結構描述中，與相關聯的對話方塊**產生執行個體輸出類型**屬性設定為**原生。**</span><span class="sxs-lookup"><span data-stu-id="79b94-105">On the **Property Pages** dialog box associated with the schema, the **Generate Instance Output Type** property is set to **Native.**</span></span>  
+- <span data-ttu-id="3be80-105">在上**屬性頁**結構描述中，相關聯的對話方塊**產生的執行個體輸出類型**屬性設定為**原生。**</span><span class="sxs-lookup"><span data-stu-id="3be80-105">On the **Property Pages** dialog box associated with the schema, the **Generate Instance Output Type** property is set to **Native.**</span></span>  
   
--   <span data-ttu-id="79b94-106">在**屬性頁**結構描述中，與相關聯的對話方塊**輸入執行個體檔案名稱**屬性設定為包含要驗證的執行個體訊息的檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="79b94-106">On the **Property Pages** dialog box associated with the schema, the **Input Instance Filename** property is set to the name of a file containing the instance message to be validated.</span></span>  
+- <span data-ttu-id="3be80-106">在 **屬性頁**結構描述中，相關聯的對話方塊**輸入執行個體檔案名稱**屬性設定為包含要驗證的執行個體訊息的檔案名稱。</span><span class="sxs-lookup"><span data-stu-id="3be80-106">On the **Property Pages** dialog box associated with the schema, the **Input Instance Filename** property is set to the name of a file containing the instance message to be validated.</span></span>  
   
- <span data-ttu-id="79b94-107">中指定的檔案**輸入執行個體檔案名稱**屬性會當做參數傳遞**IInstanceValidator.ValidateInstance**方法。</span><span class="sxs-lookup"><span data-stu-id="79b94-107">The file specified in the **Input Instance Filename** property is passed as a parameter to the **IInstanceValidator.ValidateInstance** method.</span></span>  
+  <span data-ttu-id="3be80-107">中指定的檔案**輸入執行個體檔案名稱**屬性會做為參數傳遞**IInstanceValidator.ValidateInstance**方法。</span><span class="sxs-lookup"><span data-stu-id="3be80-107">The file specified in the **Input Instance Filename** property is passed as a parameter to the **IInstanceValidator.ValidateInstance** method.</span></span>  
   
- <span data-ttu-id="79b94-108">如果發生錯誤，錯誤訊息會傳回為陣列**IValidationInfo**物件，並會顯示在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]工作清單 視窗。</span><span class="sxs-lookup"><span data-stu-id="79b94-108">If errors occur, error messages are returned as an array of **IValidationInfo** objects, and are displayed in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Task List window.</span></span>  
+  <span data-ttu-id="3be80-108">如果發生錯誤，錯誤訊息會傳回為陣列**IValidationInfo**物件，而且會顯示在[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]工作清單 視窗。</span><span class="sxs-lookup"><span data-stu-id="3be80-108">If errors occur, error messages are returned as an array of **IValidationInfo** objects, and are displayed in the [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] Task List window.</span></span>  
   
 > [!NOTE]
->  <span data-ttu-id="79b94-109">如果結構描述包含模式陳述式，而且檔案傳遞給**ValidateInstance**方法由使用對應產生**產生執行個體**命令時，執行個體訊息可能無法通過驗證。</span><span class="sxs-lookup"><span data-stu-id="79b94-109">If the schema contains pattern statements, and the file passed to the **ValidateInstance** method was generated by using the corresponding **Generate Instance** command, the instance message may not pass validation.</span></span>  
+>  <span data-ttu-id="3be80-109">如果結構描述包含模式陳述式，而且檔案傳遞至**Poschema**方法所產生的對應**產生的執行個體**命令時，執行個體訊息可能無法通過驗證。</span><span class="sxs-lookup"><span data-stu-id="3be80-109">If the schema contains pattern statements, and the file passed to the **ValidateInstance** method was generated by using the corresponding **Generate Instance** command, the instance message may not pass validation.</span></span>  
   
-## <a name="see-also"></a><span data-ttu-id="79b94-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="79b94-110">See Also</span></span>  
- [<span data-ttu-id="79b94-111">延伸 BizTalk 編輯器</span><span class="sxs-lookup"><span data-stu-id="79b94-111">Extending BizTalk Editor</span></span>](../core/extending-biztalk-editor.md)
+## <a name="see-also"></a><span data-ttu-id="3be80-110">另請參閱</span><span class="sxs-lookup"><span data-stu-id="3be80-110">See Also</span></span>  
+ [<span data-ttu-id="3be80-111">延伸 BizTalk 編輯器</span><span class="sxs-lookup"><span data-stu-id="3be80-111">Extending BizTalk Editor</span></span>](../core/extending-biztalk-editor.md)

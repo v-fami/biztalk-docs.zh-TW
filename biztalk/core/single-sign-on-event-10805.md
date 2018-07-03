@@ -1,5 +1,5 @@
 ---
-title: 單一登入： 事件 10805 |Microsoft 文件
+title: 單一登入： 事件 10805 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ad217137f4510d81e458b8234430abdf2d8aac8b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 89f9837b4fc18beed4ba4f07945ba3d6e3820d3d
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22277974"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36992895"
 ---
-# <a name="single-sign-on-event-10805"></a><span data-ttu-id="8a233-102">單一登入： 事件 10805</span><span class="sxs-lookup"><span data-stu-id="8a233-102">Single Sign-On: Event 10805</span></span>
-## <a name="details"></a><span data-ttu-id="8a233-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="8a233-103">Details</span></span>  
+# <a name="single-sign-on-event-10805"></a><span data-ttu-id="28cee-102">單一登入： 事件 10805</span><span class="sxs-lookup"><span data-stu-id="28cee-102">Single Sign-On: Event 10805</span></span>
+## <a name="details"></a><span data-ttu-id="28cee-103">詳細資料</span><span class="sxs-lookup"><span data-stu-id="28cee-103">Details</span></span>  
   
-|||  
-|-|-|  
-|<span data-ttu-id="8a233-104">產品名稱</span><span class="sxs-lookup"><span data-stu-id="8a233-104">Product Name</span></span>|<span data-ttu-id="8a233-105">企業單一登入</span><span class="sxs-lookup"><span data-stu-id="8a233-105">Enterprise Single Sign-On</span></span>|  
-|<span data-ttu-id="8a233-106">產品版本</span><span class="sxs-lookup"><span data-stu-id="8a233-106">Product Version</span></span>|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|<span data-ttu-id="8a233-107">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="8a233-107">Event ID</span></span>|<span data-ttu-id="8a233-108">10805</span><span class="sxs-lookup"><span data-stu-id="8a233-108">10805</span></span>|  
-|<span data-ttu-id="8a233-109">事件來源</span><span class="sxs-lookup"><span data-stu-id="8a233-109">Event Source</span></span>|<span data-ttu-id="8a233-110">ENTSSO</span><span class="sxs-lookup"><span data-stu-id="8a233-110">ENTSSO</span></span>|  
-|<span data-ttu-id="8a233-111">元件</span><span class="sxs-lookup"><span data-stu-id="8a233-111">Component</span></span>|<span data-ttu-id="8a233-112">不適用</span><span class="sxs-lookup"><span data-stu-id="8a233-112">N/A</span></span>|  
-|<span data-ttu-id="8a233-113">符號名稱</span><span class="sxs-lookup"><span data-stu-id="8a233-113">Symbolic Name</span></span>|<span data-ttu-id="8a233-114">ENTSSO_E_ACCOUNT_NOT_MAPPED_FOR_ADAPTER</span><span class="sxs-lookup"><span data-stu-id="8a233-114">ENTSSO_E_ACCOUNT_NOT_MAPPED_FOR_ADAPTER</span></span>|  
-|<span data-ttu-id="8a233-115">訊息文字</span><span class="sxs-lookup"><span data-stu-id="8a233-115">Message Text</span></span>|<span data-ttu-id="8a233-116">找不到這個外部帳戶，此介面卡上的任何對應。</span><span class="sxs-lookup"><span data-stu-id="8a233-116">No mappings were found for this external account on this adapter.</span></span>|  
+|                 |                                                                   |
+|-----------------|-------------------------------------------------------------------|
+|  <span data-ttu-id="28cee-104">產品名稱</span><span class="sxs-lookup"><span data-stu-id="28cee-104">Product Name</span></span>   |                     <span data-ttu-id="28cee-105">企業單一登入</span><span class="sxs-lookup"><span data-stu-id="28cee-105">Enterprise Single Sign-On</span></span>                     |
+| <span data-ttu-id="28cee-106">產品版本</span><span class="sxs-lookup"><span data-stu-id="28cee-106">Product Version</span></span> |    [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]     |
+|    <span data-ttu-id="28cee-107">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="28cee-107">Event ID</span></span>     |                               <span data-ttu-id="28cee-108">10805</span><span class="sxs-lookup"><span data-stu-id="28cee-108">10805</span></span>                               |
+|  <span data-ttu-id="28cee-109">事件來源</span><span class="sxs-lookup"><span data-stu-id="28cee-109">Event Source</span></span>   |                              <span data-ttu-id="28cee-110">ENTSSO</span><span class="sxs-lookup"><span data-stu-id="28cee-110">ENTSSO</span></span>                               |
+|    <span data-ttu-id="28cee-111">元件</span><span class="sxs-lookup"><span data-stu-id="28cee-111">Component</span></span>    |                                <span data-ttu-id="28cee-112">不適用</span><span class="sxs-lookup"><span data-stu-id="28cee-112">N/A</span></span>                                |
+|  <span data-ttu-id="28cee-113">符號名稱</span><span class="sxs-lookup"><span data-stu-id="28cee-113">Symbolic Name</span></span>  |              <span data-ttu-id="28cee-114">ENTSSO_E_ACCOUNT_NOT_MAPPED_FOR_ADAPTER</span><span class="sxs-lookup"><span data-stu-id="28cee-114">ENTSSO_E_ACCOUNT_NOT_MAPPED_FOR_ADAPTER</span></span>              |
+|  <span data-ttu-id="28cee-115">訊息文字</span><span class="sxs-lookup"><span data-stu-id="28cee-115">Message Text</span></span>   | <span data-ttu-id="28cee-116">找不到這個外部帳戶，此介面卡上的任何對應。</span><span class="sxs-lookup"><span data-stu-id="28cee-116">No mappings were found for this external account on this adapter.</span></span> |
   
-## <a name="explanation"></a><span data-ttu-id="8a233-117">說明</span><span class="sxs-lookup"><span data-stu-id="8a233-117">Explanation</span></span>  
- <span data-ttu-id="8a233-118">找不到這個外部帳戶，此介面卡上的任何對應。</span><span class="sxs-lookup"><span data-stu-id="8a233-118">No mappings were found for this external account on this adapter.</span></span>  
+## <a name="explanation"></a><span data-ttu-id="28cee-117">說明</span><span class="sxs-lookup"><span data-stu-id="28cee-117">Explanation</span></span>  
+ <span data-ttu-id="28cee-118">找不到這個外部帳戶，此介面卡上的任何對應。</span><span class="sxs-lookup"><span data-stu-id="28cee-118">No mappings were found for this external account on this adapter.</span></span>  
   
-## <a name="user-action"></a><span data-ttu-id="8a233-119">使用者動作</span><span class="sxs-lookup"><span data-stu-id="8a233-119">User Action</span></span>  
- <span data-ttu-id="8a233-120">使用者不必採取任何動作。</span><span class="sxs-lookup"><span data-stu-id="8a233-120">No user action is required.</span></span>
+## <a name="user-action"></a><span data-ttu-id="28cee-119">使用者動作</span><span class="sxs-lookup"><span data-stu-id="28cee-119">User Action</span></span>  
+ <span data-ttu-id="28cee-120">使用者不必採取任何動作。</span><span class="sxs-lookup"><span data-stu-id="28cee-120">No user action is required.</span></span>

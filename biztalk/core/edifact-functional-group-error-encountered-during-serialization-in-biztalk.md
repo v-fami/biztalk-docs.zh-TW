@@ -1,5 +1,5 @@
 ---
-title: 在序列化期間發生錯誤。 Edifact 功能群組發生下列錯誤 |Microsoft 文件
+title: 序列化期間發生的錯誤。 Edifact 功能群組發生下列錯誤 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4a8166e5a66038d4cbda3a6fcb9597c7827d1eeb
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0cd5ce1a94a47c5094862decfe1bb1dbb9c1efb0
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22239846"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36977599"
 ---
-# <a name="error-encountered-during-serialization-the-edifact-functional-group-had-the-following-errors"></a><span data-ttu-id="f7166-103">在序列化期間發生錯誤。</span><span class="sxs-lookup"><span data-stu-id="f7166-103">Error encountered during serialization.</span></span> <span data-ttu-id="f7166-104">Edifact 功能群組發生下列錯誤</span><span class="sxs-lookup"><span data-stu-id="f7166-104">The Edifact functional group had the following errors</span></span>
-## <a name="details"></a><span data-ttu-id="f7166-105">詳細資料</span><span class="sxs-lookup"><span data-stu-id="f7166-105">Details</span></span>  
+# <a name="error-encountered-during-serialization-the-edifact-functional-group-had-the-following-errors"></a><span data-ttu-id="764aa-103">序列化期間發生的錯誤。</span><span class="sxs-lookup"><span data-stu-id="764aa-103">Error encountered during serialization.</span></span> <span data-ttu-id="764aa-104">Edifact 功能群組發生下列錯誤</span><span class="sxs-lookup"><span data-stu-id="764aa-104">The Edifact functional group had the following errors</span></span>
+## <a name="details"></a><span data-ttu-id="764aa-105">詳細資料</span><span class="sxs-lookup"><span data-stu-id="764aa-105">Details</span></span>  
   
-|||  
-|-|-|  
-|<span data-ttu-id="f7166-106">產品名稱</span><span class="sxs-lookup"><span data-stu-id="f7166-106">Product Name</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|<span data-ttu-id="f7166-107">產品版本</span><span class="sxs-lookup"><span data-stu-id="f7166-107">Product Version</span></span>|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|<span data-ttu-id="f7166-108">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="f7166-108">Event ID</span></span>|-|  
-|<span data-ttu-id="f7166-109">事件來源</span><span class="sxs-lookup"><span data-stu-id="f7166-109">Event Source</span></span>|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="f7166-110">EDI</span><span class="sxs-lookup"><span data-stu-id="f7166-110"> EDI</span></span>|  
-|<span data-ttu-id="f7166-111">元件</span><span class="sxs-lookup"><span data-stu-id="f7166-111">Component</span></span>|<span data-ttu-id="f7166-112">EDI 引擎</span><span class="sxs-lookup"><span data-stu-id="f7166-112">EDI Engine</span></span>|  
-|<span data-ttu-id="f7166-113">符號名稱</span><span class="sxs-lookup"><span data-stu-id="f7166-113">Symbolic Name</span></span>|<span data-ttu-id="f7166-114">EfactFunctionalGroupSendError</span><span class="sxs-lookup"><span data-stu-id="f7166-114">EfactFunctionalGroupSendError</span></span>|  
-|<span data-ttu-id="f7166-115">訊息文字</span><span class="sxs-lookup"><span data-stu-id="f7166-115">Message Text</span></span>|<span data-ttu-id="f7166-116">在序列化期間發生錯誤。</span><span class="sxs-lookup"><span data-stu-id="f7166-116">Error encountered during serialization.</span></span> <span data-ttu-id="f7166-117">Edifact 功能群組識別碼為 '{0}'，識別碼 '{1}' 交換中寄件者識別碼 '{2}'，接收者識別碼 '{3}' 發生下列錯誤：</span><span class="sxs-lookup"><span data-stu-id="f7166-117">The Edifact functional group with id '{0}', in interchange with id '{1}', with sender id '{2}', receiver id '{3}' had the following errors:</span></span>|  
+|                 |                                                                                                                                                                                     |
+|-----------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <span data-ttu-id="764aa-106">產品名稱</span><span class="sxs-lookup"><span data-stu-id="764aa-106">Product Name</span></span>   |                                                 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]                                                  |
+| <span data-ttu-id="764aa-107">產品版本</span><span class="sxs-lookup"><span data-stu-id="764aa-107">Product Version</span></span> |                                                             [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]                                                              |
+|    <span data-ttu-id="764aa-108">事件識別碼</span><span class="sxs-lookup"><span data-stu-id="764aa-108">Event ID</span></span>     |                                                                                          -                                                                                          |
+|  <span data-ttu-id="764aa-109">事件來源</span><span class="sxs-lookup"><span data-stu-id="764aa-109">Event Source</span></span>   |                                               [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]<span data-ttu-id="764aa-110"> EDI</span><span class="sxs-lookup"><span data-stu-id="764aa-110"> EDI</span></span>                                                |
+|    <span data-ttu-id="764aa-111">元件</span><span class="sxs-lookup"><span data-stu-id="764aa-111">Component</span></span>    |                                                                                     <span data-ttu-id="764aa-112">將 EDI 引擎</span><span class="sxs-lookup"><span data-stu-id="764aa-112">EDI Engine</span></span>                                                                                      |
+|  <span data-ttu-id="764aa-113">符號名稱</span><span class="sxs-lookup"><span data-stu-id="764aa-113">Symbolic Name</span></span>  |                                                                            <span data-ttu-id="764aa-114">EfactFunctionalGroupSendError</span><span class="sxs-lookup"><span data-stu-id="764aa-114">EfactFunctionalGroupSendError</span></span>                                                                            |
+|  <span data-ttu-id="764aa-115">訊息文字</span><span class="sxs-lookup"><span data-stu-id="764aa-115">Message Text</span></span>   | <span data-ttu-id="764aa-116">序列化期間發生的錯誤。</span><span class="sxs-lookup"><span data-stu-id="764aa-116">Error encountered during serialization.</span></span> <span data-ttu-id="764aa-117">Edifact 功能群組識別碼 '{0}'，在交換識別碼'{1}'，寄件者識別碼為 '{2}'，接收者識別碼'{3}' 發生下列錯誤：</span><span class="sxs-lookup"><span data-stu-id="764aa-117">The Edifact functional group with id '{0}', in interchange with id '{1}', with sender id '{2}', receiver id '{3}' had the following errors:</span></span> |
   
-## <a name="explanation"></a><span data-ttu-id="f7166-118">說明</span><span class="sxs-lookup"><span data-stu-id="f7166-118">Explanation</span></span>  
- <span data-ttu-id="f7166-119">這個錯誤/警告/資訊事件表示 EDI 傳送管線在外寄 EDIFACT 交換內功能群組序列化因為與群組敘述的錯誤時，會發生錯誤。</span><span class="sxs-lookup"><span data-stu-id="f7166-119">This Error/Warning/Information event indicates that the EDI send pipeline encountered an error when serializing a functional group within an outgoing EDIFACT interchange because of the stated errors with the group.</span></span>  
+## <a name="explanation"></a><span data-ttu-id="764aa-118">說明</span><span class="sxs-lookup"><span data-stu-id="764aa-118">Explanation</span></span>  
+ <span data-ttu-id="764aa-119">這個錯誤/警告/資訊事件表示 EDI 傳送管線在序列化外寄 EDIFACT 交換內功能群組，因為與群組敘述的錯誤時，會發生錯誤。</span><span class="sxs-lookup"><span data-stu-id="764aa-119">This Error/Warning/Information event indicates that the EDI send pipeline encountered an error when serializing a functional group within an outgoing EDIFACT interchange because of the stated errors with the group.</span></span>  
   
-## <a name="user-action"></a><span data-ttu-id="f7166-120">使用者動作</span><span class="sxs-lookup"><span data-stu-id="f7166-120">User Action</span></span>  
- <span data-ttu-id="f7166-121">若要解決這個錯誤，錯誤訊息中使用的資訊來識別功能群組中的錯誤並再判斷文件中的問題解決方法。</span><span class="sxs-lookup"><span data-stu-id="f7166-121">To resolve this error, use the information in the error message to identify the error in the functional group and then determine the problem resolution in the documentation.</span></span>
+## <a name="user-action"></a><span data-ttu-id="764aa-120">使用者動作</span><span class="sxs-lookup"><span data-stu-id="764aa-120">User Action</span></span>  
+ <span data-ttu-id="764aa-121">若要解決這個錯誤，錯誤訊息中使用的資訊來識別功能群組中的錯誤訊息，然後判斷 文件中的問題解決方法。</span><span class="sxs-lookup"><span data-stu-id="764aa-121">To resolve this error, use the information in the error message to identify the error in the functional group and then determine the problem resolution in the documentation.</span></span>
