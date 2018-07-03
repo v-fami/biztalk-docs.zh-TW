@@ -1,5 +1,5 @@
 ---
-title: 安裝和設定 BizTalk Server HTTP 前端伺服器上 |Microsoft 文件
+title: 安裝和設定 BizTalk Server HTTP 前端伺服器上 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,26 +15,26 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 045a44c05789015d73bc797da14568d2cc3732f8
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 38605a921a1c2761f73c5871544d8853814f6e0f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26004407"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37014167"
 ---
 # <a name="installing-and-configuring-biztalk-server-on-the-http-front-end-servers"></a>安裝和設定 BizTalk Server HTTP 前端伺服器上
-本章節描述如何安裝和設定 BizTalk Server 来做為 HTTP 前端伺服器裝載 MRSR 站台和[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]範本表單。  
-  
+本節說明如何安裝和設定 BizTalk Server 來裝載 MRSR 站台使用與 HTTP 前端伺服器和[!INCLUDE[btsInpathNoVersion](../../includes/btsinpathnoversion-md.md)]範本表單。  
+
 ### <a name="to-install-and-configure-biztalk-server-on-the-biztalk-http-front-end-servers"></a>安裝和設定 BizTalk HTTP 前端伺服器上的 BizTalk Server  
-  
-1.  執行自訂安裝的[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]選擇下列功能：**商務規則引擎**和**SharePoint 配接器**。  
-  
-    > [!NOTE]
-    >  其他功能並不需要這項安裝。  
-  
-    > [!NOTE]
-    >  對其中一個 BizTalk HTTP 前端伺服器，當您執行設定，建立 BizTalk 群組。  
-  
-2.  執行設定[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。  
-  
-3.  安裝所需的任何其他 hotfix[!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]為可用安裝指南中。
+
+1. 執行自訂安裝[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]選擇下列功能：**商務規則引擎**並**SharePoint 配接器**。  
+
+   > [!NOTE]
+   >  其他功能不需要這項安裝。  
+
+   > [!NOTE]
+   >  其中一個 BizTalk HTTP 前端伺服器，當您執行組態，建立 BizTalk 群組。  
+
+2. 執行設定[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]。  
+
+3. 安裝所需的任何其他 hotfix[!INCLUDE[A4SWIFT_CurrentVersion_abbrev](../../includes/a4swift-currentversion-abbrev-md.md)]可用的安裝指南。

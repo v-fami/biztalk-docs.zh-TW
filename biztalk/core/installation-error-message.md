@@ -1,5 +1,5 @@
 ---
-title: 安裝錯誤訊息 |Microsoft 文件
+title: 安裝錯誤訊息 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,17 +15,17 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5ec99a2e9f20b09c4daddad0336037c7f539782a
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 1fe3b422c860b4b697b259dc731f5484fac87455
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25971916"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37001807"
 ---
 # <a name="installation-error-message"></a>安裝錯誤訊息
 安裝 Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 之後，定義其傳送或接收位置時，可能會產生下列錯誤：  
   
- 「 傳訊引擎無法將接收 URL"\<傳送/接收位置 URL\>」 配接器"TIBCO EMS"。 原因: 「 檔案或組件名稱 TIBCO。EMS，或其中一個相依性，找不到。 」  
+ 傳訊引擎無法將接收 URL"\<傳送/接收位置 URL\>」 配接器"TIBCO EMS"。 原因:"檔案或組件名稱 TIBCO。EMS 或其相依性的其中一個是找不到。 」  
   
 ## <a name="possible-causes"></a>可能的原因  
  這個錯誤通常是因為下列其中一個原因造成。  
@@ -50,11 +50,11 @@ ms.locfileid: "25971916"
   
  請執行下列步驟來避免錯誤訊息：  
   
-1.  使用任何文字編輯器開啟 BTSNTSVC.exe.config 檔案。  
+1. 使用任何文字編輯器開啟 BTSNTSVC.exe.config 檔案。  
   
-     此檔案位於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]目錄 (預設安裝位置是： [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)])。  
+    此檔案位於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]目錄 (預設安裝位置是： [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)])。  
   
-2.  做為子系，將下列項目加入至 BTSNTSVC.exe.config 檔， \<assemblyBinding\>項目：  
+2. 為子系時，將下列項目加入至 BTSNTSVC.exe.config 檔中， \<assemblyBinding\>項目：  
   
 ```  
 <dependentAssembly>  
@@ -65,7 +65,7 @@ ms.locfileid: "25971916"
 </dependentAssembly>  
 ```  
   
- 如果先前尚未修改 BTSNTSVC.exe.config 檔案， \<assemblyBinding\>項目不會看起來像這樣：  
+ 如果沒有先前修改 BTSNTSVC.exe.config 檔案， \<assemblyBinding\>項目不會看起來像這樣：  
   
 ```  
 <assemblyBinding xmlns="urn:schemas-microsoft-com:asm.v1">  
@@ -80,18 +80,18 @@ ms.locfileid: "25971916"
 </assemblyBinding>  
 ```  
   
-1.  在命令提示字元中輸入命令： `GACUTIL /L TIBCO.EMS`。  
+1. 在命令提示字元中，輸入命令： `GACUTIL /L TIBCO.EMS`。  
   
-2.  從輸出複製 TIBCO.EMS 組件版本號碼。  
+2. 從輸出複製 TIBCO.EMS 組件版本號碼。  
   
-    > [!CAUTION]
-    >  會出現兩個版本號碼： 其中一個是 gacutil 公用程式的版本號碼。 您想出現後方的第二個版本號碼**版本 =**。  
+   > [!CAUTION]
+   >  兩個版本號碼會出現： 其中一個是 gacutil 公用程式的版本號碼。 您想要的後方出現的第二個版本號碼**版本 =**。  
   
-3.  貼上之後的版本號碼，在 BTSNTSVC.exe.config 檔案中，加上引號， **newVersion =** （粗體上述 XML 範例中的字元）。  
+3. 後面貼在 BTSNTSVC.exe.config 檔案中，引號，之間的版本號碼**newVersion =** （粗體在上述 XML 範例中的字元）。  
   
-4.  儲存已修改的 BTSNTSVC.exe.config 檔。  
+4. 儲存已修改的 BTSNTSVC.exe.config 檔。  
   
-5.  重新啟動 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 主控件。  
+5. 重新啟動 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 主控件。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [TIBCO Enterprise Message Service 疑難排解](../core/troubleshooting-tibco-enterprise-message-service.md)

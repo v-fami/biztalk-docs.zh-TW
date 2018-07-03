@@ -1,5 +1,5 @@
 ---
-title: 叫用函式和 Oracle 資料庫使用 WCF 服務模型中的程序 |Microsoft 文件
+title: 叫用函式，並使用 WCF 服務模型的 Oracle 資料庫中的程序 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,35 +15,35 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9f1fac59fc77b0cf52abe789db8feb2305043708
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 2f1423d5945fe1c82ccc64027a28efa3c1777ca5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25966356"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37013151"
 ---
-# <a name="invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model"></a>叫用函式和 Oracle 資料庫使用 WCF 服務模型中的程序
-[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現程序、 函數和封裝做為作業。 WCF 服務模型中的 WCF 用戶端上的方法以表示這些作業。 WCF 服務模型和[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]:  
+# <a name="invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model"></a>叫用函式，並使用 WCF 服務模型的 Oracle 資料庫中的程序
+[!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現程序、 函數和封裝做為作業。 WCF 服務模型中這些作業會表示為 WCF 用戶端上的方法。 WCF 服務模型和[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]:  
   
--   **支援函式**。 Oracle 函式的傳回值會呈現為 WCF 用戶端方法的傳回值。 Oracle 參數被當成 WCF 用戶端方法 （具有適當的方向為定義以下） 的參數。  
+-   **支援的函式**。 Oracle 函式的傳回值會呈現為 WCF 用戶端方法的傳回值。 Oracle 參數做為參數 （使用適當的方向定義下方） 呈現給 WCF 用戶端方法。  
   
--   **支援的程序**。 OUT 參數的 Oracle 程序的第一個會呈現為 WCF 用戶端方法的傳回值。 所有其他的 Oracle 參數當成 （具有適當的方向為定義以下） 的參數至 WCF 用戶端方法。  
+-   **支援程序**。 OUT 參數的 Oracle 程序的第一個會呈現為 WCF 用戶端方法的傳回值。 所有其他的 Oracle 參數做為參數 （使用適當的方向定義下方） 呈現給 WCF 用戶端方法。  
   
--   **支援 Oracle 封裝**。 作業的名稱和其參數類型的命名空間會限定封裝名稱。  
+-   **支援 Oracle package**。 作業的名稱和其參數型別命名空間會依套件名稱限定。  
   
--   **支援多載函式和程序**。  
+-   **支援多載的函式和程序**。  
   
--   **支援 IN、 OUT 和 IN，OUT 參數的程序和函式的基本 Oracle 資料型別**。 OUT 參數當成**出**WCF 用戶端方法的參數，並在 OUT 參數當成**ref**參數。  
+-   **支援 IN，OUT 和 IN，OUT 參數的程序和函式的基本 Oracle 資料型別**。 OUT 參數當成**放大**WCF 用戶端方法的參數，並在 OUT 參數當成**ref**參數。  
   
--   **支援 IN、 OUT、 和 IN 出程序和函式，以及函式傳回值的 REF CURSOR 參數**。 如需詳細資訊，請參閱[執行作業使用 REF 資料指標在 Oracle 資料庫中使用 WCF 服務模型](../../adapters-and-accelerators/adapter-oracle-database/run-operations-using-ref-cursors-in-oracle-database-using-the-wcf-service-model.md)。  
+-   **支援 IN、 OUT，並在 OUT REF CURSOR 參數的程序和函式，以及函式傳回值**。 如需詳細資訊，請參閱 <<c0> [ 執行作業使用 REF 資料指標在 Oracle 資料庫中使用 WCF 服務模型](../../adapters-and-accelerators/adapter-oracle-database/run-operations-using-ref-cursors-in-oracle-database-using-the-wcf-service-model.md)。  
   
--   **支援，OUT、 出記錄中的型別參數的程序和函式，以及函式傳回值**。 如需詳細資訊，請參閱[執行作業使用記錄類型在 Oracle 資料庫中使用 WCF 服務模型](../../adapters-and-accelerators/adapter-oracle-database/using-record-types-in-oracle-database-using-the-wcf-service-model.md)。  
+-   **支援外，IN 出記錄型別參數的程序和函式，以及函式傳回的值**。 如需詳細資訊，請參閱 <<c0> [ 執行作業使用記錄類型在 Oracle 資料庫中使用 WCF 服務模型](../../adapters-and-accelerators/adapter-oracle-database/using-record-types-in-oracle-database-using-the-wcf-service-model.md)。  
   
-## <a name="about-the-examples-used-in-this-topic"></a>關於本主題中使用的範例  
- 這個主題使用 /SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNT 中的範例中，多載程序。 此程序讀取記錄從 SCOTT/帳戶資料表為基礎的帳戶識別碼或帳戶名稱。 指令碼來產生這個程序和資料表所提供的 SDK 範例。 如需 SDK 範例的詳細資訊，請參閱[SDK 中的範例](../../core/samples-in-the-sdk.md)。  
+## <a name="about-the-examples-used-in-this-topic"></a>有關使用本主題中的範例  
+ 本主題使用 /SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNT 中的範例多載程序。 此程序會從帳戶識別碼或帳戶名稱為基礎的 SCOTT/帳戶資料表讀取記錄。 此程序和資料表所產生的指令碼隨附於 SDK 範例。 如需有關 SDK 範例的詳細資訊，請參閱[SDK 中的範例](../../core/samples-in-the-sdk.md)。  
   
 ## <a name="the-wcf-client-class"></a>WCF 用戶端類別  
- 下表顯示 WCF 用戶端和程序，為產生的方法名稱函式，以及封裝[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]介面。 多載函式或程序，除非單一 WCF 用戶端用來叫用的所有結構描述時，所有的結構描述中的程序或所有函式中的函式和封裝中的程序。  
+ 下表顯示的 WCF 用戶端和程序，產生的方法名稱的函式和封裝[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]介面。 多載函式或程序，除非單一的 WCF 用戶端用來叫用的所有結構描述中所有結構描述中的程序或所有函式的函式和封裝中的程序。  
   
 |Oracle 成品|WCF 用戶端作業名稱|範例|  
 |---------------------|-------------------------------|-------------|  
@@ -51,53 +51,53 @@ ms.locfileid: "25966356"
 |函數|[結構描述]FunctionClient。[FUNC_NAME]|SCOTTProcedureClient.MYFUNC|  
 |封裝 （程序或函數）|[結構描述]封裝 [PACKAGE_NAME] 用戶端。[PROC_NAME 或 FUNC_NAME]|SCOTTPackageMYPACKAGEClient.MYPROC|  
   
- [SCHEMA] = 集合的 Oracle 成品。例如，SCOTT。  
+ [SCHEMA] = 集合的 Oracle 成品、比方說，SCOTT。  
   
- [PROC_NAME] = Oracle 程序; 的名稱例如，MYPROC。  
+ [PROC_NAME] = Oracle 程序; 的名稱比方說，MYPROC。  
   
- [FUNC_NAME] = Oracle 函式; 的名稱例如，MYFUNC。  
+ [FUNC_NAME] = Oracle 函式; 的名稱比方說，MYFUNC。  
   
  [PACKAGE_NAME] = Oracle 封裝的名稱。  
   
- [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]表示 Oracle 記錄型別參數和傳回值，以及傳回 REF CURSOR 參數為複雜的 XML 型別包含 Oracle 記錄的資料列資料 （或欄位） 的結果集。 在 WCF 服務模型中，每個 XML 類型被以.NET 類別。此類別的屬性代表 REF 資料指標結果集的記錄類型的欄位。 Oracle 記錄類型永遠會表示為強型別.NET 類別。 但是，REF 資料指標結果集，可以表示為根據 REF CURSOR 本身是否宣告為強型別或弱型別是強型別或弱式型別的記錄。 表示 REF CURSOR 或記錄類型參數 （或傳回值） 會在基礎程序、 函數或封裝的唯一命名空間中產生類別。 下表顯示這些命名空間。  
+ [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]表示 Oracle 記錄型別參數和傳回值，以及傳回 REF CURSOR 參數為複雜的 XML 型別包含 Oracle 資料錄的資料列的資料 （或欄位） 的結果集。 在 WCF 服務模型中，每一種 XML 類型被以.NET 類別;此類別的屬性代表記錄型別或 REF 資料指標結果集的欄位。 強型別.NET 類別一律會以表示 oracle 記錄類型。 然而，REF 資料指標結果集，可以表示為 REF CURSOR 本身是否宣告為強型別或弱式型別為基礎的強型別，或弱式型別的記錄。 表示 REF CURSOR 或記錄型別參數 （或傳回值） 會在基礎程序、 函數或封裝的唯一命名空間中產生的類別。 下表顯示這些命名空間。  
   
 |Oracle 成品|命名空間|範例|  
 |---------------------|---------------|-------------|  
-|程序|[BASE_NS]。 [結構描述]。程序。[PROC_NAME]|microsoft.lobservices.oracledb._2007._03.SCOTT。Procedure.MYPROC|  
-|函數|[BASE_NS]。 [結構描述]。函式。[FUNC_NAME]|microsoft.lobservices.oracledb._2007._03.SCOTT。Function.MYFUNC|  
-|封裝 （程序）|[BASE_NS]。 [結構描述]。封裝。[PACKAGE_NAME]。[PROC_NAME]|microsoft.lobservices.oracledb._2007._03.SCOTT。Package.MYPACKAGE.MYPROC|  
-|封裝 （函式）|[BASE_NS]。 [結構描述]。封裝。[PACKAGE_NAME]。[FUNC_NAME]|microsoft.lobservices.oracledb._2007._03.SCOTT。Package.MYPACKAGE.MYFUNC|  
+|程序|[BASE_NS]。 [SCHEMA]。程序。[PROC_NAME]|microsoft.lobservices.oracledb._2007._03.SCOTT。Procedure.MYPROC|  
+|函數|[BASE_NS]。 [SCHEMA]。函式。[FUNC_NAME]|microsoft.lobservices.oracledb._2007._03.SCOTT。Function.MYFUNC|  
+|封裝 （程序）|[BASE_NS]。 [SCHEMA]。封裝。[PACKAGE_NAME]。[PROC_NAME]|microsoft.lobservices.oracledb._2007._03.SCOTT。Package.MYPACKAGE.MYPROC|  
+|封裝 （函式）|[BASE_NS]。 [SCHEMA]。封裝。[PACKAGE_NAME]。[FUNC_NAME]|microsoft.lobservices.oracledb._2007._03.SCOTT。Package.MYPACKAGE.MYFUNC|  
 |一般記錄集 （弱型別）|[BASE_NS]|microsoft.lobservices.oracledb._2007._03|  
   
  [BASE_NS] = 的基底配接器命名空間中。microsoft.lobservices.oracledb._2007._03。  
   
- [SCHEMA] = 集合的 Oracle 成品。例如，SCOTT。  
+ [SCHEMA] = 集合的 Oracle 成品、比方說，SCOTT。  
   
  [PROC_NAME] = Oracle 程序; 的名稱例如，MYPROC。  
   
- [FUNC_NAME] = Oracle 函式; 的名稱例如 MYFUNC。  
+ [FUNC_NAME] = Oracle 函式; 的名稱比方說 MYFUNC。  
   
  [PACKAGE_NAME] = Oracle 封裝的名稱。  
   
- 如需這些命名空間中如何使用記錄的參數資訊，請參閱[執行作業使用記錄類型在 Oracle 資料庫中使用 WCF 服務模型](../../adapters-and-accelerators/adapter-oracle-database/using-record-types-in-oracle-database-using-the-wcf-service-model.md)。 如需這些命名空間中如何使用 REF CURSOR 參數的資訊，請參閱[執行作業使用 REF 資料指標在 Oracle 資料庫中使用 WCF 服務模型](../../adapters-and-accelerators/adapter-oracle-database/run-operations-using-ref-cursors-in-oracle-database-using-the-wcf-service-model.md)。  
+ 如需這些命名空間如何用於記錄參數資訊，請參閱[執行作業使用記錄類型在 Oracle 資料庫中使用 WCF 服務模型](../../adapters-and-accelerators/adapter-oracle-database/using-record-types-in-oracle-database-using-the-wcf-service-model.md)。 如需這些命名空間中如何使用 REF CURSOR 參數的詳細資訊，請參閱[執行作業使用 REF 資料指標在 Oracle 資料庫中使用 WCF 服務模型](../../adapters-and-accelerators/adapter-oracle-database/run-operations-using-ref-cursors-in-oracle-database-using-the-wcf-service-model.md)。  
   
  一般情況下，Oracle 參數和傳回值會對應，如下所示的 WCF 用戶端方法中：  
   
--   Oracle IN 參數會對應至.NET （輸入） 的參數。  
+- Oracle IN 參數會對應至.NET （輸入） 的參數。  
   
--   Oracle OUT 參數會對應至.NET**出**參數。  
+- Oracle OUT 參數會對應至.NET**出**參數。  
   
--   Oracle IN OUT 參數會對應至.NET **ref**參數。  
+- Oracle 在 OUT 參數會對應至.NET **ref**參數。  
   
--   函式傳回值會對應到方法的傳回值。  
+- 函式傳回值會對應至方法的傳回值。  
   
- 不過，有兩個重要的例外狀況：  
+  不過，有兩個重要的例外狀況：  
   
--   REF CURSOR oracle IN OUT 參數會分割輸入的字串和輸出 (**出**) 記錄集。 這是因為[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]表示在 REF CUSROR 參數做為字串和 OUT REF CURSOR 參數為複雜類型 （資料錄集），無法合併至單一參數。  
+- Oracle IN 出 REF CURSOR 參數會分割輸入的字串和輸出 (**出**) 記錄集。 這是因為[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]表示在 REF CUSROR 參數做為字串和出 REF CURSOR 參數做為複雜型別 （記錄集），無法合併至單一參數。  
   
--   OUT 參數的 Oracle 程序中的第一個會對應至 WCF 用戶端方法的傳回值。 這是標準的 WCF 行為。  
+- OUT 參數的 Oracle 程序中的第一個會對應至 WCF 用戶端方法的傳回值。 這是標準的 WCF 行為。  
   
- 下列範例會示範簡單 （載入 SCOTT 結構描述中） 的 Oracle 程序的一部分，會叫用它來產生 WCF 用戶端方法的簽章。 Oracle 程序有三個 IN 參數、 三個 IN OUT 參數，以及三個 OUT 參數。不過，WCF 用戶端方法未對應的 OUT 參數的第一個參數。 而是它會對應到方法的傳回值。  
+  下列範例會示範簡單 （載入 SCOTT 結構描述中） 的 Oracle 程序的一部分，並且會叫用它產生 WCF 用戶端方法的簽章。 Oracle 程序有三個 IN 參數、 三個在 OUT 參數，以及三個 OUT 參數。不過，WCF 用戶端方法未對應的 OUT 參數的第一個參數。 而是會對應至方法的傳回值。  
   
 ```  
 CREATE or REPLACE PROCEDURE Sample_Procedure   
@@ -138,46 +138,46 @@ public partial class SCOTTProcedureClient : System.ServiceModel.ClientBase<SCOTT
 ```  
   
 ### <a name="support-for-overloaded-procedures-functions-and-packages"></a>支援多載程序、 函數和封裝  
- [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]支援由多載程序、 函數和封裝附加唯一字串的節點識別碼，它會呈現每個多載成品的命名空間。 此字串是下一個多載，等第一個多載中，「 overload2""overload1"。  
+ [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]支援由多載程序、 函數和封裝將唯一的字串附加至的節點識別碼，它會呈現每個多載成品的命名空間。 此字串會是第一個多載而言，「 overload2""overload1 」 下, 一個多載，依此類推。  
   
- WCF 服務模型中每個多載程序或函式會以唯一的 WCF 用戶端。 這點不同於在非多載的情況中所有結構描述時，所有結構描述中的程序中的函數或程序和函式，在封裝中的所有叫用之相同的 WCF 用戶端。 下表顯示 WCF 用戶端名稱和多載程序、 函式，以及封裝所產生的方法。  
+ WCF 服務模型中每個多載程序或函式被以唯一的 WCF 用戶端。 這點不同於非多載中的案例中的結構描述中結構描述的程序的所有函式的所有或所有的程序和封裝中的函式會叫用相同的 WCF 用戶端。 下表會顯示 WCF 用戶端名稱和方法多載程序、 函式，以及封裝所產生。  
   
 |Oracle 成品|WCF 用戶端名稱|範例|  
 |---------------------|---------------------|-------------|  
-|多載的封裝 （程序）|[結構描述]封裝 [PACKAGE_NAME] [PROC_NAME]] [OVERLOAD_ID] 用戶端。[PROC_NAME]|SCOTTPackageMYPACKAGEMYPROCoverload1Client.MYPROC|  
-|多載的封裝 （函式）|[結構描述]封裝 [PACKAGE_NAME] [FUNC_NAME]] [OVERLOAD_ID] 用戶端。[FUNC_NAME]|SCOTTPackageMYPACKAGEMYFUNCoverload1Client.MYFUNC|  
+|多載的封裝 （程序）|[結構描述]套件 [PACKAGE_NAME] [PROC_NAME]] [OVERLOAD_ID] 用戶端。[PROC_NAME]|SCOTTPackageMYPACKAGEMYPROCoverload1Client.MYPROC|  
+|多載的封裝 （函式）|[結構描述]套件 [PACKAGE_NAME] [FUNC_NAME]] [OVERLOAD_ID] 用戶端。[FUNC_NAME]|SCOTTPackageMYPACKAGEMYFUNCoverload1Client.MYFUNC|  
   
- [SCHEMA] = 集合的 Oracle 成品。例如，SCOTT。  
+ [SCHEMA] = 集合的 Oracle 成品、比方說，SCOTT。  
   
  [PROC_NAME] = Oracle 程序; 的名稱例如，MYPROC。  
   
- [FUNC_NAME] = Oracle 函式; 的名稱例如 MYFUNC。  
+ [FUNC_NAME] = Oracle 函式; 的名稱比方說 MYFUNC。  
   
  [PACKAGE_NAME] = Oracle 封裝的名稱。  
   
- [OVERLOAD_ID] = 唯一的字串，識別多載的成品。「 overload1"、"overload2"，等等。  
+ [OVERLOAD_ID] = 唯一的字串，識別多載的成品;「 overload1"、"overload2"，等等。  
   
- 下表顯示多載程序、 函式，以及封裝所產生的命名空間。  
+ 下表顯示的多載程序、 函數和封裝所產生的命名空間。  
   
 |Oracle 成品|命名空間|範例|  
 |---------------------|---------------|-------------|  
-|封裝 （程序）|[BASE_NS]。 [結構描述]。封裝。[PACKAGE_NAME]。[PROC_NAME][OVERLOAD_ID]|microsoft.lobservices.oracledb._2007._03.SCOTT。Package.MYPACKAGE.MYPROC.overload1|  
-|封裝 （函式）|[BASE_NS]。 [結構描述]。封裝。[PACKAGE_NAME]。[FUNC_NAME]。[OVERLOAD_ID]|microsoft.lobservices.oracledb._2007._03.SCOTT。Package.MYPACKAGE.MYFUNC.overload1|  
+|封裝 （程序）|[BASE_NS]。 [SCHEMA]。封裝。[PACKAGE_NAME]。[PROC_NAME][OVERLOAD_ID]|microsoft.lobservices.oracledb._2007._03.SCOTT。Package.MYPACKAGE.MYPROC.overload1|  
+|封裝 （函式）|[BASE_NS]。 [SCHEMA]。封裝。[PACKAGE_NAME]。[FUNC_NAME]。[OVERLOAD_ID]|microsoft.lobservices.oracledb._2007._03.SCOTT。Package.MYPACKAGE.MYFUNC.overload1|  
 |一般記錄集 （弱型別）|[BASE_NS]|microsoft.lobservices.oracledb._2007._03|  
   
  [BASE_NS] = 的基底配接器命名空間中。microsoft.lobservices.oracledb._2007._03。  
   
- [SCHEMA] = 集合的 Oracle 成品。例如，SCOTT。  
+ [SCHEMA] = 集合的 Oracle 成品、比方說，SCOTT。  
   
  [PROC_NAME] = Oracle 程序; 的名稱例如，MYPROC。  
   
- [FUNC_NAME] = Oracle 函式; 的名稱例如 MYFUNC。  
+ [FUNC_NAME] = Oracle 函式; 的名稱比方說 MYFUNC。  
   
  [PACKAGE_NAME] = Oracle 封裝的名稱。  
   
- [OVERLOAD_ID] = 唯一的字串，識別多載的成品。「 overload1"、"overload2"，等等。 字串中的數值是 Oracle 資料庫所維護之成品的多載識別碼。  
+ [OVERLOAD_ID] = 唯一的字串，識別多載的成品;「 overload1"、"overload2"，等等。 在字串中的數值是 Oracle 資料庫所維護之成品的多載識別碼。  
   
- 下列範例示範 WCF 用戶端和針對 ACCOUNT_PKG 封裝中的多載 GET_ACCOUNT 程序產生的方法簽章。 （Oracle 宣告會包含）。此範例示範如何產生唯一的 WCF 用戶端的每一個多載，以及如何針對每個用戶端產生該方法會傳回唯一的命名空間中設定的記錄。  
+ 下列範例示範 WCF 用戶端和 ACCOUNT_PKG 封裝中的多載 GET_ACCOUNT 程序所產生的方法簽章。 （Oracle 宣告會包含）。此範例會示範如何產生唯一的 WCF 用戶端的每一個多載，以及如何產生每個用戶端的方法會傳回唯一的命名空間中的記錄集。  
   
 ```  
 /* Procedure that takes account ID and returns record for existing account in the ACCOUNT table */  
@@ -202,23 +202,23 @@ public partial class SCOTTPackageACCOUNT_PKGGET_ACCOUNToverload2Client : System.
 ```  
   
 ## <a name="invoking-functions-and-procedures"></a>叫用的函數和程序  
- 要叫用函式或程序，使用 WCF 用戶端，執行下列步驟。  
+ 若要使用 WCF 用戶端，叫用函式或程序，請執行下列步驟。  
   
-1.  產生目標函式、 程序或封裝的 WCF 用戶端類別。 這個類別應該包含您將目標成品叫用作業的方法。  
+1. 產生 WCF 用戶端類別，目標函式、 程序，或封裝。 這個類別應該包含您將會在目標成品叫用作業的方法。  
   
-    > [!NOTE]
-    >  在[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]，多載函式和程序會出現在**可用的類別和作業**為 [NAME].1，[NAME].2、.3、 [名稱] 方塊並依此類推，[NAME] 所在的多載的成品和數字的值名稱是 Oracle 資料庫上的多載識別碼。  
+   > [!NOTE]
+   >  在[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]，多載函式和程序會出現在**可用的類別和作業**為 [NAME].1、.2、.3，[名稱] [名稱] 方塊並依此類推，其中 [名稱] 是多載的成品和數字值的名稱是的 Oracle 資料庫上的多載識別碼。  
   
-2.  建立 WCF 用戶端類別的執行個體並呼叫其方法來叫用的函式或程序。  
+2. 建立 WCF 用戶端類別的執行個體，並呼叫其方法來叫用函式或程序。  
   
- 如需詳細資訊，有關如何建立 WCF 用戶端類別，並在叫用作業[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]，請參閱[與 Oracle 資料庫配接器的 WCF 服務模型概觀](../../adapters-and-accelerators/adapter-oracle-database/overview-of-the-wcf-service-model-with-the-oracle-database-adapter.md)。  
+   如需詳細資訊，有關如何建立 WCF 用戶端類別，並在叫用作業[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]，請參閱 <<c2> [ 的 Oracle 資料庫配接器使用 WCF 服務模型概觀](../../adapters-and-accelerators/adapter-oracle-database/overview-of-the-wcf-service-model-with-the-oracle-database-adapter.md)。  
   
- [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]的 Oracle 資料庫上執行交易內的每一項作業。  
+   [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]的 Oracle 資料庫上執行每個作業在交易內。  
   
 > [!IMPORTANT]
->  唯一的命名空間中宣告的類別代表 REF CURSOR 和記錄型別參數或傳回值的函式或程序 （和封裝） 中的每個函式或程序。 這表示，例如，封裝 REF 資料指標類型做為傳回值會在兩個不同的函式宣告中唯一的命名空間時的每個 WCF 用戶端方法。 您可能必須宣告另一個變數來保存這些不同的傳回值，或當您叫用 WCF 用戶端方法的其中一個適當轉換變數。  
+>  唯一的命名空間中宣告類別代表 REF CURSOR 和記錄型別參數或傳回值的函式或程序 （和封裝） 中的每個函式或程序。 這表示，例如，做為兩個不同的函式的傳回值的封裝 REF 資料指標類型會宣告唯一的命名空間中，每個 WCF 用戶端方法。 您可能必須宣告不同變數來保存這些不同的傳回值，或當您叫用 WCF 用戶端方法的其中一個適當轉換變數。  
   
- 下列範例示範如何呼叫取得帳戶記錄 /SCOTT/ACCOUNT 資料表中的多載的 /SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNT 程序。 首先會建立新的記錄，藉由呼叫 /SCOTT/Package/ACCOUNT_PKG/CREATE_ACCOUNT 程序。 然後讀取新的記錄備份兩次所呼叫的 GET_ACCOUNT 不同多載。 這個範例會使用三個 WCF 用戶端，一個用於 CREATE_ACCOUNT 程序，分別指派給 GET_ACCOUNT 多載。 別名用來區別 GET_ACCOUNT 傳回值使用的命名空間。 SDK 範例提供完整的範例。 如需 SDK 範例的詳細資訊，請參閱[SDK 中的範例](../../core/samples-in-the-sdk.md)。  
+ 下列範例示範如何呼叫的多載的 /SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNT 程序，以取得 /SCOTT/ACCOUNT 資料表中的帳戶記錄。 先透過呼叫 /SCOTT/Package/ACCOUNT_PKG/CREATE_ACCOUNT 程序建立新的記錄。 然後讀取新的記錄後，兩次藉由呼叫 GET_ACCOUNT 的不同多載。 此範例使用三個 WCF 用戶端，一個用於 CREATE_ACCOUNT 程序，每個代表 GET_ACCOUNT 多載。 別名用來區別 GET_ACCOUNT 的傳回值所使用的命名空間。 使用 SDK 範例的完整範例。 如需有關 SDK 範例的詳細資訊，請參閱[SDK 中的範例](../../core/samples-in-the-sdk.md)。  
   
 ```  
 using System;  
@@ -354,5 +354,5 @@ namespace OracleOverloadsSM
 }  
 ```  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [使用 WCF 服務模型開發 Oracle 資料庫應用程式](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-service-model.md)

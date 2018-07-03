@@ -1,5 +1,5 @@
 ---
-title: 重複以上需要 |Microsoft 文件
+title: 重複次數多於需要 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5cb8f9e324c9d09e09649719c98e3f684b0d81f2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4ac4649ea88756ba63393155ca8910437567fbd1
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22268222"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37024036"
 ---
-# <a name="repeats-more-than-required"></a>重複以上所需
+# <a name="repeats-more-than-required"></a>重複次數多於需要
 ## <a name="details"></a>詳細資料  
   
-|||  
-|-|-|  
-|產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|產品版本|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|事件識別碼|-|  
-|事件來源|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]EDI|  
-|元件|EDI 引擎|  
-|符號名稱|X12FeRepeatsMoreThanRequiredDescription|  
-|訊息文字|重複以上所需|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  產品名稱   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| 產品版本 |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    事件識別碼     |                                           -                                            |
+|  事件來源   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI |
+|    元件    |                                       將 EDI 引擎                                       |
+|  符號名稱  |                        X12FeRepeatsMoreThanRequiredDescription                         |
+|  訊息文字   |                               重複次數多於需要                               |
   
 ## <a name="explanation"></a>說明  
  這個錯誤/警告/資訊事件表示區段中的 X12 交換的是內部或外部迴圈會重複多次的文件結構描述所要求。  

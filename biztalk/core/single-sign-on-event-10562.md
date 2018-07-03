@@ -1,5 +1,5 @@
 ---
-title: 單一登入： 事件 10562 |Microsoft 文件
+title: 單一登入： 事件 10562 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c12ceb5f4dce06311f6d0d1816b674d726b0efe7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: a369f4bf1793660e1fada5252c30e825e39f3ada
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22269566"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36987984"
 ---
 # <a name="single-sign-on-event-10562"></a>單一登入： 事件 10562
 ## <a name="details"></a>詳細資料  
   
-|||  
-|-|-|  
-|產品名稱|企業單一登入|  
-|產品版本|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|事件識別碼|10562|  
-|事件來源|ENTSSO|  
-|元件|不適用|  
-|符號名稱|SSO_INFO_REENCRYPT_STARTING|  
-|訊息文字|重新加密 SSO 資料庫正在進行中。|  
+|                 |                                                            |
+|-----------------|------------------------------------------------------------|
+|  產品名稱   |                 企業單一登入                  |
+| 產品版本 | [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)] |
+|    事件識別碼     |                           10562                            |
+|  事件來源   |                           ENTSSO                           |
+|    元件    |                            不適用                             |
+|  符號名稱  |                SSO_INFO_REENCRYPT_STARTING                 |
+|  訊息文字   |         SSO 資料庫重新加密正在進行中。         |
   
 ## <a name="explanation"></a>說明  
- 這只是參考訊息。 密碼已變更，且 SSO 系統現在開始到特別的資料庫，以新的密碼。  
+ 這只是參考訊息。 密碼已變更，以及 SSO 系統現在會開始將新的祕密的資料庫。  
   
 ## <a name="user-action"></a>使用者動作  
  使用者不必採取任何動作。

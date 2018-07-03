@@ -1,5 +1,5 @@
 ---
-title: 商務規則的原則測試追蹤輸出資訊 |Microsoft 文件
+title: 商務規則的原則測試追蹤輸出資訊 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,27 +17,27 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c223e8bddae1ff68e77cdf881ea22e6be4cdab9a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e8795e926d496f586d032bb85fe4a1fddb473ec5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22265062"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37005135"
 ---
 # <a name="policy-test-trace-output-information-for-business-rules"></a>商務規則的原則測試追蹤輸出資訊
-本節提供在「商務規則編輯器」中測試原則時所顯示的追蹤資訊之相關資訊。 檢視使用 [群組中樞] 頁面上追蹤查詢的訊息事件和服務執行個體的原則執行的追蹤結果時，會看到非常類似的資訊。  
+本節提供在「商務規則編輯器」中測試原則時所顯示的追蹤資訊之相關資訊。 檢視使用 [群組中樞] 頁面上追蹤查詢的訊息事件和服務執行個體的原則執行的追蹤結果時，會看到類似的資訊。  
   
  追蹤輸出會顯示下列四種陳述式類型：  
   
--   事實活動  
+- 事實活動  
   
--   條件評估  
+- 條件評估  
   
--   議程更新  
+- 議程更新  
   
--   規則被引發  
+- 規則被引發  
   
- 下面內容將介紹每種陳述式類型。  
+  下面內容將介紹每種陳述式類型。  
   
 ## <a name="fact-activity"></a>事實活動  
  這個陳述式指示引擎的工作記憶體中的事實變更。 以下為事實活動項目的範例：  
@@ -110,7 +110,7 @@ Test Result: True
   
 -   **測試運算式。** 規則中的簡單 (一元或二元) 運算式。  
   
--   **左的運算元的值。** 位於運算式左邊的詞彙值。  
+-   **左的運算元值。** 位於運算式左邊的詞彙值。  
   
 -   **右運算元值。** 位於運算式右邊的詞彙值。  
   

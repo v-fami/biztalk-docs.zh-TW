@@ -1,5 +1,5 @@
 ---
-title: AS2 傳送元件 |Microsoft 文件
+title: AS2 傳送元件 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e1dbee64dc2e3484e85e6d8e41ce31a77713ffec
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 3378dbb623c2d47a56946805908f9d104500a8ac
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22231966"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994559"
 ---
 # <a name="as2-send-components"></a>AS2 傳送元件
 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用數種元件來傳送 AS2 訊息。  
@@ -32,11 +32,11 @@ ms.locfileid: "22231966"
   
  這個管線會透過 AS2 產生和傳送 EDI 訊息。 這個管線包含下列管線元件：  
   
--   EDI 組合器  
+- EDI 組合器  
   
--   AS2 編碼器  
+- AS2 編碼器  
   
- 此管線不會用來透過 AS2 產生和傳送 MDN，因為 MDN 不需要經過 EDI 組合器處理。 請使用 AS2SendPipeline 傳送 MDN。  
+  此管線不會用來透過 AS2 產生和傳送 MDN，因為 MDN 不需要經過 EDI 組合器處理。 請使用 AS2SendPipeline 傳送 MDN。  
   
 > [!NOTE]
 >  不支援從協調流程執行 AS2EDISend 管線。  
@@ -45,15 +45,15 @@ ms.locfileid: "22231966"
   
  這個管線會在訊息未以 EDI 編碼時，透過 AS2 傳送訊息。 此外還會透過 AS2 傳送 MDN。 這個管線包含下列管線元件：  
   
--   AS2 編碼器。  
+- AS2 編碼器。  
   
- 如果要透過 AS2 傳送的訊息不是 EDI 也不是 XML 訊息，則您可以建立自訂的 AS2Send 管線來處理這些訊息。 此管線必須擁有自訂的組合器，才能在以 EDIINT/AS2 編碼訊息之前，先在 BizTalk Server 中將中繼 XML 轉換成其他格式。  
+  如果要透過 AS2 傳送的訊息不是 EDI 也不是 XML 訊息，則您可以建立自訂的 AS2Send 管線來處理這些訊息。 此管線必須擁有自訂的組合器，才能在以 EDIINT/AS2 編碼訊息之前，先在 BizTalk Server 中將中繼 XML 轉換成其他格式。  
   
 > [!NOTE]
 >  不支援從協調流程執行 AS2Send 管線。  
   
 ## <a name="as2-send-pipeline-components"></a>AS2 傳送管線元件  
- AS2 傳送管線會使用下列管線元件。 這些元件安裝在`Microsoft.BizTalk.EdiInt.PipelineComponents.dll`\Program Files\Microsoft 20xx\Pipeline 的 BizTalk Server 元件中\\。  
+ AS2 傳送管線會使用下列管線元件。 這些元件會安裝在`Microsoft.BizTalk.EdiInt.PipelineComponents.dll`\Program Files\Microsoft 20xx\Pipeline 的 BizTalk Server 元件中\\。  
   
  **EDI 組合器**  
   
@@ -71,7 +71,7 @@ ms.locfileid: "22231966"
   
 -   壓縮訊息 (如果已啟用) (針對 EDI/AS2 而非 MDN)  
   
--   以電傳格式儲存內容，如果**為輸出的解碼 AS2 訊息啟用 NRR**屬性已選取，並以電傳格式儲存訊息，如果**為輸出的編碼 AS2 訊息啟用 NRR**選取屬性  
+-   以電傳格式儲存內容，如果**為輸出的解碼 AS2 訊息啟用 NRR**屬性，並選取以電傳格式儲存訊息，如果**為輸出的編碼 AS2 訊息啟用 NRR**選取屬性  
   
 -   計算 MIC 值並將它儲存到資料存放區  
   
@@ -104,7 +104,7 @@ ms.locfileid: "22231966"
 -   封存已標示的記錄  
   
 > [!IMPORTANT]
->  為了確保不可否認性資料庫中所儲存訊息的真實性和完整性，資料庫中將儲存的所有訊息，包括原始 AS2 訊息和 MDN，都應使用數位簽章。 如需詳細資訊，請參閱的 9.1 節 < [RFC 1430、 」 以 MIME 為基礎安全端對端商務資料交換使用 HTTP，Applicability Statement 2 (AS2) >](http://go.microsoft.com/fwlink/?LinkID=184212) ([http://go.microsoft.com/fwlink/?LinkID=184212](http://go.microsoft.com/fwlink/?LinkID=184212))。  
+>  為了確保不可否認性資料庫中所儲存訊息的真實性和完整性，資料庫中將儲存的所有訊息，包括原始 AS2 訊息和 MDN，都應使用數位簽章。 如需詳細資訊，請參閱的 9.1 節[RFC 1430、 」 以 MIME 為基礎安全端對端商務資料交換使用 HTTP，Applicability Statement 2 (AS2) >](http://go.microsoft.com/fwlink/?LinkID=184212) ([http://go.microsoft.com/fwlink/?LinkID=184212](http://go.microsoft.com/fwlink/?LinkID=184212))。  
   
 ## <a name="see-also"></a>另請參閱  
- [BizTalk Server 傳送 AS2 訊息的方式](../core/how-biztalk-server-sends-as2-messages.md)
+ [BizTalk Server 如何傳送 AS2 訊息](../core/how-biztalk-server-sends-as2-messages.md)

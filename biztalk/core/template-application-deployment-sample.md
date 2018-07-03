@@ -1,5 +1,5 @@
 ---
-title: 範本 （應用程式部署範例） |Microsoft 文件
+title: 範本 （應用程式部署範例） |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,19 +17,19 @@ caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 315a685f0e289d60e3db9dfbe77bae5a7e2b19f0
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 7d096dac4d1c51101ddadff9eb6c49c04202d375
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25975012"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37000055"
 ---
 # <a name="template-application-deployment-sample"></a>範本 (應用程式部署範例)
 本主題描述如何使用「範本」範例進行應用程式部署。  
   
  您可以建立並使用兩種類型的部署指令碼自訂 BizTalk 應用程式部署： 前置處理指令碼和後置處理指令碼。 前置處理指令碼的叫用時機為應用程式安裝及匯入開始前，以及完成解除安裝之後。 後置處理指令碼的叫用時機則為應用程式安裝及匯入完成後，以及解除安裝開始之前。  
   
- 您可以撰寫前置及後置處理指令碼，讓上述每項作業都能叫用這些指令碼。 或者，您也可以設定指令碼，使其只在上述某項作業後執行。 如需有關撰寫指令碼的詳細資訊，請參閱[使用前置和後置處理指令碼，以自訂應用程式部署](../core/using-pre-and-post-processing-scripts-to-customize-application-deployment.md)。  
+ 您可以撰寫前置及後置處理指令碼，讓上述每項作業都能叫用這些指令碼。 或者，您也可以設定指令碼，使其只在上述某項作業後執行。 如需有關如何撰寫指令碼的詳細資訊，請參閱 <<c0> [ 使用前置和後置處理指令碼，以自訂應用程式部署](../core/using-pre-and-post-processing-scripts-to-customize-application-deployment.md)。  
   
  本主題將示範如何撰寫和部署指令碼，以便只在某項作業之前或之後叫用此指令碼。 若要這麼做，您可以撰寫指令碼來檢查三個環境 (Environment) 變數的值，判斷指令碼是在哪項作業的環境 (Context) 中受到呼叫。 指令碼會根據此環境 (Context) 繼續執行或中止執行。  
   
@@ -80,77 +80,77 @@ ms.locfileid: "25975012"
   
 -   開啟這兩個指令碼範例，變更 LogFile 變數，讓其指向要寫入記錄檔的位置。 您必須提供完整路徑，包含檔案名稱。 如果路徑包含空格，您必須將它括在雙引號 (") 中。  
   
-     範例：  
+     範例  
   
      設定記錄檔 ="*\<範例路徑\>* \ApplicationDeployment\Templates\SampleLogOut.txt"  
   
 ### <a name="to-create-a-new-application"></a>若要建立新的應用程式  
   
-1.  按一下**啟動**，按一下 **所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。  
+1. 按一下 **開始**，按一下**所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下**BizTalk Server 管理**。  
   
-2.  在主控台樹狀目錄中，依序展開[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]並展開 BizTalk 群組。  
+2. 在主控台樹狀目錄中，依序展開[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]並展開 BizTalk 群組。  
   
-3.  以滑鼠右鍵按一下**應用程式**，然後按一下 **新增**。  
+3. 以滑鼠右鍵按一下**應用程式**，然後按一下**新增**。  
   
-4.  在**應用程式名稱**，型別`SamplesTemplate`，然後按一下 **確定**。  
+4. 在 **應用程式名稱**，型別`SamplesTemplate`，然後按一下**確定**。  
   
 ### <a name="to-add-the-scripts-to-the-application"></a>若要將指令碼加入至應用程式  
   
 1.  展開您剛才建立的 SamplesTemplate 應用程式的資料夾，然後以滑鼠右鍵按一下**資源**的左窗格中。  
   
-2.  指向**新增**按一下**前置處理指令碼**。  
+2.  指向**新增**然後按一下**前置處理指令碼**。  
   
-3.  按一下**新增**並瀏覽至 SamplePreProcessing.bat。  
+3.  按一下 **新增**並瀏覽至 SamplePreProcessing.bat。  
   
 4.  選取檔案，然後按一下**開啟**。  
   
-5.  在**檔案類型**，按一下  **system.biztalk: preprocessingscript**，然後按一下 **確定**。  
+5.  在 **檔案類型**，按一下**system.biztalk: preprocessingscript**，然後按一下 **確定**。  
   
      SamplePreProcessing.bat 隨即加入至應用程式，而且會顯示在應用程式的 Resources 資料夾中。  
   
-6.  資源上按一下滑鼠右鍵，指向**新增**，然後按一下 **後置處理指令碼**。  
+6.  資源上按一下滑鼠右鍵，指向**新增**，然後按一下**後置處理指令碼**。  
   
-7.  按一下**新增**並瀏覽至 SamplePostProcessing.bat。  
+7.  按一下 **新增**並瀏覽至 SamplePostProcessing.bat。  
   
 8.  選取檔案，然後按一下**開啟**。  
   
-9. 在**檔案類型**，按一下  **system.biztalk: postprocessingscript**，然後按一下 **確定**。  
+9. 在 **檔案類型**，按一下**system.biztalk: postprocessingscript**，然後按一下 **確定**。  
   
      SamplePostProcessing.bat 隨即加入至應用程式，而且會顯示在應用程式的 Resources 資料夾中。  
   
 ### <a name="to-export-an-msi-file"></a>若要匯出 .msi 檔案  
   
-1.  在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下 samplestemplate 應用程式，指向**匯出**，然後按一下  **MSI 檔案**。  
+1.  在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下 [samplestemplate] 應用程式、 指向**匯出**，然後按一下**MSI 檔案**。  
   
-2.  在歡迎使用匯出精靈] 頁面中，按一下 [**下一步**。  
+2.  在歡迎使用匯出精靈 頁面中，按一下**下一步**。  
   
-3.  在 選取資源頁面上，按一下 **下一步**。  
+3.  在 [選取資源] 頁面中，按一下 [**下一步]**。  
   
-4.  在 指定 IIS 主控件頁面上，按一下 **下一步**。  
+4.  在 [指定 IIS 主控件] 頁面中，按一下 [**下一步]**。  
   
-5.  相依性] 頁面上，按一下 [**下一步**。  
+5.  在相依性 頁面上，按一下**下一步**。  
   
 6.  在 [目的地] 頁面中**目的地應用程式名稱**，輸入應用程式名稱。  
   
-7.  在**要產生的 MSI 檔案**，輸入 MSI 檔案的完整路徑，然後按一下**匯出**。 範例： C:\MSI\SamplesTemplate.msi  
+7.  在  **MSI 檔案來產生**，輸入 MSI 檔案的完整路徑，然後按一下**匯出**。 範例： C:\MSI\SamplesTemplate.msi  
   
-8.  在 [摘要] 頁面上按一下**完成**。  
+8.  在 摘要 頁面中，按一下 **完成**。  
   
 ### <a name="delete-the-application"></a>刪除應用程式  
   
--   在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下 samplestemplate 應用程式，然後按一下 **刪除**。  
+-   在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下 [samplestemplate] 應用程式，然後**刪除**。  
   
 ### <a name="to-import-the-msi-file"></a>若要匯入 .msi 檔案  
   
-1.  在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下**應用程式**，指向 **匯入**，然後按一下  **MSI 檔案**。  
+1.  在 BizTalk Server 管理主控台中，以滑鼠右鍵按一下**應用程式**，指向**匯入**，然後按一下**MSI 檔案**。  
   
-2.  在歡迎使用匯入精靈 頁面上，在**要匯入 MSI 檔案**，輸入您先前已匯出，然後再按一下的.msi 檔案的路徑**下一步**。 如果有必要，您可以瀏覽 MSI 檔案即可 **（...）**  按鈕。  
+2.  在歡迎使用匯入精靈 頁面中，在**MSI 檔案匯入**，輸入您先前匯出，然後再按一下的.msi 檔案的路徑**下一步**。 如果有必要，您可以瀏覽 MSI 檔案即可 **（...）**  按鈕。  
   
-3.  在應用程式設定 頁面中**應用程式名稱**下拉式清單中，選取應用程式名稱。  
+3.  在應用程式設定] 頁面中**應用程式名稱**下拉式清單中，選取 [應用程式名稱。  
   
-4.  在**可用的應用程式將參考加入至**，選取要加入的參考，如果有的話，應用程式，然後按一下**下一步**。  
+4.  在 [**可用的應用程式，將參考加入至**，選取要加入的參考，如果有的話，應用程式，然後按一下**下一步]**。  
   
-5.  在應用程式目標環境設定] 頁面上，按一下 [**下一步**。  
+5.  在應用程式目標環境設定 頁面上，按一下**下一步**。  
   
     > [!NOTE]
     >  您不必為此範例指定目標環境 (Environment)。 如需這項功能的背景資訊，請參閱[繫結檔案和應用程式部署](../core/binding-files-and-application-deployment.md)。 如需新增繫結檔案的指示，請參閱[如何將繫結檔案新增至應用程式](../core/how-to-add-a-binding-file-to-an-application2.md)。  
@@ -171,6 +171,6 @@ ms.locfileid: "25975012"
   
 -   開啟記錄檔，確認在指定的作業期間指令檔都有執行。  
   
-## <a name="see-also"></a>請參閱  
- [應用程式部署 （BizTalk Server 範例資料夾）](../core/application-deployment-biztalk-server-samples-folder.md)   
+## <a name="see-also"></a>另請參閱  
+ [應用程式部署 （BizTalk Server Samples 資料夾）](../core/application-deployment-biztalk-server-samples-folder.md)   
  [部署 BizTalk 應用程式](../core/deploying-biztalk-applications.md)

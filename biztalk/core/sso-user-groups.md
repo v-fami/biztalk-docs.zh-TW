@@ -1,5 +1,5 @@
 ---
-title: SSO 使用者群組 |Microsoft 文件
+title: SSO 使用者群組 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -20,12 +20,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 949f3aa72771982321abf6904c43352b8821fc0c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cee8780b645cc6f58c0a75526a695e2148893023
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22277622"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37017286"
 ---
 # <a name="sso-user-groups"></a>SSO 使用者群組
 若要設定及管理「企業單一登入」(SSO) 系統，您必須為其中每個角色建立 Windows 群組與帳戶。 設定企業 SSO 中的存取帳戶時，您可以為其中每個角色指定多個帳戶。 本節描述這些角色。  
@@ -39,21 +39,21 @@ ms.locfileid: "22277622"
 ## <a name="single-sign-on-administrators"></a>單一登入系統管理員  
  SSO 系統管理員擁有 SSO 系統中最高層級的使用者權限。 他們可以：  
   
--   建立及管理 SSO 資料庫  
+- 建立及管理 SSO 資料庫  
   
--   建立及管理主要密碼  
+- 建立及管理主要密碼  
   
--   啟用及停用 SSO 系統。  
+- 啟用及停用 SSO 系統。  
   
--   建立密碼同步配接器  
+- 建立密碼同步配接器  
   
--   啟用及停用 SSO 系統中的密碼同步  
+- 啟用及停用 SSO 系統中的密碼同步  
   
--   啟用及停用主控件初始化的 SSO  
+- 啟用及停用主控件初始化的 SSO  
   
--   執行所有管理工作  
+- 執行所有管理工作  
   
- SSO 系統管理員帳戶可以是 Windows 群組或個人帳戶。 SSO 系統管理員帳戶也可以是網域或本機群組，或是個人帳戶。 若使用個人帳戶，您無法將此帳戶改為另一個個人帳戶。 因此，建議您不要使用個人帳戶。 只要原始帳戶是新帳戶的成員，您就可以將此帳戶改為群組帳戶。  
+  SSO 系統管理員帳戶可以是 Windows 群組或個人帳戶。 SSO 系統管理員帳戶也可以是網域或本機群組，或是個人帳戶。 若使用個人帳戶，您無法將此帳戶改為另一個個人帳戶。 因此，建議您不要使用個人帳戶。 只要原始帳戶是新帳戶的成員，您就可以將此帳戶改為群組帳戶。  
   
 > [!IMPORTANT]
 >  執行「企業單一登入」服務的服務帳戶需為此帳戶的成員。 為保護環境的安全，請確定沒有其他服務正在使用同一個服務帳戶。  
@@ -61,13 +61,13 @@ ms.locfileid: "22277622"
 ## <a name="single-sign-on-affiliate-administrators"></a>單一登入分支機構管理員  
  SSO 分支機構系統管理員定義 SSO 系統所包含的分支機構應用程式。 分支機構應用程式是一種邏輯實體，其代表您使用 SSO 連線的後端系統。 SSO 分支機構系統管理員可以：  
   
--   建立、管理及刪除分支機構應用程式  
+- 建立、管理及刪除分支機構應用程式  
   
--   指定每個分支機構應用程式的應用程式系統管理員帳戶  
+- 指定每個分支機構應用程式的應用程式系統管理員帳戶  
   
--   執行應用程式系統管理員與應用程式使用者可執行的所有管理工作  
+- 執行應用程式系統管理員與應用程式使用者可執行的所有管理工作  
   
- SSO 分支機構應用程式帳戶可以是 Windows 群組或個人帳戶。 SSO 分支機構系統管理員帳戶也可以是網域或本機群組或帳戶。  
+  SSO 分支機構應用程式帳戶可以是 Windows 群組或個人帳戶。 SSO 分支機構系統管理員帳戶也可以是網域或本機群組或帳戶。  
   
 ## <a name="application-administrators"></a>應用程式系統管理員  
  每個分支機構應用程式都有一個應用程式系統管理員群組。  
@@ -93,7 +93,7 @@ ms.locfileid: "22277622"
 >  指派群組時記得保持警戒。 例如，可以在 SSO 應用程式使用者群組中使用 BizTalk Server 安全性使用者群組。 在這麼做之前，請確定是否所有使用者都需要他們即將可用的所有存取權。  
   
 ## <a name="see-also"></a>另請參閱  
- [如何更新分支機構應用程式的內容](../core/how-to-update-the-properties-of-an-affiliate-application.md)   
+ [如何更新分支機構應用程式屬性](../core/how-to-update-the-properties-of-an-affiliate-application.md)   
  [如何更新 SSO 資料庫](../core/how-to-update-the-sso-database.md)   
  [管理使用者對應](../core/managing-user-mappings.md)   
- [瞭解 SSO](../core/understanding-sso.md)
+ [了解 SSO](../core/understanding-sso.md)

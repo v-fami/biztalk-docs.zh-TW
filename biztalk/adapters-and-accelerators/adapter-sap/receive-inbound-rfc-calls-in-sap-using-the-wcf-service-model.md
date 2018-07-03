@@ -1,5 +1,5 @@
 ---
-title: 使用 WCF 服務模型的 SAP 中接收輸入 RFC 呼叫 |Microsoft 文件
+title: 使用 WCF 服務模型的 sap 接收輸入的 RFC 呼叫 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,41 +15,41 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a415e3ab0ecbaab8778254d817241e5cafb61a92
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e9650567f9f2072662af7f75d735a5a647de6d10
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22218454"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37014183"
 ---
-# <a name="receive-inbound-rfc-calls-in-sap-using-the-wcf-service-model"></a>使用 WCF 服務模型的 SAP 中接收輸入 RFC 呼叫
+# <a name="receive-inbound-rfc-calls-in-sap-using-the-wcf-service-model"></a>使用 WCF 服務模型的 sap 接收輸入的 RFC 呼叫
 [!INCLUDE[adaptersap](../../includes/adaptersap-md.md)]可以做為 RFC 伺服器接收叫用的 SAP 系統的 Rfc。  
   
- 若要接收傳入的 Rfc WCF 服務模型中，您必須：  
+ 若要接收輸入的 Rfc WCF 服務模型中，您必須：  
   
--   請確定 RFC 目的地存在於 SAP 系統。  
+- 確定 SAP 系統上存在的 RFC 目的地。  
   
--   確定 RFC 定義 SAP 系統上。  
+- 請確定 RFC 定義於 SAP 系統。  
   
--   RFC 作業從配接器所公開的中繼資料產生 WCF 服務合約 （介面）。 若要這樣做，您使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]或 ServiceModel Metadata Utility Tool (svcutil.exe)。  
+- RFC 作業從配接器所公開的中繼資料產生 WCF 服務合約 （介面）。 若要這樣做，您使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]或 ServiceModel Metadata Utility Tool (svcutil.exe)。  
   
--   實作這個介面從 WCF 服務。 WCF 服務的方法包含處理 RFC，並將回應傳回至配接器所需的邏輯 (因此 SAP 系統)。  
+- 實作此介面的 WCF 服務。 WCF 服務的方法包含處理 RFC，並將回應傳回給配接器所需的邏輯 (因此 SAP 系統)。  
   
--   裝載此 WCF 服務，使用服務主機 (**system.servicemodel.servicehost 內**)。  
+- 裝載此 WCF 服務，使用服務主機 (**System.ServiceModel.ServiceHost**)。  
   
- 下列章節將示範如何使用從 SAP 系統接收 Rfc [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。  
+  下列各節會說明如何使用從 SAP 系統接收 Rfc [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。  
   
 ## <a name="how-to-set-up-the-sap-system-to-send-an-rfc-to-the-sap-adapter"></a>如何設定 SAP 系統傳送 RFC，SAP 配接器  
- 您可以從 SAP 系統傳送 RFC 之前[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]，您必須確定下列條件成立 SAP 系統上：  
+ 您可以從 SAP 系統傳送 RFC 之前[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]，您必須確定下列條件成立於 SAP 系統：  
   
--   RFC 目的地[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]必須存在。 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]註冊其本身與 RFC 目的地以接收來自 SAP 系統的 Rfc。 您提供的 SAP 連線例如 SAP 閘道器主機、 SAP 閘道器服務，以及配接器用來向 SAP 程式 ID URI 中的參數。 如需如何設定 SAP RFC 目的地資訊，請參閱[建立 RFC、 RFC 目的地並傳送從 SAP 系統的 RFC](creating-an-rfc-in-an-sap-system.md)。  
+- RFC 目的地[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]必須存在。 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]註冊其本身與 RFC 目的地以接收來自 SAP 系統的 Rfc。 您提供參數，在 SAP 連接 URI，例如 SAP 閘道器主機、 SAP 閘道服務，以及配接器用來向 SAP 程式 ID。 如需有關如何設定 SAP RFC 目的地的資訊，請參閱[建立 RFC、 RFC 目的地並傳送從 SAP 系統的 RFC](creating-an-rfc-in-an-sap-system.md)。  
   
--   必須定義 RFC，SAP 系統上。 您必須建立定義 RFC，SAP 系統的函式模組。 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]使用 RFC 定義 SAP 系統上擷取 RFC （兩者都在設計階段和執行階段） 有關的中繼資料。 如需詳細資訊，請參閱[SAP 系統中建立 RFC](../../adapters-and-accelerators/adapter-sap/creating-an-rfc-in-an-sap-system.md)。  
+- RFC 必須定義於 SAP 系統。 您必須建立定義於 SAP 系統的 RFC 函式模組。 [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)] SAP 系統上使用 RFC 定義，來擷取 RFC （兩者都在設計階段和執行階段） 的相關中繼資料。 如需詳細資訊，請參閱[SAP 系統中建立的 RFC](../../adapters-and-accelerators/adapter-sap/creating-an-rfc-in-an-sap-system.md)。  
   
-    > [!NOTE]
-    >  您必須定義 RFC，SAP 系統。不過您會在配接器的用戶端程式碼中實作 RFC。 RFC 必須定義在 SAP 系統上，讓配接器可以擷取 RFC 的中繼資料。  
+  > [!NOTE]
+  >  您必須定義 RFC，SAP 系統中;不過您會在您的配接器用戶端程式碼中實作 RFC。 RFC 必須定義於 SAP 系統，使配接器可以擷取 RFC 的中繼資料。  
   
- 以下是原始程式碼的將兩個整數並傳回其結果的 RFC 之 SAP 系統上的範例。 程式碼只會將 RFC 呼叫透過指定的目的地。 函式的實作由[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]用戶端程式碼。  
+  以下是來源上的程式碼會加入兩個整數並傳回其結果的 RFC 的 SAP 系統的範例。 程式碼會透過指定的目的，只是呼叫 RFC。 函式的實作由[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]用戶端程式碼。  
   
 ```  
 FUNCTION Z_RFC_SAMPLE_ADD.  
@@ -69,10 +69,10 @@ ENDFUNCTION.
 ```  
   
 ## <a name="the-wcf-service-contract-for-an-rfc"></a>WCF 服務合約，如 RFC  
- 您使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]或 ServiceModel Metadata Utility Tool (svcutil.exe) 來產生您想要從 SAP 系統接收的 Rfc 的 WCF 服務合約。 下列各節顯示的 managed 程式碼的類別和介面產生 Z_RFC_MKD_ADD 作業。  
+ 您使用[!INCLUDE[addadapterservreflong](../../includes/addadapterservreflong-md.md)]或 ServiceModel Metadata Utility Tool (svcutil.exe) 產生的 WCF 服務合約，如您願意收到來自 SAP 系統的 Rfc。 下列各節顯示的 managed 程式碼類別和 Z_RFC_MKD_ADD 作業產生的介面。  
   
 ### <a name="the-rfc-interface-wcf-service-contract"></a>Rfc 介面 （WCF 服務合約）  
- [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]呈現所有 RFC 作業的單一服務合約，"Rfc"。 這表示單一的介面， **Rfc**，建立所有您想要接收的 RFC 作業。 每個目標 RFC 作業被表示為這個介面的方法。 每個方法會接受單一參數，代表作業的要求訊息的訊息合約，並且傳回一個物件，表示作業的回應訊息的訊息合約。  
+ [!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]呈現所有 RFC 作業的單一服務合約，而 「 Rfc"。 這表示單一介面， **Rfc**，系統會為所有您想要接收的 RFC 作業。 RFC 作業的每一個目標被以這個介面的方法。 每個方法會採用單一參數，代表作業的要求訊息的訊息合約，並且傳回一個物件，表示作業的回應訊息的訊息合約。  
   
 ```  
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "3.0.0.0")]  
@@ -87,7 +87,7 @@ public interface Rfc {
 ```  
   
 ### <a name="the-request-and-response-messages"></a>要求和回應訊息  
- 每個 RFC 作業會使用參數來表示要求訊息，並傳回物件，表示回應訊息。 要求訊息的屬性包含匯入和 RFC （輸入） 變更參數。 回應訊息的屬性包含匯出，而且 （輸出） 變更參數的作業。  
+ 每個 RFC 作業會使用參數來表示要求訊息，並傳回物件，表示回應訊息。 要求訊息的屬性包含的匯入和 （輸入） 變更參數的 RFC。 回應訊息的屬性會包含匯出，且 （輸出） 作業的變更參數。  
   
 ```  
 [System.Diagnostics.DebuggerStepThroughAttribute()]  
@@ -132,7 +132,7 @@ public partial class Z_RFC_MKD_ADDResponse {
 ```  
   
 ### <a name="the-generated-wcf-service"></a>產生的 WCF 服務  
- [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]也會產生實作 WCF 服務合約的 WCF 服務 (**Rfc**)。 這個類別的方法是附加虛設常式。 這個類別會產生不同的檔案。 您可以直接在這個類別的方法來實作您的程式碼。  
+ [!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]也會產生實作 WCF 服務合約的 WCF 服務 (**Rfc**)。 這個類別的方法被虛設常式。 這個類別會產生個別的檔案中。 您可以直接在這個類別的方法來實作您的程式碼。  
   
 ```  
 namespace SAPBindingNamespace {  
@@ -148,9 +148,9 @@ namespace SAPBindingNamespace {
 ```  
   
 ## <a name="how-to-create-an-rfc-server-application"></a>如何建立 RFC 伺服器應用程式  
- 若要使用 WCF 服務模型，從 SAP 系統接收 Rfc，您可以依照中的步驟[與 SAP 配接器的 WCF 服務模型概觀](../../adapters-and-accelerators/adapter-sap/overview-of-the-wcf-service-model-with-the-sap-adapter.md)。 請務必指定服務合約 'Rfc'，當您將新增服務端點 （建立和實作 WCF 服務的程序的步驟 6）。  
+ 若要使用 WCF 服務模型，從 SAP 系統接收 Rfc，您可以依照中的步驟[與 SAP 配接器的 WCF 服務模型的概觀](../../adapters-and-accelerators/adapter-sap/overview-of-the-wcf-service-model-with-the-sap-adapter.md)。 請務必指定服務合約 'Rfc'，當您將新增服務端點 （建立和實作的 WCF 服務的程序的步驟 6）。  
   
- 下列程式碼將示範如何使用 Z_RFC_MKD_RFC 接收從 SAP 系統的完整範例[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。 這個 RFC 接受兩個整數參數，並傳回結果至 SAP 系統。  
+ 下列程式碼示範如何使用 Z_RFC_MKD_RFC 接收從 SAP 系統的完整範例[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]。 這個 RFC 採用兩個整數參數，並將結果傳回至 SAP 系統。  
   
 ```  
 using System;  
@@ -257,5 +257,5 @@ namespace SapRfcServerSM
 ```  
   
 ## <a name="see-also"></a>另請參閱  
-[開發應用程式使用 WCF 服務模型](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-service-model.md)   
+[使用 WCF 服務模型開發應用程式](../../adapters-and-accelerators/adapter-sap/develop-sap-applications-using-the-wcf-service-model.md)   
  [RFC 作業的訊息結構描述](../../adapters-and-accelerators/adapter-sap/message-schemas-for-rfc-operations.md)

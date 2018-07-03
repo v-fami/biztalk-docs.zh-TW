@@ -1,5 +1,5 @@
 ---
-title: 開發自訂累計運算質 |Microsoft 文件
+title: 開發自訂累計運算質 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 14
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9f69ae870269948358f117b07f37d481faced160
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 8763f557c5bacb13b3fbc1542216d9eb9be8d319
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22242326"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37008527"
 ---
 # <a name="developing-a-custom-cumulative-functoid"></a>開發自訂累計運算質
 使用自訂累計運算質以執行在執行個體訊息中發生多次之值的累積運算。  
@@ -27,15 +27,15 @@ ms.locfileid: "22242326"
 ## <a name="writing-a-thread-safe-functoid"></a>撰寫安全執行緒運算質  
  運算質程式碼必須為安全執行緒，因為在承受壓力的狀況下，對應的多個執行個體可能會同時執行。 有些重點必須熟記：  
   
--   靜態狀態必須為安全執行緒。  
+- 靜態狀態必須為安全執行緒。  
   
--   執行個體狀態並不一定要是安全執行緒。  
+- 執行個體狀態並不一定要是安全執行緒。  
   
--   設計時請考量在高壓力狀況下執行。 儘可能避免鎖定。  
+- 設計時請考量在高壓力狀況下執行。 儘可能避免鎖定。  
   
--   儘可能避免同步化需求。  
+- 儘可能避免同步化需求。  
   
- BizTalk Server 提供一個簡單的機制，以降低撰寫安全執行緒累計運算質的複雜性。 這三個函式皆具有相同的第一個參數，該參數為整數索引值。 在呼叫初始化函式時，BizTalk Server 會指派唯一的編號給索引值。 您可以使用此值做為保存累積值之陣列中的索引，如下列程式碼所示：  
+  BizTalk Server 提供一個簡單的機制，以降低撰寫安全執行緒累計運算質的複雜性。 這三個函式皆具有相同的第一個參數，該參數為整數索引值。 在呼叫初始化函式時，BizTalk Server 會指派唯一的編號給索引值。 您可以使用此值做為保存累積值之陣列中的索引，如下列程式碼所示：  
   
 ```  
 private HashTable cumulativeArray = new HashTable();  
@@ -68,16 +68,16 @@ public string InitCumulativeMultiply(int index)
 ### <a name="cumulation"></a>累計  
  您在此為運算質執行適當的累積運算。 BizTalk Server 會傳入下列三個參數：  
   
--   **索引。** 代表對應執行個體的整數值。 可能會有多個對應執行個體同時執行。  
+- **索引。** 代表對應執行個體的整數值。 可能會有多個對應執行個體同時執行。  
   
--   **Val。** 包含應累積之值的字串。 除非您正在撰寫字串累計運算質，否則此值為數字值。  
+- **Val。** 包含應累積之值的字串。 除非您正在撰寫字串累計運算質，否則此值為數字值。  
   
--   **範圍。** 包含指示應累積哪些項目或屬性值之數字的字串。 實際的值由實作決定。  
+- **範圍。** 包含指示應累積哪些項目或屬性值之數字的字串。 實際的值由實作決定。  
   
- 您可以決定要累積哪些值以及忽略哪些值。 例如，您可以忽略不是低於 0 的值，但是當某個值不是數字時，擲回例外狀況。 **BaseFunctoid**提供兩個函式 —**IsDate**和**IsNumeric**— 以協助驗證。  
+  您可以決定要累積哪些值以及忽略哪些值。 例如，您可以忽略不是低於 0 的值，但是當某個值不是數字時，擲回例外狀況。 **BaseFunctoid**提供兩個函式 —**IsDate**並**IsNumeric**— 以協助驗證。  
   
 > [!NOTE]
->  如果您使用**IsDate**或**IsNumeric**中內嵌指令碼，請務必設定**RequiredGlobalHelperFunctions**使函式會提供給您的指令碼。  
+>  如果您使用**IsDate**或是**IsNumeric**中的內嵌指令碼，請務必設定**RequiredGlobalHelperFunctions**以便函式都會提供給您的指令碼。  
   
  不會使用字串傳回值。  
   
@@ -188,4 +188,4 @@ namespace Microsoft.Samples.BizTalk.CustomFunctoid
 ## <a name="see-also"></a>另請參閱  
  [使用 BaseFunctoid](../core/using-basefunctoid.md)   
  [開發自訂內嵌運算質](../core/developing-a-custom-inline-functoid.md)   
- [自訂運算質 （BizTalk Server 範例）](../core/custom-functoid-biztalk-server-sample.md)
+ [自訂運算質 (BizTalk Server 範例)](../core/custom-functoid-biztalk-server-sample.md)

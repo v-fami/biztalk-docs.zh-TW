@@ -17,12 +17,12 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9400e80a2f8e8acfdeb12e3d6e61a046151d1e7e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bc78c5ae3f653e76652373767e60ec1dcaefba8c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22289798"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37013439"
 ---
 # <a name="what-is-the-bam-interceptor"></a>何謂 BAM 攔截器？
 ## <a name="overview"></a>概觀 
@@ -34,11 +34,11 @@ BAM 攔截器
   
  在可能有感興趣資料的每個應用程式步驟中，您呼叫攔截器 OnStep、提供步驟的識別碼，以及提供您在應用程式中使用的某些資料或任意物件。  
   
- 您必須實作回呼函式，如此，當回呼發生時，回呼程序便會取得目前的步驟識別碼和資料物件。 基本上 BAM 攔截器只是將資料物件傳播至回呼。 擷取資料的實際邏輯存在於應用程式中。 例如，如果資料使用 XML 訊息的形式，則回呼將使用 XPath。 如需有關 Xpath 的詳細資訊，請參閱[訊息指派中使用的 Xpath](../core/using-xpaths-in-message-assignments.md)。  
+ 您必須實作回呼函式，如此，當回呼發生時，回呼程序便會取得目前的步驟識別碼和資料物件。 基本上 BAM 攔截器只是將資料物件傳播至回呼。 擷取資料的實際邏輯存在於應用程式中。 例如，如果資料使用 XML 訊息的形式，則回呼將使用 XPath。 如需有關 Xpath 的詳細資訊，請參閱 <<c0> [ 在訊息指派中使用的 Xpath](../core/using-xpaths-in-message-assignments.md)。  
   
  BAM 攔截器會根據以程式設計方式建立的組態，決定要在每個步驟要求哪些資料。 然後，BAM 攔截器會使用取得的資料呼叫所需的 DirectEventStream 或 BufferedEventStream，以便持續執行並將每次的時間當做引數傳遞給 OnStep。  
   
- 呼叫每個步驟的攔截器並不是需要大量資源的作業。 如果您發出呼叫且此步驟沒有註冊任何資料，攔截器就會立即返回。 這表示沒有磁碟作業、沒有交易，甚至沒有記憶體配置，因此，幾乎不會對效能造成影響。 同時，您有機會擷取 BAM 的任何資料 (如果需要的話)。 受到的效能影響牽涉到資料擷取和資料的可用性的步驟將取決於您的實作`IBAMDataExtractor Interface`。  
+ 呼叫每個步驟的攔截器並不是需要大量資源的作業。 如果您發出呼叫且此步驟沒有註冊任何資料，攔截器就會立即返回。 這表示沒有磁碟作業、沒有交易，甚至沒有記憶體配置，因此，幾乎不會對效能造成影響。 同時，您有機會擷取 BAM 的任何資料 (如果需要的話)。 對效能影響牽涉到資料擷取和資料的可用性的步驟將取決於您實作`IBAMDataExtractor Interface`。  
   
  下列程式碼範例示範如何在組態和執行階段期間使用攔截器。  
   
@@ -77,21 +77,21 @@ Interceptor.OnStep(approvePO, data2, es, callback)
   
  其中：  
   
--   *recvPO*和*approvePO*是任意的物件，您用來識別您的應用程式中的步驟。  
+- *recvPO*並*approvePO*是任意的物件，您用來識別您的應用程式中的步驟。  
   
--   *data1*和*data2*是任意的物件，您已在該點，並可能包含感興趣的資料 – 例如訂單的 XML 文件。  
+- *data1*並*data2*是任意的物件，您已在該點，並可能包含感興趣的資料 – 例如訂單的 XML 文件。  
   
--   *es*是 DirectEventStream 或 BufferedEvent 資料流，視效能需求而定。  
+- *es*是 DirectEventStream 或 BufferedEvent 資料流，視您的效能需求而定。  
   
--   *回呼*是實作`IBAMDataExtractor Interface`。  
+- *回呼*是您實作`IBAMDataExtractor Interface`。  
   
- Sdk > 範例[BAM API （BizTalk Server 範例）](../core/bam-api-biztalk-server-sample.md)，示範如何使用攔截器，其中包含這兩種組態工具和範例執行階段應用程式。  
+  SDK 範例中， [BAM API （BizTalk Server 範例）](../core/bam-api-biztalk-server-sample.md)，示範如何使用攔截器，其中包含這兩種組態工具和範例執行階段應用程式。  
   
- BizTalk 協調流程引擎會配合攔截，以允許在執行階段使用追蹤設定檔編輯器變更為 BAM 收集的資料。  
+  BizTalk 協調流程引擎會配合攔截，以允許在執行階段使用追蹤設定檔編輯器變更為 BAM 收集的資料。  
   
 ## <a name="in-this-section"></a>本節內容  
   
--   [如何判斷和設定活動事件寫入者角色](../core/how-to-determine-and-set-event-writer-roles-for-activities.md)  
+-   [如何判斷和設定活動的事件寫入者角色](../core/how-to-determine-and-set-event-writer-roles-for-activities.md)  
   
 ## <a name="see-also"></a>另請參閱  
- [BAM API （BizTalk Server 範例）](../core/bam-api-biztalk-server-sample.md)
+ [BAM API (BizTalk Server 範例)](../core/bam-api-biztalk-server-sample.md)

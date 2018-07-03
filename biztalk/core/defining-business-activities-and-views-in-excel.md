@@ -1,5 +1,5 @@
 ---
-title: 在 Excel 中定義商務活動和檢視 |Microsoft 文件
+title: 在 Excel 中定義商務活動和檢視 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 91b9d3b213a6a6429759c0bb0d826798afa36da3
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 61e9302d2f3178e457a5ed57353e77eac0909d32
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22239678"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37014135"
 ---
 # <a name="defining-business-activities-and-views-in-excel"></a>在 Excel 中定義商務活動和檢視
 建立任何 BAM 解決方案時的第一個步驟是，找出您有興趣的資料，並釐清解譯此項資料所應採用的方式。 若要這樣做，您可以使用 Excel 的 BAM 增益集。 此增益集可讓您藉由定義商務活動來定義您希望的「感興趣資料」清單。 您也可以定義解譯資料以及向不同類別的商務使用者顯示資料的方式。  
@@ -37,13 +37,13 @@ ms.locfileid: "22239678"
   
  BAM。XLA 檔案會安裝在下列位置：  
   
--   如果在電腦上沒有安裝 Microsoft Office，則 BAM.xla 會安裝至 files\microsoft BizTalk Server 20*xx*\ExcelDir\ 資料夾。  
+- 如果未安裝 Microsoft Office 的電腦上，則 BAM.xla 會安裝至 BizTalk Server 20 \Program Files\Microsoft*xx*\ExcelDir\ 資料夾。  
   
--   如果已安裝 Microsoft Office，則 BAM.xla 會安裝 \Program Files\Microsoft Office\OFFICE*xx*\Library\ 資料夾。  
+- 如果已安裝 Microsoft Office，則 BAM.xla 會安裝 \Program Files\Microsoft Office\OFFICE*xx*\Library\ 資料夾。  
   
- 您也可以將 BAM.xla 從另一台電腦上的共用資料夾複製至您的電腦。 然後從 XLA 複製到的位置加以選取，以註冊 XLA。  
+  您也可以將 BAM.xla 從另一台電腦上的共用資料夾複製至您的電腦。 然後從 XLA 複製到的位置加以選取，以註冊 XLA。  
   
- 若要啟用 BAM 增益集在 Excel 功能表工具列上，按一下**檔案**功能表，然後按一下 **選項**，然後按一下 **增益集**。選取**商務活動監控**，然後按一下 **移**，在 Ad 單元視窗中，選取核取方塊旁的 **商務活動監控**，然後按一下  **確定**。  
+  若要啟用 BAM 增益集在 Excel 功能表工具列上，按一下**檔案**功能表，然後按一下**選項**，然後按一下**增益集**。選取 **商務活動監控**，然後按一下**移**，在 增益 視窗中，選取核取方塊旁**商務活動監控**，然後按一下  **確定**。  
   
 > [!NOTE]
 >  使用 BAM 增益集可以避免 Excel 在兩個執行個體載入至相同處理程序的情況下執行。  使用增益集時，相同處理程序中出現多個執行個體的情形可能會在下列狀況中發生：  
@@ -55,7 +55,7 @@ ms.locfileid: "22239678"
  在這種情況下，您就無法正確使用增益集。 若要在 BAM 增益集啟用時開啟多份 Excel 試算表，您必須另外開啟新的 Excel 複本，然後再將試算表載入至這個 Excel 執行個體。  
   
 > [!NOTE]
->  當您在 Excel 中使用 BAM.xla 時，您可能會收到錯誤 「 此活頁簿已經遺失其 VBA 專案、 ActiveX 控制項和其他相關的可程式性的功能 」。 如需有關錯誤的詳細資訊，請參閱[疑難排解 BAM](../core/troubleshooting-bam.md)。  
+>  當您在 Excel 中使用 BAM.xla 時，您可能會收到錯誤 「 此活頁簿已經遺失的 VBA 專案、 ActiveX 控制項以及其他可程式性相關的功能 」。 如需錯誤的詳細資訊，請參閱[疑難排解 BAM](../core/troubleshooting-bam.md)。  
   
 ## <a name="in-this-section"></a>本節內容  
   
@@ -64,4 +64,4 @@ ms.locfileid: "22239678"
 -   [定義 BAM 檢視](../core/defining-a-bam-view.md)  
   
 ## <a name="see-also"></a>另請參閱  
- [使用 BAM 監控商務活動](../core/monitoring-business-activities-with-bam.md)
+ [使用 BAM 來監控商務活動](../core/monitoring-business-activities-with-bam.md)

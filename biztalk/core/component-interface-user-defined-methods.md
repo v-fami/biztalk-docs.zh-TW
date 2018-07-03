@@ -1,5 +1,5 @@
 ---
-title: 元件介面使用者定義方法 |Microsoft 文件
+title: 元件介面使用者定義方法 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -20,12 +20,12 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 139117ffb26c8fec355dcfe481657817bc64bc0b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 68149876dc51d90b4dbc07772fd9b9b5c60fb7db
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22233830"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022564"
 ---
 # <a name="component-interface-user-defined-methods"></a>元件介面使用者定義方法
 Microsoft BizTalk Adapter for PeopleSoft Enterprise 支援在元件介面中使用使用者定義的方法。 簽章的格式如下：  
@@ -36,11 +36,11 @@ myRet=myCI.myMethod(parameter1, parameter2, ...)
   
  其中：  
   
--   `parameter1` 和 `parameter2` 為輸入參數。  
+- `parameter1` 和 `parameter2` 為輸入參數。  
   
--   `myRet` 是傳回的值。  
+- `myRet` 是傳回的值。  
   
- 這些參數只能是方法的輸入參數。 只有一個值可以從方法傳回當做傳回參數。  
+  這些參數只能是方法的輸入參數。 只有一個值可以從方法傳回當做傳回參數。  
   
 > [!NOTE]
 >  包含使用者定義方法的元件介面應只啟用 PeopleSoft `Get` 函數。 如果元件介面有索引鍵，自訂方法就無法運作。  
@@ -59,7 +59,7 @@ myRet=myCI.myMethod(parameter1, parameter2, ...)
 ## <a name="sample-custom-method"></a>自訂方法範例  
  您可以使用下列的基本自訂方法 SayHello，測試您的元件介面使用自訂方法的功能。  
   
- 下列 PeopleCode 函式是 ACB_EMPLOYEE 這個 PeopleSoft 元件介面的使用者定義方法。 這個範例會傳回字串，其中傳回的值是**Hello**後面輸入參數的值。  
+ 下列 PeopleCode 函式是 ACB_EMPLOYEE 這個 PeopleSoft 元件介面的使用者定義方法。 範例會傳回字串，其中傳回的值是**Hello**後面輸入參數的值。  
   
 ```  
 Function SayHello(&sName As string) Returns string  
@@ -73,4 +73,4 @@ End-Function;
 >  若要同時 (使用一個命令) 修改多個表格，您可以建立另一個元件介面，或是建立一個元件介面使用者定義方法。  
   
 ## <a name="see-also"></a>另請參閱  
- [附錄 a： 元件介面方法](../core/appendix-a-component-interface-methods.md)
+ [附錄 A：元件介面方法](../core/appendix-a-component-interface-methods.md)

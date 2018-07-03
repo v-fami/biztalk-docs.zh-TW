@@ -2,12 +2,12 @@
 redirect_url: /biztalk/core/deploying-biztalk-adapter-for-peoplesoft-enterprise/
 redirect_document_id: true
 ROBOTS: NOINDEX
-ms.openlocfilehash: acc8560096423eb69b7cad8d9e6264707ae9a636
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 9d12874ef6042580183f407afc811a9d7f6e0fc9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
-ms.locfileid: "24013269"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37009863"
 ---
 # <a name="deployment-limitations"></a>部署限制
 
@@ -20,23 +20,23 @@ ms.locfileid: "24013269"
 ## <a name="password-limitation-workaround"></a>密碼限制解決方法  
  若要解決這項密碼限制問題，請使用下列其中一個方法：  
   
--   在匯入繫結檔案前先行編輯該檔案，方法是將星號取代為純文字。  
+- 在匯入繫結檔案前先行編輯該檔案，方法是將星號取代為純文字。  
   
-    > [!CAUTION]
-    >  基於安全性理由，並不建議使用這個做法。  
+  > [!CAUTION]
+  >  基於安全性理由，並不建議使用這個做法。  
   
--   在匯入繫結檔案前先行編輯該檔案，方法是將星號取代為某些垃圾值 (亦即不正確的密碼)。 輸入正確的密碼使用**傳輸屬性**在 BizTalk Server 管理主控台，在匯入繫結檔案之後的頁面。  
+- 在匯入繫結檔案前先行編輯該檔案，方法是將星號取代為某些垃圾值 (亦即不正確的密碼)。 輸入正確的密碼使用**傳輸屬性**在 BizTalk Server 管理主控台，匯入繫結檔案後的頁面。  
   
-    > [!NOTE]
-    >  只有當目標電腦上安裝了 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，或您開發自訂工具時，才能使用這項解決方法。  
+  > [!NOTE]
+  >  只有當目標電腦上安裝了 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]，或您開發自訂工具時，才能使用這項解決方法。  
   
- -或-  
+  -或-  
   
--   不使用密碼，改為使用「企業單一登入」(SSO)。  
+- 不使用密碼，改為使用「企業單一登入」(SSO)。  
   
-     使用 SSO 選項需要先匯入繫結檔案。  
+   使用 SSO 選項需要先匯入繫結檔案。  
   
- 驗證邏輯系統以及「傳輸」和「接收」服務。  
+  驗證邏輯系統以及「傳輸」和「接收」服務。  
   
 ## <a name="see-also"></a>另請參閱  
-[匯入繫結和限制](../core/deploying-biztalk-adapter-for-peoplesoft-enterprise.md)
+[匯入繫結與限制](../core/deploying-biztalk-adapter-for-peoplesoft-enterprise.md)

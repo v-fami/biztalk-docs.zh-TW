@@ -1,5 +1,5 @@
 ---
-title: 如何取得彙總的索引清單 |Microsoft 文件
+title: 如何取得彙總的索引清單 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,30 +16,30 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ad7eabf54dc410ebed143641602599438f376a30
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 03c2d898237482550fda5304f9fd4731b6e06200
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25970756"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37020100"
 ---
 # <a name="how-to-get-a-list-of-indexes-on-an-aggregation"></a>如何取得彙總的索引清單
-系統管理員使用**get 索引**命令，以取得在指定的活動上的所有索引的清單。  
+系統管理員可以使用**get 索引**命令，以取得一份所有索引上指定的活動。  
   
 ### <a name="to-get-a-list-of-indexes-on-an-aggregation"></a>若要取得彙總的索引清單  
   
-1.  開啟命令提示字元，如下所示： 按一下**啟動**，按一下**執行**，型別**cmd**，然後按一下 **確定**。  
+1. 開啟命令提示字元，如下所示： 按一下**開始**，按一下**執行**，型別**cmd**，然後按一下 **確定**。  
   
-2.  瀏覽到 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking。  
+2. 瀏覽到 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking。  
   
-3.  型別**bm get 索引的活動：\<活動名稱\>**。  
+3. 型別**bm get 索引-活動：\<活動名稱\>**。  
   
-    > [!NOTE]
-    >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  
+   > [!NOTE]
+   >  在支援 [使用者帳戶控制] \(UAC) 的系統上，您必須以系統管理權限執行此工具。  
   
-4.  按 ENTER 鍵。  
+4. 按 ENTER 鍵。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [管理 BAM 動態基礎結構](../core/managing-the-bam-dynamic-infrastructure.md)   
  [BAM 管理公用程式](../core/bam-management-utility.md)   
  [如何刪除索引](../core/how-to-delete-an-index.md)   

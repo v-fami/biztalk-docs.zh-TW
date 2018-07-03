@@ -1,5 +1,5 @@
 ---
-title: 整數屬性值無效。 |Microsoft 文件
+title: 整數屬性值無效。 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,28 +12,28 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: acbb350d9dd8fe77e42bb7e8b3cdf4617c87a2f7
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0f376cb7742aed676d8f834f2fa7f813f6754854
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278902"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37024388"
 ---
 # <a name="the-integer-property-value-is-not-valid"></a>整數屬性值無效
 ## <a name="details"></a>詳細資料  
   
-|||  
-|-|-|  
-|產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|產品版本|[!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]|  
-|事件識別碼|-|  
-|事件來源|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]EDI|  
-|元件|EDI 引擎|  
-|符號名稱|Err_InvalidInteger|  
-|訊息文字|整數屬性值無效。|  
+|                 |                                                                                        |
+|-----------------|----------------------------------------------------------------------------------------|
+|  產品名稱   |   [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]   |
+| 產品版本 |               [!INCLUDE[btsEDIVersion](../includes/btsediversion-md.md)]               |
+|    事件識別碼     |                                           -                                            |
+|  事件來源   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI |
+|    元件    |                                       將 EDI 引擎                                       |
+|  符號名稱  |                                   Err_InvalidInteger                                   |
+|  訊息文字   |                        整數屬性值不是有效的。                        |
   
 ## <a name="explanation"></a>說明  
- 這個錯誤/警告/資訊事件表示 BizTalk Server 無法將內容屬性做比較時決定是否要批次處理的訊息。  
+ 這個錯誤/警告/資訊事件表示 BizTalk Server 無法嘗試決定是否要批次處理的訊息比較的內容屬性。  
   
 ## <a name="user-action"></a>使用者動作  
- 若要解決這個錯誤，請在作用中批次中提供的篩選條件不會指定內容屬性的 XSD 類型的整數值無效。
+ 若要解決這個錯誤，請確定在作用中批次中提供的篩選條件未指定內容屬性的 XSD 類型為整數值無效。

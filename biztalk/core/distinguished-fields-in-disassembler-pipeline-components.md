@@ -1,5 +1,5 @@
 ---
-title: 辨別的欄位在解譯器管線元件 |Microsoft 文件
+title: 辨別的欄位的解譯器管線元件 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,21 +17,21 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 20a9c79050b4489238ed94444eaebf8c3dac79d9
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: b08a5c3dd6b88351e67f678524a03052e8435439
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/16/2018
-ms.locfileid: "31008441"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37012287"
 ---
-# <a name="distinguished-fields-in-disassembler-pipeline-components"></a>辨別的欄位在解譯器管線元件
+# <a name="distinguished-fields-in-disassembler-pipeline-components"></a>辨別的欄位的解譯器管線元件
 結構描述中定義的辨別欄位會由「XML 解譯器」、「BizTalk Framework 解譯器」或「一般檔案解譯器」管線元件以下列格式寫入訊息內容：  
   
- *使用名稱* 是 XPath 中的辨別的欄位  
+ *使用名稱*是辨別的欄位 xpath  
   
- *命名空間 URI*是 「http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields"  
+ *命名空間 URI*是 「<http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields>"  
   
- 屬性的值是 **System.String** 指定 XPath 擷取自 XML 文件使用的值。  
+ 屬性的值是**System.String**指定 XPath 擷取自 XML 文件使用的值。  
   
  以下範例結構描述具有辨別欄位 Price。  
   
@@ -72,7 +72,7 @@ ms.locfileid: "31008441"
   
  屬性的命名空間： http://schemas.microsoft.com/BizTalk/2003/btsDistinguishedFields  
   
- 屬性的值︰ 10  
+ 屬性的值： 10  
   
 > [!NOTE]
 >  若任何 XML 文件項目值的大小超過 85KB，則處理這些文件時可能會發生效能降低的狀況。  

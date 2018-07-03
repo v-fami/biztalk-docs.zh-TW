@@ -1,5 +1,5 @@
 ---
-title: 如何定義 BAM 彙總 |Microsoft 文件
+title: 如何定義 BAM 彙總 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,23 +18,23 @@ caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ef1b5b377611eb8e28088cb2d0c2f2ed6f829de8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 57df4978f2b133794efd8fbdc99819bcedf144cb
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22249510"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37015903"
 ---
 # <a name="how-to-define-bam-aggregations"></a>如何定義 BAM 彙總
 BAM 支援兩種資料彙總：  
   
--   線上分析處理 (OLAP) 彙總  
+- 線上分析處理 (OLAP) 彙總  
   
--   即時彙總 (RTA)  
+- 即時彙總 (RTA)  
   
- BAM 使用 Microsoft SQL Server Analysis Services，實作 OLAP 彙總。  
+  BAM 使用 Microsoft SQL Server Analysis Services 實作 OLAP 彙總。  
   
- 您必須在 BAM 主要匯入資料庫上設定定義 RTA 的觸發程序。  
+  您必須在 BAM 主要匯入資料庫上設定定義 RTA 的觸發程序。  
   
 ### <a name="to-define-olap-aggregations"></a>定義 OLAP 彙總  
   
@@ -46,13 +46,13 @@ BAM 支援兩種資料彙總：
   
     -   若要部署活頁簿，請依照下列中的指示[如何部署 BAM 定義](../core/how-to-deploy-bam-definitions.md)。  
   
-3.  方案開發人員使用**DirectEventStream**類別將事件匯入 BAM 主要匯入資料庫。  
+3.  方案開發人員使用**DirectEventStream**匯入事件至 BAM 主要匯入資料庫的類別。  
   
-    -   如需有關資訊**DirectEventStream**類別，請參閱[DirectEventStream 類別](http://msdn.microsoft.com/library/microsoft.biztalk.bam.eventobservation.directeventstream.aspx)。  
+    -   如需**DirectEventStream**類別，請參閱[DirectEventStream 類別](http://msdn.microsoft.com/library/microsoft.biztalk.bam.eventobservation.directeventstream.aspx)。  
   
 4.  執行更新 Cube Data Transformation Services (DTS) 封裝。  
   
-    -   如需執行更新 cube DTS 封裝的詳細資訊，請參閱[BAM DTS 封裝](../core/bam-dts-packages.md)。  
+    -   如需執行更新 cube DTS 封裝的資訊，請參閱[BAM DTS 封裝](../core/bam-dts-packages.md)。  
   
 5.  開啟此活頁簿最近的即時資料複本，以檢視 OLAP 彙總。  
   
@@ -66,13 +66,13 @@ BAM 支援兩種資料彙總：
     > [!WARNING]
     >  請勿定義多個使用相同 BAM 活動的 RTA。 若是這麼做，當您封存 BAM 資料時，RTA 資料將是錯誤的資料。  
   
-    -   如需開啟 BAM 活頁簿，建立檢視，以及新增維度和量值，請參閱 < 定義商務活動檢視 > 和 < 定義彙總 」 中*資訊工作者使用者手冊 》*。  
+    -   如需開啟 BAM 活頁簿的相關資訊，建立檢視，以及新增維度和量值，請參閱 < 定義商務活動檢視 > 和 < 定義彙總 」 中*資訊工作者使用者手冊 》*。  
   
 2.  部署活頁簿。  
   
     -   若要部署活頁簿，請依照下列中的指示[如何部署 BAM 定義](../core/how-to-deploy-bam-definitions.md)。  
   
-3.  方案開發人員使用**DirectEventStream**類別將事件匯入 BAM 主要匯入資料庫。  
+3.  方案開發人員使用**DirectEventStream**匯入事件至 BAM 主要匯入資料庫的類別。  
 
   
 4.  開啟此活頁簿最近的即時資料複本，以檢視 RTA。  

@@ -1,5 +1,5 @@
 ---
-title: SOAP 標頭與已發佈的 WCF 服務 |Microsoft 文件
+title: SOAP 標頭與已發佈的 WCF 服務 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,15 +16,15 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 78f36e778930a781ac797e18308240ecb4bef667
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: ea48ab7afeae2b54136c9134d3ef92878b802924
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25975684"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36985367"
 ---
 # <a name="soap-headers-with-published-wcf-services"></a>SOAP 標頭與已發佈的 WCF 服務
-WCF 接收配接器可以將所有 SOAP 標頭值都複製到輸入訊息中**InboundHeaders**屬性，或者可以寫入或升級至 BizTalk 訊息內容的指定的值。 配接器可以處理自訂 SOAP 標頭和 WCF 基礎結構使用的標準 SOAP 標頭，例如 WS-Addressing、WS-Security 和 WS-AtomicTransaction。 **InboundHeaders**內容屬性位於目標命名空間**http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**，並包含的 soap 的字串表示法內送訊息中的標頭值。  
+WCF 接收配接器可以將所有的 SOAP 標頭值複製到輸入訊息中**InboundHeaders**屬性，或者可以寫入或升級至 BizTalk 訊息內容的指定的值。 配接器可以處理自訂 SOAP 標頭和 WCF 基礎結構使用的標準 SOAP 標頭，例如 WS-Addressing、WS-Security 和 WS-AtomicTransaction。 **InboundHeaders**內容屬性位於目標命名空間**http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**，並包含的內送訊息中的 SOAP 標頭值的字串表示法。  
   
 > [!NOTE]
 >  如果您要升級指定的 SOAP 標頭值，則 BizTalk 專案中必須有已部署的屬性結構描述，與您要升級的值相對應。  
@@ -32,7 +32,7 @@ WCF 接收配接器可以將所有 SOAP 標頭值都複製到輸入訊息中**In
 > [!NOTE]
 >  升級的屬性不能超過 256 個字元。  
   
- 下列 XML 資料顯示的 SOAP 標頭的字串表示法範例**InboundHeaders**屬性。 此資料來自用戶端，並且會傳送至 BizTalk 接收位置。  
+ 下列 XML 資料顯示的 SOAP 標頭的字串表示法的範例**InboundHeaders**屬性。 此資料來自用戶端，並且會傳送至 BizTalk 接收位置。  
   
 ```  
 <headers>  
@@ -46,15 +46,15 @@ WCF 接收配接器可以將所有 SOAP 標頭值都複製到輸入訊息中**In
   
  若要將 SOAP 標頭值寫入或升級至 BizTalk 訊息內容，您必須將包含屬性名稱和命名空間的值配對集合放入 WCF 訊息，讓 WCF 配接器能夠辨識將寫入或升級的標頭值。 WCF 訊息必須包含下列訊息屬性，WCF 配接器才能將 SOAP 標頭值寫入或升級至 BizTalk 訊息內容：  
   
--   若要升級至 BizTalk 訊息內容的 SOAP 標頭值，WCF 配接器會尋找的索引鍵配對**http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/Promote**和值**清單\<KeyValuePair\<XmlQualifiedName，物件\>\>**。  
+- 若要升級至 BizTalk 訊息內容的 SOAP 標頭值，WCF 配接器會尋找金鑰組**http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/Promote**和值**清單\<KeyValuePair\<XmlQualifiedName，物件\>\>**.  
   
-     使用此配對，WCF 配接器需要命名空間、 名稱和值從**XmlQualifiedName**物件，並使用它們來升級標頭值。  
+   使用此配對，WCF 配接器需要命名空間、 名稱和值**XmlQualifiedName**物件，並將它們用於升級的標頭值。  
   
--   若要撰寫，但未升級至 BizTalk 訊息內容的 SOAP 標頭值，WCF 配接器會尋找的索引鍵配對**http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/WriteToContext**和值**清單\<KeyValuePair\<XmlQualifiedName，物件\>\>**。  
+- 若要撰寫，但不是升級至 BizTalk 訊息內容的 SOAP 標頭值，WCF 配接器所需的金鑰組**http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/WriteToContext**和 值**清單\<KeyValuePair\<XmlQualifiedName，物件\>\>**。  
   
-     使用此配對，WCF 配接器便可將值寫入訊息內容。  
+   使用此配對，WCF 配接器便可將值寫入訊息內容。  
   
- 下列程式碼顯示如何將 SOAP 標頭值寫入或升級至 BizTalk 訊息內容：  
+  下列程式碼顯示如何將 SOAP 標頭值寫入或升級至 BizTalk 訊息內容：  
   
 ```  
 const string PropertiesToPromoteKey="http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties/Promote";  
@@ -75,7 +75,7 @@ writeProps.Add(new KeyValuePair<XmlQualifiedName, object>(PropName2, "Property v
 wcfMessage.Properties[PropertiesToWriteKey]=writeProps;  
 ```  
   
- 「BizTalk WCF 服務發佈精靈」不會將自訂 SOAP 標頭定義包含在產生的中繼資料內。 若要使用自訂 SOAP 標頭發佈 WCF 服務的中繼資料，您應手動建立「Web 服務描述語言」(WSDL) 檔案。 您可以使用**externalMetadataLocation**屬性[ \<serviceMetadata\> ](http://go.microsoft.com/fwlink/?LinkId=89121)精靈會產生指定的位置在 Web.config 檔案中的項目WSDL 檔案。 WSDL 檔案會傳回給使用者，以回應 WSDL 和中繼資料交換 (MEX) 要求，而不是自動產生的 WSDL。  
+ 「BizTalk WCF 服務發佈精靈」不會將自訂 SOAP 標頭定義包含在產生的中繼資料內。 若要使用自訂 SOAP 標頭發佈 WCF 服務的中繼資料，您應手動建立「Web 服務描述語言」(WSDL) 檔案。 您可以使用**externalMetadataLocation**屬性[ \<serviceMetadata\> ](http://go.microsoft.com/fwlink/?LinkId=89121) Web.config 檔案，精靈會產生指定的位置中的項目WSDL 檔案。 WSDL 檔案會傳回給使用者，以回應 WSDL 和中繼資料交換 (MEX) 要求，而不是自動產生的 WSDL。  
   
  下列 XML 資料顯示定義自訂 SOAP 標頭之 WSDL 檔案一部分的範例：  
   
@@ -99,6 +99,6 @@ wcfMessage.Properties[PropertiesToWriteKey]=writeProps;
   
 -   [使用管線元件存取 WCF 訊息中的 SOAP 標頭](../core/accessing-soap-headers-in-wcf-messages-with-pipeline-components.md)  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [WCF 配接器屬性結構描述和屬性](../core/wcf-adapters-property-schema-and-properties.md)   
  [SOAP 標頭與使用 WCF 服務](../core/soap-headers-with-consumed-wcf-services.md)

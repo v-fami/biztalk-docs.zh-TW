@@ -1,5 +1,5 @@
 ---
-title: 停止和啟動協調流程、 傳送埠和接收位置，以程式設計的方式 |Microsoft 文件
+title: 停止和啟動協調流程、 傳送埠和接收位置，以程式設計的方式 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -22,18 +22,18 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 96b914129d9afb6dfd542f00a302e739e34dafbe
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 2736f76e3292c6e21a05c995afdd2808a9f60590
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22210878"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36995471"
 ---
 # <a name="stopping-and-starting-orchestrations-send-ports-and-receive-locations-programmatically"></a>停止和啟動協調流程、 傳送埠和接收位置，以程式設計的方式
-本主題提供以程式控制方式停止及啟動協調流程、傳送埠和接收位置的範例程式碼。 您可以將所有的協調流程、傳送埠和接收位置當做群組或個別地執行這些動作。 只要將這個程式碼包含在程式中，即可動態地執行這些動作。 在圖形化使用者介面中執行這些動作在設計階段於[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]，或在執行階段在 BizTalk 管理主控台。  
+本主題提供以程式控制方式停止及啟動協調流程、傳送埠和接收位置的範例程式碼。 您可以將所有的協調流程、傳送埠和接收位置當做群組或個別地執行這些動作。 只要將這個程式碼包含在程式中，即可動態地執行這些動作。 在圖形化使用者介面中執行這些動作在設計階段於 Microsoft [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]，或在 BizTalk 管理主控台中的執行階段。  
   
 > [!NOTE]
->  對於用來啟動和停止協調流程的程式碼，您不必指定協調流程、傳送埠或接收位置。 範例程式碼會執行動作的所有協調流程、 傳送埠和接收位置的[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]當初安裝時。 對於在單一協調流程、傳送埠或接收位置執行動作的程式碼，則請新增指示程式碼執行所在之協調流程、傳送埠或接收位置的參數。  
+>  對於用來啟動和停止協調流程的程式碼，您不必指定協調流程、傳送埠或接收位置。 範例程式碼上所有的協調流程執行動作、 傳送埠和接收位置，[!INCLUDE[BTARN_CurrentVersion_abbrev](../../includes/btarn-currentversion-abbrev-md.md)]安裝的。 對於在單一協調流程、傳送埠或接收位置執行動作的程式碼，則請新增指示程式碼執行所在之協調流程、傳送埠或接收位置的參數。  
   
 ## <a name="demonstrates"></a>示範  
  本主題中的範例程式碼包含不同的程式碼區段，可以執行下列動作：  

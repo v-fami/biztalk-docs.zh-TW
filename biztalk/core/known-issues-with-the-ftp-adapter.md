@@ -1,5 +1,5 @@
 ---
-title: FTP 配接器的已知問題 |Microsoft 文件
+title: FTP 配接器的已知問題 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e13ce12e8514eaa2b5843ba81eff4f505e65d9e1
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: fcab9b35759d491c0732cfb2613a2fd4fe992a3e
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26010087"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022484"
 ---
 # <a name="known-issues-with-the-ftp-adapter"></a>FTP 配接器的已知問題
 本節包含可幫助您避免錯誤的資訊。  
@@ -39,14 +39,14 @@ ms.locfileid: "26010087"
 ##### <a name="resolution"></a>解決方案  
  若要解決這個行為，請使用下列其中一個方法：  
   
--   設定主控件應用程式寫入與公用 FTP 資料夾同一硬碟上的暫存資料夾，並定期將暫存資料夾的內容移至 FTP 資料夾。 暫存資料夾應位於與公用 FTP 資料夾相同的硬碟上，以確定移動作業為不可部分完成。 不可部分完成的作業就是不可分別運作的作業。 如果您使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] FTP 配接器寫入資料到公用 FTP 資料夾，則可在設定傳送埠時，在 [FTP 傳輸屬性] 對話方塊中指定暫存資料夾屬性來執行上述動作。 如果您指定暫存資料夾屬性，請確定此資料夾位於與公用 FTP 資料夾相同的實體磁碟上。  
+- 設定主控件應用程式寫入與公用 FTP 資料夾同一硬碟上的暫存資料夾，並定期將暫存資料夾的內容移至 FTP 資料夾。 暫存資料夾應位於與公用 FTP 資料夾相同的硬碟上，以確定移動作業為不可部分完成。 不可部分完成的作業就是不可分別運作的作業。 如果您使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] FTP 配接器寫入資料到公用 FTP 資料夾，則可在設定傳送埠時，在 [FTP 傳輸屬性] 對話方塊中指定暫存資料夾屬性來執行上述動作。 如果您指定暫存資料夾屬性，請確定此資料夾位於與公用 FTP 資料夾相同的實體磁碟上。  
   
--   當主控件應用程式沒有寫入資料到 FTP 伺服器時，設定 FTP 接收位置在服務窗口中作業。 您可在設定接收位置屬性時指定服務窗口。  
+- 當主控件應用程式沒有寫入資料到 FTP 伺服器時，設定 FTP 接收位置在服務窗口中作業。 您可在設定接收位置屬性時指定服務窗口。  
   
 #### <a name="ftp-adapter-does-not-support-revocation-checks-on-the-server-certificates"></a>FTP 配接器不支援對伺服器憑證進行撤銷檢查  
   
 ##### <a name="problem"></a>問題  
- FTP 配接器在 BizTalk Server 中的已增強為支援安全的檔案傳輸使用 SSL/TLS FTPS 伺服器往返。 憑證撤銷清單 (CRL) 包含已經撤銷而不再有效之憑證的清單。 FTP 配接器不會查看 CRL 來驗證伺服器憑證。  
+ FTP 配接器在 BizTalk Server 中的已增強為支援安全的檔案傳輸使用 SSL/TLS 的 FTPS 伺服器往返。 憑證撤銷清單 (CRL) 包含已經撤銷而不再有效之憑證的清單。 FTP 配接器不會查看 CRL 來驗證伺服器憑證。  
   
 ##### <a name="cause"></a>原因  
  依照 設計，FTP 配接器在接受伺服器憑證之前，並不會查看 CRL 。  
@@ -73,6 +73,6 @@ ms.locfileid: "26010087"
 ##### <a name="resolution"></a>解決方案  
  不需動作，此行為是經過設計的。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [如何設定 FTP 接收位置](http://msdn.microsoft.com/library/1d8fde35-f787-4a5e-a8bd-8c418d0f75c3)   
  [FTP 配接器疑難排解](../core/troubleshooting-the-ftp-adapter.md)

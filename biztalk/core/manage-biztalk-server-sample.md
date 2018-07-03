@@ -1,5 +1,5 @@
 ---
-title: 管理 （BizTalk Server 範例） |Microsoft 文件
+title: 管理 （BizTalk Server 範例） |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,25 +17,25 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4234614cc9f00809f8922999ae96e6f254989c6a
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 2a62fe56bed210669625c9fff4c76315d1eb4546
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25970964"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37022868"
 ---
 # <a name="manage-biztalk-server-sample"></a>管理 （BizTalk Server 範例）
 「管理單一登入 (SSO)」範例會示範如何建構 .xml 檔案，這類檔案可以與 ssomanage.exe 命令列公用程式搭配使用，執行下列類型的系統管理作業：  
   
--   在 SSO 系統層級更新全域資訊  
+- 在 SSO 系統層級更新全域資訊  
   
--   建立分支機構應用程式  
+- 建立分支機構應用程式  
   
--   建立使用者對應  
+- 建立使用者對應  
   
- 如需企業單一登入的概念性資訊，請參閱[使用 SSO](../core/using-sso.md)。  
+  如需企業單一登入的概念資訊，請參閱[使用 SSO](../core/using-sso.md)。  
   
- 如需範例，示範如何以程式設計方式設定 SSO，例如建立分支機構應用程式和使用者對應，請參閱[HTTPSSO （BizTalk Server 範例）](../core/httpsso-biztalk-server-sample.md)。  
+  如需範例，示範如何以程式設計方式建立分支機構應用程式和使用者對應，例如設定 SSO，請參閱[HTTPSSO （BizTalk Server 範例）](../core/httpsso-biztalk-server-sample.md)。  
   
 ## <a name="what-this-sample-does"></a>此範例的用途  
  這個範例會針對其中各種作業類型，分別提供一對 XSD 和範例 .xml 檔案。 範例 .xml 檔案中的值是無效的。 您必須變更這些值，才能符合您的特定需求。  
@@ -45,7 +45,7 @@ ms.locfileid: "25970964"
   
  下表顯示此範例中的檔案，並描述其用途。  
   
-|檔案|Description|  
+|檔案|描述|  
 |---------------|-----------------|  
 |AffiliateApplication.xml、GlobalInfo.xml、UserMapping.xml|經過修改之後，即可做為引數，傳遞至命令列公用程式 ssomanage.exe 的範例 .xml 檔案。|  
 |AffiliateApplication.xsd、GlobalInfo.xsd、UserMapping.xsd|對應之 .xml 檔案的結構描述檔案，可提供其可能項目和屬性 (Attribute) 的完整描述。 您可以使用這些檔案來驗證從其他來源收到的對應 .xml 檔案。|  
@@ -56,44 +56,44 @@ ms.locfileid: "25970964"
 ## <a name="running-this-sample"></a>執行此範例  
  此範例包含的範例 .xml 檔案，將在下列三種不同模式中執行命令列公用程式 ssomanage.exe：  
   
--   **更新 SSO 系統層級的全域資訊。** 若要執行這類作業，請依照下列步驟執行：  
+- **更新 SSO 系統層級的全域資訊。** 若要執行這類作業，請依照下列步驟執行：  
   
-    1.  根據您的特定組態需求，編輯 GlobalInfo.xml 檔案。  
+  1. 根據您的特定組態需求，編輯 GlobalInfo.xml 檔案。  
   
-    2.  以適當的引數執行 ssomanage.exe 命令列公用程式，如下所示：  
+  2. 以適當的引數執行 ssomanage.exe 命令列公用程式，如下所示：  
   
-        ```  
-        ssomanage –updatedb GlobalInfo.xml  
-        ```  
+     ```  
+     ssomanage –updatedb GlobalInfo.xml  
+     ```  
   
      確定將 GlobalInfo.xml 檔案中的值編輯成符合您的環境。 例如，SSO 管理員帳戶必須是有效的 Windows 帳戶。 SSO 管理員帳戶和 SSO 分支機構管理員帳戶都必須是 Windows 全域網域群組帳戶。  
   
--   **建立分支機構應用程式。** 若要執行這類作業，請依照下列步驟執行：  
+- **建立分支機構應用程式。** 若要執行這類作業，請依照下列步驟執行：  
   
--   根據您的特定組態需求，編輯 AffiliateApplication.xml 檔案。  
+- 根據您的特定組態需求，編輯 AffiliateApplication.xml 檔案。  
   
-    -   以適當的引數執行 ssomanage.exe 命令列公用程式，如下所示：  
+  - 以適當的引數執行 ssomanage.exe 命令列公用程式，如下所示：  
   
-        ```  
-        ssomanage –createapps AffiliateApplication.xml  
-        ```  
+    ```  
+    ssomanage –createapps AffiliateApplication.xml  
+    ```  
   
-     您可以同時建立一個以上的分支機構應用程式。  
+    您可以同時建立一個以上的分支機構應用程式。  
   
--   **建立使用者對應。** 若要執行這類作業，請依照下列步驟執行：  
+- **建立使用者對應。** 若要執行這類作業，請依照下列步驟執行：  
   
-    1.  根據您的特定組態需求，編輯 UserMapping.xmlas 檔案。  
+  1. 根據您的特定組態需求，編輯 UserMapping.xmlas 檔案。  
   
-    2.  以適當的引數執行 ssomanage.exe 命令列公用程式，如下所示：  
+  2. 以適當的引數執行 ssomanage.exe 命令列公用程式，如下所示：  
   
-        ```  
-        ssomanage –createmappings UserMapping.xml  
-        ```  
+     ```  
+     ssomanage –createmappings UserMapping.xml  
+     ```  
   
      您可以同時為一或多個分支機構應用程式建立一個以上的對應。  
   
 ## <a name="comments"></a>註解  
  在變更本範例所提供的範例 .xml 檔案之後 (尤其當這類變更牽涉範圍包括檔案中的機密資訊時)，請確定這些檔案已受檔案系統的妥善保護。 例如，請確定沒有小心地將這類檔案放在共用資料夾中。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [SSO (BizTalk Server Samples 資料夾)](../core/sso-biztalk-server-samples-folder.md)

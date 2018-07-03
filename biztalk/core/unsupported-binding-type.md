@@ -1,5 +1,5 @@
 ---
-title: 不支援的繫結類型 |Microsoft 文件
+title: 不支援的繫結類型 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 98d156f22b5e903cd704dc109f98435203bd6ba8
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4a1090157a3b39dea62a3c95cb787b91e0a33bfc
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22286590"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37004335"
 ---
 # <a name="unsupported-binding-type"></a>不支援的繫結類型
 ## <a name="details"></a>詳細資料  
   
-|||  
-|-|-|  
-|產品名稱|[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]|  
-|產品版本|[!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]|  
-|事件識別碼|0|  
-|事件來源|0|  
-|元件|0|  
-|符號名稱|0|  
-|訊息文字|不支援的繫結類型|  
+|                 |                                                                                    |
+|-----------------|------------------------------------------------------------------------------------|
+|  產品名稱   | [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] |
+| 產品版本 |             [!INCLUDE[btsWCFVersion](../includes/btswcfversion-md.md)]             |
+|    事件識別碼     |                                         0                                          |
+|  事件來源   |                                         0                                          |
+|    元件    |                                         0                                          |
+|  符號名稱  |                                         0                                          |
+|  訊息文字   |                              不支援的繫結類型                              |
   
 ## <a name="explanation"></a>說明  
  已選擇 MsmqIntegration 繫結，但是這不受 WCF 配接卡支援。  
@@ -40,4 +40,4 @@ ms.locfileid: "22286590"
   
  如需設定配接器的詳細資訊，請參閱下列資源：  
   
--   [設定 Wcf-netmsmq 配接器](../core/configuring-the-wcf-netmsmq-adapter.md)
+-   [設定 WCF-NetMsmq 配接器](../core/configuring-the-wcf-netmsmq-adapter.md)

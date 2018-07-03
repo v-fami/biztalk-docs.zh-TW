@@ -1,5 +1,5 @@
 ---
-title: 範例凍結計算 |Microsoft 文件
+title: 範例凍結計算 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,29 +12,29 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0ff231b630a5848494c45cd8d4d05f89e764eb41
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 77701083272da9e09c21cb05daf3c4e9764b604c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22268878"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36993039"
 ---
 # <a name="sample-dehydration-calculation"></a>範例凍結計算
 以下是範例計算的範例，使用私用位元組來決定 BizTalk 是否會凍結。 該範例使用預設的設定值，以及一些範例執行階段值。  
   
  假設凍結屬性具有下列的值：  
   
--   **TimeBlocked** = 60 （範例封鎖時間以秒為單位）  
+- **TimeBlocked** = 60 （範例封鎖時間以秒為單位）  
   
--   **WaitingHistory** = 90 （以秒為單位範例等候記錄）  
+- **WaitingHistory** = 90 （範例等候記錄以秒為單位）  
   
--   **ActualPrivateBytes** = 250 （私用位元組的範例值）  
+- **ActualPrivateBytes** = 250 （私用位元組的範例值）  
   
--   **OptimalUsage** = 50 （預設組態值）  
+- **OptimalUsage** = 50 （預設組態值）  
   
--   **MaximalUsage** = 350 （預設組態值）  
+- **MaximalUsage** = 350 （預設組態值）  
   
- 因為**ActualPrivateBytes**之間**OptimalUsage**和**MaximalUsage**，計算 alpha:  
+  由於**ActualPrivateBytes**介於**OptimalUsage**並**MaximalUsage**，計算 alpha:  
   
 ```  
 alpha(private) = (350 – 250) / 350 – 50)  

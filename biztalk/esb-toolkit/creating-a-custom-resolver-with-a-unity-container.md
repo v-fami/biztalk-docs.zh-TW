@@ -1,5 +1,5 @@
 ---
-title: 建立自訂解析程式與 Unity 容器 |Microsoft 文件
+title: 使用 Unity 容器建立自訂解析程式 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,23 +12,23 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ef4a96542bcf2a7deae4911c6ee81fa846d0766f
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: b5280108bddeeacd78b9e8f6df0fa908329af8dd
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25975612"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37012671"
 ---
-# <a name="creating-a-custom-resolver-with-a-unity-container"></a>使用 Unity 容器中建立自訂的解析程式
-您可以建立自訂的解析程式使用[Unity 應用程式區塊](http://go.microsoft.com/fwlink/?LinkId=188286)(Unity) ([http://go.microsoft.com/fwlink/?LinkId=188286](http://go.microsoft.com/fwlink/?LinkId=188286)) 執行階段相依性插入的解析邏輯和中繼資料來源。
+# <a name="creating-a-custom-resolver-with-a-unity-container"></a>使用 Unity 容器建立自訂解析程式
+您可以建立自訂的解析程式，使用[Unity Application Block](http://go.microsoft.com/fwlink/?LinkId=188286) (Unity) ([http://go.microsoft.com/fwlink/?LinkId=188286](http://go.microsoft.com/fwlink/?LinkId=188286)) 的解析邏輯和中繼資料來源的執行階段相依性插入。
   
- **事實提供者**  
+ **事實的提供者**  
   
- 事實提供者是實作的類別執行個體**IFactProvider**介面。 此介面會公開三個不同的多載方法，名為**RegisterFact**。 這個方法會在訊息中，解析程式組態中，並在某些情況下，為管線的內容，並傳回的物件。 這個物件可能是擷取自以某種方式輸入資訊，它可能是一種計算的某種形式，或它可能查閱來自外部來源。 事實提供者所傳回每個物件可以稱為事實，而且通常會新增至清單解析容器，供稍後使用事實轉譯器。  
+ 事實的提供者所實作的類別的執行個體**IFactProvider**介面。 此介面會公開一個名為方法的三個不同的多載**RegisterFact**。 這個方法會在訊息中，解析程式組態中，並在某些情況下，管線內容，並傳回的物件。 這個物件可能以某種方式輸入從擷取的資訊，它可能是一種計算各種形式，或它可能會查閱從特定外部來源。 事實的提供者傳回的每個物件可以稱為事實，而且通常會加入至清單供稍後使用事實 translator 解析容器。  
   
- Unity 解析程式可能有零個或多個事實提供者，可以加入或移除在任何單一組態變更的時間。  
+ Unity 解析程式可能有零個或多個事實提供者，可以新增或移除在任何時間的單一組態變更。  
   
- 下列程式碼是範例事實提供者中所包含的邏輯。 此程式碼也可以找到 ESB ItineraryStaticFactProvider.cs 檔案中。Resolver.Itinerary.Facts 專案。 它是從解析程式的連接字串中收集的名稱和版本的行程路線靜態解析程式中的元件。  
+ 下列程式碼是邏輯的在事實提供者中所包含的範例。 此程式碼也可以找到 ESB ItineraryStaticFactProvider.cs 檔案中。Resolver.Itinerary.Facts 專案。 它是路線的元件，以收集從解析程式的連接字串的名稱和版本，路線靜態解析程式中。  
   
 ```csharp  
 public object RegisterFact(IBaseMessage message, IPipelineContext pipelineContext, Dictionary\<string, string\> resolverContents)  
@@ -55,11 +55,11 @@ private static object GetItineraryFactFromResolver(Dictionary\<string, string\> 
   
  **事實轉譯器**  
   
- 事實轉譯器是實作的類別執行個體**IFactTranslator**介面。 此介面會公開單一方法，名為**TranslateFact**。 這個方法會採用包含一份事實並稍後再將解析程式使用事實轉譯器所傳回的解析程式字典的物件陣列中。 事實轉譯器會負責處理事實的事實提供者所提供有意義的方式，然後填入解析程式字典項目。  
+ 事實轉譯器所實作的類別的執行個體**IFactTranslator**介面。 此介面會公開單一方法，名為**TranslateFact**。 這個方法會採用包含一份事實和更新版本會使用事實轉譯器的解析程式所傳回的解析程式字典的物件陣列。 事實轉譯器會負責處理事實的事實提供者所提供有意義的方式，以及解析程式字典來擴展。  
   
- Unity 解析程式可能有零個或多個事實轉譯器可以新增或移除在任何單一組態變更的時間。  
+ Unity 解析程式可能有零個或多個事實轉譯器，可以新增或移除在任何時間的單一組態變更。  
   
- 下列程式碼是範例事實轉譯器中所包含的邏輯。 此程式碼也可以找到 ESB ItineraryStaticFactTranslator.cs 檔案中。Resolver.Itinerary.Facts 專案。 它是路線靜態解析程式執行資料庫查詢依名稱，並選擇性地版本所收集的行程路線 XML 中的元件。  
+ 下列程式碼是邏輯的事實轉譯器中所包含的範例。 此程式碼也可以找到 ESB ItineraryStaticFactTranslator.cs 檔案中。Resolver.Itinerary.Facts 專案。 它是在執行資料庫查詢的名稱，並選擇性地由版本收集路線路線 XML 的路線靜態解析程式元件。  
   
 ```csharp  
 public void TranslateFact(object[] facts, Dictionary\<string, string\> factDictionary)  
@@ -115,9 +115,9 @@ public void TranslateFact(object[] facts, Dictionary\<string, string\> factDicti
 #endregion  
 ```  
   
- **解決容器**  
+ **解析容器**  
   
- 解析容器是類別，實作**IResolveContainer**介面。 通常，它也會實作**IResolveProvider**介面。 **IResolveContainer**介面會公開單一方法，名為**初始化**會採用**IUnityContainer**。 容器傳遞至這個方法會包含所有的相依性 (也就是一個類別的執行個體**IFactProvider**和**IFactTranslator**，和任何所需的型別) 所需的若要完成其處理程序解析程式。  
+ 解析容器是類別可實作**IResolveContainer**介面。 一般而言，它也會實作**IResolveProvider**介面。 **IResolveContainer**介面會公開單一方法，名為**初始化**會採用**IUnityContainer**。 傳遞至這個方法的容器將包含所有相依性 (也就是一個類別的執行個體**IFactProvider**並**IFactTranslator**，和任何其他所需的型別) 所需的若要完成其處理程序解析程式。  
   
  下列程式碼是實作的範例**IResolveContainer**介面。 此程式碼也可以找到 ESB StaticItineraryResolveContainer.cs 檔案中。Resolver.Itinerary 專案。  
   
@@ -147,9 +147,9 @@ public void Initialize(IUnityContainer container)
 #endregion  
 ```  
   
- 在解析容器中，實作**解決**方法**IResolveProvider**介面，就必須逐一查看所有的事實提供者和 Unity 中的事實轉譯器若要讓每個工作來執行處理作業的容器。  
+ 在解析容器中，實作**解決**方法，從**IResolveProvider**介面，就必須逐一查看所有的事實提供者和 Unity 中的事實轉譯器若要讓它們執行其處理的每個容器。  
   
- 下列程式碼是邏輯解決容器中所包含的範例。 此程式碼也可以找到 ESB StaticItineraryResolveContainer.cs 檔案中。Resolver.Itinerary 專案。  
+ 下列程式碼是邏輯的包含在解析容器的範例。 此程式碼也可以找到 ESB StaticItineraryResolveContainer.cs 檔案中。Resolver.Itinerary 專案。  
   
 ```csharp  
 public Dictionary\<string, string\> Resolve(ResolverInfo resolverInfo,  
@@ -208,15 +208,15 @@ private Dictionary\<string, string\> ResolveStatic(string config, string resolve
   
  **設定自訂的 Unity 解析程式**  
   
- 若要設定自訂的 Unity 解析程式，相同的設定步驟是指套用時建立自訂的解析程式。不過，還有一些額外的設定必須包含正確註冊元件組成的解析程式。  
+ 相同的設定步驟為建立自訂的解析程式; 時，所套用設定自訂的 Unity 解析程式，不過，還有一些額外的設定必須包含正確註冊元件組成的解析程式。  
   
- 首先，在底下的解析程式宣告，Esb.config 檔案**resolverConfig**節點必須新增具有下列兩個屬性：  
+ 首先，在宣告下之解析程式的 Esb.config 檔案**resolverConfig**節點必須新增具有下列兩個屬性：  
   
--   **unitySectionName**。 這個屬性包含組態檔，其中包含 Unity 應用程式區塊; 設定中的組態區段的名稱根據預設，此屬性的值是**esb.resolver**。  
+- **unitySectionName**。 此屬性包含在組態檔，其中包含 Unity 應用程式區塊; 設定的組態區段名稱根據預設，此屬性的值是**esb.resolver**。  
   
--   **unityContainerName**。 此屬性會包含您的自訂解決器的特定 Unity 組態中所定義的 Unity 容器的名稱。  
+- **unityContainerName**。 此屬性包含 Unity 設定特定至您的自訂解析程式中所定義的 Unity 容器的名稱。  
   
- 下列 XML 是必要的組態的範例**解析程式**節點。  
+  下列 XML 是中的必要組態的範例**解析程式**節點。  
   
 ```xml  
 <resolver name="ITINERARY-STATIC" type="Microsoft.Practices.ESB.Resolver.Unity.ResolveProvider, Microsoft.Practices.ESB.Resolver.Unity, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c62dd63c784d6e22">  
@@ -227,7 +227,7 @@ private Dictionary\<string, string\> ResolveStatic(string config, string resolve
 </resolver>  
 ```  
   
- 下列 XML 是底下所需之設定的範例**esb.resolver**節點。  
+ 下列 XML 程式碼是在必要的組態範例**esb.resolver**節點。  
   
 ```xml  
 <typeAliases>  
@@ -294,24 +294,24 @@ private Dictionary\<string, string\> ResolveStatic(string config, string resolve
 </containers>  
 ```  
   
- 如需在中是必要的組態**esb.resolvers**  節點，請參閱[Unity 應用程式區塊的來源結構描述](http://go.microsoft.com/fwlink/?LinkId=188288)([http://go.microsoft.com/fwlink/?LinkId = 188288](http://go.microsoft.com/fwlink/?LinkId=188288)) MSDN 上。  
+ 如需設定所需的詳細資訊**esb.resolvers**節點，請參閱[Unity Application Block 的來源結構描述](http://go.microsoft.com/fwlink/?LinkId=188288)([ http://go.microsoft.com/fwlink/?LinkId=188288 ](http://go.microsoft.com/fwlink/?LinkId=188288)) 在 MSDN 上。  
   
  **建立自訂的 Unity 解析程式**  
   
  **若要建立自訂的 Unity 解析程式**  
   
-1.  （選擇性）實作的類別，以建立組件或組件**IFactProvider**介面，並包含**RegisterFact**提供進行解析所需資訊的方法。  
+1.  （選擇性）建立組件或組件與類別可實作**IFactProvider**介面，並包含**RegisterFact**提供進行解析的必要資訊的方法。  
   
-2.  （選擇性）實作的類別，以建立組件或組件**IFactTranslator**介面，並包含**TranslateFact**會轉譯到索引鍵/值組內提供的事實的方法解析程式的字典。  
+2.  （選擇性）建立組件或組件與類別可實作**IFactTranslator**介面，並包含**TranslateFact**轉譯到索引鍵/值組內提供的事實的方法解析程式的字典。  
   
-3.  建立組件實作的類別與**IResolveContainer**和**IResolveProvider**介面，且包含**解決**驗證的方法解析程式組態收集事實提供者的所有事實、 執行任何特殊的處理，並使用事實轉譯器轉譯和傳回翻譯的事實執行個體**字典**類別。  
+3.  建立可實作類別的組件**IResolveContainer**並**IResolveProvider**介面，且包含**解決**驗證的方法解析程式組態來自事實提供者收集的所有事實、 會執行任何特殊的處理、 轉譯它們使用的事實轉譯器中，和的執行個體形式傳回翻譯的事實**字典**類別。  
   
-4.  註冊解決器將它加入 Esb.config 組態檔使用**\<解析程式\>** 元素包含做為根 moniker**名稱**屬性和完整限定組件名稱為**類型**屬性。  
+4.  註冊解析程式新增至 Esb.config 組態檔中使用**\<解析程式\>** 元素，其中包含做為根 moniker**名稱**屬性和完整限定的組件名稱為**型別**屬性。  
   
-5.  這個解析程式加入 Esb.config 檔案 Unity 特有的組態。  
+5.  將 Unity 特有組態新增至的 Esb.config 檔案中，這個解析程式。  
   
-6.  （選擇性）建立結構描述定義的根 moniker 和查詢參數，並再將它儲存在 ESB。Schemas.Resolvers 資料夾。 名稱應該遵循現有的 ESB 命名慣例。這表示它應使用的名稱加上"_Resolution.xsd"的根 moniker。  
+6.  （選擇性）建立結構描述中定義的根 moniker 和查詢參數，並再將它儲存在 ESB。Schemas.Resolvers 資料夾中。 名稱應該遵循現有的 ESB 命名慣例;這表示它應該使用的名稱加上"_Resolution.xsd"的根 moniker。  
   
-7.  （選擇性）從新的結構描述產生類別，並將它儲存在自訂解決器組件中。 這將會公開自訂解析程式中的型別的參數。  
+7.  （選擇性）從新的結構描述產生類別，並將它儲存在自訂解析程式的組件。 這將會公開自訂解析程式中的型別的參數。  
   
 8.  在全域組件快取中註冊的所有組件。

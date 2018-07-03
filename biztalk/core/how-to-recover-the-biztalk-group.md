@@ -1,5 +1,5 @@
 ---
-title: 復原 BizTalk 群組 |Microsoft 文件
+title: 復原 BizTalk 群組 |Microsoft Docs
 ms.custom: ''
 ms.date: 01/30/2018
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3563956daa4848d4d67c1321c23676b21f9e4735
-ms.sourcegitcommit: 78376935362715684b451eb6da9f2b1e8c129c2b
+ms.openlocfilehash: e96e647358a0fd0601933dc0b1744537d63ae630
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 02/01/2018
-ms.locfileid: "28944094"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37023588"
 ---
 # <a name="how-to-recover-the-biztalk-group"></a>如何復原 BizTalk 群組
 在系統復原程序中，您必須將 BizTalk Server 重新加入現有的 BizTalk 群組。  
@@ -29,33 +29,33 @@ ms.locfileid: "28944094"
   
 ## <a name="recover-the-biztalk-group-standard-edition"></a>復原 BizTalk 群組 (Standard Edition)  
   
-1.  按一下**啟動**，型別**cmd**，然後選取**命令提示字元**。  
+1. 按一下 **開始**，型別**cmd**，然後選取**命令提示字元**。  
   
-2.  在命令提示字元中，輸入：  
+2. 在命令提示字元中，輸入：  
   
-     **RestoreConfig.vbe**  *\<SavedConfigXML\>*  
+    **RestoreConfig.vbe**  *\<SavedConfigXML\>*  
   
-     其中 *\<SavedConfigXML\>* 是完整路徑和儲存的組態檔的檔名。  
+    何處*\<SavedConfigXML\>* 是完整路徑和儲存的組態檔的檔名。  
   
-     上述命令應該會結束且不顯示任何錯誤。  
+    上述命令應該會結束且不顯示任何錯誤。  
   
-    > [!NOTE]
-    >  若要復原[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]64 位元電腦上的 Standard Edition，您必須執行**RestoreConfig.vbe**從 32 位元命令提示字元，它可以更新 32 位元登錄。 若要開啟 32 位元命令提示字元，請按一下  **啟動**, ，按一下  **執行**, ，型別 **c:\windows\syswow64\cmd.exe**, ，然後按一下  **確定**。  
-  
-    > [!NOTE]
-    >  失敗電腦的名稱會包含在儲存的組態檔中。 您要還原至的電腦必須具有該相同名稱。 您必須在具有該名稱的電腦上執行上述指令碼。 不過，您可以在儲存的組態檔中變更失敗電腦的名稱。 如果這樣做，您就可以在具有不同名稱的電腦上執行上述指令碼。  
+   > [!NOTE]
+   >  若要復原[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]64 位元電腦上的 Standard Edition，您必須執行**RestoreConfig.vbe**在 32 位元命令提示字元更新 32 位元登錄。 若要開啟 32 位元命令提示字元，請按一下**開始**，按一下**執行**，型別**c:\windows\syswow64\cmd.exe**，然後按一下 **確定**。  
+   > 
+   > [!NOTE]
+   >  失敗電腦的名稱會包含在儲存的組態檔中。 您要還原至的電腦必須具有該相同名稱。 您必須在具有該名稱的電腦上執行上述指令碼。 不過，您可以在儲存的組態檔中變更失敗電腦的名稱。 如果這樣做，您就可以在具有不同名稱的電腦上執行上述指令碼。  
   
 ## <a name="recover-the-biztalk-group-developer-edition-or-enterprise-edition"></a>復原 BizTalk 群組 （Developer Edition 或 Enterprise Edition）  
   
-1.  開啟**BizTalk Server 組態**（位於 [開始] 功能表）。
+1.  開啟**BizTalk Server 組態**（[開始] 功能表）。
   
-2.  在 BizTalk Server 管理 中，選取 **群組**。  
+2.  在 [BizTalk Server 管理] 中，選取**群組**。  
   
-3.  在 [詳細資料] 窗格中，選取**加入現有的 BizTalk 群組**，然後輸入遠端 BizTalk 管理 (BizTalkMgmtDb) 資料庫。  
+3.  在 [詳細資料] 窗格中，選取**加入現有的 BizTalk 群組**，然後輸入遠端 BizTalk 管理資料庫 (BizTalkMgmtDb)。  
   
-4.  選取**套用組態**。  
+4.  選取 **套用設定**。  
   
-5.  選取**檔案**，然後選取**結束**。  
+5.  選取 **檔案**，然後選取**結束**。  
   
 ## <a name="see-also"></a>另請參閱  
  [復原執行 BizTalk Server 的電腦](../core/recovering-a-computer-running-biztalk-server.md)

@@ -1,5 +1,5 @@
 ---
-title: 使用 WCF 服務模型的 Oracle 資料庫中執行的作業使用的記錄類型 |Microsoft 文件
+title: 使用 WCF 服務模型的 Oracle 資料庫中執行作業使用的記錄類型 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,32 +15,32 @@ caps.latest.revision: 3
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b3de78290e29c4c1ddc1465e8a9463a6e9d7b86f
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 5fd9bda9fc560310a882c5d48117cd823d544453
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22216254"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37004471"
 ---
-# <a name="run-operations-using-record-types-in-oracle-database-using-the-wcf-service-model"></a>使用 WCF 服務模型的 Oracle 資料庫中執行的作業使用的記錄類型
-Oracle 記錄類型可用來代表階層式參數傳遞至 PL/SQL 函數和程序中的資訊。 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現記錄類型為複雜的 XML 型別。 在 WCF 服務模型中，會還原序列化強型別.NET 類別的記錄類型。 記錄欄位會表示為類別的屬性。  
+# <a name="run-operations-using-record-types-in-oracle-database-using-the-wcf-service-model"></a>使用 WCF 服務模型的 Oracle 資料庫中執行作業使用的記錄類型
+Oracle 記錄類型用來代表階層式參數傳遞至 PL/SQL 函數與程序中的資訊。 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]呈現複雜的 XML 類型的記錄類型。 在 WCF 服務模型中，會還原序列化為強型別.NET 類別的記錄類型。 記錄欄位會表示為類別的屬性。  
   
  [!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]支援下列幾種記錄類型：  
   
--   記錄會宣告為預存程序和函式中的資料表 %資料列型別參數的類型。  
+- 記錄會宣告為預存程序和函式中的資料表 %資料列型別參數的類型。  
   
--   例如，宣告類型的記錄中當做參數的 PL/SQL 封裝的記錄類型`TYPE rec_type1 IS RECORD(name varchar2(100), age number(3));`  
+- 例如，宣告為類型的記錄參數的 PL/SQL 封裝中的記錄類型 `TYPE rec_type1 IS RECORD(name varchar2(100), age number(3));`  
   
--   包含巢狀的記錄的記錄類型。  
+- 包含巢狀的記錄的記錄類型。  
   
--   記錄中出現的類型為，逾時或在 OUT 參數的程序或函式。  
+- 記錄中出現的類型為，縮小或在 OUT 參數至程序或函式。  
   
--   傳回值的函式的記錄類型。  
+- 是函式傳回值的記錄類型。  
   
- 本主題說明如何在 WCF 服務模型中表示記錄類型。 如需如何呼叫 Oracle 程序和函數的資訊，請參閱[叫用函式和 Oracle 資料庫使用 WCF 服務模型中的程序](../../adapters-and-accelerators/adapter-oracle-database/invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model.md)。  
+  本主題說明如何在 WCF 服務模型中表示記錄類型。 如需如何呼叫 Oracle 程序和函式的資訊，請參閱[叫用函式和使用 WCF 服務模型的 Oracle 資料庫中的程序](../../adapters-and-accelerators/adapter-oracle-database/invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model.md)。  
   
-## <a name="about-the-examples-used-in-this-topic"></a>關於本主題中使用的範例  
- 本主題中的範例使用 SCOTT/ACCOUNT_PKG Oracle 的 PL/SQL 封裝。 下列項目是從 ACCOUNT_PKG 來使用。  
+## <a name="about-the-examples-used-in-this-topic"></a>有關使用本主題中的範例  
+ 本主題中的範例會使用 SCOTT/ACCOUNT_PKG Oracle 的 PL/SQL 封裝。 下列項目會使用從 ACCOUNT_PKG。  
   
 ```  
 TYPE address_rec_type IS RECORD (street customer.street%TYPE, city customer.city%TYPE, state customer.state%TYPE);  
@@ -52,27 +52,27 @@ TYPE acctinfo_rec_type IS RECORD (acct account%ROWTYPE, address address_rec_type
 FUNCTION get_accountinfo(aid NUMBER) RETURN acctinfo_rec_type;  
 ```  
   
- 指令碼來產生此封裝隨附[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]範例。 如需詳細資訊，請參閱指令碼  
+ 指令碼來產生此封裝提供給[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]範例。 如需詳細資訊，請參閱指令碼  
   
- 如需這些範例的詳細資訊，請參閱[配接器範例](../../adapters-and-accelerators/accelerator-rosettanet/adapter-samples.md)。  
+ 如需有關範例的詳細資訊，請參閱 <<c0> [ 配接器範例](../../adapters-and-accelerators/accelerator-rosettanet/adapter-samples.md)。  
   
 ## <a name="record-types-in-the-wcf-service-model"></a>WCF 服務模型中的記錄類型  
- Oracle 記錄類型以複雜的 XML 型別，由[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]。 在 WCF 服務模型中，複雜的 XML 型別表示由類別，而此類別的屬性表示 Oracle 記錄類型的欄位。 表示記錄型別參數的類別會封裝 （如果有的話） 和函式或程序的結構描述會限定命名空間中產生。 此命名空間會唯一識別函式或程序的參數。 例如，下列命名空間中建立 Oracle 封裝 ACCOUNT_PKG CREATE_ACCOUNT 程序的記錄型別參數： `microsoft.lobservices.oracledb._2007._03.SCOTT.Package.ACCOUNT_PKG.CREATE_ACCOUNT`。 如需 WCF 服務模型中用來代表程序和函式中的複雜類型的命名空間的詳細資訊，請參閱[叫用函式和 Oracle 資料庫使用 WCF 服務模型中的程序](../../adapters-and-accelerators/adapter-oracle-database/invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model.md)。  
+ Oracle 記錄類型以複雜的 XML 型別，由[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]。 在 WCF 服務模型中，複雜的 XML 型別都由一個類別，而這個類別的屬性則代表 Oracle 記錄類型的欄位。 封裝 （如果有的話） 和函式或程序的結構描述會限定命名空間中產生的類別，表示記錄型別參數。 函式或程序的參數，可唯一識別此命名空間。 例如，下列命名空間中建立 Oracle 封裝 ACCOUNT_PKG CREATE_ACCOUNT 程序的記錄型別參數： `microsoft.lobservices.oracledb._2007._03.SCOTT.Package.ACCOUNT_PKG.CREATE_ACCOUNT`。 如需 WCF 服務模型中，用以代表程序和函式中的複雜類型的命名空間的詳細資訊，請參閱[叫用函式和使用 WCF 服務模型的 Oracle 資料庫中的程序](../../adapters-and-accelerators/adapter-oracle-database/invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model.md)。  
   
- 記錄型別參數的命名空間由程序或函式，而產生的記錄型別參數的類別名稱是記錄類型宣告的方式決定。 下表顯示產生的類別名稱的方式根據宣告 Oracle 記錄型別參數的兩個不同的方式。  
+ 記錄型別參數的命名空間由程序或函式，而記錄型別參數所產生之類別的名稱是記錄型別宣告決定附帶一提。 下表顯示產生的類別名稱的方式根據宣告 Oracle 記錄型別參數的兩種不同的方式。  
   
-|Oracle 記錄類型|名稱|範例|  
+|Oracle 記錄類型|[屬性]|範例|  
 |------------------------|----------|-------------|  
-|資料表 %rowtype 程序或函式參數|[PARAMETER_NAME]資料錄|ACCTRECORD|  
-|記錄封裝參數的型別|[PACKAGE_NAME][RECORD_TYPE_NAME]資料錄|ACCOUNT_PKGACCTINFO_REC_TYPERECORD|  
+|資料表 %rowtype 程序或函式參數|[P]記錄|ACCTRECORD|  
+|記錄封裝參數的型別|[PACKAGE_NAME][RECORD_TYPE_NAME]記錄|ACCOUNT_PKGACCTINFO_REC_TYPERECORD|  
   
- [PARAMETER_NAME] = 程序或函式參數名稱。例如，帳戶  
+ [P] = 程序或函式參數名稱;比方說，ACCT  
   
  [PACKAGE_NAME] = Oracle 封裝的名稱。  
   
- [RECORD_TYPE_NAME] = 記錄型別宣告; 中指定的名稱例如，ACCTINFO_REC_TYPE。  
+ [RECORD_TYPE_NAME] = 記錄類型宣告中指定的名稱比方說，ACCTINFO_REC_TYPE。  
   
- 下列程式碼會顯示為兩個 Oracle 函式產生 WCF 用戶端的方法簽章。 /SCOTT/Package/ACCOUNT_PKG/CREATE_ACCOUNT 函式接受兩個簡單的記錄類型 IN 參數，而且 /SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNTINFO 函數會傳回包含兩個巢狀的記錄類型的記錄型別參數。 Oracle 函式宣告會包含在程式碼的頂端。 每個函式的參數是唯一的命名空間所限定。  
+ 下列程式碼會顯示為兩個 Oracle 函式產生 WCF 用戶端的方法簽章。 /SCOTT/Package/ACCOUNT_PKG/CREATE_ACCOUNT 函式會採用兩個簡單的記錄類型 IN 參數，並 /SCOTT/Package/ACCOUNT_PKG/GET_ACCOUNTINFO 函式會傳回包含兩個巢狀的記錄類型的記錄型別參數。 Oracle 函式宣告會包含在程式碼頂端項目。 每個函式的參數是由唯一的命名空間限定的。  
   
 ```  
 FUNCTION create_account(acct IN ACCOUNT%ROWTYPE, addr IN address_rec_type) RETURN NUMBER;  
@@ -88,9 +88,9 @@ public partial class SCOTTPackageACCOUNT_PKGClient : System.ServiceModel.ClientB
 }  
 ```  
   
- 下列程式碼顯示針對 CREATE_ACCOUNT 函式的參數產生的類別：`FUNCTION create_account(acct IN ACCOUNT%ROWTYPE, addr IN address_rec_type) RETURN NUMBER;`  
+ 下列程式碼顯示針對 CREATE_ACCOUNT 函式的參數產生的類別： `FUNCTION create_account(acct IN ACCOUNT%ROWTYPE, addr IN address_rec_type) RETURN NUMBER;`  
   
- 此函式具有資料表 %rowtype 以宣告的參數和參數類型的記錄封裝類型宣告的參數 (`TYPE acctinfo_rec_type IS RECORD (acct account%ROWTYPE, address address_rec_type);`)。  
+ 此函式具有資料表 %資料列型別以宣告的參數和宣告類型的記錄套件類型的參數 (`TYPE acctinfo_rec_type IS RECORD (acct account%ROWTYPE, address address_rec_type);`)。  
   
 ```  
 namespace microsoft.lobservices.oracledb._2007._03.SCOTT.Package.ACCOUNT_PKG.CREATE_ACCOUNT {  
@@ -106,8 +106,8 @@ namespace microsoft.lobservices.oracledb._2007._03.SCOTT.Package.ACCOUNT_PKG.CRE
 }  
 ```  
   
-### <a name="representation-of-a-simple-record-type"></a>簡單記錄類型表示法  
- 下列程式碼顯示簡單的記錄類型 WCF 服務模型中的呈現方式。 此程式碼會示範在展開之檢視的**ACCOUNTRECORD**代表 CREATE_ACCOUNT 函式中的帳戶 %資料列型別參數的類別。 這個類別，在記錄欄位 （資料列資料行） 會表示為屬性。  
+### <a name="representation-of-a-simple-record-type"></a>簡單的記錄類型表示法  
+ 下列程式碼示範如何在 WCF 服務模型中表示簡單的記錄類型。 此程式碼顯示展開之檢視的**ACCOUNTRECORD**代表 CREATE_ACCOUNT 函式中的帳戶 %資料列型別參數的類別。 在這個類別中的記錄欄位 （資料列資料行） 會表示為屬性。  
   
 ```  
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "3.0.0.0")]  
@@ -163,8 +163,8 @@ public partial class ACCTRECORD : object, System.Runtime.Serialization.IExtensib
 }  
 ```  
   
-### <a name="representation-of-a-record-type-that-contains-nested-records"></a>表示包含巢狀的記錄的記錄類型  
- 下列程式碼顯示包含巢狀的記錄的記錄類型的表示法。 此特定記錄類型為 GET_ACCOUNTINFO 函式的傳回值 (`FUNCTION get_accountinfo(aid NUMBER) RETURN acctinfo_rec_type;`)。 ACCTINFO_REC_TYPE 為封裝參數使用的類型記錄建構宣告 (`TYPE acctinfo_rec_type IS RECORD (acct account%ROWTYPE, address address_rec_type);`)。 它包含兩個巢狀簡單記錄類型、 資料表 %的資料列記錄和套件類型的記錄記錄。 這些兩個簡單的記錄在其父記錄相同的命名空間中宣告，並遵照預期的命名慣例。  
+### <a name="representation-of-a-record-type-that-contains-nested-records"></a>包含巢狀的記錄的記錄類型的表示法  
+ 下列程式碼顯示包含巢狀的記錄的記錄類型的表示法。 這個特定記錄類型是 GET_ACCOUNTINFO 函式的傳回值 (`FUNCTION get_accountinfo(aid NUMBER) RETURN acctinfo_rec_type;`)。 ACCTINFO_REC_TYPE 為封裝參數，使用一種類型的記錄建構宣告 (`TYPE acctinfo_rec_type IS RECORD (acct account%ROWTYPE, address address_rec_type);`)。 它包含兩個巢狀的簡單記錄類型，資料表 %的資料列記錄和套件類型的記錄。 這些兩個簡單的記錄會在其父記錄相同的命名空間中宣告，並遵照預期的命名慣例。  
   
 ```  
 namespace microsoft.lobservices.oracledb._2007._03.SCOTT.Package.ACCOUNT_PKG.GET_ACCOUNTINFO {  
@@ -212,12 +212,12 @@ namespace microsoft.lobservices.oracledb._2007._03.SCOTT.Package.ACCOUNT_PKG.GET
 ```  
   
 ## <a name="using-record-types-in-your-code"></a>在您的程式碼中使用記錄類型  
- 在程式碼中使用記錄類型很簡單。 要叫用程序或函式的記錄型別參數，您建立的記錄類型的執行個體，並將它傳遞至適當的方法中，WCF 用戶端上。 當程序或函式傳回時，您可以讀取屬性上任何 OUT 或 IN OUT 參數或函式傳回值會宣告為記錄類型。 如需如何使用 WCF 服務模型叫用程序和函數的詳細資訊，請參閱[叫用函式和 Oracle 資料庫使用 WCF 服務模型中的程序](../../adapters-and-accelerators/adapter-oracle-database/invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model.md)。  
+ 在您的程式碼中使用記錄類型很簡單。 要叫用程序或函式記錄型別參數，您會建立記錄類型或類型的執行個體，並在 WCF 用戶端上將其傳遞至適當的方法。 當程序或函式會傳回，您可以閱讀任何外的屬性，或在 OUT 參數或函式傳回值會宣告為記錄類型。 如需如何使用 WCF 服務模型，叫用程序和函數的詳細資訊，請參閱[叫用函式和使用 WCF 服務模型的 Oracle 資料庫中的程序](../../adapters-and-accelerators/adapter-oracle-database/invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model.md)。  
   
 > [!IMPORTANT]
->  Oracle 記錄型別參數 （和函式會傳回） 都會符合由其函式或程序 （和封裝） 的命名空間。 這表示使用兩個不同的程序或函式中的記錄型別將會有不同的命名空間的每個程序或函式。 您必須確定當您使用特定的程序或函式時正確地限定記錄型別。 比方說，用做為 IN 參數，兩個不同的函式的記錄類型 （記錄類型的宣告） 的封裝將兩次在 WCF 用戶端程式碼中宣告，每個宣告對應至每個函式所產生的唯一命名空間。 您必須確定您傳遞給每個個別的函式在參數上使用正確的命名空間。  
+>  Oracle 記錄型別參數 （和函式會傳回） 會限定的命名空間及其函式或程序 （和封裝）。 這表示會在兩個不同的程序或函數的記錄類型會有不同的命名空間，針對每個程序或函式。 您必須確定當您使用特定的程序或函式時，正確地限定記錄類型。 比方說，封裝記錄型別 （記錄類型的宣告），可做為 IN 參數，兩個不同的函式會使用每個宣告對應至每個函式所產生的唯一命名空間宣告兩次相同的 WCF 用戶端程式碼。 您必須確定您傳遞給每個個別的函式的參數上使用正確的命名空間。  
   
- 在下列範例中，CREATE_ACCOUNT 函式會呼叫具有兩個簡單記錄參數。 接下來，呼叫 GET_ACCOUNTINFO 函式。 此函數會傳回包含巢狀的記錄的記錄類型。 選取的欄位值從傳回的記錄寫入至主控台。 此範例中會省略步驟來設定 Oracle 資料庫的認證，以及開啟 WCF 用戶端。  
+ 在下列範例中，CREATE_ACCOUNT 函式會呼叫具有兩個簡單的記錄參數。 接下來，會呼叫 GET_ACCOUNTINFO 函式。 此函數會傳回包含巢狀的記錄的記錄類型。 選取的欄位值從傳回的記錄會寫入至主控台。 此範例中會省略步驟來設定的 Oracle 資料庫的認證，並開啟 WCF 用戶端。  
   
 ```  
 // Add WCF, WCF Adapter LOB SDK, and Oracle Database adapter namepaces  

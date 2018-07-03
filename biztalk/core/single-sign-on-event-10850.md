@@ -1,5 +1,5 @@
 ---
-title: 單一登入： 事件 10850 |Microsoft 文件
+title: 單一登入： 事件 10850 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,25 +12,25 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 94e9bef6d104b8da3c41d295005a7a274a1d2610
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 0430d5d7ea3ff2a0fabf9c9698acffe15b644f24
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278030"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37011359"
 ---
 # <a name="single-sign-on-event-10850"></a>單一登入： 事件 10850
 ## <a name="details"></a>詳細資料  
   
-|||  
-|-|-|  
-|產品名稱|企業單一登入|  
-|產品版本|[!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]|  
-|事件識別碼|10850|  
-|事件來源|ENTSSO|  
-|元件|不適用|  
-|符號名稱|ENTSSO_E_ENABLED_NOT_ALLOWED_CREATE|  
-|訊息文字|無法以指定的「啟用」旗標建立應用程式。|  
+|                 |                                                                     |
+|-----------------|---------------------------------------------------------------------|
+|  產品名稱   |                      企業單一登入                      |
+| 產品版本 |     [!INCLUDE[btsSSOVersion](../includes/btsssoversion-md.md)]      |
+|    事件識別碼     |                                10850                                |
+|  事件來源   |                               ENTSSO                                |
+|    元件    |                                 不適用                                 |
+|  符號名稱  |                 ENTSSO_E_ENABLED_NOT_ALLOWED_CREATE                 |
+|  訊息文字   | 無法以指定的「啟用」旗標建立應用程式。 |
   
 ## <a name="explanation"></a>說明  
  在啟用應用程式之前，必須建立應用程式並輸入其每個欄位的欄位資訊 (例如使用者識別碼和密碼)。 無法建立已設定「已啟用」欄位的應用程式。  

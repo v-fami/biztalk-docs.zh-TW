@@ -1,5 +1,5 @@
 ---
-title: 元件介面中的標準方法 |Microsoft 文件
+title: 元件介面中的標準方法 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,25 +17,25 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f44b3977a3921d92b1f3f83dd3e744f14b5709fc
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: eecb56f262a56e6567b44b146c631542cb1ceda6
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22278046"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36994823"
 ---
 # <a name="standard-methods-in-component-interfaces"></a>元件介面中的標準方法
 元件介面的標準方法如下所示：  
   
--   `Create`  
+- `Create`  
   
--   `Find`  
+- `Find`  
   
--   `Get`  
+- `Get`  
   
--   `Save`  
+- `Save`  
   
- 只有基礎元件中的那些方法才能夠使用。 例如，假設基礎元件不包含 `Add` 功能，就無法使用 `Create`。  
+  只有基礎元件中的那些方法才能夠使用。 例如，假設基礎元件不包含 `Add` 功能，就無法使用 `Create`。  
   
 ## <a name="viewing-or-changing-available-methods"></a>檢視或變更可用方法  
   
@@ -45,10 +45,10 @@ ms.locfileid: "22278046"
   
      ![](../core/media/psadapter-46-ps-properties.gif "PSAdapter_46_PS_Properties")  
   
-2.  按一下**標準方法** 索引標籤。  
+2.  按一下 [**標準方法**] 索引標籤。  
   
 3.  選取需要的方法，然後按一下**確定**。  
   
 ## <a name="see-also"></a>另請參閱  
  [如何建立元件介面](../core/how-to-create-component-interfaces.md)   
- [附錄 c： 使用元件介面](../core/appendix-c-using-component-interfaces.md)
+ [附錄 C：使用元件介面](../core/appendix-c-using-component-interfaces.md)

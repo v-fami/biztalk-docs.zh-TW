@@ -1,5 +1,5 @@
 ---
-title: 瞭解 BizTalk Adapter for Siebel eBusiness 應用程式 |Microsoft 文件
+title: 了解 BizTalk Adapter for Siebel eBusiness Application |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -17,29 +17,29 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 51c3576df5f62a0350f85d79b603c9f1cbda8a60
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 788db9ba048141256cfaa3cc5017fa48bd6ec7de
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25962612"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36999231"
 ---
-# <a name="understand-biztalk-adapter-for-siebel-ebusiness-applications"></a>瞭解 BizTalk Adapter for Siebel eBusiness 應用程式
-[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]啟用服務導向程式設計的存取，以便與外部系統互動。 配接器用戶端提供下列優點：  
+# <a name="understand-biztalk-adapter-for-siebel-ebusiness-applications"></a>了解 BizTalk Adapter for Siebel eBusiness 應用程式
+[!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]啟用服務導向程式設計的存取，以便與外部系統進行互動。 配接器用戶端提供下列優點：  
   
--   **一致的設計階段經驗**。 配接器會提供瀏覽、 搜尋和擷取的 LOB 成品的中繼資料的一般和使用者易記的設計階段經驗。  
+- **一致的設計階段經驗**。 配接器會提供瀏覽、 搜尋和擷取中繼資料的 LOB 成品的一般和方便使用的設計階段體驗。  
   
--   **各種程式設計選項**。 配接器會提供選擇的程式設計模型包括 Windows Communication Foundation (WCF) 通道模型，WCF 服務模型中，ADO.NET 中，Web 服務，或 BizTalk 支援模型。  
+- **各種程式設計選項**。 配接器會提供各種程式設計模型，包括 Windows Communication Foundation (WCF) 通道模型中，WCF 服務模型中，ADO.NET 中，Web 服務，或 BizTalk 支援的模型。  
   
--   **跨 Lob 統一經驗**。 標準化使用 WCF 配接器和[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]，因此提供一致的體驗的任何 LOB 系統的存取。  
+- **統一的體驗，跨 Lob**。 使用 WCF 配接器將標準化和[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]，因此提供一致的體驗的任何 LOB 系統的存取。  
   
- 如所述，配接器會建立最上層的[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]。 [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]提供通用的基礎建置各種 BizTalk Server 和 Microsoft Office 等用戶端應用程式可以取用的整合配接器。 [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]對齊由公開為 Windows Communication Foundation (WCF) 通道整合配接器的 Microsoft 服務策略配接器的策略。 如需有關[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]，請參閱[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]文件。 連同安裝文件[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]通常下\<安裝磁碟機\>: \Program Files\\[!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)]\Documents。  
+  如前所述，配接器是以 WCF LOB 配接器 SDK 為基礎。 WCF LOB 配接器 SDK 建置可取用各種不同的用戶端應用程式，例如 BizTalk Server 和 Microsoft Office 的整合配接器提供的通用基礎。 WCF LOB 配接器 SDK 公開為 Windows Communication Foundation (WCF) 通道的整合配接器會將對齊配接器策略，Microsoft 服務策略。 如需有關 WCF LOB 配接器 SDK 的詳細資訊，請參閱 < [WCF LOB 配接器 SDK 文件](../../adapters-and-accelerators/wcf-lob-adapter-sdk/microsoft-wcf-line-of-business-adapter-sdk-documentation.md)。
   
- 若要執行 Siebel 系統上的作業，配接器用戶端必須存取 Siebel 系統所公開的商務服務。 Siebel 應用程式公開資料做為商務元件和商務物件。 Siebel*商務元件*是將一或多個資料表的資料行成單一結構相關聯的邏輯實體。 Siebel*商務物件*實作商務模型繫結在一起的一組相互關聯的商務元件。 與[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]，配接器用戶端可以在 Siebel 商務物件和商業元件介面。  
+  若要執行 Siebel 系統上的作業，配接器用戶端必須存取 Siebel 系統所公開的商務服務。 Siebel 應用程式公開資料做為商務元件和商務物件。 Siebel*商務元件*是將一個或多個資料表的資料行成單一結構相關聯的邏輯實體。 Siebel*商務物件*緊密結合在一起的一組相互關聯的商務元件實作的商務模型。 使用[!INCLUDE[adaptersiebel](../../includes/adaptersiebel-md.md)]，配接器用戶端可能會出現 Siebel 商務物件和商務元件。  
   
- [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]也包含[!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)])。 [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)] Siebel 系統的 ADO 介面提供延伸的 ADO.NET 介面。  
+  [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]也包含[!INCLUDE[adoprovidersiebellong](../../includes/adoprovidersiebellong-md.md)] ([!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)])。 [!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]藉由擴充 ADO.NET 介面提供 Siebel 系統的 ADO 介面。  
   
- 本章節將討論的功能[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]和[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]。  
+  本章節將討論的功能[!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]而[!INCLUDE[adoprovidersiebelshort](../../includes/adoprovidersiebelshort-md.md)]。  
   
 ## <a name="in-this-section"></a>本節內容  
   

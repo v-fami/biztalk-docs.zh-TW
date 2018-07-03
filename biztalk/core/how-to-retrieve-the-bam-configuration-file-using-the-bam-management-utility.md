@@ -1,5 +1,5 @@
 ---
-title: 如何擷取 BAM 組態檔使用 BAM 管理公用程式 |Microsoft 文件
+title: 如何擷取 BAM 組態檔使用 BAM 管理公用程式 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7ef0f4802aa44a042f39adbdc9f169b11a16796d
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 4277e6b088ed136021b898e26204a63dc782a895
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25972276"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37008511"
 ---
 # <a name="how-to-retrieve-the-bam-configuration-file-using-the-bam-management-utility"></a>如何使用 BAM 管理公用程式擷取 BAM 組態檔
 系統管理員和開發人員可以使用 BAM 管理公用程式，擷取目前的 BAM 基礎結構組態。 擷取的組態可以用來將 BAM 安裝移轉到新的伺服器，或可以修改並使用此組態更新現有的 BAM 安裝。  
@@ -31,11 +31,11 @@ ms.locfileid: "25972276"
   
 ### <a name="to-retrieve-the-bam-configuration-file-using-the-bam-management-utility"></a>使用 BAM 管理公用程式擷取 BAM 組態檔  
   
-1.  開啟命令提示字元，如下所示： 按一下**啟動**，按一下**執行**，型別**cmd**，然後按一下 **確定**。  
+1. 開啟命令提示字元，如下所示： 按一下**開始**，按一下**執行**，型別**cmd**，然後按一下 **確定**。  
   
-2.  瀏覽到 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking。  
+2. 瀏覽到 [!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]Tracking。  
   
-3.  在命令提示字元輸入下列命令： **bm get-config-FileName:\<輸出檔\>**，其中\<*輸出檔*\>取代您的 BAM 組態檔的名稱。 按 ENTER 鍵。  
+3. 在命令提示字元輸入下列命令： **bm get-config-FileName:\<輸出檔\>**，其中\<*輸出檔*\>取代您的 BAM 組態檔的名稱。 按 ENTER 鍵。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [BAM 管理公用程式](../core/bam-management-utility.md)

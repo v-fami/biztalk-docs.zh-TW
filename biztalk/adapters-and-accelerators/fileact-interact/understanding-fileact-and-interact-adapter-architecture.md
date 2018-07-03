@@ -1,5 +1,5 @@
 ---
-title: 了解 FileAct 和互動的配接器架構 |Microsoft 文件
+title: 了解 FileAct 和 InterAct 配接器架構 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,29 +12,29 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c04d0ba8b1c2bbd99a71e3d76c8d7ad60c251147
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7a587b70eb3ae603d59dd5a6f21270133b5a8125
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22223406"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37005303"
 ---
-# <a name="understanding-fileact-and-interact-adapter-architecture"></a>了解 FileAct 和互動的配接器架構
-SWIFT 配接器是以 BizTalk 配接器架構為基礎。 使用 BizTalk Server 中的配接器的分類，快速的配接器，FileAct 和 InterAct，代表下列各項：  
+# <a name="understanding-fileact-and-interact-adapter-architecture"></a>了解 FileAct 和 InterAct 配接器架構
+SWIFT 配接器是以 「 BizTalk 配接器架構為基礎。 使用 BizTalk Server 中的配接器的分類規則，SWIFT 配接器，FileAct 和 InterAct，代表下列各項：  
   
--   自訂配接器。 這是為了與使用專屬的標準呼叫 FileAct 和 Interact 的 SWIFT 網路互動的自訂配接器。  
+- 自訂配接器。 這是專為互動使用稱為 FileAct 和 Interact 專屬標準的 SWIFT 網路而打造的自訂配接器。  
   
--   傳輸配接器。 此配接器可讓商務軟體應用程式來傳送和接收訊息的 SWIFT 網路。  
+- 傳輸配接器。 此配接器可讓商務軟體應用程式來傳送和接收訊息的 SWIFT 網路。  
   
--   非交易。 配接器不會進行互動的 SWIFT 網路使用的任何交易物件。  
+- 非交易。 配接器不會進行互動的 SWIFT 網路使用的任何交易物件。  
   
--   外掛式。 接收配接器執行個別的處理序中，並定期傳送配接器處理序中執行。  
+- 外掛式。 接收配接器會個別處理序，並定期傳送配接器處理序中執行。  
   
- BizTalk 配接器架構的相關資訊，請參閱 < 什麼是配接器架構？ > 在 BizTalk Server 說明中的主題。  
+  BizTalk 配接器架構的相關資訊，請參閱 「 什麼 」 配接器架構？ 在 BizTalk Server 說明中的主題。  
   
- 下圖顯示 FileAct 和 InterAct 架構的高階檢視。  
+  下圖顯示 FileAct 和 InterAct 架構的高階檢視。  
   
- ![](../../adapters-and-accelerators/fileact-interact/media/035ebb05-ce11-447c-b56b-ba8b41e07e50.gif "035ebb05-ce11-447c-b56b-ba8b41e07e50")  
+  ![](../../adapters-and-accelerators/fileact-interact/media/035ebb05-ce11-447c-b56b-ba8b41e07e50.gif "035ebb05-ce11-447c-b56b-ba8b41e07e50")  
   
 > [!NOTE]
 >  Microsoft[!INCLUDE[swift_adapter](../../includes/swift-adapter-md.md)]支援 strict 模式 SWIFTNet 連結 (SNL) API。  
@@ -49,4 +49,4 @@ SWIFT 配接器是以 BizTalk 配接器架構為基礎。 使用 BizTalk Server 
   
 -   [FileAct 配接器架構](../../adapters-and-accelerators/fileact-interact/fileact-adapter-architecture.md)  
   
--   [互動的配接器架構](../../adapters-and-accelerators/fileact-interact/interact-adapter-architecture.md)
+-   [InterAct 配接器架構](../../adapters-and-accelerators/fileact-interact/interact-adapter-architecture.md)

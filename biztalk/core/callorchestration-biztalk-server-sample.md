@@ -1,5 +1,5 @@
 ---
-title: CallOrchestration （BizTalk Server 範例） |Microsoft 文件
+title: CallOrchestration （BizTalk Server 範例） |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,12 +16,12 @@ caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9cf37bd2b4ceacfe38736cadd8343b4259db126e
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 614cbb4531d0d7052263e5e4c7d73ec209e9b685
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25966764"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37021876"
 ---
 # <a name="callorchestration-biztalk-server-sample"></a>CallOrchestration （BizTalk Server 範例）
 CallOrchestration 範例示範如何從一個協調流程呼叫另一個 BizTalk 協調流程。  
@@ -42,7 +42,7 @@ CallOrchestration 範例示範如何從一個協調流程呼叫另一個 BizTalk
 ## <a name="how-this-sample-is-designed-and-why"></a>此範例的設計方式和原因  
  此範例的主要目的是為您顯示如何從一個協調流程呼叫另一個協調流程。 呼叫協調流程的功能可讓您將商務程序切割為可重複使用的元件。 您可將常用的程序列入個別的協調流程中，供其他人重複使用。  
   
- 在此範例中，**呼叫協調流程**receivePO.odx 中的圖形叫用 findShippingPrice.odx，並會等待巢狀協調流程 findShippingPrice.odx 計算並傳送訂單之前傳回出貨價格順序。 協調流程 findShippingPrice.odx 使用下列邏輯計算出貨價格：  
+ 在此範例中，**呼叫的協調流程**receivePO.odx 中的圖形叫用 findShippingPrice.odx，並會等待巢狀協調流程 findShippingPrice.odx 計算並傳回出貨價格傳送購買之前順序。 協調流程 findShippingPrice.odx 使用下列邏輯計算出貨價格：  
   
 ```  
 If ( weight * shippingRate ) < minShippingPrice Then  
@@ -58,14 +58,14 @@ End If
 >  您無法從不可部分完成的協調流程呼叫執行時間很長的交易。  
   
 > [!NOTE]
->  使用之間的差別**呼叫協調流程**圖形和**啟動協調流程**圖形是，在呼叫協調流程時，呼叫端會等待巢狀協調流程傳回之後，繼續進行。 若是從一個協調流程啟動另一個協調流程，在呼叫者初始化動作之後，呼叫者會繼續進行程序流程中的下一個步驟。 呼叫者所叫用的協調流程會獨立執行，直到完成程序流程。 如需詳細資訊，請參閱[如何設定呼叫協調流程圖形](../core/how-to-configure-the-call-orchestration-shape.md)。 另請參閱[如何設定啟動協調流程圖形](../core/how-to-configure-the-start-orchestration-shape.md)。  
+>  使用差異**呼叫的協調流程**圖形並**啟動協調流程**圖形是，在呼叫協調流程時，呼叫者會等待巢狀的協調流程傳回之後繼續進行。 若是從一個協調流程啟動另一個協調流程，在呼叫者初始化動作之後，呼叫者會繼續進行程序流程中的下一個步驟。 呼叫者所叫用的協調流程會獨立執行，直到完成程序流程。 如需詳細資訊，請參閱 <<c0> [ 如何設定呼叫協調流程圖形](../core/how-to-configure-the-call-orchestration-shape.md)。 另請參閱[如何設定啟動協調流程圖形](../core/how-to-configure-the-start-orchestration-shape.md)。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
  \<*範例路徑*\>\Orchestrations\CallOrchestration\  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
-|檔案|Description|  
+|檔案|描述|  
 |---------------|-----------------|  
 |CallOrchestration.btproj, CallOrchestration.sln|這個範例的專案及解決方案檔案。|  
 |CallOrchestrationBinding.xml|用於自動化設定，例如連接埠繫結。|  
@@ -81,19 +81,19 @@ End If
   
 #### <a name="to-build-and-initialize-the-callorchestration-sample"></a>建置和初始化 CallOrchestration 範例  
   
-1.  在命令視窗中，瀏覽至下列資料夾：  
+1. 在命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*\>\Orchestrations\CallOrchestration\  
+    \<*範例路徑*\>\Orchestrations\CallOrchestration\  
   
-2.  執行檔案 Setup.bat，這會執行下列動作：  
+2. 執行檔案 Setup.bat，這會執行下列動作：  
   
-    -   在 CallOrchestration 資料夾中建立此範例的輸入 (In) 和輸出 (Out) 資料夾。  
+   - 在 CallOrchestration 資料夾中建立此範例的輸入 (In) 和輸出 (Out) 資料夾。  
   
-    -   編譯並部署此範例的 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 專案，包括兩個協調流程。  
+   - 編譯並部署此範例的 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 專案，包括兩個協調流程。  
   
-    -   建立並繫結 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 接收位置，以及傳送埠和接收埠。  
+   - 建立並繫結 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 接收位置，以及傳送埠和接收埠。  
   
-    -   啟用接收位置並啟動傳送埠。  
+   - 啟用接收位置並啟動傳送埠。  
   
 > [!NOTE]
 >  在嘗試執行此範例之前，您必須確認 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 沒有在建置和初始化的程序中報告任何錯誤。  
@@ -104,17 +104,17 @@ End If
   
 1.  將檔案 InputPO.xml 的複本放置到 In 資料夾。  
   
-2.  觀察在 Out 資料夾中建立的 XML PO 更新檔案。 它包含已修改的原始 PO 訊息，此訊息包括如上述說明中計算出的出貨成本。 這個檔案的名稱的格式是\< *MessageID*\>.xml，其中 *\<MessageID\>* 產生來唯一識別訊息的 GUID.  
+2.  觀察在 Out 資料夾中建立的 XML PO 更新檔案。 它包含已修改的原始 PO 訊息，此訊息包括如上述說明中計算出的出貨成本。 這個檔案的名稱的格式\< *MessageID*\>.xml，其中*\<MessageID\>* 會產生來唯一識別該訊息的 GUID.  
   
 ## <a name="uninstalling-this-sample"></a>解除安裝這個範例  
   
 #### <a name="to-uninstall-the-callorchestration-sample"></a>解除安裝 CallOrchestration 範例  
   
-1.  在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 命令視窗中，瀏覽至下列資料夾：  
+1. 在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 命令視窗中，瀏覽至下列資料夾：  
   
-     \<*範例路徑*\>\Orchestrations\CallOrchestration\  
+    \<*範例路徑*\>\Orchestrations\CallOrchestration\  
   
-2.  執行 Cleanup.bat。  
+2. 執行 Cleanup.bat。  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [協調流程 (BizTalk Server Samples 資料夾)](../core/orchestrations-biztalk-server-samples-folder.md)

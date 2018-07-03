@@ -1,5 +1,5 @@
 ---
-title: 檢查清單： 設定 BizTalk Server |Microsoft 文件
+title: 檢查清單： 設定 BizTalk Server |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,41 +12,42 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 11c1348ef4ce34676cd206c08530f66f20730378
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 631004a8d8e777d24f3cf2666577d3183c5c4c00
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22299710"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37024140"
 ---
 # <a name="checklist-configuring-biztalk-server"></a>檢查清單： 設定 BizTalk Server
-請遵循下列步驟，當您準備[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]用於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]實際執行環境。  
-  
-|步驟|參考|  
-|-----------|---------------|  
-|設定 BizTalk 主控件和主控件執行個體。|個別傳送、 接收、 處理及追蹤功能分成多個主控件。 這會設定工作負載時提供彈性，並可讓您停止一部主機，而不會影響其他主機。 如需詳細資訊，請參閱[設定主控件和主控件執行個體](../technical-guides/configuring-hosts-and-host-instances.md)。|  
-|請確定您遵守並了解 BizTalk 主控件執行個體的記憶體使用量的最大實際限制。|[32 位元 BizTalk 主控件執行個體的記憶體使用量的最大實際限制](../technical-guides/configuring-hosts-and-host-instances.md#BKMK_MemLimit)|  
-|設定專用的追蹤主控件。|使用不只一個主控件追蹤的專用的主機。 這可防止裝載追蹤從具有相同的主控件上執行其他 BizTalk 成品的效能的影響。 它也可讓您不會干擾追蹤停止的其他主機。 追蹤主控件應在執行至少兩部電腦上執行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]（重複性的情況下提供，其中失敗）。 如需詳細資訊，請參閱[專用追蹤主控件設定](../technical-guides/configuring-a-dedicated-tracking-host.md)。|  
-|設定 SOAP、 HTTP 和 HTTP 為基礎的 WCF 配接器的同時連線數|[適用於 IIS 組態設定](../technical-guides/apply-iis-configuration-settings.md)|  
-|實作 BizTalk 應用程式升級和版本控制策略。|-如果您需要支援長時間執行的協調流程，和/或您需要執行 BizTalk 應用程式部署包含無 BizTalk 應用程式停機時間，則您需要實作和練習實線、 端對端[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]版本控制策略不同的版本控制案例。<br />-如果您需要支援長時間執行的協調流程、-並存部署或無停機時間升級，您應該實作的組件版本控制和封裝策略，其中包含的建構。<br /><br /> 如需詳細資訊，請參閱[升級和應用程式的版本控制策略](../technical-guides/upgrading-and-versioning-strategies-for-applications.md)。|  
-|指令碼的 BizTalk Server 應用程式部署。|BizTalk 應用程式的部署應該編寫指令碼有可能。 您應該記錄詳細的步驟與您不要的指令碼的任何項目。 如需詳細資訊，請參閱：<br /><br /> -   [使用指令碼來部署應用程式](../technical-guides/using-scripts-to-deploy-applications.md)<br />-   [管理應用程式](../technical-guides/managing-applications.md)|  
-|預先定義重新提交訊息，並重新啟動工作流程程的序。|建立並檢查有已擱置的服務執行個體，並採取適當動作的程序的文件。 在大部分[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中，應該在執行此作業的一部分的每日維護您[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境。 如需執行每日維護檢查的詳細資訊，請參閱[檢查清單： 執行每日維護檢查](../technical-guides/checklist-performing-daily-maintenance-checks.md)。|  
-|定義中可能會遇到的問題的擴大路徑[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境。|-判斷角色和責任<br />-定義擴大程序和路徑<br />-定義 」 (short-circuit) 處理程序和路徑時所需的 「 關鍵狀況 」 案例<br />-定義擴大路徑，如需廠商問題，包括 Microsoft 的其他軟體廠商的硬體廠商 （例如伺服器、 SAN、 交換器）|  
-|使用時，某些考量遵守[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]64 位元 Windows 作業系統上|[在 64 位元 Windows 作業系統上使用 BizTalk Server 時的考量](../technical-guides/considerations-while-using-biztalk-server-on-a-64-bit-windows-operating-system.md)|  
-|遵循的最佳作法[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]設定。|[BizTalk Server 設定的最佳做法](../technical-guides/best-practices-for-biztalk-server-settings.md)|  
-  
+請遵循下列步驟，準備時[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]用於[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]生產環境。  
+
+
+|                                                                                步驟                                                                                |                                                                                                                                                                                                                                                                                                                                                                            參考                                                                                                                                                                                                                                                                                                                                                                            |
+|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|                                                             設定 BizTalk 主控件和主控件執行個體。                                                             |                                                                                                                                                                                                         個別傳送、 接收、 處理和追蹤功能到多部主機。 這會設定工作負載時，提供彈性，並可讓您停止一部主機，而不會影響其他主機。 如需詳細資訊，請參閱 <<c0> [ 設定的主控件和主控件執行個體](../technical-guides/configuring-hosts-and-host-instances.md)。                                                                                                                                                                                                         |
+|                          請確定您遵循，並了解實用的 BizTalk 主控件執行個體的記憶體使用量的上限。                           |                                                                                                                                                                                                                                                                                                     [32 位元 BizTalk 主控件執行個體的記憶體使用量的最大實際的限制](../technical-guides/configuring-hosts-and-host-instances.md#BKMK_MemLimit)                                                                                                                                                                                                                                                                                                     |
+|                                                                設定專用的追蹤主控件。                                                                 |                                                                                   使用專用的主機，不只一個主控件追蹤。 這可防止裝載追蹤對相同的主機中執行其他 BizTalk 成品的效能造成影響。 它也可讓您不會干擾追蹤停止的其他主機。 應該執行的至少兩個電腦上執行的追蹤主控件[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]（以提供備援，萬一其中一個失敗）。 如需詳細資訊，請參閱 <<c0> [ 專用追蹤主控件設定](../technical-guides/configuring-a-dedicated-tracking-host.md)。                                                                                    |
+|                                               設定 SOAP、 HTTP 和 HTTP 為基礎的 WCF 配接器的並行連線                                                |                                                                                                                                                                                                                                                                                                                                   [套用 IIS 組態設定](../technical-guides/apply-iis-configuration-settings.md)                                                                                                                                                                                                                                                                                                                                   |
+|                                                  實作 BizTalk 應用程式升級和版本控制策略。                                                   | -如果您需要支援長時間執行的協調流程，和/或您需要執行任何 BizTalk 應用程式停機時間的 BizTalk 應用程式部署，然後您需要實作和練習實線、 端對端[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]版本控制策略不同的版本控制案例。<br />-如果您要支援長時間執行的協調流程、 並排顯示的部署或無需停機的升級，然後您應該實作的組件版本控制和封裝的策略，其中包含分解。<br /><br /> 如需詳細資訊，請參閱 <<c0> [ 升級和應用程式的版本控制策略](../technical-guides/upgrading-and-versioning-strategies-for-applications.md)。 |
+|                                                           指令碼的 BizTalk Server 應用程式部署。                                                            |                                                                                                                                                                                            可能的話，應該編寫 BizTalk 應用程式部署。 您應該記錄詳細的步驟，您不要的指令碼的任何項目。 如需詳細資訊，請參閱：<br /><br /> -   [使用指令碼來部署應用程式](../technical-guides/using-scripts-to-deploy-applications.md)<br />-   [管理應用程式](../technical-guides/managing-applications.md)                                                                                                                                                                                            |
+|                                               重新提交訊息，並重新啟動工作流程的程序會預先定義。                                               |                                                                                       建立和文件的程序來檢查已擱置的服務執行個體，並採取適當的動作。 在大部分[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境中，這應該執行一部分的每日維護您[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境。 如需有關如何執行每日維護檢查的詳細資訊，請參閱 <<c0> [ 檢查清單： 執行每日維護檢查](../technical-guides/checklist-performing-daily-maintenance-checks.md)。                                                                                        |
+|   定義可能會在遇到之問題的呈核路徑[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境。   |                                                                                                                                                                                                      -判斷角色和責任<br />-定義向上呈報程序和路徑<br />定義 「 最少運算 」 的程序和路徑時所需的 「 嚴重的問題 」 案例<br />-定義的升級路徑，供應商相關問題，包括 Microsoft、 其他軟體廠商，硬體廠商 （例如伺服器、 SAN、 交換器）                                                                                                                                                                                                      |
+| 當使用遵守某些考量[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]64 位元 Windows 作業系統上 |                                                                                                                                                                                                                                                                                     [在 64 位元 Windows 作業系統上使用 BizTalk Server 時的考量](../technical-guides/considerations-while-using-biztalk-server-on-a-64-bit-windows-operating-system.md)                                                                                                                                                                                                                                                                                     |
+|                    遵循的最佳作法[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]設定。                    |                                                                                                                                                                                                                                                                                                                         [BizTalk Server 設定的最佳做法](../technical-guides/best-practices-for-biztalk-server-settings.md)                                                                                                                                                                                                                                                                                                                         |
+
 ## <a name="in-this-section"></a>本節內容  
-  
--   [設定主控件和主控件執行個體](../technical-guides/configuring-hosts-and-host-instances.md)  
-  
--   [專用的追蹤主控件設定](../technical-guides/configuring-a-dedicated-tracking-host.md)  
-  
--   [適用於 IIS 組態設定](../technical-guides/apply-iis-configuration-settings.md)  
-  
--   [升級和應用程式的版本控制方法](../technical-guides/upgrading-and-versioning-strategies-for-applications.md)  
-  
+
+-   [設定主控件與主控件執行個體](../technical-guides/configuring-hosts-and-host-instances.md)  
+
+-   [設定專用的追蹤主控件](../technical-guides/configuring-a-dedicated-tracking-host.md)  
+
+-   [套用 IIS 組態設定](../technical-guides/apply-iis-configuration-settings.md)  
+
+-   [應用程式的升級和版本控制方法](../technical-guides/upgrading-and-versioning-strategies-for-applications.md)  
+
 -   [使用指令碼來部署應用程式](../technical-guides/using-scripts-to-deploy-applications.md)  
-  
+
 -   [在 64 位元 Windows 作業系統上使用 BizTalk Server 時的考量](../technical-guides/considerations-while-using-biztalk-server-on-a-64-bit-windows-operating-system.md)  
-  
+
 -   [BizTalk Server 設定的最佳做法](../technical-guides/best-practices-for-biztalk-server-settings.md)

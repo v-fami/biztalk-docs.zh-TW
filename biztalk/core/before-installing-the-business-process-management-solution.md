@@ -1,5 +1,5 @@
 ---
-title: Installg 商務程序管理解決方案的需求 |Microsoft 文件
+title: Installg 商務程序管理解決方案的需求 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,33 +12,33 @@ caps.latest.revision: 24
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7f4d3acfea45b54ac88f08078df466e1fb13db69
-ms.sourcegitcommit: 6b6d905bbef7796c850178e99ac293578bb58317
+ms.openlocfilehash: 500e3e2f6e9ee895c41145371cacc78467b8a64c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/17/2017
-ms.locfileid: "23450583"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37003591"
 ---
 # <a name="before-installing-the-business-process-management-solution"></a>安裝商務程序管理解決方案之前
 
 ## <a name="requirements"></a>需求
 必須安裝下列必要項目，才能在單一電腦上部署商務程序管理解決方案：  
   
--   Microsoft Windows
+- Microsoft Windows
   
--   Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
+- Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]  
   
--   Microsoft Message Queuing (MSMQ) 與 MSMQ HTTP 支援
+- Microsoft Message Queuing (MSMQ) 與 MSMQ HTTP 支援
   
--   Microsoft SQL Server
+- Microsoft SQL Server
   
--   Microsoft Internet Information Services FTP 與 WWW  
+- 與 WWW 和 FTP 的 Microsoft Internet Information Services  
   
--   啟用 ASP.NET  
+- 啟用 ASP.NET  
   
--   Microsoft Visual Studio  
+- Microsoft Visual Studio  
   
--   Microsoft Excel  
+- Microsoft Excel  
   
 ## <a name="see-also"></a>另請參閱  
  [如何安裝商務程序管理解決方案](../core/how-to-install-the-business-process-management-solution.md)   

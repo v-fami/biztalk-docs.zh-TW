@@ -1,5 +1,5 @@
 ---
-title: 開發自訂管線元件 |Microsoft 文件
+title: 開發自訂管線元件 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -27,23 +27,23 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 186c95c7ddf19c1d29b6ea76a63ccb5c92d6ba9d
-ms.sourcegitcommit: 3fc338e52d5dbca2c3ea1685a2faafc7582fe23a
+ms.openlocfilehash: 74828d31b55a4b50bdb18a537fbf7bb293445545
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 12/01/2017
-ms.locfileid: "26005463"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37008967"
 ---
 # <a name="developing-custom-pipeline-components"></a>開發自訂管線元件
-本節描述如何開發管線元件。 您可建立三種管線元件類型：一般、組譯和反組譯。 這三種類型都可額外實作探查功能。 管線元件的每種類型有關聯的介面必須實作才能插入 「 BizTalk 傳訊引擎; 元件區分的元件類型的管線介面為**IComponent**， **IAssemblerComponent**，和**IDisassemblerComponent**。 對於探查元件，您必須實作**IProbeMessage**介面。  
+本節描述如何開發管線元件。 您可建立三種管線元件類型：一般、組譯和反組譯。 這三種類型都可額外實作探查功能。 管線元件的每個類型都必須實作才能插入 「 BizTalk 傳訊引擎; 元件的相關聯的介面區分元件類型的管線介面都**IComponent**， **IAssemblerComponent**，並**IDisassemblerComponent**。 對於探查元件，您必須實作**IProbeMessage**介面。  
   
  Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 包含您在建立自己的元件時可參考的範例管線元件。 此範例元件示範如何將資料附加至訊息結尾，以及如何在訊息開頭新增資料。 如需範例管線元件的詳細資訊，請參閱[CustomComponent （BizTalk Server 範例）](../core/customcomponent-biztalk-server-sample.md)。  
   
 > [!CAUTION]
 >  如果您從 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中的管線參考自訂管線元件，可能會發生編譯階段錯誤。 若要修正這個錯誤，請關閉管線設計師，並在編譯之前重新開啟它。 或者，您也可以移除此元件，然後再新增它。  
-  
+> 
 > [!IMPORTANT]
->  升級到 BizTalk Server 時，請確認現有自訂管線元件中的任何字串變數沒有任何新行字元，例如 '\n'。 否則，在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中編譯這個元件時，將會出現「常數中包含新行字元」錯誤。  
+>  升級至 BizTalk Server 時，請確定您現有的自訂管線元件中的任何字串變數，不包含任何新行字元，例如 '\n'。 否則，在 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中編譯這個元件時，將會出現「常數中包含新行字元」錯誤。  
   
 ## <a name="in-this-section"></a>本節內容  
   

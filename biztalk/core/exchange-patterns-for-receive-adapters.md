@@ -1,5 +1,5 @@
 ---
-title: 交換模式的接收配接器 |Microsoft 文件
+title: 接收配接器的交換模式。 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0cf8f36bb128d82a6d6b2e143320f89408f26680
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: cc93f587e8d04e93e96a8e326abfcc68c51daf69
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22246294"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37004815"
 ---
 # <a name="exchange-patterns-for-receive-adapters"></a>接收配接器的交換模式
 接收配接器會從「纜線」接收資料，然後當作訊息提交給 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 此提交流程可以是單向或雙向的訊息交換模式。  
@@ -25,7 +25,7 @@ ms.locfileid: "22246294"
 ## <a name="one-way-submit"></a>單向提交  
  當接收配接器將訊息提交給 BizTalk 傳訊引擎時，首先需要建立新的 BizTalk 訊息。 IBaseMessage 主題的程式碼範例將告訴您怎麼進行。 由配接器設為訊息內文的資料流一般來說應為 Forward-Only 資料流，意思是它不會對先前讀入記憶體的資料進行快取處理。  
   
- 配接器將訊息提交至引擎之前，必須撰寫**InboundTransportLocation**訊息至 BizTalk 訊息的系統命名空間中的內容屬性。 下列程式碼片段將說明這點：  
+ 配接器會將訊息提交至引擎之前，必須撰寫**InboundTransportLocation**訊息至 BizTalk 訊息的系統命名空間中的內容屬性。 下列程式碼片段將說明這點：  
   
  `Assembly References:`  
   
@@ -57,24 +57,24 @@ msg.Context.Write(
  當訊息準備好之後，就可以提交至「傳訊引擎」。 若要查看如何單向接收配接器可能會將訊息提交至引擎，請參閱程式碼範例[SubmitDirect （BizTalk Server 範例）](../core/submitdirect-biztalk-server-sample.md)。  
   
 ## <a name="request-response"></a>要求-回應  
- 雙向接收配接器一般是用在單向或雙向接收埠上。 配接器藉由檢查 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 組態屬性包來決定所服務的接收位置為單向或雙向。 此程序中會說明**IBTTransportConfig.AddReceiveEndpoint 方法 (COM)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
+ 雙向接收配接器一般是用在單向或雙向接收埠上。 配接器藉由檢查 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 組態屬性包來決定所服務的接收位置為單向或雙向。 會說明此程序**IBTTransportConfig.AddReceiveEndpoint 方法 (COM)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
   
- 下列物件互動圖表說明執行「要求-回應」訊息交換的流程。 配接器向傳輸 proxy 要求新批次，而其參考會傳入**IBTTransmitter**介面透過**SubmitRequestMessage**方法。 傳訊引擎會將此介面上的回應訊息傳遞使用**TransmitMessage**方法。  
+ 下列物件互動圖表說明執行「要求-回應」訊息交換的流程。 配接器向傳輸 proxy 要求新批次，並傳入其參考**IBTTransmitter**介面透過**SubmitRequestMessage**方法。 傳訊引擎會提供回應訊息，此介面上的使用**TransmitMessage**方法。  
   
  由於引擎在處理訊息時並不同步，有可能會發生下列情況：  
   
--   **BatchComplete**回呼可能會發生之前**完成**已傳回。  
+- **BatchComplete**回呼可能會發生在之前**完成**已傳回。  
   
--   對 TransmitMessage 的呼叫可能在 BatchComplete，甚至在 Done 傳回之前便已發生。  
+- 對 TransmitMessage 的呼叫可能在 BatchComplete，甚至在 Done 傳回之前便已發生。  
   
- 由於這兩種情況極為罕見，配接器應該避免這類事情發生。  
+  由於這兩種情況極為罕見，配接器應該避免這類事情發生。  
   
- 我們建議您使用非同步且無法停止的呼叫來傳輸回應訊息。  
+  我們建議您使用非同步且無法停止的呼叫來傳輸回應訊息。  
   
- BaseAdapter 專案具有公用程式類別， **StandardRequestResponseHandler**，會封裝這個主題所述的要求-回應語意。  
+  BaseAdapter 專案具有公用程式類別， **StandardRequestResponseHandler**，封裝要求-回應語意，本主題所述。  
   
 ## <a name="request-response-message-time-outs"></a>要求-回應訊息逾時  
- 當配接器提交要求-回應訊息時，需要指定要求訊息的逾時上**IBTTransportBatch.SubmitRequestMessage 方法 (COM)** API [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。 回應訊息只有在不超出此逾時值時才會傳遞至配接器上。 一旦超出了逾時值，便會將負值通知 (NACK) 傳遞到配接器上，而非回應訊息。 如果配接器沒有指定逾時值，則引擎會使用預設的 20 分鐘逾時值。  
+ 當配接器提交的要求-回應訊息時，它必須在指定的要求訊息的逾時**IBTTransportBatch.SubmitRequestMessage 方法 (COM)** API [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。 回應訊息只有在不超出此逾時值時才會傳遞至配接器上。 一旦超出了逾時值，便會將負值通知 (NACK) 傳遞到配接器上，而非回應訊息。 如果配接器沒有指定逾時值，則引擎會使用預設的 20 分鐘逾時值。  
   
  您可以透過使用下列登錄機碼來控制內含式接收配接器的預設「要求-回應」訊息逾時值：  
   

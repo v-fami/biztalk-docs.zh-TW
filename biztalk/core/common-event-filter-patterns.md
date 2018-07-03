@@ -1,5 +1,5 @@
 ---
-title: 通用事件篩選模式 |Microsoft 文件
+title: 通用事件篩選模式 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,30 +12,30 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ef90a4533b8b12929488d3a323dae47976eace0a
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 4d5e5b7ad34a8b87bebe88e21630b178fb7ee35c
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22234518"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37012975"
 ---
 # <a name="common-event-filter-patterns"></a>通用事件篩選模式
 以 Windows Workflow Foundation (WF) 的 BAM 攔截器進行工作時，您很可能會注意到，自己在攔截器組態檔中經常是使用一組通用篩選模式。 雖然其中有些是您的應用程式和環境專屬的篩選模式，但多數模式是可以跨多種環境並可用於多種應用程式中。  
   
  本主題收集了許多針對 WF 應用程式撰寫，由攔截器組態檔所使用的通用篩選模式。 這些模式會根據 Windows Workflow Foundation 追蹤事件分組：  
   
--   活動狀態事件  
+- 活動狀態事件  
   
--   工作流程狀態事件  
+- 工作流程狀態事件  
   
--   使用者事件  
+- 使用者事件  
   
- 每個模式都可以複製到您的攔截器組態檔中，並可修改成適合您的應用程式。  
+  每個模式都可以複製到您的攔截器組態檔中，並可修改成適合您的應用程式。  
   
 ## <a name="activity-status-event-filter-patterns"></a>活動狀態事件篩選模式  
  活動是工作流程的基礎建置區塊。 工作流程就是以階層方式組織在樹狀結構中的一組活動。 活動則代表工作流程中的一項動作。 它可以是像是「延遲」的簡單動作，或是由多個子活動所組成的複合活動。  
   
- 本節中的篩選條件來篩選活動和 WF 自訂作業使用一或多個下列的 BAM 攔截器：  
+ 在本節中的篩選器篩選活動和 WF 自訂作業使用一或多個下列的 BAM 攔截器：  
   
 -   GetActivityName  
   
@@ -70,7 +70,7 @@ ms.locfileid: "22234518"
 ```  
   
 ### <a name="filter-by-activity-type-closed-activity-event"></a>依活動型別篩選 (結案活動事件)  
- 有時候您需要依據型別 (而非名稱) 來篩選活動。 例如，您可能要針對工作流程中的所有活動儲存活動名稱及日期/時間戳記。 若要達成此目的，您使用`GetActivityType`作業。 `GetActivityType`比較提供的型別與基底型別及所有衍生型別，以判斷相符。 與 `System.Workflow.ComponentModel.Activity` 的比較結果一定是相符，因為所有的工作流程活動都是從此型別所衍生。  
+ 有時候您需要依據型別 (而非名稱) 來篩選活動。 例如，您可能要針對工作流程中的所有活動儲存活動名稱及日期/時間戳記。 若要達成此目的，您使用`GetActivityType`作業。 `GetActivityType` 比較提供的型別與基底型別及所有衍生型別，以判斷相符。 與 `System.Workflow.ComponentModel.Activity` 的比較結果一定是相符，因為所有的工作流程活動都是從此型別所衍生。  
   
 ```  
 <ic:Filter>  
@@ -142,7 +142,7 @@ ms.locfileid: "22234518"
 ```  
   
 ### <a name="filter-by-activity-type-and-event"></a>依活動型別和事件篩選  
- 在單一活動事件期間擷取衍生自特定型別之所有活動的資訊時，就可以使用這種篩選。 例如，您可能想要在某筆訂單流經工作流程時，追蹤其訂單 ID 及日期/時間戳記。 若要達成此目的，您使用`GetActivityEvent`和`GetActivityType`作業。 `GetActivityType`比較提供的型別與基底型別及所有衍生型別，以判斷相符。 與 `System.Workflow.ComponentModel.Activity` 的比較結果一定是相符，因為所有的工作流程活動都是從此型別所衍生。  
+ 在單一活動事件期間擷取衍生自特定型別之所有活動的資訊時，就可以使用這種篩選。 例如，您可能想要在某筆訂單流經工作流程時，追蹤其訂單 ID 及日期/時間戳記。 若要達成此目的，您使用`GetActivityEvent`而`GetActivityType`作業。 `GetActivityType` 比較提供的型別與基底型別及所有衍生型別，以判斷相符。 與 `System.Workflow.ComponentModel.Activity` 的比較結果一定是相符，因為所有的工作流程活動都是從此型別所衍生。  
   
 ```  
 <ic:Filter>  
@@ -214,25 +214,25 @@ ms.locfileid: "22234518"
 ## <a name="user-event-filter-patterns"></a>使用者事件篩選模式  
  如果應用程式會使用 TrackData 方法追蹤自訂資訊，您便可以使用下列一或多個 WF 自訂使用者資料作業的 BAM 攔截器，根據資料的特性來進行篩選：  
   
--   GetUserDataType  
+- GetUserDataType  
   
--   GetUserKey  
+- GetUserKey  
   
--   GetUserData  
+- GetUserData  
   
- 這個篩選可以透過下列作業來合併這些自訂作業，以建立更複雜的運算式：  
+  這個篩選可以透過下列作業來合併這些自訂作業，以建立更複雜的運算式：  
   
--   GetActivityName  
+- GetActivityName  
   
--   GetActivityType  
+- GetActivityType  
   
--   GetActivityProperty  
+- GetActivityProperty  
   
--   GetWorkflowProperty  
+- GetWorkflowProperty  
   
--   GetContextProperty  
+- GetContextProperty  
   
- 如果您的篩選中連一個使用者資料作業都沒有，您的篩選就不會是使用者事件篩選，而且封入的 OnEvent 將會造成錯誤 (如果使用者作業出現在對應的更新運算式中)，或是會被識別為活動追蹤點，而非使用者追蹤點。  
+  如果您的篩選中連一個使用者資料作業都沒有，您的篩選就不會是使用者事件篩選，而且封入的 OnEvent 將會造成錯誤 (如果使用者作業出現在對應的更新運算式中)，或是會被識別為活動追蹤點，而非使用者追蹤點。  
   
 ### <a name="filter-by-activity-name-and-user-data-type"></a>依活動名稱和使用者資料型別篩選  
  大多數時候，您都可以根據活動名稱和使用者資料型別來識別事件。 下列運算式會篩選出名為 "MyActivity" 的活動，以及衍生自 `System.Object` 的使用者資料型別。  

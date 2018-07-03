@@ -1,5 +1,5 @@
 ---
-title: HL7 版本 |Microsoft 文件
+title: HL7 版本 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,55 +15,55 @@ caps.latest.revision: 5
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9c7edcfa6c44467c0660efd8a9b4b02df7010de6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: b3806ed8db2272068ff60c6656b73cdf4a726bd9
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22204822"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37005895"
 ---
 # <a name="hl7-versions"></a>HL7 版本
-HL7 版本 2 是系列密切相關的標準，而不是單一標準。 HL7 組織已設計為透過 HL7 間的版本相容性規則的應用程式向上相容這些標準。 這些規則可保證，在第 2 版的範圍內，定義 HL7 版本的規則 下的介面仍舊會執行後續版本的定義內。 如此將無法接受來自較新版本的訊息，而不會中斷它的實作，並傳送接收端系統系統可以繼續將訊息傳送給接收者者支援更新版本。  
+HL7 第 2 版是一系列的密切相關的標準，而不是以單一標準。 HL7 組織已設計為向上相容 HL7 間的版本相容性規則的應用程式透過這些標準。 這些規則會保證，第 2 版的範圍，內 HL7 版本的規則下定義的介面將仍可運作的後續版本定義中。 以便接收系統將能夠接受來自較新版本的訊息，而不會破壞它的實作，並傳送系統將能夠繼續將訊息傳送給支援最新版本的接收者。  
   
- 請務必注意[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]):  
+ 請務必請注意，Microsoft BizTalk Accelerator for HL7 ([!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)]):  
   
--   支援所有的即時 HL7 版本從版本 2.1 透過 2.5 版  
+- 支援所有的即時 HL7 版本，透過 2.5 版的版本 2.1  
   
--   提供對應 HL7 版本之間所需的功能，並可在一個站台的多個版本的互通性  
+- 提供對應 HL7 版本之間所需的功能，可讓多個版本，在單一站台的互通性  
   
--   支援當地語系化支援 Z 區段並啟用替代的解讀方式之間的對應或使用標準的訊息  
+- 支援的 Z 區段支援當地語系化和啟用替代的解讀方式之間的對應或使用標準的訊息  
   
- 請務必注意的傳訊標準版本之間的差異：  
+  請務必注意的傳訊標準版本之間的差異：  
   
--   第 1 版的作用為概念證明  
+- 第 1 版檔可作為概念證明  
   
--   第 2 版提供集合，以支援應用程式之間的訊息交換的訊息規格  
+- 第 2 版提供來支援應用程式之間的訊息交換的訊息規格的集合  
   
--   第 3 版會提供以模型為基礎組整合的規格，以支援較大範圍的互通性需求  
+- 第 3 版將提供規格，以支援一系列的互通性需求，以模型為基礎的整合式的的集合  
   
- 第 2 版本質上而言，著重於實用的方法，以提供使用者執行指定工作，而第 3 版著重於以確保一致性和長期的擴充性的訊息規格來做為主體所需的規格整數。  
+  基本上，第 2 版著重務實的方式，為使用者提供他們需要執行指定的工作，而第 3 版著重於以確保一致性及長期的擴充性主體做為訊息規格的規格整體。  
   
- 臨床文件架構會提供藉由引進臨床文件使用的 XML 表示的標準 HL7 標準的大幅擴充功能。  
+  臨床文件架構會提供重要的延伸模組，HL7 標準，藉由引進的臨床文件使用的 XML 表示法的標準。  
   
- 下表顯示 HL7 標準開發進程。  
+  下表顯示 HL7 標準開發進程。  
   
 |事件|Year|詳細資料|  
 |-----------|----------|-------------|  
-|HL7 所建構|1987|在第一個會議 Stanford，CA，包含 12 出席者。|  
-|V1.0|1987|提供給 HL7 plenary 會議的草稿。|  
-|V2.0|1988|提供給 HL7 plenary 會議的草稿。|  
-|V2.1 發行|1990|第一個廣泛版本|  
-|V2.2 發行|1994||  
-|V.2.3 發行|1997|ANSI 核准|  
+|HL7 成立|1987|第一個會議中，在史丹佛，CA 中，包含 12 出席者。|  
+|V1.0|1987|向 HL7 plenary 會議的草稿。|  
+|V2.0|1988|向 HL7 plenary 會議的草稿。|  
+|發行的 V2.1|1990|第一個廣為實作的版本|  
+|發行的 V2.2|1994||  
+|2.3 版發行|1997|ANSI 核准|  
 |V2.3.1 發行|1999|ANSI 核准|  
 |V2.4 發行|2000|ANSI 核准|  
 |臨床文件架構|2000|ANSI 核准|  
-|2.5 版發行|2003|完成內 HL7，為 ANSI 所提交核准的核准。|  
-|V3.0 正在進行中|2003||  
+|V2.5 發行|2003|完成內 HL7，ansi 提交進行核准的核准。|  
+|進行中的 3.0 版|2003||  
   
 ## <a name="see-also"></a>另請參閱  
  [處理 HL7 訊息](../../adapters-and-accelerators/accelerator-hl7/processing-hl7-messages.md)   
  [使用 HL7 2.X 結構描述](../../adapters-and-accelerators/accelerator-hl7/using-hl7-2-x-schemas.md)   
- [使用 HL7 2.XML 結構描述](../../adapters-and-accelerators/accelerator-hl7/using-hl7-2-xml-schemas.md)   
+ [使用 HL7 2.xml 結構描述](../../adapters-and-accelerators/accelerator-hl7/using-hl7-2-xml-schemas.md)   
  [訊息模式](../../adapters-and-accelerators/accelerator-hl7/message-modes.md)   
- [HL7 訊息](../../adapters-and-accelerators/accelerator-hl7/hl7-messaging.md)
+ [HL7 傳訊](../../adapters-and-accelerators/accelerator-hl7/hl7-messaging.md)

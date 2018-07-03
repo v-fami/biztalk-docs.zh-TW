@@ -1,5 +1,5 @@
 ---
-title: X12 EDI 字元集 |Microsoft 文件
+title: X12 EDI 字元集 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,24 +12,25 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 46bcf25317d38846c6376b1fa25572b926c92992
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 9bd501c81b92f4fa7824009a949fd6c7e58eaf3b
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22289030"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37023100"
 ---
 # <a name="x12-edi-character-set"></a>X12 EDI 字元集
-使用 Ñ 字元或抑音符號 （'） 時，指定下列選項：  
-  
-||字元集|  
-|-|-------------------|  
-|只有 Ñ 字元 EDI 文件中|使用擴充的字元集|  
-|只有抑音符號 （'） 中的 EDI 文件|使用 UTF8 字元集|  
-|Ñ 字元**和**抑音符號 （'） 在相同的文件中：|-輸入文件必須具有 UTF8 編碼方式<br />-使用 UTF8 字元集|  
-  
- 下列連結提供者上 EDI 字元集的詳細資訊：  
-  
+使用及參與字元或抑音符號 （'） 時，指定下列項目：  
+
+
+|                                                                   |                                  字元集                                   |
+|-------------------------------------------------------------------|----------------------------------------------------------------------------------|
+|             只有在 EDI 文件及參與字元              |                            使用擴充的字元集                            |
+|           只有抑音符號 (\`) 中的 EDI 文件            |                              使用 UTF8 字元集                              |
+| 及參與字元**並**抑音符號 (\`) 相同的文件中： | -輸入文件必須具有 UTF8 編碼方式<br />-使用 UTF8 字元集 |
+
+ 下列連結提供者更多有關 EDI 字元集：  
+
  [EDI 字元集](http://go.microsoft.com/fwlink/p/?LinkId=271249)  
-  
+
  [EDI 字元集支援](http://go.microsoft.com/fwlink/p/?LinkId=271250)

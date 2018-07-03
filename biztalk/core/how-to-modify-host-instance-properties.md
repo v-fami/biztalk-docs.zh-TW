@@ -1,5 +1,5 @@
 ---
-title: 變更主控件執行個體屬性 |Microsoft 文件
+title: 變更主控件執行個體屬性 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 22
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 859170362ce804db6eff5b0e928998f008d0c2c5
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 53a64257f752e161963539256dcaca3f7f8f1077
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22255150"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37003343"
 ---
 # <a name="update-host-instance-properties"></a>更新主控件執行個體屬性
 
@@ -38,7 +38,7 @@ ms.locfileid: "22255150"
 > [!CAUTION]
 >  若您變更主控件執行個體的認證，也必須變更對應的 SQL Server 認證。 若您不更新 SQL Server 認證，主控件執行個體將不會正確運作。  
   
- 如需使用 WMI 修改主控件執行個體的詳細資訊，請參閱**MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
+ 如需使用 WMI 修改主控件執行個體的資訊，請參閱**MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
   
 ## <a name="prerequisites"></a>必要條件  
  若要執行此程序，您必須以「系統管理員」群組及「BizTalk Server 系統管理員」群組的成員身分登入。  
@@ -60,25 +60,25 @@ ms.locfileid: "22255150"
   
 ## <a name="steps"></a>步驟
   
-1.  按一下**啟動**，按一下 **所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。  
+1. 按一下 **開始**，按一下**所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下**BizTalk Server 管理**。  
   
-2.  在主控台樹狀目錄中，依序展開[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，展開 BizTalk 群組，按一下**平台設定**，然後按一下 **主控件執行個體**。  
+2. 在主控台樹狀目錄中，依序展開[!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]、 BizTalk 群組，按一下**平台設定**，然後按一下**主控件執行個體**。  
   
-3.  在詳細資料窗格中，以滑鼠右鍵按一下您想要修改，然後按一下 主控件執行個體**屬性**。  
+3. 在 詳細資料 窗格中，以滑鼠右鍵按一下您要修改，然後按一下 主控件執行個體**屬性**。  
   
-4.  在**主控件執行個體屬性**對話方塊中，按一下 **設定**修改服務帳戶資訊。  
+4. 在 [**主控件執行個體屬性**] 對話方塊中，按一下**設定**修改服務帳戶資訊。  
   
-5.  在**登入認證**對話方塊方塊中，輸入帳戶名稱和密碼的帳戶所在主控件執行個體將會執行，然後按**確定**。  
+5. 在 **登入認證**對話方塊方塊中，輸入帳戶名稱和密碼的帳戶底下的主控件執行個體將會執行，，然後按一下**確定**。  
   
-6.  在**主控件執行個體屬性**對話方塊中，執行下列命令，，然後按一下**確定**:  
+6. 在 [**主控件執行個體屬性**] 對話方塊中，執行下列命令，，然後按一下**確定**:  
   
-    |使用|動作|  
-    |--------------|----------------|  
-    |**主機名稱**|顯示和所選取的伺服器相關聯的主控件名稱。|  
-    |**Server**|顯示與所選取的主控件相關聯的伺服器。|  
-    |**登入**|顯示將執行主控件執行個體的新服務帳戶之帳戶名稱。|  
-    |**設定**|按一下即可顯示**登入認證**對話方塊中，您可以在此輸入的帳戶名稱和密碼將執行主控件執行個體的帳戶。|  
-    |**停用主控件執行個體無法啟動**|選取此核取方塊將選取主控件的狀態由啟用變更為停用。 若您不要主控件執行個體啟動，但是要保留其設定時，停用主控件執行個體就非常有用。|  
+   |使用|以進行此動作|  
+   |--------------|----------------|  
+   |**主機名稱**|顯示和所選取的伺服器相關聯的主控件名稱。|  
+   |**Server**|顯示與所選取的主控件相關聯的伺服器。|  
+   |**登入**|顯示將執行主控件執行個體的新服務帳戶之帳戶名稱。|  
+   |**設定**|按一下即可顯示**登入認證**對話方塊中，您可以在其中輸入的帳戶名稱和密碼將執行主控件執行個體的帳戶。|  
+   |**停用主控件執行個體無法啟動**|選取此核取方塊將選取主控件的狀態由啟用變更為停用。 若您不要主控件執行個體啟動，但是要保留其設定時，停用主控件執行個體就非常有用。|  
   
 ## <a name="see-also"></a>另請參閱  
  [管理 BizTalk 主控件和主控件執行個體](../core/managing-biztalk-hosts-and-host-instances.md)   

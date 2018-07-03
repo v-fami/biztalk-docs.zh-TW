@@ -1,5 +1,5 @@
 ---
-title: TIBCO 會合配接器的 SSO 需求 |Microsoft 文件
+title: TIBCO 會合配接器的 SSO 需求 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 40cf27a3b96534239fa871bd04b90febee9beafe
-ms.sourcegitcommit: dd7c54feab783ae2f8fe75873363fe9ffc77cd66
+ms.openlocfilehash: 7e61b456def74ee76d887fa42149ee95b9ca3cbf
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/07/2017
-ms.locfileid: "24015993"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37013735"
 ---
 # <a name="requirements-for-single-sign-on"></a>單一登入的需求
 
@@ -36,14 +36,14 @@ ms.locfileid: "24015993"
   
 ## <a name="enable-sso"></a>啟用 SSO  
   
-1.  在**傳輸屬性**視窗中，選取**是**如**使用 SSO**。  
+1. 在 **傳輸屬性**視窗中，選取**是**for**使用 SSO**。  
   
-2.  指定傳輸屬性時，選取適當的分支機構應用程式。  
+2. 指定傳輸屬性時，選取適當的分支機構應用程式。  
   
- 如需詳細資訊，請參閱[建立分支機構應用程式](../core/creating-affiliate-applications1.md)。  
+   如需詳細資訊，請參閱 <<c0> [ 建立分支機構應用程式](../core/creating-affiliate-applications1.md)。  
   
 > [!NOTE]
->  執行工作之後使用 SSO，請記得要重設任何 Web 共用資料夾，以**不會共用**。 不使用該資料夾的應用程式將會更新，或如果資料夾共用，因為它會被視為使用中正確地解除安裝。  
+>  執行工作之後使用 SSO，請務必重設任何 Web 共用的資料夾，以**不會共用**。 不使用該資料夾的應用程式將會更新，或如果資料夾已共用，因為它會被視為使用中正確地解除安裝。  
   
 ## <a name="see-also"></a>另請參閱  
-[安全性](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md)
+[Security](../core/security-in-biztalk-adapter-for-tibco-rendezvous.md)

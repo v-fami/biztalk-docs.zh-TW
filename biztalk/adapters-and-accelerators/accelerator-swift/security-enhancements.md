@@ -1,5 +1,5 @@
 ---
-title: 安全性增強功能 |Microsoft 文件
+title: 安全性增強功能 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -14,16 +14,16 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 78743f9ca2db47767bf30c2e08c8ab6733a788b0
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 79f8ad85a1e17c020321d6b5f5bcd900bd4033dd
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22214054"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37000901"
 ---
 # <a name="security-enhancements"></a>安全性增強功能
-此部署指南的每個步驟已經設計為安全的部署您[!INCLUDE[btsCoName](../../includes/btsconame-md.md)][!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]安裝。  
+此部署指南的每個步驟已設計為安全部署的 Microsoft[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef](../../includes/a4swift-currentversion-firstref-md.md)]安裝。  
   
- 如需 A4SWIFT 安全性的詳細資訊，請參閱[安全性與隱私權的標準](../../adapters-and-accelerators/accelerator-swift/security-and-privacy-standards.md)。
+ 如需 A4SWIFT 安全性的詳細資訊，請參閱 <<c0> [ 安全性和隱私權標準](../../adapters-and-accelerators/accelerator-swift/security-and-privacy-standards.md)。
   
- 如需有關保護[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]部署，請參閱[Planning for Security](../../core/planning-for-security.md)。 [BizTalk Server 部署的安全性建議](../../core/security-recommendations-for-a-biztalk-server-deployment.md)包含特定的安全性建議。
+ 如需有關保障安全[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]部署，請參閱 < [Planning for Security](../../core/planning-for-security.md)。 [BizTalk Server 部署的安全性建議](../../core/security-recommendations-for-a-biztalk-server-deployment.md)包含特定的安全性建議。

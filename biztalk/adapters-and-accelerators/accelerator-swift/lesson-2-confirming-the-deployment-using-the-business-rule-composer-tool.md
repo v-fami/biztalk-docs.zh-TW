@@ -1,5 +1,5 @@
 ---
-title: 第 2 課： 確認部署使用 「 商務規則編輯器 」 工具 |Microsoft 文件
+title: 第 2 課： 確認部署使用 「 商務規則編輯器 」 工具 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,27 +18,27 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3115dc425fedca9019f0e5e5171f7234e6fbdbb2
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 1e9de00e6996daf5ce7759d395f6dfcf97989aa4
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22210238"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36997799"
 ---
 # <a name="lesson-2-confirming-the-deployment-using-the-business-rule-composer-tool"></a>第 2 課： 確認部署使用 「 商務規則編輯器 」 工具
-在這一課，您會確認 「 商務規則編輯器 」 工具可建立您的詞彙，並部署您的原則。 詞彙是您在規則組合中使用的詞彙項目集合。 原則是商務規則的版本集合。  
+在這一課，您可以確認 「 商務規則編輯器 」 工具可建立您的詞彙，並部署您的原則。 詞彙是您在規則組合中使用的詞彙項目集合。 原則是商務規則的版本集合。  
   
-### <a name="to-confirm-the-deployment-using-the-business-rule-composer-tool"></a>若要確認部署使用商務規則編輯器工具  
+### <a name="to-confirm-the-deployment-using-the-business-rule-composer-tool"></a>若要確認部署使用 「 商務規則編輯器 」 工具  
   
-1.  啟動**商務規則編輯器 」** BizTalk Server 中。  
+1.  開始**商務規則編輯器 」** BizTalk Server 中。  
   
 2.  在 [開啟規則存放區] 對話方塊中，按一下**確定**。  
   
-3.  在 「 商務規則編輯器 」 工具 [事實總管] 窗格中，確認您想要的詞彙出現在 [事實總管] 中，如下圖所示。  
+3.  在 事實總管 的 商務規則編輯器工具，確認您想要的詞彙，會出現在 事實總管 中，如下圖所示。  
   
      ![](../../adapters-and-accelerators/accelerator-swift/media/tut2-scrn2.gif "Tut2_scrn2")  
   
-4.  在 原則總管 中，確認 商務規則編輯器工具部署下列原則：  
+4.  在 [原則總管] 中，確認 「 商務規則編輯器 」 工具會部署下列原則：  
   
      MT103_Master_Policy  
   
@@ -96,10 +96,10 @@ ms.locfileid: "22210238"
   
 ### <a name="to-view-a-policy"></a>若要檢視原則  
   
-1.  在 商務規則編輯器的 原則總管 窗格中，確定**SWIFT_NetworkRule149_Policy**會展開，然後展開**1.0 版 – 已部署**節點。  
+1. 在 商務規則編輯器的 原則總管 窗格中，確定**SWIFT_NetworkRule149_Policy**會展開，然後展開**1.0 版 – 已部署**節點。  
   
-2.  按兩下**Validate_MT103**節點以開啟它。  
+2. 按兩下**Validate_MT103**節點以開啟它。  
   
-     原則會在螢幕右側的 [編輯器] 窗格中開啟。  
+    在畫面右側的 [編輯器] 窗格中，開啟原則。  
   
- 若要繼續[模組 7： 測試有效的一般檔案執行個體](../../adapters-and-accelerators/accelerator-swift/module-7-testing-a-valid-flat-file-instance.md)。
+   請繼續進行[模組 7： 測試有效一般檔案執行個體](../../adapters-and-accelerators/accelerator-swift/module-7-testing-a-valid-flat-file-instance.md)。

@@ -1,5 +1,5 @@
 ---
-title: 管理 BTARN 組態 |Microsoft 文件
+title: 管理 BTARN 組態 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,27 +15,27 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 48df2985716fe4ab1d94ba695dba5f4e108dc42b
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7d947db632e612a9973b2f247be2fff865f8a5d5
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22206766"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37011263"
 ---
 # <a name="administering-the-btarn-configuration"></a>管理 BTARN 組態
-[!INCLUDE[btsCoName](../../includes/btsconame-md.md)]® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] 管理主控台可讓您從一個使用者介面管理 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 組態的所有層面。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 組態包括程序組態、主要組織、交易夥伴與交易夥伴協議。 從[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]管理主控台中，您可以管理憑證、 管理執行個體[!INCLUDE[btsCoName](../../includes/btsconame-md.md)] [!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]™、 檢視事件，並檢視效能記錄檔及警示。  
+The Microsoft® [!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)] Management Console 可讓您管理的所有層面[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]從一個使用者介面的組態。 [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 組態包括程序組態、主要組織、交易夥伴與交易夥伴協議。 從[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]管理主控台中，您也可以管理憑證，管理 Microsoft 的執行個體[!INCLUDE[btsSQLServerNoVersion](../../includes/btssqlservernoversion-md.md)]™、 檢視事件，並檢視效能記錄檔及警示。  
   
- 如需您可以從執行的所有作業的概觀[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]管理主控台中，請參閱[使用 BTARN 管理主控台](../../adapters-and-accelerators/accelerator-rosettanet/using-the-btarn-management-console.md)。  
+ 如需您可以從執行的所有作業的概觀[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]管理主控台中，請參閱 <<c2> [ 使用 BTARN 管理主控台](../../adapters-and-accelerators/accelerator-rosettanet/using-the-btarn-management-console.md)。  
   
 ## <a name="in-this-section"></a>本節內容  
   
 -   [使用 BTARN 管理主控台](../../adapters-and-accelerators/accelerator-rosettanet/using-the-btarn-management-console.md)  
   
--   [設定 BTARN 傳送和接收管線](../../adapters-and-accelerators/accelerator-rosettanet/setting-btarn-send-and-receive-pipelines.md)  
+-   [設定 BTARN 傳送管線和接收管線](../../adapters-and-accelerators/accelerator-rosettanet/setting-btarn-send-and-receive-pipelines.md)  
   
 -   [啟用 BAM 追蹤](../../adapters-and-accelerators/accelerator-rosettanet/enabling-bam-tracking.md)  
   
--   [建立或編輯程序組態](../../adapters-and-accelerators/accelerator-rosettanet/creating-or-editing-a-process-configuration.md)  
+-   [建立或編輯程序設定](../../adapters-and-accelerators/accelerator-rosettanet/creating-or-editing-a-process-configuration.md)  
   
 -   [建立或編輯主要組織](../../adapters-and-accelerators/accelerator-rosettanet/creating-or-editing-a-home-organization.md)  
   

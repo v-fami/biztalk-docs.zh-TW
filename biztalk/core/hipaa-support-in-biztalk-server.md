@@ -1,5 +1,5 @@
 ---
-title: BizTalk Server 中的 HIPAA 支援 |Microsoft 文件
+title: BizTalk Server 中的 HIPAA 支援 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c34dd17ed875c5927b7a10d8238ec7828ab96c79
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7817e3b69edd0a34c13b92128f7ddba0f28a5586
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22247406"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37014759"
 ---
 # <a name="hipaa-support-in-biztalk-server"></a>BizTalk Server 中的 HIPAA 支援
 本主題提供 HIPAA 和 [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)] 如何支援 HIPAA 的簡短概觀。  
@@ -38,39 +38,39 @@ ms.locfileid: "22247406"
 ## <a name="hipaa-documentation-in-biztalk-server"></a>BizTalk Server 中的 HIPAA 文件  
  主要的 EDI 標準是 X12 (由 ANSI 制定標準，主要用於北美洲) 及 EDIFACT (由聯合國制定標準，主要用於美國以外的地區)。 HIPAA 是衍生自 X12 的標準。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 的原生 X12 EDI 功能中已經提供了 HIPAA 支援。 因此，只要您在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 文件中讀到 X12 支援，除非另有指明，否則該支援同樣也適用於 HIPAA 處理。  
   
- 下面各節中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]的 HIPAA 的特定資訊。  
+ 下列各節中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]的 HIPAA 的特定資訊。  
   
  **快速入門**  
   
--   [HIPAA 交易集](../core/hipaa-transaction-sets.md)  
+- [HIPAA 交易集](../core/hipaa-transaction-sets.md)  
   
- **規劃與架構**  
+  **規劃和架構**  
   
--   [HIPAA 文件結構描述版本 5010](../core/hipaa-document-schema-version-5010.md)  
+- [HIPAA 文件結構描述版本 5010](../core/hipaa-document-schema-version-5010.md)  
   
--   [HIPAA 結構描述的觸發程序欄位註解](../core/hipaa-schema-trigger-field-annotations.md)  
+- [HIPAA 結構描述觸發欄位註解](../core/hipaa-schema-trigger-field-annotations.md)  
   
--   [分割 HIPAA 子文件](../core/splitting-hipaa-subdocuments.md)  
+- [分割 HIPAA 子文件](../core/splitting-hipaa-subdocuments.md)  
   
- **開發**  
+  **開發**  
   
--   [修改 EDI 結構描述](../core/modifying-edi-schemas.md) 
+- [修改 EDI 結構描述](../core/modifying-edi-schemas.md) 
 
-- [信封結構描述中自訂列舉](../core/customizing-enumerations-in-the-envelope-schema.md)
+- [在信封結構描述中自訂列舉](../core/customizing-enumerations-in-the-envelope-schema.md)
 
 - [設定欄位交互驗證](../core/configuring-cross-field-validation.md)
 
   
  **疑難排解**  
   
--   [已知的問題的 EDI 接收處理](../core/known-issues-with-edi-receive-processing.md)  
+-   [EDI 接收處理的已知問題](../core/known-issues-with-edi-receive-processing.md)  
   
--   [EDI 解決方案搭配使用的 XML 工具的已知的問題](../core/known-issues-with-xml-tools-used-with-edi-solutions.md)  
+-   [與 EDI 解決方案搭配使用之 XML 工具的已知問題](../core/known-issues-with-xml-tools-used-with-edi-solutions.md)  
   
 ## <a name="more-information-about-hipaa"></a>HIPAA 的相關資訊  
   
 -   如需 American National Standards Institute，Accredited Standards Committee for Electronic Data Interchange，請移至[ASC X12 首頁](http://www.x12.org/)。  
   
--   如需 x12's Insurance Subcommittee 及其實作資訊引導在 HIPAA 下採用，請移至[Washington Publishing Company's HIPAA EDI 引導](http://www.wpc-edi.com/)。
+-   如需 x12's Insurance Subcommittee 及其實作的資訊引導 HIPAA 下採用，請移至[Washington Publishing Company's HIPAA EDI 引導](http://www.wpc-edi.com/)。
   
--   如需 Workgroup for Electronic Data Interchange 的資訊，請移至[Workgroup for Electronic Data Interchange 首頁](http://www.wedi.org/)。
+-   如需 Workgroup for Electronic Data Interchange 資訊，請移至[Workgroup for Electronic Data Interchange 首頁](http://www.wedi.org/)。

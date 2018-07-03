@@ -1,5 +1,5 @@
 ---
-title: 即時彙總 |Microsoft 文件
+title: 即時彙總 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,12 +15,12 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c1bc335c1c53fe106c460b7dcb5a27b803db97b1
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 6cfb7d2c50b011743f652fd261eed68e810db10f
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22269078"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36981039"
 ---
 # <a name="real-time-aggregations"></a>即時彙總
 在某些情況下，多維度彙總的特定配量有時間緊迫性，因此必須可即時取得。 例如，您的業務是銷售容易腐壞的產品，所以希望即時取得各個出貨階段的產品數量彙總。 同時，您也有其他想要看到的彙總，如典型客戶的年齡彙總，但是這只有在月底進行商業智慧分析時才需要。  
@@ -30,31 +30,31 @@ ms.locfileid: "22269078"
  ![](../core/media/bam-realtime-aggregations.gif "bam_realtime_aggregations")  
 BAM 即時彙總  
   
- 在此圖中，如果收到 Redmond $100 的新 PO，BAM 將帳目加入對應的資料列中的資料格 {redmond，InProcess} 上執行的作業，例如`Count=Count+1`和`Amount=Amount+$100`。  
+ 在此圖中，如果收到來自 Redmond 的 100 美元的新 PO，BAM 將帳目加入對應的資料列中的資料格 {redmond，InProcess} 上執行的作業，例如`Count=Count+1`和`Amount=Amount+$100`。  
   
- 更新版本中，如果相同訂單出貨，BAM 從 {Redmond，InProcess} 的資料列移除其帳目，然後將它加入 {Redmond，Shipped} 資料列。  
+ 稍後，如果相同的訂單出貨，則 BAM 移除其帳目，從 {Redmond，InProcess} 的資料列並將其加入 {Redmond，Shipped} 資料列。  
   
  BAM 會在 RTA 中保存指定線上視窗的資料，然後予以刪除。 您可以藉由變更對應的資料列的資料表設定線上視窗**bam_Metadata_RealTimeAggregations**。  
   
  下列陳述式也適用於即時彙總：  
   
--   即時彙總會大幅影響 BAM 可以在其中寫入資料的速度。 因此，您應該只將彙總結構中最重要的配量定義成 RTA。  
+- 即時彙總會大幅影響 BAM 可以在其中寫入資料的速度。 因此，您應該只將彙總結構中最重要的配量定義成 RTA。  
   
--   即時彙總的維度層級的限制為 14。 例如，如果您建立資料維度位置的狀態和縣 （市），這也算是兩個層級 （State 和 City）。 進度維度的層級數目是樹狀結構的深度，而時間維度則是所有的子單位計數。 例如，時間維度 「 年、 月、 日、 小時 」 算成四個層級。  
+- 即時彙總的維度層級的限制為 14。 比方說，如果您建立資料維度位置的狀態和縣 （市），這算是兩個層級 （State 和 City）。 進度維度的層級數目是樹狀結構的深度，而時間維度則是所有的子單位數目。 例如，時間維度 「 年、 月、 日、 小時 」 算成四個層級。  
   
--   BAM 不支援的型別即時彙總**Min**和**Max**。 BAM 支援的彙總是**計數**，**總和**，和**平均**。  
+- BAM 不支援類型的即時彙總**最小**並**Max**。 BAM 支援的彙總是**計數**，**總和**，並**平均**。  
   
--   您必須一律為 RTA 建立時間維度並始終應用在所有的資料配量，因為 RTA 中的資料過時根據伺服器的時間戳記，而非特定的商務里程碑。  
+- 您必須一律建立 rta 的 時間維度，並一律使用它在所有的資料配量，因為 RTA 中的資料已過時根據伺服器的時間戳記，而非特定的商務里程碑。  
   
--   請勿定義多個使用相同 BAM 活動的 RTA。 若是這麼做，當您封存 BAM 資料時，RTA 資料將是錯誤的資料。  
+- 請勿定義多個使用相同 BAM 活動的 RTA。 若是這麼做，當您封存 BAM 資料時，RTA 資料將是錯誤的資料。  
   
- 即時彙總會大幅影響 BAM 可以在其中寫入資料的速度。 因此，您應該只將彙總結構中最重要的配量定義成 RTA。  
+  即時彙總會大幅影響 BAM 可以在其中寫入資料的速度。 因此，您應該只將彙總結構中最重要的配量定義成 RTA。  
   
- 即時彙總的維度層級的限制為 14。 例如，如果您建立資料維度位置的狀態和縣 （市），這也算是兩個層級 （State 和 City）。 進度維度的層級數目是樹狀結構的深度，而時間維度則是所有的子單位計數。 例如，時間維度 「 年、 月、 日、 小時 」 算成四個層級。  
+  即時彙總的維度層級的限制為 14。 比方說，如果您建立資料維度位置的狀態和縣 （市），這算是兩個層級 （State 和 City）。 進度維度的層級數目是樹狀結構的深度，而時間維度則是所有的子單位數目。 例如，時間維度 「 年、 月、 日、 小時 」 算成四個層級。  
   
- BAM 不支援的型別即時彙總**Min**和**Max**。 BAM 支援的彙總是**計數**，**總和**，和**平均**。  
+  BAM 不支援類型的即時彙總**最小**並**Max**。 BAM 支援的彙總是**計數**，**總和**，並**平均**。  
   
- 請勿定義多個使用相同 BAM 活動的 RTA。 若是這麼做，當您封存 BAM 資料時，RTA 資料將是錯誤的資料。  
+  請勿定義多個使用相同 BAM 活動的 RTA。 若是這麼做，當您封存 BAM 資料時，RTA 資料將是錯誤的資料。  
   
 ## <a name="see-also"></a>另請參閱  
- [什麼是彙總？](../core/what-is-an-aggregation.md)
+ [何謂彙總？](../core/what-is-an-aggregation.md)

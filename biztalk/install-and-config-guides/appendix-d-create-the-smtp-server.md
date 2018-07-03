@@ -1,5 +1,5 @@
 ---
-title: 附錄 d： 建立 SMTP 伺服器 |Microsoft 文件
+title: 附錄 d︰ 建立 SMTP 伺服器 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9f4d4acc35f5cb38be5f783ee7c4017c8ada83e2
-ms.sourcegitcommit: 36350889f318e1f7e0ac9506dc8df794d475bda6
+ms.openlocfilehash: b6c773935a52e58a4bc04b3f963d83d988bf78d8
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/20/2018
-ms.locfileid: "22300134"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37007079"
 ---
 # <a name="appendix-d-create-the-smtp-server"></a>附錄 D︰建立 SMTP 伺服器
 建立 SQL Server Database Mail 所使用的 SMTP 伺服器。  
@@ -28,7 +28,7 @@ ms.locfileid: "22300134"
 * [!INCLUDE[sqlserver2014](../includes/sqlserver2014-md.md)]
 * [!INCLUDE[sqlserver2012](../includes/sqlserver2012-md.md)] 
   
- SQL Server Database Mail 使用 SMTP 伺服器傳送 BAM 警示。 SMTP 伺服器隨附於網際網路資訊服務 (IIS)。 SMTP 可以安裝在本機 BizTalk Server 上，或安裝在已安裝 IIS 的另一部伺服器上。  
+  SQL Server Database Mail 使用 SMTP 伺服器傳送 BAM 警示。 SMTP 伺服器隨附於網際網路資訊服務 (IIS)。 SMTP 可以安裝在本機 BizTalk Server 上，或安裝在已安裝 IIS 的另一部伺服器上。  
   
 > [!IMPORTANT]
 >  一般而言，用戶端作業系統 (例如 Windows 10、Windows 7 等) 都不包含 SMTP 伺服器功能。 您可以在 IIS 內使用 [SMTP 電子郵件] 功能，連接至 Windows Server 上的現有 SMTP 伺服器。 [SMTP 電子郵件] 功能不是 SQL Server Database Mail 所需的 SMTP 伺服器。 因此，本主題不包含在用戶端作業系統上安裝和設定 SMTP 伺服器的步驟。  
@@ -152,47 +152,47 @@ ms.locfileid: "22300134"
   
   
 ## <a name="test-the-smtp-server"></a>測試 SMTP 伺服器  
- Telnet 可以用來測試 SMTP 伺服器組態。 下列步驟使用您設定的 SMTP 伺服器將訊息傳送至電子郵件地址。 [http://support.microsoft.com/kb/153119](http://support.microsoft.com/kb/153119) 提供的 telnet 命令的描述。  
+ Telnet 可以用來測試 SMTP 伺服器組態。 下列步驟使用您設定的 SMTP 伺服器將訊息傳送至電子郵件地址。 [http://support.microsoft.com/kb/153119](http://support.microsoft.com/kb/153119) 提供 telnet 命令的描述。  
   
-1.  以系統管理員身分開啟命令視窗。
+1. 以系統管理員身分開啟命令視窗。
   
-2.  在命令提示字元中，輸入：  
+2. 在命令提示字元中，輸入：  
   
-     `telnet localhost 25`  
+    `telnet localhost 25`  
   
-     如果未安裝 telnet，請輸入下列命令進行安裝︰  
+    如果未安裝 telnet，請輸入下列命令進行安裝︰  
   
-     `pkgmgr /iu:"TelnetClient"`  
+    `pkgmgr /iu:"TelnetClient"`  
   
-3.  輸入下列命令開始通訊︰  
+3. 輸入下列命令開始通訊︰  
   
-     `EHLO server`  
+    `EHLO server`  
   
-4.  輸入郵件寄件者地址︰  
+4. 輸入郵件寄件者地址︰  
   
-     `MAIL FROM: *YourEmailAddress*@*YourProvider*.com`  
+    `MAIL FROM: *YourEmailAddress*@*YourProvider*.com`  
   
-     例如，輸入：  
+    例如，輸入：  
   
-     `MAIL FROM: EmailAddress@outlook.com`  
+    `MAIL FROM: EmailAddress@outlook.com`  
   
-5.  輸入郵件收件者地址︰  
+5. 輸入郵件收件者地址︰  
   
-     `RCPT TO: *YourEmailAddress*@*YourProvider*.com`  
+    `RCPT TO: *YourEmailAddress*@*YourProvider*.com`  
   
-     例如，輸入：  
+    例如，輸入：  
   
-     `RCPT TO: EmailAddress@outlook.com`  
+    `RCPT TO: EmailAddress@outlook.com`  
   
-6.  輸入下列命令，告知準備好要傳送資料的 SMTP 伺服器︰  
+6. 輸入下列命令，告知準備好要傳送資料的 SMTP 伺服器︰  
   
-     `DATA`  
+    `DATA`  
   
-7.  輸入下列命令，輸入主旨︰  
+7. 輸入下列命令，輸入主旨︰  
   
-     `Subject: Test Message`  
+    `Subject: Test Message`  
   
-8.  按 Enter 兩次。  
+8. 按 Enter 兩次。  
   
 9. 輸入下列命令，輸入訊息主體：  
   
@@ -200,5 +200,5 @@ ms.locfileid: "22300134"
   
 10. 按 Enter，並輸入句號 (.)，然後按 Enter。  
   
- 檢查電子郵件訊息的 RCPT TO 位址。 如果未傳遞電子郵件 (請檢查您的收件匣和垃圾郵件資料夾)，則不會成功傳送訊息，而訊息可能位在 SMTP Queue 資料夾 (C:\inetpub\mailroot\Queue) 中。  
+    檢查電子郵件訊息的 RCPT TO 位址。 如果未傳遞電子郵件 (請檢查您的收件匣和垃圾郵件資料夾)，則不會成功傳送訊息，而訊息可能位在 SMTP Queue 資料夾 (C:\inetpub\mailroot\Queue) 中。  
   
