@@ -1,5 +1,5 @@
 ---
-title: 管理 BizTalk Server 開發人員成品來源控制系統 |Microsoft 文件
+title: 管理 BizTalk Server 開發人員成品與來源控制系統 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,14 +12,14 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 829749911bd4f3ca6aee1da42578a1aac28db7ae
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 8ce9483518275c57c7defb730aeeffc8a4139115
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22265798"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36991007"
 ---
-# <a name="managing-biztalk-server-developer-artifacts-with-a-source-control-systems"></a>管理原始檔控制系統與 BizTalk Server 開發人員成品
+# <a name="managing-biztalk-server-developer-artifacts-with-a-source-control-systems"></a>管理原始檔控制系統的 BizTalk Server 開發人員成品
 保護您的 BizTalk 專案免於發生未預期的系統失敗，應做為第一優先的事項。 保護專案檔案的一個方式是使用原始程式碼控制系統，例如 Team Foundation Server Source Control 與 Microsoft Visual SourceSafe。 本主題說明一些基本策略，可將專案組織成與任何原始檔控制系統搭配使用時都能發揮最佳效果，並提供有關使用 Visual SourceSafe 的特定建議。  
   
 ## <a name="basic-organization-strategies"></a>基本的組織策略  
@@ -95,21 +95,21 @@ ms.locfileid: "22265798"
   
 ##### <a name="to-enable-visual-sourcesafe-to-work-with-biztalk-server-unicode-files"></a>將 Visual SourceSafe 與 BizTalk Server Unicode 檔案搭配使用  
   
-1.  啟動 Visual SourceSafe 8.0 Admin。  
+1. 啟動 Visual SourceSafe 8.0 Admin。  
   
-2.  選取要使用的 SourceSafe 資料庫。  
+2. 選取要使用的 SourceSafe 資料庫。  
   
-3.  在 **[工具]** 功能表上，按一下 **[選項]**。  
+3. 在 **[工具]** 功能表上，按一下 **[選項]**。  
   
-4.  按一下 [ **檔案類型** ] 索引標籤。  
+4. 按一下 [**檔案類型**] 索引標籤。  
   
-5.  將下列項目新增至二進位檔案清單的末端。 請確認以分號分隔每種檔案類型：  
+5. 將下列項目新增至二進位檔案清單的末端。 請確認以分號分隔每種檔案類型：  
   
-     *.btm;\*。btp;\*。xsd;\*。odx  
+    *.btm;\*.btp;\*.xsd;\*.odx  
   
-6.  按一下 **[確定]**。  
+6. 按一下 [確定] 。  
   
- 現在，Visual SourceSafe 不會檢查 BizTalk Server 檔案並嘗試變更檔案的格式。  
+   現在，Visual SourceSafe 不會檢查 BizTalk Server 檔案並嘗試變更檔案的格式。  
   
 ### <a name="use-visual-studio-for-source-control-operations"></a>使用 Visual Studio 進行原始檔控制作業  
  Visual SourceSafe 內所有專案的建立和操作都應該使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 中整合的 Visual SourceSafe 支援功能表的方式來執行。 請勿使用 Visual SourceSafe Explorer 執行這些作業。  
@@ -117,13 +117,13 @@ ms.locfileid: "22265798"
 ### <a name="when-to-check-in-biztalk-server-projects"></a>存回 BizTalk Server 專案的時機  
  使用 Visual SourceSafe 的建議方式是，只在程式碼順利通過功能測試，以及開發人員確定程式碼將成功建置且不會破壞任何相關程式碼的時候，才存回程式碼。 將這個模式套用至 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 時有下列指導方針：  
   
--   除非結構描述已順利測試過各種不同的範例訊息，否則不存回只包含訊息結構描述的 BizTalk 專案。  
+- 除非結構描述已順利測試過各種不同的範例訊息，否則不存回只包含訊息結構描述的 BizTalk 專案。  
   
--   除非解決方案已經使用適當的輸入和輸出訊息以及正確的傳送埠和接收埠測試成功，否則不存回包含商務程序的 BizTalk 專案。  
+- 除非解決方案已經使用適當的輸入和輸出訊息以及正確的傳送埠和接收埠測試成功，否則不存回包含商務程序的 BizTalk 專案。  
   
--   除非 Web 服務已經在初始化系統中進行測試，或者已使用測試控管測試過，否則不存回 .ASP.NET Web 服務專案。  
+- 除非 Web 服務已經在初始化系統中進行測試，或者已使用測試控管測試過，否則不存回 .ASP.NET Web 服務專案。  
   
- 如果遵循這個模式，Visual SourceSafe 儲存機制將永遠保存可成功建置並通過測試的建置。 如果要遵守「夜間建置」的方法，這個原則非常重要。  
+  如果遵循這個模式，Visual SourceSafe 儲存機制將永遠保存可成功建置並通過測試的建置。 如果要遵守「夜間建置」的方法，這個原則非常重要。  
   
 ### <a name="checking-in-intermediate-versions"></a>存回中繼版本  
  另一個存回檔案的方法是存回「中繼」版本。 在這個方法中，中繼版本尚未順利通過功能測試，可以視為「介於建置之間」。 一般並不建議使用這個方法，因為它違反了原始檔控制系統內只能有可建置版本的原則。 然而有些小組偏好這個方法，因為它讓開發人員可以使用原始檔控制系統存回並回復版本，而不需遵守存回正式建置的準則。  
@@ -145,25 +145,25 @@ ms.locfileid: "22265798"
 ### <a name="version-controlling-non-biztalk-server-project-files"></a>對非 BizTalk Server 的專案檔案進行版本控制  
  [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 使用有益於建立版本並儲存在 Visual SourceSafe 中的額外檔案。 下列是範例檔案：  
   
--   繫結檔案 (開發和測試)  
+- 繫結檔案 (開發和測試)  
   
--   自訂管線組件  
+- 自訂管線組件  
   
--   測試資料 (例如測試訊息)  
+- 測試資料 (例如測試訊息)  
   
--   測試控管 (在專案存留期間可能會改變)  
+- 測試控管 (在專案存留期間可能會改變)  
   
--   建置、部署以及啟動和停止指令碼可能需要在開發小組和建置小組間共用  
+- 建置、部署以及啟動和停止指令碼可能需要在開發小組和建置小組間共用  
   
- 如果這些檔案關聯至特定 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk 專案，這些檔案可以包含在 BizTalk 專案中，並使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 整合原始檔控制功能進行管理。  
+  如果這些檔案關聯至特定 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] BizTalk 專案，這些檔案可以包含在 BizTalk 專案中，並使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 整合原始檔控制功能進行管理。  
   
 ##### <a name="to-include-a-file-or-folder-into-an-existing-visual-studio-project"></a>若要將檔案或資料夾加入現有 Visual Studio 專案  
   
-1.  在 方案總管 中，按一下  **顯示所有檔案**。  
+1.  在 [方案總管] 中，按一下**顯示所有檔案**。  
   
 2.  選取要加入解決方案的資料夾或檔案。  
   
-3.  以滑鼠右鍵按一下資料夾或檔案，然後按一下 **加入至專案**。  
+3.  以滑鼠右鍵按一下資料夾或檔案，然後按一下**加入至專案**。  
   
 > [!NOTE]
 >  Visual SourceSafe Explorer「不應該」用來管理原始檔控制下 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 專案中的任何項目。  

@@ -1,5 +1,5 @@
 ---
-title: 如何設定 「 傳送 」 圖形 |Microsoft 文件
+title: 如何設定 「 傳送 」 圖形 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -19,18 +19,18 @@ caps.latest.revision: 6
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c32711b841b915d793e5c8a22ffe9513e2ec28d6
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: bbfedd5067be1de443c20ce522cbe30f27395db1
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22248414"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36989959"
 ---
 # <a name="how-to-configure-the-send-shape"></a>如何設定傳送圖形
 ![](../core/media/ebiz-orch-send.gif "ebiz_orch_send")  
 傳送圖形  
   
- 若您預期收到您已送出訊息的間接或非同步回應 (不使用要求-回應連接埠)，則需要將訊息與目前正在執行的協調流程執行個體建立相互關聯，讓回應者能將回應送給正確的執行個體。 您可以套用下列相互關聯集**傳送**圖形先前初始化之相互關聯，或您可以套用初始相互關聯集。 如需詳細資訊，請參閱[使用協調流程中的相互關聯](../core/using-correlations-in-orchestrations.md)。  
+ 若您預期收到您已送出訊息的間接或非同步回應 (不使用要求-回應連接埠)，則需要將訊息與目前正在執行的協調流程執行個體建立相互關聯，讓回應者能將回應送給正確的執行個體。 您可以套用下列的相互關聯集合來**傳送**圖形以先前初始化的相互關聯，或您可以套用初始相互關聯集。 如需詳細資訊，請參閱 <<c0> [ 協調流程中使用的相互關聯](../core/using-correlations-in-orchestrations.md)。  
   
 ### <a name="to-configure-a-send-shape"></a>設定傳送圖形  
   
@@ -38,33 +38,33 @@ ms.locfileid: "22248414"
   
     1.  在 [協調流程檢視] 視窗中，確認您的協調流程有為傳送的多部分訊息類型，定義訊息和連接埠作業。  
   
-    2.  在 屬性 視窗中，選取 將訊息從傳送**訊息**屬性下拉式清單。  
+    2.  在 屬性 視窗中，選取 從傳送訊息**訊息**屬性下拉式清單。  
   
     3.  在 屬性 視窗中，選取 將訊息從傳送連接埠作業**連接埠作業**下拉式清單。  
   
-         -或者-  
+         -或-  
   
-         從傳送連接器拖曳到**傳送**圖形以將訊息傳送連接埠通訊端。  
+         從傳送連接器拖曳到**傳送**圖形以將訊息傳送的連接埠通訊端。  
   
-2.  指定要限制之訊息的相互關聯集**傳送**」 圖形將傳送或初始化相互關聯集中的值。  
+2.  指定相互關聯集來限制的訊息**傳送**」 圖形將傳送或初始化的相互關聯集合中的值。  
   
     1.  針對您想要使用的每個相互關聯集，檢查相互關聯集從下拉式清單上**沿用相互關聯集**屬性。  
   
-    2.  用於每個相互關聯集想要初始化，請檢查相互關聯集從下拉式清單上**初始化相互關聯集**屬性。  
+    2.  用於每個相互關聯集您想要初始化，請檢查相互關聯集從下拉式清單上**初始相互關聯集**屬性。  
   
 ## <a name="delivery-notification"></a>傳遞通知  
  若要測試是否已經透過傳送埠成功傳送訊息，請完成下列步驟：  
   
-1.  將您的「傳送」圖形放在非交易式、長時間執行或不可部分完成的範圍中。  
+1. 將您的「傳送」圖形放在非交易式、長時間執行或不可部分完成的範圍中。  
   
-2.  在您的傳送埠，將 DeliveryNotification 屬性設定為**Transmitted**。  
+2. 在您的傳送埠，將 DeliveryNotification 屬性設定為**傳輸**。  
   
-3.  將 Catch 處理常式新增到您的範圍，以處理 DeliveryFailureException。  
+3. 將 Catch 處理常式新增到您的範圍，以處理 DeliveryFailureException。  
   
-    > [!NOTE]
-    >  如果 「 傳送 」 圖形包含不可部分完成的範圍內，DeliveryFailureException 依然可以攔截，但將需要使用交易類型設定為新增外部範圍圖形**長時間執行**或**無**. 不可部分完成範圍不能直接攔截例外狀況。  
+   > [!NOTE]
+   >  如果 「 傳送 」 圖形包含不可部分完成的範圍內，DeliveryFailureException 依然可以攔截，但會需要使用交易類型設定為新增外部範圍圖形**長時間執行**或是**無**. 不可部分完成的範圍不能直接攔截例外狀況。  
   
- 協調流程會在封閉式非不可部分完成之範圍的結尾，或是協調流程的結尾等待通知，以便接收通知。  
+   協調流程會在封閉式非不可部分完成之範圍的結尾，或是協調流程的結尾等待通知，以便接收通知。  
   
 > [!NOTE]
 >  這點僅適用於單向作業；如果在雙向 (要求 – 回應) 作業中失敗，即使沒有設定連接埠屬性，也會造成 SoapException (負值通知)。  

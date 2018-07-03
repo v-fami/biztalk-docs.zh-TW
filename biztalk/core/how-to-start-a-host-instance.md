@@ -1,6 +1,6 @@
 ---
-title: 啟動主控件執行個體 |Microsoft 文件
-description: 使用 BizTalk 管理 BizTalk Server 中啟動主控件執行個體
+title: 啟動主控件執行個體 |Microsoft Docs
+description: 使用 BizTalk 管理，以啟動 BizTalk Server 主控件執行個體
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -13,12 +13,12 @@ caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: dd5cccc48b33dda4b6458f8dfa8f56a84ad3cd62
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: 7f29cf8b056faccfecb5f90166138dc6251fb997
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22255814"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36980975"
 ---
 # <a name="start-a-host-instance"></a>啟動主控件執行個體
 您可以使用 [[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 管理主控台] 或 Windows Management Instrumentation (WMI) 來啟動主控件執行個體。 在您新增或停止主控件執行個體之後，必須啟動它，這樣它才能執行，並將訊息路由至 MessageBox 資料庫。  
@@ -26,7 +26,7 @@ ms.locfileid: "22255814"
 > [!IMPORTANT]
 >  您為主控件執行個體指定的服務帳戶應該是相關主控件 Windows 群組的成員。 否則，主控件執行個體在執行階段可能沒有適當的權限或驗證。 此外，基於安全考量，帳戶應該要有最小權限，因為主控件執行個體裝載的協調流程可能會執行潛在的惡意自訂程式碼。  
   
- 如需主控件執行個體的詳細資訊，請參閱[主控件執行個體](../core/host-instances.md)。 如需使用 WMI 啟動主控件執行個體的詳細資訊，請參閱**MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
+ 如需主控件執行個體的詳細資訊，請參閱[主控件執行個體](../core/host-instances.md)。 如需使用 WMI 啟動主控件執行個體的資訊，請參閱**MSBTS_HostInstance (WMI)** [!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。
   
 ## <a name="prerequisites"></a>必要條件  
  若要執行此程序，您必須以「系統管理員」群組及「BizTalk Server 系統管理員」群組的成員身分登入。  
@@ -48,15 +48,15 @@ ms.locfileid: "22255814"
   
 ## <a name="steps"></a>步驟
   
-1.  按一下**啟動**，按一下 **所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下  **BizTalk Server 管理**。  
+1. 按一下 **開始**，按一下**所有程式**，按一下  [!INCLUDE[btsBizTalkServerStartMenuItemui](../includes/btsbiztalkserverstartmenuitemui-md.md)]，然後按一下**BizTalk Server 管理**。  
   
-2.  在主控台樹狀目錄中，依序展開**BizTalk Server 管理**，展開 BizTalk 群組，按一下**平台設定**，然後按一下 **主控件執行個體**。  
+2. 在主控台樹狀目錄中，依序展開**BizTalk Server 管理]**、 [BizTalk 群組，按一下**平台設定**，然後按一下**主控件執行個體**。  
   
-3.  在詳細資料窗格中，以滑鼠右鍵按一下您想要開始，然後按一下 主控件執行個體**啟動**。  
+3. 在 詳細資料 窗格中，以滑鼠右鍵按一下您想要開始，然後按一下 主控件執行個體**啟動**。  
   
-     主控件執行個體狀態會變更為**開始擱置**。 主控件執行個體啟動之後，狀態會變更為**執行**。  
+    主控件執行個體狀態會變更為**開始擱置**。 主控件執行個體啟動之後，狀態會變更為**執行**。  
   
- 在您啟動主控件執行個體之後，您可以停止它，以避免它將訊息遞送至 MessageBox 資料庫。 您必須停止主控件執行個體，才能從指定的電腦移除 BizTalk Server。 如需停止主控件執行個體的詳細資訊，請參閱[如何停止主控件執行個體](../core/how-to-stop-a-host-instance.md)。  
+   在您啟動主控件執行個體之後，您可以停止它，以避免它將訊息遞送至 MessageBox 資料庫。 您必須停止主控件執行個體，才能從指定的電腦移除 BizTalk Server。 如需停止主控件執行個體的詳細資訊，請參閱 <<c0> [ 如何停止主控件執行個體](../core/how-to-stop-a-host-instance.md)。  
   
 ## <a name="see-also"></a>另請參閱  
  [管理 BizTalk 主控件和主控件執行個體](../core/managing-biztalk-hosts-and-host-instances.md)   
