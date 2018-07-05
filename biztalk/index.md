@@ -17,12 +17,12 @@ ms.devlang: na
 ms.topic: hub-page
 ms.date: 06/19/2017
 ms.author: mandia
-ms.openlocfilehash: 536e497cdb1cde65259254db0bcfd10804e90ffa
-ms.sourcegitcommit: 770523695b34cc54db81f7ab7eba46f2bc19baec
+ms.openlocfilehash: fb8b62c272da41d1056bee10095715dc33770e67
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 04/26/2018
-ms.locfileid: "31816946"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36993415"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -720,7 +720,7 @@ ms.locfileid: "31816946"
                                                 </div>
                                                 <div class="cardText">
                                                     <h3>核心文件</h3>
-                                                    <p>深入了解網路、資料、應用程式和訊息整合等等。</p>
+                                                    <p>了解網路、資料、應用程式 &amp; 訊息整合等。</p>
                                                 </div>
                                             </div>
                                         </div>
