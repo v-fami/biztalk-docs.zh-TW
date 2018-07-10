@@ -2,7 +2,7 @@
 title: 使用 SQL Server Always On 可用性群組的高可用性 |Microsoft Docs
 description: 群組以取得高可用性 (HA) 解決方案，使用 SQL Server Alwayson 可用群組 (AG)，包括系統需求和限制的不同節點上的 BizTalk Server 資料庫。 Alwayson AG 需要 Windows Server 容錯移轉叢集 (WSFC)。
 ms.custom: ''
-ms.date: 06/27/2018
+ms.date: 07/8/2018
 ms.prod: biztalk-server
 ms.reviewer: ''
 ms.suite: ''
@@ -13,12 +13,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 24a72698a97aa79ccd1b748a390f8e919ff0717f
-ms.sourcegitcommit: 6379723045cf05ed36f2bc500f6b41be1135f47c
+ms.openlocfilehash: d163c035cdf45ede600509783040114a0eaa0a2b
+ms.sourcegitcommit: 1f0306e812c95dc32c4496345c19f141612cb2c1
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/28/2018
-ms.locfileid: "37069395"
+ms.lasthandoff: 07/09/2018
+ms.locfileid: "37913855"
 ---
 # <a name="high-availability-using-sql-server-always-on-availability-groups---biztalk-server"></a>使用 SQL Server Always On 可用性群組-BizTalk Server 的高可用性
 設定使用 SQL Server AlwaysOn 可用性群組的高可用性。
@@ -68,7 +68,7 @@ SQL Server 2016 之前的任何版本不支援使用 AlwaysOn AG 的 MSDTC。
  
 | 執行個體 |角色 |該群組中的 BizTalk 資料庫  |
 |--- | --- | ---|
-|@shouldalert |驗證 |SSODB|
+|1 |驗證 |SSODB|
 |2 |管理 |BizTalkMgmtDb| 
 |3 |執行階段 |BizTalkMsgBoxDb<br/> BizTalkRulesEngineDb<br/> BAMPrimaryImport<br/>BAMStarSchema <br/>BAMAlertsApplication |
 |4 |追蹤 |BizTalkDTADb<br/>EsbItineraryDb<br/>EsbExceptionDb | 
@@ -84,7 +84,8 @@ BizTalk Server 也取決於 SQL Server Analysis Services 與 BAM 分析和封存
 SQL Server 資料庫，以及 BizTalk Server 組態也會建立 SQL Server 安全性登入和 SQL Agent 作業。 AlwaysOn 可用性群組只會提供管理資料庫在可用性群組內的能力。 登入和 BizTalk 的 SQL 代理程式作業需要建立並更新/手動管理所有可用性複本上。  
 
 > [!NOTE]
-> SQL Server 2016 Service Pack 2 支援在相同的可用性群組內的多個資料庫之間的 DTC 交易。 BizTalk Server 支援開頭為 CU5 這項功能。
+> SQL Server 2016 Service Pack 2 和更新版本的支援 DTC 交易，在相同的可用性群組內的多個資料庫之間。 BizTalk Server 支援開頭為 CU5 這項功能。
+> 當使用 SQL Server 2016 Service Pack 2 及更新版本，請設定 BizTalk Server 2016，所有的 BizTalk Server 資料庫可以部署到單一可用性群組。
 
 下列清單中的 SQL Server 安全性登入是與 BizTalk Server 相關聯。 您可能必須建立的 BizTalk Server 應用程式的其他登入。 如果是這樣，您需要複寫它們在每個裝載 BizTalk 資料庫之複本的 SQL Server 執行個體上。 
 

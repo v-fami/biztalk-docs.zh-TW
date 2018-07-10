@@ -1,5 +1,5 @@
 ---
-title: 使用 WCF 服務模型的 Oracle 資料庫中執行的作業使用 REF CURSOR |Microsoft 文件
+title: 使用 WCF 服務模型的 Oracle 資料庫中執行的作業使用 REF CURSOR |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -15,39 +15,39 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cb527a4451388475ce69a5321d0d05616fc8afde
-ms.sourcegitcommit: 3fd1c85d9dc2ce7b77da75a5c2087cc48cfcbe50
+ms.openlocfilehash: c30af70ffe58e1ca8107c07d265e848532e2c768
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/17/2018
-ms.locfileid: "22216430"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "36990703"
 ---
 # <a name="run-operations-using-ref-cursors-in-oracle-database-using-the-wcf-service-model"></a>使用 WCF 服務模型的 Oracle 資料庫中執行的作業使用 REF CURSOR
-REF CURSOR 是 Oracle 的 PL/SQL 資料類型，表示結果集的 Oracle 資料庫中的指標。 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]支援程序、 函數和封裝中的 REF CURSOR 參數。 REF CURSOR 參數可以是強型別或弱型別取決於在程序或函式的宣告方式。 如需詳細說明的 REF CURSOR 參數都由[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]，請參閱[REF CURSOR 的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-ref-cursors.md)。下表摘要說明如何將 REF CURSOR 參數表示 WCF 服務模型中。  
+REF CURSOR 是 Oracle 的 PL/SQL 資料類型，表示結果集的 Oracle 資料庫中的指標。 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]支援程序、 函數和封裝中的 REF CURSOR 參數。 REF CURSOR 參數可以是強型別或弱型別取決於程序或函式中的宣告方式。 如需詳細說明的 REF CURSOR 參數都由[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]，請參閱 < [REF CURSORS 的訊息結構描述](../../adapters-and-accelerators/adapter-oracle-database/message-schemas-for-ref-cursors.md)。下表摘要說明如何將 REF CURSOR 參數表示 WCF 服務模型中。  
   
-|參數方向|強型別 REF CURSOR|弱式類型的 REF CURSOR|  
+|參數方向|強型別 REF CURSOR|弱型別 REF CURSOR|  
 |-------------------------|--------------------------------|------------------------------|  
-|IN|`string [PARAM_NAME]`<br /><br /> 字串，包含 PL/SQL 區塊。 執行 「 開啟的選取 」 陳述式或叫用函式或程序 PL/SQL 區塊必須傳回開啟的 REF CURSOR。 問號 （？） 指出傳回參數的 REF CURSOR 的位置。 例如，「 開始開啟？ 選取 * 從 MY_TABLE;END"或"BEGIN MY_PROC (PARM1，？，PARM2);結束;"。|相同強型別|  
-|OUT|`out [PROC_NS].[PARAM_NAME]RECORD[] [PARAM_NAME]`<br /><br /> 強類型的記錄組。|`out [GENERIC_NS].GenRecordRow[] [PARAM_NAME]`<br /><br /> 弱型別泛型記錄集。|  
-|IN OUT|OUT REF CURSOR 參數會分為 IN 和 OUT 參數。 IN 參數會附加"_IN 」 以便區別 OUT 參數的方法簽章中。 OUT 參數會以強類型的資料錄集。<br /><br /> `string [PARAM_NAME]_IN`<br /><br /> `out [PROC_NS].[PARAM_NAME]RECORD[] [PARAM_NAME]`|OUT REF CURSOR 參數會分為 IN 和 OUT 參數。 IN 參數會附加"_IN 」 以便區別 OUT 參數。 OUT 參數會以弱式類型的資料錄集。<br /><br /> `string [PARAM_NAME]_IN`<br /><br /> `out [GENERIC_NS].GenRecordRow[] [PARAM_NAME]`|  
+|IN|`string [PARAM_NAME]`<br /><br /> 包含 PL/SQL 區塊的字串。 PL/SQL 區塊必須傳回開啟的 REF CURSOR，執行"開啟如 SELECT"陳述式或叫用函式或程序。 問號 （？） 指出傳回參數的 REF 資料指標的位置。 比方說，「 開始開啟？ 選取 * 從 MY_TABLE;END"或"BEGIN MY_PROC (PARM1，？，PARM2);結束; 」。|與強型別相同|  
+|OUT|`out [PROC_NS].[PARAM_NAME]RECORD[] [PARAM_NAME]`<br /><br /> 強類型的記錄集。|`out [GENERIC_NS].GenRecordRow[] [PARAM_NAME]`<br /><br /> 弱型別泛型記錄集。|  
+|IN OUT|OUT REF CURSOR 參數會分成 IN 和 OUT 參數。 IN 參數會附加"_IN"中方法簽章，以區分它與 OUT 參數。 OUT 參數被以強類型的記錄集。<br /><br /> `string [PARAM_NAME]_IN`<br /><br /> `out [PROC_NS].[PARAM_NAME]RECORD[] [PARAM_NAME]`|OUT REF CURSOR 參數會分成 IN 和 OUT 參數。 IN 參數會附加"_IN 」，以區分它與 OUT 參數。 OUT 參數被以弱式類型的記錄集。<br /><br /> `string [PARAM_NAME]_IN`<br /><br /> `out [GENERIC_NS].GenRecordRow[] [PARAM_NAME]`|  
   
- [PARAM_NAME] = Oracle 資料庫上的函式或程序定義中的參數名稱例如，MYREFCURSOR。  
+ [PARAM_NAME] = [Oracle 資料庫中; 函數或程序定義中參數的名稱比方說，MYREFCURSOR。  
   
- [PROC_NS] = 可以包含參數的封裝、 程序或函式; 產生唯一的命名空間例如，"microsoft.lobservices.oracledb._2007._03.SCOTT。Package.ACCOUNT_PKG。GET_ACTIVITY"。  
+ [PROC_NS] = 包含參數的封裝、 程序或函式; 產生的唯一命名空間例如，"microsoft.lobservices.oracledb._2007._03.SCOTT。Package.ACCOUNT_PKG。GET_ACTIVITY"。  
   
- [GENERIC_NS] = 命名空間中定義的是一般的資料錄集，「 microsoft.lobservices.oracledb._2007._03"。  
+ [GENERIC_NS] = 命名空間中定義的是泛型的記錄集，「 microsoft.lobservices.oracledb._2007._03"。  
   
-## <a name="about-the-examples-used-in-this-topic"></a>關於本主題中使用的範例  
- 本主題中的範例使用 Oracle SCOTT/封裝/ACCOUNT_PKG 封裝。 從 ACCOUNT_PKG 使用下列程序：  
+## <a name="about-the-examples-used-in-this-topic"></a>有關使用本主題中的範例  
+ 本主題中的範例會使用 SCOTT/封裝/ACCOUNT_PKG Oracle PACKAGE。 下列程序會使用從 ACCOUNT_PKG:  
   
 ```  
 PROCEDURE get_activity(inrecs IN SYS_REFCURSOR, status OUT NUMBER, inoutrecs IN OUT activity_ref_type, outrecs OUT SYS_REFCURSOR);  
 ```  
   
- 指令碼來產生這個封裝所提供的 SDK 範例。 如需 SDK 範例的詳細資訊，請參閱[SDK 中的範例](../../core/samples-in-the-sdk.md)。  
+ 指令碼來產生此封裝提供 SDK 範例。 如需有關 SDK 範例的詳細資訊，請參閱[SDK 中的範例](../../core/samples-in-the-sdk.md)。  
   
 ## <a name="ref-cursor-parameters-in-the-wcf-service-model"></a>WCF 服務模型中的 REF CURSOR 參數  
- 下列範例顯示類別和 /SCOTT/Package/ACCOUNT_PKG/GET_ACTIVITY 程序產生 WCF 用戶端。 此程序具有弱式型別的 IN 和 OUT REF CURSOR 參數和強型別在 OUT REF CURSOR 參數。  
+ 下列範例顯示的類別和 /SCOTT/Package/ACCOUNT_PKG/GET_ACTIVITY 程序所產生的 WCF 用戶端。 此程序具有弱式型別的 IN 和 OUT REF CURSOR 參數和強型別中出 REF CURSOR 參數。  
   
  以下是產生 WCF 用戶端來叫用 GET_ACTIVITY 中方法的簽章。  
   
@@ -55,16 +55,16 @@ PROCEDURE get_activity(inrecs IN SYS_REFCURSOR, status OUT NUMBER, inoutrecs IN 
 public System.Nullable<decimal> GET_ACTIVITY(string INRECS, string INOUTRECS_IN, out microsoft.lobservices.oracledb._2007._03.SCOTT.Package.ACCOUNT_PKG.GET_ACTIVITY.INOUTRECSRECORD[] INOUTRECS, out microsoft.lobservices.oracledb._2007._03.GenRecordRow[] OUTRECS);  
 ```  
   
- 在**GET_ACTIVITY**方法中，在 OUT 參數 INOUTRECS 會分成兩個參數：  
+ 在  **GET_ACTIVITY**方法中，在 OUT 參數 INOUTRECS 會分割成兩個參數：  
   
--   INOUTRECS_IN 是表示在 REF CURSOR 參數的字串。  
+- INOUTRECS_IN 是表示在 REF CURSOR 參數的字串。  
   
--   INOUTRECS 是表示出 REF CURSOR 參數的強型別記錄集。  
+- INOUTRECS 是表示出 REF CURSOR 參數的強類型的記錄集。  
   
- 弱式型別的 OUT 參數，OUTRECS，被以泛型資料錄集。 弱型別參數，INRECS，會以字串表示。  
+  弱型別 OUT 參數，OUTRECS，被以一組標準的記錄。 弱型別參數，INRECS 中, 會表示為字串。  
   
-### <a name="strongly-typed-out-ref-cursor-parameters"></a>強型別出 REF CURSOR 參數  
- 強型別 （或在 OUT） REF CURSOR 參數會產生唯一的命名空間會根據結構描述、 套件和程序或函式中使用的名稱。 /SCOTT/Package/ACCOUNT_PKG/GET_ACTIVITY 程序，此命名空間是`microsoft.lobservices.oracledb._2007._03.SCOTT.Package.ACCOUNT_PKG.GET_ACTIVITY`。 類別名稱的正確方式是將附加的 「 記錄 」 的參數名稱和類別由代表 Oracle 欄位的屬性構成。 以下顯示類別，表示為 INOUTRECS REF CURSOR 參數產生的強型別記錄的一部分。  
+### <a name="strongly-typed-out-ref-cursor-parameters"></a>強型別 OUT REF CURSOR 參數  
+ 強型別外 （或在 OUT） REF CURSOR 參數會產生唯一的命名空間會根據結構描述、 套件和程序或函式中使用的名稱。 /SCOTT/Package/ACCOUNT_PKG/GET_ACTIVITY 程序中，這個命名空間是`microsoft.lobservices.oracledb._2007._03.SCOTT.Package.ACCOUNT_PKG.GET_ACTIVITY`。 將具有 「 記錄 」 的參數名稱附加形成的類別名稱和類別由表示 Oracle 欄位的屬性所組成。 下面顯示的類別表示強型別產生記錄 INOUTRECS REF CURSOR 參數的一部分。  
   
 ```  
 namespace microsoft.lobservices.oracledb._2007._03.SCOTT.Package.ACCOUNT_PKG.GET_ACTIVITY {  
@@ -96,8 +96,8 @@ namespace microsoft.lobservices.oracledb._2007._03.SCOTT.Package.ACCOUNT_PKG.GET
 }  
 ```  
   
-### <a name="weakly-typed-out-ref-cursor-parameters"></a>弱型別出 REF CURSOR 參數  
- 弱型別 （或在 OUT） REF CURSOR 參數都由泛型記錄類別。 一般的資料錄集時，一定會產生相同的命名空間，並使用相同的類別名稱，不論函式或程序。 下列程式碼將示範一般記錄類別， **microsoft.lobservices.oracledb._2007._03.GenRecordRow**，用來表示 OUTRECS 出 SYS_REFCURSOR 參數 （弱型別） 的記錄。  
+### <a name="weakly-typed-out-ref-cursor-parameters"></a>弱型別 OUT REF CURSOR 參數  
+ 弱型別外 （或在 OUT） REF CURSOR 參數都由一般記錄類別。 泛型的記錄集時，一定會產生相同的命名空間中，並使用相同的類別名稱，不論函式或程序。 下列程式碼會示範一般記錄類別**microsoft.lobservices.oracledb._2007._03.GenRecordRow**，用來表示 OUTRECS 出 SYS_REFCURSOR 參數 （弱型別） 的記錄。  
   
 ```  
 namespace microsoft.lobservices.oracledb._2007._03 {  
@@ -185,22 +185,22 @@ namespace microsoft.lobservices.oracledb._2007._03 {
 }  
 ```  
   
-## <a name="using-ref-cursor-parameters-with-a-wcf-client"></a>使用 WCF 用戶端使用 REF CURSOR 參數  
- 要叫用程序或函式的 REF CURSOR 參數，使用 WCF 用戶端，您執行下列作業：  
+## <a name="using-ref-cursor-parameters-with-a-wcf-client"></a>使用 WCF 用戶端中的 REF CURSOR 參數  
+ 若要使用 WCF 用戶端，叫用的程序或使用 REF CURSOR 參數的函式，您執行下列作業：  
   
-1.  將字串傳遞中的 for each 或 IN OUT REF CURSOR 參數包含 PL/SQL 封鎖開啟 REF CURSOR。 這個區塊可以執行為開啟的 SELECT 陳述式或叫用函式或 OUT 參數中傳回開啟的 REF CURSOR 的程序。  
+1. 將字串傳遞中為 for each 或 IN 出 REF CURSOR 參數，其中包含 PL/SQL 封鎖開啟 REF CURSOR。 此區塊可以執行在開啟的 SELECT 陳述式，或叫用的函式或程序，在 OUT 參數傳回開啟的 REF CURSOR。  
   
-2.  當程序或函式傳回時，作業傳回的任何 OUT 或 IN OUT REF CURSOR 參數的記錄組中的資料。 資料錄集將會設定弱式類型的 REF CURSOR 參數的泛型記錄或設定強型別 REF CURSOR 參數的強型別記錄。  
+2. 當程序或函式傳回時，對中傳回的任何 OUT 或 IN 出 REF CURSOR 參數的資料錄集的資料。 一般記錄弱型別 REF CURSOR 參數的設定或設定強型別 REF CURSOR 參數的強型別的記錄，將會記錄集。  
   
- 如需如何使用 WCF 服務模型叫用程序和函數的詳細資訊，請參閱[叫用函式和 Oracle 資料庫使用 WCF 服務模型中的程序](../../adapters-and-accelerators/adapter-oracle-database/invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model.md)。  
+   如需如何使用 WCF 服務模型，叫用程序和函數的詳細資訊，請參閱[叫用函式和使用 WCF 服務模型的 Oracle 資料庫中的程序](../../adapters-and-accelerators/adapter-oracle-database/invoke-functions-and-procedures-in-oracle-database-using-the-wcf-service-model.md)。  
   
- 下列範例會呼叫 GET_ACTIVITY 程序。 它會示範指定中 REF CURSOR 參數的兩個方法：  
+   下列範例會呼叫 GET_ACTIVITY 程序。 它會示範指定中 REF CURSOR 參數的兩種方式：  
   
--   為開啟的 SELECT 陳述式中 REF CURSOR 參數被指定要針對帳戶 100001 傳回活動。  
+- 中 REF CURSOR 參數，指定在開啟的 SELECT 陳述式傳回帳戶 100001 活動。  
   
--   在出 REF CURSOR 參數，會叫用 /SCOTT/Package/ACCOUNT_PKG/GET_ALL_ACTIVITY 程序。 此程序會開啟 REF 資料指標，其中包含所有 ACCOUNTACTIVITY 資料表中的活動，並傳回做為 OUT 參數。  
+- 在出 REF CURSOR 參數，會叫用 /SCOTT/Package/ACCOUNT_PKG/GET_ALL_ACTIVITY 程序。 此程序會開啟一個 REF 資料指標，包含所有 ACCOUNTACTIVITY 資料表中的活動並將其傳回做為 OUT 參數。  
   
- 此範例也示範如何讀取記錄集傳回強型別與弱式類型的 REF CURSOR 參數的資料。  
+  此範例也會示範如何讀取從記錄集的強型別和弱型別 REF CURSOR 參數傳回的資料。  
   
 ```  
 using System;  
@@ -316,4 +316,4 @@ namespace OracleRefCursorsSM
 ```  
   
 ## <a name="see-also"></a>另請參閱  
- [開發 Oracle 資料庫應用程式使用 WCF 服務模型](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-service-model.md)
+ [開發使用 WCF 服務模型的 Oracle 資料庫應用程式](../../adapters-and-accelerators/adapter-oracle-database/develop-oracle-database-applications-using-the-wcf-service-model.md)
