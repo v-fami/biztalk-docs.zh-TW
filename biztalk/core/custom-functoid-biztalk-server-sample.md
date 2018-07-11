@@ -1,5 +1,5 @@
 ---
-title: 自訂運算質 （BizTalk Server 範例） |Microsoft 文件
+title: 自訂運算質 （BizTalk Server 範例） |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -18,12 +18,12 @@ caps.latest.revision: 30
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 54f91f83285d554ad9ef825b10cf8004bd7dc0bc
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: de71eb45faa6c5705cca2ef47061686608126577
+ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25970516"
+ms.lasthandoff: 06/27/2018
+ms.locfileid: "37013385"
 ---
 # <a name="custom-functoid-biztalk-server-sample"></a>自訂運算質 （BizTalk Server 範例）
 「自訂運算質」範例示範如何為 BizTalk 對應工具撰寫自訂運算質。 您可以新增至運算質[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]工具箱。 BizTalk 對應工具在焦點時，[工具箱] 中會顯示運算質。  
@@ -43,11 +43,11 @@ ms.locfileid: "25970516"
 >  若您重複使用「自訂運算質」範例程式碼實作自己的運算質，務必將 GUID 屬性變更為唯一的屬性。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑\>* \XmlTools\CustomFunctoid  
+ *\<Samples Path\>* \XmlTools\CustomFunctoid  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
-|檔案|Description|  
+|檔案|描述|  
 |---------------|-----------------|  
 |AssemblyInfo.cs|組件資訊 C# 原始程式碼。|  
 |CBuildArray.bmp|工具箱點陣圖。|  
@@ -69,7 +69,7 @@ ms.locfileid: "25970516"
   
 1.  在命令視窗中，將目錄變更 (**cd**) 至下列資料夾：  
   
-     \<*範例路徑*\>\XmlTools\CustomFunctoid  
+     \<*Samples Path*\>\XmlTools\CustomFunctoid  
   
 2.  執行檔案 Setup.bat，這會執行下列動作：  
   
@@ -87,90 +87,90 @@ ms.locfileid: "25970516"
   
 #### <a name="to-run-this-sample"></a>執行此範例  
   
-1.  從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]BizTalk 專案中，按一下 **工具**功能表，然後選取**選擇工具箱項目**。  
+1. 從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]BizTalk 專案中，按一下**工具**功能表，然後選取**選擇工具箱項目**。  
   
-2.  在 **[選擇工具箱項目**對話方塊中，選取**BizTalk 對應工具運算質**] 索引標籤。  
+2. 在  **選擇工具箱項目**對話方塊中，選取**BizTalk 對應工具運算質** 索引標籤。  
   
-3.  按一下**重設**，然後按一下 **確定**。  
+3. 按一下 **重設**，然後按一下**確定**。  
   
-    > [!NOTE]
-    >  如果您的自訂運算質未公開任何內嵌程式碼，請確定可以在 GAC 中使用它的組件。  
+   > [!NOTE]
+   >  如果您的自訂運算質未公開任何內嵌程式碼，請確定可以在 GAC 中使用它的組件。  
   
-4.  從**檔案**功能表上，選取**結束**關閉[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
+4. 從**檔案**功能表上，選取**結束**以關閉  [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
   
-5.  啟動**Visual Studio 命令提示字元**。  
+5. 開始**Visual Studio 命令提示字元**。  
   
-6.  在命令提示字元中，輸入**devenv /setup**。  
+6. 在命令提示字元中，輸入**devenv /setup**。  
   
-7.  啟動**Microsoft Visual Studio**。  
+7. 開始**Microsoft Visual Studio**。  
   
-     自訂運算質 （自訂串連運算質，最長字串、 組建陣列運算質，並擷取陣列運算質） 會出現在**字串運算質**工具箱和 「 累計乘法 」 運算質索引標籤會出現在**累計運算質** 索引標籤。  
+    自訂運算質 （自訂串連運算質，最長的字串、 建置陣列運算質，並擷取陣列運算質） 會出現在**字串運算質**工具箱和 「 累計乘法 」 運算質索引標籤會出現在**累計運算質** 索引標籤。  
   
 ## <a name="removing-this-sample"></a>移除此範例  
  使用下列程序移除「自訂運算質」範例。  
   
 #### <a name="to-remove-this-sample"></a>若要移除此範例  
   
-1.  移除從運算質[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]工具箱。  
+1. 移除從運算質[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]工具箱。  
   
-    > [!WARNING]
-    >  在執行 Cleanup.bat 之後，如果您仍然在工具箱中看到過時的自訂運算質 (可能是因為 Visual Studio 在內部進行快取)，請遵循下列程序：  
+   > [!WARNING]
+   >  在執行 Cleanup.bat 之後，如果您仍然在工具箱中看到過時的自訂運算質 (可能是因為 Visual Studio 在內部進行快取)，請遵循下列程序：  
   
-    1.  從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]BizTalk 專案中，按一下 **工具**功能表，然後選取**選擇工具箱項目**。  
+   1. 從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]BizTalk 專案中，按一下**工具**功能表，然後選取**選擇工具箱項目**。  
   
-    2.  在 **[選擇工具箱項目**對話方塊中，選取**BizTalk 對應工具運算質**] 索引標籤。  
+   2. 在  **選擇工具箱項目**對話方塊中，選取**BizTalk 對應工具運算質** 索引標籤。  
   
-    3.  在清單中尋找自訂運算質 （自訂串連運算質、 最長字串、 組建陣列運算質、 擷取陣列 」 運算質和累計乘法）。 按一下對應**核取方塊**以移除運算質，然後按一下**確定**。  
+   3. 清單中尋找 （自訂串連運算質 」、 「 最長的字串 」、 「 建置陣列運算質 」、 「 擷取陣列運算質和 「 累計乘法） 的自訂運算質。 按一下個別** 核取方塊**以移除運算質，然後按一下**確定**。  
   
-     如果上述程序無法解決問題，請遵循下列程序。  
+      如果上述程序無法解決問題，請遵循下列程序。  
   
-    1.  從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]BizTalk 專案中，按一下 [**工具箱**時編輯對應以顯示工具箱工具板] 索引標籤。  
+   4. 從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]BizTalk 專案中，按一下**工具箱**時編輯對應以顯示工具箱工具板 索引標籤。  
   
-    2.  以滑鼠右鍵按一下工具箱中，選取**選擇項目**。  
+   5. 以滑鼠右鍵按一下 [工具] 方塊，然後選取**選擇項目**。  
   
-    3.  在 選擇項目 對話方塊中，按一下 **重設**，然後按一下 **確定**。  
+   6. 在 [選擇項目] 對話方塊中，按一下**重設**，然後按一下**確定**。  
   
-    4.  關閉所有執行個體[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
+   7. 關閉所有執行個體[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]。  
   
-     如果上述程序無法解決問題，請遵循下列程序。  
+      如果上述程序無法解決問題，請遵循下列程序。  
   
-    1.  啟動**Visual Studio 命令提示字元**身為系統管理員。  
+   8. 開始**Visual Studio 命令提示字元**身為系統管理員。  
   
-    2.  關閉所有執行中的 Visual Studio 執行個體。  
+   9. 關閉所有執行中的 Visual Studio 執行個體。  
   
-    3.  執行下列命令：  
+   10. 執行下列命令：  
   
-         `devenv /resetsettings`  
+        `devenv /resetsettings`  
   
-         `devenv /setup`  
+        `devenv /setup`  
   
-    4.  您可以從工具箱中手動選取不想要的運算質。 以滑鼠右鍵按一下運算質，然後按一下 **刪除**。  
+   11. 您可以從工具箱中手動選取不想要的運算質。 以滑鼠右鍵按一下運算質，然後按一下**刪除**。  
   
-     如果上述程序無法解決問題，請遵循下列程序。  
+       如果上述程序無法解決問題，請遵循下列程序。  
   
-    1.  從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]BizTalk 專案中，按一下 [工具箱] 索引標籤編輯對應以顯示工具箱工具板時。  
+   12. 從[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]BizTalk 專案中，按一下 編輯對應以顯示工具箱工具板時的 [工具箱] 索引標籤。  
   
-    2.  按一下**累計運算質**群組。  
+   13. 按一下 **累計運算質**群組。  
   
-    3.  以滑鼠右鍵按一下您想要移除，然後選擇 運算的質**刪除**或按下 delete 鍵。  
+   14. 以滑鼠右鍵按一下您想要移除，然後選擇 運算的質**刪除**或按下 delete 鍵。  
   
-    4.  按一下**字串運算質**群組。  
+   15. 按一下 **字串運算質**群組。  
   
-    5.  以滑鼠右鍵按一下您想要移除，然後選擇 運算的質**刪除**或按下 delete 鍵。  
+   16. 以滑鼠右鍵按一下您想要移除，然後選擇 運算的質**刪除**或按下 delete 鍵。  
   
-2.  在命令視窗中，將目錄變更 (**cd**) 至下列資料夾：  
+2. 在命令視窗中，將目錄變更 (**cd**) 至下列資料夾：  
   
-     \<*範例路徑*\>\XmlTools\CustomFunctoid  
+    \<*Samples Path*\>\XmlTools\CustomFunctoid  
   
-3.  執行 Cleanup.bat 檔案，它會執行下列動作：  
+3. 執行 Cleanup.bat 檔案，它會執行下列動作：  
   
-    -   從 Developer Tools\Mapper Extensions 目錄刪除組件。  
+   -   從 Developer Tools\Mapper Extensions 目錄刪除組件。  
   
-    -   從 GAC 移除組件。  
+   -   從 GAC 移除組件。  
   
 ## <a name="classes-or-methods-used-in-this-sample"></a>在此範例中使用的類別或方法  
  [Microsoft.BizTalk.BaseFunctoids.BaseFunctoid](http://msdn.microsoft.com/library/microsoft.biztalk.basefunctoids.basefunctoid.aspx)  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [使用 BaseFunctoid](../core/using-basefunctoid.md)   
  [XML 工具 (BizTalk Server Samples 資料夾)](../core/xml-tools-biztalk-server-samples-folder.md)
