@@ -1,1 +1,1 @@
-虛擬機器
+<span data-ttu-id="db440-101">虛擬機器</span><span class="sxs-lookup"><span data-stu-id="db440-101">virtual machine</span></span>
