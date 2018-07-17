@@ -1,1 +1,1 @@
-視窗
+<span data-ttu-id="ce802-101">Windows</span><span class="sxs-lookup"><span data-stu-id="ce802-101">Windows</span></span>

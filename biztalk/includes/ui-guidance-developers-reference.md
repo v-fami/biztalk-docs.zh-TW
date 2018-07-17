@@ -1,1 +1,1 @@
-中的 UI 指引和開發人員參考
+<span data-ttu-id="fd25d-101">在 UI 指導方針和開發人員參考</span><span class="sxs-lookup"><span data-stu-id="fd25d-101">in the UI guidance and Developers reference</span></span>

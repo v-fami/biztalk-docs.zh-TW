@@ -1,1 +1,1 @@
-交易夥伴管理 (TPM)
+<span data-ttu-id="20231-101">交易夥伴管理 (TPM)</span><span class="sxs-lookup"><span data-stu-id="20231-101">Trading Partner Management (TPM)</span></span>

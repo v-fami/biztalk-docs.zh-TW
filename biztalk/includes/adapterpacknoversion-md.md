@@ -1,1 +1,1 @@
-BizTalk 配接器封包
+<span data-ttu-id="3f93b-101">BizTalk 配接器封包</span><span class="sxs-lookup"><span data-stu-id="3f93b-101">BizTalk Adapter Pack</span></span>

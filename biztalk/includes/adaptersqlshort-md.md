@@ -1,1 +1,1 @@
-SQL adapter (SQL 配接器)
+<span data-ttu-id="eaa04-101">SQL adapter (SQL 配接器)</span><span class="sxs-lookup"><span data-stu-id="eaa04-101">SQL adapter</span></span>

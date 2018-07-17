@@ -1,1 +1,1 @@
-WCF LOB 配接器服務開發精靈
+<span data-ttu-id="12da6-101">WCF LOB 配接器服務開發精靈</span><span class="sxs-lookup"><span data-stu-id="12da6-101">WCF LOB Adapter Service Development Wizard</span></span>

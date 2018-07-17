@@ -1,1 +1,1 @@
-Windows Server 2012
+<span data-ttu-id="db93a-101">Windows Server 2012</span><span class="sxs-lookup"><span data-stu-id="db93a-101">Windows Server 2012</span></span>

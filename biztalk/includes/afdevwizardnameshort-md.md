@@ -1,1 +1,1 @@
-配接器開發精靈
+<span data-ttu-id="2045b-101">配接器開發精靈</span><span class="sxs-lookup"><span data-stu-id="2045b-101">Adapter Development Wizard</span></span>

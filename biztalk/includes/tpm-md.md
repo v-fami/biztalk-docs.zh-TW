@@ -1,1 +1,1 @@
-交易夥伴管理
+<span data-ttu-id="89960-101">交易夥伴管理</span><span class="sxs-lookup"><span data-stu-id="89960-101">Trading Partner Management</span></span>

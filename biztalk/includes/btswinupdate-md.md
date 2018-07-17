@@ -1,1 +1,1 @@
-Windows Update
+<span data-ttu-id="eeb94-101">Windows Update</span><span class="sxs-lookup"><span data-stu-id="eeb94-101">Windows Update</span></span>

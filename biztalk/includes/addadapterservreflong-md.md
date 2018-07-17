@@ -1,1 +1,1 @@
-新增配接器服務參考 Visual Studio 外掛程式
+<span data-ttu-id="61e47-101">新增配接器服務參考 Visual Studio 外掛程式</span><span class="sxs-lookup"><span data-stu-id="61e47-101">Add Adapter Service Reference Visual Studio Plug-in</span></span>

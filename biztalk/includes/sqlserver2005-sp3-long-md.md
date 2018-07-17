@@ -1,1 +1,1 @@
-SQL Server 2005 Service Pack 3 (SP3)
+<span data-ttu-id="c4d5b-101">SQL Server 2005 Service Pack 3 (SP3)</span><span class="sxs-lookup"><span data-stu-id="c4d5b-101">SQL Server 2005 Service Pack 3 (SP3)</span></span>

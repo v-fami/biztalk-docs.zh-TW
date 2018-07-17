@@ -1,1 +1,1 @@
-Siebel 配接器
+<span data-ttu-id="7e50b-101">Siebel 配接器</span><span class="sxs-lookup"><span data-stu-id="7e50b-101">Siebel adapter</span></span>

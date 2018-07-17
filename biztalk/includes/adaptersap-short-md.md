@@ -1,1 +1,1 @@
-SAP adapter (SAP 配接器)
+<span data-ttu-id="426db-101">SAP adapter (SAP 配接器)</span><span class="sxs-lookup"><span data-stu-id="426db-101">SAP adapter</span></span>

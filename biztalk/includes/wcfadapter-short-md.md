@@ -1,1 +1,1 @@
-WCF-Custom 配接器
+<span data-ttu-id="86cd7-101">WCF-Custom 配接器</span><span class="sxs-lookup"><span data-stu-id="86cd7-101">WCF-Custom adapter</span></span>

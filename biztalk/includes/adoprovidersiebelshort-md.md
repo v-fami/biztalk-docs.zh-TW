@@ -1,1 +1,1 @@
-Data Provider for Siebel
+<span data-ttu-id="71b95-101">Data Provider for Siebel</span><span class="sxs-lookup"><span data-stu-id="71b95-101">Data Provider for Siebel</span></span>

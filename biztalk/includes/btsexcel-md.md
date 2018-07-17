@@ -1,1 +1,1 @@
-Excel
+<span data-ttu-id="5a911-101">[匯出]</span><span class="sxs-lookup"><span data-stu-id="5a911-101">Excel</span></span>

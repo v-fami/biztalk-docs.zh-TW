@@ -1,1 +1,1 @@
-3.9
+<span data-ttu-id="a5042-101">3.9</span><span class="sxs-lookup"><span data-stu-id="a5042-101">3.9</span></span>

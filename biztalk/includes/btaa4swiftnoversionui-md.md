@@ -1,1 +1,1 @@
-**BizTalk Accelerator for SWIFT**
+<span data-ttu-id="e5890-101">**BizTalk Accelerator for SWIFT**</span><span class="sxs-lookup"><span data-stu-id="e5890-101">**BizTalk Accelerator for SWIFT**</span></span>

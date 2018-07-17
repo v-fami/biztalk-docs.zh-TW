@@ -1,1 +1,1 @@
-WCF LOB 配接器程式開發精靈
+<span data-ttu-id="fa507-101">WCF LOB 配接器程式開發精靈</span><span class="sxs-lookup"><span data-stu-id="fa507-101">WCF LOB Adapter Development Wizard</span></span>
