@@ -1,1 +1,1 @@
-BizTalk FileAct 和 InterAct Adapters
+BizTalk FileAct 和 InterAct 配接器
