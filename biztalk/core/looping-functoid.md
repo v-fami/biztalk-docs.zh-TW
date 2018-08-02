@@ -57,7 +57,7 @@ ms.locfileid: "22262838"
 </ns0:MasterAddresses>  
 ```  
   
- **FoodSurvey** 和 **[flowersurvey]** 訊息位址已結合。 結合的訊息不會指出每個位址的來源。 如果您想要追蹤來源，加入 **來源** 屬性設定為 **位址** 記錄 **MasterAddress** 結構描述和對應的常數值。 若要設定此值，連線 **FoodSurvey** 欄位至新 **來源** 欄位。 在連接器一行，修改 **連結屬性** & #124; **編譯器** & #124; **來源連結** 「 複製名稱 」 的屬性。 重複此程序 **[flowersurvey]** 欄位。 從上述程序重新處理輸入訊息會產生下列輸出：  
+ **FoodSurvey** 和 **[flowersurvey]** 訊息位址已結合。 結合的訊息不會指出每個位址的來源。 如果您想要追蹤來源，加入 **來源** 屬性設定為 **位址** 記錄 **MasterAddress** 結構描述和對應的常數值。 若要設定此值，連線 **FoodSurvey** 欄位至新 **來源** 欄位。 在連接器一行，修改 **連結屬性** &#124; **編譯器** &#124; **來源連結** 「 複製名稱 」 的屬性。 重複此程序 **[flowersurvey]** 欄位。 從上述程序重新處理輸入訊息會產生下列輸出：  
   
 ```  
 <ns0:MasterAddresses xmlns:ns0="http://LoopingFunctoid.MasterAddresses">  
