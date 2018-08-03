@@ -148,7 +148,7 @@ ms.locfileid: "29139294"
 - WCF-NetMsmq 配接器
 
 #### <a name="endpointbehaviorconfiguration"></a>EndpointBehaviorConfiguration
-指定的 XML 字串**\<行為\>** 元素 **\<endpointBehaviors\>** 項目來設定的行為設定WCF 端點。 如需有關 **\<endpointBehaviors\>** 項目，請參閱 < 另請參閱中的適當主題。
+指定的 XML 字串**\<行為\>** 元素**\<endpointBehaviors\>** 項目來設定的行為設定WCF 端點。 如需有關**\<endpointBehaviors\>** 項目，請參閱 < 另請參閱中的適當主題。
 
 範例： 
 ```
@@ -504,7 +504,7 @@ Wcf-nettcp 配接器會利用 [NetTcpBinding](http://go.microsoft.com/fwlink/?Li
 適用於： 所有 WCF 配接器*除了*Wcf-custom 和 Wcf-customisolated 配接器
 
 #### <a name="servicebehaviorconfiguration"></a>ServiceBehaviorConfiguration
-指定的 XML 字串**\<行為\>** 元素 **\<serviceBehaviors\>** 設定 WCF 行為設定的項目服務。 如需有關 **\<serviceBehaviors\>** 項目，請參閱 < 另請參閱中的適當主題。
+指定的 XML 字串**\<行為\>** 元素**\<serviceBehaviors\>** 設定 WCF 行為設定的項目服務。 如需有關**\<serviceBehaviors\>** 項目，請參閱 < 另請參閱中的適當主題。
 
 範例：
 

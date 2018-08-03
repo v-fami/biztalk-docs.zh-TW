@@ -47,7 +47,7 @@ ms.locfileid: "36971495"
 
    |        使用        |                                                                                                              以進行此動作                                                                                                              |
    |------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   | **目的地資料夾** | 按一下 [**瀏覽**，然後在**瀏覽資料夾** 對話方塊中，移至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\EDI 介面 Developer Tutorial\ProcessEDI_TestLocations\ Scenario a\tothem_997。 |
+   | **目的地資料夾** | 按一下 [**瀏覽**，然後在**瀏覽資料夾**] 對話方塊中，移至[!INCLUDE[btsBiztalkServerPath](../includes/btsbiztalkserverpath-md.md)]SDK\EDI 介面 Developer Tutorial\ProcessEDI_TestLocations\ Scenario a\tothem_997。 |
    |     **檔案名稱**      |                                                                                           請輸入`%MessageID%.txt`，然後按一下 **[確定]**。                                                                                            |
 
    > [!NOTE]
