@@ -31,7 +31,7 @@ ms.locfileid: "25972540"
   
 2.  在命令提示字元中，輸入：  
   
-     **nscontrol register-name BamAlerts-server***\<ServerName\>***-服務-serviceusername"**  *\<ServiceUserName\>*  **"-servicepassword"**  *\<ServicePassword\>*  **"**   
+     **nscontrol register-name BamAlerts-server***\<ServerName\>***-服務-serviceusername"** *\<ServiceUserName\>* **"-servicepassword"** *\<ServicePassword\>* **"**   
   
      如此可讓 Notification Services 登入正確的資料庫 (nscontrol 將這項資訊保存在服務電腦的登錄中)。  
   

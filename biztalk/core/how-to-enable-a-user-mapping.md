@@ -36,7 +36,7 @@ ms.locfileid: "25970828"
   
 2.  在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是**\<磁碟機\>**: \Program Files\Common Files\Enterprise Single Sign-on。  
   
-3.  型別**ssomanage-enablemapping\<網域\>\\< 使用者名稱\>\<應用程式名稱\>**，其中 **\<網域\>** 是 Windows 網域使用者帳戶，  **\<username\>** 是 Windows 使用者名稱，您要啟用認證和**\<應用程式名稱\>** 是您想要移除的使用者對應，然後按 ENTER 分支機構應用程式的名稱。  
+3.  型別**ssomanage-enablemapping\<網域\>\\< 使用者名稱\>\<應用程式名稱\>**，其中 **\<網域\>** 是 Windows 網域使用者帳戶， **\<username\>** 是 Windows 使用者名稱，您要啟用認證和**\<應用程式名稱\>** 是您想要移除的使用者對應，然後按 ENTER 分支機構應用程式的名稱。  
   
     > [!NOTE]
     >  在支援使用者帳戶控制 (UAC) 的系統上，您可能需要使用系統管理權限來執行工具。  

@@ -229,7 +229,7 @@ A pattern assignment rule specifies a regular expression and an app domain name.
   
  BTSNTSvc.exe 組態檔包含 .NET Framework General Reference 中記載的數個其他區段。 如需修改這些區段的詳細資訊，請參閱**組態檔結構描述**在.NET Framework 一般參考的[http://go.microsoft.com/FWLink/?LinkID=52964](http://go.microsoft.com/FWLink/?LinkID=52964)。  
   
- 除了 BizTalk 特定的組態資訊，btsntsvc.exe.config 也是在協調流程、 配接器或管線的內容中執行.NET 應用程式元件在哪裡取得其組態資訊，在執行的階段使用標準.NET  **\<appSettings\>** 標記下**\<組態\>** 標記。 由於 BizTalk 已經提供自訂配接器和管線元件，以取得組態資訊的機制 **\<appSettings\>** 通常會在 BTSNTSvc.exe.config 檔案中的標記用於從協調流程內呼叫的自訂.NET 元件。 例如：  
+ 除了 BizTalk 特定的組態資訊，btsntsvc.exe.config 也是在協調流程、 配接器或管線的內容中執行.NET 應用程式元件在哪裡取得其組態資訊，在執行的階段使用標準.NET **\<appSettings\>** 標記下**\<組態\>** 標記。 由於 BizTalk 已經提供自訂配接器和管線元件，以取得組態資訊的機制**\<appSettings\>** 通常會在 BTSNTSvc.exe.config 檔案中的標記用於從協調流程內呼叫的自訂.NET 元件。 例如：  
   
 ```  
 <appSettings>  
