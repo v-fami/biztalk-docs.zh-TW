@@ -267,7 +267,7 @@ ms.locfileid: "37022092"
   
 5.  按一下 **篩選器**並加入三個篩選條件運算式：  
   
-    -   BTS。MessageType = =http://BasicXMLEnvelope#Error和  
+    -   BTS。MessageType = = http://BasicXMLEnvelope#Error 和  
   
     -   BasicXMLEnvelope.PropertySchema.Priority == Low Or  
   
@@ -287,7 +287,7 @@ ms.locfileid: "37022092"
   
 5.  按一下 **篩選器**並加入兩個篩選條件運算式：  
   
-    -   BTS。MessageType = =http://BasicXMLEnvelope#Error和  
+    -   BTS。MessageType = = http://BasicXMLEnvelope#Error 和  
   
     -   BasicXMLEnvelope.PropertySchema.Priority == High  
   

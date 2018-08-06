@@ -26,7 +26,7 @@ ms.locfileid: "29139294"
 **命名空間︰** http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties  
 
 #### <a name="action"></a>動作
-指定 **SOAPAction** 外寄訊息的標頭欄位。 您可以將這個值指定兩個不同的方式︰ 單一動作格式和動作對應格式。 如果您在單一動作格式中設定這個屬性 — 例如，http://contoso.com/Svc/Op1 — **SOAPAction**標頭外寄訊息一定會設定這個屬性中指定的值。
+指定 **SOAPAction** 外寄訊息的標頭欄位。 您可以將這個值指定兩個不同的方式︰ 單一動作格式和動作對應格式。 如果您在單一動作格式中設定這個屬性 — 例如 http://contoso.com/Svc/Op1 — **SOAPAction**標頭外寄訊息一定會設定這個屬性中指定的值。
 
 如果您設定此屬性以動作對應格式傳出 **SOAPAction** 標頭由 **BTS。作業** 內容屬性。 例如，如果此屬性設定為下列 XML 格式和**BTS。作業**屬性設定為 Op1，WCF 傳送配接器會使用`http://contoso.com/Svc/Op1`針對外寄**SOAPAction**標頭。
 
