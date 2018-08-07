@@ -47,7 +47,7 @@ ms.locfileid: "36973071"
   
   **解決方式**  
   
-  如果您需要從本機電腦瀏覽，您應該加入http://localhost至受信任的站台清單。  
+  如果您需要從本機電腦瀏覽，您應該加入 http://localhost 至受信任的站台清單。  
   
 #### <a name="add-localhost-to-the-list-of-trusted-sites"></a>新增 localhost 至信任的網站清單  
   

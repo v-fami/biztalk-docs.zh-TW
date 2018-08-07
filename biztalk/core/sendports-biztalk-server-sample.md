@@ -33,7 +33,7 @@ SendPorts 範例示範如何列舉使用和管理傳送埠**Microsoft.BizTalk.Ex
 
 1. 使用連接到 「 BizTalk 管理 」 資料庫**BtsCatalogExplorer**類別。  
 
-2. 建立兩個新的傳送埠，名為 myStaticOnewaySendPort1 和 myDynamicTwowaySendPort1。 myStaticOnewaySendPort1，正如其名，都是靜態的單向傳送埠。  它會建立以範例目的地 url 使用 HTTP 傳輸http://sample1。 myDynamicTwowaySendPort1 會建立為動態的雙向傳送埠。  
+2. 建立兩個新的傳送埠，名為 myStaticOnewaySendPort1 和 myDynamicTwowaySendPort1。 myStaticOnewaySendPort1，正如其名，都是靜態的單向傳送埠。  它會建立以範例目的地 url 使用 HTTP 傳輸 http://sample1 。 myDynamicTwowaySendPort1 會建立為動態的雙向傳送埠。  
 
 3. 列舉中的傳送埠[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境。 這個範例列舉型別應該包含兩個新的傳送埠。  
 

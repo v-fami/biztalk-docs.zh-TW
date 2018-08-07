@@ -390,7 +390,7 @@ BAM 是由下列各層所組成：
 - **叢集化檔案系統**– 請參閱 <<c2> [ 如何叢集化檔案系統](http://go.microsoft.com/fwlink/p/?LinkId=189517)。
 
 ## <a name="use-scom"></a>使用 SCOM
-適用於 Operations Manager 的 BizTalk Server 管理封包提供全方位探索及監控 BizTalk Server 元件和在多個機器中執行的應用程式。 如需有關 BizTalk Server 管理組件的詳細資訊，請參閱http://www.microsoft.com/download/details.aspx?id=39617。
+適用於 Operations Manager 的 BizTalk Server 管理封包提供全方位探索及監控 BizTalk Server 元件和在多個機器中執行的應用程式。 如需有關 BizTalk Server 管理組件的詳細資訊，請參閱 http://www.microsoft.com/download/details.aspx?id=39617 。
 
 ## <a name="next"></a>下一個  
 [設定 BizTalk](configure-biztalk-server.md)
