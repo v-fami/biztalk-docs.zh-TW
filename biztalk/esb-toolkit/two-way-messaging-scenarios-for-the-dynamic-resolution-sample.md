@@ -27,7 +27,7 @@ ms.locfileid: "36997015"
 1. 第一次執行此範例之前，請確定接收位置 URL 會指向適當的 Web 服務。 指定 Web 服務 URL /ESB。NorthAmericanServices/CustomerOrder.asmx DynamicResolutionReqResp_SOAP 的接收位置。 此外，請確認名為 DynamicResolutionSolicitResp 動態傳送埠存在。  
 
    > [!NOTE]
-   >  動態解析範例會使用動態解析傳送和接收來自加拿大的 Web 服務的回應 (http://localhost/ESB.CanadianServices/SubmitPOService.asmx)。 這就是為什麼此範例中未定義的靜態傳送埠。 動態解析元件會擷取輸出 URL 從解析度和配接器提供者架構，稱為 ESBReceiveXml 管線中，DynamicResolutionReqResp_SOAP 內設定的接收位置。 在某些雙向傳訊的範例中，ESBMapSend 管線解析，並執行 Microsoft BizTalk 對應。  
+   >  動態解析範例會使用動態解析傳送和接收來自加拿大的 Web 服務的回應 (http://localhost/ESB.CanadianServices/SubmitPOService.asmx) 。 這就是為什麼此範例中未定義的靜態傳送埠。 動態解析元件會擷取輸出 URL 從解析度和配接器提供者架構，稱為 ESBReceiveXml 管線中，DynamicResolutionReqResp_SOAP 內設定的接收位置。 在某些雙向傳訊的範例中，ESBMapSend 管線解析，並執行 Microsoft BizTalk 對應。  
 
 2. 如果尚未執行 GlobalBank.ESB 應用程式，使用 BizTalk 管理主控台來啟動它。  
 
