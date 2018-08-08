@@ -33,14 +33,14 @@ ms.locfileid: "37023532"
 |  訊息文字   |         無效的位址;必須是相對 uri，開頭為斜線 （"/"）          |
   
 ## <a name="explanation"></a>說明  
- 您未提供的外掛式的 WCF 接收位置的語式正確的相對位址。 比方說，http://localhost/svc無法運作，因為相對位址。 您無法設定的位址屬性的外掛式 WCF 接收位置的絕對位址。  
+ 您未提供的外掛式的 WCF 接收位置的語式正確的相對位址。 比方說，http://localhost/svc 無法運作，因為相對位址。 您無法設定的位址屬性的外掛式 WCF 接收位置的絕對位址。  
   
 ## <a name="user-action"></a>使用者動作  
  您可以使用下列程序來設定位址。  
   
 #### <a name="to-configure-an-address"></a>若要設定的位址  
   
-1. 按一下 **開始**，按一下**所有程式**，按一下  **Microsoft [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]** ，然後按一下**BizTalk Server 管理]**。  
+1. 按一下 **開始**，按一下**所有程式**，按一下 **Microsoft [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)]** ，然後按一下**BizTalk Server 管理**。  
   
 2. 在 [主控台根目錄中，展開**BizTalk Server 管理]**，展開**BizTalk 群組**，然後展開**應用程式**。  
   
