@@ -33,7 +33,7 @@ ms.locfileid: "37023492"
 OutboundMessage(WCF.Action)="http://MyService/IMyContract/MyAction1";  
 ```  
   
- 如果您是以動作對應格式設定這個屬性外, 寄 SOAP 動作取決於**BTS。作業**內容屬性。 比方說，如果此屬性設定為下列 XML 格式 wcf 傳送配接器傳輸屬性 對話方塊中， **BTS。作業**屬性設定為**Operation_1**在傳送埠協調流程中，WCF 傳送配接器會使用http://MyService/IMyContract/MyAction1外寄 SOAP 動作。  
+ 如果您是以動作對應格式設定這個屬性外, 寄 SOAP 動作取決於**BTS。作業**內容屬性。 比方說，如果此屬性設定為下列 XML 格式 wcf 傳送配接器傳輸屬性 對話方塊中， **BTS。作業**屬性設定為**Operation_1**在傳送埠協調流程中，WCF 傳送配接器會使用 http://MyService/IMyContract/MyAction1 外寄 SOAP 動作。  
   
 ```  
 BtsActionMapping xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">  
