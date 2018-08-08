@@ -54,7 +54,7 @@ BizTalk 配接器架構會提供將配接器結構描述和 BizTalk 類型新增
     ![中繼資料端點 頁面](../core/media/2b17f85a-64d0-4719-99c4-ce61c706f10c.gif "2b17f85a-64d0-4719-99c4-ce61c706f10c")  
   
    > [!NOTE]
-   >  若要下載透過 HTTP 或 HTTPS 發佈的 WCF 服務的中繼資料，您無法使用 MEX 端點如http://localhost:8087/CalculatorService/mexfor**中繼資料位址**文字方塊。 對於 WCF 服務，您必須使用 WSDL 中繼資料來下載中繼資料，如下所示：http://localhost:8087/CalculatorService或 http://localhost:8087/CalculatorService?wsdl  
+   >  若要下載透過 HTTP 或 HTTPS 發佈的 WCF 服務的中繼資料，您無法使用 MEX 端點如 http://localhost:8087/CalculatorService/mex for**中繼資料位址**文字方塊。 對於 WCF 服務，您必須使用 WSDL 中繼資料來下載中繼資料，如下所示： http://localhost:8087/CalculatorService 或 http://localhost:8087/CalculatorService?wsdl  
   
 6. 如果您選取**中繼資料檔案 （WSDL 和 XSD）** 選項**中繼資料來源**頁面上，**中繼資料端點**頁面隨即出現。 在 **中繼資料端點**頁面上，指定要匯入中繼資料檔案。 按一下 **新增**將中繼資料檔案匯入**中繼資料檔案**檢視。 這會開啟**加入中繼資料檔案**對話方塊中，您可以在其中搜尋的中繼資料檔案的磁碟位置。  
   
@@ -80,7 +80,7 @@ BizTalk 配接器架構會提供將配接器結構描述和 BizTalk 類型新增
   
     當您匯入產生的繫結檔案時，它會填入**WCF。動作**以動作對應格式的屬性。 若要查看此屬性的設定方式，看看**動作**上的文字方塊**一般**WCF 傳送埠傳輸屬性對話方塊在 BizTalk 管理主控台中的索引標籤。  
   
-    您可以指定**WCF。動作**兩種不同方式的屬性： 單一動作格式和動作對應格式。 如果您在設定此屬性的單一動作格式-例如， http://contoso.com/Svc/Op1 - **SOAPAction**標頭外寄訊息一定會設定這個屬性中指定的值。 如果您設定此屬性以動作對應格式外, 寄**SOAPAction**標頭會由**BTS。作業**內容屬性。 例如，如果此屬性設定為下列 XML 格式和**BTS。作業**屬性設定為**Op1**，WCF 傳送配接器會使用http://contoso.com/Svc/Op1針對外寄**SOAPAction**標頭。  
+    您可以指定**WCF。動作**兩種不同方式的屬性： 單一動作格式和動作對應格式。 如果您在設定此屬性的單一動作格式-例如， http://contoso.com/Svc/Op1 - **SOAPAction**標頭外寄訊息一定會設定這個屬性中指定的值。 如果您設定此屬性以動作對應格式外, 寄**SOAPAction**標頭會由**BTS。作業**內容屬性。 例如，如果此屬性設定為下列 XML 格式和**BTS。作業**屬性設定為**Op1**，WCF 傳送配接器會使用 http://contoso.com/Svc/Op1 針對外寄**SOAPAction**標頭。  
   
     `<BtsActionMapping>`  
   
