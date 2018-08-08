@@ -57,7 +57,7 @@ WCF 接收配接器可讓您接收 WCF 服務要求。
 >  若是選取 XML 編碼，XML 本文內元素的外部內容就會由 XPath 運算式所找出，並放入 BizTalk 訊息的內文部分。  
   
 ## <a name="handling-web-services-headers"></a>處理 Web 服務標頭  
- 接收配接器會將標準 Web 服務標頭的子集升級到 BizTalk 訊息內容，以利根據這些標頭的值來輕鬆進行存取和路由。 下表列出將由接收配接器儲存到訊息內容的屬性。 在下列命名空間下定義的屬性：http://www.w3.org/2005/addressing 和 http://schemas.microsoft.com/BizTalk/2006/Adapters/WCF-properties 。  
+ 接收配接器會將標準 Web 服務標頭的子集升級到 BizTalk 訊息內容，以利根據這些標頭的值來輕鬆進行存取和路由。 下表列出將由接收配接器儲存到訊息內容的屬性。 在下列命名空間下定義的屬性： http://www.w3.org/2005/addressing 和 http://schemas.microsoft.com/BizTalk/2006/Adapters/WCF-properties 。  
   
 |標頭|BizTalk 屬性名稱|是否有提升？|  
 |------------|---------------------------|------------------|  
