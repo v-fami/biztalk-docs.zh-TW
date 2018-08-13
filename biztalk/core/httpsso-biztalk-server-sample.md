@@ -145,7 +145,7 @@ HTTPSSO 範例將示範如何搭配 Microsoft [!INCLUDE[btsBizTalkServerNoVersio
 
 8. 查閱對應至所執行 IIS、SSO 和 BizTalk 組態的狀態訊息。 您可以找到此階段中執行的程式碼**IisConfigurator**， **SsoConfigurator**，並**BtsConfigurator** ssosample.cs 中定義的類別。 設定完成之後，請按一下**下一步**。  
 
-9. 在精靈應用程式的最後一個頁面上，接受預設值**在瀏覽器起始**(選取的核取方塊和 url 文字方塊http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll? <message/>)，然後按一下**完成**。  
+9. 在精靈應用程式的最後一個頁面上，接受預設值**在瀏覽器起始** (選取的核取方塊和 url 文字方塊 http://localhost/SsoSampleBizTalkHttpReceive/BTSHttpReceive.dll? <message/>)，然後按一下**完成**。  
 
      Internet Explorer 的執行個體將會開啟，並且很快地顯示您新增至 Northwinds SQL 資料庫的 [員工] 資料表中的範例員工資料。  
 

@@ -26,7 +26,7 @@ ms.locfileid: "36976431"
 
  雙向傳訊案例中，範例解析靜態、 BRE、 UDDI、 或 XPATH 解析程式所使用的端點，並從 SOAP 通訊協定，SOAP 或 Wcf-basichttp 訊息代理程式。 此外，這些範例解析，並執行 Microsoft BizTalk 對應使用 BRE 解析程式，以決定其解析結果使用包含在訊息內容屬性和訊息內文中的事實。  
 
- 解析程序的結果會是雙向的所有範例都提交 ESB 其訊息。CanadianServices Web 服務位於http://localhost/ESB.CanadianServices/SubmitPOService.asmx。 此外，根據解析結果，此範例會執行其中一個**submitOrder**或**submitPurchase**動作。 此外，ESB 發送器解譯器管線元件會動態地執行 BizTalk 對應，根據指定 或 已解決 動作。  
+ 解析程序的結果會是雙向的所有範例都提交 ESB 其訊息。CanadianServices Web 服務位於 http://localhost/ESB.CanadianServices/SubmitPOService.asmx 。 此外，根據解析結果，此範例會執行其中一個**submitOrder**或**submitPurchase**動作。 此外，ESB 發送器解譯器管線元件會動態地執行 BizTalk 對應，根據指定 或 已解決 動作。  
 
  [圖 1] 顯示設定的管線，以 DynamicResolutionReqResp_SOAP 接收位置。  
 

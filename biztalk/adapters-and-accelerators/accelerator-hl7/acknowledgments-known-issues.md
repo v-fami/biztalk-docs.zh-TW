@@ -47,7 +47,7 @@ ms.locfileid: "36966151"
  在產生回應的批次訊息的 ACK 訊息，GUID，而不是根據批次訊息中的 [MSH10] 欄位的資料類型，將會 MSH10 欄位 (訊息控制項 ID)。  
   
 ## <a name="generated-acknowledgments-doc-type"></a>產生的通知文件類型  
- [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] 產生使用文件類型的通知http://Microsoft.com/HealthCare/HL7/2X#ACK_24_GLO_DEF或http://Microsoft.com/HealthCare/HL7/2X#ACK_25_GLO_DEF。 如果您的目的合作對象使用不同的命名空間，您必須套用本文中對應的傳送埠;否則，您可能會發生序列化錯誤。  
+ [!INCLUDE[btaBTAHL71.3abbrevnonumber](../../includes/btabtahl71-3abbrevnonumber-md.md)] 產生使用文件類型的通知 http://Microsoft.com/HealthCare/HL7/2X#ACK_24_GLO_DEF 或 http://Microsoft.com/HealthCare/HL7/2X#ACK_25_GLO_DEF 。 如果您的目的合作對象使用不同的命名空間，您必須套用本文中對應的傳送埠;否則，您可能會發生序列化錯誤。  
   
 ## <a name="see-also"></a>另請參閱  
  [已知問題](../../adapters-and-accelerators/accelerator-hl7/known-issues1.md)
