@@ -24,6 +24,6 @@ ms.locfileid: "36983127"
   
 - [動態解析範例的單向傳訊案例](../esb-toolkit/one-way-messaging-scenarios-for-the-dynamic-resolution-sample.md)。 此案例中使用與發行集的檔案放置資料夾移到 Microsoft BizTalk 動態解析範例的支援。  
   
-- [動態解析範例的雙向傳訊案例](../esb-toolkit/two-way-messaging-scenarios-for-the-dynamic-resolution-sample.md)。 動態解析範例支援此案例中使用 NorthAmerican Web 服務位於 http://localhost/ESB.NorthAmericanServices/CustomerOrder.asmx 與發行集點到 BizTalk。  
+- [動態解析範例的雙向傳訊案例](../esb-toolkit/two-way-messaging-scenarios-for-the-dynamic-resolution-sample.md) 。 動態解析範例支援此案例中使用 NorthAmerican Web 服務位於 http://localhost/ESB.NorthAmericanServices/CustomerOrder.asmx 與發行集點到 BizTalk。  
   
   若要了解此範例會使用 ESB 發送器和 ESB 發送器解譯器管線元件，請參閱[動態解析範例運作方式](../esb-toolkit/how-the-dynamic-resolution-sample-works.md)。

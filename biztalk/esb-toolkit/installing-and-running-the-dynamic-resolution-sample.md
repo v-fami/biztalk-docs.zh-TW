@@ -31,7 +31,7 @@ ms.locfileid: "36967727"
  全都是單向傳訊案例 （除了使用 XPATH 解析程式） 使用檔案 NAOrderDoc.xml，位於 [\Source\Samples\DynamicResolution\Test\Data] 資料夾中，輸入接收位置名為 DynamicResolution_FILE。 有七個單向的訊息範例中，所有由唯一的繫結檔案，您必須匯入，然後再執行每個範例。  
   
 ## <a name="two-way-messaging-scenarios"></a>雙向傳訊案例  
- 所有的雙向傳訊案例使用範例 ESB。NorthAmericanServices Web 服務位於http://localhost/ESB.NorthAmericanServices/CustomerOrder.asmx發佈到 BizTalk 的要求訊息。 您可以執行使用 Microsoft InfoPath 此 Web 服務或透過公用程式，例如可從 Storm [CodePlex](http://go.microsoft.com/fwlink/?LinkID=187762&clcid=0x409)。  
+ 所有的雙向傳訊案例使用範例 ESB。NorthAmericanServices Web 服務位於 http://localhost/ESB.NorthAmericanServices/CustomerOrder.asmx 發佈到 BizTalk 的要求訊息。 您可以執行使用 Microsoft InfoPath 此 Web 服務或透過公用程式，例如可從 Storm [CodePlex](http://go.microsoft.com/fwlink/?LinkID=187762&clcid=0x409)。  
   
  每個範例，動態地解析提交訊息至範例 ESB 的端點 URL。CanadianServices Web 服務位於http://localhost/ESB.CanadianServices/SubmitPOService.asmx。 此範例會執行**submitOrder**動作或**submitPurchase**動作，根據解析程序的結果。 雙向傳訊案例的接收位置是 DynamicResolutionReqResp_SOAP。 有 10 個的雙向傳訊範例中，所有由唯一的繫結檔案，您必須匯入，然後再執行每個範例。  
   

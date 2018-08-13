@@ -26,7 +26,7 @@ ms.locfileid: "36992039"
 
 ### <a name="to-repair-a-message"></a>若要修復訊息  
 
-1. 在 Internet Explorer 中，開啟 MRSR 網站http://localhost/sites/bassite。  
+1. 在 Internet Explorer 中，開啟 MRSR 網站 http://localhost/sites/bassite 。  
 
 2. 在 [首頁] 視窗中，按一下**文件**。  
 

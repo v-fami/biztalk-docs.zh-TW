@@ -103,7 +103,7 @@ BindingException: Could not validate TransportTypeData or Address properties for
 
 3.  重新啟動 IIS。  
 
-4.  在您重新啟動 IIS 之後，嘗試存取http://localhost。 您應該會從網際網路瀏覽器收到 400 訊息。  
+4.  在您重新啟動 IIS 之後，嘗試存取 http://localhost 。 您應該會從網際網路瀏覽器收到 400 訊息。  
 
 ### <a name="sql-server-mixed-mode-not-supported"></a>不支援的 SQL Server 混合模式  
 BTARN 不支援混合模式中的 SQL Server。  

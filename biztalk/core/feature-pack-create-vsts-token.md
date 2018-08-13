@@ -67,7 +67,7 @@ Visual Studio Team Services 中建立個人存取權杖 (PAT)。 此權杖是您
 
 BizTalk 開發電腦上安裝組建代理程式。 使用部署群組，如果您想要部署到的所有 BizTalk 伺服器上安裝組建代理程式。 下列步驟會示範如何在單一電腦上安裝組建代理程式。 如需有關使用部署群組的詳細資訊，請參閱 <<c0> [ 部署群組](https://docs.microsoft.com/vsts/build-release/concepts/definitions/release/deployment-groups/index)。
 
-1. 開啟您的 VSTS 帳戶和專案中，這不是想*https://YourAccountName.visualstudio.com/MyFirstProject*。 選取 [設定] 圖示，然後選取**代理程式佇列**:  
+1. 開啟您的 VSTS 帳戶和專案中，這不是想 *https://YourAccountName.visualstudio.com/MyFirstProject* 。 選取 [設定] 圖示，然後選取**代理程式佇列**:  
 
     ![設定 > 代理程式佇列](../core/media/vsts-settings-agent-queues.png)
 

@@ -27,7 +27,7 @@ ms.locfileid: "36998663"
 
 ### <a name="to-handle-an-unparsed-message"></a>若要處理未剖析的訊息  
 
-1. 在 Internet Explorer 中，開啟 MRSR 網站http://localhost/sites/bassite。  
+1. 在 Internet Explorer 中，開啟 MRSR 網站 http://localhost/sites/bassite 。  
 
 2. 在 [首頁] 視窗中，按一下**文件**。  
 

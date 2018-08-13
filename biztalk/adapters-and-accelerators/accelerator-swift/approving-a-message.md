@@ -27,7 +27,7 @@ ms.locfileid: "36967103"
 
 ### <a name="to-approve-a-message"></a>核准訊息  
 
-1. 在 Internet Explorer 中，開啟 MRSR 網站http://localhost/sites/bassite。  
+1. 在 Internet Explorer 中，開啟 MRSR 網站 http://localhost/sites/bassite 。  
 
 2. 在 [首頁] 視窗中，按一下**文件**。  
 
