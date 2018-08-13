@@ -23,7 +23,7 @@ ms.locfileid: "36968319"
 控制結構描述是處理訊息信封 (標頭控制結構描述) 和通知的要件。 安裝程式將這些結構描述部署在 Microsoft.BizTalk.Edi.BaseArtifacts.dll 中。 這些結構描述不一定要加入至 BizTalk 專案，因為它們是部署在 BaseArtifacts.dll 中。 您必須將 BaseArtifacts.dll 組件的參考加入至包含結構描述的專案，才能使用這些結構描述。  
 
 ## <a name="envelope-service-schemas"></a>信封服務結構描述  
- 服務結構描述 X12ServiceSchema 和 EdifactServiceSchema 可用來驗證交換、群組，以及 EDI 交換信封中的交易集標頭和結尾。 這適用於所有的 EDI 交換： 批次的交換、 批次的交換分割或保留的批次的交換。 這些結構描述的命名空間http://schemas.microsoft.com/Edi/X12ServiceSchema和http://schemas.microsoft.com/Edi/EdifactServiceSchema。  
+ 服務結構描述 X12ServiceSchema 和 EdifactServiceSchema 可用來驗證交換、群組，以及 EDI 交換信封中的交易集標頭和結尾。 這適用於所有的 EDI 交換： 批次的交換、 批次的交換分割或保留的批次的交換。 這些結構描述的命名空間 http://schemas.microsoft.com/Edi/X12ServiceSchema 和 http://schemas.microsoft.com/Edi/EdifactServiceSchema 。  
 
  若 EDI 交換是保留的批次交換，則除了服務結構描述，BizTalk 執行階段還會使用批次結構描述 X12_BatchSchema 和 Edifact_BatchSchema。 如需詳細資訊，請參閱 < [EDI 批次結構描述](../core/edi-batch-schemas.md)。  
 
@@ -39,9 +39,9 @@ ms.locfileid: "36968319"
 |    X12 997     |    X12_997Schema     |   http://schemas.microsoft.com/Edi/X12   |            ST<br /><br /> SE<br /><br /> X12_997_Root             |
 | EDIFACT CONTRL | Edifact_ContrlSchema | http://schemas.microsoft.com/Edi/Edifact | Efact_Contrl_Root<br /><br /> UCD<br /><br /> UCM<br /><br /> UCS |
 
- 針對 X12 編碼，997 功能通知結構描述會定義交換、群組、訊息信封中使用的交易集/訊息標頭和結尾，以及報告內文驗證結果的 AK1、AK2、AK3、AK4、AK5 和 AK9 區段。 TA1 技術通知結構描述則會定義交換標頭和結尾，以及報告標頭驗證結果的 TA1 通知區段。 這些結構描述的命名慣例是 x12_<\<版本號碼\>*997.xsd 和 X12\\*\<版本號碼\>_TA1.xsd。 這些結構描述的目標命名空間是http://schemas.microsoft.com/BizTalk/EDI/X12/2006。  
+ 針對 X12 編碼，997 功能通知結構描述會定義交換、群組、訊息信封中使用的交易集/訊息標頭和結尾，以及報告內文驗證結果的 AK1、AK2、AK3、AK4、AK5 和 AK9 區段。 TA1 技術通知結構描述則會定義交換標頭和結尾，以及報告標頭驗證結果的 TA1 通知區段。 這些結構描述的命名慣例是 x12_<\<版本號碼\>*997.xsd 和 X12\\*\<版本號碼\>_TA1.xsd。 這些結構描述的目標命名空間是 http://schemas.microsoft.com/BizTalk/EDI/X12/2006 。  
 
- EDIFACT 支援兩階段通知模式。 第一階段通知是交換接收，這是使用 CONTRL 結構描述的三個區段所建構。 此技術通知會報告標頭驗證結果。 第二階段通知則會使用 CONTRL 結構描述的其餘區段。 此結構描述的命名慣例是 EFACT_<VERSION\<版本號碼\>_CONTRL.xsd。 此結構描述的目標命名空間是http://schemas.microsoft.com/BizTalk/EDI/EDIFACT/2006。  
+ EDIFACT 支援兩階段通知模式。 第一階段通知是交換接收，這是使用 CONTRL 結構描述的三個區段所建構。 此技術通知會報告標頭驗證結果。 第二階段通知則會使用 CONTRL 結構描述的其餘區段。 此結構描述的命名慣例是 EFACT_<VERSION\<版本號碼\>_CONTRL.xsd。 此結構描述的目標命名空間是 http://schemas.microsoft.com/BizTalk/EDI/EDIFACT/2006 。  
 
 ## <a name="see-also"></a>另請參閱  
  [BizTalk Server 如何接收 EDI 訊息](../core/how-biztalk-server-receives-edi-messages.md)   
