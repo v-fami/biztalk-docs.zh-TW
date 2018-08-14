@@ -12,12 +12,12 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3855dfe405e85e33e01642dd1ded5336c8efb892
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 1386c7113c534c2491bed447fdcc0ba970881bac
+ms.sourcegitcommit: ed9590dbcd97c12a1fe5ce2cdf8d826492cccdff
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36994879"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39640146"
 ---
 # <a name="test-scenarios-for-measuring-mst-of-dta-tracking"></a>測試 DAT 追蹤的測量 MST 案例
 為了顯示所有的實際運作方式，並且引進簡單的技術以測量追蹤的最大持續輸送量 (MST)，我們現在會呈現一個已經對其測量追蹤 MST 的測試案例。 我們不僅會提供所牽涉的技術，您也可以使用呈現的資料做為開始預估其他系統追蹤效能的起點。  
@@ -60,7 +60,7 @@ ms.locfileid: "36994879"
   
 - **訊息屬性**。 在輸入管線中與解譯器 (DA) 元件關聯的追蹤點，代表從輸入訊息對 10 個屬性的追蹤。 如需如何升級屬性進行追蹤的詳細資訊，請參閱[升級屬性](../core/promoting-properties.md)。  
   
-- **訊息主體**。 圖中的兩個訊息內文 (MB) 點，代表會在這些點追蹤訊息內文。 如需有關如何設定訊息內文追蹤的詳細資訊，請參閱 <<c0> [ 設定使用 BizTalk Server 管理主控台追蹤](http://msdn.microsoft.com/en-us/49b7f9d3-60b5-41bd-ba8b-029253926bef)。  
+- **訊息主體**。 圖中的兩個訊息內文 (MB) 點，代表會在這些點追蹤訊息內文。 如需有關如何設定訊息內文追蹤的詳細資訊，請參閱 <<c0> [ 設定使用 BizTalk Server 管理主控台追蹤](http://msdn.microsoft.com/49b7f9d3-60b5-41bd-ba8b-029253926bef)。  
   
   **測試案例架構**  
   

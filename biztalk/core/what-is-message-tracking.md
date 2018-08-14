@@ -23,12 +23,12 @@ caps.latest.revision: 18
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0d76a4bd4133906a7949fac9e63816168506f412
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: 944261c6193020c158f707b7f8d39c55ce2d058f
+ms.sourcegitcommit: ed9590dbcd97c12a1fe5ce2cdf8d826492cccdff
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25974636"
+ms.lasthandoff: 08/08/2018
+ms.locfileid: "39640122"
 ---
 # <a name="what-is-message-tracking"></a>什麼是訊息追蹤？
 訊息是資料的電子執行個體，通常在兩個執行的商務程序或應用程式之間進行交換。 訊息執行個體是由訊息內文、訊息屬性和中繼資料組成的。  
@@ -39,11 +39,11 @@ ms.locfileid: "25974636"
  追蹤訊息內文可以提供已傳送和已接收訊息的記錄。 您必須開啟訊息內文追蹤，才能在服務執行個體處理完成後儲存訊息。 設定完追蹤選項後，可能需要幾分鐘的時間才能檢視訊息。  
   
 > [!IMPORTANT]
->  必須在所有 MessageBox 資料庫上執行 SQL Server Agent 服務。 TrackedMessages_Copy_\<MessageBoxName\>工作讓訊息內文追蹤查詢和 WMI。 若要有效率地複製訊息內文，保留在 MessageBox 資料庫中的人員，並定期複製到 BizTalk 追蹤 (BizTalkDTADb) 資料庫 TrackedMessages_Copy_\<MessageBoxName\>作業。 執行 SQL Server Agent 服務也是讓封存和清除這兩個程序正常運作的必要條件。  
+>  必須在所有 MessageBox 資料庫上執行 SQL Server Agent 服務。 TrackedMessages_Copy_\<MessageBoxName\>工作讓訊息內文可供追蹤查詢和 WMI。 若要有效率地複製訊息內文，保留在 MessageBox 資料庫中的人員，並會定期複製到 BizTalk 追蹤 (BizTalkDTADb) 資料庫 TrackedMessages_Copy_\<MessageBoxName\>作業。 執行 SQL Server Agent 服務也是讓封存和清除這兩個程序正常運作的必要條件。  
   
  透過已追蹤訊息可以提供確認回條、進行疑難排解，並且在過去的交易中執行資料採礦。 您可以於連接埠、管線和協調流程的輸入和輸出追蹤訊息內文。 您可以使用 BizTalk Server 管理主控台、「作業」物件模型 (OM) (建議) 或透過 Windows Management Instrumentation (WMI) 應用程式發展介面 (API) 來復原這些訊息。  
   
- BizTalk Server 不會追蹤沒有成功通過其中一個追蹤點的訊息。 在某些情況下，例如無效，因為當擱置訊息，或如果沒有主應用程式等待訊息-它可能會放置於 「 擱置 」 佇列沒有正在追蹤。 若終止此訊息，將不會有任何關於此訊息的記錄。  
+ BizTalk Server 不會追蹤沒有成功通過其中一個追蹤點的訊息。 在某些情況下，例如它是無效的因為當擱置的訊息，或如果沒有主應用程式等待訊息，可能就已擱置佇列中沒有正在追蹤。 若終止此訊息，將不會有任何關於此訊息的記錄。  
   
 > [!IMPORTANT]
 >  訊息內文追蹤不對等於合法追蹤，而且也不支援不可否認性。  
@@ -68,7 +68,7 @@ ms.locfileid: "25974636"
 ## <a name="sensitive-data"></a>機密資料  
  您可以保全以下資料，確保這些資料不會出現在對應的結構描述屬性視窗中，如此一來就不能加以追蹤。  
   
--   套用**isSensitive**屬性至屬性結構描述中的任何機密屬性，讓它不再顯示在訊息屬性追蹤組態選項。  
+-   適用於**isSensitive**屬性至屬性結構描述中的任何機密屬性，如此就不會再顯示在訊息屬性追蹤組態選項。  
   
 -   所有現成傳輸都包含標示為機密的密碼，因此無法追蹤這些傳輸。  
   
@@ -77,7 +77,7 @@ ms.locfileid: "25974636"
 -   如果您追蹤網路上輸出的訊息內文，訊息追蹤會從已追蹤訊息內文的捷徑移除所有傳輸屬性。 因此，訊息追蹤除了從已追蹤訊息內文的捷徑移除所有的輸出傳輸屬性外，也會從輸入傳輸移除屬性。  
   
     > [!IMPORTANT]
-    >  升級的屬性可以包含機密資料。 如果追蹤查詢，從 [群組中樞] 頁面會追蹤用來包含機密資料的屬性，以執行追蹤查詢的權限的任何使用者可以檢視這項資料。  
+    >  升級的屬性可以包含機密資料。 如果從 [群組中樞] 頁面的追蹤查詢追蹤的屬性，其中包含機密資料，以執行追蹤查詢的權限的任何使用者可以檢視此資料。  
   
-## <a name="see-also"></a>請參閱  
- [使用 BizTalk Server 管理主控台設定追蹤](http://msdn.microsoft.com/en-us/49b7f9d3-60b5-41bd-ba8b-029253926bef)
+## <a name="see-also"></a>另請參閱  
+ [使用 BizTalk Server 管理主控台設定追蹤](http://msdn.microsoft.com/49b7f9d3-60b5-41bd-ba8b-029253926bef)
