@@ -141,7 +141,7 @@ ms.locfileid: "36976135"
 
     1.  啟動 IIS 管理主控台。  按一下 **開始**，指向**系統管理工具**，然後按一下**Internet Information Services**。  
 
-    2.  瀏覽至您用來發行服務的節點。  如果服務已為發行 http://localhost/myservice， 瀏覽至**Internet Information Services**> **電腦名稱**> **網站**>  **Default Web Site**> **myservice**。  
+    2.  瀏覽至您用來發行服務的節點。  如果服務已為發行 http://localhost/myservice ， 瀏覽至**Internet Information Services**> **電腦名稱**> **網站**>  **Default Web Site**> **myservice**。  
 
     3.  在右窗格中，請在.svc 檔案中，以滑鼠右鍵按一下，，然後按一下**瀏覽**。 網頁會顯示與服務的相關資訊。 您現在可以使用從用戶端應用程式的 WCF 或 Web 服務呼叫，以使用這項服務。 
 
