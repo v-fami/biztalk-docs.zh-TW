@@ -50,7 +50,7 @@ ms.locfileid: "36994591"
 |在 Aggregator 資料夾中：<br /><br /> Aggregate.odx|協調流程，其可將相互關聯的訊息收集在一起，然後執行傳送管線，將這些訊息組合成單一個交換。|  
 |在 [Aggregate] 資料夾中：<br /><br /> SuspendMessage.odx|協調流程，用於擱置無法在彙總協調流程內處理的訊息。|  
 |在 PipelinesAndSchemas 資料夾中：<br /><br /> FFReceivePipeline.btp|具有一般檔案解譯器的接收管線|  
-|在 PipelinesAndSchemas 資料夾中：<br /><br /> Instance1.txt、Instance2.txt、Instance3.txt、Instance4.txt|此範例的文件執行個體。 Instance1.txt 和 instance2.txt 都應該加入到目的地夥伴交換[ http://www.contoso.com ](http://www.contoso.com/)雖然而 Instance3.txt 和 Instance4.txt 應該加入到目的地夥伴交換[ http://www.northwind.com](http://www.northwind.com/).|  
+|在 PipelinesAndSchemas 資料夾中：<br /><br /> Instance1.txt、Instance2.txt、Instance3.txt、Instance4.txt|此範例的文件執行個體。 Instance1.txt 和 instance2.txt 都應該加入到目的地夥伴交換 [ http://www.contoso.com ](http://www.contoso.com/) 雖然而 Instance3.txt 和 Instance4.txt 應該加入到目的地夥伴交換 [ http://www.northwind.com](http://www.northwind.com/) .|  
 |在 PipelinesAndSchemas 資料夾中：<br /><br /> Invoice.xsd、InvoiceEnvelope.xsd|輸出交換的文件結構描述和信封結構描述。|  
 |在 PipelinesAndSchemas 資料夾中：<br /><br /> PipelinesAndSchemas.btproj|結構描述和管線的 BizTalk 專案。|  
 |在 PipelinesAndSchemas 資料夾中：<br /><br /> PropertySchema.xsd|此範例的屬性結構描述。|  
@@ -92,9 +92,9 @@ ms.locfileid: "36994591"
   
 1.  開啟位於 PipelinesAndSchemas 資料夾中的 Instance1.txt 和 Instance2.txt 檔案，檢查其內容。  
   
-     請注意，在檔案的 DestinationPartnerURI 項目包含值http://www.contoso.com 。 這個值會用來將這兩個訊息相互關聯，如此它們就可加入到同一個交換中。  
+     請注意，在檔案的 DestinationPartnerURI 項目包含值 http://www.contoso.com 。 這個值會用來將這兩個訊息相互關聯，如此它們就可加入到同一個交換中。  
   
-     同樣地 Instance3.txt 和 Instance4.txt 檔案具有 DestinationPatnerURI 項目設為http://www.northwind.com 。  
+     同樣地 Instance3.txt 和 Instance4.txt 檔案具有 DestinationPatnerURI 項目設為 http://www.northwind.com 。  
   
      這兩個訊息會一起加入到另一個交換中。  
   

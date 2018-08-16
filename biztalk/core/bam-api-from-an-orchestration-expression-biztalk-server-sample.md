@@ -77,7 +77,7 @@ ms.locfileid: "29710981"
     |Phone|Phone|  
     |Total|PoTotal|  
   
-11. 按一下資料夾圖示的箭號 (![資料夾和向上按鈕 &#45; 箭號](../core/media/abccd08b-2b01-49c6-80ed-a032bbbd10d4.gif "abccd08b-2b01-49c6-80ed-a032bbbd10d4")) 以顯示協調流程。  
+11. 按一下資料夾圖示的箭號 (![資料夾和向上按鈕 & #45; 箭號](../core/media/abccd08b-2b01-49c6-80ed-a032bbbd10d4.gif "abccd08b-2b01-49c6-80ed-a032bbbd10d4")) 以顯示協調流程。  
   
 12. 拖放到 **Receive_1** 在右窗格中的圖形 **Received** 的左窗格中。  
   

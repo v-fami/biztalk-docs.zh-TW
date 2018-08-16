@@ -48,7 +48,7 @@ ms.locfileid: "29710253"
   
 5.  在 **增益集** 對話方塊中，選取 **商務活動監控** 核取方塊，，然後按一下  **確定**。  
   
-     ![新增 &#45; 增益集 對話方塊](../core/media/addins.gif "增益集")  
+     ![新增 & #45; 增益集 對話方塊](../core/media/addins.gif "增益集")  
   
 ## <a name="errorobject-library-invalid-or-contains-references-to-object-definitions-that-could-not-be-found-with-bam-excel-add-in-in-office"></a>Office 的 BAM Excel 增益集發生錯誤：「物件程式庫無效或包含找不到的物件定義參照」。  
  升級為 Microsoft Excel 後，嘗試使用 BAM Excel 增益集時，可能會發生這個錯誤。  
