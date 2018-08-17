@@ -52,7 +52,7 @@ DynamicSendPort(Microsoft.XLANGs.BaseTypes.TransportType)="WCF-Custom";
 - 有些位址可對應至多個配接器。 例如，http:// 或 https:// 開頭的位址可以由 HTTP 配接器和 WCF-BasicHttp、WCF-WsHttp 或 WCF-Custom 配接器處理。 上方範例程式碼的另一個範例為：這兩種配接器都使用開頭為 net.tcp:// 的位址，不過因為第二個範例程式碼使用自訂繫結，所以應該使用 WCF-Custom 處理位址。 因此，若要識別正確的配接器，您必須設定選擇性**Microsoft.XLANGs.BaseTypes.TransportType**欄位中**運算式**您想要使用的配接器的圖形。  
   
   > [!NOTE]
-  >  如果位址開頭為 http:// 或 https://， 而且如果您未指定 **Microsoft.XLANGs.BaseTypes.TransportType**  欄位中，根據預設，BizTalk 引擎會使用 HTTP 配接器。  
+  >  如果位址開頭為 http:// 或 https:// , 而且如果您未指定 **Microsoft.XLANGs.BaseTypes.TransportType**  欄位中，根據預設，BizTalk 引擎會使用 HTTP 配接器。  
   
 - **WCF。BindingType**依名稱識別繫結。 可以是下列其中一項：  
   
