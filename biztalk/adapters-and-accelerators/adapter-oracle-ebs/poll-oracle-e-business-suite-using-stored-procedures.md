@@ -155,7 +155,7 @@ ms.locfileid: "36990911"
 
 |通訊埠|屬性|  
 |----------|----------------|  
-|因為 ACCOUNTACTIVITY 資料表沒有記錄現在PolledDataAvailableStatement不會傳回正值，因此配接器不會執行指定的陳述式PollingStatement繫結屬性。|如此一來，配接器用戶端不會取得任何輪詢訊息。*<br /><br /> 某些記錄明確插入 ACCOUNTACTIVITY 資料表之前，配接器用戶端不會收到任何其他的輪詢訊息。*<br /><br /> -設定**通訊模式**到*單向*<br /><br /> -設定**通訊方向**到*接收*|  
+|OracleReceivePort|-設定**識別碼**到*OracleReceivePort*<br /><br /> -設定**型別**到*OracleReceivePortType*<br /><br /> -設定**通訊模式**到*單向*<br /><br /> -設定**通訊方向**到*接收*|  
 |SaveMessagePort|-設定**識別碼**到*SaveMessagePort*<br /><br /> -設定**型別**到*SaveMessagePortType*<br /><br /> -設定**通訊模式**到*單向*<br /><br /> -設定**通訊方向**到*傳送*|  
 
 ### <a name="specify-messages-for-action-shapes-and-connect-to-ports"></a>為動作圖形指定訊息，並連接到連接埠  
@@ -163,8 +163,8 @@ ms.locfileid: "36990911"
 
 |形狀圖|屬性|  
 |-----------|----------------|  
-|ReceiveMessage|若要插入多筆記錄，您可以執行 more_activity_data.sql 指令碼提供範例。*<br /><br /> 在下一次執行此指令碼之後, **PolledDataAvailableStatement**會執行，它會傳回正值。*|  
-|SaveMessage|若要插入多筆記錄，您可以執行 more_activity_data.sql 指令碼提供範例。*<br /><br /> 如此一來，配接器執行輪詢陳述式，並再次接收配接器用戶端的輪詢訊息。*|  
+|ReceiveMessage|-設定**訊息**到*接收*<br /><br /> -設定**作業**到*OracleReceivePort.Polling.Request*|  
+|SaveMessage|-設定**訊息**到*接收*<br /><br /> -設定**作業**到*OracleReceivePort.Polling.Request*|  
 
  您指定這些屬性之後，連線的訊息 圖形和連接埠和協調流程已完成。  
 
