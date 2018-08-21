@@ -28,7 +28,7 @@ ms.locfileid: "36984783"
   
  標準解譯器和組合器元件使用結構描述類型名稱及訊息類型以支援擷取部署的結構描述。 部分元件使用結構描述類型名稱和訊息類型來擷取，而其他元件 (例如，一般檔案解譯器) 則僅使用結構描述類型來擷取。  
   
- 接收 XML 訊息的管線元件以檢查訊息根項目和命名空間的方式來判斷訊息。 例如，下列 XML 的訊息類型是"<http://MyDocument.org#MyDocument>」。  
+ 接收 XML 訊息的管線元件以檢查訊息根項目和命名空間的方式來判斷訊息。 例如，下列 XML 的訊息類型是 "<http://MyDocument.org#MyDocument>” 。  
   
 ```  
 <ns0:MyDocument xmlns:ns0="http://MyDocument.org">  
