@@ -1,1 +1,1 @@
-<span data-ttu-id="b85a0-101">.NET</span><span class="sxs-lookup"><span data-stu-id="b85a0-101">.NET</span></span>
+<span data-ttu-id="d28dd-101">.NET</span><span class="sxs-lookup"><span data-stu-id="d28dd-101">.NET</span></span>
