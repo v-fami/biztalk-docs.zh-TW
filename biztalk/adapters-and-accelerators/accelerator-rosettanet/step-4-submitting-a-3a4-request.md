@@ -24,7 +24,7 @@ ms.locfileid: "25965572"
 # <a name="step-4-submitting-a-3a4-request"></a>步驟 4： 提交 3A4 要求
 在此步驟中，您將使用「3A4 - 訂單要求」的夥伴介面程序 (PIP) 來準備並提交要求。 這個 PIP 可以讓購買者組織提交訂單要求至供應商。 一般而言，當您使用「3A2 - 要求價格與可用性」PIP 執行產品可用性查詢之後，就會發出「3A4 - 訂單要求」。 3A4 PIP 是傳送回條確認的非同步 PIP。  
   
- ![&#60;沒有變更 &#62;] (../../adapters-and-accelerators/accelerator-rosettanet/media/rn3-intro-eetut-3a4flow.gif "RN3_Intro_EETut_3A4Flow")  
+ ![& #60;沒有變更 & #62;](../../adapters-and-accelerators/accelerator-rosettanet/media/rn3-intro-eetut-3a4flow.gif "RN3_Intro_EETut_3A4Flow")  
   
 ### <a name="to-submit-a-3a4---request-purchase-order"></a>提交 3A4 - 訂單要求  
   

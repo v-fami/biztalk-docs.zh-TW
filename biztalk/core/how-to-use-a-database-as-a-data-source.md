@@ -37,7 +37,7 @@ ms.locfileid: "22255710"
   
 4.  選取驗證類型。 若您選擇 SQL 驗證，請輸入登入名稱和密碼。 當您輸入驗證資訊時，請按一下**確定**。  
   
-     ![資料庫樹狀結構瀏覽器的螢幕擷取畫面。] (../core/media/ebiz-dbbrows.gif "ebiz_dbbrows")  
+     ![資料庫樹狀結構瀏覽器的螢幕擷取畫面。](../core/media/ebiz-dbbrows.gif "ebiz_dbbrows")  
 瀏覽資料庫  
   
 > [!NOTE]

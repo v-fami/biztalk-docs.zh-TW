@@ -32,4 +32,4 @@ ms.locfileid: "25968940"
   
  **使用者動作**  
   
- 選取指定**索引**運算質，按一下省略符號 (**...**) 相關聯的按鈕**輸入參數**屬性在 microsoft[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]屬性 視窗中，然後在**設定\<運算質\>運算質**對話方塊中，刪除多餘的索引輸入參數，選取並按一下![ ] (../core/media/bts-tls-paramdelete.gif "bts_tls_paramdelete")為每個按鈕。
+ 選取指定**索引**運算質，按一下省略符號 (**...**) 相關聯的按鈕**輸入參數**屬性在 microsoft[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]屬性 視窗中，然後在**設定\<運算質\>運算質**對話方塊中，刪除多餘的索引輸入參數，選取並按一下![](../core/media/bts-tls-paramdelete.gif "bts_tls_paramdelete")為每個按鈕。

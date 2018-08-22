@@ -56,8 +56,8 @@ ms.locfileid: "22269918"
   
  **呼叫端協調流程 （主要）**  
   
- ![呼叫協調流程 &#40; 主要 &#41;] (../core/media/bts-trans-orch-fig9.gif "BTS_Trans_Orch_Fig9")  
+ ![呼叫協調流程 & #40; 主要 & #41;](../core/media/bts-trans-orch-fig9.gif "BTS_Trans_Orch_Fig9")  
   
  **呼叫端協調流程 （補償）**  
   
- ![呼叫協調流程 &#40; 補償 &#41;] (../core/media/bts-trans-orch-fig10.gif "BTS_Trans_Orch_Fig10")
+ ![呼叫協調流程 & #40; 補償 & #41;](../core/media/bts-trans-orch-fig10.gif "BTS_Trans_Orch_Fig10")

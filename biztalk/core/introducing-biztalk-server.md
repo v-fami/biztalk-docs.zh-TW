@@ -62,7 +62,7 @@ BizTalk Server 也會使用其他 Microsoft 技術的最新版本。 它建置�
   
  下圖顯示套用到 EAI 問題之核心 BizTalk Server 引擎的簡單範例。 在此案例中，庫存應用程式，也許在 IBM 大型主機上執行，注意到某一項目的庫存不足，然後發出要求訂購更多該項目。 此要求會傳送到 BizTalk Server 協調流程 (步驟 1)，然後發出要求給組織的 ERP 應用程式以要求訂單 (步驟 2)。 ERP 應用程式可能在 Unix 系統上執行，且會傳回要求的 PO (步驟 3)，而 BizTalk Server 協調流程則會通知履行應用程式 (可能使用 .NET Framework 建置在 Windows 上) 應該訂購該項目 (步驟 4)。  
   
- ![BizTalk 引擎中實作的 EAI。] (../core/media/7d8558da-03cf-494b-8334-efe0ea15a6a7.gif "7d8558da-03cf-494b-8334-efe0ea15a6a7")  
+ ![BizTalk 引擎中實作的 EAI。](../core/media/7d8558da-03cf-494b-8334-efe0ea15a6a7.gif "7d8558da-03cf-494b-8334-efe0ea15a6a7")  
   
  在此範例中，每一個應用程式都使用不同的通訊協定進行溝通。 因此，BizTalk Server 引擎的傳訊元件必須可以用原生通訊樣式與每一個應用程式溝通。 另外，注意不只單一應用程式知道完整的商務程序。 協調所有相關軟體所需的情報實作於 BizTalk Server 協調流程中。  
   

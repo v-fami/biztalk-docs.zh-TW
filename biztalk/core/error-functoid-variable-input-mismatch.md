@@ -40,4 +40,4 @@ ms.locfileid: "36984959"
 
 - 若要移除現有連結，每個連接至指定的運算質左邊連結上按一下滑鼠右鍵然後**刪除**。  
 
-- 若要移除現有連結，選取指定的運算質，請按一下省略符號 (**...**) 按鈕相關聯**輸入參數**中的屬性[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]屬性 視窗中，然後在**設定\<運算質\>運算質**對話方塊中，刪除所有輸入參數，選取並按一下![ ] (../core/media/bts-tls-paramdelete.gif "bts_tls_paramdelete")為每個按鈕。 您必須使用此方式來刪除常數輸入參數。
+- 若要移除現有連結，選取指定的運算質，請按一下省略符號 (**...**) 按鈕相關聯**輸入參數**中的屬性[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]屬性 視窗中，然後在**設定\<運算質\>運算質**對話方塊中，刪除所有輸入參數，選取並按一下![](../core/media/bts-tls-paramdelete.gif "bts_tls_paramdelete")為每個按鈕。 您必須使用此方式來刪除常數輸入參數。

@@ -27,7 +27,7 @@ ms.locfileid: "22231974"
 您可以將條件加入至**迴圈**運算質所連結的輸出**迴圈**運算質和**邏輯**運算質到相同目的記錄。 只有在邏輯條件相符時，才會建立目的記錄。  
   
 ## <a name="conditional-looping-map"></a>條件式迴圈對應  
- ![說明條件式迴圈運算質的對應。] (../core/media/loopingconditionalfunctoid.gif "loopingconditionalfunctoid")  
+ ![說明條件式迴圈運算質的對應。](../core/media/loopingconditionalfunctoid.gif "loopingconditionalfunctoid")  
   
  在上圖中，第一個**等於**運算質會**名稱**欄位底下 **[foodsurvey]** 至"Wendy wheeler"做比較。 第二個**等於**運算質會**名稱**欄位底下 **[flowersurvey]** 至"Kelly focht"做比較。 因此，對應會建立目的地**位址**記錄只會針對兩個名稱。 使用中的範例資料**迴圈**運算質範例中，輸出執行個體訊息會顯示如下。  
   

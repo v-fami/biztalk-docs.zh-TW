@@ -30,7 +30,7 @@ ms.locfileid: "22238334"
 # <a name="creating-maps-using-biztalk-mapper"></a>使用 BizTalk 對應工具建立對應
 「BizTalk 對應工具」是在 Microsoft [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 環境中執行的工具。 您可以使用 BizTalk 對應工具建立和編輯對應，以轉譯或轉換 XML 訊息。 對應可以用於協調流程 (如下圖所示)，也可以用於處理接收埠所接收的訊息，接著加以轉換然後透過傳送埠傳送出去。  
   
- ![當對應的商務處理圖表。] (../core/media/ebiz-dev-busprcsg.gif "ebiz_dev_busprcsg")  
+ ![當對應的商務處理圖表。](../core/media/ebiz-dev-busprcsg.gif "ebiz_dev_busprcsg")  
 商務處理中的對應  
   
  對應可讓您轉譯和轉換訊息。 轉譯是將訊息從一種格式轉換為另一種格式的程序，例如將一般檔案轉換為 XML 檔案。 轉換則是擷取某個訊息中的資訊，並將該資訊插入另一個訊息的程序。 例如，您可以擷取採購單中的送貨和帳單地址，並將這些地址插入發票文件。  

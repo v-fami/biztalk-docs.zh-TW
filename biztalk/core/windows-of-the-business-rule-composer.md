@@ -29,7 +29,7 @@ ms.locfileid: "22289942"
   
  下圖顯示「商務規則編輯器」。 [原則總管] 視窗可讓您建立內含一或多個規則的原則。 [事實總管] 視窗可讓您瀏覽事實 (XML、資料庫和 .NET)，並將事實拖曳至 [條件編輯器] 視窗或 [動作編輯器] 視窗。 [條件編輯器] 視窗可讓您指定規則的條件。 [動作編輯器] 視窗可讓您指定當條件評估為 True 時執行的動作。  
   
- ![商務規則編輯器區域的螢幕擷取畫面。] (../core/media/bcd-ebiz-composerfulls.gif "bcd_ebiz_composerfulls")  
+ ![商務規則編輯器區域的螢幕擷取畫面。](../core/media/bcd-ebiz-composerfulls.gif "bcd_ebiz_composerfulls")  
 Business Rule Composer (商務規則編輯器)  
   
 > [!NOTE]

@@ -57,7 +57,7 @@ ms.locfileid: "36984663"
 
 9. 當 windows 7 **PollWhileDataFound**設為"True"。  
 
-   ![輪詢案例&#40;PollWhileDataFound&#61;False&#41;](../../adapters-and-accelerators/adapter-oracle-ebs/media/e5f00f4c-cc76-4e8b-9991-b4471f9d4865.gif "e5f00f4c-cc76-4e8b-9991-b4471f9d4865") ![輪詢案例&#40;PollWhileDataFound &#61; True&#41; ] (../../adapters-and-accelerators/adapter-oracle-ebs/media/ebecf64c-a770-4525-9c75-62fdb71e1fb1.gif "ebecf64c-a770-4525-9c75-62fdb71e1fb1")  
+   ![輪詢案例&#40;PollWhileDataFound&#61;False&#41;](../../adapters-and-accelerators/adapter-oracle-ebs/media/e5f00f4c-cc76-4e8b-9991-b4471f9d4865.gif "e5f00f4c-cc76-4e8b-9991-b4471f9d4865") ![輪詢案例&#40;PollWhileDataFound &#61; True&#41; ](../../adapters-and-accelerators/adapter-oracle-ebs/media/ebecf64c-a770-4525-9c75-62fdb71e1fb1.gif "ebecf64c-a770-4525-9c75-62fdb71e1fb1")  
 
 ## <a name="differences-between-polling-and-notification"></a>輪詢和通知之間的差異  
  輪詢和通知都是這兩個輸入的作業，而且有關 Oracle 資料庫中的資料變更通知配接器用戶端，但下表列出兩者之間的一些差異。 下列差異將協助您決定的作業，視您的需求而定：  

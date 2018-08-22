@@ -132,7 +132,7 @@ ms.locfileid: "36978471"
   
 2.  在樹狀檢視窗格中 (標示**組態**)，展開節點樹狀結構。 按一下 **進階**資料夾中，按一下**延伸模組**資料夾，然後再選取繫結延伸模組項目。  
   
-     ![服務組態編輯器。] (../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/0a44a070-b788-4287-bd9e-c946fafcf11c.gif "0a44a070-b788-4287-bd9e-c946fafcf11c")  
+     ![服務組態編輯器。](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/0a44a070-b788-4287-bd9e-c946fafcf11c.gif "0a44a070-b788-4287-bd9e-c946fafcf11c")  
   
 3.  建立新的繫結延伸模組。 按一下 [**的新**按鈕以開啟延伸模組**組態項目編輯器**] 對話方塊。 在 **組態名稱**，輸入唯一的名稱，擴充功能，例如*MyAdapterExtension*。  
   
@@ -144,13 +144,13 @@ ms.locfileid: "36978471"
   
 6.  按一下您的配接器組件。  
   
-     ![建置延伸模組類型瀏覽器。] (../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/7528e218-8930-4b01-b29d-8ec125a9b818.gif "7528e218-8930-4b01-b29d-8ec125a9b818")  
+     ![建置延伸模組類型瀏覽器。](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/7528e218-8930-4b01-b29d-8ec125a9b818.gif "7528e218-8930-4b01-b29d-8ec125a9b818")  
   
 7.  按一下 **開啟**按鈕以選取的組件。  
   
 8.  在 **繫結延伸模組類型瀏覽器**對話方塊方塊中，按一下 實作繫結集合項目型別名稱。  
   
-     ![建置延伸模組類型瀏覽器。] (../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/a5db2c6b-cdf7-4cd9-8cc4-6b0fb960b1ce.gif "a5db2c6b-cdf7-4cd9-8cc4-6b0fb960b1ce")  
+     ![建置延伸模組類型瀏覽器。](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/a5db2c6b-cdf7-4cd9-8cc4-6b0fb960b1ce.gif "a5db2c6b-cdf7-4cd9-8cc4-6b0fb960b1ce")  
   
 9. 按一下 **開啟**按鈕以選取的類型。  
   
@@ -158,7 +158,7 @@ ms.locfileid: "36978471"
   
 11. 在詳細資料窗格中的**繫結延伸模組編輯器**，確認您的繫結延伸模組會出現。 在下圖中，MyAdapterExtension 會反白顯示。  
   
-     ![具有新增延伸模組的服務組態編輯器。] (../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/955d37ea-cba5-49db-90de-0f8feb49c0e0.gif "955d37ea-cba5-49db-90de-0f8feb49c0e0")  
+     ![具有新增延伸模組的服務組態編輯器。](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/955d37ea-cba5-49db-90de-0f8feb49c0e0.gif "955d37ea-cba5-49db-90de-0f8feb49c0e0")  
   
 12. 關閉**服務組態編輯器**。  
   

@@ -30,7 +30,7 @@ ms.locfileid: "22268862"
 # <a name="receive-pipelines"></a>接收管線
 下圖顯示訊息處理工作流程，並以反白顯示接收管線。  
   
- ![訊息處理工作流程的圖表。] (../core/media/ebiz-dev-busprcsb.gif "ebiz_dev_busprcsb")  
+ ![訊息處理工作流程的圖表。](../core/media/ebiz-dev-busprcsb.gif "ebiz_dev_busprcsb")  
 描述訊息處理工作流程。  
   
  在接收配接器收到訊息之後，接收管線會在訊息上作業。 接收管線取得初始訊息，執行部分轉換，然後將原始資料解譯成零個、一個或多個訊息。 然後，BizTalk Server 可以處理這些個別訊息。  

@@ -30,7 +30,7 @@ ms.locfileid: "22262150"
   
  將來源結構描述之迴圈記錄中的欄位連結到目的結構描述之迴圈記錄中的欄位，您就可以在對應中設定迴圈路徑。 下圖顯示僅將食物調查記錄複製到主要地址清單的對應。  
   
- ![說明迴圈路徑用法的對應。] (../core/media/correct-loop-path-map.gif "correct_loop_path_map")  
+ ![說明迴圈路徑用法的對應。](../core/media/correct-loop-path-map.gif "correct_loop_path_map")  
 迴圈路徑對應  
   
 ## <a name="multiple-loop-paths"></a>多個迴圈路徑  
@@ -41,7 +41,7 @@ ms.locfileid: "22262150"
   
  此對應不會產生預期的結果。 當對應工具在編譯期間遇到多個迴圈路徑時，它會產生警告，並依預設選取第一個迴圈路徑。 若要將兩個不同的地址結合成單一主要地址清單中，使用**迴圈**運算質，如以下對應所示。  
   
- ![迴圈運算質用法的對應。] (../core/media/loopingfunctoid.gif "loopingfunctoid")  
+ ![迴圈運算質用法的對應。](../core/media/loopingfunctoid.gif "loopingfunctoid")  
 迴圈運算值對應 (正確)  
   
  **迴圈**應該使用運算質，而不是在下列案例中的多個迴圈路徑：  

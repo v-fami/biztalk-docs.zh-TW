@@ -30,5 +30,5 @@ ms.locfileid: "37011671"
   
 3. 在 [**結構描述檔案**] 對話方塊中，選取一個 XSD 檔案，，然後按一下**開啟**。  
   
-   ![事實總管對話方塊的螢幕擷取畫面。] (../core/media/ebiz-bre-factsexplorer-xml.gif "ebiz_bre_factsexplorer_xml")  
+   ![事實總管對話方塊的螢幕擷取畫面。](../core/media/ebiz-bre-factsexplorer-xml.gif "ebiz_bre_factsexplorer_xml")  
    瀏覽 XML 結構描述

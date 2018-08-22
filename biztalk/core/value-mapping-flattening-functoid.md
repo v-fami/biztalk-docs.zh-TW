@@ -53,7 +53,7 @@ ms.locfileid: "22287870"
   
  下圖顯示執行此轉換的對應。  
   
- ![對應來源記錄使用運算質。] (../core/media/valuemappingflattenfunctoid.gif "valuemappingflattenfunctoid")  
+ ![對應來源記錄使用運算質。](../core/media/valuemappingflattenfunctoid.gif "valuemappingflattenfunctoid")  
 值對應 (簡維) 運算質對應  
   
  **值對應 （簡維）** 運算質會傳回其第二個參數的值，如果第一個參數為 true。 在此圖中，第一個**等於**運算質會測試**名稱**屬性等於"Material"。 如果屬性等於"Material"，**等於**運算質會傳回**True**。 接著，這會導致**值對應 （簡維）** 指派的值，運算質**值**屬性設定為輸出訊息中的欄位。  

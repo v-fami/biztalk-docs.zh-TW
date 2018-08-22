@@ -29,7 +29,7 @@ ms.locfileid: "22270174"
 # <a name="send-pipelines"></a>傳送管線
 下圖顯示訊息處理工作流程，其中會反白傳送管線。  
   
- ![為處理訊息的工作流程的圖表。] (../core/media/ebiz-dev-busprcsadptc.gif "ebiz_dev_busprcsadptc")  
+ ![為處理訊息的工作流程的圖表。](../core/media/ebiz-dev-busprcsadptc.gif "ebiz_dev_busprcsadptc")  
 描述訊息處理工作流程。  
   
  傳送管線的責任是必須在傳送文件到最終目的地前先處理文件。 傳送管線會先取得訊息，然後產生要傳送的訊息。  

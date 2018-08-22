@@ -35,4 +35,4 @@ ms.locfileid: "22256630"
     > [!NOTE]
     >  組件必須位在全域組件快取 (GAC) 中。 當您瀏覽.NET 組件中，「 商務規則編輯器 」 會載入.NET 組件**事實總管**視窗或在 **.NET 類別或類別成員定義**頁面**詞彙定義**視窗。  如果您在 GAC 中更新此組件，請關閉商務規則編輯器並將它重新啟動，以載入更新的 .NET 組件。 商務規則編輯器並不會自動重新整理此組件。  
   
-     ![事實和定義樹狀結構瀏覽器的螢幕擷取畫面。] (../core/media/ebiz-netbrowse.gif "ebiz_netbrowse")
+     ![事實和定義樹狀結構瀏覽器的螢幕擷取畫面。](../core/media/ebiz-netbrowse.gif "ebiz_netbrowse")
