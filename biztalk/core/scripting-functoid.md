@@ -56,7 +56,7 @@ ms.locfileid: "36982351"
   
  下圖顯示如何**指令碼處理**運算質出現在圖中使用 C#.Net script 重新格式化電話號碼。  
   
- ![使用 C 對應&#35;格式化電話號碼。] (../core/media/scriptingfunctoid.gif "scriptingfunctoid")  
+ ![使用 C 對應&#35;格式化電話號碼。](../core/media/scriptingfunctoid.gif "scriptingfunctoid")  
 指令碼處理運算質對應  
   
 ## <a name="in-this-section"></a>本節內容  

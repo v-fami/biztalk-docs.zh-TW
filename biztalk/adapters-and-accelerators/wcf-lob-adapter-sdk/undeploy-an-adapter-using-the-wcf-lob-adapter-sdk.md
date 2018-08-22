@@ -82,7 +82,7 @@ ms.locfileid: "36974583"
   
 3.  在繫結延伸模組編輯器的詳細資料窗格中，按一下您想要刪除此項目，然後按一下 繫結延伸模組**刪除**。 在下圖中，MyAdapterExtension 會反白顯示，並將被刪除。  
   
-     ![具有新增延伸模組的服務組態編輯器。] (../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/955d37ea-cba5-49db-90de-0f8feb49c0e0.gif "955d37ea-cba5-49db-90de-0f8feb49c0e0")  
+     ![具有新增延伸模組的服務組態編輯器。](../../adapters-and-accelerators/wcf-lob-adapter-sdk/media/955d37ea-cba5-49db-90de-0f8feb49c0e0.gif "955d37ea-cba5-49db-90de-0f8feb49c0e0")  
   
 4.  關閉 [服務組態編輯器]。  
   

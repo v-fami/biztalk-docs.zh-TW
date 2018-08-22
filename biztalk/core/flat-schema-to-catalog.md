@@ -50,7 +50,7 @@ ms.locfileid: "36999039"
   
  下圖顯示執行此轉換的對應。  
   
- ![示範如何使用 「 迴圈 」 運算質的對應。] (../core/media/loopingflattenfunctoid.gif "loopingflattenfunctoid")  
+ ![示範如何使用 「 迴圈 」 運算質的對應。](../core/media/loopingflattenfunctoid.gif "loopingflattenfunctoid")  
 迴圈運算質、一般結構描述對應  
 
 ## <a name="set-the-schema"></a>將結構描述  

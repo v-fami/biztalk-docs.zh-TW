@@ -41,7 +41,7 @@ ms.locfileid: "36979391"
   
   您透過商務規則架構所建立的商務規則 (原則) 可用於協調的商務程序中，如下圖所示。  
   
-  ![此圖表顯示在程序中的內含式商務原則。] (../core/media/ebiz-dev-busprcsi.gif "ebiz_dev_busprcsi")  
+  ![此圖表顯示在程序中的內含式商務原則。](../core/media/ebiz-dev-busprcsi.gif "ebiz_dev_busprcsi")  
   商務原則  
   
   本章節提供一些概念性資訊，讓您瞭解如何利用商務規則架構及使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 提供的工具來開發商務規則。  

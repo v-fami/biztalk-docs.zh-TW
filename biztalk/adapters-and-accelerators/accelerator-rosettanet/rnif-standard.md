@@ -54,7 +54,7 @@ RosettaNet 實作架構 (RNIF) 標準定義系統傳送 RosettaNet 訊息的方�
   
  下圖描述 RNIF 1.1 與 RNIF 2.01 訊息定義。  
   
- ![&#60;沒有變更 &#62;] (../../adapters-and-accelerators/accelerator-rosettanet/media/rn3-rnif-message-definitions.gif "RN3_RNIF_Message_Definitions")  
+ ![& #60;沒有變更 & #62;](../../adapters-and-accelerators/accelerator-rosettanet/media/rn3-rnif-message-definitions.gif "RN3_RNIF_Message_Definitions")  
   
  在 RNIF 1.1 訊息中，版本號碼代表 RNIF 版本。 內容長度等於 RosettaNet 服務訊息 (Service Message) 的長度。 「服務訊息」包含了前序、服務標頭以及服務內容，是 multipart/related 的 MIME 實體。 簽章長度等於簽章的長度 (以位元組為單位)。 如果有簽章，即為服務訊息欄位上的「公開金鑰加密標準」(Public-Key Cryptography Standards，PKCS) #7 簽章。  
   

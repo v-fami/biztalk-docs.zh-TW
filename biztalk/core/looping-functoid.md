@@ -29,7 +29,7 @@ ms.locfileid: "22262838"
 > [!NOTE]
 >  **迴圈** 和 **值對應 （簡維）** 運算質不應在一起。 如果一起使用，就會產生編譯的對應，假設沒有來源迴圈相依性的目標節點下方的 **迴圈** 運算質。  
   
- ![迴圈運算質用法的對應。] (../core/media/loopingfunctoid.gif "loopingfunctoid")  
+ ![迴圈運算質用法的對應。](../core/media/loopingfunctoid.gif "loopingfunctoid")  
   
  **FoodSurvey** 和 **[flowersurvey]** 將來源結構描述的迴圈記錄對應至迴圈 **位址** 記錄目的結構描述。 如果輸入執行個體訊息有三個 **FoodSurvey** 記錄和兩個 **[flowersurvey]** 記錄 **迴圈**運算質結合這些元件，以建立五個 **位址** 輸出執行個體訊息中的記錄。  
   

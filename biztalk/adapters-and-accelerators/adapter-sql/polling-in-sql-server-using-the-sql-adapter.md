@@ -72,7 +72,7 @@ ms.locfileid: "36967127"
   
 2. 當 windows 7 **PollWhileDataFound**設為"True"。  
   
-   ![輪詢工作流程&#40;PollWhileDataFound &#61; False&#41;](../../adapters-and-accelerators/adapter-sql/media/15598c14-3a62-4b8d-90bf-84e004a386db.gif "15598c14-3a62-4b8d-90bf-84e004a386db") ![輪詢工作流程&#40;PollWhileDataFound &#61; True&#41; ] (../../adapters-and-accelerators/adapter-sql/media/c20535be-ea45-4456-8b62-4d4585cb1d8c.gif "c20535be-ea45-4456-8b62-4d4585cb1d8c")  
+   ![輪詢工作流程&#40;PollWhileDataFound &#61; False&#41;](../../adapters-and-accelerators/adapter-sql/media/15598c14-3a62-4b8d-90bf-84e004a386db.gif "15598c14-3a62-4b8d-90bf-84e004a386db") ![輪詢工作流程&#40;PollWhileDataFound &#61; True&#41; ](../../adapters-and-accelerators/adapter-sql/media/c20535be-ea45-4456-8b62-4d4585cb1d8c.gif "c20535be-ea45-4456-8b62-4d4585cb1d8c")  
   
 ## <a name="differences-between-polling-and-query-notification"></a>輪詢和查詢通知之間的差異  
  輪詢和查詢通知是兩個輸入的作業，而且有關 SQL Server 資料庫中的資料變更通知配接器用戶端，但下表列出兩者之間的一些差異。 下列差異將協助您決定的作業，視您的需求而定：  

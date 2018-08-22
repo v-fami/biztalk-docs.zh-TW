@@ -71,7 +71,7 @@ ms.locfileid: "36987135"
 #### <a name="scenario-solution-3---content-based-routing"></a>實例解決方案 3 - 以內容為基礎的路由  
  這個實例定義以內容為基礎的路由 (CBR) 解決方案。 訊息只會抵達其中一個接收埠，而且只傳送至其中一個傳送埠。 這種路由會依據訊息中的內容屬性值產生。 在這種情況下，需要一個接續。 對應看起來會像這樣：  
   
- ![接續 CBR 案例。] (../core/media/4459a73d-515f-4d6d-a68f-b18eee072df8.gif "4459a73d-515f-4d6d-a68f-b18eee072df8")  
+ ![接續 CBR 案例。](../core/media/4459a73d-515f-4d6d-a68f-b18eee072df8.gif "4459a73d-515f-4d6d-a68f-b18eee072df8")  
   
 > [!NOTE]
 >  上述對應也適用於只抵達其中一個接收埠、但會傳送給所有傳送埠的訊息。  

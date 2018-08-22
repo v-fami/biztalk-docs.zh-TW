@@ -119,7 +119,7 @@ ms.locfileid: "36968615"
   
      下圖顯示 EAIProcess 協調流程與所有連接的連接埠。  
   
-     ![具有連接的連接埠的 EAIProcess 協調流程。] (../core/media/tut1-eaiprocessportsconnected.gif "Tut1_EAIProcessPortsConnected")  
+     ![具有連接的連接埠的 EAIProcess 協調流程。](../core/media/tut1-eaiprocessportsconnected.gif "Tut1_EAIProcessPortsConnected")  
   
 ## <a name="what-did-i-just-do"></a>我剛剛做了什麼？  
  在此步驟中，您新增了三個連接埠到 EAIProcess 協調流程，並且加以設定。  

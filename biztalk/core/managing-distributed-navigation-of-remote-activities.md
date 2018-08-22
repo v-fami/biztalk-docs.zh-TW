@@ -37,7 +37,7 @@ ms.locfileid: "37009919"
   
   **在 BAM 中使用分散式的導覽**  
   
-  ![分散式導覽實例。] (../core/media/bcd-distrbuted-nav-scenario.gif "bcd_distrbuted_nav_scenario")  
+  ![分散式導覽實例。](../core/media/bcd-distrbuted-nav-scenario.gif "bcd_distrbuted_nav_scenario")  
   
   系統管理員會想要將其伺服器盡可能設為彼此獨立，如以下說明：  
   

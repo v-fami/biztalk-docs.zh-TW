@@ -56,7 +56,7 @@ ms.locfileid: "22268742"
   
  下圖顯示**記錄計數**運算質，計算的內送訂單中的項目數目，並將該值放入**ItemCount**欄位**SummedPO**輸出執行個體訊息。  
   
- ![地圖顯示的記錄計數運算質使用。] (../core/media/recordcountfunctoid.gif "recordcountfunctoid")  
+ ![地圖顯示的記錄計數運算質使用。](../core/media/recordcountfunctoid.gif "recordcountfunctoid")  
 記錄計數運算質對應  
   
  請注意， **Max Occurs**屬性**項目**會記錄**unbounded**。 這表示**項目**記錄會重複，而 BizTalk 對應工具會編譯為迴圈這筆記錄。  

@@ -70,7 +70,7 @@ ms.locfileid: "37004391"
 
  下圖顯示對應，使用**乘法**運算質並**累計總和**彙總的項目記錄的運算質，從內送訂單，並將結果輸出**POTotal**欄位：  
 
- ![顯示使用 「 累計總和 」 運算質的對應。] (../core/media/cumulativefunctoids.gif "cumulativefunctoids")  
+ ![顯示使用 「 累計總和 」 運算質的對應。](../core/media/cumulativefunctoids.gif "cumulativefunctoids")  
 
 
  此對應使用先前的資料與預設範圍參數值 0 (零) 產生下列輸出：  

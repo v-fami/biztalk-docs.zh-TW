@@ -58,7 +58,7 @@ ms.locfileid: "37005351"
 -   POLLINGSTMT 和通知的作業，可取得輸入的資料從 Oracle 資料庫配接器用戶端。 它也會公開預存程序、 函式和以進行輪詢作業所公開的個別結構描述底下的封裝的清單。  
   
 > [!NOTE]
-> - 藉由使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]，[!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]或[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]，您可以瀏覽類別] 和 [作業] 節點使用 Windows 介面。  
+> - 藉由使用[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]，[!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]或[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]，您可以瀏覽類別 和 [作業] 節點使用 Windows 介面。  
 >   -   SQLEXECUTE、 POLLINGSTMT 和通知的作業會直接在類別目錄樹狀結構中的根節點下。 您必須選取要檢視這些輸入和輸出作業的根節點。  
   
  如需有關瀏覽中繼資料的詳細資訊，請參閱[取得 Visual Studio 中的 Oracle 資料庫作業的中繼資料](../../adapters-and-accelerators/adapter-oracle-database/get-metadata-for-oracle-database-operations-in-visual-studio.md)  
@@ -231,7 +231,7 @@ ms.locfileid: "37005351"
   
     下圖顯示[!INCLUDE[addadapterservrefshort](../../includes/addadapterservrefshort-md.md)]與 SCOTT 的 Insert 和 Update 作業。選取 EMP 資料表。  
   
-    ![已選取 Select 和 Update 作業。] (../../adapters-and-accelerators/adapter-oracle-database/media/4c41ac7b-784a-494c-ac82-c007e22a4fdf.gif "4c41ac7b-784a-494c-ac82-c007e22a4fdf")  
+    ![已選取 Select 和 Update 作業。](../../adapters-and-accelerators/adapter-oracle-database/media/4c41ac7b-784a-494c-ac82-c007e22a4fdf.gif "4c41ac7b-784a-494c-ac82-c007e22a4fdf")  
   
    > [!IMPORTANT]
    >  取決於輸出作業 （或類別），您選取多個一個 WCF 用戶端類別可能會產生。 如需詳細資訊，請參閱 <<c0> [ 產生 WCF 用戶端或 Oracle 資料庫解決方案成品的 WCF 服務合約](../../adapters-and-accelerators/adapter-oracle-database/create-a-wcf-client-or-wcf-service-contract-for-oracle-db-solution-artifacts.md)。  

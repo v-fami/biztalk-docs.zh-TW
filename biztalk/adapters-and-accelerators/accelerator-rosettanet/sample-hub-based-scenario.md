@@ -33,7 +33,7 @@ ms.locfileid: "22210414"
 ## <a name="how-a-hub-based-system-works"></a>中樞架構系統的運作方式  
  在中樞架構系統中，簽約使用整合系統的公司會透過 RNIF 連線連接至中樞公司。 接著中樞公司會使用所需的任何電子連線類型，連接到公司的所有交易夥伴。 中樞公司提供所有交易夥伴的連線選項：RNIF 連線、EDI、一般檔案、Web 應用程式或非相容的專屬連線。 管理通訊系統是中樞公司的責任。 下圖顯示這類系統如何運作。  
   
- ![&#60;沒有變更 &#62;] (../../adapters-and-accelerators/accelerator-rosettanet/media/hub-based-scenario.gif "Hub_Based_Scenario")  
+ ![& #60;沒有變更 & #62;](../../adapters-and-accelerators/accelerator-rosettanet/media/hub-based-scenario.gif "Hub_Based_Scenario")  
   
  中樞架構系統具有許多優點：  
   

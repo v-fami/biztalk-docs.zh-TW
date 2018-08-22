@@ -46,7 +46,7 @@ Microsoft BizTalk Server 主要處理 XML 文件格式。 為能充分利用 Biz
   
   下圖顯示使用管線處理訊息所需的工作流程。  
   
-  ![處理訊息的工作流程的圖表。] (../core/media/ebiz-dev-busprcsadptc.gif "ebiz_dev_busprcsadptc")  
+  ![處理訊息的工作流程的圖表。](../core/media/ebiz-dev-busprcsadptc.gif "ebiz_dev_busprcsadptc")  
   描述訊息處理工作流程。  
   
   如圖所示，訊息從配接器傳送到接收管線，在此轉換為 XML。 然後訊息可供協調流程使用，或傳遞到傳送管線，然後到達傳送配接器。  
