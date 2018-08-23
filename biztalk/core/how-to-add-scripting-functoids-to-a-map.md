@@ -28,11 +28,11 @@ ms.locfileid: "37019136"
   
 ### <a name="to-add-the-scripting-functoid-to-a-map-and-configure-it"></a>新增指令碼處理運算質至對應並設定  
   
-1. 具有[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)][工具箱]，按一下 [**進階運算質**来選取該運算質類別索引標籤。  
+1. 具有[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)][工具箱]，按一下 **進階運算質**来選取該運算質類別索引標籤。  
   
     顯示所選類別中的進階運算質清單。  
   
-2. 拖曳**Scripting**運算質![ ] (../core/media/bts-tls-scripting.gif "bts_tls_scripting")從工具箱拖曳至格線頁上的適當位置。  
+2. 拖曳**Scripting**運算質![](../core/media/bts-tls-scripting.gif "bts_tls_scripting")從工具箱拖曳至格線頁上的適當位置。  
   
    > [!NOTE]
    >  運算質將放置在顯示的格線頁上。 若要將運算質放在其他格線頁上，必須先顯示該格線頁。  
