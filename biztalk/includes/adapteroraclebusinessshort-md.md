@@ -1,1 +1,1 @@
-<span data-ttu-id="ab5fc-101">Oracle E-Business 配接器</span><span class="sxs-lookup"><span data-stu-id="ab5fc-101">Oracle E-Business adapter</span></span>
+<span data-ttu-id="209e7-101">Oracle E-Business 配接器</span><span class="sxs-lookup"><span data-stu-id="209e7-101">Oracle E-Business adapter</span></span>

@@ -1,1 +1,1 @@
-<span data-ttu-id="5a030-101">使用配接器服務 BizTalk 專案增益集</span><span class="sxs-lookup"><span data-stu-id="5a030-101">Consume Adapter Service BizTalk Project Add-in</span></span>
+<span data-ttu-id="f53b1-101">使用配接器服務 BizTalk 專案增益集</span><span class="sxs-lookup"><span data-stu-id="f53b1-101">Consume Adapter Service BizTalk Project Add-in</span></span>
