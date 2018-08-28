@@ -57,7 +57,7 @@ ms.locfileid: "37005711"
 > [!NOTE]
 >  [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]支援只有本機的同義字。 這表示，只有這些同義字支援配接器為目標的本機伺服器上的成品。  
   
- 此外，同義字的訊息動作為基礎的物件，但不包括在其執行此動作的構件名稱相同。 例如，訊息動作**選取 ** SCOTT 結構描述中的資料表上的作業： `Tables/Select/SCOTT/[TABLE_NAME]`。 如果您執行同義字上的選取作業的相同資料表中 SCOTT 結構描述的訊息動作便會是： `Tables/Select/SCOTT/[SYNONYM_NAME]`。  
+ 此外，同義字的訊息動作為基礎的物件，但不包括在其執行此動作的構件名稱相同。 例如，訊息動作**選取**  SCOTT 結構描述中的資料表上的作業： `Tables/Select/SCOTT/[TABLE_NAME]`。 如果您執行同義字上的選取作業的相同資料表中 SCOTT 結構描述的訊息動作便會是： `Tables/Select/SCOTT/[SYNONYM_NAME]`。  
   
  當您叫用配接器中的同義字上的作業時，配接器會呼叫以執行作業的 Oracle 資料庫中的同義字。 不過，配接器會以中繼資料的同義資料表定義中使用 基礎物件的名稱。  
   

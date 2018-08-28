@@ -181,7 +181,7 @@ SELECT * FROM Employee;EXEC MOVE_EMP_DATA;EXEC ADD_EMP_DETAILS John, Tester, 100
 |形狀圖|圖形類型|屬性|  
 |-----------|----------------|----------------|  
 |ReceiveMessage|Receive|-設定**名稱**到*ReceiveMessage*<br /><br /> -設定**啟用**到 *，則為 True*|  
-|SaveMessage|Send|輪詢間隔後，執行配接器再次**PolledDataAvailableStatement**。*|  
+|SaveMessage|Send|輪詢間隔後，執行配接器再次**PolledDataAvailableStatement**。|  
   
 ### <a name="add-ports"></a>新增連接埠  
  請確定您針對每個邏輯連接埠中指定下列屬性。 協調流程中所示，連接埠資料行中所列的名稱會是連接埠的名稱。  
