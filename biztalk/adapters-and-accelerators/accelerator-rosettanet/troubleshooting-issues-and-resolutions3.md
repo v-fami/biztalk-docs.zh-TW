@@ -300,7 +300,7 @@ ms.locfileid: "36985095"
     ```  
   
 > [!NOTE]
->  如果您嘗試存取http://localhost或http://localhost/BtarnApp/RnifSend.aspx再次執行上述步驟之後，您會收到 HTTP 400 訊息從 Internet Explorer，這表示，IIS 已經正常運作。  
+>  如果您嘗試存取 http://localhost 或 http://localhost/BtarnApp/RnifSend.aspx 再次執行上述步驟之後，您會收到 HTTP 400 訊息從 Internet Explorer，這表示，IIS 已經正常運作。  
   
 ## <a name="the-hubscenario-sample-will-not-be-installed-correctly-if-the-assembly-key-files-are-not-entered-for-the-projects"></a>如果沒有輸入專案的組件金鑰檔，HubScenario 範例就不會正確安裝  
   

@@ -153,7 +153,7 @@ ms.locfileid: "36967615"
          ![將參數對應至篩選](../../adapters-and-accelerators/adapter-siebel/media/199c8ba7-d0e8-4fb4-9d73-9cf548512498.gif "199c8ba7-d0e8-4fb4-9d73-9cf548512498")  
   
         > [!IMPORTANT]
-        >  **AccountQueryInputRecord**也包含 **# 10**節點，其中又包含**項目**節點。 您必須先刪除**項目** 節點，否則帳戶商務元件上的查詢作業，可能無法提供想要的結果。 若要刪除**項目**節點，以滑鼠右鍵按一下節點，然後按**刪除**。  
+        >  **AccountQueryInputRecord**也包含 **QueryFields** 節點，其中又包含**項目**節點。 您必須先刪除**項目** 節點，否則帳戶商務元件上的查詢作業，可能無法提供想要的結果。 若要刪除**項目**節點，以滑鼠右鍵按一下節點，然後按**刪除**。  
   
 ##### <a name="to-create-a-finder-method-instance-for-query-method"></a>若要建立 Finder 方法執行個體的查詢方法  
   
