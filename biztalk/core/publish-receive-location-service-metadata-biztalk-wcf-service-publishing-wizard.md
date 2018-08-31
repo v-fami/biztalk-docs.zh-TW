@@ -17,12 +17,12 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 53d290067b33d676f9c3052f93e61100252ad34f
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 289615ec4d58f782404abf7327f01761fb16574b
+ms.sourcegitcommit: 9b93ee2a019bef8d482626cf5525a6b95509b135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36996863"
+ms.lasthandoff: 08/17/2018
+ms.locfileid: "42709889"
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-publishing-wizard-to-publish-service-metadata-for-a-wcf-receive-location-bound-to-an-orchestration-port"></a>如何使用 BizTalk WCF 服務發佈精靈來發佈繫結至協調流程連接埠之 WCF 接收位置的服務中繼資料
 您可以使用 BizTalk WCF 服務發佈精靈來建立 WCF 服務，以便發佈繫結至協調流程連接埠之現有 WCF 接收位置的服務中繼資料。  
@@ -73,7 +73,7 @@ ms.locfileid: "36996863"
 
     ![WCF 服務屬性頁](../core/media/07518c78-bcae-4274-bb14-aeef107ee4c6.gif "07518c78-bcae-4274-bb14-aeef107ee4c6")  
 
-9. 在  **WCF 服務位置**頁面上，於**位置**文字方塊中，輸入產生 WCF 服務位置的 Web 目錄名稱。 您可以接受預設位置 (http://localhost/<*BizTalk 組件名稱*>)，輸入中的 WCF 服務位置**位置**文字方塊中或按一下**瀏覽**然後選取 Web 目錄。 接著，選取下列任何一個選項：  
+9. 在  **WCF 服務位置**頁面上，於**位置**文字方塊中，輸入產生 WCF 服務位置的 Web 目錄名稱。 您可以接受預設位置 (`http://localhost/<BizTalk Assembly Name>`)，輸入中的 WCF 服務的位置**位置**文字方塊中或按一下 **瀏覽**並選取 Web 目錄。 接著，選取下列任何一個選項：  
 
    - **覆寫現有的專案。** 此選項只有在 Web 目錄已存在時才能使用。 只有當您選取了這個選項時，才能夠發佈至相同的位置。 否則，您必須輸入不同的專案位置。  
 
@@ -84,10 +84,10 @@ ms.locfileid: "36996863"
      ![WCF 服務位置頁面](../core/media/76285470-1520-4d77-a5b6-c58cbe8fc575.gif "76285470-1520-4d77-a5b6-c58cbe8fc575")  
 
      > [!NOTE]
-     >  專案位置可以存在不同的伺服器上。 若要將 WCF 服務發佈到另一部伺服器中，輸入專案名稱做為 http://&lt*servername*>/<*WCF 服務位置*>。  
+     >  專案位置可以存在不同的伺服器上。 若要將 WCF 服務發佈到另一部伺服器中，輸入 專案名稱，做為`http://<servername>/<WCF service location>`。  
 
      > [!NOTE]
-     >  專案位置可以存在非預設的網站上。 發佈至非預設的網站時，請在 URL 中加入網站的連接埠編號。 例如，http: http://&lt*servername*>: 8080 / <*WCF 服務位置*>。  
+     >  專案位置可以存在非預設的網站上。 發佈至非預設的網站時，請在 URL 中加入網站的連接埠編號。 例如， `http://<servername>:8080/<WCF service location>` 。  
 
      > [!NOTE]
      >  App_DataTemp 資料夾中的 Web 應用程式精靈所建立的 BindingInfo.xml 檔案會用於管線中的預設值。 接收管線的預設值是**Microsoft.BizTalk.DefaultPipelines.XMLReceive**管線，而且預設值的傳送管線是**Microsoft.BizTalk.DefaultPipelines.PassThruTransmit**管線。  
@@ -119,7 +119,7 @@ ms.locfileid: "36996863"
 4. 在 Internet Explorer 中**地址**方塊中，輸入 WCF 服務使用格式 http:// URL<em>主控件 [: 連接埠]</em>/*apppath* /*wcfservicename.svc*來測試已發佈的 WCF 服務。 下表將描述這些參數。  
 
 
-   |      參數       |                                                            ReplTest1                                                            |
+   |      參數       |                                                            值                                                            |
    |----------------------|-----------------------------------------------------------------------------------------------------------------------------|
    |    *主控件 [: 連接埠]*     | 您已部署 WCF 服務之電腦的名稱。 冒號和連接埠編號可以接在這個伺服器名稱後面。 |
    |      *apppath*       |                              虛擬目錄的名稱和 Web 應用程式路徑。                               |

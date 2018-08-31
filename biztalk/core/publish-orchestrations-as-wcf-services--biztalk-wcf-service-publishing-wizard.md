@@ -19,12 +19,12 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 07f0a7d3c8f9657c2a2cac53c13095194e5a0401
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 40daaeac7f61a158e4f4a74da39f6d7cee46f18a
+ms.sourcegitcommit: 9b93ee2a019bef8d482626cf5525a6b95509b135
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36974559"
+ms.lasthandoff: 08/17/2018
+ms.locfileid: "42709860"
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-publishing-wizard-to-publish-orchestrations-as-wcf-services"></a>如何使用 BizTalk WCF 服務發佈精靈將協調流程發佈為 WCF 服務
 您可以使用 [BizTalk WCF 服務發佈精靈] 將協調流程發佈為 WCF 服務。  
@@ -88,7 +88,7 @@ ms.locfileid: "36974559"
   
      ![WCF 服務屬性頁](../core/media/07518c78-bcae-4274-bb14-aeef107ee4c6.gif "07518c78-bcae-4274-bb14-aeef107ee4c6")  
   
-11. 在  **WCF 服務位置**頁面上，於**位置**文字方塊中，輸入產生 WCF 服務位置的 Web 目錄名稱。 您可以接受預設位置 (http://localhost/<*BizTalk 組件名稱*>)，輸入中的 WCF 服務位置**位置**文字方塊中或按一下**瀏覽**然後選取 Web 目錄。 接著，選取下列任何一個選項：  
+11. 在  **WCF 服務位置**頁面上，於**位置**文字方塊中，輸入產生 WCF 服務位置的 Web 目錄名稱。 您可以接受預設位置 (`http://localhost/<BizTalk Assembly Name>`)，輸入中的 WCF 服務的位置**位置**文字方塊中或按一下 **瀏覽**並選取 Web 目錄。 接著，選取下列任何一個選項：  
   
     - **覆寫現有的專案。** 這個選項只有在 Web 目錄已經存在時才能使用。 只有當您選取了這個選項時，才能夠發佈至相同的位置。 否則，您必須輸入不同的專案位置。  
   
@@ -99,10 +99,10 @@ ms.locfileid: "36974559"
       ![WCF 服務位置頁面](../core/media/76285470-1520-4d77-a5b6-c58cbe8fc575.gif "76285470-1520-4d77-a5b6-c58cbe8fc575")  
   
     > [!NOTE]
-    >  專案位置可以存在不同的伺服器上。 若要將 WCF 服務發佈到另一部伺服器中，輸入專案名稱做為 http://&lt*servername*>/<*WCF 服務位置*>。  
+    >  專案位置可以存在不同的伺服器上。 若要將 WCF 服務發佈到另一部伺服器中，輸入 專案名稱，做為`http://<servername>/<WCF service location>`。  
   
     > [!NOTE]
-    >  專案位置可以存在非預設的網站上。 發佈至非預設的網站時，請在 URL 中加入網站的連接埠編號。 例如，http: http://&lt*servername*>: 8080 / <*WCF 服務位置*>。  
+    >  專案位置可以存在非預設的網站上。 發佈至非預設的網站時，請在 URL 中加入網站的連接埠編號。 例如， `http://<servername>:8080/<WCF service location>` 。  
   
     > [!NOTE]
     >  在使用精靈建立接收位置時，精靈會使用預設值來建立接收位置。 接收管線的預設值是**Microsoft.BizTalk.DefaultPipelines.PassThruReceive**管線。 如果透過已發佈的 WCF 服務收到的訊息需要任何特殊管線處理 （例如驗證、 相互關聯/屬性升級或輸入/輸出對應），則您應該設定接收管線**Microsoft.BizTalk.DefaultPipelines.XMLReceive**，或自訂管線，使用 BizTalk Server 管理主控台。  

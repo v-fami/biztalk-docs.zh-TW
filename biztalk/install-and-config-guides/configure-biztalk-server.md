@@ -2,7 +2,7 @@
 title: 使用基本或自訂組態設定 |Microsoft Docs
 description: 執行 BizTalk Server 的基本或自訂組態，以及了解每個組態會發生什麼情況的步驟
 ms.custom: ''
-ms.date: 08/14/2017
+ms.date: 08/23/2018
 ms.prod: biztalk-server
 ms.reviewer: ''
 ms.suite: ''
@@ -13,12 +13,12 @@ caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: a74d7e03582e9da54d0fec25eeeb6edb409e328a
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: fdc15f90451330cfc85eeaa06f6deebdbe716666
+ms.sourcegitcommit: ebb0d5bb9effdc502fad0b320de1b71a79172063
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36983687"
+ms.lasthandoff: 08/23/2018
+ms.locfileid: "42709906"
 ---
 # <a name="configure-biztalk-server"></a>設定 BizTalk Server
 使用基本組態或自訂組態來設定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。
@@ -40,7 +40,7 @@ ms.locfileid: "36983687"
 * 如果您要使用網域群組，則必須先備妥網域群組，之後再設定 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。
 * [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 所產生並列在 [[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 組態] 中的預設帳戶屬於本機群組。 在多伺服器環境中，請使用網域群組來取代本機群組。
 * 如果您要設定 BAM 分析服務，則登入的帳戶必須是 OLAP 電腦上 OLAP 系統管理員群組的成員。
-
+* 安裝累積更新 (Cu) 或 Feature Pack (FPs)*之後*設定 BizTalk Server。 Cu 或 FPs 中包含某些更新僅限目標設定的成品。 如果您安裝 Cu 或 FPs 執行設定之前，重新安裝的 Cu 和 FPs 設定之後。 這可確保所有的元件是修補和升級。
 
 ## <a name="basic-configuration"></a>基本組態
 
@@ -84,20 +84,20 @@ C:\Users\username\AppData\Local\Temp\ConfigLog(01-12-2017 0h37m59s).log`。
 2. 設定下列項目：
 
 
-   |                     使用                      |                                                                                                                                                                                                                                                                                                                           以進行此動作                                                                                                                                                                                                                                                                                                                            |
-   |---------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   | 在此電腦上啟用「企業單一登入」。 |                                                                                                                                                                                                                                                                                                            使用 SSO 設定，完成此伺服器的設定。                                                                                                                                                                                                                                                                                                             |
-   |              建立新的 SSO 系統              | 如果這是您要設定的第一部 SSO 伺服器，請選取此選項。 這會建立和設定 SSO 資料庫、建立主要密碼 (加密的安全性金鑰)，並安裝 SSO 所使用的服務。 您也必須在此密碼伺服器備份密碼。<br/><br/>金鑰詳細資料： <br/><ul><li>建議您將主要密碼伺服器設為獨立伺服器。</li><li>您必須使用 SSO 系統管理員的身份登入，才能執行此組態設定工作。</li><li>一部主要密碼伺服器僅能與一個 BizTalk 群組關聯。 不支援將兩個主要密碼伺服器與相同的 BizTalk 群組關聯。</li></ul> |
-   |            加入現有的 SSO 系統            |                                                                                                                          如果您要將 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 新增至現有的群組，請選取此選項。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會與群組中的其他 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 共用相同 SSO 組態和資料庫。                                                                                                                          |
-   |                    資料存放區                    |                                                                                                                                                                                                                                   輸入 SSO 伺服器的伺服器名稱。 如果您正在操作 SSO 伺服器，請選取本機伺服器名稱。 您可以保留 **SSODB** 作為預設的資料庫名稱，或輸入自訂內容。                                                                                                                                                                                                                                    |
-   |                  Windows 服務                  |                                                                                                                                                                                                                                                              輸入要用來執行企業單一登入服務的帳戶。 如果 SQL Server 位於另一部電腦上，請輸入網域帳戶。                                                                                                                                                                                                                                                               |
-   |                 Windows 帳戶                  |                                                                                                                                                                                                                                                                您可以保留預設的群組名稱，或輸入自訂內容。 如果 SQL Server 位於另一部電腦上，請輸入網域帳戶。                                                                                                                                                                                                                                                                |
+   | 使用 |  動作|
+   |---|---|
+   | 在此電腦上啟用「企業單一登入」。 | 使用 SSO 設定，完成此伺服器的設定。  |
+   |  建立新的 SSO 系統  | 如果這是您要設定的第一部 SSO 伺服器，請選取此選項。 這會建立和設定 SSO 資料庫、建立主要密碼 (加密的安全性金鑰)，並安裝 SSO 所使用的服務。 您也必須在此密碼伺服器備份密碼。<br/><br/>金鑰詳細資料： <br/><ul><li>建議您將主要密碼伺服器設為獨立伺服器。</li><li>您必須使用 SSO 系統管理員的身份登入，才能執行此組態設定工作。</li><li>一部主要密碼伺服器僅能與一個 BizTalk 群組關聯。 不支援將兩個主要密碼伺服器與相同的 BizTalk 群組關聯。</li></ul> |
+   | 加入現有的 SSO 系統 | 如果您要將 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 新增至現有的群組，請選取此選項。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 會與群組中的其他 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 共用相同 SSO 組態和資料庫。  |
+   |  資料存放區  |   輸入 SSO 伺服器的伺服器名稱。 如果您正在操作 SSO 伺服器，請選取本機伺服器名稱。 您可以保留 **SSODB** 作為預設的資料庫名稱，或輸入自訂內容。  |
+   |   Windows 服務  |  輸入要用來執行企業單一登入服務的帳戶。 如果 SQL Server 位於另一部電腦上，請輸入網域帳戶。   |
+   |  Windows 帳戶  | 您可以保留預設的群組名稱，或輸入自訂內容。 如果 SQL Server 位於另一部電腦上，請輸入網域帳戶。  |
 
 
 3. 選取 [企業 SSO 密碼備份]。 此選項會將主要密碼儲存到加密的備份檔案。 
 4. 設定下列項目：  
 
-    |使用|以進行此動作|
+    |使用|動作|
     | --- | --- |
     |密碼備份密碼 | 輸入主要密碼的密碼。|
     |確認密碼|重新輸入主要密碼的密碼。|
@@ -114,14 +114,14 @@ C:\Users\username\AppData\Local\Temp\ConfigLog(01-12-2017 0h37m59s).log`。
 2. 設定下列項目：
 
 
-   |                       使用                        |                                                                                                                                         以進行此動作                                                                                                                                          |
-   |-------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   |     在此電腦上啟用 BizTalk Server 群組      |                                                                                                 選取此選項時，即可在這台伺服器上，建立新的 BizTalk 群組，或加入現有的群組。                                                                                                 |
-   |              建立新的 BizTalk 群組               |                                       如果這是群組中的第一個 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，請選取此選項。 您可以使用此選項來建立資料庫，並新增群組。                                       |
-   |            加入現有的 BizTalk 群組             |                                                                    如果您要將這個 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 加入現有的群組，請選取此選項。                                                                     |
-   | 建立追蹤彙總的分析資料庫 |                                                                                  請選取此選項以安裝 SQL Server Analysis Services，亦可追蹤並儲存狀況監控 OLAP Cube。                                                                                  |
-   |                      資料存放區                      | 輸入裝載 BizTalk 資料庫的伺服器名稱。 如果這台伺服器上同時安裝 BizTalk 和 SQL，請輸入本機伺服器名稱。 如果 SQL Server 位於另一部電腦上，請輸入 SQL Server 名稱。<br/><br/>您可以保留預設的資料庫名稱，或輸入自訂內容。 |
-   |             BizTalk 管理角色              |                                                                              您可以保留預設的群組名稱，或輸入自訂內容。 如果 SQL Server 位於另一部電腦上，請輸入網域帳戶。                                                                              |
+   |  使用 | 動作 |
+   |---|---|
+   |  在此電腦上啟用 BizTalk Server 群組  | 選取此選項時，即可在這台伺服器上，建立新的 BizTalk 群組，或加入現有的群組。 |
+   |  建立新的 BizTalk 群組 | 如果這是群組中的第一個 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，請選取此選項。 您可以使用此選項來建立資料庫，並新增群組。 |
+   | 加入現有的 BizTalk 群組 |   如果您要將這個 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 加入現有的群組，請選取此選項。  |
+   | 建立追蹤彙總的分析資料庫 | 請選取此選項以安裝 SQL Server Analysis Services，亦可追蹤並儲存狀況監控 OLAP Cube。  |
+   | 資料存放區 | 輸入裝載 BizTalk 資料庫的伺服器名稱。 如果這台伺服器上同時安裝 BizTalk 和 SQL，請輸入本機伺服器名稱。 如果 SQL Server 位於另一部電腦上，請輸入 SQL Server 名稱。<br/><br/>您可以保留預設的資料庫名稱，或輸入自訂內容。 |
+   |   BizTalk 管理角色 |  您可以保留預設的群組名稱，或輸入自訂內容。 如果 SQL Server 位於另一部電腦上，請輸入網域帳戶。   |
 
 ### <a name="configure-the-biztalk-runtime"></a>設定 BizTalk 執行階段
 
@@ -133,13 +133,13 @@ C:\Users\username\AppData\Local\Temp\ConfigLog(01-12-2017 0h37m59s).log`。
 2. 設定下列項目：
 
 
-   |                                                      使用                                                      |                                                                                                                                                                                                                                                                                                                                                                                                                 以進行此動作                                                                                                                                                                                                                                                                                                                                                                                                                  |
-   |--------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   | 註冊 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 執行階段元件 |                                                                                                                                                                                                                                                                                                                                            選取此選項可在此 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 上建立主控件和主控件執行個體。                                                                                                                                                                                                                                                                                                                                            |
-   |                                        建立內含式主控件與執行個體                                         | 在此電腦上建立 BizTalkServerApplication 主控件與執行個體。<br/><br/>其他選項： <ul><li>**信任的**：在提交訊息至 MessageBox 資料庫時，傳遞傳送者的認證 (SSID 和/或合作對象識別碼)。 這等同於在伺服器間建立信任關係。 大部分的主控件和執行個體皆不受信任。</li><li>**僅限 32 位元**：有些配接器只能在 32 位元處理序中執行，但大多數都與 64 位元相容。 在您設好 BizTalk 之後，可在 [BizTalk 管理] 中啟用/停用這項設定。 因此，不用太緊張。</li><li>**主控件名稱**：預設為 BizTalkServerApplication。 當您在 [BizTalk 管理] 中建立新的主控件和執行個體時，即可使用自己的名稱使其更加明確，例如 TrackingHost 或 ReceivingHost。 因此，此處先不作任何變更。</li></ul> |
-   |                                         建立外掛式主控件與執行個體                                          |                                                                         外掛式主控件會在 IIS 內執行。 在許多環境中，都最好保留預設值。<br/><br/>其他選項： <ul><li>**信任的**：在提交訊息至 MessageBox 資料庫時，傳遞傳送者的認證 (SSID 和/或合作對象識別碼)。 這等同於在伺服器間建立信任關係。 大部分的主控件和執行個體皆不受信任。</li><li>**僅限 32 位元**：有些配接器只能在 32 位元處理序中執行，但大多數都與 64 位元相容。 在您設好 BizTalk 之後，可在 [BizTalk 管理] 中啟用/停用這項設定。</li><li>**外掛式主控件名稱**：預設為 BizTalkServerIsolatedHost。 此處不作任何變更。 </li></ul>                                                                          |
-   |                                                  Windows 服務                                                   |                                                                                                                                                                                                                                                                                                                                                             輸入用來執行主控件執行個體的帳戶。 如果 SQL Server 位於另一部電腦上，請輸入網域帳戶。                                                                                                                                                                                                                                                                                                                                                             |
-   |                                                   Windows 群組                                                   |                                                                                                                                                                                                                                                                                                                                                      您可以保留預設的群組名稱，或輸入自訂內容。 如果 SQL Server 位於另一部電腦上，請輸入網域帳戶。                                                                                                                                                                                                                                                                                                                                                      |
+   |   使用 | 動作  |
+   |---|---|
+   | 註冊 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 執行階段元件 |  選取此選項可在此 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 上建立主控件和主控件執行個體。  |
+   |  建立內含式主控件與執行個體  | 在此電腦上建立 BizTalkServerApplication 主控件與執行個體。<br/><br/>其他選項： <ul><li>**信任的**：在提交訊息至 MessageBox 資料庫時，傳遞傳送者的認證 (SSID 和/或合作對象識別碼)。 這等同於在伺服器間建立信任關係。 大部分的主控件和執行個體皆不受信任。</li><li>**僅限 32 位元**：有些配接器只能在 32 位元處理序中執行，但大多數都與 64 位元相容。 在您設好 BizTalk 之後，可在 [BizTalk 管理] 中啟用/停用這項設定。 因此，不用太緊張。</li><li>**主控件名稱**：預設為 BizTalkServerApplication。 當您在 [BizTalk 管理] 中建立新的主控件和執行個體時，即可使用自己的名稱使其更加明確，例如 TrackingHost 或 ReceivingHost。 因此，此處先不作任何變更。</li></ul> |
+   |  建立外掛式主控件與執行個體  |  外掛式主控件會在 IIS 內執行。 在許多環境中，都最好保留預設值。<br/><br/>其他選項： <ul><li>**信任的**：在提交訊息至 MessageBox 資料庫時，傳遞傳送者的認證 (SSID 和/或合作對象識別碼)。 這等同於在伺服器間建立信任關係。 大部分的主控件和執行個體皆不受信任。</li><li>**僅限 32 位元**：有些配接器只能在 32 位元處理序中執行，但大多數都與 64 位元相容。 在您設好 BizTalk 之後，可在 [BizTalk 管理] 中啟用/停用這項設定。</li><li>**外掛式主控件名稱**：預設為 BizTalkServerIsolatedHost。 此處不作任何變更。 </li></ul> |
+   |   Windows 服務   |  輸入用來執行主控件執行個體的帳戶。 如果 SQL Server 位於另一部電腦上，請輸入網域帳戶。  |
+   |   Windows 群組  |  您可以保留預設的群組名稱，或輸入自訂內容。 如果 SQL Server 位於另一部電腦上，請輸入網域帳戶。  |
 
 ### <a name="configure-business-rules-engine-bre"></a>設定商務規則引擎 (BRE)
 
@@ -151,11 +151,11 @@ C:\Users\username\AppData\Local\Temp\ConfigLog(01-12-2017 0h37m59s).log`。
 2. 設定下列項目：
 
 
-   |                   使用                    |                                                                                                                                       以進行此動作                                                                                                                                        |
-   |-----------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-   | 在此電腦上啟用商務規則引擎 |                                                                           如果您要在此 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 上使用 BRE，請選取此選項。                                                                           |
-   |                  資料存放區                  | 輸入裝載規則資料庫的伺服器名稱。 如果這台伺服器上同時安裝 BizTalk 和 SQL，請輸入本機伺服器名稱。 如果 SQL Server 位於另一部電腦上，請輸入 SQL Server 名稱。<br/><br/>您可以保留預設的資料庫名稱，或輸入自訂內容。 |
-   |                Windows 服務                |                                                                                 輸入用來執行規則更新服務的帳戶。 如果 SQL Server 位於另一部電腦上，請輸入網域帳戶。                                                                                 |
+   |  使用 | 動作  |
+   |---|---|
+   | 在此電腦上啟用商務規則引擎 | 如果您要在此 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 上使用 BRE，請選取此選項。  |
+   |  資料存放區  | 輸入裝載規則資料庫的伺服器名稱。 如果這台伺服器上同時安裝 BizTalk 和 SQL，請輸入本機伺服器名稱。 如果 SQL Server 位於另一部電腦上，請輸入 SQL Server 名稱。<br/><br/>您可以保留預設的資料庫名稱，或輸入自訂內容。 |
+   |   Windows 服務  |  輸入用來執行規則更新服務的帳戶。 如果 SQL Server 位於另一部電腦上，請輸入網域帳戶。  |
 
 ### <a name="configure-bam-tools"></a>設定 BAM 工具
 
@@ -179,7 +179,7 @@ C:\Users\username\AppData\Local\Temp\ConfigLog(01-12-2017 0h37m59s).log`。
 1. 選取 [BAM 工具]。
 2. 設定下列項目：
 
-    |使用|以進行此動作|
+    |使用|動作|
     | --- | --- |
     |啟用商務活動監控工具 | 在這台電腦上啟用與安裝 BAM 工具。 |
     | 啟用 BAM 彙總的 Analysis Services | 提供 BAM 警示的追蹤資訊。|
@@ -193,7 +193,7 @@ BAM 警示必須啟用 BAM 工具。
 1. 選取 [BAM 警示]。
 2. 設定下列項目：
 
-    |使用|以進行此動作|
+    |使用|動作|
     | --- | --- |
     | 啟用 BAM 警示 | 如果您要使用 BAM 警示，請核取此選項。 <br/><br/>請注意，您必須已設好 SQL Database Mail，才能使用 BAM 警示。 |
     | Windows 服務 | 輸入用來執行 BAM 警示服務的帳戶。 如果 SQL Server 位於另一部電腦上，請輸入網域帳戶。 |
@@ -207,7 +207,7 @@ BAM 警示必須啟用 BAM 工具。
 1. 選取 [BAM 入口網站]。
 2. 設定下列項目：
 
-    |使用|以進行此動作|
+    |使用|動作|
     | --- | --- |
     |啟用 BAM 入口網站 | 如果您使用 BAM 入口網站，請選取此選項。 | 
     |Web 服務帳戶 | 輸入用來執行 IIS 服務的帳戶。 如果 SQL Server 位於另一部電腦上，請輸入網域帳戶。|
@@ -223,7 +223,7 @@ BAM 警示必須啟用 BAM 工具。
 1. 選取 [BizTalk EDI/AS2 執行階段]。
 2. 設定下列項目：
 
-    |使用|以進行此動作|
+    |使用|動作|
     | --- | --- |
     |在此電腦上啟用 BizTalk EDI/AS2 Runtime| 如果您將會使用 X12、EDIFACT 或 AS2 通訊協定來進行企業對企業的傳訊，請選取此選項。 |
     |啟用此 BizTalk 群組的 BizTalk EDI | 如果您是使用 X12 或 EDIFACT，請加以選取。 |
@@ -241,7 +241,7 @@ BAM 警示必須啟用 BAM 工具。
 1. 選取 [Windows SharePoint Services 配接器]。
 2. 設定下列項目：
 
-    |使用|以進行此動作|
+    |使用|動作|
     | --- | --- |
     | 在此電腦上啟用 Windows SharePoint Services 配接器 | 選取以安裝 SharePoint Services Web 服務。 您要安裝 IIS Web 服務的 SharePoint Services 電腦，可以是 BizTalk Server 所在的相同電腦或其他電腦。 在大部分的環境中，BizTalk Server 和 SharePoint 服務會位於不同的電腦上。|
     |Windows 群組|您可以保留預設的群組名稱，或輸入自訂內容。 |
@@ -264,7 +264,7 @@ C:\Users\username\AppData\Local\Temp\ConfigLog(1-12-2017 2h39m30s).log`。
 ### <a name="application-pools"></a>應用程式集區  
 
 |應用程式集區|預設應用程式集區識別|描述|  
-|----------------------|---------------------------------------|-----------------|  
+|---|----|---|  
 |BAMAppPool|*使用者定義*|BAM 入口網站的應用程式集區。|  
 |BTSSharePointAdapterWSAppPool|*使用者定義*|Windows SharePoint Service 配接器 Web 服務的應用程式集區。|  
 |STSWebServiceAppPool|*使用者定義*|交易夥伴管理工具的應用程式集區。|  
@@ -273,7 +273,7 @@ C:\Users\username\AppData\Local\Temp\ConfigLog(1-12-2017 2h39m30s).log`。
 ### <a name="virtual-applications"></a>虛擬應用程式  
 
 |虛擬應用程式|預設應用程式集區|描述|  
-|-------------------------|------------------------------|-----------------|  
+|---|-----|---|  
 |BAM|BAMAppPool|裝載 BAM 入口網站元件 (頁面、圖像、先行編譯的程式碼及其他資源) 的虛擬應用程式。 此虛擬應用程式會呼叫 BAMManagementService 應用程式來與 BAM 資料庫進行通訊。 **注意：** 要加上商標 BAM 入口網站中，您可以修改此應用程式的內容。|  
 |BAMManagementService|BAMAppPool|裝載 BAMManagementService Web 服務的虛擬應用程式。 BAM 入口網站應用程式會使用此 Web 服務與 BAM 主要匯入資料表 (PIT) 通訊。 與資料庫的通訊會使用儲存在登錄中的模擬認證 (在組態期間建立) 來執行。 自訂用戶端也可以使用此 Web 服務公開的方法來取得任何使用者的檢視與其詳細資料、相關的活動以及樞紐分析表版面配置。 這些方法也可以用來管理資料庫中的警示。|  
 |BTSharePointAdapterWS|BTSSharePointAdapterWSAppPool|裝載 Windows SharePoint Service 配接器 Web 服務的虛擬應用程式。 適用於 BizTalk Server 2013 R2 和 2013 只。|  
@@ -288,5 +288,3 @@ C:\Users\username\AppData\Local\Temp\ConfigLog(1-12-2017 2h39m30s).log`。
 [環境最佳化的後續設定步驟](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md)
 
  [保護 BizTalk Server 部署安全](../install-and-config-guides/securing-your-biztalk-server-deployment.md)  
-
-
