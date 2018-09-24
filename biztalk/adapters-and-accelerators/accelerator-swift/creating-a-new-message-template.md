@@ -30,7 +30,7 @@ ms.locfileid: "36999831"
   
 ### <a name="to-save-a-modified-existing-template-as-a-new-template"></a>若要儲存修改過的現有範本作為新範本  
   
-1. 在 Internet Explorer 中，開啟 MRSR 網站http://localhost/sites/bassite。  
+1. 在 Internet Explorer 中，開啟 MRSR 網站 http://localhost/sites/bassite 。  
   
 2. 按一下 [文件]。  
   
