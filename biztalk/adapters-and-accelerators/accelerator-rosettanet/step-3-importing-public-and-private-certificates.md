@@ -56,7 +56,7 @@ ms.locfileid: "37002343"
   
 1.  <span data-ttu-id="7a67f-118">在 Contoso 電腦上，按一下**開始**，按一下**執行時，** 類型**cmd**，然後按一下 **[確定]**。</span><span class="sxs-lookup"><span data-stu-id="7a67f-118">On the Contoso computer, click **Start**, click **Run,** type **cmd**, and then click **OK**.</span></span>  
   
-2.  <span data-ttu-id="7a67f-119">在命令提示字元中，移至*\<磁碟機\>* * *:\Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK**，然後按**Enter**.</span><span class="sxs-lookup"><span data-stu-id="7a67f-119">At the command prompt, move to *\<drive\>***:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK** and then press **Enter**.</span></span>  
+2.  <span data-ttu-id="7a67f-119">在命令提示字元中，移至*\<磁碟機\>* \* \*:\Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK**，然後按**Enter\*\*.</span><span class="sxs-lookup"><span data-stu-id="7a67f-119">At the command prompt, move to *\<drive\>\*\*\*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK*\* and then press **Enter**.</span></span>  
   
 3.  <span data-ttu-id="7a67f-120">在命令提示字元中，輸入**CertWizard /Publickey 」***\<磁碟機\>***: \Certs\Fabrikam Public Encryption.cer 」**，然後按**Enter**.</span><span class="sxs-lookup"><span data-stu-id="7a67f-120">At the command prompt, type **CertWizard /Publickey "***\<drive\>***:\Certs\Fabrikam Public Encryption.cer"**, and then press **Enter**.</span></span>  
   
@@ -68,7 +68,7 @@ ms.locfileid: "37002343"
   
 2.  <span data-ttu-id="7a67f-124">按一下 Fabrikum 電腦上，按一下**開始**，按一下**執行**，型別**cmd**，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="7a67f-124">On the Fabrikum computer, click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
-3.  <span data-ttu-id="7a67f-125">在命令提示字元中，移至*\<磁碟機\>* * *:\Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK**，然後按**Enter**.</span><span class="sxs-lookup"><span data-stu-id="7a67f-125">At the command prompt, move to *\<drive\>***:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK** and then press **Enter**.</span></span>  
+3.  <span data-ttu-id="7a67f-125">在命令提示字元中，移至*\<磁碟機\>* \* \*:\Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK**，然後按**Enter\*\*.</span><span class="sxs-lookup"><span data-stu-id="7a67f-125">At the command prompt, move to *\<drive\>\*\*\*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK*\* and then press **Enter**.</span></span>  
   
 4.  <span data-ttu-id="7a67f-126">在命令提示字元中，輸入**CertWizard /Privatekey 」***\<磁碟機\>***: \Certs\Fabrikam Private Encryption.pfx 」**，然後按下**Enter**.</span><span class="sxs-lookup"><span data-stu-id="7a67f-126">At the command prompt, type **CertWizard /Privatekey "***\<drive\>***:\Certs\Fabrikam Private Encryption.pfx"**, and then press **Enter**.</span></span>  
   
@@ -89,7 +89,7 @@ ms.locfileid: "37002343"
   
 1.  <span data-ttu-id="7a67f-134">按一下 Fabrikum 電腦上，按一下**開始**，按一下**執行**，型別**cmd**，然後按一下**確定**。</span><span class="sxs-lookup"><span data-stu-id="7a67f-134">On the Fabrikum computer, click **Start**, click **Run**, type **cmd**, and then click **OK**.</span></span>  
   
-2.  <span data-ttu-id="7a67f-135">在命令提示字元中，移至*\<磁碟機\>* * *:\Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK**，然後按**Enter**.</span><span class="sxs-lookup"><span data-stu-id="7a67f-135">At the command prompt, move to *\<drive\>***:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK** and then press **Enter**.</span></span>  
+2.  <span data-ttu-id="7a67f-135">在命令提示字元中，移至*\<磁碟機\>* \* \*:\Program Files\Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK**，然後按**Enter\*\*.</span><span class="sxs-lookup"><span data-stu-id="7a67f-135">At the command prompt, move to *\<drive\>\*\*\*:\Program Files\Microsoft BizTalk \<version\> Accelerator for RosettaNet\SDK*\* and then press **Enter**.</span></span>  
   
 3.  <span data-ttu-id="7a67f-136">在命令提示字元中，輸入**CertWizard /Publickey 」***\<磁碟機\>***: \Certs\Contoso Public Encryption.cer 」**，然後按**Enter**。</span><span class="sxs-lookup"><span data-stu-id="7a67f-136">At the command prompt, type **CertWizard /Publickey "***\<drive\>***:\Certs\Contoso Public Encryption.cer"**, and then press **Enter**.</span></span>  
   
