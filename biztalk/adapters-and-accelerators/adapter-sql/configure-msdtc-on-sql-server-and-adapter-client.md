@@ -1,23 +1,6 @@
----
-title: SQL Server 和配接器的用戶端上設定 MSDTC |Microsoft Docs
-ms.custom: ''
-ms.date: 06/08/2017
-ms.prod: biztalk-server
-ms.reviewer: ''
-ms.suite: ''
-ms.tgt_pltfrm: ''
-ms.topic: article
-ms.assetid: 2c87f455-a8c4-4169-bf18-695926136df1
-caps.latest.revision: 14
-author: MandiOhlinger
-ms.author: mandia
-manager: anneta
-ms.openlocfilehash: 3f609b3d54c9b2db6ad576eab75bb82872075f5a
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
-ms.translationtype: MT
-ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37013823"
+-title:"SQL Server 和配接器用戶端上的 MSDTC 設定 |Microsoft Docs"ms.custom:""ms.date:"06/08/2017"ms.prod: 「 biztalk server 」 ms.reviewer:""
+
+ms.suite:""ms.tgt_pltfrm:""ms.topic:"article"ms.assetid: 2c87f455-a8c4-4169-bf18-695926136df1 caps.latest.revision: 14 的作者: 「 MandiOhlinger"ms.author:"mandia"manager:"anneta 」
 ---
 # <a name="configure-msdtc-on-sql-server-and-adapter-client"></a>SQL Server 和配接器的用戶端上設定 MSDTC
 使用 SQL Server 上執行的操作[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)] (透過[!INCLUDE[btsBizTalkServerNoVersion](../../includes/btsbiztalkservernoversion-md.md)]，WCF 服務模型或 WCF 通道模型) 可以在交易範圍內執行。 如果用戶端程式會有一個以上的交易式資源作為相同交易的一部分，取得更高為 MSDTC 交易的交易。 若要啟用配接器來執行 MSDTC 交易的範圍內的作業，您必須執行的電腦上設定 MSDTC，這兩個[!INCLUDE[adaptersqlshort](../../includes/adaptersqlshort-md.md)]和 SQL Server。 此外，您必須將 MSDTC 加入 Windows 防火牆的例外清單。 本節提供如何在執行 SQL Server 與配接器用戶端電腦上執行這些工作的相關資訊。  
@@ -42,7 +25,7 @@ ms.locfileid: "37013823"
    - **允許遠端用戶端** 
    - **允許輸入** 
    - **允許輸出** 
-   - **沒有所需的 Authetnication**
+   - **不需要驗證**
   
 4. 選取 [確定] 儲存您的變更。  
   

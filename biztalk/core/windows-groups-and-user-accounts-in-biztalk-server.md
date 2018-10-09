@@ -1,7 +1,7 @@
 ---
 title: Windows 群組和 BizTalk Server 中的使用者帳戶 |Microsoft Docs
 ms.custom: ''
-ms.date: 06/08/2017
+ms.date: 09/27/2018
 ms.prod: biztalk-server
 ms.reviewer: ''
 ms.suite: ''
@@ -85,12 +85,12 @@ caps.latest.revision: 25
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e86772c5ae2565407d53a46cf9af16e214089f9e
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 26a9cc092ed8d5747c7f6b7e899d27b62bbc3087
+ms.sourcegitcommit: c1e83b63ae34bd586e6e0ccc914640efdf96bd4c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37016053"
+ms.lasthandoff: 10/04/2018
+ms.locfileid: "48423938"
 ---
 # <a name="windows-groups-and-user-accounts-in-biztalk-server"></a>BizTalk Server 中的 Windows 群組和使用者帳戶
 BizTalk Server 本機和網域群組和使用者帳戶的相關資訊。 如果您在單一電腦安裝 BizTalk Server 以及所有必備的軟體，「組態管理員」預設會為您建立所需的 BizTalk 群組帳戶。 在本節中所包含的資訊適用於多個電腦的拓撲。  
@@ -118,7 +118,7 @@ BizTalk Server 本機和網域群組和使用者帳戶的相關資訊。 如果�
 |SSO 分支機構系統管理員|特定 SSO 分支機構應用程式的系統管理員。<br /><br /> 可以建立/刪除 SSO 分支機構應用程式；管理使用者對應；以及設定分支機構應用程式使用者的認證|沒有包含服務帳戶。<br /><br /> 包含 BizTalk Server 系統管理員使用的帳戶。||  
 |BizTalk Server 系統管理員|擁有執行管理工作所需的最低權限<br /><br /> 可以部署解決方案；管理應用程式；以及解決訊息處理問題。<br /><br /> 若要執行配接器、接收和傳送處理常式以及接收位置的管理工作，必須將「BizTalk Server 系統管理員」新增到「單一登入分支機構系統管理員」。<br /><br /> 如需詳細資訊，請參閱 <<c0> [ 管理 BizTalk Server 安全性](../core/managing-biztalk-server-security.md)。|包含需要設定及管理 BizTalk Server 之能力的使用者/群組。|在下列資料庫中的 BTS_ADMIN_USERS SQL Server 資料庫角色：<br /><br /> BizTalkMgmtDb<br /><br /> BizTalkMsgBoxDb<br /><br /> BizTalkRuleEngineDb<br /><br /> BizTalkDTADb<br /><br /> BAMPrimaryImport<br /><br /> 下列資料庫的 db_owner SQL Server 資料庫角色：<br /><br /> BAMStarSchema<br /><br /> BAMPrimaryImport<br /><br /> BAMArchive<br /><br /> BAMAlertsApplication<br /><br /> BAMAlertsNSMain<br /><br /> 下列資料庫中的 NSAdmin SQL Server 資料庫角色：<br /><br /> BAMAlertsApplication<br /><br /> BAMAlertsNSMain<br /><br /> 在裝載 BAMAnalysis OLAP 資料庫之電腦上的 OLAP 系統管理員。|  
 |BizTalk Server 操作員|具備低權限角色，僅有用來監控和疑難排解動作的存取權<br /><br /> 如需詳細資訊，請參閱[管理 BizTalk Server 安全性](../core/managing-biztalk-server-security.md)|包含將會監控解決方案的使用者/群組。<br /><br /> 沒有包含服務帳戶。|下列資料庫中的 BTS_OPERATORS SQL Server 資料庫角色：<br /><br /> BizTalkDTADb<br /><br /> BizTalkEDIDb<br /><br /> BizTalkMgmtDb<br /><br /> BizTalkMsgBoxDb<br /><br /> BizTalkRuleEngineDb|  
-|BizTalk 應用程式使用者|「組態管理員」建立的第一個「內含式 BizTalk 主控件群組」的預設名稱。<br /><br /> 針對環境中的每個「內含式主控件」，各使用一個 BizTalk 主控件群組。<br /><br /> 包括具有「內含式 BizTalk 主控件」(裝載 BizTalk Server 中的處理程序，BTSNTSvc.exe) 存取權的帳戶。|包含「BizTalk 內含式主控件執行個體」(屬於「內含式 BizTalk 主控件群組」被指定到的主控件) 的服務帳戶。|下列資料庫中的 BTS_HOST_USERS SQL Server 資料庫角色：<br /><br /> BizTalkMgmtDb<br /><br /> BizTalkMsgBoxDb<br /><br /> BizTalkRuleEngineDb<br /><br /> BizTalkDTADb<br /><br /> BAMPrimaryImport<br /><br /> 在 BAMPrimaryImport 中的 BAM_EVENT_WRITER SQL Server 資料庫角色|  
+|BizTalk 應用程式使用者|「組態管理員」建立的第一個「內含式 BizTalk 主控件群組」的預設名稱。<br /><br /> 針對環境中的每個「內含式主控件」，各使用一個 BizTalk 主控件群組。<br /><br /> 包括具有「內含式 BizTalk 主控件」(裝載 BizTalk Server 中的處理程序，BTSNTSvc.exe) 存取權的帳戶。|包含 BizTalk 內含式主控件執行個體和 BizTalk 主控件群組 」 被指定的主機中的 BizTalk 規則引擎服務的服務帳戶。|下列資料庫中的 BTS_HOST_USERS SQL Server 資料庫角色：<br /><br /> BizTalkMgmtDb<br /><br /> BizTalkMsgBoxDb<br /><br /> BizTalkRuleEngineDb<br /><br /> BizTalkDTADb<br /><br /> BAMPrimaryImport<br /><br /> 在 BAMPrimaryImport 中的 BAM_EVENT_WRITER SQL Server 資料庫角色|  
 |BizTalk 外掛式主控件使用者|「組態管理員」建立的第一個「外掛式 BizTalk 主控件群組」的預設名稱。 不在 BizTalk Server 上執行的外掛式 BizTalk 主控件，如 HTTP 和 SOAP。<br /><br /> 針對環境中的每個「外掛式主控件」，各使用一個 BizTalk 外掛式主控件群組。|包含「BizTalk 外掛式主控件執行個體」(屬於「外掛式 BizTalk 主控件群組」被指定到的主控件) 的服務帳戶。|下列資料庫中的 BTS_HOST_USERS SQL Server 資料庫角色：<br /><br /> BizTalkMgmtDb<br /><br /> BizTalkMsgBoxDb<br /><br /> BizTalkRuleEngineDb<br /><br /> BizTalkDTADb<br /><br /> BAMPrimaryImport|  
 |BAM 入口網站使用者|擁有 BAM 入口網站的存取權。|這個角色預設使用 Everyone 群組。<br /><br /> 沒有包含服務帳戶。||  
 |啟用 BizTalk SharePoint 配接器的主控件|擁有 Windows SharePoint Services 配接器 Web 服務的存取權|包含能讓 BizTalk 主控件執行個體呼叫 SharePoint 配接器的服務帳戶。||  

@@ -14,10 +14,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: a131cc8e70311f6f57154b90e98ea1067ec5dc02
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.sourcegitcommit: 51ce182c5b71d3999a3920dd884bc9ec8334a899
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
+ms.lasthandoff: 10/04/2018
 ms.locfileid: "36969655"
 ---
 # <a name="node-types-and-ids-for-the-oracle-database-adapter"></a>節點類型與 Oracle 資料庫配接器的識別碼
@@ -30,9 +30,9 @@ ms.locfileid: "36969655"
 |-----------------------|-----------|-------------------------------------------------------------|----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |          --           | 類別目錄  |                              /                              |                                           /                                            | [!INCLUDE[afproductnameshort](../../includes/afproductnameshort-md.md)] 根節點。 會傳回所有第一層的節點;這包括 SQLEXECUTE 作業節點、 [POLLINGSTMT 作業] 節點中，以及所有的結構描述節點 |
 |      SQLEXECUTE       | OPERATION |                    [VERSION] / SQLEXECUTE                     |                http://Microsoft.LobServices.OracleDB/2007/03/SQLEXECUTE                |                                                                        SQLEXECUTE 作業節點。 SQLEXECUTE 作業會傳回 WSDL。                                                                        |
-|      POLLINGSTMT      | OPERATION |                    [VERSION] / POLLINGSTMT                    |               http://Microsoft.LobServices。 OracleDB/2007年/03/POLLINGSTMT               |                                                                       POLLINGSTMT 作業節點。 傳回 POLLINGSTMT 作業的 WSDL。                                                                       |
+|      POLLINGSTMT      | OPERATION |                    [VERSION] / POLLINGSTMT                    |               http://Microsoft.LobServices 。 OracleDB/2007年/03/POLLINGSTMT               |                                                                       POLLINGSTMT 作業節點。 傳回 POLLINGSTMT 作業的 WSDL。                                                                       |
 |      [DB_SCHEMA]      | 類別目錄  |                    [VERSION] / [DB_SCHEMA]                    |                  http://Microsoft.LobServices.OracleDB/2007/03/SCOTT                   |                                                結構描述 節點中。 傳回指定的結構描述 （資料表、 檢視、 程序、 函數和封裝） 的一般類別目錄節點。                                                |
-|         Table         | 類別目錄  |                 [VERSION] / [DB_SCHEMA] / 資料表                 |               http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table                |                                                                        結構描述 [資料表] 節點。 傳回針對指定的結構描述的所有資料表節點。                                                                        |
+|         資料表         | 類別目錄  |                 [VERSION] / [DB_SCHEMA] / 資料表                 |               http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table                |                                                                        結構描述 [資料表] 節點。 傳回針對指定的結構描述的所有資料表節點。                                                                        |
 |      [DB_TABLE]       | 類別目錄  |           [VERSION] / [DB_SCHEMA] /Table/ [DB_TABLE]            |             http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP              |      在資料表節點。 會傳回所有作業節點 （Insert、 Select、 Update、 Delete、 ReadLOB，與 UpdateLOB） 指定的資料表。 （ReadLOB 和 UpdateLOB 是只傳回包含 LOB 資料行的資料表）。      |
 |        Insert         | OPERATION |        [VERSION] / [DB_SCHEMA] /Table/ [DB_TABLE] / 插入        |          http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Insert          |                                                             資料表插入作業的節點。 傳回指定之資料表的插入作業的 WSDL。                                                             |
 |        Select         | OPERATION |        [VERSION] / [DB_SCHEMA] /Table/ [DB_TABLE] / 選取        |          http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Table/EMP/Select          |                                                             資料表選取作業的節點。 傳回指定之資料表的選取作業的 WSDL。                                                             |
