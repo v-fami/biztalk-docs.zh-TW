@@ -19,14 +19,14 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: f60e0ae7f9cf2e6a224ce9d919c7c4d5e6f3119c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: e172dedfd00d4de3a40c8289f3a97ef65cdadd3c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/18/2018
 ms.locfileid: "22277486"
 ---
 # <a name="soap-headers-with-consumed-wcf-services"></a>SOAP 標頭與使用 WCF 服務
-若要傳送訊息至 WCF 服務使用自訂 SOAP 標頭，這些標頭必須設定 （在 「 運算式 」 圖形，例如） 的協調流程和管線元件 （在程式碼） 中為內容屬性**OutboundCustomHeaders**。 這個內容屬性位於目標命名空間**http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**，並包含自訂 SOAP 標頭的字串表示法。  
+若要傳送訊息至 WCF 服務使用自訂 SOAP 標頭，這些標頭必須設定 （在 「 運算式 」 圖形，例如） 的協調流程和管線元件 （在程式碼） 中為內容屬性**OutboundCustomHeaders**。 此內容屬性位於目標命名空間**http://schemas.microsoft.com/BizTalk/2006/01/Adapters/WCF-properties**，並包含自訂 SOAP 標頭的字串表示法。  
   
  下列 XML 外寄訊息中的資料顯示的自訂 SOAP 標頭的字串表示法範例**OutboundCustomHeaders**屬性：  
   

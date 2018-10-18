@@ -13,10 +13,10 @@ author: MandiOhlinger
 ms.author: mandia
 manager: anneta
 ms.openlocfilehash: f355275f9480cfa13f3a15bcc6522fbe7ec83b8c
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.sourcegitcommit: e172dedfd00d4de3a40c8289f3a97ef65cdadd3c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
+ms.lasthandoff: 10/18/2018
 ms.locfileid: "22278886"
 ---
 # <a name="step-2-configure-a-two-way-wcf-webhttp-send-port"></a>步驟 2： 設定雙向 Wcf-webhttp 傳送埠

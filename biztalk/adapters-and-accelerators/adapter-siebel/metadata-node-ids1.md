@@ -42,7 +42,7 @@ ms.locfileid: "36991479"
 |            商務服務             | 類別目錄  |              [VERSION]/BusinessServices/[Business Service]               |             http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/ATP              |        傳回指定的商務服務的所有商務方法。        |
 |         商務服務方法         | OPERATION | [VERSION] /BusinessServices/ [商務服務] / [商務服務方法]  |       http://Microsoft.LobServices.Siebel/2007/03/BusinessServices/ATP/ATPRunCheck        |                 傳回指定的商務服務方法。                 |
 
- [VERSION] = 版本字串;比方說http://Microsoft.LobServices.Siebel/2007/03。  
+ [VERSION] = 版本字串;比方說 http://Microsoft.LobServices.Siebel/2007/03 。  
 
  [BO] = Siebel 商務物件;例如，帳戶。  
 
@@ -50,9 +50,9 @@ ms.locfileid: "36991479"
 
  [商務服務] = Siebel 商務服務;比方說，ATP。  
 
- [商務服務方法] = [商務服務; 方法比方說，DismissAlarm。  
+ [商務服務方法] = 商務服務; 方法比方說，DismissAlarm。  
 
- [MVG 下層業務元件] = [多重值群組子商務元件;例如，請連絡。  
+ [MVG 下層業務元件] = 多重值群組子商務元件;例如，請連絡。  
 
 ## <a name="metadata-search-and-node-ids"></a>中繼資料搜尋和節點識別碼  
  中繼資料搜尋是功能強大[!INCLUDE[afproductnamelong](../../includes/afproductnamelong-md.md)]介面的一部分與其**MetadataRetrievalContract**介面。 [!INCLUDE[adaptersiebel_short](../../includes/adaptersiebel-short-md.md)]會利用這項功能來支援下列的 Siebel 成品的搜尋。  
@@ -64,7 +64,7 @@ ms.locfileid: "36991479"
 |商務服務|[VERSION]/BusinessServices|傳回符合搜尋運算式的商務服務。|  
 |商務服務方法|[VERSION]/BusinessServices/[Business Service]|傳回符合搜尋運算式的商務服務方法。|  
 
- [VERSION] = 版本字串;比方說http://Microsoft.LobServices.Siebel/2007/03。  
+ [VERSION] = 版本字串;比方說 http://Microsoft.LobServices.Siebel/2007/03 。  
 
  [BO] = Siebel 商務物件;例如，帳戶。  
 
