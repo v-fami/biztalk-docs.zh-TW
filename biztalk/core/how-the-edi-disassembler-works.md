@@ -38,7 +38,7 @@ ms.locfileid: "36971871"
   
 - 將整個交換轉換為 XML，如果**輸入批次處理選項**屬性設定為兩個的其中一個**保留交換**值。 這個屬性可以設定從**本機主機設定**頁面**交換設定**之雙向協議索引標籤**協議屬性** 對話方塊。 接收管線會升級 ReuseEnvelope 屬性，以識別保留的交換。  
   
-- 產生「技術」和/或「功能」通知 (若已設定)。 這可包含批次處理通知 (若已設定)。 升級 BTS 內容的屬性。MessageType，將它設定等於中的控制結構描述http://schemas.microsoft.com/EDI/\<X12或 EDIFACT\>命名空間 （例如，將 997 通知就是 X12_997_Root）。 另外，升級 EDI.DestinationPartyName 內容屬性，可確保會挑選要傳送的通知。 如需詳細資訊，請參閱 <<c0> [ 傳送 EDI 通知](../core/sending-an-edi-acknowledgment.md)。  
+- 產生「技術」和/或「功能」通知 (若已設定)。 這可包含批次處理通知 (若已設定)。 升級 BTS 內容的屬性。MessageType，將它設定等於中的控制結構描述 http://schemas.microsoft.com/EDI/\<X12 或 EDIFACT\>命名空間 （例如，將 997 通知就是 X12_997_Root）。 另外，升級 EDI.DestinationPartyName 內容屬性，可確保會挑選要傳送的通知。 如需詳細資訊，請參閱 <<c0> [ 傳送 EDI 通知](../core/sending-an-edi-acknowledgment.md)。  
   
 - 適用時，執行 HIPAA 276/277 (僅 5010 版) 834、835 (僅 4010 版) 和 837 文件分割。  
   
