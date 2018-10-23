@@ -12,12 +12,12 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: fa3b81ceef83553d859aafa3f208ef619c2fc376
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 8ff35975566b8260453a2cc4ca9a576576f915fe
+ms.sourcegitcommit: e172dedfd00d4de3a40c8289f3a97ef65cdadd3c
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37002831"
+ms.lasthandoff: 10/18/2018
+ms.locfileid: "49401681"
 ---
 # <a name="security-with-the-oracle-e-business-suite-adapter-and-biztalk-server"></a>Oracle E-business Suite 配接器與 BizTalk Server 安全性
 當您設定傳送埠或接收埠 （位置） 使用 BizTalk Server 管理主控台或使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]擷取 BizTalk 解決方案的訊息結構描述，您必須提供認證 for Oracle E-business Suite。 請務必在安全的方式，來協助防止它們被洩漏給潛在的惡意動作項目中提供這些認證。 本主題討論如何提供認證，最安全[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]BizTalk Server 解決方案。  
