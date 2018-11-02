@@ -17,12 +17,12 @@ ms.devlang: na
 ms.topic: hub-page
 ms.date: 06/19/2017
 ms.author: mandia
-ms.openlocfilehash: fb8b62c272da41d1056bee10095715dc33770e67
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 33efee8d81f3bf0242b904d2ada62fb7ac02875f
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36993415"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753118"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -34,7 +34,7 @@ ms.locfileid: "36993415"
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img src="https://docs.microsoft.com/en-us/media/common/i_config-tools.svg" alt="" />
+                                        <img src="https://docs.microsoft.com/media/common/i_config-tools.svg" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -53,7 +53,7 @@ ms.locfileid: "36993415"
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img src="https://docs.microsoft.com/en-us/media/common/i_whats-new.svg" alt="" />
+                                        <img src="https://docs.microsoft.com/media/common/i_whats-new.svg" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -72,7 +72,7 @@ ms.locfileid: "36993415"
                             <div class="card">
                                 <div class="cardImageOuter">
                                     <div class="cardImage">
-                                        <img src="https://docs.microsoft.com/en-us/media/common/i_learn-about.svg" alt="" />
+                                        <img src="https://docs.microsoft.com/media/common/i_learn-about.svg" alt="" />
                                     </div>
                                 </div>
                                 <div class="cardText">
@@ -102,7 +102,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-get-started-whats-new.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-get-started-whats-new.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -121,7 +121,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-get-started-get-started.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-get-started-get-started.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -140,7 +140,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-get-started-scenarios.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-get-started-scenarios.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -159,7 +159,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-get-started-b2b.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-get-started-b2b.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -183,7 +183,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-get-started-adapters-accelerators.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-get-started-adapters-accelerators.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -202,7 +202,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-get-stated-adapters-built-in-adapters.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-get-stated-adapters-built-in-adapters.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -221,7 +221,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-get-started-adapters-adapter-pack.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-get-started-adapters-adapter-pack.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -240,7 +240,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-get-started-adapters-file-act.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-get-started-adapters-file-act.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -259,7 +259,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-get-started-adapters-hl7.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-get-started-adapters-hl7.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -278,7 +278,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-get-started-adapters-rosetta.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-get-started-adapters-rosetta.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -297,7 +297,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-get-started-adapters-swift.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-get-started-adapters-swift.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -317,7 +317,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztallk-get-started-adapters-host-system.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztallk-get-started-adapters-host-system.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -341,7 +341,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-get-started-announcements-integrate-2017.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-get-started-announcements-integrate-2017.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -360,7 +360,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-get-started-announcements-flipboard.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-get-started-announcements-flipboard.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -383,12 +383,12 @@ ms.locfileid: "36993415"
                                                 <div class="card" style="min-height:100px;">
                                                     <div class="cardImageOuter" style="width:auto !important;">
                                                         <div class="cardImage">
-                                                            <img alt="" src="https://docs.microsoft.com/en-us/media/common/i_twitter.svg" />
+                                                            <img alt="" src="https://docs.microsoft.com/media/common/i_twitter.svg" />
                                                         </div>
                                                     </div>
                                                     <div class="cardText">
                                                         <h3>&#64;BizTalk_Server</h3>
-                                                        <p>BizTalk Sever 產品小組官方經營。</p>
+                                                        <p>BizTalk Server 產品小組的官方經營者。</p>
                                                     </div>
                                                 </div>
                                             </div>
@@ -402,7 +402,7 @@ ms.locfileid: "36993415"
                                                 <div class="card" style="min-height:100px;">
                                                     <div class="cardImageOuter" style="width:auto !important;">
                                                         <div class="cardImage">
-                                                            <img alt="" src="https://docs.microsoft.com/en-us/media/common/i_twitter.svg" />
+                                                            <img alt="" src="https://docs.microsoft.com/media/common/i_twitter.svg" />
                                                         </div>
                                                     </div>
                                                     <div class="cardText">
@@ -421,7 +421,7 @@ ms.locfileid: "36993415"
                                                 <div class="card" style="min-height:100px;">
                                                     <div class="cardImageOuter" style="width:auto !important;">
                                                         <div class="cardImage">
-                                                            <img alt="" src="https://docs.microsoft.com/en-us/media/common/i_twitter.svg" />
+                                                            <img alt="" src="https://docs.microsoft.com/media/common/i_twitter.svg" />
                                                         </div>
                                                     </div>
                                                     <div class="cardText">
@@ -440,7 +440,7 @@ ms.locfileid: "36993415"
                                                 <div class="card" style="min-height:100px;">
                                                     <div class="cardImageOuter" style="width:auto !important;">
                                                         <div class="cardImage">
-                                                            <img alt="" src="https://docs.microsoft.com/en-us/media/common/i_twitter.svg" />
+                                                            <img alt="" src="https://docs.microsoft.com/media/common/i_twitter.svg" />
                                                         </div>
                                                     </div>
                                                     <div class="cardText">
@@ -459,7 +459,7 @@ ms.locfileid: "36993415"
                                                 <div class="card" style="min-height:100px;">
                                                     <div class="cardImageOuter" style="width:auto !important;">
                                                         <div class="cardImage">
-                                                            <img alt="" src="https://docs.microsoft.com/en-us/media/common/i_twitter.svg" />
+                                                            <img alt="" src="https://docs.microsoft.com/media/common/i_twitter.svg" />
                                                         </div>
                                                     </div>
                                                     <div class="cardText">
@@ -478,7 +478,7 @@ ms.locfileid: "36993415"
                                                 <div class="card" style="min-height:100px;">
                                                     <div class="cardImageOuter" style="width:auto !important;">
                                                         <div class="cardImage">
-                                                            <img alt="" src="https://docs.microsoft.com/en-us/media/common/i_twitter.svg" />
+                                                            <img alt="" src="https://docs.microsoft.com/media/common/i_twitter.svg" />
                                                         </div>
                                                     </div>
                                                     <div class="cardText">
@@ -497,7 +497,7 @@ ms.locfileid: "36993415"
                                                 <div class="card" style="min-height:100px;">
                                                     <div class="cardImageOuter" style="width:auto !important;">
                                                         <div class="cardImage">
-                                                            <img alt="" src="https://docs.microsoft.com/en-us/media/common/i_twitter.svg" />
+                                                            <img alt="" src="https://docs.microsoft.com/media/common/i_twitter.svg" />
                                                         </div>
                                                     </div>
                                                     <div class="cardText">
@@ -542,7 +542,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-partner-training-pluralsight.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-partner-training-pluralsight.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -561,7 +561,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-partner-training-quick-learn.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-partner-training-quick-learn.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -590,7 +590,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-developer-documentation-1.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-developer-documentation-1.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -609,7 +609,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-developer-code-samples.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-developer-code-samples.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -628,7 +628,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-developer-codeplex.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-developer-codeplex.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -648,7 +648,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-developer-5-day-course.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-developer-5-day-course.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -677,7 +677,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-host-integration-whats-new.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-host-integration-whats-new.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -696,7 +696,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-host-integration-install-configure.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-host-integration-install-configure.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -715,7 +715,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-host-integration-core-documentation.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-host-integration-core-documentation.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -734,7 +734,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-host-integration-ole-db-provider.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-host-integration-ole-db-provider.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -753,7 +753,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-host-integration-update-center.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-host-integration-update-center.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -772,7 +772,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-host-integration-popular-downloads.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-host-integration-popular-downloads.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -802,7 +802,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-watch-ignite-videos.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-watch-ignite-videos.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -821,7 +821,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-watch-integrate-london.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-watch-integrate-london.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -840,7 +840,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-watch-azure-logic-apps.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-watch-azure-logic-apps.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -860,7 +860,7 @@ ms.locfileid: "36993415"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/media/hubs/biztalk/biztalk-watch-channel9.svg" alt="" />
+                                                        <img src="https://docs.microsoft.com/media/hubs/biztalk/biztalk-watch-channel9.svg" alt="" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
