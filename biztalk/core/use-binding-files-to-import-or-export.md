@@ -12,12 +12,12 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: b9ed0f50d6a6d841169b16f3f3ffd485ee345aeb
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: af5902812edb528504b2eeac402aad77f647582a
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36990591"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752870"
 ---
 # <a name="use-binding-files-to-import-or-export"></a>使用繫結檔案匯入或匯出
 
@@ -28,7 +28,7 @@ ms.locfileid: "36990591"
 
 本主題示範如何匯入和匯出合作對象、 其設定檔、 協議、 後援設定和更多使用[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]和 BTSTask。 
 
-## <a name="overview"></a>概觀
+## <a name="overview"></a>總覽
 
 匯入和匯出功能包括：
 
@@ -40,9 +40,9 @@ ms.locfileid: "36990591"
 * 應用程式匯入繫結精靈 可讓您選擇要匯入追蹤設定，或排除合作對象。
 * 包含 BTSTask`ImportParties`和`ExportParties`命令 
 
-## <a name="prerequisites"></a>必要條件
+## <a name="prerequisites"></a>先決條件
 
-* 您必須以成員的帳戶登入 * * BizTalk Server 系統管理員 」 群組。 請參閱[部署和管理 BizTalk 應用程式所需的權限](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md)。  
+* 您必須以成員的帳戶登入**BizTalk Server 系統管理員**群組。 請參閱[部署和管理 BizTalk 應用程式所需的權限](../core/permissions-required-for-deploying-and-managing-a-biztalk-application.md)。  
 
 * 您必須新增的參考**BizTalk EDI 應用程式**從 BizTalk 應用程式將用於做為 EDI 應用程式。 請參閱[後續設定步驟](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md)。
 

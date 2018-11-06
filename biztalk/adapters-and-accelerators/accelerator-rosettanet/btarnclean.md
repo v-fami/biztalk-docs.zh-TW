@@ -21,12 +21,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f94c69552a59cf8cae8a12e056502ae405638e69
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 01c4524fd5ce633851b64fc07ea2891a389b4ef5
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36992839"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752854"
 ---
 # <a name="btarnclean"></a>BtarnClean
 您使用 BtarnClean 公用程式清除 Microsoft®[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]成品關閉電腦。 這包含下列動作：  
@@ -35,7 +35,7 @@ ms.locfileid: "36992839"
   
 - 停止和刪除所有關聯的連接埠  
   
-- 解除部署所有 Microsoft.Solutions.btarn 組件  
+- 解除部署所有 Microsoft。Solutions.BTARN。\*組件  
   
 ## <a name="location-in-sdk"></a>SDK 中的位置  
  \<*磁碟機*\>\Program Files (x86) \ Microsoft BizTalk\<版本\>Accelerator for RosettaNet\SDK  

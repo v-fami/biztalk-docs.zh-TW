@@ -2,7 +2,7 @@
 title: 在多重電腦環境中安裝 BizTalk Server |Microsoft Docs
 description: 多伺服器安裝和設定指南 BizTalk 和 SQL Server 安裝在不同的電腦，包括 BAM 時
 ms.custom: ''
-ms.date: 11/30/2017
+ms.date: 09/27/2018
 ms.prod: biztalk-server
 ms.reviewer: ''
 ms.suite: ''
@@ -13,16 +13,16 @@ caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9fe6c7692f8fa370a357b2a2e53bcda97f008884
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 5243cb9dd53fdeec4d3dac46f54f2851befa1b15
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36972207"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753238"
 ---
 # <a name="install-biztalk-server-in-a-multi-computer-environment"></a>在多電腦環境中安裝 BizTalk Server
 
-## <a name="overview"></a>概觀
+## <a name="overview"></a>總覽
 
 在規劃 Microsoft® BizTalk® Server 的多重電腦安裝時需要考量許多事項。 經常存在於網路基礎結構和 BizTalk Server 必須與其他網路應用程式並存。 本指南將說明一些適用於多重電腦的 BizTalk Server 和分散式部署中的商務活動監控 (BAM) 安裝的考量。 這項資訊可協助您規劃的安裝和設定 BizTalk Server 和商務活動監控 (BAM) 和應用程式以及它相依於的元件。
 
@@ -302,7 +302,7 @@ BAM 是由下列各層所組成：
 | SSO 分支機構系統管理員 | 特定 SSO 分支機構應用程式的系統管理員。 可以建立/刪除 SSO 分支機構應用程式、 管理使用者對應，並設定認證的分支機構應用程式使用者。 | 沒有包含服務帳戶。 包含 BizTalk Server 系統管理員使用的帳戶。| |
 |BizTalk Server 系統管理員 | 擁有執行管理工作所需的最低權限。 可以部署解決方案；管理應用程式；以及解決訊息處理問題。 若要執行配接器、接收和傳送處理常式以及接收位置的管理工作，必須將「BizTalk Server 系統管理員」新增到「單一登入分支機構系統管理員」。 請參閱[管理 BizTalk Server 安全性](../core/managing-biztalk-server-security.md)。 | 包含需要設定及管理 BizTalk Server 之能力的使用者/群組。 | **BTS_ADMIN_USERS**下列資料庫中的 SQL Server 資料庫角色：<br/>BizTalkMgmtDb<br/>BizTalkMsgBoxDb<br/>BizTalkRuleEngineDb<br/>BizTalkDTADb<br/>BAMPrimaryImport<br/><br/>**db_owner**下列資料庫的 SQL Server 資料庫角色：<br/>BAMStarSchema<br/>BAMPrimaryImport<br/>BAMArchive<br/>BAMAlertsApplication<br/>BAMAlertsNSMain<br/><br/>**NSAdmin**下列資料庫中的 SQL Server 資料庫角色： <br/>BAMAlertsApplication<br/>BAMAlertsNSMain<br/><br/>下列資料庫中的 SQL Server 資料庫角色： <br/>BizTalkDTADb<br/>BizTalkMgmtDb。 <br/><br/>**OLAP 系統管理員**裝載 BAMAnalysis OLAP 資料庫的電腦上。 |
 | BizTalk Server 操作員 | 具備低權限角色，僅有用來監控動作及針對動作進行疑難排解的存取權。 | 包含監視解決方案的使用者/群組。 沒有包含服務帳戶。 | **BTS_OPERATORS**下列資料庫中的 SQL Server 資料庫角色： <br/>BizTalkDTADb<br/>BizTalkEDIDb<br/>BizTalkMgmtDb<br/>BizTalkMsgBoxDb<br/>BizTalkRuleEngineDb | 
-| BizTalk 應用程式使用者 | 「組態管理員」建立的第一個「內含式 BizTalk 主控件群組」的預設名稱。 針對環境中的每個「內含式主控件」，各使用一個 BizTalk 主控件群組。 包括具有「內含式 BizTalk 主控件」(裝載 BizTalk Server 中的處理程序，BTSNTSvc.exe) 存取權的帳戶。 | 包含「BizTalk 內含式主控件執行個體」(屬於「內含式 BizTalk 主控件群組」被指定到的主控件) 的服務帳戶。  | **BTS_HOST_USERS**下列資料庫中的 SQL Server 資料庫角色：<br/>BizTalkMgmtDb<br/>BizTalkMsgBoxDb<br/>BizTalkRuleEngineDb<br/>BizTalkDTADb<br/>BAMPrimaryImport<br/><br/> **BAM_EVENT_WRITER** BAMPrimaryImport 中的 SQL Server 資料庫角色。 | 
+| BizTalk 應用程式使用者 | 「組態管理員」建立的第一個「內含式 BizTalk 主控件群組」的預設名稱。 針對環境中的每個「內含式主控件」，各使用一個 BizTalk 主控件群組。 包括具有「內含式 BizTalk 主控件」(裝載 BizTalk Server 中的處理程序，BTSNTSvc.exe) 存取權的帳戶。 | 包含 BizTalk 內含式主控件執行個體和 BizTalk 主控件群組 」 被指定的主機中的 BizTalk 規則引擎服務的服務帳戶。  | **BTS_HOST_USERS**下列資料庫中的 SQL Server 資料庫角色：<br/>BizTalkMgmtDb<br/>BizTalkMsgBoxDb<br/>BizTalkRuleEngineDb<br/>BizTalkDTADb<br/>BAMPrimaryImport<br/><br/> **BAM_EVENT_WRITER** BAMPrimaryImport 中的 SQL Server 資料庫角色。 | 
 | BizTalk 外掛式主控件使用者 | 「組態管理員」建立的第一個「外掛式 BizTalk 主控件群組」的預設名稱。 不在 BizTalk Server 上執行的外掛式 BizTalk 主控件，如 HTTP 和 SOAP。 針對環境中的每個「外掛式主控件」，各使用一個 BizTalk 外掛式主控件群組。 | 包含「BizTalk 外掛式主控件執行個體」(屬於「外掛式 BizTalk 主控件群組」被指定到的主控件) 的服務帳戶。 | **BTS_HOST_USERS**下列資料庫中的 SQL Server 資料庫角色：<br/>BizTalkMgmtDb<br/>BizTalkMsgBoxDb<br/>BizTalkRuleEngineDb<br/>BizTalkDTADb<br/>BAMPrimaryImport | 
 | EDI 子系統使用者 | 擁有 EDI 資料庫的存取權。 | 包含 BizTalk 基底 EDI 服務的服務帳戶。 | **EDI_ADMIN_USERS** BizTalkEDIDb 中的 SQL Server 資料庫角色。 | 
 | BAM 入口網站使用者 | 可存取 BAM 入口網站。 | 這個角色預設使用 Everyone 群組。 沒有包含服務帳戶。 |  | 

@@ -12,12 +12,12 @@ caps.latest.revision: 23
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 35b0aa77fc9b30d3f365cf48f084b7d46bdbbb1b
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: b0fd15de7aec81c046ab6b2fc23b6c63a1ec0615
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36989239"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752702"
 ---
 # <a name="migrating-a-biztalk-server-project"></a>移轉 BizTalk Server 專案
 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 針對開發專案[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]可以移轉至較新的環境，使用[!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)]轉換。 如需支援的移轉版本的清單，請參閱 <<c0> [ 支援的升級路徑與安裝指南](http://social.technet.microsoft.com/wiki/contents/articles/28554.biztalk-server-supported-upgrade-paths-and-installation-guides.aspx)。  
@@ -36,7 +36,7 @@ ms.locfileid: "36989239"
 >  BizTalk 專案現在有兩種組建類型：**發行**並**偵錯**，取代了**開發**並**部署**的稍早版本。 不過，您將會繼續看見**Development**並**部署**從移轉的專案組態[!INCLUDE[btsbiztalkserver2006r2](../includes/btsbiztalkserver2006r2-md.md)]。  
 > 
 > [!CAUTION]
->  *.Btproj 與\*。 因為選擇備份選項，在轉換期間備份.btproj.user 專案檔。 其他檔案必須手動備份。  
+>  只有\*.btproj 和\*。 因為選擇備份選項，在轉換期間備份.btproj.user 專案檔。 其他檔案必須手動備份。  
 > 
 > [!CAUTION]
 >  轉換期間將遺失對自動產生的項目 (例如 XSD 與 ODX 檔案) 所做的自訂設定。 對於將 Web 參考新增至 BizTalk 專案時產生的 XSD 檔案，結果也是一樣。  

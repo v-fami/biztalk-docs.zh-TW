@@ -10,16 +10,16 @@ ms.assetid: ''
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ecb8e527abe896719da881f0c7df0e4f5566a90f
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 1cd5c218e6862791b8eb2f6a80848c4f8b2755b8
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37005799"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752670"
 ---
 # <a name="install-biztalk-accelerator-for-rosettanet"></a>安裝 BizTalk Accelerator for RosettaNet
 
-## <a name="overview"></a>概觀
+## <a name="overview"></a>總覽
 安裝 Microsoft BizTalk Accelerator for RosettaNet (BTARN)。
 
 > [!NOTE]
@@ -55,7 +55,7 @@ ms.locfileid: "37005799"
 ### <a name="before-you-begin"></a>開始之前
 
 * BTARN 資料庫中，BTARN 只會設定 SQL Server 的電腦名稱和資料庫名稱屬性。 關於這些屬性的資訊儲存在登錄中。
-* 使用成員的帳戶登入 BizTalk Server 系統管理員群組。 
+* 使用 BizTalk Server 系統管理員群組的成員帳戶登入。 
 * 在您的 BizTalk Server 下載 BTARN 安裝程式是在`\BizTalk Accelerators`資料夾。
 * 必須安裝在 BizTalk Server 和 SQL Server 必須正在執行。
 * BTARN 和 BizTalk Server 需要 Microsoft.NET Framework 軟體必要元件。 如果您有多個在電腦上安裝的.NET Framework 版本，請確定 BtarnAPP Web 應用程式參考.NET Framework 4.0 傳統。 您可使用 Internet Information Services (IIS) 管理員設定這個選項。  
@@ -108,7 +108,7 @@ ms.locfileid: "37005799"
     > [!NOTE]
     >  如果您想要設定 BTARN 使用本機系統管理員帳戶，請輸入做為帳戶 *< 電腦名稱\>\\< 系統管理員名稱\>* 中**使用者識別碼**欄位**服務認證**區域。  
 
-2.  在 **資料庫伺服器名稱**文字方塊中，確認顯示的伺服器名稱正確無誤。 在 **服務認證**區域中，輸入執行服務的帳戶 （及網域） 的使用者名稱和密碼。 按一下 **設定**。  
+2.  在 **資料庫伺服器名稱**文字方塊中，確認顯示的伺服器名稱正確無誤。 在 **服務認證**區域中，輸入執行服務的帳戶 （及網域） 的使用者名稱和密碼。 按一下**設定**。  
 
 3.  如果您的帳戶具有系統管理權限，請按一下**是**繼續進行設定。  
 
@@ -166,7 +166,7 @@ BTARN 協調流程傳送埠和接收位置不會自動啟動設定 BTARN 之後�
 
  如需有關如何在單一伺服器上安裝 BTARN 的詳細資訊，請參閱[Loopback 教學課程](loopback-tutorial.md)。
 
-## <a name="next-steps"></a>後續的步驟  
+## <a name="next-steps"></a>後續步驟  
 
 * [升級 RosettaNet 加速器](upgrade-biztalk-accelerator-for-rosettanet.md)
 * [解除安裝 RosettaNet 加速器](uninstall-biztalk-accelerator-for-rosettanet.md)

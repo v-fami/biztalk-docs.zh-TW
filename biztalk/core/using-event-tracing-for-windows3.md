@@ -21,15 +21,15 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 7dd37de9c38dce752f61b92e0240f7b2f2fff832
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 41d3b1869252b934d1f996f5021c1aa5cf888b19
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36984351"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752830"
 ---
 # <a name="using-event-tracing-for-windows"></a>使用 Windows 追蹤的事件
-Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 會將錯誤、警告與資訊訊息記錄到 Windows 事件檢視器中。 您可以使用「Windows 事件追蹤」工具來查看其他追蹤訊息。 啟動 ETW 時，它會建立一個 *.etl 檔案來接收訊息。 這個檔案是二進位格式，必須經過轉換才能讀取。 若要這樣做，您必須取用者應用程式可供解譯\*.etl 檔案，例如，tracerpt.exe 或 tracedmp.exe。 例如，tracerpt.exe 應用程式會將轉換\*成兩個文字檔的.etl 檔案： summary.txt 與 dumpfile.csv。  
+Microsoft BizTalk Adapter for TIBCO Enterprise Message Service 會將錯誤、警告與資訊訊息記錄到 Windows 事件檢視器中。 您可以使用「Windows 事件追蹤」工具來查看其他追蹤訊息。 當啟動 ETW 時，它會建立\*.etl 檔案以接收的訊息。 這個檔案是二進位格式，必須經過轉換才能讀取。 若要這樣做，您必須取用者應用程式可供解譯\*.etl 檔案，例如，tracerpt.exe 或 tracedmp.exe。 例如，tracerpt.exe 應用程式會將轉換\*成兩個文字檔的.etl 檔案： summary.txt 與 dumpfile.csv。  
   
 ## <a name="etw-components"></a>ETW 元件  
  「Windows 事件追蹤」有三個元件：  

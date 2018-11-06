@@ -16,12 +16,12 @@ caps.latest.revision: 61
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3e341392e65509568e995f711abcdddd6eb39cbb
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: ffb067c206018996bc48641bcd8211921b0294dd
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37007616"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752519"
 ---
 # <a name="how-to-install-the-business-process-management-solution"></a>如何安裝商務程序管理解決方案
 下列步驟說明如何準備安裝商務程序管理 (BPM) 解決方案的電腦，以及如何在此電腦上安裝解決方案。  
@@ -124,7 +124,7 @@ ms.locfileid: "37007616"
   
 12. 在命令提示字元，請將目前資料夾變更為 %btssolutionspath%\bpm\scripts，型別`CreateQueues.vbs`，然後按 ENTER，以建立下列私用佇列。  
   
-    |[屬性]|異動|交易通訊協定|  
+    |名稱|異動|交易通訊協定|  
     |----------|-------------------|--------------------------|  
     |ToFacilitiesQ|是|原生|  
     |FromFacilitiesQ|是|原生|  
@@ -235,7 +235,7 @@ ms.locfileid: "37007616"
        > [!NOTE]
        >  在 32 位元命令提示字元，%CommonProgramFiles% 變數變更為 "%ProgramFiles(x86)%\Common Files"。 因為即使在 64 位元的電腦上，SSO 系統管理公用程式還是安裝在 %ProgramFiles% 中，因此您必須修正路徑。 DeployBPM.cmd 會呼叫 CreateSouthridgeVideoApplication.cmd。  
   
-   4.  在 32 位元命令提示字元中，輸入類型`DeployBPM.cmd`，然後按 ENTER 鍵。  
+   4.  在 32 位元命令提示字元中，輸入`DeployBPM.cmd`，然後按 ENTER 鍵。  
   
        > [!NOTE]
        >  DeployBPM.cmd 必須在 32-bit 命令提示字元執行，因為它包含存取 x86 物件的 VB Script，必須要有 x86 版本的 cscript.exe。  
@@ -260,7 +260,7 @@ ms.locfileid: "37007616"
   
    2.  在上**屬性** 對話方塊中，按一下**設定**，然後輸入值為下表**傳輸屬性** 對話方塊中：  
   
-       |屬性名稱|ReplTest1|  
+       |屬性名稱|值|  
        |-------------------|-----------|  
        |**Server**|`localhost`|  
        |**使用者名稱**|\<*BizTalk 服務帳戶名稱*\>|  

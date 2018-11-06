@@ -15,12 +15,12 @@ caps.latest.revision: 16
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: efcda402c231b990d7fefa239a8ff15798331184
-ms.sourcegitcommit: 9b93ee2a019bef8d482626cf5525a6b95509b135
+ms.openlocfilehash: 44fb1a5235a3cc86397339099efde18784de6cfc
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2018
-ms.locfileid: "42709884"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752814"
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-publishing-wizard-to-publish-service-metadata-for-a-wcf-receive-location-for-content-based-routing"></a>如何使用 BizTalk WCF 服務發佈精靈來發佈根據訊息內容決定路由之 WCF 接收位置的服務中繼資料
 您可以使用 [BizTalk WCF 服務發佈精靈] 來建立 WCF 服務，以便發佈根據訊息內容決定路由之現有 WCF 接收位置的服務中繼資料。  

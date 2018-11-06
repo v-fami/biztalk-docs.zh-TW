@@ -12,12 +12,12 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8ff35975566b8260453a2cc4ca9a576576f915fe
-ms.sourcegitcommit: e172dedfd00d4de3a40c8289f3a97ef65cdadd3c
+ms.openlocfilehash: 066ee0946210bc313188de200e695a684138e560
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/18/2018
-ms.locfileid: "49401681"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752918"
 ---
 # <a name="security-with-the-oracle-e-business-suite-adapter-and-biztalk-server"></a>Oracle E-business Suite 配接器與 BizTalk Server 安全性
 當您設定傳送埠或接收埠 （位置） 使用 BizTalk Server 管理主控台或使用[!INCLUDE[consumeadapterservlong](../../includes/consumeadapterservlong-md.md)]擷取 BizTalk 解決方案的訊息結構描述，您必須提供認證 for Oracle E-business Suite。 請務必在安全的方式，來協助防止它們被洩漏給潛在的惡意動作項目中提供這些認證。 本主題討論如何提供認證，最安全[!INCLUDE[adapteroracleebusinesslong](../../includes/adapteroracleebusinesslong-md.md)]BizTalk Server 解決方案。  
@@ -37,8 +37,8 @@ ms.locfileid: "49401681"
   如需有關如何使用以擷取訊息結構描述[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]或是[!INCLUDE[addadapterwiz](../../includes/addadapterwiz-md.md)]，請參閱[取得 Visual Studio 中的 Oracle E-business Suite 作業的中繼資料](../../adapters-and-accelerators/adapter-oracle-ebs/get-metadata-for-oracle-e-business-suite-operations-in-visual-studio.md)。  
   
 ## <a name="how-do-i-protect-credentials-when-i-configure-a-send-port-or-a-receive-location"></a>如何保護認證時設定傳送埠或接收位置？  
- BizTalk 解決方案會使用 Microsoft BizTalk Wcf-custom 或 WCF Oracle EBS 配接器使用 WCF 服務。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]是可讓用戶端使用 Oracle E-business Suite，如同一般 WCF 服務的 WCF 繫結。 BizTalk 解決方案耗用[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]透過傳送埠和接收位置設定為使用 Wcf-custom 或 Wcf-oracleebs 配接器，這，接著會設定為使用[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]做為其傳輸。 如需如何設定傳送埠和接收的埠 （接收位置），包括如何設定 Wcf-custom 配接器的詳細資訊，請參閱[設定使用 Oracle 資料庫的連接埠繫結檔案的實體連接埠繫結](../../adapters-and-accelerators/adapter-oracle-ebs/configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-ebs.md)。  
-  
+ BizTalk 解決方案會使用 Microsoft BizTalk Wcf-custom 或 WCF Oracle EBS 配接器使用 WCF 服務。 [!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]是可讓用戶端使用 Oracle E-business Suite，如同一般 WCF 服務的 WCF 繫結。 BizTalk 解決方案耗用[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]透過傳送埠和接收位置設定為使用 Wcf-custom 或 Wcf-oracleebs 配接器，這，接著會設定為使用[!INCLUDE[adapteroraclebusinessshort](../../includes/adapteroraclebusinessshort-md.md)]做為其傳輸。 如需如何設定傳送埠和接收的埠 （接收位置），包括如何設定 Wcf-custom 配接器的詳細資訊，請參閱[設定使用 Oracle 資料庫的連接埠繫結檔案的實體連接埠繫結](../../adapters-and-accelerators/adapter-oracle-ebs/configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-ebs.md)。  
+
  您設定的 Oracle E-business Suite 認證**認證**索引標籤**Wcf-custom 傳輸屬性**對話方塊中的傳送埠，或從**其他**索引標籤**Wcf-custom 傳輸屬性**對話方塊的 接收位置。 由於 Wcf-custom 或 WCF Oracle EBS 配接器支援企業單一登入 (SSO)，您可以選擇提供使用者名稱和密碼，或 SSO 分支機構應用程式上的這些索引標籤。 下列主題將討論這兩個選項。  
   
 ### <a name="user-name-password-credentials"></a>使用者名稱密碼認證  

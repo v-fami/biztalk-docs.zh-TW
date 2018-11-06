@@ -11,12 +11,12 @@ ms.topic: article
 author: MandiOhlinger
 ms.author: ribarua
 manager: dougeby
-ms.openlocfilehash: daea28056180b436f226fa32b6179bfb1e091f7a
-ms.sourcegitcommit: e7609c319b64ec20bf215d17aa5ac4f9dcae52ec
+ms.openlocfilehash: 58183ce30236ccca39b9c8345959c4785de46ae9
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36946158"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752630"
 ---
 # <a name="send-and-receive-email-with-office-365-outlook-email-adapter---biztalk-server"></a>傳送和接收電子郵件使用 Office 365 Outlook 電子郵件配接器的 BizTalk Server
 
@@ -38,7 +38,7 @@ Office 365 Outlook 電子郵件配接器可讓您傳送和接收來自 BizTalk �
 
 5. 設定您 Office 365 Outlook 電子郵件的預設屬性：
 
-    |使用|以進行此動作|  
+    |使用|動作|  
     |---|---|  
     | **若要** | 指定您的預設為分隔的郵件地址 ';'（256 個字元的最大）|
     | **副本** | 指定分隔您預設 CC 郵件地址 ';'（256 個字元的最大）|
@@ -67,7 +67,7 @@ Office 365 Outlook 電子郵件配接器可讓您傳送和接收來自 BizTalk �
 
 您可以使用簡單檔案接收埠和位置來將訊息傳送至您的 Office 365 Outlook 電子郵件。
 
-1. 建立使用 File 配接器的接收埠。 內您接收位置，設定**接收資料夾**至 **C:\Temp\In\**，並將檔案遮罩設定為 **\*.xml**。
+1. 建立使用 File 配接器的接收埠。 內您接收位置，設定**接收資料夾**要**c:\\Temp\\中\\**，並將檔案遮罩設定為 **\*.xml**.
 2. 在您的 Office 365 Outlook 電子郵件配接器傳送埠屬性，設定**篩選條件**至`BTS.ReceivePortName == <Receive Port Name>`。
 3. 將下列內容貼入文字編輯器，並將檔案儲存為**Office365Mail.xml**。 這是您的範例訊息。
 
@@ -81,7 +81,7 @@ Office 365 Outlook 電子郵件配接器可讓您傳送和接收來自 BizTalk �
     ```
 
 4. 啟動檔案接收位置和 Office 365 Outlook 電子郵件的配接器傳送埠。
-5. 複製**Office365Mail.xml**範例訊息至接收資料夾 (C:\Temp\In\)。 傳送埠以郵件主體傳送 XML 檔案，Office 365 Outlook 電子郵件。
+5. 複製**Office365Mail.xml**範例訊息至接收資料夾 (c:\\Temp\\在\\)。 傳送埠以郵件主體傳送 XML 檔案，Office 365 Outlook 電子郵件。
 
 ## <a name="receive-email-using-a-receive-port"></a>收到電子郵件使用接收埠
 
@@ -101,7 +101,7 @@ Office 365 Outlook 電子郵件配接器可讓您傳送和接收來自 BizTalk �
 
 6. 設定**端點**屬性：
 
-    |使用|以進行此動作|  
+    |使用|動作|  
     |---|---|  
     | **資料夾** | 選取 [取得電子郵件] 資料夾。 預設資料夾是收件匣。 請注意資料夾不是遞迴的本質。 例如，電子郵件的子資料夾不擷取。 |
     | **從啟動** | 輸入從 Office 365 收到電子郵件的方式。 這個值表示 receivedTimeStamp 在 Office 365 Outlook 電子郵件。 不會收到輸入的值的較新的電子郵件。  |
@@ -118,7 +118,7 @@ Office 365 Outlook 電子郵件配接器可讓您傳送和接收來自 BizTalk �
 
 您可以使用簡單的 File 傳送埠以接收來自您 Office 365 Outlook 電子郵件訊息。
 
-1. 建立使用 File 配接器的傳送埠。 在您傳送連接埠的屬性，設定**目的地資料夾**至 **C:\Temp\Out\**，並設定和**檔案名稱**至 **%MessageID%.xml**.
+1. 建立使用 File 配接器的傳送埠。 在您傳送連接埠的屬性，設定**目的地資料夾**要**c:\\Temp\\出\\**，並設定和**檔案名稱**至 **%MessageID%.xml**。
 2. 在您的檔案傳送埠屬性，設定**篩選條件**至`BTS.ReceivePortName == <Receive Port Name>`。
 3. 開始 Office 365 Outlook 電子郵件接收位置和 File 傳送埠。
 4. 尋找目的地資料夾 (c:\temp\out) 中的訊息。
@@ -138,5 +138,5 @@ Office 365 Outlook 電子郵件配接器可讓您傳送和接收來自 BizTalk �
 > [!NOTE]
 > 只有電子郵件的本文內容會傳遞至訊息。
 
-## <a name="next-steps"></a>後續的步驟
+## <a name="next-steps"></a>後續步驟
 查看所有[Office 365 介面卡](office365-adapters.md)，或安裝[功能組件 3](https://aka.ms/bts2016fp3)。

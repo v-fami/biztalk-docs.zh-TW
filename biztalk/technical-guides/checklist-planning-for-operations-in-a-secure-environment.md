@@ -12,15 +12,15 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9caa74fbd3e9ac06728a9e2ee332bb3277f8a240
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: fb882531141114842983ca93be9d799898ecefdf
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36995919"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753110"
 ---
 # <a name="checklist-planning-for-operations-in-a-secure-environment"></a>檢查清單： 規劃安全環境中的作業
-執行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安全的環境中部署和設定需要執行額外步驟。 雖然預設的作業系統安裝需要不到帳戶，但是案例嚴格的安全性原則已套用的位置，您應該考慮到這一節中的帳戶資訊。 套用到伺服器上的限制的層級而有所不同，但下列資訊應該涵蓋大部分的情況下，會是不錯的起點。  
+執行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]安全的環境中部署和設定需要執行額外步驟。 雖然預設的作業系統安裝需要不到帳戶，但是案例嚴格的安全性原則已套用的位置，您應該考慮到這一節中的帳戶資訊。 套用到伺服器上的限制的層級而有所不同，但下列資訊應該涵蓋大部分的情況下，而且會是不錯的起點。  
 
 -   [執行 BizTalk Server 之電腦的安全性考量](../technical-guides/checklist-planning-for-operations-in-a-secure-environment.md#BKMK_BTSSec)  
 

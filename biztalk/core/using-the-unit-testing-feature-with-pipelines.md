@@ -1,5 +1,5 @@
 ---
-title: 使用單元測試功能搭配管線 |Microsoft 文件
+title: 使用單元測試功能與管線 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,18 +12,18 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ca19a58410014b9ea7c0c49df7420b439a544581
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 4e437df707ace58eef6de9dc9f7eb65d888309a9
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "26009151"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752633"
 ---
-# <a name="using-the-unit-testing-feature-with-pipelines"></a>使用單元測試功能搭配管線
-此主題示範如何使用單元測試功能，以在 FlatFileReceive 管線範例中新增管線的單元測試。 管線單元測試會記載於此處的 Pipeline.exe 工具相似：[管線工具](../core/pipeline-tools.md)。 當您啟用單元測試上 **部署** ] 索引標籤的 [專案屬性中，您的專案中的管線類別衍生自 **Microsoft.BizTalk.TestTools.Pipeline.TestableReceivePipeline**。  此類別可做為 Pipeline.exe 工具所公開之一些相同功能的模型。  
+# <a name="using-the-unit-testing-feature-with-pipelines"></a>使用單元測試功能與管線
+此主題示範如何使用單元測試功能，以在 FlatFileReceive 管線範例中新增管線的單元測試。 管線單元測試會記載於此處的 Pipeline.exe 工具相似：[管線工具](../core/pipeline-tools.md)。 當您啟用單元測試**部署**] 索引標籤的 [專案屬性中，您的專案中的管線類別衍生自**Microsoft.BizTalk.TestTools.Pipeline.TestableReceivePipeline**。  此類別可做為 Pipeline.exe 工具所公開之一些相同功能的模型。  
   
-## <a name="prerequisites"></a>必要條件  
- 您必須先遵循建置 FlatFileReceive 範例的步驟進行，然後便可熟悉該範例。 包含的步驟，用於建置 FlatFileReceive 範例可以在這裡找到的文件： [FlatFileReceive （BizTalk Server 範例）](../core/flatfilereceive-biztalk-server-sample.md)。  
+## <a name="prerequisites"></a>先決條件  
+ 您必須先遵循建置 FlatFileReceive 範例的步驟進行，然後便可熟悉該範例。 包含的步驟，如建置 FlatFileReceive 範例可以在這裡找到的文件： [FlatFileReceive （BizTalk Server 範例）](../core/flatfilereceive-biztalk-server-sample.md)。  
   
 ## <a name="adding-a-unit-test-project-to-the-flatfilereceive-sample"></a>將單元測試專案新增至 FlatFileReceive 範例  
   
@@ -31,27 +31,27 @@ ms.locfileid: "26009151"
   
 1.  在 Visual Studio 中，開啟 FlatFileReceive.sln 方案檔。  
   
-2.  在 [方案總管] 中，以滑鼠右鍵按一下 **FlatFileReceive** 專案，然後再按一下 **屬性**。  
+2.  在 [方案總管] 中，以滑鼠右鍵按一下**FlatFileReceive**專案，然後再按一下**屬性**。  
   
-3.  在 專案設計工具中，按一下  **部署** 屬性頁面 索引標籤和組 **啟用單元測試** 到 `True`。  
+3.  在 專案設計工具中，按一下**部署** 屬性頁面 索引標籤和組**啟用單元測試**到`True`。  
   
 4.  儲存所做的變更，關閉專案屬性頁。  
   
-5.  在主功能表中，按一下  **建置**, ，然後按一下  **重建方案**。  
+5.  在主功能表中，按一下 **建置**，然後按一下**重建方案**。  
   
-6.  在主功能表中，按一下  **測試**, ，然後按一下  **新測試**。  
+6.  在主功能表中，按一下 **測試**，然後按一下**新的測試**。  
   
-7.  在 **Add New Test** 對話方塊中，選取 **建立新的 Visual C# 測試專案** 的 **加入至測試專案** 欄位。 選取 **Unit Test Wizard** 中 **範本** 清單，然後再按 **確定**。  
+7.  在**Add New Test**對話方塊中，選取**建立新的視覺效果C#測試專案**如**測試專案中加入**欄位。 選取  **Unit Test Wizard**中**範本**清單，然後再按**確定**。  
   
-8.  在 **新的測試專案** 對話方塊方塊中，保留專案名稱，做為 **TestProject1** 按一下 **建立**。  
+8.  在 **新的測試專案**對話方塊方塊中，保留的專案名稱**TestProject1** ，按一下 **建立**。  
   
-9. 在 **建立單元測試**  對話方塊中，展開型別，然後選取 **FFReceivePipeline()** 建構函式在 **Microsoft.Samples.BizTalk.FlatFileReceive.FFReceivePipeline** 節點。 按一下 **[確定]**。  
+9. 在 **建立單元測試**對話方塊方塊中，展開型別，然後選取**FFReceivePipeline()** 下的建構函式**Microsoft.Samples.BizTalk.FlatFileReceive.FFReceivePipeline**節點。 按一下 [確定] 。  
   
 ## <a name="adding-test-code-to-test-the-pipeline"></a>新增測試程式碼以測試管線  
   
 #### <a name="to-add-test-code-to-test-the-pipeline"></a>新增測試程式碼以測試管線  
   
-1.  將下列參考加入 **TestProject1** 專案︰  
+1.  將下列參考加入**TestProject1**專案：  
   
     -   BizTalk 管線 Interop  
   
@@ -67,7 +67,7 @@ ms.locfileid: "26009151"
     using System.Collections.Generic;  
     ```  
   
-3.  捲動到檔案底部，並取代 **FFReceivePipelineConstructorTest** 為下列程式碼，用來驗證管線輸入存在測試管線之前的方法。 此程式碼也確保會產生符合一般檔案結構描述的訊息。  
+3.  捲動到檔案底部並取代**FFReceivePipelineConstructorTest**驗證管線輸入存在測試管線之前為下列程式碼的方法。 此程式碼也確保會產生符合一般檔案結構描述的訊息。  
   
     ```  
     [TestMethod()]  
@@ -112,13 +112,13 @@ ms.locfileid: "26009151"
   
 #### <a name="to-build-and-run-the-unit-test"></a>建置和執行單元測試  
   
-1.  在 方案總管 中，以滑鼠右鍵按一下 **TestProject1**, ，然後按一下  **建置**。  
+1.  在 [方案總管] 中，以滑鼠右鍵按一下**TestProject1**，然後按一下**建置**。  
   
-2.  在主功能表中，按一下  **測試**, ，然後在 **Windows** 清單中，按一下 **測試檢視**。  
+2.  在主功能表中，按一下 **測試**，然後在**Windows**清單中，按一下**測試檢視**。  
   
-3.  在 測試檢視 視窗中，以滑鼠右鍵按一下 **FFReceivePipelineUnitTest**, ，然後按一下  **執行選取範圍**。 確認您看到 **成功** 測試結果 視窗中。  
+3.  在 [測試檢視] 視窗中，以滑鼠右鍵按一下**FFReceivePipelineUnitTest**，然後按一下**執行選取範圍**。 確認您看到**通過**測試結果 視窗中。  
   
-4.  在 TestResults 目錄中檢查 *.out 檔案。 此檔案應包含由管線處理的新訊息。  位置所在的目錄看起來應和下面相似：  
+4.  在 TestResults 目錄中檢查\*.out 檔案。 此檔案應包含由管線處理的新訊息。  位置所在的目錄看起來應和下面相似：  
   
      C:\Program Files\Microsoft BizTalk Server \<version\>\SDK\Samples\Pipelines\AssemblerDisassembler\FlatFileReceive\TestResults\Wes_BTS2009Svr 2009-02-04 09_01_04\Out  
   
@@ -170,13 +170,13 @@ ms.locfileid: "26009151"
 5.  如果任何測試失敗，您可以在 [測試結果] 視窗中，按兩下該測試，查看導致該測試失敗的判斷提示或例外狀況。  
   
 ## <a name="test-code-summary"></a>測試程式碼摘要  
- 當已啟用單元測試 **FlatFileReceive** 專案中， **FFReceivePipeline** C# 類別相關聯 **FFReceivePipeline.btp** 衍生自 **Microsoft.BizTalk.TestTools.Pipeline.TestableReceivePipeline** 類別。 **FFReceivePipelineUnitTest** 方法中的 **TestProject1** 用 **TestPipeline** 方法， **FFReceivePipeline** 繼承來測試一般檔案接收管線。 在管線處理訊息之後，就會針對一般檔案結構描述來驗證輸出訊息。 參數 **TestPipeline** 方法如下︰  
+ 當已啟用單元測試**FlatFileReceive**專案中， **FFReceivePipeline** C#相關聯的類別**FFReceivePipeline.btp**衍生自**Microsoft.BizTalk.TestTools.Pipeline.TestableReceivePipeline**類別。 **FFReceivePipelineUnitTest**方法中的**TestProject1**用**TestPipeline**方法的**FFReceivePipeline**繼承若要測試一般檔案接收管線。 在管線處理訊息之後，就會針對一般檔案結構描述來驗證輸出訊息。 參數**TestPipeline**方法如下所示：  
   
-|參數名稱|Description|  
+|參數名稱|描述|  
 |--------------------|-----------------|  
 |文件|StringCollection 包含要由管線處理的訊息。|  
 |組件|StringCollection 包含訊息的數個部分。|  
-|結構描述|用來將每個訊息類型對應至其相對應的字典對應 \*.xsd 結構描述檔案。 索引鍵必須是格式 **Namespace.Type**。 從 [屬性] 視窗，則應該注意的命名空間和型別使用\*Visual Studio 中的.xsd 檔案。 請參閱下面的螢幕擷取畫面。<br /><br /> ![](../core/media/namespaceandtypeforxsd.gif "NamespaceAndTypeForXSD")<br /><br /> **命名空間和型別公開從 XSD 檔案的 [屬性] 視窗。**|  
+|結構描述|用來將每個訊息類型對應至其對應的字典對應\*.xsd 結構描述檔案。 索引鍵必須是格式**Namespace.Type**。 從 [屬性] 視窗，則應該注意的命名空間和型別使用\*Visual Studio 中的.xsd 檔案。 請參閱下面的螢幕擷取畫面。<br /><br /> ![](../core/media/namespaceandtypeforxsd.gif "NamespaceAndTypeForXSD")<br /><br /> **命名空間和類型從 XSD 檔案的 [屬性] 視窗公開。**|  
   
 ## <a name="see-also"></a>另請參閱  
  [使用單元測試的結構描述和對應的功能](../core/using-the-unit-testing-feature-with-schemas-and-maps.md)   

@@ -1,6 +1,6 @@
 ---
 title: 一般詞彙和定義 |Microsoft Docs
-description: 相關術語字彙和 BizTalk server 及其意義
+description: 詞彙表和 BizTalk server 及其意義
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -13,12 +13,12 @@ caps.latest.revision: 68
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d7acb86e6d70ea2f8201fe8b8fd7ed8351c3b54c
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 0b10bd92f9ce3f76bad7c7b8b1b0cb86a810b469
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36988919"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752402"
 ---
 # <a name="glossary"></a>詞彙
 以下是「Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 說明」中所採用的詞彙及其定義。  
@@ -122,7 +122,7 @@ ms.locfileid: "36988919"
 |    BizTalk Server schema file (.xsd) (BizTalk Server 結構描述檔案)    |                                                                                                                                                                                                                                                                                            包含 BizTalk 結構描述之永久格式的檔案。                                                                                                                                                                                                                                                                                             |
 |       BizTalk 設定儀表板        |                                                                                                                                                                                                         BizTalk 系統管理員可以使用這項 BizTalk 功能，集中管理與修改 BizTalk 引擎設定。 系統管理員可以在不同環境之間匯出與匯入設定，例如從臨時環境到實際執行環境。                                                                                                                                                                                                         |
 |                body part (內文部分)                |                                                                                                                                                                                                                                                                                                              請參閱 message body part (訊息內文部分)。                                                                                                                                                                                                                                                                                                              |
-|                 BTSTask                 | 用於管理應用程式和組件的命令列工具。 您可以使用 BTSTask 將 BizTalk 應用程式加入 BizTalk 管理資料庫、在應用程式中加入資源、將應用程式匯出至 MSI 檔案、將繫結資訊匯出至檔案、從 MSI 檔案匯入應用程式、從檔案匯入繫結資訊、列出應用程式中的所有資源、列出 BizTalk 管理資料庫中的所有應用程式、列出 MSI 檔案的內容、從 BizTalk 管理資料庫和 BizTalk 管理主控台移除應用程式，以及從應用程式移除資源。 |
+|                 BTSTask                 | 用於管理應用程式和組件的命令列工具。 您可以使用 BTSTask 新增至 BizTalk 管理資料庫的 BizTalk 應用程式、 新增至應用程式資源、 匯出至 MSI 檔案的應用程式，匯出繫結資訊至檔案、 匯入 MSI 檔案從應用程式、 匯入繫結資訊檔案、 列出所有的應用程式中的資源、 列出 BizTalk 管理資料庫中的所有應用程式、 列出 MSI 檔案的內容，從 BizTalk 管理資料庫和 BizTalk 管理主控台中，移除應用程式和移除資源應用程式。 |
 |   商務活動監控 (BAM)    |                                                                                                                                                                                                                                        BizTalk Server 功能，讓商務使用者即時檢視他們的不同商務程序，讓他們能夠制定重要的商業決策。                                                                                                                                                                                                                                        |
 |         Business Activity view (商務活動檢視)          |                                                                                                                                                                                       顯示商務程序的一組階層檢視，可為特定類別的商務使用者定義商務活動的檢視方式。 相同的商務活動資料 (BAM 追蹤) 可能有一種以上的解讀方式。                                                                                                                                                                                        |
 |            business analyst (商務分析師)             |                                                                                                                                                                                                                         擁有商務管理和經濟分析技能使用者。 商務分析師主要的責任是取用商業層級的資料並針對商務趨勢進行分析。                                                                                                                                                                                                                         |
@@ -296,7 +296,7 @@ ms.locfileid: "36988919"
 |independent composition (獨立撰寫)|兩個動作的序列，其中第二個動作開始處理商務邏輯前不依靠第一個動作的同步訊息；第二個動作可以立即開始。|  
 |infotip|在 Web 檢視中，以及在使用 [詳細資料] 檢視時的 [Windows 檔案總管] 的 [註解] 欄中，用來提供桌面、視窗和 [開始] 功能表命令之說明的工具提示。|  
 |inheriting (繼承)|在交易夥伴管理 (TPM) Web 服務中，成員設定檔將繼續其父群組所有喜好設定的概念。 在非繼承群組的情況中，成員設定檔不會從父群組繼承任何喜好設定。 非繼承群組可以變更為繼承群組，但繼承群組不能變更為非繼承群組。|  
-|interruptible orchestration (可中斷協調流程)|在程序中途妥善定義的位置點可中斷的協調流程。|  
+|可中斷協調流程|在程序中途妥善定義的位置點可中斷的協調流程。|  
 |In-process host (內含式主控件)|在 BizTalk Server 程序空間內操作的主控件類型。 任何協調流程可以登錄到內含式主控件，也可以由其裝載任何傳送處理常式。 內含式主控件只能裝載內含式主控件的接收處理常式 (FILE 配接器)。|  
 |In-process receive adapter (內含式接收配接器)|裝載於 BizTalk Server 程序內的配接器。 它是由伺服器程序建立、控制和摧毀的。|  
 |安裝精靈|在匯入精靈的最後步驟啟動的精靈，用於安裝 BizTalk 應用程式到本機電腦。|  
@@ -442,7 +442,7 @@ ms.locfileid: "36988919"
 |redeploy (重新部署)|刪除舊位元並部署新位元，藉以重新部署已經存在於目標環境中的組件之動作。|  
 |rehydrate (解除凍結)|在某些事件發生 (如接收訊息) 時，從永久儲存區的記憶體中啟動閒置協調流程。|  
 |相關性檢視|BizTalk 對應工具的一種檢視，其中結構描述項目的不相關同層級項目會摺疊起來，以提供更簡潔的結構描述檢視。 這樣可減少捲動需求，而將焦點放在結構描述與對應的實用部分。|  
-|Reporting views (報告檢視)|顯示商務程序的檢視階層集。|  
+|報告檢視|顯示商務程序的檢視階層集。|  
 |儲存機制|Analysis Services 使用的中繼資料的儲存區容器。 中繼資料儲存於關聯式資料庫中的資料表，用來定義 Analysis Server 物件的參數和屬性。 XML 工具在讀-寫模式中使用儲存機制，而 BizTalk 總管以唯讀模式存取資料。|  
 |request-response adapter (要求-回應配接器)|從用戶端接收要求訊息、將訊息提交到伺服器、等候回應，然後將回應傳送回用戶端的接收配接器。|  
 |Return shape (返回圖形)|在協調流程實際結束前用來在某個時間點終止協調流程的圖形。  可能的範例：If (security check passed) continue, else Return.|  
@@ -491,7 +491,7 @@ ms.locfileid: "36988919"
 |SMTP adapter (SMTP 配接器)|實作 SMTP 通訊協定 (也就是傳送電子郵件訊息) 以便與商業實務應用程式互動的配接器。 此配接器僅包含傳送處理常式。|  
 |SOAP adapter (SOAP 配接器)|此配接器可實作 SOAP 通訊協定與商業實務應用程式互動，將協調流程發佈為 Web 服務，以及取用外部 Web 服務。|  
 |SOAP fault (SOAP 錯誤)|由 Web 服務所傳回的錯誤訊息，表示 Web 服務中的應用程式發生例外狀況。|  
-|SOAP 標頭|SOAP 訊息的信封內所包含的選擇性項目，其所含資料與 XML Web 服務方法的主要功能未必有直接關聯。|  
+|SOAP 標頭|可以包含資料與 XML Web service 方法的主要功能沒有直接關聯的 SOAP 訊息的信封內所包含的選擇性元素。|  
 |SOAP message (SOAP 訊息)|格式正確的 XML 文件。 此文件應使用 SOAP 信封和 SOAP 編碼命名空間，且包含選擇性 XML 宣告，後面接著由選擇性 SOAP 標頭與 SOAP 訊息內文所構成的 SOAP 信封 (根項目)。|  
 |SOAP message tracing (SOAP 訊息追蹤)|在已發佈的 Web 服務中設定中斷點的方法，藉以傳回詳細例外狀況給 Web 用戶端。|  
 |solicit-response adapter (請求-回應配接器)|雙向傳送配接器。 請求-回應傳送配接器會從 BizTalk Server 傳送要求訊息至目的地、等候回應訊息，然後將回應訊息提交回 BizTalk Server。|  

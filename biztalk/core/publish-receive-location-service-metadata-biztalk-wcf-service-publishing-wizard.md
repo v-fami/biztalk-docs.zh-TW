@@ -17,12 +17,12 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 289615ec4d58f782404abf7327f01761fb16574b
-ms.sourcegitcommit: 9b93ee2a019bef8d482626cf5525a6b95509b135
+ms.openlocfilehash: 7055531629ec3eadded9562d043fb8a31d7fe11e
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 08/17/2018
-ms.locfileid: "42709889"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752455"
 ---
 # <a name="how-to-use-the-biztalk-wcf-service-publishing-wizard-to-publish-service-metadata-for-a-wcf-receive-location-bound-to-an-orchestration-port"></a>如何使用 BizTalk WCF 服務發佈精靈來發佈繫結至協調流程連接埠之 WCF 接收位置的服務中繼資料
 您可以使用 BizTalk WCF 服務發佈精靈來建立 WCF 服務，以便發佈繫結至協調流程連接埠之現有 WCF 接收位置的服務中繼資料。  

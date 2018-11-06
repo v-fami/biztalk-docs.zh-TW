@@ -12,17 +12,17 @@ caps.latest.revision: 35
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5aeda24a40da78cfef5fb66f9069b0a8b80b986c
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 9798d56c4f3896e652a288d20b4e39e6a2537d3c
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37012575"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752958"
 ---
 # <a name="adapter-registration-file"></a>配接器登錄檔案
 順利建立自訂配接器程式碼之後，必須向 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 註冊。 若要執行此作業，可將登錄更新為適當配接器設定。 您可以手動寫入登錄檔案，但由於輸入精確和複雜資訊容易發生錯誤， 更好的選擇是要執行配接器登錄精靈。 配接器登錄精靈 」 可讓您所有相同選項從從頭開始建立登錄檔，並降低檔案中的錯誤。 如需配接器登錄精靈 」 的詳細資訊，請參閱[配接器登錄精靈](../core/adapter-registry-wizard.md)。  
   
- StaticAdapterManagement.reg 和 DynamicAdapterManagement.reg 檔案位於 \microsoft *\<磁碟機\>*: \Program Files\Microsoft BizTalk Server\SDK\Samples\AdaptersDevelopment\File 配接器。 當您執行其中一個檔案 (您可以按兩下它，或以滑鼠右鍵按一下並選取**合併**)，它向登錄註冊範例 file 配接器，並安裝到全域組件快取的組件。 若要註冊自訂配接器的最佳選項是使用配接器登錄精靈 建立新的登錄檔。 如果自訂靜態配接器與範例配接器相似，並且您決定修改現有的登錄檔案，請開啟 StaticAdapterManagement.reg 檔案並修改下列屬性：  
+ StaticAdapterManagement.reg 和 DynamicAdapterManagement.reg 檔案位於 \microsoft *\<磁碟機\>*: \Program Files\Microsoft BizTalk Server\SDK\Samples\AdaptersDevelopment\File 配接器。 當您執行其中一個檔案 (您可以按兩下或以滑鼠右鍵按一下並選取**合併**)，它向登錄註冊範例 file 配接器，並安裝到全域組件快取的組件。 若要註冊自訂配接器的最佳選項是使用配接器登錄精靈 建立新的登錄檔。 如果自訂靜態配接器與範例配接器相似，並且您決定修改現有的登錄檔案，請開啟 StaticAdapterManagement.reg 檔案並修改下列屬性：  
   
 -   **條件約束**  
   

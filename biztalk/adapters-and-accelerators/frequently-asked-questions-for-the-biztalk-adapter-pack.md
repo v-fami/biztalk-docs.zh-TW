@@ -12,12 +12,12 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8dc6c4c318889ad078106c805591adaeedd5ee7d
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: b62675f0f2f4d798ef93ead8e8e9281d28917795
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36989151"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752463"
 ---
 # <a name="frequently-asked-questions"></a>常見問題集
 常見問題集 (Faq) 的相關[!INCLUDE[adapterpacknoversion](../includes/adapterpacknoversion-md.md)]。  

@@ -11,12 +11,12 @@ ms.topic: article
 author: MandiOhlinger
 ms.author: ribarua
 manager: dougeby
-ms.openlocfilehash: 3185e080be7a4222ac51072506eb9657eb7b1e1b
-ms.sourcegitcommit: e7609c319b64ec20bf215d17aa5ac4f9dcae52ec
+ms.openlocfilehash: da423cba141dffa8779c97cef521ade730a3c846
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/26/2018
-ms.locfileid: "36946175"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752678"
 ---
 # <a name="create-a-contact-using-the-office-365-outlook-contact-adapter---biztalk-server"></a>建立連絡人，使用 Office 365 Outlook 連絡人配接器的 BizTalk Server
 
@@ -42,7 +42,7 @@ ms.locfileid: "36946175"
 
 您可以使用簡單檔案接收埠和位置來建立您的 Office 365 Outlook 連絡人介面卡上的事件。
 
-1. 建立使用 File 配接器的接收埠。 內您接收位置，設定**接收資料夾**至 **C:\Temp\In\**，並將檔案遮罩設定為 **\*.xml**。
+1. 建立使用 File 配接器的接收埠。 內您接收位置，設定**接收資料夾**要**c:\\Temp\\中\\**，並將檔案遮罩設定為 **\*.xml**.
 2. 在您的 Office 365 Outlook 連絡人配接器會將傳送埠屬性，設定**篩選條件**至`BTS.ReceivePortName == <Receive Port Name>`。
 3. 將下列內容貼入文字編輯器，並將檔案儲存為**Office365Contact.xml**。 這是您的範例訊息。
 
@@ -113,10 +113,10 @@ ms.locfileid: "36946175"
             </otherAddress>
         </ns0:Contact>
     ```
-    **在 < BizTalk 安裝 Folder\SDK\Schemas > SDK 的一部分提供的 XML 結構描述**
+    **內部 SDK 的一部分提供的 XML 結構描述 < BizTalk 安裝資料夾\\SDK\\結構描述 >**
 
 4. 啟動檔案接收位置和 Office 365 Outlook 連絡人配接器傳送埠。
-5. 複製**Office365Contact.xml**範例訊息至接收資料夾 (C:\Temp\In\)。 傳送埠會在您以 xml 為基礎的 Office 365 Outlook 帳戶中建立連絡人。
+5. 複製**Office365Contact.xml**範例訊息至接收資料夾 (c:\\Temp\\在\\)。 傳送埠會在您以 xml 為基礎的 Office 365 Outlook 帳戶中建立連絡人。
 
-## <a name="next-steps"></a>後續的步驟
+## <a name="next-steps"></a>後續步驟
 查看所有[Office 365 介面卡](office365-adapters.md)，或安裝[功能組件 3](https://aka.ms/bts2016fp3)。

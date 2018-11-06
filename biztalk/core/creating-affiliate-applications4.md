@@ -18,12 +18,12 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e240fbc99705c18a0e789a1ddea0e26d8f479e55
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: a62a8c2c6d2bb74c9e68fcdcf1304e6d0cd99d67
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36984039"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752622"
 ---
 # <a name="creating-affiliate-applications"></a>建立分支機構應用程式
 下列步驟說明如何開始使用採用 SSO 的分支機構應用程式。  
@@ -43,7 +43,7 @@ ms.locfileid: "36984039"
   
 3. 使用 [企業單一登入] 命令。 如需命令的清單，請使用 **-協助**切換。  
   
-4. 若要以 *.XML 開始建立分支機構應用程式，請輸入下列命令：  
+4. 若要建立分支機構應用程式使用\*。將 XML 當做開頭，輸入下列命令：  
   
     `ssomanage.exe -createapps C:\SSOtest\AffiliateApplication.xml`  
   

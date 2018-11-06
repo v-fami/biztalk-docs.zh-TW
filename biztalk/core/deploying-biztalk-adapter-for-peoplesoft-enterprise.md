@@ -13,17 +13,17 @@ caps.latest.revision: 7
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d7ca4d0ecbfdb23e35797eb2ba3a704fe19f4cec
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 84f92775382a0d1af22d1bc7ef2c08f19305e90c
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36972711"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753198"
 ---
 # <a name="deploy-biztalk-adapter-for-peoplesoft-enterprise"></a>部署 BizTalk Adapter for PeopleSoft Enterprise
 本節提供有關部署 BizTalk Adapter for PeopleSoft Enterprise 的詳細資訊。  
 
-## <a name="overview"></a>概觀
+## <a name="overview"></a>總覽
 您可以使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 在目標電腦上複製連接埠和組件。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 傳送埠/接收位置將組態匯出到 XML 檔案。  
   
  您會使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 執行下列工作：  
@@ -46,7 +46,7 @@ ms.locfileid: "36972711"
   
 -   在新電腦上回應的資料夾必須存在且相同，否則請編輯繫結檔案。  
   
--   PeopleSoft Enterprise 系統密碼 (如果出現在組態中) 以 ***** 格式儲存在繫結檔案中。 請參閱**限制**本主題中。
+-   PeopleSoft Enterprise 系統密碼，如果出現在組態中，會儲存成\* \* \* \* \*繫結檔案中。 請參閱**限制**本主題中。
 
 > [!NOTE]
 >  部署會覆寫接收位置組態。 當您在目標電腦上部署繫結檔案和組件，在匯入 XML 繫結檔案時，傳送埠和接收位置會遭取代為 XML 繫結檔案中的傳送埠和接收位置。  
@@ -69,7 +69,7 @@ cscript RemoveSendPort.vbs \<Send port name\>
 ```
 
 ## <a name="limitations"></a>限制
-傳輸配接器的密碼時，會儲存為星號 （*） 上，繫結檔案所匯出[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，並且會傳遞給管理元件，在相同的格式。  
+傳輸配接器 」 密碼會儲存為星號 (\*\*\*\*\*\*) 繫結檔案所匯出[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，並且會傳遞給管理元件中相同的格式。  
   
  當您匯出繫結資訊時，所產生的繫結檔案不會包含傳輸配接器在接收位置/傳送埠中使用的任何密碼。 這可防止密碼資訊以純文字方式出現。 下次您使用檔案匯入繫結資訊時，必須使用傳輸屬性頁使用者介面輸入密碼。 或者，您可以在匯入前先暫時修改繫結檔案，方法是將密碼輸入繫結檔案。 在這種情況下，匯入作業完成後您必須刪除繫結檔案中的密碼。  
   
@@ -94,5 +94,5 @@ cscript RemoveSendPort.vbs \<Send port name\>
   
 - 驗證邏輯系統以及「傳輸」和「接收」服務。 
   
-## <a name="next-steps"></a>後續的步驟
+## <a name="next-steps"></a>後續步驟
 [使用 協調流程中的 BizTalk Server 例外狀況處理](../core/using-biztalk-server-exception-handling2.md)

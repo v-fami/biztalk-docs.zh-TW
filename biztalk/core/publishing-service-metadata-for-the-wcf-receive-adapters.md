@@ -12,12 +12,12 @@ caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 809d3ab348981ada35bf93ea46d78808bf280c6c
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 5817ac423056c030b452561db624a663791cd133
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37014391"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752990"
 ---
 # <a name="publishing-service-metadata-for-the-wcf-receive-adapters"></a>發佈 WCF 接收配接器的服務中繼資料
 您可以使用「BizTalk WCF 服務發佈精靈」建立 WCF 服務，以發佈現有 WCF 接收位置的服務中繼資料。 若要從已發行的中繼資料文件產生用戶端服務模型程式碼中，您可以使用 Windows 軟體開發套件 (SDK) 和.NET Framework 執行階段元件中包含 Service Model Metadata Utility 工具 (SvcUtil.exe)。  
@@ -27,7 +27,7 @@ ms.locfileid: "37014391"
 
 ## <a name="iis-versions"></a>IIS 版本
 
- 發佈服務中繼資料的 WCF 服務可以在隨附於作業系統的 IIS 版本。
+ 發佈服務中繼資料的 WCF 服務可以執行隨附於作業系統的 IIS 版本。
 
 -   **IIS**提供進階的處理模型。 已發佈的 BizTalk WCF 服務必須在 ASP.NET 相容性模式中執行。 WCF 接收配接器，在 IIS 中的 Web 應用程式所發行之服務中繼資料可經由 HTTP 傳輸來存取。  
 
@@ -47,7 +47,7 @@ ms.locfileid: "37014391"
 |       BindingInfo.xml        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    \App_Data\Temp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                         可由開發命令列工具或精靈匯入的 BizTalk 繫結檔案，以設定接收位置。 已發佈的 WCF 服務不會在執行階段使用此檔案和 Temp 資料夾。                         |
 |  WcfServiceDescription.xml   |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    \App_Data\Temp                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                      摘要描述您搭配「BizTalk WCF 服務發佈精靈」來建立此 Web 應用程式之設定的 XML 檔案。 已發佈的 WCF 服務不會在執行階段使用此檔案和 Temp 資料夾。                      |
 
-## <a name="next-steps"></a>後續的步驟
+## <a name="next-steps"></a>後續步驟
 
 -   [使用 BizTalk WCF 服務發佈精靈來發佈根據訊息內容決定路由之 WCF 接收位置的服務中繼資料](../core/publish-service-metadata-for-a-wcf-receive-location-for-content-based-routing.md)  
 

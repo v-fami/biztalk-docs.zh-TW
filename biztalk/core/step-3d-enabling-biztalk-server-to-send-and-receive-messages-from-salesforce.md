@@ -12,12 +12,12 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 0ea447687ab6b5eeaacf990acb5467e3f67adc60
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 35e34692c0ae64385c4f7d81dc92e82aee6ae88a
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36991671"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753006"
 ---
 # <a name="step-3d-enabling-biztalk-server-to-send-and-receive-messages-from-salesforce"></a>步驟 3d： 讓 BizTalk Server 傳送和接收來自 Salesforce 的訊息
 我們必須透過 Salesforce 進行驗證時使用的 REST 介面傳送訊息。 無法使用 Wcf-webhttp 配接器，我們將用來叫用 Salesforce 的 REST 介面現成 Salesforce 所支援的 REST 呼叫的驗證方法。 因此，我們會建立自訂的 WCF 端點行為，並將其附加到 Wcf-webhttp 傳送配接器，我們將設定要叫用 Salesforce REST 介面。  

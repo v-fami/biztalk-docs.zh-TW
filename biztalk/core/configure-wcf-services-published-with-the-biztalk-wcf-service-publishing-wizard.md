@@ -17,12 +17,12 @@ caps.latest.revision: 26
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6424d3101023b6521700a30b8cf4460e09e1ff14
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 21009f82632140156957a831a40bcbf4c65982ee
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36988383"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752926"
 ---
 # <a name="how-to-configure-wcf-services-published-with-the-biztalk-wcf-service-publishing-wizard"></a>如何用 BizTalk WCF 服務發佈精靈來設定已發佈 WCF 服務。
 在使用 [BizTalk WCF 服務發佈精靈] 發佈 WCF 服務之後，您還必須適當設定這些服務。 本主題會說明如何設定已發佈的 WCF 服務。  
@@ -57,7 +57,7 @@ ms.locfileid: "36988383"
 7. 如果您未選取**建立 BizTalk 接收位置**選項建立 WCF 服務時，在**傳輸屬性**] 對話方塊中，按一下 [**一般**] 索引標籤。在 [**一般**索引標籤上，輸入的 URI，此接收位置中的**地址**文字方塊。 指定虛擬目錄加上.svc 檔案名稱，BizTalk WCF 服務發佈精靈產生之前程序中 — 例如，/path/service.svc。  
 
    > [!NOTE]
-   >  **地址**屬性應該啟動以正斜線 （"/"），並以".svc"結束。 **地址**屬性不能包含通訊協定配置、 電腦名稱或連接埠號碼這類http://host:port。 這個屬性只能使用虛擬目錄路徑。 WCF 服務標記檔案必須具有 .svc 副檔名。  
+   >  **地址**屬性應該啟動以正斜線 （"/"），並以".svc"結束。 **地址**屬性不能包含通訊協定配置、 電腦名稱或連接埠號碼這類 http://host:port。 這個屬性只能使用虛擬目錄路徑。 WCF 服務標記檔案必須具有 .svc 副檔名。  
 
     ![WCF 中的 [一般] 索引標籤&#45;BasicHttp 配接器](../core/media/1126fa6a-e3e9-44ad-aeb0-90c78226aeeb.gif "1126fa6a-e3e9-44ad-aeb0-90c78226aeeb")  
 
@@ -86,7 +86,7 @@ ms.locfileid: "36988383"
 14. 在 Internet Explorer 中**地址**方塊中，輸入 WCF 服務使用格式 http:// URL<em>主控件 [: 連接埠]</em>/*apppath* /*wcfservicename.svc*來測試已發佈的 WCF 服務。 下表將描述這些參數。  
 
 
-    |      參數       |                                                            ReplTest1                                                            |
+    |      參數       |                                                            值                                                            |
     |----------------------|-----------------------------------------------------------------------------------------------------------------------------|
     |    *主控件 [: 連接埠]*     | 您已部署 WCF 服務之電腦的名稱。 冒號和連接埠編號可以接在這個伺服器名稱後面。 |
     |      *apppath*       |                              虛擬目錄的名稱和 Web 應用程式路徑。                               |

@@ -17,12 +17,12 @@ caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: cc89b19f1e493c46e6128d390774479eb59bc6b0
-ms.sourcegitcommit: e172dedfd00d4de3a40c8289f3a97ef65cdadd3c
+ms.openlocfilehash: 3416b4a1ba58a1262e9ff27e3558a2532c839cd4
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 10/26/2018
-ms.locfileid: "36975911"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752340"
 ---
 # <a name="mqssendpipelinecomponent-biztalk-server-sample"></a>MQSSendPipelineComponent (BizTalk Server 範例)
 本範例示範如何撰寫可從 XML 檔案讀取一組 MQSeries 屬性值，並將這些屬性值套用至訊息的管線元件。  
@@ -174,7 +174,7 @@ ms.locfileid: "36975911"
   
 8.  在 **接收資料夾**欄位中，輸入"C:\temp\Pickup3"。  
   
-9. 在 **檔案遮罩**欄位中，輸入"*。\*"。  
+9. 在 **檔案遮罩**欄位中，輸入 「\*。\*"。  
   
 10. 按一下  **確定**，然後按一下**確定**  以結束**接收位置屬性** 對話方塊。  
   

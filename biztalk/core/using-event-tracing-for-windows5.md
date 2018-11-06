@@ -22,15 +22,15 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f0fa744d7182f6238d71765afac2411b60974b5c
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: ff69c0740b772070551697152c49be8c89a16610
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37000031"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752862"
 ---
 # <a name="using-event-tracing-for-windows"></a>使用 Windows 追蹤的事件
-Microsoft BizTalk Adapter for PeopleSoft Enterprise 會將錯誤、警告與資訊訊息記錄到 Windows 事件檢視器中。 您可以使用「Windows 事件追蹤」工具來查看其他追蹤訊息。 當 ETW 啟用時，它會建立 *.etl 檔案以接收訊息。 檔案是二進位格式，必須經過轉換才能讀取。 若要這樣做，您必須具有可解譯的消費者應用程式\*.etl 檔案; 例如，tracerpt.exe 或 tracedmp.exe。  
+Microsoft BizTalk Adapter for PeopleSoft Enterprise 會將錯誤、警告與資訊訊息記錄到 Windows 事件檢視器中。 您可以使用「Windows 事件追蹤」工具來查看其他追蹤訊息。 當 ETW 啟用時，它會建立\*.etl 檔案以接收的訊息。 檔案是二進位格式，必須經過轉換才能讀取。 若要這樣做，您必須具有可解譯的消費者應用程式\*.etl 檔案; 例如，tracerpt.exe 或 tracedmp.exe。  
   
 ## <a name="etw-components"></a>ETW 元件  
  「Windows 事件追蹤」有三個元件：  

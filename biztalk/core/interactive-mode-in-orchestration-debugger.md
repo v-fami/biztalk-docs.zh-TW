@@ -1,5 +1,5 @@
 ---
-title: 協調流程偵錯工具中的互動模式 |Microsoft 文件
+title: 在協調流程偵錯工具的互動模式 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -16,18 +16,18 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9990be016f6f731f6534a38ad997b5424cc4e12e
-ms.sourcegitcommit: cb908c540d8f1a692d01dc8f313e16cb4b4e696d
+ms.openlocfilehash: e038701794d1bfe36b0ce94c8f13239c5d251bf9
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 09/20/2017
-ms.locfileid: "22256982"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752277"
 ---
 # <a name="interactive-mode-in-orchestration-debugger"></a>協調流程偵錯工具中的互動模式
-在互動 — 偵錯 — 模式中，協調流程偵錯工具檢視包含三個區域： 服務 窗格中，追蹤的事件 窗格中，與協調流程 窗格。 此外，在互動模式下，「變數」清單和「變數」屬性會顯示在檢視的下方。  
+以互動 — 偵錯 — 模式中，協調流程偵錯工具檢視包含三個區域： 服務窗格中，追蹤的事件 窗格中，與協調流程 窗格。 此外，在互動模式下，「變數」清單和「變數」屬性會顯示在檢視的下方。  
   
 > [!NOTE]
->  除非服務以「在中斷點」模式顯示，且您已將它附加到執行個體，否則「協調流程偵錯工具」無法顯示其實際狀態。  
+>  協調流程偵錯工具無法顯示服務的狀態，則為 true，除非它會出現在中斷點模式，而且您已將它附加至執行個體。  
   
 ## <a name="see-also"></a>另請參閱  
  [協調流程偵錯工具中的報告模式](../core/reporting-mode-in-orchestration-debugger.md)   

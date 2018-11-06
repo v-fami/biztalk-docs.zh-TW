@@ -16,12 +16,12 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f94bb4b6a6f094211654f5c3c0964bbf84d42f56
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 648a1780e02e35d284a620f29cfd034765c4cc45
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36989591"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752766"
 ---
 # <a name="install-custom-rfcs-for-the-data-provider-for-sap"></a>安裝適用於 SAP 的資料提供者的自訂 Rfc
 如果您想要使用.NET Framework Data Provider for mySAP Business Suite 存取 SAP 系統，請安裝自訂的 Rfc。
@@ -34,7 +34,7 @@ ms.locfileid: "36989591"
   
 若要執行這些 SAP 系統上的作業，您必須安裝這些自訂 Rfc，SAP 系統上。 如果您選擇要安裝[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]連同[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]，安裝程式複製的 RFC 傳輸[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]的壓縮檔 (customRFC.zip) 系統上安裝配接器的位置。 Zip 檔案通常會安裝在*\<安裝磁碟機\>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Microsoft.NET Framework Data Provider for mySAP Business Suite*。 
   
- Zip 檔案解壓縮之後，您會發現四個資料檔案，兩個遵循命名模式 K9 *。BI1 （例如，類似於 K900534。BI1) 和其他兩個模式 R9\*。BI1 （例如，類似於 R900534。BI1)。  
+ Zip 檔案解壓縮之後，您會發現四個資料檔案，兩個遵循命名模式 K9\*。BI1 （例如，類似於 K900534。BI1) 和其他兩個模式 R9\*。BI1 （例如，類似於 R900534。BI1)。  
   
 
   
@@ -42,11 +42,11 @@ ms.locfileid: "36989591"
   
    1.  SAP 應用程式伺服器，您的開發系統的 SAP R/3 系統管理員身分登入。  
   
-   2.  將兩個傳輸檔案，以命名樣式 K9 * 複製。從 SAP 應用程式伺服器上執行到下列目錄的介面卡的電腦上安裝目錄 BI1:  
+   2.  複製兩個傳輸檔案的命名模式 K9\*。從 SAP 應用程式伺服器上執行到下列目錄的介面卡的電腦上安裝目錄 BI1:  
   
         `<drive>:\usr\sap\trans\cofiles`  
   
-   3.  將兩個傳輸檔案，以命名樣式 R9 * 複製。從 SAP 應用程式伺服器上執行到下列目錄的介面卡的電腦上安裝目錄 BI1:  
+   3.  複製兩個傳輸檔案的命名模式 R9\*。從 SAP 應用程式伺服器上執行到下列目錄的介面卡的電腦上安裝目錄 BI1:  
   
         `<drive>:\usr\sap\trans\data`  
   
@@ -139,7 +139,7 @@ ms.locfileid: "36989591"
   
   - ACTVT: 03  
   
-  - DICBERCLS: *  
+  - DICBERCLS: \*  
   
     您可以使用 DICBERCLS 授權類別所限制資料表的授權。  
   
@@ -152,7 +152,7 @@ ms.locfileid: "36989591"
   
   - ACTVT: 03  
   
-  - 資料表: *  
+  - 資料表： \*  
   
     您可以使用資料表來明確定義授權的資料表。 也請注意，S_TABU_DIS 也用於其他交易。  
   

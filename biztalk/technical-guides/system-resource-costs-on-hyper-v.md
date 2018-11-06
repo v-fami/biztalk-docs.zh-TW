@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6be288e21657d447dd21bff06b5c3294f6f4a2c2
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 768b34b6b1a51768f1c0070c961749e1975015f9
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37003703"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753054"
 ---
 # <a name="system-resource-costs-on-hyper-v"></a>HYPER-V 上的系統資源成本
 ## <a name="system-resource-costs-associated-with-running-a-guest-operating-system-on-hyper-v"></a>相關聯之 HYPER-V 上執行客體作業系統的系統資源成本  
@@ -123,13 +123,13 @@ ms.locfileid: "37003703"
   
  **收集自 Virtual_SQL01 和 Physical_SQL01**:  
   
-- \LogicalDisk(*)\\\*  
+- \LogicalDisk (\*)\\\*  
   
-- \PhysicalDisk(*)\\\*  
+- \PhysicalDisk (\*)\\\*  
   
   **收集自虛擬機器的 Hyper-v V_02**:  
   
-- \Hyper-V 虛擬存放裝置\\*  
+- \\Hyper V 虛擬存放裝置\\\*  
   
 ### <a name="results"></a>結果  
  傳遞磁碟無法達到超過 90%的直接連線到 Physical_SQL01 SAN LUN 的輸送量。  總計、 讀取和寫入一樣是每秒傳送的總 MB 每秒的 I/o 已全都可在 10%。  狀況良好的磁碟回應時間應介於 1 到 15 毫秒的讀取和寫入。 平均 I/O 回應時間都小於 4 毫秒，這兩個磁碟上。 隨機讀取回應時間是在實體上以及 5.7 ms 傳遞磁碟上的 5.4 毫秒。 寫入回應時間為小於 0.5 毫秒在實體和虛擬環境。  

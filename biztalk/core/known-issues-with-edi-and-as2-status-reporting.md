@@ -12,12 +12,12 @@ caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 40466e418c9d6f61d3043b057ca3a06395df7ed5
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 1349bf374f90739cac9253784b87f65ed897ff33
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37015727"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753038"
 ---
 # <a name="known-issues-with-edi-and-as2-status-reporting"></a>EDI 和 AS2 狀態報告的已知問題
 本主題描述使用 BizTalk Server 中 EDI 狀態報告的已知的問題。  
@@ -104,7 +104,11 @@ ms.locfileid: "37015727"
   比方說，如果 isa09-內送訊息的值包含 991113，[狀態] 報表會顯示日期為 11/13/1999年。  
   
 ## <a name="error-message-may-be-displayed-as-a-string-of-question-marks"></a>錯誤訊息可能顯示為由問號組成的字串。  
- 在 BizTalk Server 當地語系化組建中，如果錯誤訊息是顯示為由問號組成的字串，您需要根據作業系統語言來變更系統地區設定，才能取得預期的錯誤訊息。 如需有關如何變更系統地區設定的詳細資訊，請參閱 <<c0> [ 變更系統地區設定](http://windows.microsoft.com/en-IN/windows-vista/Change-the-system-locale)。  
+ 在 BizTalk Server 當地語系化組建中，如果錯誤訊息是顯示為由問號組成的字串，您需要根據作業系統語言來變更系統地區設定，才能取得預期的錯誤訊息。 特定步驟會視作業系統 (OS)，而有所不同，但下列步驟可能會類似於您的作業系統： 
+ 
+ 1. 移至**控制台中** > **時鐘和區域** > **區域**。
+ 2. 選取 [**系統管理] 索引標籤** > **非 Unicode 程式語言** > **變更系統地區設定**。
+ 3. 選擇您的語言 > **[確定]** > **確定**以儲存變更。
   
 ## <a name="see-also"></a>另請參閱  
  [疑難排解 EDI 和 AS2 解決方案](../core/troubleshooting-edi-and-as2-solutions.md)   

@@ -14,12 +14,12 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 6cfd0ddfbdbe55480d249c01e68a0e571da63591
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 101d3600bbe38115bb20983e84ddd9192f8daf00
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37006095"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752686"
 ---
 # <a name="install-biztalk-accelerator-for-swift"></a>安裝 BizTalk Accelerator for SWIFT
 安裝[!INCLUDE[A4SWIFT_CurrentVersion_FirstRef_md](../../includes/a4swift-currentversion-firstref-md.md)]BizTalk 伺服器上。 
@@ -46,7 +46,7 @@ ms.locfileid: "37006095"
 
 ### <a name="before-you-begin"></a>開始之前
 
-* 使用成員的帳戶登入 BizTalk Server 系統管理員群組。 
+* 使用 BizTalk Server 系統管理員群組的成員帳戶登入。 
 * 在您的 BizTalk Server 下載[!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)]安裝程式位於`\BizTalk Accelerators`資料夾。
 * 必須安裝在 BizTalk Server 和 SQL Server 必須正在執行。
 * 無訊息安裝支援，但建議您不要因為其他設定步驟所需的複雜性。
@@ -81,7 +81,7 @@ ms.locfileid: "37006095"
 6. 選取您的元件，然後選取**下一步**:
 
 
-   |                     選項                      |                                                                      以進行此動作                                                                      |
+   |                     選項                      |                                                                      動作                                                                      |
    |------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|
    |                  A4Swift 元件                  |                          所需的程序 （結構描述解析、 剖析、 驗證） 與 BizTalk Server 的 SWIFT 訊息                          |
    |          訊息修復和重新調整           |    安裝管線、 協調流程和執行階段結構描述。 建立 A4SWIFT 資料庫在 SQL Server 中，傳訊、 修復和重新調整。     |
@@ -102,5 +102,5 @@ ms.locfileid: "37006095"
 > [!NOTE]
 > 如果**執行組態精靈**上安裝已完成 頁面中，選取[!INCLUDE[A4SWIFT_CurrentVersion_abbrev_md](../../includes/a4swift-currentversion-abbrev-md.md)]當您按一下時自動執行組態精靈**完成**。 
 
-## <a name="next-steps"></a>後續的步驟
+## <a name="next-steps"></a>後續步驟
 [設定 BizTalk Accelerator for SWIFT ](../../adapters-and-accelerators/accelerator-swift/configure-biztalk-accelerator-for-swift.md)

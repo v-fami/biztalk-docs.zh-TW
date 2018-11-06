@@ -12,15 +12,15 @@ caps.latest.revision: 21
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f6c62686c15c2e0b04576ca3175fb22d52a71922
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 7eda4dcb210f3d0272cdb0f04da8ae7d7ef2942d
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36987407"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753142"
 ---
 # <a name="regenerate-the-live-data-workbook"></a>重新產生即時資料活頁簿
-在 BAM 即時資料活頁簿其中遺失或損毀的情況下，您可以重新產生活頁簿使用 BAM 管理 utiprolity。 從升級從舊版 BizTalk Server 時，此程序也很有用。
+在 BAM 即時資料活頁簿其中遺失或損毀的情況下，您可以重新產生活頁簿使用 BAM 管理 utiprolity。 此程序也很有用的當您將升級從舊版 BizTalk Server。
   
  一般步驟如下：  
   

@@ -15,12 +15,12 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5d218b9e3d0221a4eb3859bd3e10ad31c9f62508
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 7d7088b25ec2526c19c60d21c9929afb92be42a7
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36991207"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752758"
 ---
 # <a name="authorization-and-non-repudiation-properties"></a>授權與不可否認性屬性
 本主題說明交易夥伴介面程序 (PIP) 的 `Is Authorization Required`、`Non-Repudiation of Origin and Content` 和 `Non-Repudiation Required (Acknowledgement of Receipt)` 屬性的行為。 它也會說明這些屬性的組合，Microsoft[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]支援。  
@@ -49,21 +49,21 @@ ms.locfileid: "36991207"
 |需要授權|來源與內容的不可否認性|接收通知 - 需要不可否認性|BTARN 是否支援？|  
 |-------------------------------|--------------------------------------------|--------------------------------------------------------------|-------------------------|  
 |`False`|`False`|`False`|是|  
-|`False`|`False`|`True`|否*|  
-|`False`|`True`|`False`|否**|  
-|`False`|`True`|`True`|否***|  
-|`True`|`False`|`False`|是****|  
-|`True`|`False`|`True`|是****|  
+|`False`|`False`|`True`|否\*|  
+|`False`|`True`|`False`|否\*\*|  
+|`False`|`True`|`True`|否\*\*\*|  
+|`True`|`False`|`False`|[是]\*\*\*\*|  
+|`True`|`False`|`True`|[是]\*\*\*\*|  
 |`True`|`True`|`False`|是|  
 |`True`|`True`|`True`|是|  
 
  \* [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 不支援此組合，因為您必須簽署信號，並不簽署動作。  
 
- ** [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 不支援此組合，因為它需要簽署動作，而且不簽署信號。  
+ \*\* [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 不支援此組合，因為它需要簽署動作，而且不簽署信號。  
 
- *** [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 不支援此組合，因為設為不可否認`True`的動作與信號表示[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]執行授權。 因此，此組合無效。  
+ \*\*\* [!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 不支援此組合，因為設為不可否認`True`的動作與信號表示[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]執行授權。 因此，此組合無效。  
 
- **** 當您將 `Is Authorization Required` 設為 `True` 且將 `Non-Repudiation of Origin and Content` 設為 `False` 時，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)] 會將訊息儲存在不可否認性資料表中。  
+ \*\*\*\* 當您設定`Is Authorization Required`來`True`並`Non-Repudiation of Origin and Content`來`False`，[!INCLUDE[btaBTARN3.3abbrevnonumber](../../includes/btabtarn3-3abbrevnonumber-md.md)]會將訊息儲存在不可否認性資料表中。  
 
 ## <a name="see-also"></a>另請參閱  
  [如何建立或編輯程序設定](../../adapters-and-accelerators/accelerator-rosettanet/how-to-create-or-edit-a-process-configuration.md)

@@ -14,12 +14,12 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: ad2e2db5e7d4d8c8181248f9345f1df2cca4a6dd
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: ab1f869d8d7c06260a1f7f8388991a0e18a2ff09
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36985095"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50758693"
 ---
 # <a name="troubleshooting-issues-and-resolutions"></a>疑難排解： 問題與解決方式
 本主題說明執行 Microsoft® 相關的問題[!INCLUDE[BTARN_CurrentVersion_FirstRef](../../includes/btarn-currentversion-firstref-md.md)]。 每個問題的說明都會詳細描述其特殊徵狀、可能的原因以及解決方式。  
@@ -216,7 +216,7 @@ ms.locfileid: "36985095"
   
     ```  
     cd %ProgramFiles%\Microsoft BizTalk Server <version>\Tracking  
-    bm deploy all  "%ProgramFiles%\Microsoft BizTalk <version> Accelerator for RosettaNet\BAMTracking\tracking.xml"  
+    bm deploy all  "%ProgramFiles%\Microsoft BizTalk <version> Accelerator for RosettaNet\BAMTracking\tracking.xml"  
     ```  
   
 ## <a name="you-receive-an-error-when-adding-a-new-pip"></a>新增 PIP 時收到錯誤  
@@ -329,7 +329,7 @@ ms.locfileid: "36985095"
   
  1. 啟用 32 位元的 BTARN 應用程式集區。  
   
- 2. 在參考 IsapiModule 篩選器的 *.dll 加入 HTTP 處理常式。  
+ 2. 新增的 HTTP 處理常式\*.dll 參考 IsapiModule 篩選器。  
   
 ## <a name="see-also"></a>另請參閱  
  [BtarnClean](../../adapters-and-accelerators/accelerator-rosettanet/btarnclean.md)   

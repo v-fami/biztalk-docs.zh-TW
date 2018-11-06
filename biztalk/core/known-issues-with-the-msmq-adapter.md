@@ -1,5 +1,5 @@
 ---
-title: MSMQ 配接器的已知問題 |Microsoft 文件
+title: MSMQ 配接器的已知問題 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,12 +12,12 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 67f210d0e480a311aed0bed5d50f6a827bd6ea4e
-ms.sourcegitcommit: 8418b1a8f38b7f56979cd6e203f0b591e2f40fe1
+ms.openlocfilehash: 4accec1f9bed8ade9270e0c33e868e55c6a21942
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 03/28/2018
-ms.locfileid: "22262614"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752558"
 ---
 # <a name="known-issues-with-the-msmq-adapter"></a>MSMQ 配接器的已知問題
 本節包含可幫助您避免錯誤的資訊。  
@@ -33,14 +33,14 @@ ms.locfileid: "22262614"
  如果與執行 MSMQ 配接器接收處理常式之 BizTalk 主控件執行個體關聯的 .NET 執行緒集區中沒有足夠的可用執行緒，MSMQ 配接器接收位置就會因為執行緒嚴重短缺而無法處理文件。  
   
 ##### <a name="resolution"></a>解決方案  
- 若要增加主控件執行個體的.NET 執行緒集區中的可用執行緒數目，請遵循**主應用程式的 CLR 裝載執行緒值**主題的章節[組態參數，會影響配接器效能](../core/configuration-parameters-that-affect-adapter-performance.md)。  
+ 若要增加主控件執行個體的.NET 執行緒集區中可用執行緒數目，請遵循**主控件的 CLR 裝載執行緒值**主題的章節[組態參數會影響配接器效能](../core/configuration-parameters-that-affect-adapter-performance.md)。  
   
- 由於每個 MSMQ 接收位置繫結至 MSMQ 接收處理常式必須使用.NET 執行緒集區的執行緒，設定 **MinIOThreads** 和 **MinWorkerThreads** 大於或等於 MSMQ 的數字的值繫結接收位置的接收處理常式。 因此，設定的值 **MaxIOThreads** 和 **MaxWorkerThreads** 等於 MSMQ 的數字的值繫結接收位置的接收處理常式 * 2 空餘空間︰  
+ 因為每個 MSMQ 接收位置繫結至 MSMQ 接收處理常式需要來自.NET 執行緒集區，設定**MinIOThreads**並**MinWorkerThreads**的值大於或等於MSMQ 接收位置數目繫結至的接收處理常式。 因此，設定的值**MaxIOThreads**和**MaxWorkerThreads**等於 MSMQ 的數字的值繫結接收位置的接收處理常式\*2 的空餘空間：  
   
 |DWORD 項目|建議值|  
 |-----------------|-----------------------|  
-|MaxIOThreads|MSMQ 配接器接收處理常式所繫結之 MSMQ 接收位置的數目乘以 2。|  
-|MaxWorkerThreads|MSMQ 配接器接收處理常式所繫結之 MSMQ 接收位置的數目乘以 2。|  
+|MaxIOThreads|數目 MSMQ 接收位置繫結至 MSMQ 配接器接收處理常式\*2。|  
+|MaxWorkerThreads|數目 MSMQ 接收位置繫結至 MSMQ 配接器接收處理常式\*2。|  
 |MinIOThreads|MSMQ 配接器接收處理常式所繫結之 MSMQ 接收位置的數目。|  
 |MinWorkerThreads|MSMQ 配接器接收處理常式所繫結之 MSMQ 接收位置的數目。|  
   
@@ -72,15 +72,15 @@ ms.locfileid: "22262614"
   
  此外，系統記錄檔中也可能會記錄如下的錯誤訊息：  
   
- **事件類型︰ 錯誤**  
+ **事件類型： 錯誤**  
   
- **事件來源︰ 服務控制管理員**  
+ **事件來源： 服務控制管理員**  
   
- **事件類別目錄︰ 無**  
+ **事件類別目錄： 無**  
   
- **事件識別碼︰ 7011**  
+ **事件識別碼： 7011**  
   
- **描述︰**  
+ **描述：**  
   
  **逾時 （30000 毫秒） 等候來自 BTSSvc$ BizTalkServerApplication 服務的交易回應。**  
   

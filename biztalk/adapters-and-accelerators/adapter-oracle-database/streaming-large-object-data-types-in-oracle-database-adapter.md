@@ -17,12 +17,12 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: af0e81c5e2430dad50090637069713680c900d13
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 9caf8a7e8dafebbe3d53b751db34c8abc8d4bd62
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36994111"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752894"
 ---
 # <a name="streaming-large-object-data-types-in-oracle-database-adapter"></a>Oracle 資料庫配接器中的資料流處理大型物件資料類型
 [!INCLUDE[adapteroracle](../../includes/adapteroracle-md.md)]支援串流處理 Oracle 大型物件 (LOB) 資料類型。 使用[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]叫用作業，並藉由交換的 SOAP 訊息會傳回回應。 SOAP 訊息內文包含的 XML 節點。  
@@ -84,25 +84,25 @@ ms.locfileid: "36994111"
 ### <a name="internal-message-handling-by-the-adapter"></a>內部配接器所處理的訊息  
  配接器支援串流以下列方式：  
   
--   配接器延伸**訊息**若要實作自訂訊息類別， **Microsoft.Adapters.AdapterUtilities.AdapterMessage**。 它會建立**AdapterMessage**的所有 WCF 都訊息，它會提供給配接器用戶端，包括所有的輸出作業的回應都訊息和 POLLINGSTMT 作業的要求訊息。 序列化和還原序列化訊息的 XML 表示法與該訊息的 managed 程式碼物件表示法之間需要寫入和讀取整個訊息載入記憶體。  
+-   配接器延伸**訊息**若要實作自訂訊息類別， **Microsoft.Adapters.AdapterUtilities.AdapterMessage**。 它會建立**AdapterMessage**的所有 WCF 都訊息，它會提供給配接器用戶端，包括所有的輸出作業的回應都訊息和 POLLINGSTMT 作業的要求訊息。 這可讓配接器以支援資料流 ReadLOB 作業，藉由提供節點值**XmlReader**支援**ReadValueChunk**配接器用戶端。  
   
--   基於這個理由，資料流處理的節點和節點值的資料流都不支援大部分的作業。  
+-   配接器使用接收到來自用戶端使用的自訂實作的所有訊息**XmlDictionaryWriter**。  
   
--   唯一的例外是 ReadLOB 作業。 這項作業是專為支援端對端資料流來讀取資料表和檢視表的 LOB 資料行中的 WCF 服務模型的實作。  
+-   配接器會建立它傳送給用戶端使用的自訂實作的所有訊息**XmlBodyWriter**，除了 ReadLOB 回應訊息。 （這包括所有的輸出作業的回應訊息和 POLLINGSTMT 作業的要求訊息）。  
   
-## <a name="streaming-support-in-the-wcf-channel-model"></a>在 BizTalk Server 中的資料流支援  
- 下表提供有關如何在 BizTalk Server 中支援資料流時的詳細的資訊。  
+## <a name="streaming-support-in-the-wcf-channel-model"></a>WCF 通道模型中的資料流支援  
+ 下表提供有關如何支援資料流中的 WCF 通道模型的詳細的資訊。  
   
-|作業|(請參閱 「 介面卡 」 的所有參考; Wcf-custom 配接器永遠都有其完整名稱，此資料表中。)|不支援配接器與 Oracle 資料庫之間;不過，BizTalk Server 與配接器之間串流資料。|描述|  
+|作業|節點資料流|節點值的資料流|描述|  
 |---------------|--------------------|---------------------------|-----------------|  
-|不支援端對端節點值串流處理，因為 ODP.NET 會緩衝處理 LOB 資料行的值，並接著執行 insert。|支援*|不過，BizTalk Server 與配接器之間的資料流處理的節點值支援 LOB 資料類型的因為 Wcf-custom 配接器會建立與訊息BodyWriter。 Wcf-custom 配接器會使用XmlDictionaryWriter取用回應訊息，因此支援端對端節點值串流 LOB 類型。|因為 ODP.NET 會緩衝處理 LOB 資料行的值，然後執行更新時，不支援端對端節點值資料流。 BizTalk Server 不支援 ReadLOB 作業。|  
-|相反地，請使用選取的作業或 SQLEXECUTE 作業。|支援|支援|Wcf-custom 配接器會使用**BodyWriter**來建立要求訊息，因此支援端對端節點值 LOB 資料類型的資料流。 Wcf-custom 配接器會使用**XmlDictionaryWriter**取用回應訊息，因此支援端對端節點值，回應訊息中的 LOB 資料類型的資料流。|  
-|Wcf-custom 配接器會使用XmlDictionaryWriter取用 （輸入） 的要求訊息，因此支援端對端節點值 LOB 資料類型的資料流。|支援|不過，BizTalk Server 與配接器之間的資料流處理的節點值支援 LOB 資料類型的因為 Wcf-custom 配接器會建立與訊息BodyWriter。 支援用戶端與配接器之間。|不支援端對端節點值串流處理，因為 LOB 資料行的值會緩衝處理 ODP.NET，並接著執行更新。 但是，節點值的資料流的用戶端與配接器之間可能是 LOB 資料行如果用戶端會建立與訊息**BodyWriter**。|  
-|資料表刪除作業|支援|不過，BizTalk Server 與配接器之間的資料流處理的節點值支援 LOB 資料類型的因為 Wcf-custom 配接器會建立與訊息BodyWriter。 支援用戶端與配接器之間。|不支援端對端節點值串流處理，因為 ODP.NET 會緩衝處理 LOB 資料行的值，並接著執行刪除。 但是，節點值的資料流的用戶端與配接器之間可能是 LOB 資料行如果用戶端會建立與訊息**BodyWriter**。|  
+|資料表插入作業|支援\*|不支援配接器與 Oracle 資料庫之間。 支援用戶端與配接器之間。\*|不支援端對端節點值串流處理，因為 ODP.NET 會緩衝處理 LOB 資料行的值，並接著執行 insert。 但是，節點值的資料流的用戶端與配接器之間有可能的 LOB 資料行，如果用戶端會建立與訊息**BodyWriter**。|  
+|選取的資料表作業|支援|支援|配接器會使用**BodyWriter**建立回應訊息。 如果在用戶端取用訊息**XmlDictionaryWriter**，串流 LOB 資料行的節點值，就會發生。|  
+|資料表更新作業|支援|不支援配接器與 Oracle 資料庫之間。 支援用戶端與配接器之間。|不支援端對端節點值串流處理，因為 LOB 資料行的值會緩衝處理 ODP.NET，並接著執行更新。 但是，節點值的資料流的用戶端與配接器之間可能是 LOB 資料行如果用戶端會建立與訊息**BodyWriter**。|  
+|資料表刪除作業|支援|不支援配接器與 Oracle 資料庫之間。 支援用戶端與配接器之間。|不支援端對端節點值串流處理，因為 ODP.NET 會緩衝處理 LOB 資料行的值，並接著執行刪除。 但是，節點值的資料流的用戶端與配接器之間可能是 LOB 資料行如果用戶端會建立與訊息**BodyWriter**。|  
 |資料表 ReadLOB 作業|支援|支援|ReadLOB 作業主要被設計來在 WCF 服務模型中的資料流 LOB 資料行。 在 WCF 通道模型中，如果在用戶端取用訊息**XmlReader** (藉由叫用**GetReaderAtBodyContents**回應訊息上的方法)，會進行串流處理端對端的節點值。 這是因為配接器會傳回**XmlReader**支援**ReadValueChunk**呼叫 ReadLOB 回應訊息。 不過，建議您不要使用 WCF 通道模型 ReadLOB 作業。 您可以改用選取作業或 SQLEXECUTE 作業。|  
 |資料表 UpdateLOB 作業|支援|支援|配接器會使用**XmlDictionaryWriter**取用的要求訊息。 如果用戶端會使用**BodyWriter**若要建立要求訊息，端對端節點值串流 LOB 資料，就會發生。|  
-|SQLEXECUTE 作業|支援|支援|Wcf-custom 配接器會使用**BodyWriter**來建立要求訊息，因此支援端對端節點值 LOB 資料類型的資料流。<br /><br /> 如果用戶端會使用**XmlDictionaryWriter**取用回應訊息，端對端節點值串流 LOB 資料，就會發生。<br /><br /> 端對端節點值資料流不會支援要求訊息，因為它可以叫用 Oracle 資料庫的作業之前，配接器必須緩衝所有的運算元。|  
-|預存程序和函式的作業|支援|支援|Wcf-custom 配接器會使用**BodyWriter**來建立要求訊息，因此支援端對端節點值 LOB 資料類型的資料流。<br /><br /> 如果用戶端會使用**XmlDictionaryWriter**取用回應訊息，端對端節點值串流 LOB 資料，就會發生。 (這表示，支援外的資料流和 IN 出程序和函式參數，回應訊息中的。)<br /><br /> 端對端節點值資料流不會支援要求訊息，因為它可以叫用 Oracle 資料庫的作業之前，配接器必須緩衝所有的運算元。|  
+|SQLEXECUTE 作業|支援|支援|配接器會使用**BodyWriter**建立回應訊息。<br /><br /> 如果用戶端會使用**XmlDictionaryWriter**取用回應訊息，端對端節點值串流 LOB 資料，就會發生。<br /><br /> 端對端節點值資料流不會支援要求訊息，因為它可以叫用 Oracle 資料庫的作業之前，配接器必須緩衝所有的運算元。|  
+|預存程序和函式的作業|支援|支援|配接器會使用**BodyWriter**建立回應訊息。<br /><br /> 如果用戶端會使用**XmlDictionaryWriter**取用回應訊息，端對端節點值串流 LOB 資料，就會發生。 (這表示，支援外的資料流和 IN 出程序和函式參數，回應訊息中的。)<br /><br /> 端對端節點值資料流不會支援要求訊息，因為它可以叫用 Oracle 資料庫的作業之前，配接器必須緩衝所有的運算元。|  
 |POLLINGSTMT 作業|支援|支援|配接器會使用**BodyWriter**建立 POLLINGSTMT 要求訊息。 如果在用戶端取用訊息**XmlDictionaryWriter**，則會發生節點值的 LOB 資料行串流。|  
   
  如需如何實作 LOB 資料流在程式碼中，當您使用 WCF 通道模型的資訊，請參閱[串流處理 Oracle 資料庫的 LOB 資料類型使用的 WCF 通道模型](../../adapters-and-accelerators/adapter-oracle-database/streaming-oracle-database-lob-data-types-using-the-wcf-channel-model.md)。  
@@ -115,11 +115,11 @@ ms.locfileid: "36994111"
 ## <a name="streaming-support-in-biztalk-server"></a>在 BizTalk Server 中的資料流支援  
  下表提供有關如何在 BizTalk Server 中支援資料流時的詳細的資訊。 (請參閱 「 介面卡 」 的所有參考[!INCLUDE[adapteroracle_short](../../includes/adapteroracle-short-md.md)]; Wcf-custom 配接器永遠都有其完整名稱，此資料表中。)  
   
-|作業|(請參閱 「 介面卡 」 的所有參考; Wcf-custom 配接器永遠都有其完整名稱，此資料表中。)|不支援配接器與 Oracle 資料庫之間;不過，BizTalk Server 與配接器之間串流資料。|描述|  
+|作業|節點資料流|節點值的資料流|描述|  
 |---------------|--------------------|---------------------------|-----------------|  
-|不支援端對端節點值串流處理，因為 ODP.NET 會緩衝處理 LOB 資料行的值，並接著執行 insert。|支援*|不支援配接器與 Oracle 資料庫之間;不過，BizTalk Server 與配接器之間串流資料。|不支援端對端節點值串流處理，因為 ODP.NET 會緩衝處理 LOB 資料行的值，並接著執行 insert。 不過，BizTalk Server 與配接器之間的資料流處理的節點值支援 LOB 資料類型的因為 Wcf-custom 配接器會建立與訊息**BodyWriter**。|  
-|相反地，請使用選取的作業或 SQLEXECUTE 作業。|支援|支援|Wcf-custom 配接器會使用**XmlDictionaryWriter**取用回應訊息，因此支援端對端節點值串流 LOB 類型。|  
-|Wcf-custom 配接器會使用XmlDictionaryWriter取用 （輸入） 的要求訊息，因此支援端對端節點值 LOB 資料類型的資料流。|支援|不支援配接器與 Oracle 資料庫之間;不過，BizTalk Server 與配接器之間串流資料。|因為 ODP.NET 會緩衝處理 LOB 資料行的值，然後執行更新時，不支援端對端節點值資料流。 不過，BizTalk Server 與配接器之間的資料流處理的節點值支援 LOB 資料類型的因為 Wcf-custom 配接器會建立與訊息**BodyWriter**。|  
+|資料表插入作業|支援\*|不支援配接器與 Oracle 資料庫之間;不過，BizTalk Server 與配接器之間串流資料。|不支援端對端節點值串流處理，因為 ODP.NET 會緩衝處理 LOB 資料行的值，並接著執行 insert。 不過，BizTalk Server 與配接器之間的資料流處理的節點值支援 LOB 資料類型的因為 Wcf-custom 配接器會建立與訊息**BodyWriter**。|  
+|選取的資料表作業|支援|支援|Wcf-custom 配接器會使用**XmlDictionaryWriter**取用回應訊息，因此支援端對端節點值串流 LOB 類型。|  
+|資料表更新作業|支援|不支援配接器與 Oracle 資料庫之間;不過，BizTalk Server 與配接器之間串流資料。|因為 ODP.NET 會緩衝處理 LOB 資料行的值，然後執行更新時，不支援端對端節點值資料流。 不過，BizTalk Server 與配接器之間的資料流處理的節點值支援 LOB 資料類型的因為 Wcf-custom 配接器會建立與訊息**BodyWriter**。|  
 |資料表刪除作業|支援|不支援配接器與 Oracle 資料庫之間;不過，BizTalk Server 與配接器之間串流資料。|不支援端對端節點值串流處理，因為 ODP.NET 會緩衝處理 LOB 資料行的值，並接著執行刪除。 不過，BizTalk Server 與配接器之間的資料流處理的節點值支援 LOB 資料類型的因為 Wcf-custom 配接器會建立與訊息**BodyWriter**。|  
 |資料表 ReadLOB 作業|BizTalk Server 不支援 ReadLOB 作業。|BizTalk Server 不支援 ReadLOB 作業。|BizTalk Server 不支援 ReadLOB 作業。 相反地，請使用選取的作業或 SQLEXECUTE 作業。|  
 |資料表 UpdateLOB 作業|支援|支援|Wcf-custom 配接器會使用**BodyWriter**來建立要求訊息，因此支援端對端節點值 LOB 資料類型的資料流。|  

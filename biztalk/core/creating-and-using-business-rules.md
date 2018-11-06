@@ -15,12 +15,12 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: c9d01e5eaf96c6490c68424fd09e297e0e60ef9d
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 31925296de1e9c6f017e2447e0dccfd699ac177c
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36979391"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752550"
 ---
 # <a name="creating-and-using-business-rules"></a>建立和使用商務規則
 商務規則 (或商務原則) 會定義及控制組織的結構、作業和策略。 商務規則可能會正式定義在程序手冊、合約或協定中，也可能以知識或專業技術的形式來由員工呈現。 商務規則是動態的，會隨著時間而改變，而且可以在所有類型的應用程式中找到。 在商務規則所控管的許多商務領域中，金融保險、電子商務、運輸、電信、Web 服務和個人化只是其中的幾項。 每一個商務領域都需要傳達商業策略、原則和規章給資訊技術 (IT) 人員，將這些資訊加入到軟體應用程式中。  
@@ -41,7 +41,7 @@ ms.locfileid: "36979391"
   
   您透過商務規則架構所建立的商務規則 (原則) 可用於協調的商務程序中，如下圖所示。  
   
-  ![此圖表顯示在程序中的內含式商務原則。](../core/media/ebiz-dev-busprcsi.gif "ebiz_dev_busprcsi")  
+  ![此圖表顯示在程序中的商務原則。](../core/media/ebiz-dev-busprcsi.gif "ebiz_dev_busprcsi")  
   商務原則  
   
   本章節提供一些概念性資訊，讓您瞭解如何利用商務規則架構及使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 提供的工具來開發商務規則。  

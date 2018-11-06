@@ -12,12 +12,12 @@ caps.latest.revision: 2
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 72c43e5048d55c028bb689bd06e5f8c5844cc064
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: fe36c4a8b9aa6d081ebde854e6a4c57f9492df67
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36986703"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753206"
 ---
 # <a name="how-to-move-the-bam-primary-import-database"></a>如何移動 BAM 主要匯入資料庫
 您可以使用這個程序，將 BAM 主要匯入資料庫移動到其他伺服器。 端對端案例的觀點而言，移動 BAM 主要匯入資料庫包含兩個主要步驟：  
@@ -26,7 +26,7 @@ ms.locfileid: "36986703"
   
 -   [更新至新的 BAM 主要匯入資料庫的參考](../technical-guides/how-to-move-the-bam-primary-import-database2.md#BKMK_BAMPIRef)  
   
-## <a name="prerequisites"></a>必要條件  
+## <a name="prerequisites"></a>先決條件  
  您必須以成員的帳戶登入[!INCLUDE[btsSQLServerNoVersion](../includes/btssqlservernoversion-md.md)]sysadmin 固定的伺服器角色，才能執行此程序。  
   
 ##  <a name="BKMK_MovingBAMPI"></a> 移動 BAM 主要匯入資料庫  
@@ -161,7 +161,7 @@ ms.locfileid: "36986703"
   
 4.  在**Integration Services 專案**對話方塊中，在 [方案總管] 中，以滑鼠右鍵按一下**SSIS 封裝**，然後按一下**加入現有封裝**。  
   
-5.  在 **加入現有封裝的副本**對話方塊中，於**Server**下拉式清單方塊中，選取 包含的 BAM_AN_ * 和 BAM_DM_ * 封裝的伺服器。  
+5.  中**加入現有封裝的副本**對話方塊中，於**伺服器**下拉式清單方塊中，選取伺服器，其中包含 BAM_AN_\*和 BAM_DM_\*封裝。  
   
 6.  在 **封裝路徑**，按一下省略符號按鈕。  
   

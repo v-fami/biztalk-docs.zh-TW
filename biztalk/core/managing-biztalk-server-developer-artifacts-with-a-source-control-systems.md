@@ -12,12 +12,12 @@ caps.latest.revision: 12
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 8ce9483518275c57c7defb730aeeffc8a4139115
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 132a02e8936a1e877f2cd266132a63db45537bf4
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36991007"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752527"
 ---
 # <a name="managing-biztalk-server-developer-artifacts-with-a-source-control-systems"></a>管理原始檔控制系統的 BizTalk Server 開發人員成品
 保護您的 BizTalk 專案免於發生未預期的系統失敗，應做為第一優先的事項。 保護專案檔案的一個方式是使用原始程式碼控制系統，例如 Team Foundation Server Source Control 與 Microsoft Visual SourceSafe。 本主題說明一些基本策略，可將專案組織成與任何原始檔控制系統搭配使用時都能發揮最佳效果，並提供有關使用 Visual SourceSafe 的特定建議。  
@@ -105,7 +105,7 @@ ms.locfileid: "36991007"
   
 5. 將下列項目新增至二進位檔案清單的末端。 請確認以分號分隔每種檔案類型：  
   
-    *.btm;\*.btp;\*.xsd;\*.odx  
+    \*.btm;\*.btp;\*.xsd;\*.odx  
   
 6. 按一下 [確定] 。  
   

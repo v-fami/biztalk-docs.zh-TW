@@ -13,23 +13,23 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 3713ee7906d735b6328b50d3b97a214422893d21
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: c2a825158f43ea085fd0e84aeb15001ea88b6d7f
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36970215"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50752774"
 ---
 # <a name="use-settings-dashboard-to-import-or-export-biztalk-settings"></a>使用設定儀表板匯入或匯出 BizTalk 設定 
 
-## <a name="overview"></a>概觀
+## <a name="overview"></a>總覽
 您可以使用 BizTalk 設定儀表板，匯出 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 環境中的設定，再將設定匯入到其他 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 環境，進而縮短完成解決方案所需的整體時間。 當系統管理員會試著在臨時環境中調整 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 效能，並會在達成想要的結果時將設定匯入實際執行環境的情況下，這種方式就特別有用。 本主題將提供使用 [設定儀表板] 匯入 BizTalk 群組、主控件和主控件執行個體設定的逐步程序。  
 
 > [!TIP]
 > BTSTask 命令列公用程式也可以使用匯入或匯出工作群組、 主控件和主控件執行個體設定。 請參閱[匯入或匯出 BizTalk 設定使用 BTSTask](how-to-import-biztalk-settings-using-btstask.md)。
 
   
-## <a name="prerequisites"></a>必要條件  
+## <a name="prerequisites"></a>先決條件  
  若要執行這項作業，您必須為 BizTalk Server 系統管理員群組的成員登入。  
   
 ## <a name="import-the-biztalk-group-host-and-host-instance-settings"></a>匯入 BizTalk 群組、 主機和主機執行個體設定  
@@ -111,7 +111,7 @@ ms.locfileid: "36970215"
 3. 瀏覽至您要儲存目前的 BizTalk 設定的位置。 輸入檔案名稱，選取 XML 格式的類型，然後按一下**儲存**。  
 
 > [!IMPORTANT]
->  我們不建議手動更新 匯出的 XML 檔案。 當您匯入生產環境中更新的 XML 檔案時，匯入程序可能會失敗，因為某種資料類型不符或因手動編輯其他錯誤。  
+>  我們不建議您手動更新 匯出的 XML 檔案。 當您匯入生產環境中更新的 XML 檔案時，匯入程序可能會失敗，因為某種資料類型不符或因手動編輯其他錯誤。  
 
 ## <a name="see-also"></a>另請參閱  
  [針對 BizTalk Server 效能調整使用設定儀表板](../core/using-settings-dashboard-for-biztalk-server-performance-tuning.md)

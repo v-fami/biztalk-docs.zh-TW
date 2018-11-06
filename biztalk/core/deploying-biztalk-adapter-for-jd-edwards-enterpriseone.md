@@ -13,16 +13,16 @@ caps.latest.revision: 4
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 708e9d3513c9d36e9a4aa28d607332e4c1aac077
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: e9c6f24ff4cb7060d0cddf29d82f4035d8407dca
+ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36989367"
+ms.lasthandoff: 11/01/2018
+ms.locfileid: "50753190"
 ---
 # <a name="import-the-jd-edwards-enterpriseone-application"></a>匯入 JD Edwards EnterpriseOne 應用程式
   
-## <a name="overview"></a>概觀
+## <a name="overview"></a>總覽
 使用[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，您可以複製連接埠和組件的目標電腦上。 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 傳送埠/接收位置將組態匯出到 XML 檔案。  
   
  您可以使用 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 執行下列工作：  
@@ -45,7 +45,7 @@ ms.locfileid: "36989367"
   
 -   在新電腦上用於存放回應的資料夾存在且相同，否則請編輯繫結檔案。  
   
--   JD Edwards EnterpriseOne 系統密碼 (如果出現在組態中) 以 ***** 格式儲存在繫結檔案中。 如需詳細資訊，請參閱 <<c0>  **限制**本主題中。
+-   JD Edwards EnterpriseOne 系統密碼，如果出現在組態中，會儲存成\* \* \* \* \*繫結檔案中。 如需詳細資訊，請參閱 <<c0>  **限制**本主題中。
 
 ## <a name="clean-the-target-computer"></a>清除目標電腦
 當您在目標電腦上重新部署繫結檔案 (和組件)，傳送埠和接收位置會在重新匯入 XML 繫結檔案時，被取代為 XML 繫結檔案中的傳送埠和接收位置。  
@@ -62,7 +62,7 @@ ms.locfileid: "36989367"
 cscript RemoveSendPort.vbs \<Send port name\>
 ```
 ## <a name="limitations"></a>限制
-「傳輸配接器」密碼以星號 (******) 儲存在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 匯出的繫結檔案中，並且會以相同格式傳遞給管理元件。 在匯入繫結檔案前先行編輯該檔案，方法是將星號取代為某些垃圾值 (亦即不正確的密碼)。  
+傳輸配接器 」 密碼會儲存為星號 (\*\*\*\*\*\*) 繫結檔案所匯出[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]，並且會傳遞給管理元件中相同的格式。 在匯入繫結檔案前先行編輯該檔案，方法是將星號取代為某些垃圾值 (亦即不正確的密碼)。  
   
  當您匯出繫結資訊時，所產生的繫結檔案不會包含傳輸配接器在接收位置/傳送埠中使用的任何密碼。 這可防止密碼資訊以純文字方式出現。 下次您使用檔案匯入繫結資訊時，必須使用傳輸屬性頁使用者介面輸入密碼。  
   
@@ -75,5 +75,5 @@ cscript RemoveSendPort.vbs \<Send port name\>
 2.  驗證邏輯系統以及「傳輸」和「接收」服務。  
 
 
-## <a name="next-steps"></a>後續的步驟
+## <a name="next-steps"></a>後續步驟
 [使用 協調流程中的 BizTalk Server 例外狀況處理](../core/using-biztalk-server-exception-handling3.md)
