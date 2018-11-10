@@ -20,7 +20,7 @@ ms.lasthandoff: 06/27/2018
 ms.locfileid: "37006143"
 ---
 # <a name="xml-and-flat-file-property-schema-and-properties"></a>XML 和一般檔案屬性結構描述與屬性
-**http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties**命名空間包含可用來設定一般檔案組合器和一般檔案解譯器管線元件的屬性。 下表說明這些屬性。  
+**http://schemas.microsoft.com/BizTalk/2003/xmlnorm-properties** 命名空間包含可用來設定一般檔案組合器和一般檔案解譯器管線元件的屬性。 下表說明這些屬性。  
 
 ## <a name="properties-list"></a>屬性清單
 
