@@ -130,7 +130,7 @@ Azure 事件中樞是可高度擴充的資料串流平台，並可接收和處�
 
     |使用|以進行此動作|  
     |---|---|  
-    | **命名空間，使用者定義訊息屬性** | http://schemas.microsoft.com/BizTalk/EventHubAdapter/EventData/User 預設結構描述中，但您可以輸入另一個結構描述。 這個值代表 BizTalk 訊息的結構描述，對應至事件中樞的訊息屬性。 |
+    | **命名空間，使用者定義訊息屬性** |  http://schemas.microsoft.com/BizTalk/EventHubAdapter/EventData/User 預設結構描述中，但您可以輸入另一個結構描述。 這個值代表 BizTalk 訊息的結構描述，對應至事件中樞的訊息屬性。 |
     | **升級使用者定義的屬性** | 選擇性。 如果您想，您可以升級這些屬性。 <br/><br/>**注意**<br/>要升級的屬性應該部署的 porperty 結構描述*之前*接收事件。|
 
 7. 選取  **Ok**以儲存變更。 
