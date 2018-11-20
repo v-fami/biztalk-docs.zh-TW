@@ -17,18 +17,18 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 908c0eebecaf005e22194584f9a1d1e7fafa4daf
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 00f19818dd5df6cafaf51298a0463ea745736ab5
+ms.sourcegitcommit: c3070a7a3f332857357f056dc632829b43869c17
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36970231"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51630387"
 ---
 # <a name="how-to-create-a-new-pipeline"></a>如何建立新的管線
 您可以新增管線範本到您的專案，以建立新管線。  
   
 > [!WARNING]
->  您不應該新增的專案包含自訂管線元件的方案，包含使用該管線元件專案的實作。 如果您這樣做，下次重新建置方案時，就會收到錯誤訊息，指出輸出 dll 已被其他程序使用。  
+>  您不應該新增的專案包含自訂管線元件以包含使用該管線元件的專案的方案的實作。 如果您這樣做，下次重新建置方案時，就會收到錯誤訊息，指出輸出 dll 已被其他程序使用。  
   
 ### <a name="to-create-a-new-pipeline"></a>建立新管線  
   

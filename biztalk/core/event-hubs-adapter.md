@@ -11,21 +11,21 @@ ms.topic: article
 author: MandiOhlinger
 ms.author: plarsen
 manager: anneta
-ms.openlocfilehash: f6bccce51ad56fa1b8186347d8fddd5f4afbafbb
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: a1e30b1ab1aacc1c5134d1dd5b44744bd670b308
+ms.sourcegitcommit: c3070a7a3f332857357f056dc632829b43869c17
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36988775"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51630331"
 ---
 # <a name="event-hub-adapter-in-biztalk"></a>在 BizTalk 中的事件中樞配接器
 
-## <a name="overview"></a>概觀
+## <a name="overview"></a>總覽
 **開頭[!INCLUDE[bts2016_md](../includes/bts2016-md.md)]Feature Pack 2**，您可以傳送和接收 BizTalk Server 和 Azure 事件中樞之間的訊息。 
 
 Azure 事件中樞是可高度擴充的資料串流平台，並可接收和處理數百萬個每秒的事件。 [事件中樞是什麼？](https://docs.microsoft.com/azure/event-hubs/event-hubs-what-is-event-hubs)提供更多詳細資料。
 
-## <a name="prerequisites"></a>必要條件
+## <a name="prerequisites"></a>先決條件
 
 * 建立[Azure 事件中樞命名空間和事件中樞](https://docs.microsoft.com/azure/event-hubs/event-hubs-create)
 * 建立[與容器的 Azure blob 儲存體帳戶](https://docs.microsoft.com/azure/storage/common/storage-create-storage-account)
@@ -43,7 +43,7 @@ Azure 事件中樞是可高度擴充的資料串流平台，並可接收和處�
 
 3. 設定**Azure 帳戶**屬性： 
 
-    |使用|以進行此動作|  
+    |使用|動作|  
     |---|---|  
     | **登入** | 登入您的 Azure 帳戶 |
     | **訂閱** | 選取具有您 EventHubs 命名空間的訂用帳戶 |
@@ -51,7 +51,7 @@ Azure 事件中樞是可高度擴充的資料串流平台，並可接收和處�
 
 4. 設定**端點**屬性： 
 
-    |使用|以進行此動作|  
+    |使用|動作|  
     |---|---|  
     | **Namespace** | 選取事件中樞命名空間，也就是類似 sb: / /*youreventhubnamespace*.servicebus.windows.net/ |
     | **名稱** | 選取事件中樞 （這建立事件中樞命名空間內） 的名稱 |
@@ -98,7 +98,7 @@ Azure 事件中樞是可高度擴充的資料串流平台，並可接收和處�
 
 4. 設定**Azure 帳戶**屬性： 
 
-    |使用|以進行此動作|  
+    |使用|動作|  
     |---|---|  
     | **登入** | 登入您的 Azure 帳戶 |
     | **訂閱** | 選取具有您 EventHubs 命名空間的訂用帳戶 |
@@ -106,7 +106,7 @@ Azure 事件中樞是可高度擴充的資料串流平台，並可接收和處�
 
 4. 設定**端點**屬性： 
 
-    |使用|以進行此動作|  
+    |使用|動作|  
     |---|---|  
     | **Namespace** | 選取事件中樞命名空間，也就是類似 sb: / /*youreventhubnamespace*.servicebus.windows.net/ |
     | **名稱** | 選取事件中樞 （這建立事件中樞命名空間內） 的名稱 |
@@ -128,9 +128,9 @@ Azure 事件中樞是可高度擴充的資料串流平台，並可接收和處�
 
 6. 設定**訊息**屬性： 
 
-    |使用|以進行此動作|  
+    |使用|動作|  
     |---|---|  
-    | **命名空間，使用者定義訊息屬性** |  http://schemas.microsoft.com/BizTalk/EventHubAdapter/EventData/User 預設結構描述中，但您可以輸入另一個結構描述。 這個值代表 BizTalk 訊息的結構描述，對應至事件中樞的訊息屬性。 |
+    | **命名空間，使用者定義訊息屬性** |  `http://schemas.microsoft.com/BizTalk/EventHubAdapter/EventData/User` 預設結構描述中，但您可以輸入另一個結構描述。 這個值代表 BizTalk 訊息的結構描述，對應至事件中樞的訊息屬性。 |
     | **升級使用者定義的屬性** | 選擇性。 如果您想，您可以升級這些屬性。 <br/><br/>**注意**<br/>要升級的屬性應該部署的 porperty 結構描述*之前*接收事件。|
 
 7. 選取  **Ok**以儲存變更。 

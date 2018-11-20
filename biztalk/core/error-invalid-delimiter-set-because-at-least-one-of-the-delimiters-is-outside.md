@@ -12,12 +12,12 @@ caps.latest.revision: 8
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 5a54467c6d611aefd58d2dfd51c21974c3a5df7c
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: ebda7e3ebfe2adc0084b672a2f66ed1ad639c943
+ms.sourcegitcommit: c3070a7a3f332857357f056dc632829b43869c17
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37022508"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51630363"
 ---
 # <a name="invalid-delimiter-set-because-at-least-one-of-the-delimiters-is-outside-the-allowed-range"></a>無效的分隔符號集，因為至少其中一個分隔符號是在允許的範圍之外
 ## <a name="details"></a>詳細資料  
@@ -30,7 +30,7 @@ ms.locfileid: "37022508"
 |  事件來源   |         [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] EDI         |
 |    元件    |                                               將 EDI 引擎                                               |
 |  符號名稱  |                                          DelimiterOutOfRange                                           |
-|  訊息文字   | 無效的分隔符號集{0}，至少其中一個分隔符號是允許的 0 到 127 的範圍之外 |
+|  訊息文字   | 無效的分隔符號集{0}，其中至少一個分隔符號是允許的 0 到 127 的範圍之外 |
   
 ## <a name="explanation"></a>說明  
  這個錯誤/警告/資訊事件表示，接收管線無法處理內送交換因為交換中的一或多個分隔符號中的 ASCII 字元的值範圍以外設定。  

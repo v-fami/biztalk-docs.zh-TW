@@ -18,12 +18,12 @@ caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 56675a59714a6fabc1d54fdb594466c7568cfeba
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: e8a2ba919a6d4ee5b84da8a9911604aff95a02e4
+ms.sourcegitcommit: c3070a7a3f332857357f056dc632829b43869c17
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36973447"
+ms.lasthandoff: 11/14/2018
+ms.locfileid: "51630355"
 ---
 # <a name="compensation-biztalk-server-sample"></a>補償 （BizTalk Server 範例）
 補償範例示範如何使用**補償**協調流程。  
@@ -120,9 +120,9 @@ ms.locfileid: "36973447"
   
    4.  在 [**協調流程和連接埠**頁面上，按一下**下一步]**。  
   
-   5.  在上**Web 服務屬性**頁面上，於**web 服務的目標命名空間**，型別**http://Microsoft.BizTalk.Samples.Compensation/**，然後按一下**下一步**。  
+   5.  在上**Web 服務屬性**頁面上，於**web 服務的目標命名空間**，型別`http://Microsoft.BizTalk.Samples.Compensation/`，然後按一下**下一步**。  
   
-   6.  在  **Web 服務專案**頁面上，於**位置**，型別**http://localhost/CompensationOrchestrationWebServiceProxy**。  
+   6.  在  **Web 服務專案**頁面上，於**位置**，型別`http://localhost/CompensationOrchestrationWebServiceProxy`。  
   
    7.  選取 **允許匿名存取 web 服務**核取方塊。  
   
