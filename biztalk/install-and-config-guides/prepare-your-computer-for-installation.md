@@ -214,7 +214,7 @@ ms.locfileid: "37017204"
   
 - [MQSeries 配接器](http://technet.microsoft.com/library/aa547973\(v=BTS.80\).aspx)提供 MQSeries 配接器的詳細資訊，包括不同元件的設定。 [BizTalk Server: MQSeries and MQSeries Client (MQSC) adapters](http://social.technet.microsoft.com/wiki/contents/articles/18316.biztalk-server-mqseries-and-mqseries-client-mqsc-adapters.aspx) (BizTalk Server：MQSeries 和 MQSeries 用戶端 (MQSC) 配接器) 提供 MQSeries 和 MQSC 配接器的其他詳細資料。  
   
-- IBM WebSphere 並非 Microsoft 產品，因此 Microsoft 不提供支援服務。 Microsoft 亦不保證此程式的適用性。 如需 IBM WebSphere MQ 的詳細資訊，包括下載指示，請參閱 www.ibm.com。  
+- IBM WebSphere 並非 Microsoft 產品，因此 Microsoft 不提供支援服務。 Microsoft 亦不保證此程式的適用性。 如需 IBM WebSphere MQ 的詳細資訊，包括下載指示，請參閱 www.ibm.com 。  
   
 ##  <a name="BKMK_BAMAlerts"></a> BAM 警示  
  SQL Server 2012 和較新版本的 BAM 警示使用 SQL Server 中的 Database Mail。 使用 SQL Server 2008 R2 和較舊版本的 BAM 警示使用 SQL Notification Services。 然後才能安裝或設定 BAM 警示，您必須在 SQL Server 中設定 Notification Services 或 Database Mail。  
