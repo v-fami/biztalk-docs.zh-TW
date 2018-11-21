@@ -134,7 +134,7 @@ ms.locfileid: "50752814"
 
    1.  在 記事本 開啟 BizTalk WCF 服務發佈精靈建立 WCF 服務中 %SystemDrive%\InetPub 的資料夾中的 Web.config\\。  
 
-   2.  在記事本中，設定**httpGetEnabled**屬性中**\<serviceMetadata\>** 為 false，如下列這一行的項目：  
+   2.  在記事本中，設定**httpGetEnabled**屬性中 **\<serviceMetadata\>** 為 false，如下列這一行的項目：  
 
        ```  
        <serviceMetadata httpGetEnabled="false" httpsGetEnabled="false" />  

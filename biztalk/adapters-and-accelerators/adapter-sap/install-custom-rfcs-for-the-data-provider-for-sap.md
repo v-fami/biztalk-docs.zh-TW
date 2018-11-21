@@ -32,7 +32,7 @@ ms.locfileid: "50752766"
   
 - 執行 EXECQUERY 作業，[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]需要 Z_EXECUTE_SAP_QUERY RFC。  
   
-若要執行這些 SAP 系統上的作業，您必須安裝這些自訂 Rfc，SAP 系統上。 如果您選擇要安裝[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]連同[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]，安裝程式複製的 RFC 傳輸[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]的壓縮檔 (customRFC.zip) 系統上安裝配接器的位置。 Zip 檔案通常會安裝在*\<安裝磁碟機\>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Microsoft.NET Framework Data Provider for mySAP Business Suite*。 
+若要執行這些 SAP 系統上的作業，您必須安裝這些自訂 Rfc，SAP 系統上。 如果您選擇要安裝[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]連同[!INCLUDE[adaptersap_short](../../includes/adaptersap-short-md.md)]，安裝程式複製的 RFC 傳輸[!INCLUDE[adoprovidersapshort](../../includes/adoprovidersapshort-md.md)]的壓縮檔 (customRFC.zip) 系統上安裝配接器的位置。 Zip 檔案通常會安裝在 *\<安裝磁碟機\>: \Program Files\Microsoft [!INCLUDE[adapterpacknoversion](../../includes/adapterpacknoversion-md.md)]\Microsoft.NET Framework Data Provider for mySAP Business Suite* 。 
   
  Zip 檔案解壓縮之後，您會發現四個資料檔案，兩個遵循命名模式 K9\*。BI1 （例如，類似於 K900534。BI1) 和其他兩個模式 R9\*。BI1 （例如，類似於 R900534。BI1)。  
   

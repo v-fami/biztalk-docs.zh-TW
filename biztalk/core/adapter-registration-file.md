@@ -100,7 +100,7 @@ Windows Registry Editor Version 5.00
   
 2. 按一下 **開始**，指向**所有程式**，指向**附屬應用程式**，然後按一下**Windows 檔案總管**。  
   
-3. BizTalk Server 中，瀏覽至安裝磁碟機，然後瀏覽**<** `drive` **>: \Program Files\Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **\SDK\Samples\AdaptersUsage\File 配接器**。  
+3. BizTalk Server 中，瀏覽至安裝磁碟機，然後瀏覽 **<**`drive`**>: \Program Files\Microsoft** [!INCLUDE[btsBizTalkServer2006r3ui](../includes/btsbiztalkserver2006r3ui-md.md)] **\SDK\Samples\AdaptersUsage\File 配接器**。  
   
 4. 若要將範例配接器新增至登錄中，按兩下**StaticAdapterManagement.reg**。(如果您想要將動態 file 配接器新增至登錄，請執行**DynamicAdapterManagement.reg**改為與 everywhere 檔案其他適當的使用。)  
   
