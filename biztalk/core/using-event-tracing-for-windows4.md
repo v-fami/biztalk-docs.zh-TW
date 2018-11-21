@@ -38,7 +38,7 @@ Microsoft BizTalk Adapter for JD Edwards EnterpriseOne 會將錯誤、警告與�
   
 - **取用者應用程式**。 讀取記錄的事件。 為了讓消費者應用程式能夠讀取 etl 檔案中的事件，Windows 事件追蹤必須將事件傾印到該檔案中。 通常這是在控制器停用追蹤時完成。  
   
-   若要使用的取用者應用程式，而不需要停用追蹤，控制器必須啟用使用即時選項時，追蹤**\<即時\>=-rt**。  
+   若要使用的取用者應用程式，而不需要停用追蹤，控制器必須啟用使用即時選項時，追蹤 **\<即時\>=-rt** 。  
   
 - **提供者**。 用來提供事件。 BizTalk Adapter for JD Edwards EnterpriseOne 包含三種不同的提供者。 它們是在 Windows Management Instrumentation (WMI) 中註冊的。 若要在 root\WMI\EventTrace 路經中尋找已登錄的提供者，您可以使用諸如 WMI CIM Studio 這類的工具。  
   

@@ -118,7 +118,7 @@ ms.locfileid: "50753206"
   
 ###  <a name="BKMK_Config"></a> 若要更新 BAM 入口網站的 Web.config 檔案  
   
-1.  在電腦上執行 BizTalk Server，更新 Web.config 檔案下的**\<磁碟機\>: \Program Files\Microsoft BizTalk Server 2010\BAMPortal\BAMManagementService\Web.Config**。更新伺服器和資料庫名稱，在 Web.config 中的下列區段：  
+1.  在電腦上執行 BizTalk Server，更新 Web.config 檔案下的 **\<磁碟機\>: \Program Files\Microsoft BizTalk Server 2010\BAMPortal\BAMManagementService\Web.Config** 。更新伺服器和資料庫名稱，在 Web.config 中的下列區段：  
   
     ```  
     <appSettings>  
@@ -127,7 +127,7 @@ ms.locfileid: "50753206"
     </appSettings>  
     ```  
   
-2.  在電腦上執行 BizTalk Server，更新 Web.config 檔案下的**\<磁碟機\>: \Program Files\Microsoft BizTalk Server 2010\BAMPortal\BAMQueryService\Web.Config**。更新伺服器和資料庫名稱，在 Web.config 中的下列區段：  
+2.  在電腦上執行 BizTalk Server，更新 Web.config 檔案下的 **\<磁碟機\>: \Program Files\Microsoft BizTalk Server 2010\BAMPortal\BAMQueryService\Web.Config** 。更新伺服器和資料庫名稱，在 Web.config 中的下列區段：  
   
     ```  
     <appSettings>  
@@ -161,7 +161,7 @@ ms.locfileid: "50753206"
   
 4.  在**Integration Services 專案**對話方塊中，在 [方案總管] 中，以滑鼠右鍵按一下**SSIS 封裝**，然後按一下**加入現有封裝**。  
   
-5.  中**加入現有封裝的副本**對話方塊中，於**伺服器**下拉式清單方塊中，選取伺服器，其中包含 BAM_AN_\*和 BAM_DM_\*封裝。  
+5.  中 **加入現有封裝的副本** 對話方塊中，於 **伺服器** 下拉式清單方塊中，選取伺服器，其中包含 BAM_AN_\*和 BAM_DM_\*封裝。  
   
 6.  在 **封裝路徑**，按一下省略符號按鈕。  
   
