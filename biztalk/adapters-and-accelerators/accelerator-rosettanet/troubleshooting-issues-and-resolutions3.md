@@ -146,7 +146,7 @@ ms.locfileid: "50758693"
   
 1. 按一下 **開始**，指向**系統管理工具**，然後按一下**Internet Information Services (IIS) 管理員**。  
   
-2. 依序展開**\<電腦名稱\>（本機電腦）**，然後按一下**網頁服務延伸**。  
+2. 依序展開 **\<電腦名稱\>（本機電腦)**，然後按一下 **網頁服務延伸** 。  
   
 3. 在 [ **Web 服務延伸模組**] 窗格中，確認是否允許 HwsMessages HttpReceive 的狀態。 如果沒有，請以滑鼠右鍵按一下**HwsMessages HttpReceive**，然後按一下**允許**。  
   
@@ -160,7 +160,7 @@ ms.locfileid: "50758693"
   
 3.  中**新增網頁服務延伸**對話方塊中，於**延伸模組名稱**方塊中，輸入**BizTalk ISAPI 擴充程式**，然後按一下**新增**。  
   
-4.  在  **Add File**對話方塊的 **檔案路徑**方塊中，輸入**\<磁碟機\>: \Program Files\Microsoft BizTalk Server\<版本\>\HttpReceive\BTSHttpReceive.dll**，然後按一下**確定**。  
+4.  在  **Add File**對話方塊的 **檔案路徑** 方塊中，輸入 **\<磁碟機\>: \Program Files\Microsoft BizTalk Server\<版本\>\HttpReceive\BTSHttpReceive.dll** ，然後按一下 **確定** 。  
   
 5.  在 **新增網頁服務延伸**對話方塊中，選取**設定延伸狀態成允許**，然後按一下  **確定**。  
   
@@ -281,7 +281,7 @@ ms.locfileid: "50758693"
   
 ##### <a name="to-remove-rpcproxy-filter-entry-in-iis"></a>移除 IIS 中的 RpcProxy 篩選常式項目  
   
-1.  按一下 **開始**，指向**系統管理工具**，然後按一下**Internet Information Services (IIS) 管理員**。  
+1.  按一下 **開始**，指向 **系統管理工具**，然後按一下 **Internet Information Services (IIS) 管理員**。  
   
 2.  依序展開**\<電腦名稱\>（本機電腦）**，以滑鼠右鍵按一下**網站**，然後按一下**屬性**。  
   

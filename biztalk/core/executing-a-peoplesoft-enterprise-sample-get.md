@@ -289,7 +289,7 @@ ms.locfileid: "50753246"
   
      `C:\LABS\PS_TEST\SAMPLEQUERY.XML`  
   
-3.  按一下 **[確定].** 在 [屬性] 視窗中，選取**\<結構描述\>** 並設定**根參考： 取得**。  
+3.  按一下 **[確定].** 在 [屬性] 視窗中，選取 **\<結構描述\>** 並設定 **根參考： 取得** 。  
   
 4.  以滑鼠右鍵按一下 [LOCATIONService_LOCATION_x5d.xsd]  ，再按一下 [產生執行個體] 。 這會產生 **SampleQuery.xml** 檔案。 這個檔案將做為配接器的輸入，放置在接收位置以啟動協調流程處理序。  
   
@@ -299,7 +299,7 @@ ms.locfileid: "50753246"
   
 1. 設定用於接收內送檔案及傳送外寄檔案的資料夾。 移至**C:\LABS\PS_TEST**並建立兩個新的子資料夾，名為`FileIn`和`FileOut`。  
   
-2. 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，展開**主控台根目錄**，展開**[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理**，展開**BizTalk 群組**，展開**應用程式**，以滑鼠右鍵按一下**PS_Test** ，然後按一下**設定**。  
+2. 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，展開**主控台根目錄**，展開**[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理**，展開 **BizTalk 群組** ，展開 **應用程式** ，以滑鼠右鍵按一下**PS_Test** ，然後按一下**設定**。  
   
     ![](../core/media/e45f4c8b-fc8a-492a-9824-5232eb728d95.gif "e45f4c8b-fc8a-492a-9824-5232eb728d95")  
   
@@ -357,7 +357,7 @@ ms.locfileid: "50753246"
   
 11. 按兩下 [確定]  關閉對話方塊。  
   
-12. 在 設定 Applicationwindow 中，按一下**\<無\>** for **FileOut**下拉式清單中。  
+12. 在 設定 Applicationwindow 中，按一下 **\<無\>** for **FileOut** 下拉式清單中。  
   
 13. 選取 [新增傳送埠]  ，然後選取或輸入下列屬性值：  
   
@@ -398,7 +398,7 @@ ms.locfileid: "50753246"
   
      ![](../core/media/1320ea3c-b2bc-4717-b200-c3c550079ccb.gif "1320ea3c-b2bc-4717-b200-c3c550079ccb")  
   
-     這份傳回的記錄資料應符合針對 PeopleSoft 實驗室 1 中 PeopleSoft 系統的查詢所傳回的內容。 比較您在實驗室 1 取得，特別**Address1**並**address2 一起顯示**行，以在這裡顯示**\<位置： ADDRESS1\>** 並**\<位置： address2 一起顯示\>** 欄位中，您可以確認**取得**方法運作正常。  
+     這份傳回的記錄資料應符合針對 PeopleSoft 實驗室 1 中 PeopleSoft 系統的查詢所傳回的內容。 比較您在實驗室 1 取得，特別 **Address1**並 **address2 一起顯示** 行，以在這裡顯示 **\<位置： ADDRESS1\>** 並 **\<位置： address2 一起顯示\>** 欄位中，您可以確認 **取得** 方法運作正常。  
   
 ## <a name="summary"></a>總結  
  在此實驗室中，您先確認了已正確設定必要條件，以便存取 PeopleSoft 系統。 之後，使用 [!INCLUDE[btsVStudioNoVersion](../includes/btsvstudionoversion-md.md)] 建立包含協調流程的新 BizTalk 專案。 您設定了此協調流程，以使用 PeopleSoft 配接器自 PeopleSoft 系統取得資料。 為了設定協調流程，您建立了傳送、接收與傳送/接收埠。 您將這些連接埠繫結至 PeopleSoft 配接器，並指派訊息到適當的連接埠。  
