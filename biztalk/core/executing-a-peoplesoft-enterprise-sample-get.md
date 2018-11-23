@@ -68,7 +68,7 @@ ms.locfileid: "50753246"
   
 2. 請確認 get_ci_info.pc 檔案位於 C:\Program Files\Microsoft BizTalk Adapters for Enterprise Applications\PeopleSoft Enterprise(r) \Config 資料夾中。  
   
-3. 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，展開**主控台根目錄**，展開[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]**管理**，展開**BizTalk 群組**，展開**平台設定**，然後展開**配接器**。 請確定已安裝 PeopleSoft 配接器，並且出現在清單上。  
+3. 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，展開 **主控台根目錄** ，展開[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] **管理** ，展開 **BizTalk 群組** ，展開 **平台設定** ，然後展開 **配接器** 。 請確定已安裝 PeopleSoft 配接器，並且出現在清單上。  
   
     如果未安裝 PeopleSoft 配接器，請安裝 BizTalk Adapters for Enterprise Applications (請參閱稍早的＜必要條件＞一節)。 安裝配接器之後，用滑鼠右鍵按一下 [配接器]  ，然後按一下 [新增 - 配接器]  安裝 PeopleSoft 配接器。 重新啟動主控件執行個體，這個選項才會生效。  
   
