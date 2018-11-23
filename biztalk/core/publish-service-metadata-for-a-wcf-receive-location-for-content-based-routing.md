@@ -30,7 +30,7 @@ ms.locfileid: "50752814"
 
 ### <a name="to-publish-service-metadata-for-an-existing-wcf-receive-location-for-content-based-routing"></a>若要發佈根據訊息內容決定路由之現有 WCF 接收位置的服務中繼資料  
 
-1. 按一下 **開始**，指向**所有程式**，指向**[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]**，然後按一下**BizTalk WCF 服務發佈精靈**。  
+1. 按一下 **開始**，指向**所有程式**，指向 **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]** ，然後按一下**BizTalk WCF 服務發佈精靈**。  
 
    > [!NOTE]
    >  若要建立並發佈 BizTalk 協調流程和結構描述的 WCF 服務中繼資料，您可以使用 BizTalk WCF 服務發佈精靈。 若要以 SOAP 配接器將協調流程和結構描述發佈成 Web 服務，您可以使用 BizTalk Web 服務發佈精靈。  
@@ -111,7 +111,7 @@ ms.locfileid: "50752814"
 
 2. 開啟命令提示字元，請移至 BizTalk WCF 服務發佈精靈建立 WCF 服務中 %SystemDrive%\InetPub 資料夾\\，然後開啟 Web.config 檔案，使用 記事本。  
 
-3. 在記事本中，加入下的面這一行內**\<system.web\>** 項目：  
+3. 在記事本中，加入下的面這一行內 **\<system.web\>** 項目：  
 
    ```  
    <trust level="Full" originUrl="" />  
@@ -134,7 +134,7 @@ ms.locfileid: "50752814"
 
    1.  在 記事本 開啟 BizTalk WCF 服務發佈精靈建立 WCF 服務中 %SystemDrive%\InetPub 的資料夾中的 Web.config\\。  
 
-   2.  在記事本中，設定**httpGetEnabled**屬性中 **\<serviceMetadata\>** 為 false，如下列這一行的項目：  
+   2.  在記事本中，設定 **httpGetEnabled** 屬性中 **\<serviceMetadata\>** 為 false，如下列這一行的項目：  
 
        ```  
        <serviceMetadata httpGetEnabled="false" httpsGetEnabled="false" />  

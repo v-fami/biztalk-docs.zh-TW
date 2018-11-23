@@ -47,7 +47,7 @@ ms.locfileid: "50752870"
 * 您必須新增的參考**BizTalk EDI 應用程式**從 BizTalk 應用程式將用於做為 EDI 應用程式。 請參閱[後續設定步驟](../install-and-config-guides/post-configuration-steps-to-optimize-your-environment.md)。
 
 ## <a name="import-or-export-all-the-trading-partners"></a>匯入或匯出所有交易夥伴
-1. 開啟**[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]** ，再展開 BizTalk 群組。
+1. 開啟 **[!INCLUDE[btsBizTalkServerAdminConsoleui_md](../includes/btsbiztalkserveradminconsoleui-md.md)]** ，再展開 BizTalk 群組。
 2. 以滑鼠右鍵按一下**合作對象**，然後選取**匯出**。 
 
     當您匯出動作目前**合作對象**-層級，您要匯出所有交易夥伴。 這也會匯出交易夥伴，包括商務設定檔與協議到 XML 檔案所使用的所有項目。 
