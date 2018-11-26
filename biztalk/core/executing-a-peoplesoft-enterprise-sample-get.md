@@ -299,7 +299,7 @@ ms.locfileid: "50753246"
   
 1. 設定用於接收內送檔案及傳送外寄檔案的資料夾。 移至**C:\LABS\PS_TEST**並建立兩個新的子資料夾，名為`FileIn`和`FileOut`。  
   
-2. 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，展開**主控台根目錄**，展開**[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理**，展開 **BizTalk 群組** ，展開 **應用程式** ，以滑鼠右鍵按一下**PS_Test** ，然後按一下**設定**。  
+2. 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，展開 **主控台根目錄** ，展開 **[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理** ，展開 **BizTalk 群組** ，展開 **應用程式** ，以滑鼠右鍵按一下 **PS_Test** ，然後按一下 **設定**。  
   
     ![](../core/media/e45f4c8b-fc8a-492a-9824-5232eb728d95.gif "e45f4c8b-fc8a-492a-9824-5232eb728d95")  
   
