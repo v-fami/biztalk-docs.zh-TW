@@ -12,12 +12,12 @@ caps.latest.revision: 15
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: e7ca4e45ad7f12c7d50a55465e2a70600b6eb77e
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 70e42e1f95f658087780c6ff9f5f27459a3a80bc
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37008951"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826350"
 ---
 # <a name="how-to-configure-a-wcf-nettcp-receive-location"></a>如何設定 WCF-NetTcp 接收位置
 您可以用程式設計方式或使用 BizTalk 管理主控台來設定 WCF-NetTcp 接收位置。  
@@ -38,7 +38,7 @@ ms.locfileid: "37008951"
 |          **SendTimeout**           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                    **System.TimeSpan**                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                                                                                                                                                                                                                  指定時間值，表示可供完成傳送作業的時間間隔。 如果您使用要求-回應接收埠，這個值會指定完成整個互動的時間長度，即使服務傳回很大的訊息也是如此。<br /><br /> 預設值：00:01:00                                                                                                                                                                                                                   |
 |          **CloseTimeout**          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                    **System.TimeSpan**                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                                                                                                                                                                                                                                                                                              指定時間值，表示可供完成通道關閉作業的時間間隔。<br /><br /> 預設值：00:01:00                                                                                                                                                                                                                                                                                              |
 |     **MaxReceivedMessageSize**     |                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Integer                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                  指定的最大的大小，以位元組為單位，可以在網路上接收的訊息 （包括標頭）。 訊息的大小受限於配置給每個訊息的記憶體數量。 您可以使用這個屬性來限制遭受拒絕服務 (DoS) 攻擊的風險程度。<br /><br /> Wcf-nettcp 配接器會利用[NetTcpBinding](http://go.microsoft.com/fwlink/?LinkId=81087)類別在緩衝的傳輸模式中與端點進行通訊。 緩衝的傳輸模式中， [NetTcpBinding.MaxBufferSize](http://go.microsoft.com/fwlink/?LinkId=81088)屬性會一律等於這個屬性的值。<br /><br /> 預設值：65536                                  |
-|       **EnableTransaction**        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                          布林                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 指定是否使用來自用戶端的交易，將訊息提交至 MessageBox 資料庫。 如果這個屬性設定為**真**，用戶端就必須將使用 thetransaction 通訊協定中指定的訊息提交**TransactionProtocol**屬性。 如果用戶端在交易式範圍以外提交訊息，這個接收位置會將例外狀況傳回至用戶端，而不會擱置任何訊息。<br /><br /> 此選項只適用於單向接收位置。 如果用戶端在要求-回應接收位置的交易式內容中提交訊息，則會將例外狀況傳回至用戶端，而不會擱置任何訊息。<br /><br /> 預設值：`False` |
+|       **EnableTransaction**        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                          布林                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | 指定是否使用來自用戶端的交易，將訊息提交至 MessageBox 資料庫。 如果這個屬性設定為**真**，用戶端就必須將使用中指定的異動通訊協定的訊息提交**TransactionProtocol**屬性。 如果用戶端在交易式範圍以外提交訊息，這個接收位置會將例外狀況傳回至用戶端，而不會擱置任何訊息。<br /><br /> 此選項只適用於單向接收位置。 如果用戶端在要求-回應接收位置的交易式內容中提交訊息，則會將例外狀況傳回至用戶端，而不會擱置任何訊息。<br /><br /> 預設值： `False`  |
 |      **TransactionProtocol**       |                                                                                                                                                                                                                                                                                                                                                                                                                                         Enum<br /><br /> -   **OleTransaction**<br />-   **WS-AtomicTransaction**                                                                                                                                                                                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                              指定要搭配此接收位置使用的交易通訊協定。<br /><br /> 預設值： **OleTransaction**                                                                                                                                                                                                                                                                                                              |
 |          **LeaseTimeout**          |                                                                                                                                                                                                                                                                                                                                                                                                                                                                    **System.TimeSpan**                                                                                                                                                                                                                                                                                                                                                                                                                                                                     |                                   指定作用中之集區連線的最大存留期間。 在指定的時間過去後，目前的要求獲得服務之後，連線隨即會關閉。<br /><br /> Wcf-nettcp 配接器會利用[NetTcpBinding](http://go.microsoft.com/fwlink/?LinkId=81087)類別與端點進行通訊。 使用時[NetTcpBinding](http://go.microsoft.com/fwlink/?LinkId=81087)在負載平衡的情況下，請考慮減少預設租用逾時。如需詳細資訊時使用之負載平衡[NetTcpBinding](http://go.microsoft.com/fwlink/?LinkId=81087)，請參閱 < 另請參閱中的適當主題。<br /><br /> 預設值： 00:05:00                                   |
 |       **MaxConcurrentCalls**       |                                                                                                                                                                                                                                                                                                                                                                                                                                                                          Integer                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |                                                                                                                                                                                                                                                                      指定對單一服務執行個體的並行呼叫數目。 超出上限的呼叫將排入佇列。 此屬性的範圍介於 1 和 Int32.MaxValue 之間。<br /><br /> 預設值：200                                                                                                                                                                                                                                                                       |
@@ -62,7 +62,7 @@ ms.locfileid: "37008951"
  您可以在 BizTalk 管理主控台中設定 WCF-NetTcp 接收位置配接器變數。 若接收位置並未設定屬性，系統就會使用 [BizTalk 管理主控台] 中的預設接收處理常式值。  
 
 > [!NOTE]
->  完成下列程序之前，您必須已經新增接收埠。 如需詳細資訊，請參閱 <<c0> [ 如何建立接收埠](../core/how-to-create-a-receive-port.md)。  
+>  完成下列程序之前，您必須已經新增接收埠。 如需詳細資訊，請參閱 [如何建立接收埠](../core/how-to-create-a-receive-port.md)。  
 
 ## <a name="configure-variables-for-a-wcf-nettcp-receive-location"></a>設定 Wcf-nettcp 接收位置變數  
 
@@ -86,7 +86,7 @@ ms.locfileid: "37008951"
 
  您可以使用下列格式來設定屬性：  
 
-```  
+```xml
 <CustomProps>  
   <InboundBodyPathExpression vt="8" />  
   <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  
@@ -113,7 +113,7 @@ ms.locfileid: "37008951"
 
  下列程式碼片段會說明如何建立 WCF-NetTcp 接收位置：  
 
-```  
+```csharp
 // Use BizTalk Explorer object model to create new WCF-NetTcp receive location   
 string server = System.Environment.MachineName;  
 string database = "BizTalkMgmtDb";  
@@ -140,8 +140,8 @@ explorer.SaveChanges();
 IReceivePort receivePort = application.AddNewReceivePort(false);  
 receivePort.Name = "SampleReceivePort";  
 // Add a new one-way receive location  
-IReceiveLocation recieveLocation = receivePort.AddNewReceiveLocation();  
-recieveLocation.Name = "SampleReceiveLocation";  
+IReceiveLocation receiveLocation = receivePort.AddNewReceiveLocation();  
+receiveLocation.Name = "SampleReceiveLocation";  
 // Find a receive handler for WCF-NetTcp   
 int i = 0;  
 for(i=0; i < explorer.ReceiveHandlers.Count; ++i)   
@@ -149,11 +149,11 @@ for(i=0; i < explorer.ReceiveHandlers.Count; ++i)
     if("WCF-NetTcp" == explorer.ReceiveHandlers[i].TransportType.Name)  
         break;  
 }  
-recieveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
-recieveLocation.Address = "net.tcp://mycomputer/samplepath";  
-recieveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
-recieveLocation.TransportType = explorer.ProtocolTypes["WCF-NetTcp"];  
-recieveLocation.TransportTypeData = transportConfigData;  
+receiveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
+receiveLocation.Address = "net.tcp://mycomputer/samplepath";  
+receiveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
+receiveLocation.TransportType = explorer.ProtocolTypes["WCF-NetTcp"];  
+receiveLocation.TransportTypeData = transportConfigData;  
 // Save  
 explorer.SaveChanges();   
 ```  

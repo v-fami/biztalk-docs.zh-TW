@@ -12,12 +12,12 @@ caps.latest.revision: 35
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 9798d56c4f3896e652a288d20b4e39e6a2537d3c
-ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
+ms.openlocfilehash: 7212cb1cbd370e0b7df04a11744d176c126c39ac
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50752958"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826470"
 ---
 # <a name="adapter-registration-file"></a>配接器登錄檔案
 順利建立自訂配接器程式碼之後，必須向 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 註冊。 若要執行此作業，可將登錄更新為適當配接器設定。 您可以手動寫入登錄檔案，但由於輸入精確和複雜資訊容易發生錯誤， 更好的選擇是要執行配接器登錄精靈。 配接器登錄精靈 」 可讓您所有相同選項從從頭開始建立登錄檔，並降低檔案中的錯誤。 如需配接器登錄精靈 」 的詳細資訊，請參閱[配接器登錄精靈](../core/adapter-registry-wizard.md)。  
@@ -45,7 +45,7 @@ ms.locfileid: "50752958"
   
  有兩個選擇可指定實作配接器接收器、配接器傳輸器和配接器管理的 .NET 類型：  
   
-1. 配接器安裝至資料夾，並指定 * TypeName 和\*AssemblyPath 其中\*TypeName 是型別。此類別的完整名稱和\*AssemblyPath 是組件的路徑和檔案名稱。  
+1. 配接器安裝至資料夾，並指定\*TypeName 和\*AssemblyPath 其中\*TypeName 是型別。此類別的完整名稱和\*AssemblyPath 是組件的路徑和檔案名稱。  
   
 2. 在全域組件快取中安裝配接器，只指定 * TypeName 其中\*TypeName 是型別。AssemblyQualifiedName 的類別。 這是建議選項。  
   

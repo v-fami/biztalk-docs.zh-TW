@@ -12,12 +12,12 @@ caps.latest.revision: 11
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 4e437df707ace58eef6de9dc9f7eb65d888309a9
-ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
+ms.openlocfilehash: 7deaaa8d0ca60f13e5f3b835a91a31e06cdf2cbd
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50752633"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826319"
 ---
 # <a name="using-the-unit-testing-feature-with-pipelines"></a>使用單元測試功能與管線
 此主題示範如何使用單元測試功能，以在 FlatFileReceive 管線範例中新增管線的單元測試。 管線單元測試會記載於此處的 Pipeline.exe 工具相似：[管線工具](../core/pipeline-tools.md)。 當您啟用單元測試**部署**] 索引標籤的 [專案屬性中，您的專案中的管線類別衍生自**Microsoft.BizTalk.TestTools.Pipeline.TestableReceivePipeline**。  此類別可做為 Pipeline.exe 工具所公開之一些相同功能的模型。  
@@ -61,7 +61,7 @@ ms.locfileid: "50752633"
   
 2.  在 [方案總管] 中，開啟 FFReceivePipelineTest.cs，然後在該檔案頂端新增下列指示詞：  
   
-    ```  
+    ```csharp
     using System.IO;  
     using System.Collections.Specialized;  
     using System.Collections.Generic;  
@@ -69,7 +69,7 @@ ms.locfileid: "50752633"
   
 3.  捲動到檔案底部並取代**FFReceivePipelineConstructorTest**驗證管線輸入存在測試管線之前為下列程式碼的方法。 此程式碼也確保會產生符合一般檔案結構描述的訊息。  
   
-    ```  
+    ```csharp
     [TestMethod()]  
     public void FFReceivePipelineUnitTest()  
     {  
@@ -124,8 +124,8 @@ ms.locfileid: "50752633"
   
      所處理的訊息看起來應和下面相似：  
   
-    ```  
-    <purchaseOrder orderDate="1999-10-20" xmlns="http://FlatFileRecieve.PO">  
+    ```xml
+    <purchaseOrder orderDate="1999-10-20" xmlns="http://FlatFileReceive.PO">  
   
       <shipTo country="US" xmlns="">  
         <name>Alice Smith</name>  
@@ -151,14 +151,14 @@ ms.locfileid: "50752633"
           <productName>Lawnmower</productName>  
           <quantity>1</quantity>  
           <USPrice>148.95</USPrice>  
-          <comment xmlns="http://FlatFileRecieve.PO">Confirm this is electric</comment>  
+          <comment xmlns="http://FlatFileReceive.PO">Confirm this is electric</comment>  
         </item>  
   
         <item partNum="926-AA">  
           <productName>Baby Monitor</productName>  
           <quantity>1</quantity>  
           <USPrice>39.98</USPrice>  
-          <comment xmlns="http://FlatFileRecieve.PO">Confirm this is electric</comment>  
+          <comment xmlns="http://FlatFileReceive.PO">Confirm this is electric</comment>  
           <shipDate>1999-05-21</shipDate>  
         </item>  
   

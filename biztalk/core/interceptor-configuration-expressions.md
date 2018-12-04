@@ -1,5 +1,5 @@
 ---
-title: 攔截器組態運算式 |Microsoft 文件
+title: 攔截器組態運算式 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -12,15 +12,15 @@ caps.latest.revision: 10
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 927afa60dc65fb014f0d44305db5e7f6e78b803b
-ms.sourcegitcommit: 5abd0ed3f9e4858ffaaec5481bfa8878595e95f7
+ms.openlocfilehash: ae6cc008e1e8b6acad53c2fcebd59160931cdc96
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/28/2017
-ms.locfileid: "25973628"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826294"
 ---
 # <a name="interceptor-configuration-expressions"></a>攔截器組態運算式
-BAM 攔截器組態檔使用篩選條件運算式識別活動，並且使用資料運算式建構資料項目，用於儲存、做為相互關聯識別碼或接續 Token 使用，或是用於類似的目的。 無論目的為何，個別運算式是透過 `expression` 項目在攔截器組態檔中識別，並且包含一或多項使用 Reverse Polish Notation (亦稱為 Postfix 標記法) 的作業。  
+BAM 攔截器組態檔使用篩選條件運算式識別活動，並使用資料運算式建構資料項目，用於儲存體，做為相互關聯識別碼或接續 token、 或類似的目的。 無論目的為何，個別運算式是透過 `expression` 項目在攔截器組態檔中識別，並且包含一或多項使用 Reverse Polish Notation (亦稱為 Postfix 標記法) 的作業。  
   
 ## <a name="about-reverse-polish-notation"></a>關於 Reverse Polish Notation  
  在 Reverse Polish Notation (RPN) 中，運算元優先於運算子，因此不需要使用括號做為優先順序運算子。 堆疊是用來保留值和所有作業，包括將值推入堆疊、顯示 (移除) 來自堆疊的值，或是執行推入和顯示的組合動作來完成作業。  
@@ -66,10 +66,10 @@ BAM 攔截器組態檔使用篩選條件運算式識別活動，並且使用資�
  如您所見，任意數目的作業都可支援，包括比較、布林值作業，以及擷取適合本身所參與作業之值的自訂作業。 值會在堆疊上累積，並且根據個別作業推入和顯示。  
   
 ## <a name="reverse-polish-notation-in-the-interceptor-configuration-file"></a>攔截器組態檔中的 Reverse Polish Notation  
- 您將撰寫兩種類型的運算式中攔截器組態檔： 篩選運算式和資料運算式。 篩選條件運算式要求 RPN 運算式的結果必須為布林值 `true` 或 `false`，而資料運算式則要求堆疊上只有單一值。  
+ 您會撰寫兩種類型的運算式中的攔截器組態檔： 篩選運算式和資料運算式。 篩選條件運算式要求 RPN 運算式的結果必須為布林值 `true` 或 `false`，而資料運算式則要求堆疊上只有單一值。  
   
 ### <a name="filter-expressions"></a>篩選條件運算式  
- 篩選條件運算式會評估為布林值 `true` 或 `false`，並且用來識別 WF 或 WFC 應用程式中要追蹤的特定事件。 在 WF 應用程式中，通常會根據活動名稱或事件進行篩選。 例如，您可能想要選取**FoodAndDrinksPolicy**活動時，它**Closed**。 若使用 WF 作業，您就可以表示篩選條件，如下所示：  
+ 篩選條件運算式會評估為布林值 `true` 或 `false`，並且用來識別 WF 或 WFC 應用程式中要追蹤的特定事件。 在 WF 應用程式中，通常會根據活動名稱或事件進行篩選。 例如，您可能想要選取**FoodAndDrinksPolicy**活動時**Closed**。 若使用 WF 作業，您就可以表示篩選條件，如下所示：  
   
  `(GetActivityName = "FoodAndDrinksPolicy") && (GetActivityEvent = "Closed")`  
   
@@ -97,7 +97,7 @@ BAM 攔截器組態檔使用篩選條件運算式識別活動，並且使用資�
 </ic:Filter>  
 ```  
   
- 最後，此運算式會進行評估，如下所示假設**GetActivityName**傳回"DessertPolicy"和**GetActivityEvent**傳回"Closed":  
+ 最後，此運算式會進行評估，如下所示假設**GetActivityName**傳回"DessertPolicy"並**GetActivityEvent**傳回"Closed":  
   
 |輸入|作業|堆疊|  
 |-----------|---------------|-----------|  
@@ -116,7 +116,7 @@ BAM 攔截器組態檔使用篩選條件運算式識別活動，並且使用資�
 ### <a name="data-expressions"></a>資料運算式  
  資料運算式是用來定義單一字串資料值。 資料運算式是未包含在 `Filter` 項目內的任何運算式。 資料運算式為 `OnEvent` 項目所使用，包括 `CorrelationID`、`ContinuationToken`、`Reference` 和 `Update`。  
   
- BAM 活動資料庫通常必須更新並且標示時間戳記。 例如，您可能想要擷取格式化為字串的事件開始的時間 」 開始： \<EventTime\>"。 若要執行這項操作，您必須使用類似下方的運算式 (其中 + 代表串連)：  
+ BAM 活動資料庫通常必須更新並且標示時間戳記。 例如，您可能想要擷取事件開始格式化為字串的時間 」 開始： \<EventTime\>"。 若要執行這項操作，您必須使用類似下方的運算式 (其中 + 代表串連)：  
   
  `"Start: " + GetContextProperty(EventTime)`  
   
@@ -144,7 +144,7 @@ BAM 攔截器組態檔使用篩選條件運算式識別活動，並且使用資�
   
 |輸入|作業|堆疊|  
 |-----------|---------------|-----------|  
-|「 啟動:"|常數|「 啟動:"|  
+|「 啟動: 」|常數|「 啟動: 」|  
 |GetContextProperty(EventTime)|發送|「 啟動:"，"2006年-09-27T12:00:34.000Z"|  
 |串連|串連|「 啟動： 2006年-09-27T12:00:34.000Z"|  
   
@@ -156,5 +156,5 @@ BAM 攔截器組態檔使用篩選條件運算式識別活動，並且使用資�
 ## <a name="in-this-section"></a>本節內容  
  [攔截器作業](../core/interceptor-operations.md)  
   
-## <a name="see-also"></a>請參閱  
+## <a name="see-also"></a>另請參閱  
  [攔截器設定檔的結構](../core/structure-of-an-interceptor-configuration-file.md)

@@ -17,12 +17,12 @@ ms.devlang: na
 ms.topic: hub-page
 ms.date: 06/19/2017
 ms.author: mandia
-ms.openlocfilehash: 33efee8d81f3bf0242b904d2ada62fb7ac02875f
-ms.sourcegitcommit: 53b16fe6c1b1707ecf233dbd05f780653eb19419
+ms.openlocfilehash: 091bf396c51adaf1a9d69c26a82489424a8a92b0
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: HT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 11/01/2018
-ms.locfileid: "50753118"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826320"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -622,7 +622,7 @@ ms.locfileid: "50753118"
                                 </a>
                             </li>
                             <li>
-                                <a href="http://www.codeplex.com/site/search?query=biztalk&ac=4">
+                                <a href="https://archive.codeplex.com/?s=biztalk">
                                     <div class="cardSize">
                                         <div class="cardPadding">
                                             <div class="card">

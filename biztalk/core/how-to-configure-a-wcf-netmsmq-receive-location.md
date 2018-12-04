@@ -12,17 +12,17 @@ caps.latest.revision: 17
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 99cb9f7f91ecd768e36fea5de1296f375d87f973
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 6e4659b7ff551127bb085d01125eb0e9e5ff7489
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36990271"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826438"
 ---
 # <a name="how-to-configure-a-wcf-netmsmq-receive-location"></a>如何設定 WCF-NetMsmq 接收位置
 您可以用程式設計方式或使用 [BizTalk 管理主控台] 來設定 WCF-NetMsmq 接收位置。  
 
-## <a name="configuratin-properties"></a>設定屬性
+## <a name="configuration-properties"></a>組態屬性
 
  「BizTalk 總管物件模型」可讓您以程式設計的方式建立和設定接收位置。 「 BizTalk 總管物件模型會公開**IReceiveLocation**接收位置組態介面具有**TransportTypeData**讀/寫屬性。 這項屬性會以 XML 字串之名稱-值配對的格式接受 WCF-NetMsmq 接收位置組態屬性包。 若要設定這個屬性，在 BizTalk 總管物件模型中，您必須設定**InboundTransportLocation**屬性**IReceiveLocation**介面。  
 
@@ -61,7 +61,7 @@ ms.locfileid: "36990271"
  您可以在 [BizTalk 管理主控台] 中設定 WCF-NetMsmq 接收位置配接器變數。 若接收位置並未設定屬性，系統就會使用 [BizTalk 管理主控台] 中的預設接收處理常式值。  
 
 > [!NOTE]
->  完成下列程序之前，您必須已經新增接收埠。 如需詳細資訊，請參閱 <<c0> [ 如何建立接收埠](../core/how-to-create-a-receive-port.md)。  
+>  完成下列程序之前，您必須已經新增接收埠。 如需詳細資訊，請參閱 [如何建立接收埠](../core/how-to-create-a-receive-port.md)。  
 
 > [!NOTE]
 >  WCF 用戶端和 WCF-NetMsmq 接收位置的繫結組態彼此必須相符。 如果兩者並不相符，WCF-NetMsmq 接收位置便可能會遺失內送訊息。  
@@ -88,7 +88,7 @@ ms.locfileid: "36990271"
 
  您可以使用下列格式來設定屬性：  
 
-```  
+```xml
 <CustomProps>  
   <ServiceCertificate vt="8" />  
   <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  
@@ -117,7 +117,7 @@ ms.locfileid: "36990271"
 
  下列程式碼片段說明了如何建立 WCF-NetMsmq 接收位置：  
 
-```  
+```csharp
 // Use BizTalk Explorer object model to create new WCF-NetMsmq receive location   
 string server = System.Environment.MachineName;  
 string database = "BizTalkMgmtDb";  
@@ -144,8 +144,8 @@ explorer.SaveChanges();
 IReceivePort receivePort = application.AddNewReceivePort(false);  
 receivePort.Name = "SampleReceivePort";  
 // Add a new one-way receive location  
-IReceiveLocation recieveLocation = receivePort.AddNewReceiveLocation();  
-recieveLocation.Name = "SampleReceiveLocation";  
+IReceiveLocation receiveLocation = receivePort.AddNewReceiveLocation();  
+receiveLocation.Name = "SampleReceiveLocation";  
 // Find a receive handler for WCF-NetMsmq   
 int i = 0;  
 for(i=0; i < explorer.ReceiveHandlers.Count; ++i)   
@@ -153,11 +153,11 @@ for(i=0; i < explorer.ReceiveHandlers.Count; ++i)
     if("WCF-NetMsmq" == explorer.ReceiveHandlers[i].TransportType.Name)  
         break;  
 }  
-recieveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
-recieveLocation.Address = "net.msmq://mycomputer/private/sampleQueue";  
-recieveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
-recieveLocation.TransportType = explorer.ProtocolTypes["WCF-NetMsmq"];  
-recieveLocation.TransportTypeData = transportConfigData;  
+receiveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
+receiveLocation.Address = "net.msmq://mycomputer/private/sampleQueue";  
+receiveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
+receiveLocation.TransportType = explorer.ProtocolTypes["WCF-NetMsmq"];  
+receiveLocation.TransportTypeData = transportConfigData;  
 // Save  
 explorer.SaveChanges();   
 ```  

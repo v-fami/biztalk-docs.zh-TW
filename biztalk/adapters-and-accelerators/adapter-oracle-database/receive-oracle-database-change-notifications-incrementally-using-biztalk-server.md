@@ -12,12 +12,12 @@ caps.latest.revision: 9
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 61e8fbbe2644098baf963d258d3e95b94e20e8b8
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: bb516347d94818f7d689cddd548a22ac1c454275
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37012087"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826390"
 ---
 # <a name="receive-oracle-database-change-notifications-incrementally-using-biztalk-server"></a>接收以累加方式使用 BizTalk Server 的 Oracle 資料庫變更通知
 > [!IMPORTANT]
@@ -66,7 +66,7 @@ ms.locfileid: "37012087"
       ```  
   
       > [!NOTE]
-      >  您必須指定資料表名稱，以及結構描述名稱。 例如， `SCOTT.ACCOUNTACTIVITY`。  
+      >  您必須指定資料表名稱，以及結構描述名稱。 例如， `SCOTT.ACCOUNTACTIVITY` 。  
   
   -   傳送埠，以更新的通知已傳送的資料列。 您將執行 PROCESS_RECORDS 預存程序，在此連接埠設為 'y' 收到通知的記錄的 「 處理 」 資料行的值。  
   
@@ -132,7 +132,7 @@ ms.locfileid: "37012087"
   
 5.  在 [**屬性**] 窗格**Message_1**，執行下列動作：  
   
-    |使用|以進行此動作|  
+    |使用|動作|  
     |--------------|----------------|  
     |識別碼|輸入 `NotifyReceive`。|  
     |訊息類型|從下拉式清單中，依序展開**結構描述**，然後選取*OracleNotifyIncremental.OracleDBBinding.Notification*，其中*OracleNotifyIncremental*的名稱您的 BizTalk 專案。 *OracleDBBinding*是針對產生的結構描述**通知**作業。|  
@@ -263,11 +263,11 @@ Procedure(WCF.Action) = "http://Microsoft.LobServices.OracleDB/2007/03/SCOTT/Pac
     > [!IMPORTANT]
     >  您不需要執行此步驟中，如果您指定在設計階段的繫結屬性。 在這種情況下，您可以建立接收埠，設定必要的繫結屬性，藉由匯入所建立的繫結檔[!INCLUDE[consumeadapterservshort](../../includes/consumeadapterservshort-md.md)]。 如需詳細資訊，請參閱[設定為使用 Oracle 資料庫的連接埠繫結檔案的實體連接埠繫結](../../adapters-and-accelerators/adapter-oracle-database/configure-a-physical-port-binding-using-a-port-binding-file-to-oracle-database.md)。  
   
-    |繫結屬性|ReplTest1|  
+    |繫結屬性|值|  
     |----------------------|-----------|  
     |**InboundOperationType**|將此設為**通知**。|  
     |**NotificationPort**|指定 ODP.NET 必須開啟以接聽從 Oracle 資料庫的資料庫變更通知的連接埠號碼。 設定為相同的連接埠號碼，您必須已加入的 Windows 防火牆例外清單。 如需如何將 Windows 防火牆例外清單中的連接埠的指示，請參閱 < [ http://go.microsoft.com/fwlink/?LinkID=196959 ](http://go.microsoft.com/fwlink/?LinkID=196959)。<br /><br /> **重要事項：** 如果您設定為預設值-1，您必須完全停用 Windows 防火牆，以接收通知訊息。|  
-    |**NotificationStatement**|將此設為：<br /><br /> `SELECT TID,ACCOUNT,PROCESSED FROM SCOTT.ACCOUNTACTIVITY WHERE PROCESSED = ‘n’`<br /><br /> **注意：** 您必須指定資料表名稱，以及結構描述名稱。 例如， `SCOTT.ACCOUNTACTIVITY`。|  
+    |**NotificationStatement**|將此設為：<br /><br /> `SELECT TID,ACCOUNT,PROCESSED FROM SCOTT.ACCOUNTACTIVITY WHERE PROCESSED = ‘n’`<br /><br /> **注意：** 您必須指定資料表名稱，以及結構描述名稱。 例如， `SCOTT.ACCOUNTACTIVITY` 。|  
     |**NotifyOnListenerStart**|將此設為 **，則為 True**。|  
   
      如需不同的繫結屬性的詳細資訊，請參閱[使用 BizTalk Adapter for Oracle 資料庫繫結屬性](https://msdn.microsoft.com/library/dd788467.aspx)。  

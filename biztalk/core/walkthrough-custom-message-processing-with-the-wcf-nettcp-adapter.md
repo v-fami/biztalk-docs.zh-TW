@@ -12,12 +12,12 @@ caps.latest.revision: 32
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d8b74c2ead4ece353dae155d272a9a1aee5fb676
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 39f765e1e99363440d6c122f5e5f174ea50dd761
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37006207"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826342"
 ---
 # <a name="walkthrough-custom-message-processing-with-the-wcf-nettcp-adapter"></a>逐步解說： 使用自訂訊息處理 Wcf-nettcp 配接器
 在本逐步解說[!INCLUDE[firstref_btsWinCommFoundation](../includes/firstref-btswincommfoundation-md.md)]用戶端提交[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]訊息，其中包含內嵌二進位 JPEG 影像資料的 BizTalk 接收位置使用 Wcf-nettcp 配接器。 透過使用 XPath 陳述式 （具有編碼的 Base64 節點） 中擷取二進位編碼的 JPEG 影像，取得**輸入訊息內文**中配接器的組態設定。 XPath 處理不同的預設方法，[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]用以處理內送訊息。 在預設方法中，配接器取得的整個內容**主體**項目[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]訊息，然後再將它提交至 BizTalk MessageBox 資料庫。 處理擷取收到的特定部分的 XPath 訊息[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]來建立自訂的 BizTalk 訊息的訊息。 在此範例中 XPath 處理會尋找名為 XML 項目**SendPicture**在傳入[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]訊息 （這是以 XML 格式）。 找到該項目之後, XPath 擷取的項目值定義為二進位 Base64 編碼物件，並將該二進位值放入 BizTalk 訊息。 訊息會發佈到 MessageBox 資料庫，然後輸出至檔案傳送埠的傳送埠篩選訂用帳戶的協助。 沒有協調流程會在此範例中，以及所有處理都都透過 BizTalk 訊息使用 XPath。  
@@ -33,14 +33,14 @@ ms.locfileid: "37006207"
 > [!NOTE]
 >  **Hosttrusted**項目會指定與接收處理常式關聯的主控件是否受到信任。 在 bindings.xml 檔案中，它會設定為其預設值`false`因為在此範例中我們不在意[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]企業單一登入服務 」 (SSO)。 SSO 可讓使用者認證，透過傳遞[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]整合第三方應用程式與[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 A`false`設定可防止 BizTalk 訊息通過 BizTalk 服務，做為 SSO 的處理程序的一部分。  
 
-## <a name="prerequisites"></a>必要條件  
+## <a name="prerequisites"></a>先決條件  
  執行此範例中的步驟會確保您的環境會安裝下列必要條件;  
 
 - 建置組件，並執行部署程序，在電腦和執行此範例中，電腦需要 Microsoft [!INCLUDE[btsWinSvr2k8](../includes/btswinsvr2k8-md.md)]，Microsoft [!INCLUDE[netfx40_short](../includes/netfx40-short-md.md)]，與 Microsoft BizTalk Server。  
 
 - 用來建置組件，並執行部署程序的電腦需要 Microsoft Visual Studio。  
 
-- 執行範例的電腦需要[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]配接器和[!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)]管理工具。 這些是 Microsoft BizTalk Server 的安裝期間安裝的選項。  
+- 執行範例的電腦需要有 [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] 配接器和 [!INCLUDE[nextref_btsWinCommFoundation](../includes/nextref-btswincommfoundation-md.md)] 系統管理工具。 這些是 Microsoft BizTalk Server 的安裝期間安裝的選項。  
 
 - 在電腦上您用來執行系統管理工作，您必須以成員的使用者帳戶執行[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]若要設定的系統管理員群組[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]內的應用程式設定[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台。 此使用者帳戶也必須管理主控件執行個體，以及可能需要其他工作的應用程式部署的本機系統管理員群組成員。  
 
@@ -54,7 +54,7 @@ ms.locfileid: "37006207"
 
 1. 在 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]管理主控台中，以滑鼠右鍵按一下**應用程式**，選取**匯入**，然後選取**MSI 檔案**。 移至**C:\WCFCustomMessageProcessing\WCFCustomMessageProcessing.msi**檔案，然後再按一下**開啟**。 這會建立此應用程式的下列成品：  
 
-   - **FileSP**傳送埠： 本機檔案系統上的位置**C:\WCFCustomMessageProcessing\Out** JPEG 影像資料由其中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]做為最終輸出的範例處理程序。 您可以檢視傳送埠篩選條件的**BTS。RecievePortName = NetTcpRP**中設定**FileSP 屬性** 下的對話方塊**篩選**。 相關聯的篩選器，是使用 NetTcp 接收埠。 接收埠將會傳送至 FileSP NetTcpRP 上接受任何訊息傳送連接埠的輸出位置**C:\WCFCustomMessageProcessing\Out**接收位置執行 XPath 處理訊息之後。  
+   - **FileSP**傳送埠： 本機檔案系統上的位置**C:\WCFCustomMessageProcessing\Out** JPEG 影像資料由其中[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]做為最終輸出的範例處理程序。 您可以檢視傳送埠篩選條件的**BTS。ReceivePortName = NetTcpRP**中設定**FileSP 屬性** 下的對話方塊**篩選**。 相關聯的篩選器，是使用 NetTcp 接收埠。 接收埠將會傳送至 FileSP NetTcpRP 上接受任何訊息傳送連接埠的輸出位置**C:\WCFCustomMessageProcessing\Out**接收位置執行 XPath 處理訊息之後。  
 
    - **NetTcpRP**接收埠： 邏輯上包含的連接埠**NetTcpRL**接收位置。  
 

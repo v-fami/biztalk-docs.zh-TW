@@ -12,12 +12,12 @@ caps.latest.revision: 19
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 22cc89c7b9cef4760fb8db3a6c8e9589414c6983
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: d5acfdb7957c6eaac53c8de50213611da10c7f68
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37017856"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826382"
 ---
 # <a name="how-to-configure-a-wcf-customisolated-receive-location"></a>如何設定 WCF-CustomIsolated 接收位置
 您可以用程式設計方式或使用「BizTalk 管理主控台」來設定 WCF-CustomIsolated 接收位置。  
@@ -58,7 +58,7 @@ ms.locfileid: "37017856"
  您可以在「BizTalk 管理主控台」中設定 WCF-CustomIsolated 接收位置配接器變數。 若接收位置並未設定屬性，系統就會使用 [BizTalk 管理主控台] 中的預設接收處理常式值。  
 
 > [!NOTE]
->  完成下列程序之前，您必須已經新增接收埠。 如需詳細資訊，請參閱 <<c0> [ 如何建立接收埠](../core/how-to-create-a-receive-port.md)。  
+>  完成下列程序之前，您必須已經新增接收埠。 如需詳細資訊，請參閱 [如何建立接收埠](../core/how-to-create-a-receive-port.md)。  
 
 ## <a name="configure-variables-for-a-wcf-customisolated-receive-location"></a>設定 Wcf-customisolated 接收位置變數  
 
@@ -88,7 +88,7 @@ ms.locfileid: "37017856"
 
  您可以使用下列格式來設定屬性：  
 
-```  
+```xml
 <CustomProps>  
   <InboundBodyPathExpression vt="8" />  
   <InboundBodyLocation vt="8">UseBodyElement</InboundBodyLocation>  
@@ -113,7 +113,7 @@ ms.locfileid: "37017856"
 
  下列程式碼片段會說明如何建立 WCF-CustomIsolated 接收位置：  
 
-```  
+```csharp
 // Use BizTalk Explorer object model to create new WCF-CustomIsolated receive location   
 string server = System.Environment.MachineName;  
 string database = "BizTalkMgmtDb";  
@@ -135,8 +135,8 @@ explorer.SaveChanges();
 IReceivePort receivePort = application.AddNewReceivePort(false);  
 receivePort.Name = "SampleReceivePort";  
 // Add a new one-way receive location  
-IReceiveLocation recieveLocation = receivePort.AddNewReceiveLocation();  
-recieveLocation.Name = "SampleReceiveLocation";  
+IReceiveLocation receiveLocation = receivePort.AddNewReceiveLocation();  
+receiveLocation.Name = "SampleReceiveLocation";  
 // Find a receive handler for WCF-CustomIsolated   
 int i = 0;  
 for(i=0; i < explorer.ReceiveHandlers.Count; ++i)   
@@ -144,11 +144,11 @@ for(i=0; i < explorer.ReceiveHandlers.Count; ++i)
     if("WCF-CustomIsolated" == explorer.ReceiveHandlers[i].TransportType.Name)  
         break;  
 }  
-recieveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
-recieveLocation.Address = "http://mycomputer/samplepath/sampleservice";  
-recieveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
-recieveLocation.TransportType = explorer.ProtocolTypes["WCF-CustomIsolated"];  
-recieveLocation.TransportTypeData = transportConfigData;  
+receiveLocation.ReceiveHandler = explorer.ReceiveHandlers[i];  
+receiveLocation.Address = "http://mycomputer/samplepath/sampleservice";  
+receiveLocation.ReceivePipeline = explorer.Pipelines["Microsoft.BizTalk.DefaultPipelines.PassThruReceive"];  
+receiveLocation.TransportType = explorer.ProtocolTypes["WCF-CustomIsolated"];  
+receiveLocation.TransportTypeData = transportConfigData;  
 // Save  
 explorer.SaveChanges();   
 ```  

@@ -12,12 +12,12 @@ caps.latest.revision: 36
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 014b541517fb6054525081b852cc21f388742ce2
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 07719f864f332d644d201e6f8349bdc19b456a9f
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36975479"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826406"
 ---
 # <a name="transactional-adapter-biztalk-server-sample"></a>交易式配接器 （BizTalk Server 範例）
 交易式配接器範例示範如何建立和使用在處理期間針對資料庫明確 Microsoft Distributed Transaction Coordinator (MSDTC) 交易[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]訊息。  
@@ -119,9 +119,9 @@ ms.locfileid: "36975479"
 4. 在 **配接器屬性**對話方塊方塊中，執行下列動作。  
 
 
-   |  使用   |                                                            以進行此動作                                                             |
+   |  使用   |                                                            動作                                                             |
    |-------------|-----------------------------------------------------------------------------------------------------------------------------------|
-   |    [屬性]     |                                                  型別**TransactionalAdapter**。                                                   |
+   |    名稱     |                                                  型別**TransactionalAdapter**。                                                   |
    |   配接器   | 選取  **Txn**從下拉式清單。 執行此項目出現**TransactionalAdmin.reg**先前檔案。 |
    | 描述 |                                              型別**範例交易式配接器**。                                               |
 
@@ -200,7 +200,7 @@ ms.locfileid: "36975479"
 
 3. 選取 **新的查詢**工具列按鈕，再將下列內容貼入新查詢視窗來插入測試資料表、 測試資料和測試預存程序插入 Northwind 資料庫。 選取  **Execute**工具列按鈕。  
 
-   ```  
+   ```sql
    use [Northwind]  
    GO  
    if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[scratch]') and OBJECTPROPERTY(id, N'IsUserTable') = 1)  
@@ -226,7 +226,7 @@ ms.locfileid: "36975479"
 
 4. 在  [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，依序展開**傳送埠**節點中，選取**TxnSendPort1**傳送埠，然後選取**啟動**。  
 
-5. 在  [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，依序展開**ReceiveLocations**節點中，選取**TxnRecieveLocation1**接收位置，然後按**啟用**。  
+5. 在  [!INCLUDE[btsBizTalkServerAdminConsoleui](../includes/btsbiztalkserveradminconsoleui-md.md)]，依序展開**ReceiveLocations**節點中，選取**TxnReceiveLocation1**接收位置，然後按**啟用**。  
 
 6. 一旦啟用接收位置時，它會自動輪詢資料庫，在指定的時間間隔的資料。  
 

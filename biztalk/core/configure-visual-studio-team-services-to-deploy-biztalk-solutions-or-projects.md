@@ -15,12 +15,12 @@ caps.latest.revision: 6
 author: tordgladnordahl
 ms.author: tonordah
 manager: anneta
-ms.openlocfilehash: 7178f85bce4087e5bc740810050817676a6c8996
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 8b13ef6f56e892bb3598096272d876c5f0a865f3
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36992471"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826302"
 ---
 # <a name="configure-visual-studio-team-services-to-deploy-biztalk-server-solutions-or-projects"></a>設定要部署 BizTalk Server 方案或專案的 Visual Studio Team Services
 設定 VSTS 自動部署[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]專案。 
@@ -32,7 +32,7 @@ ms.locfileid: "36992471"
 > [!IMPORTANT]
 > VSTS 代理程式只能安裝在上一個[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]群組中。 
 
-## <a name="prerequisites"></a>必要條件
+## <a name="prerequisites"></a>先決條件
 
 * 安裝[Feature Pack 1](https://www.microsoft.com/download/details.aspx?id=55100)上您 [!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]
 * 一些經驗及建立與使用定義在 VSTS 中的知識。 如果您是新手 VSTS，這些可能是不錯的資源： 
@@ -109,11 +109,11 @@ ms.locfileid: "36992471"
 
 1. 選取 **組建**索引標籤上，選取**所有定義**，然後選取**新增**:
 
-    ![建立新的發行定義](../core/media/create-new-release-defintion.png)
+    ![建立新的發行定義](../core/media/create-new-release-definition.png)
 
 2. 選取 [**空**範本，然後選取**下一步]**:
 
-    ![從空白範本建立新的定義](../core/media/create-new-defintion-from-an-empty-template.png)
+    ![從空白範本建立新的定義](../core/media/create-new-definition-from-an-empty-template.png)
 
 3. 選取您**儲存機制**來源並**分支**定義。
 4. **選擇性**。 選取 **持續整合**。
@@ -123,8 +123,10 @@ ms.locfileid: "36992471"
     ![加入新的部署定義](../core/media/add-new-deploy-definition.png)
 
 7. 選取 **作業名稱**您想要使用：
-    * **建立新的 BizTalk 應用程式**部署新的應用程式。 如果應用程式已經 exsist，它會解除安裝目前的應用程式 （句點），並會安裝新的應用程式。 如果已啟用持續整合，它會自動重新部署應用程式更新存放庫中時。
+
+    * **建立新的 BizTalk 應用程式**部署新的應用程式。 如果應用程式已經存在，它會解除安裝目前的應用程式 （句點），並安裝新的應用程式。 如果已啟用持續整合，它會自動重新部署應用程式更新存放庫中時。
     * **更新現有的 BizTalk 應用程式**附加的變更，例如**結構描述**已在執行的應用程式。 它不需要完整的重新部署應用程式。
+
 8. 請輸入**應用程式名稱**中您[!INCLUDE[btsBizTalkServerNoVersion_md](../includes/btsbiztalkservernoversion-md.md)]環境。
 9. 在 **部署套件路徑**，選取您的存放庫中的 zip 檔案的路徑。
 10. 選取 **觸發程序**從功能表中，啟用**連續整合**，然後選取正確**分支**組建。
