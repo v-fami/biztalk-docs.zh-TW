@@ -1,9 +1,9 @@
 ---
 title: BizTalk Server 管理疑難排解 |Microsoft Docs
 ms.custom: ''
-ms.date: 06/08/2017
+ms.date: 11/30/2018
 ms.prod: biztalk-server
-ms.reviewer: ''
+ms.reviewer: niklase
 ms.suite: ''
 ms.tgt_pltfrm: ''
 ms.topic: article
@@ -12,12 +12,12 @@ caps.latest.revision: 27
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: 71ae1b04b42fe1bdaa0145b9112bdd957a4d4da5
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 87ecae986df0ee34ee697257a99097a00d525db2
+ms.sourcegitcommit: be6273d612669adfbb9dc9208aaae0a8437d4017
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "36993927"
+ms.lasthandoff: 12/04/2018
+ms.locfileid: "52826462"
 ---
 # <a name="troubleshooting-biztalk-server-administration"></a>BizTalk Server 管理疑難排解
 本章節提供一個集中的位置來保存使用 BizTalk Server 管理主控台時經常遇到之問題的相關資訊。  
@@ -35,7 +35,7 @@ ms.locfileid: "36993927"
  這是因為 ENTSSO 服務可能需要更多的時間，才能開始超過所允許的 BizTalk Server 服務的逾時持續期間。  
   
 ##### <a name="solution"></a>方案  
- 若要解決此問題，請將 DTC 設定為自動。  
+ 若要解決此問題，請將 DTC 設定為自動。 如果 DTC 已叢集化，它應該會設定為手動啟動因為開始和停止叢集服務管理的叢集服務。 
   
 #### <a name="sql-resources-may-become-locked"></a>SQL 資源可能會變成鎖定  
   
@@ -82,7 +82,7 @@ ms.locfileid: "36993927"
   
  請遵循下列步驟來加入次要 messagebox 資料庫的 BTS_SQLAGENT_USER 資料庫角色中的 SQL Server Agent 服務帳戶  
   
- **On SQL Server 2008**  
+ **SQL Server 2008 上**  
   
 1.  按一下 **開始**，指向**所有程式**，指向**Microsoft SQL Server 2008**，然後按一下**SQL Server Management Studio**。  
   
