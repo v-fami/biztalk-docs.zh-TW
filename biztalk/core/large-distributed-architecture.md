@@ -46,7 +46,7 @@ ms.locfileid: "36981015"
   
  此架構包含下列五個網域：  
   
- **周邊網路。** 周邊網路 （也稱為 DMZ、 非軍事區域和遮蔽式子網路） 時，包含提供網際網路相關的服務，適用於企業的伺服器。 此網域可以包含伺服器的網際網路對向傳輸傳送和接收訊息來回的實體位置本位目錄[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 在此網域中沒有 BizTalk Server、BizTalk 接收位置或企業單一登入伺服器。 若您使用 SOAP 或 HTTP 配接器，則可以使用反向 Proxy 規則 (Forefront Threat Management Gateway (TMG) 2010 Server 實作稱為「Web 發佈」) 從外部式網際網路的防火牆 (FW4) 傳遞訊息到保護服務介面網域 (FW3) 的防火牆。 如需 Web 發佈規則的詳細資訊，請參閱 Microsoft 網站上，在[ http://go.microsoft.com/fwlink/?LinkID=205340 ](http://go.microsoft.com/fwlink/?LinkID=205340) (<http://go.microsoft.com/fwlink/?LinkID=205340>)。  
+ **周邊網路。** 周邊網路 （也稱為 DMZ 和遮蔽式子網路） 時，包含提供網際網路相關的服務，適用於企業的伺服器。 此網域可以包含伺服器的網際網路對向傳輸傳送和接收訊息來回的實體位置本位目錄[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]。 在此網域中沒有 BizTalk Server、BizTalk 接收位置或企業單一登入伺服器。 若您使用 SOAP 或 HTTP 配接器，則可以使用反向 Proxy 規則 (Forefront Threat Management Gateway (TMG) 2010 Server 實作稱為「Web 發佈」) 從外部式網際網路的防火牆 (FW4) 傳遞訊息到保護服務介面網域 (FW3) 的防火牆。 如需 Web 發佈規則的詳細資訊，請參閱 Microsoft 網站上，在[ http://go.microsoft.com/fwlink/?LinkID=205340 ](http://go.microsoft.com/fwlink/?LinkID=205340) (<http://go.microsoft.com/fwlink/?LinkID=205340>)。  
   
  上圖中，在周邊網路中的伺服器會代表外部網域中的伺服器[!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]環境。 因此，其中一些伺服器可能在遠端位置。 例如，檔案傳輸通訊協定 (FTP) 伺服器可以在遠端位置；Simple Mail Transfer Protocol (SMTP) 伺服器可以是企業的電子郵件伺服器、網際網路服務提供者 (ISP) 伺服器或遠端 SMTP 伺服器。  
   
