@@ -74,15 +74,15 @@ ms.locfileid: "52826414"
 
 6. 在  **Wcf-custom 傳輸屬性**對話方塊的 **一般**索引標籤上，設定端點位址之服務識別的 「 WCF 自訂接收位置。 如需詳細資訊**一般**索引標籤中**Wcf-custom 傳輸屬性** 對話方塊中，請參閱**Wcf-custom 傳輸屬性對話方塊、 接收、 一般** 索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
 
-7. 在  **Wcf-custom 傳輸屬性**對話方塊的 **繫結**索引標籤上，設定不同類型的 WCF 預先定義或自訂繫結。 如需詳細資訊**繫結**索引標籤中**Wcf-custom 傳輸屬性** 對話方塊中，請參閱**Wcf-custom 傳輸屬性對話方塊、 接收、 繫結** 索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
+7. 在  **Wcf-custom 傳輸屬性**對話方塊的 **繫結**索引標籤上，設定不同類型的 WCF 預先定義或自訂繫結。 如需詳細資訊 繫結** 索引標籤中 **Wcf-custom 傳輸屬性** 對話方塊中，請參閱**Wcf-custom 傳輸屬性對話方塊、 接收、 繫結** 索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
 
-8. 在  **Wcf-custom 傳輸屬性**對話方塊的 **行為**索引標籤上，設定端點和服務行為，這個接收位置。 結束點行為是一組行為延伸模組項目，可修改或延伸服務或是用戶端功能。 如需詳細資訊**行為**索引標籤中**Wcf-custom 傳輸屬性** 對話方塊中，請參閱**Wcf-custom 傳輸屬性對話方塊、 接收、 行為** 索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
+8. 在  **Wcf-custom 傳輸屬性**對話方塊的 **行為**索引標籤上，設定端點和服務行為，這個接收位置。 結束點行為是一組行為延伸模組項目，可修改或延伸服務或是用戶端功能。 如需詳細資訊 **行為** 索引標籤中 **Wcf-custom 傳輸屬性** 對話方塊中，請參閱 **Wcf-custom 傳輸屬性對話方塊、 接收、 行為** 索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
 
-9. 在  **Wcf-custom 傳輸屬性**對話方塊的 **其他**索引標籤上，設定的認證，此接收位置，以輪詢外部服務，當使用，以及是否在此接收位置處理訊息時，會保留訊息順序。 如需詳細資訊**其他**索引標籤中**Wcf-custom 傳輸屬性** 對話方塊中，請參閱**Wcf-custom 傳輸屬性對話方塊、 接收、 其他**索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
+9. 在  **Wcf-custom 傳輸屬性**對話方塊的 **其他**索引標籤上，設定的認證，此接收位置，以輪詢外部服務，當使用，以及是否在此接收位置處理訊息時，會保留訊息順序。 如需詳細資訊 **其他** 索引標籤中 **Wcf-custom 傳輸屬性** 對話方塊中，請參閱 **Wcf-custom 傳輸屬性對話方塊、 接收、 其他** 索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
 
-10. 在  **Wcf-custom 傳輸屬性**對話方塊的 **訊息**索引標籤上，指定 SOAP 資料選取範圍**主體**項目。 如需詳細資訊**訊息**索引標籤中**Wcf-custom 傳輸屬性** 對話方塊中，請參閱**Wcf-custom 傳輸屬性對話方塊、 接收、 訊息** 索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
+10. 在  **Wcf-custom 傳輸屬性**對話方塊的 **訊息**索引標籤上，指定 SOAP 資料選取範圍**主體**項目。 如需詳細資訊 **訊息** 索引標籤中 **Wcf-custom 傳輸屬性** 對話方塊中，請參閱 **Wcf-custom 傳輸屬性對話方塊、 接收、 訊息** 索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
 
-11. 在  **Wcf-custom 傳輸屬性**對話方塊的 **匯入/匯出**索引標籤，匯入和匯出**位址 (URI)** 並**端點身分識別**上的屬性**一般** 索引標籤上的繫結資訊**繫結**索引標籤上，以及端點行為**行為**這個接收的索引標籤位置。 如需詳細資訊**匯入/匯出**索引標籤中**Wcf-custom 傳輸屬性** 對話方塊中，請參閱**Wcf-custom 傳輸屬性對話方塊、 接收、 匯入 / 匯出**  索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
+11. 在  **Wcf-custom 傳輸屬性**對話方塊的 **匯入/匯出**索引標籤，匯入和匯出**位址 (URI)** 並**端點身分識別**上的屬性**一般** 索引標籤上的繫結資訊**繫結**索引標籤上，以及端點行為**行為**這個接收的索引標籤位置。 如需詳細資訊 **匯入/匯出** 索引標籤中 **Wcf-custom 傳輸屬性** 對話方塊中，請參閱 **Wcf-custom 傳輸屬性對話方塊、 接收、 匯入 / 匯出**  索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
 
 ## <a name="configure-a-wcf-custom-receive-location-programmatically"></a>以程式設計方式設定 Wcf-custom 接收位置
 
