@@ -74,7 +74,7 @@ ms.locfileid: "52826414"
 
 6. 在  **Wcf-custom 傳輸屬性**對話方塊的 **一般**索引標籤上，設定端點位址之服務識別的 「 WCF 自訂接收位置。 如需詳細資訊**一般**索引標籤中**Wcf-custom 傳輸屬性** 對話方塊中，請參閱**Wcf-custom 傳輸屬性對話方塊、 接收、 一般** 索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
 
-7. 在  **Wcf-custom 傳輸屬性**對話方塊的 **繫結**索引標籤上，設定不同類型的 WCF 預先定義或自訂繫結。 如需詳細資訊 繫結** 索引標籤中 **Wcf-custom 傳輸屬性** 對話方塊中，請參閱**Wcf-custom 傳輸屬性對話方塊、 接收、 繫結** 索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
+7. 在  **Wcf-custom 傳輸屬性**對話方塊的 **繫結**索引標籤上，設定不同類型的 WCF 預先定義或自訂繫結。 如需詳細資訊**繫結**索引標籤中**Wcf-custom 傳輸屬性** 對話方塊中，請參閱**Wcf-custom 傳輸屬性對話方塊、 接收、 繫結** 索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
 
 8. 在  **Wcf-custom 傳輸屬性**對話方塊的 **行為**索引標籤上，設定端點和服務行為，這個接收位置。 結束點行為是一組行為延伸模組項目，可修改或延伸服務或是用戶端功能。 如需詳細資訊 **行為** 索引標籤中 **Wcf-custom 傳輸屬性** 對話方塊中，請參閱 **Wcf-custom 傳輸屬性對話方塊、 接收、 行為** 索引標籤[!INCLUDE[ui-guidance-developers-reference](../includes/ui-guidance-developers-reference.md)]。  
 
