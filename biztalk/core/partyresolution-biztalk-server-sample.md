@@ -299,7 +299,7 @@ btstask ImportBindings -ApplicationName:PartyResolutionSample -Source:%SupplierB
 5.  按一下 **結束**關閉檔案輪詢程式。  
 
 > [!NOTE]
->  您可以將 PurchaseOrder.xml 中的「國家」標記編輯成「美國」，然後重複步驟 2 和步驟 3。 觀察出貨訂單現在是否傳送到託運商 2。  
+>  您可以將 PurchaseOrder.xml 中的「國家/地區」標記編輯成「美國」，然後重複步驟 2 和步驟 3。 觀察出貨訂單現在是否傳送到託運商 2。  
 
 ## <a name="uninstalling-this-sample"></a>解除安裝這個範例  
 
