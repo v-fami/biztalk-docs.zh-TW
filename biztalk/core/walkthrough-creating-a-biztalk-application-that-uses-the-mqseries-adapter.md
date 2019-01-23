@@ -1,5 +1,5 @@
 ---
-title: 逐步解說： 建立 BizTalk 應用程式使用 MQSeries 配接器 |Microsoft Docs
+title: 逐步解說：建立 BizTalk 應用程式使用 MQSeries 配接器 |Microsoft Docs
 ms.custom: ''
 ms.date: 06/08/2017
 ms.prod: biztalk-server
@@ -21,14 +21,14 @@ caps.latest.revision: 20
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: d8c086c69dee4318b9ab15f8746291594a815870
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: d882ee7134861496266b0d18bb288e39e05bad29
+ms.sourcegitcommit: 2d39bcd10a22c5945d97a03988ccdc62f6fb3c93
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37024524"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54443387"
 ---
-# <a name="walkthrough-creating-a-biztalk-application-that-uses-the-mqseries-adapter"></a>逐步解說： 建立使用 MQSeries 配接器的 BizTalk 應用程式
+# <a name="walkthrough-creating-a-biztalk-application-that-uses-the-mqseries-adapter"></a>逐步解說：建立 BizTalk 應用程式使用 MQSeries 配接器
 本節將帶領您建立使用 MQSeries 配接器的簡單 Microsoft [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)] 應用程式。  
   
 > [!NOTE]
@@ -45,7 +45,7 @@ ms.locfileid: "37024524"
   
 1. 按一下 **開始**，指向**程式**，指向**IBM WebSphere MQ**，然後按一下**WebSphere MQ Explorer**。  
   
-2. 按兩下**佇列管理員**，然後按兩下預設佇列管理員。 預設佇列管理員通常會命名為 **Qm_&lt * * * < 電腦名稱 >* 何處*machine_name*是您電腦的名稱。  
+2. 按兩下**佇列管理員**，然後按兩下預設佇列管理員。 預設佇列管理員通常會命名為**Qm_&lt**_< 電腦名稱 >_ 位置*machine_name*是您電腦的名稱。  
   
 3. 以滑鼠右鍵按一下**佇列**，指向**新增**，然後按一下**本機佇列**。  
   

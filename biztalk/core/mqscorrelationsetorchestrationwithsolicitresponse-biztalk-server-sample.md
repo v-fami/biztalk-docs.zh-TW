@@ -19,12 +19,12 @@ caps.latest.revision: 29
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f3780aa186146d0cc1b7bca90f7934f4823882ab
-ms.sourcegitcommit: 266308ec5c6a9d8d80ff298ee6051b4843c5d626
+ms.openlocfilehash: 59a41d62b7c8e578f7e89e7802ed5eaecd0e2b61
+ms.sourcegitcommit: 2d39bcd10a22c5945d97a03988ccdc62f6fb3c93
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 06/27/2018
-ms.locfileid: "37014519"
+ms.lasthandoff: 01/22/2019
+ms.locfileid: "54443395"
 ---
 # <a name="mqscorrelationsetorchestrationwithsolicitresponse-biztalk-server-sample"></a>MQSCorrelationSetOrchestrationWithSolicitResponse (BizTalk Server 範例)
 MQSCorrelationSetOrchestrationWithSolicitResponse 範例將示範如何使用 MQSeries Server (而非 [!INCLUDE[btsBizTalkServerNoVersion](../includes/btsbiztalkservernoversion-md.md)]) 產生的相互關聯識別項。  
@@ -36,14 +36,14 @@ MQSCorrelationSetOrchestrationWithSolicitResponse 範例將示範如何使用 MQ
 >  如果 MQSeries Server 傳送的訊息比相互關聯識別項先抵達，使用這種方式的協調流程可能會發生問題。 請確定您在設計協調流程時，給予 MQSeries Server 足夠的時間傳回相互關聯識別項。 本範例並未將這種可能的競爭情形列入考量。  
   
 ## <a name="where-to-find-this-sample"></a>可在何處找到此範例  
- *\<範例路徑\>* \AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse  
+ *\<Samples Path\>* \AdaptersUsage\MQSeriesAdapter\MQSCorrelationSetOrchestrationWithSolicitResponse  
   
  下表顯示此範例中的檔案，並描述其用途。  
   
 |**檔案**|**說明**|  
 |--------------|---------------------|  
-|**MQSCorrelationSolicitResponse.btproj，**<br /><br /> **[Mqscorrelationsolicitresponse.sln]**|應用程式的專案和方案檔。|  
-|**[Mqscorrelationsolicitresponse.odx]**|應用程式的 BizTalk 協調流程檔案。|  
+|**MQSCorrelationSolicitResponse.btproj,**<br /><br /> **MQSCorrelationSolicitResponse.sln**|應用程式的專案和方案檔。|  
+|**MQSCorrelationSolicitResponse.odx**|應用程式的 BizTalk 協調流程檔案。|  
 |**MQSCorrelationSolicitResponse.snk**|強式命名金鑰檔。|  
 |Setup.bat|建置並初始化此範例。|  
   
@@ -72,7 +72,7 @@ MQSCorrelationSetOrchestrationWithSolicitResponse 範例將示範如何使用 MQ
   
 1.  按一下 **開始**，指向**所有程式**，指向**IBM WebSphere MQ**，然後按一下**WebSphere MQ Explorer**。  
   
-2.  按兩下**佇列管理員**，然後按兩下預設佇列管理員。 預設佇列管理員通常會命名為 **Qm_&lt * * * < 電腦名稱 >* 何處*machine_name*是您電腦的名稱。  
+2.  按兩下**佇列管理員**，然後按兩下預設佇列管理員。 預設佇列管理員通常會命名為**Qm_&lt**_< 電腦名稱 >_ 位置*machine_name*是您電腦的名稱。  
   
 3.  以滑鼠右鍵按一下**佇列**，指向**新增**，然後按一下**本機佇列**。  
   
@@ -105,7 +105,7 @@ MQSCorrelationSetOrchestrationWithSolicitResponse 範例將示範如何使用 MQ
   
 9. 在 **接收管線**方塊中，選取**Microsoft.BizTalk.DefaultPipelines.PassThruReceive**。  
   
-10. 按一下 **設定**。  
+10. 按一下**設定**。  
   
 11. 在  **MQSeries 傳輸屬性**對話方塊中，於**輪詢間隔**方塊中，輸入"10"。  
   
@@ -133,7 +133,7 @@ MQSCorrelationSetOrchestrationWithSolicitResponse 範例將示範如何使用 MQ
   
 5.  在 **接收管線**方塊中，選取**Microsoft.BizTalk.DefaultPipelines.PassThruReceive**。  
   
-6.  按一下 **設定**。  
+6.  按一下**設定**。  
   
 7.  在  **MQSeries 傳輸屬性**對話方塊中，於**佇列定義**方塊中，按一下省略符號 （...） 按鈕。  
   
