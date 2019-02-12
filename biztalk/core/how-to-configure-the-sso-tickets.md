@@ -17,12 +17,12 @@ caps.latest.revision: 13
 author: MandiOhlinger
 ms.author: mandia
 manager: anneta
-ms.openlocfilehash: f3ce6c1de1a94225f06d09b66cc3e6c60c471f24
-ms.sourcegitcommit: 2d39bcd10a22c5945d97a03988ccdc62f6fb3c93
+ms.openlocfilehash: 3abac3a0d527c6834105db8fd1c74fd934fd821d
+ms.sourcegitcommit: 41947648c73d437a201b2190307e0270d61e037a
 ms.translationtype: MT
 ms.contentlocale: zh-TW
-ms.lasthandoff: 01/22/2019
-ms.locfileid: "54443371"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "56087930"
 ---
 # <a name="configure-the-sso-tickets-in-biztalk-server"></a>在 BizTalk Server 中設定 SSO 票證
 針對整個單一登入系統，您可以使用企業單一登入 (SSO) 管理的 MMC 或命令列，以控制票證行為。 使用此工具，您就可以允許票證，並驗證 SSO 票證。  
@@ -60,7 +60,7 @@ ms.locfileid: "54443371"
 1. 開啟命令提示字元 ([開始] 功能表 > 型別**命令提示字元**> 選取**命令提示字元**)。
 
     > [!TIP]
-    >  在系統上可支援使用者帳戶控制 (UAC)，您可能需要系統管理權限開啟命令提示字元 (以滑鼠右鍵按一下**命令提示字元**> * * 系統管理員身分執行)。
+    >  在系統上可支援使用者帳戶控制 (UAC)，您可能需要系統管理權限開啟命令提示字元 (以滑鼠右鍵按一下**命令提示字元** > **系統管理員身分執行**)。
   
 2. 在命令列，移至「企業單一登入」安裝目錄。 預設安裝目錄是`\Program Files\Common Files\Enterprise Single Sign-On`。 例如，輸入： 
 
