@@ -66,7 +66,7 @@ ms.locfileid: "56087930"
 
     `cd C:\Program Files\Common Files\Enterprise Single Sign-On`
   
-3. 型別`ssomanage -tickets <allowed yes/no> <validate yes/no>`，其中*\<允許是/否\>* 指出，是否允許票證以及*\<驗證是/否\>* 指出是否需要它們正在兌換之後驗證票證。  
+3. 型別`ssomanage -tickets <allowed yes/no> <validate yes/no>`，其中 *\<允許是/否\>* 指出，是否允許票證以及 *\<驗證是/否\>* 指出是否需要它們正在兌換之後驗證票證。  
   
     您可以使用`yes`， `no`， `on`，或`off`允許和/或驗證票證。 這些字與大小寫無關，不論您的語言設定為何都必須使用。
   
