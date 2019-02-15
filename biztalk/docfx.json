@@ -1,10 +1,10 @@
 {
   "build": {
-    "markdownEngineName": "markdig",
     "content": [
       {
         "files": [
-          "**/*.md"
+          "**/*.md",
+          "**/*.yml"
         ],
         "exclude": [
           "**/obj/**",
@@ -12,6 +12,7 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
+          "**/_themes/**",
           "ThirdPartyNotices"
         ]
       }
@@ -20,19 +21,28 @@
       {
         "files": [
           "**/*.png",
+          "**/*.gif",
           "**/*.jpg"
         ],
         "exclude": [
           "**/obj/**",
+          "**/_themes/**",
           "**/includes/**"
         ]
       }
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "breadcrumb_path": "/biztalk/breadcrumb/toc.json",
+      "layout": "Conceptual",
+      "titleSuffix": "BizTalk Server",
+      "uhfHeaderId": "MSDocsHeader-BizTalk",
+       "feedback_system": "None"
+    },
     "fileMetadata": {},
     "template": [],
-    "dest": "biztalk"
+    "dest": "biztalk",
+    "markdownEngineName": "markdig"
   }
 }
