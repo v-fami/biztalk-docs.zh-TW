@@ -1,42 +1,49 @@
 {
-    "build": {
-	"markdownEngineName": "markdig",
-        "content": [{
-            "files": [
-                "**/*.md",
-                "**/*.yml"
-            ],
-            "exclude": [
-                "**/obj/**",
-                "**/includes/**",
-                "README.md",
-                "LICENSE",
-                "LICENSE-CODE",
-                "ThirdPartyNotices"
-            ]
-        }],
-        "resource": [{
-            "files": [
-                "**/*.png",
-                "**/*.gif",
-                "**/*.jpg"
-            ],
-            "exclude": [
-                "**/obj/**",
-                "**/includes/**"
-            ]
-        }],
-        "overwrite": [],
-        "externalReference": [],
-        "globalMetadata": {
-	"bilingual_type": "hover over",
-            "breadcrumb_path": "/biztalk/breadcrumb/toc.json",
-            "layout": "Conceptual",
-            "titleSuffix": "BizTalk Server",
-            "uhfHeaderId": "MSDocsHeader-BizTalk"
-        },
-        "fileMetadata": {},
-        "template": [],
-        "dest": "biztalk"
-    }
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "**/_themes/**",
+          "ThirdPartyNotices"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.gif",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/_themes/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "bilingual_type": "hover over",
+      "breadcrumb_path": "/biztalk/breadcrumb/toc.json",
+      "layout": "Conceptual",
+      "titleSuffix": "BizTalk Server",
+      "uhfHeaderId": "MSDocsHeader-BizTalk",
+       "feedback_system": "None"
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "biztalk",
+    "markdownEngineName": "markdig"
+  }
 }
