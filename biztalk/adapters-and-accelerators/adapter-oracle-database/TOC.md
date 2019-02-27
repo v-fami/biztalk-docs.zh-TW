@@ -24,12 +24,12 @@
 #### [配接器的限制](limitations-of-biztalk-adapter-for-oracle-database.md)
 ### [教學課程：移轉 BizTalk 專案](tutorial-migrate-biztalk-projects-to-the-oracle-database-adapter.md)
 #### [步驟 1：修改 vPrev BizTalk 專案](step-1-modify-the-vprev-biztalk-project-in-oracle-database.md)
-#### [步驟 2：在 BizTalk Server 管理主控台設定協調流程](step-2-configure-an-orchestration-to-use-the-oracle-db-adapter-in-biztalk.md)
+#### [步驟 2：在 BizTalk Server 管理主控台中設定協調流程](step-2-configure-an-orchestration-to-use-the-oracle-db-adapter-in-biztalk.md)
 #### [步驟 3：測試已移轉的應用程式](step-3-test-the-migrated-application-to-oracle-database-adapter.md)
 ## [架構概觀](architecture-overview-of-the-biztalk-adapter-for-oracle-database.md)
 ## [保護您的 Oracle 資料庫應用程式](secure-your-oracle-database-applications.md)
 ### [Oracle 資料庫與配接器之間的安全性](security-between-the-oracle-database-and-the-adapter.md)
-### [配接器與 BizTalk Server 的安全性](security-with-the-oracle-database-adapter-and-biztalk-server.md)
+### [配接器與 BizTalk Server 之間的安全性](security-with-the-oracle-database-adapter-and-biztalk-server.md)
 ### [安全使用配接器進行程式設計](secure-programming-with-the-oracle-database-adapter.md)
 ### [安全性最佳做法](best-practices-to-secure-the-oracle-database-adapter.md)
 ## [開發您的 Oracle 資料庫應用程式](develop-your-oracle-database-applications.md)
@@ -49,7 +49,7 @@
 ### [接收以輪詢為基礎的資料變更訊息](receive-polling-based-data-changed-messages-in-oracle-database-adapter.md)
 ### [使用 Oracle DB 配接器開發 BizTalk 應用程式](develop-biztalk-applications-using-the-oracle-database-adapter.md)
 #### [建立強式名稱金鑰檔案，並了解工具](prerequisites-to-create-oracle-database-applications.md)
-#### [建立 BizTalk 應用程式的建構元素](building-blocks-to-develop-biztalk-applications-with-oracle-database.md)
+#### [用以建立 BizTalk 應用程式的建置組塊](building-blocks-to-develop-biztalk-applications-with-oracle-database.md)
 ##### [將配接器新增至 BizTalk Server 管理](adding-the-oracle-database-adapter-to-biztalk-server-administration-console.md)
 ##### [輸入連線 URI](configure-the-connection-uri-for-the-oracle-database-adapter.md)
 ##### [輸入登入認證](configure-the-sign-in-credentials-for-the-oracle-database.md)
@@ -127,10 +127,4 @@
 ### [使用效能計數器](use-performance-counters-with-the-oracle-database-adapter.md)
 ### [例外狀況和錯誤處理](exceptions-and-error-handling-with-the-oracle-database-adapter.md)
 ## [詞彙和定義](glossary3.md)
-
-
-
-
-
-
-
+## [API 命名空間參考](https://docs.microsoft.com/dotnet/api/?view=bts-oracle-db)

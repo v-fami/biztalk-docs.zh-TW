@@ -106,3 +106,4 @@
 ### [使用效能計數器](use-performance-counters-with-the-siebel-adapter.md)
 ### [例外狀況和錯誤處理](exceptions-and-error-handling-with-the-siebel-adapter.md)
 ## [詞彙和定義](glossary9.md)
+## [API 命名空間參考](https://docs.microsoft.com/dotnet/api/?view=bts-siebel-adapter)
