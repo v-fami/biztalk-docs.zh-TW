@@ -1,1 +1,1 @@
-<span data-ttu-id="fd25d-101">在 UI 指導方針和開發人員參考</span><span class="sxs-lookup"><span data-stu-id="fd25d-101">in the UI guidance and Developers reference</span></span>
+<span data-ttu-id="dc0f6-101">在  [UI 指導方針和開發人員 API 命名空間參考](https://docs.microsoft.com/dotnet/api/?view=bts-dotnet)</span><span class="sxs-lookup"><span data-stu-id="dc0f6-101">in the [UI guidance and developers API namespace reference](https://docs.microsoft.com/dotnet/api/?view=bts-dotnet)</span></span>
