@@ -30,7 +30,7 @@
 #### [步驟 3：建立 SharePoint 應用程式來擷取 Oracle EBS 的資料](step-3-create-a-sharepoint-application-to-retrieve-data-from-oracle-ebs.md)
 ##### [案例 1：使用商務資料清單 Web 組件顯示資料](scenario-1-display-data-using-business-data-list-web-part.md)
 ##### [案例 2：使用搜尋方塊 Web 組件進行搜尋](scenario-2-search-using-the-search-box-web-part.md)
-#### [步驟 4：測試 SharePoint 應用程式](step-4-test-your-sharepoint-application.md)
+#### [步驟 4：測試您的 SharePoint 應用程式](step-4-test-your-sharepoint-application.md)
 ### [常見問題集](oracle-e-business-suite-adapter-faqs.md)
 ## [BizTalk Adapter for Oracle EBS 的架構概觀](architecture-overview-of-the-biztalk-adapter-for-oracle-e-business-suite.md)
 ## [保護您的 Oracle EBS 應用程式](secure-your-oracle-ebs-applications.md)
@@ -131,10 +131,4 @@
 ### [針對操作問題進行疑難排解](troubleshoot-operational-issues-with-the-oracle-e-business-suite-adapter.md)
 ### [使用效能計數器](use-performance-counters-with-the-oracle-e-business-suite-adapter.md)
 ## [詞彙和定義](glossary12.md)
-
-
-
-
-
-
-
+## [API 命名空間參考](https://docs.microsoft.com/dotnet/api/?view=bts-oracle-ebs)

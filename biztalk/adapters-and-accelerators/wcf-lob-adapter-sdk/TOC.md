@@ -23,8 +23,8 @@
 ##### [步驟 8：實作 Echo 配接器的同步輸入處理常式](step-8-implement-the-synchronous-inbound-handler-for-the-echo-adapter.md)
 ##### [步驟 9：建置並部署 Echo 配接器](step-9-build-and-deploy-the-echo-adapter.md)
 #### [教學課程 2：從 .NET 使用 Echo 配接器](tutorial-2-consume-the-echo-adapter-from-net.md)
-##### [步驟 1： 測試 Echo 配接器的輸出處理常式](step-1-test-outbound-handler-of-the-echo-adapter.md)
-##### [步驟 2： 測試 Echo 配接器的輸入處理常式](step-2-test-inbound-handler-of-the-echo-adapter.md)
+##### [步驟 1：測試 Echo 配接器的輸出處理常式](step-1-test-outbound-handler-of-the-echo-adapter.md)
+##### [步驟 2：測試 Echo 配接器的輸入處理常式](step-2-test-inbound-handler-of-the-echo-adapter.md)
 #### [教學課程 3：在 IIS 中裝載 Echo 配接器](tutorial-3-hosting-the-echo-adapter-in-iis.md)
 ##### [步驟 1：使用配接器服務開發精靈建立 Web 專案](step-1-use-the-adapter-service-development-wizard-to-create-the-web-project.md)
 ##### [步驟 2：部署 Web 專案](step-2-deploy-the-web-project.md)
@@ -60,4 +60,4 @@
 ### [追蹤配接器](trace-an-adapter-with-the-wcf-lob-adapter-sdk.md)
 ### [使用效能計數器](use-performance-counters-with-the-wcf-lob-adapter-sdk.md)
 ### [產生 WSDL](generate-wsdl-with-the-wcf-lob-adapter-sdk.md)
-
+## [API 命名空間參考](https://docs.microsoft.com/dotnet/api/?view=bts-wcf-lob-sdk)
